@@ -1,0 +1,12 @@
+---
+title: ''
+output: pdf_document
+---
+
+# Bibliographie
+
+\begingroup
+\interlinepenalty = 10000 
+<div id="refs" custom-style="Bibliography"></div>
+\endgroup
+

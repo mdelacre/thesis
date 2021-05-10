@@ -1,0 +1,121 @@
+---
+title: " "
+output:
+  pdf_document:
+    number_sections: TRUE
+geometry: "left = 2.5cm, right = 2cm, top = 2cm, bottom = 2cm"
+fontsize: 11pt
+header-includes:
+  - \usepackage{float}
+  - \usepackage{sectsty}
+  - \usepackage{paralist}
+  - \usepackage{setspace}\spacing{1.5}
+  - \usepackage{fancyhdr}
+  - \usepackage{lastpage}
+  - \usepackage{dcolumn}
+  - \usepackage{natbib}\bibliographystyle{agsm}
+  - \usepackage[nottoc, numbib]{tocbibind}
+
+bibliography: bibliography.bib
+---
+
+\allsectionsfont{\centering}
+\subsectionfont{\raggedright}
+\subsubsectionfont{\raggedright}
+
+\pagenumbering{gobble}
+
+\begin{centering}
+
+\vspace{3cm}
+
+```{r uni_logo, echo=F, out.width="20%"}
+knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png")
+```
+
+\vspace{1cm}
+
+\Large
+{\bf Université Libre de Bruxelles}
+
+\Large
+{\bf Faculté des Sciences Psychologiques et de l'Education}
+
+\vspace{1cm}
+
+\Large
+
+\doublespacing
+{\bf TITRE, \\TITRE SUITE}
+
+\vspace{1 cm}
+
+\normalsize
+\singlespacing
+By
+
+\vspace{0.5 cm}
+
+\Large
+
+{\bf MARIE DELACRE}
+
+\vspace{1.5 cm}
+
+En vue de l'obtention du grade de docteur
+
+\vspace{1.5 cm}
+
+\normalsize
+Septembre 2021
+
+\end{centering}
+
+\newpage
+
+\pagenumbering{gobble}
+
+\begin{centering}
+
+{\bf Abstract}
+
+\end{centering}
+
+\spacing{1.5}
+
+Abstract (voir nombre de mots requis)
+
+\pagenumbering{roman}
+
+\newpage
+
+\centering
+\raggedright
+\newpage
+\tableofcontents
+
+\newpage
+
+```{r acknowledgments, child='acknowledgments.Rmd'}
+```
+
+\newpage
+
+```{r intro, child = 'introduction.Rmd'}
+```
+\pagenumbering{arabic}
+
+\newpage
+
+```{r conclusion, child = 'conclusion.Rmd'}
+```
+
+\newpage
+
+```{r biblio, child = 'bibliography.Rmd'}
+```
+
+\newpage
+
+```{r appendix, child = 'appendix.Rmd'}
+```
