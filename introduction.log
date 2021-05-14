@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.9)  10 MAY 2021 13:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.9)  14 MAY 2021 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -428,8 +428,7 @@ d-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count282
 \l__pdf_internal_box=\box51
-)
-No file introduction.aux.
+) (./introduction.aux)
 \openout1 = `introduction.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
@@ -497,6 +496,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 69.
 LaTeX Info: Redefining \pageref on input line 69.
 LaTeX Info: Redefining \nameref on input line 69.
+(./introduction.out) (./introduction.out)
 \@outlinefile=\write3
 \openout3 = `introduction.out'.
 
@@ -534,16 +534,109 @@ LaTeX Info: Redefining \nameref on input line 69.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-! Undefined control sequence.
-l.74 \citep
-           {breton_encounter_2006} 
-Here is how much of TeX's memory you used:
- 11774 strings out of 480806
- 177285 string characters out of 5903167
- 508021 words of memory out of 5000000
- 29006 multiletter control sequences out of 15000+600000
- 412959 words of font info for 36 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 60i,3n,63p,517b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
+5.
+(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
+5.
+(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+95.
+(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+95.
+(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 95.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 95.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 95.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 95.
 
-!  ==> Fatal error occurred, no output PDF file produced!
+(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.c
+fg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 95.
+
+(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.c
+fg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+[]\T1/lmr/m/n/10 (+20) -- []$https : / / books . google . fr / books ? hl = nl 
+& lr = &id = UfGGAwAAQBAJ & oi = fnd & pg = PP1 & dq = how +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+\T1/lmr/m/n/10 (+12) psychologists + use + statistics & ots = gOEL7MeuxL & sig 
+= xtL9KQOfslt _ ik6MWEfBqu8qOVQ # v = onepage &
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 97--99
+[]\T1/lmr/m/n/10 (+20) -- (p.3): []$https : / / books . google . fr / books ? h
+l = nl & lr = &id = 9p82 -[] ZZeMIsC & oi = fnd & pg = PR20 & dq = how +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+\T1/lmr/m/n/10 (+20) psychologists + use + statistics & ots = hxs _ zL6l6f & si
+g = UziO6G6ncpFZLLvO48cDqMIj3So # v = onepage & q &
+ []
+
+[1
+
+{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
+x.map}] [2]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
+06.
+(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [3] (./introduction.aux)
+Package rerunfilecheck Info: File `introduction.out' has not changed.
+(rerunfilecheck)             Checksum: 0EC57F3550898381518B65A79985CF93;1479.
+ ) 
+Here is how much of TeX's memory you used:
+ 12122 strings out of 480806
+ 184100 string characters out of 5903167
+ 525673 words of memory out of 5000000
+ 29172 multiletter control sequences out of 15000+600000
+ 443483 words of font info for 109 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 60i,5n,63p,517b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.
+enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ma
+thit.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/
+lm-rm.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm
+/lm-ec.enc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publi
+c/lm/lmbx10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
+public/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
+ype1/public/lm/lmmi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fo
+nts/type1/public/lm/lmmi7.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dis
+t/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
+-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/te
+xmf-dist/fonts/type1/public/lm/lmri10.pfb>
+Output written on introduction.pdf (3 pages, 150664 bytes).
+PDF statistics:
+ 99 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 22569 words of extra memory for PDF output out of 24883 (max. 10000000)
+
