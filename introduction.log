@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.9)  14 MAY 2021 15:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.9)  15 MAY 2021 11:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -601,24 +601,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--99
 g = UziO6G6ncpFZLLvO48cDqMIj3So # v = onepage & q &
  []
 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 107.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 107.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 107.
 [1
 
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
 x.map}] [2]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-06.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+66.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [3] (./introduction.aux)
 Package rerunfilecheck Info: File `introduction.out' has not changed.
-(rerunfilecheck)             Checksum: 0EC57F3550898381518B65A79985CF93;1479.
+(rerunfilecheck)             Checksum: A5DC6471C44C43039EA075273F3B8033;1798.
  ) 
 Here is how much of TeX's memory you used:
- 12122 strings out of 480806
- 184100 string characters out of 5903167
- 525673 words of memory out of 5000000
- 29172 multiletter control sequences out of 15000+600000
- 443483 words of font info for 109 fonts, out of 8000000 for 9000
+ 12174 strings out of 480806
+ 184872 string characters out of 5903167
+ 525029 words of memory out of 5000000
+ 29212 multiletter control sequences out of 15000+600000
+ 455409 words of font info for 124 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,5n,63p,517b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.
@@ -629,14 +635,15 @@ lm-rm.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm
 c/lm/lmbx10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
 public/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
 ype1/public/lm/lmmi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fo
-nts/type1/public/lm/lmmi7.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dis
-t/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
--dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/te
-xmf-dist/fonts/type1/public/lm/lmri10.pfb>
-Output written on introduction.pdf (3 pages, 150664 bytes).
+nts/type1/public/lm/lmmi12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-di
+st/fonts/type1/public/lm/lmmi7.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texm
+f-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/
+texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/Admin/AppData/Roaming/TinyT
+eX/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
+Output written on introduction.pdf (3 pages, 151986 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 22569 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 114 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
+ 28729 words of extra memory for PDF output out of 29859 (max. 10000000)
 
