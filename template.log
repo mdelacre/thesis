@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.17)  18 MAY 2021 16:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.17)  20 MAY 2021 15:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -669,27 +669,22 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout4 = `template.toc'.
 
 [2] [3] [4]
-Overfull \hbox (182.64104pt too wide) in paragraph at lines 293--308
-\T1/lmr/m/n/10.95 (-20) ($\OML/lmm/m/it/10.95 ChildDevelopment\OT1/lmr/m/n/10.9
-5 (-20) ; \OML/lmm/m/it/10.95 JournalofAbnormalPsychology\OT1/lmr/m/n/10.95 (-2
-0) ; \OML/lmm/m/it/10.95 JournalofConsultingandClinicalPsychology\OT1/lmr/m/n/1
-0.95 (-20) ; \OML/lmm/m/it/10.95 JournalofExperimentalPsychology \OT1/lmr/m/n/1
-0.95 (-20) : 
- []
-
-[5]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 339.
-[6]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-77.
+(Font)              <9> on input line 302.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 302.
+[5] [6]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 364.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
+07.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [7] [8] [9] [1] [2] [3] [4] [5] 
+) [7] [8] [9] [10] [1] [2] [3] [4] [5] [6] 
 AED: lastpage setting LastPage
-[6] (./template.aux)
+[7] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 229247EC22C5B1704E0D3EC3E7292477;4859.
+(rerunfilecheck)             Checksum: 711BEAE2D532FDEE6124DF0E04EB5FE1;4716.
  )
 (\end occurred inside a group at level 2)
 
@@ -697,33 +692,39 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 ### semi simple group (level 1) entered at line 65 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13144 strings out of 480796
- 199828 string characters out of 5903255
- 542836 words of memory out of 5000000
- 30137 multiletter control sequences out of 15000+600000
- 446768 words of font info for 103 fonts, out of 8000000 for 9000
+ 13221 strings out of 480796
+ 200777 string characters out of 5903255
+ 543350 words of memory out of 5000000
+ 30167 multiletter control sequences out of 15000+600000
+ 465297 words of font info for 132 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,6n,63p,688b,2106s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dv
-ips/lm/lm-ts1.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/
-dvips/lm/lm-mathit.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts
-/enc/dvips/lm/lm-rm.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/font
-s/enc/dvips/lm/lm-ec.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fon
-ts/enc/dvips/lm/lm-mathsy.enc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dis
-t/fonts/type1/public/lm/lmbx10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texm
-f-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX
-/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/Users/Admin/AppData/Roaming/Ti
-nyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/Admin/AppData/Roami
-ng/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/Users/Admin/AppData/R
-oaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppDa
-ta/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Admin/A
-ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admi
-n/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users
-/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on template.pdf (16 pages, 212727 bytes).
+ 60i,8n,63p,688b,2077s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced bu
+t does not exist, replaced by a fixed one
+
+{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.en
+c}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-math
+it.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm
+-rm.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/l
+m-ec.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/
+lm-mathsy.enc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pu
+blic/lm/lmbx10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
+e1/public/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/font
+s/type1/public/lm/lmmi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist
+/fonts/type1/public/lm/lmmi12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
+-dist/fonts/type1/public/lm/lmmi8.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/t
+exmf-dist/fonts/type1/public/lm/lmmi9.pfb><c:/Users/Admin/AppData/Roaming/TinyT
+eX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roaming/T
+inyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Admin/AppData/Roami
+ng/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/Admin/AppData/Ro
+aming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admin/AppData
+/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/Users/Admin/AppD
+ata/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/Admin
+/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on template.pdf (18 pages, 260345 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
- 71 named destinations out of 1000 (max. 500000)
- 24726 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 300 PDF objects out of 1000 (max. 8388607)
+ 262 compressed objects within 3 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 34966 words of extra memory for PDF output out of 35830 (max. 10000000)
 
