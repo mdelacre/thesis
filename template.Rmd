@@ -52,7 +52,7 @@ knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesi
 
 \normalsize
 \singlespacing
-By
+Par
 
 \vspace{0.5 cm}
 
@@ -117,5 +117,5 @@ Abstract (voir nombre de mots requis)
 
 \newpage
 
-```{r appendix, child = 'appendix.Rmd'}
+```{r annexe, child = 'appendix.Rmd'}
 ```

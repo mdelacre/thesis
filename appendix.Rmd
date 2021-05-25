@@ -2,20 +2,20 @@
 title: ''
 output: pdf_document
 ---
-# Appendix(ces)
+# Annexe(s)
 
-## Appendix A: additional tables 
+## Annexe A: additional tables 
 
 Insert content for additional tables here.
 
 \newpage
 
-## Appendix B: additional figures
+## Annexe B: additional figures
 
 Insert content for additional figures here. 
 
 \newpage
 
-## Appendix C: code
+## Annexe C: code
 
 Insert code (if any) used during your dissertation work here. 

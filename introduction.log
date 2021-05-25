@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.17)  20 MAY 2021 08:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.17)  25 MAY 2021 07:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -538,33 +538,33 @@ LaTeX Info: Redefining \nameref on input line 69.
 
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
 x.map}]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-90.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+02.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-90.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+02.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-190.
+202.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-190.
+202.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 190.
+(Font)              <10> on input line 202.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 190.
+(Font)              <7> on input line 202.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 190.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 190
+(Font)              <5> on input line 202.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 202
 .
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -573,7 +573,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 fg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 190
+LaTeX Font Info:    Trying to load font information for U+msb on input line 202
 .
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -582,41 +582,39 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 fg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Overfull \hbox (160.34732pt too wide) in paragraph at lines 180--199
-\T1/lmr/m/n/10 (-20) gies ($\OML/lmm/m/it/10 ChildDevelopment\OT1/lmr/m/n/10 (-
-20) ; \OML/lmm/m/it/10 JournalofAbnormalPsychology\OT1/lmr/m/n/10 (-20) ; \OML/
-lmm/m/it/10 JournalofConsultingandClinicalPsychology\OT1/lmr/m/n/10 (-20) ; \OM
-L/lmm/m/it/10 JournalofExperimentalPsychology \OT1/lmr/m/n/10 (-20) :
- []
-
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 226.
+(Font)              <8> on input line 202.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 226.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 226.
+(Font)              <6> on input line 202.
 [2]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-64.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 268.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
+12.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 264--275
+Underfull \hbox (badness 10000) in paragraph at lines 312--323
 
  []
 
-[3] [4] (./introduction.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--342
+
+ []
+
+[3] [4] [5] [6] (./introduction.aux)
 Package rerunfilecheck Info: File `introduction.out' has not changed.
-(rerunfilecheck)             Checksum: 8EE14EABD9B34576F6D61E8C8E752000;3879.
+(rerunfilecheck)             Checksum: 5D59D3C6A8EA901BA14879990F1001F0;4358.
  ) 
 Here is how much of TeX's memory you used:
- 12202 strings out of 480796
- 185670 string characters out of 5903255
- 521887 words of memory out of 5000000
- 29233 multiletter control sequences out of 15000+600000
- 455838 words of font info for 128 fonts, out of 8000000 for 9000
+ 12266 strings out of 480796
+ 186513 string characters out of 5903255
+ 522048 words of memory out of 5000000
+ 29241 multiletter control sequences out of 15000+600000
+ 467077 words of font info for 155 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,5n,63p,670b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,63p,670b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.
 enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ma
 thit.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/
@@ -628,14 +626,17 @@ ype1/public/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fo
 nts/type1/public/lm/lmmi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-di
 st/fonts/type1/public/lm/lmmi12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/tex
 mf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX
-/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roaming/Tin
-yTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/Admin/AppData/Roaming/
-TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/Admin/AppData/Roa
-ming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on introduction.pdf (4 pages, 170092 bytes).
+/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/Users/Admin/AppData/Roaming/Tin
+yTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roaming
+/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/Admin/AppData/Roam
+ing/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/Admin/AppData/R
+oaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admin/AppDat
+a/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/Admin/A
+ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on introduction.pdf (6 pages, 219838 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 28769 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 175 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 34921 words of extra memory for PDF output out of 35830 (max. 10000000)
 

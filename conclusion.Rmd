@@ -6,3 +6,30 @@ output: pdf_document
 # Conclusion
 
 The conclusion section should specify the key findings of your study, explain their wider significance in the context of the research field and explain how you have filled the knowledge gap that you have identified in the introduction. This is your chance to present to your reader the major take-home messages of your dissertation research. It should be similar in content to the last sentence of your summary abstract. It should not be a repetition of the first paragraph of the discussion. They can be distinguished in their connection to broader issues. The first paragraph of the discussion will tend to focus on the direct scientific implications of your work (i.e. basic science, fundamental knowledge) while the conclusion will tend to focus more on the implications of the results for society, conservation, etc.
+
+
+### Usage des articles méthodo
+
+Ces derniers semblent assez peu utilisés par les chercheurs. En tout cas s'ils les utilisent, ils les citent très peu dans leurs références pour justifier leurs choix (cf. article de @mills_quantitative_2010: le mode du nombre de citation méthodo dans les articles de recherche appliqués est 0, et la médiane vaut 1... ). Dans l'autre sens, on constate que les articles méthodos sont généralement peu cités, et ils le sont encore 3 fois moins par les chercheurs appliqués que par les autres méthodologistes [@mills_quantitative_2010, p.56]. 
+
+On est en droit de questionner l'impact réel des publications méthodologiques, pour 2 raisons, d'après @mills_quantitative_2010:  
+(1) Les chercheurs appliqués sont noyés sous les articles dans leur domaine d'expertise si bien que cela limite le temps dont ils disposent pour se consacrer aux articles méthodologiques.   
+(2) malgré que des nouvelles méthodes sont disponibles, les chercheurs continuent à opter pour des tests traditionnels et familiaux (mais souvent inappropriés).  
+--> Qu'est-ce qui va pousser les chercheurs à lire des articles méthodos? 
+--> Si je trouve la réponse à ceci, j'ai mon intro.
+
+### Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes
+
+On sait que les chercheurs tendent à privilégier les méthodes qui sont proposées par défaut dans des logiciels de clique bouton (comme SPSS). C'est en tout cas ce que dit @counsell_reporting_2017 dans le contexte de la gestion des données manquantes (mais je crois que c'est vrai pour tout). Une manière d'améliorer les pratiques serait d'améliorer les options proposées par défaut dans les logiciels de clic-bouton. C'est à ce genre de choses que j'aspire à travers mes articles. 
+
+Malgré tout, un logiciel ne fait pas tout et après avoir utilisé le test adéquat, il est important d'être capable de l'interpréter correctement. Les tests font appel à des notions faussement simples telles que les p-valeurs et les distributions d'échantillonnage. A mon sens, le seul moyen d'enseigner correctement ces notions, c'est à travers des simulations. 
+
+### Comment écrire/transmettre l'info aux psys
+Un consultant doit pouvoir parler de langage des psycs, c'est-à-dire décrire et expliquer les méthodes requises d'une manière compréhensible pour les clients [@golinski_expanding_2009]. Est-ce bien de demander à des mathématiciens/Statisticiens d'enseigner les stat aux psy's? Par forcément, car un psychologue spécialisé en méthodo quanti sera plsu à m^mee de comprendre les procédures et méthodes requises par les psys (ex. de la question de la taille d'effet qui n'intéresse pas vraiment les statisticiens; @golinski_expanding_2009). 
+
+### Recommandations générales
+
+@mills_quantitative_2010:  
+- au moins un reviewer compétant pour analyser le caractère approprié des méthodes stat  
+- que les éditeurs/reviewers encouragent l'usage d'article de méthodo dans leur recherche
+--> interesting, mais réaliste? La proportion de méthodologistes parmis les psychologues n'est pe pas assez élevée... Ou alors il faut vraiment de l'interdisciplinarité!

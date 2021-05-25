@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.17)  20 MAY 2021 15:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.17)  25 MAY 2021 13:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -610,7 +610,7 @@ LaTeX Info: Redefining \nameref on input line 98.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 98.
-<C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png, id=76, 225.
+<C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png, id=72, 225.
 84375pt x 225.84375pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png Graphic
  file (type png)
@@ -668,23 +668,29 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \tf@toc=\write4
 \openout4 = `template.toc'.
 
-[2] [3] [4]
+[2] [3]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 302.
+(Font)              <9> on input line 210.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 302.
-[5] [6]
+(Font)              <5> on input line 210.
+[4]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 364.
+(Font)              <12> on input line 263.
+[5] [6] [7]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-07.
+37.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [7] [8] [9] [10] [1] [2] [3] [4] [5] [6] 
+) [8] [9] [1]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 533.
+
+[2] [3] [4] [5] [6] [7] 
 AED: lastpage setting LastPage
-[7] (./template.aux)
+[8] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 711BEAE2D532FDEE6124DF0E04EB5FE1;4716.
+(rerunfilecheck)             Checksum: E693F474334275CB525D23D541733964;4083.
  )
 (\end occurred inside a group at level 2)
 
@@ -692,15 +698,21 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 ### semi simple group (level 1) entered at line 65 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13221 strings out of 480796
- 200777 string characters out of 5903255
- 543350 words of memory out of 5000000
- 30167 multiletter control sequences out of 15000+600000
- 465297 words of font info for 132 fonts, out of 8000000 for 9000
+ 13226 strings out of 480796
+ 200653 string characters out of 5903255
+ 544039 words of memory out of 5000000
+ 30165 multiletter control sequences out of 15000+600000
+ 465428 words of font info for 134 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,8n,63p,688b,2077s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced bu
+ 60i,8n,63p,657b,2066s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced bu
 t does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
 
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.en
 c}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-math
@@ -712,19 +724,18 @@ blic/lm/lmbx10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
 e1/public/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/font
 s/type1/public/lm/lmmi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist
 /fonts/type1/public/lm/lmmi12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
--dist/fonts/type1/public/lm/lmmi8.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/t
-exmf-dist/fonts/type1/public/lm/lmmi9.pfb><c:/Users/Admin/AppData/Roaming/TinyT
-eX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roaming/T
-inyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Admin/AppData/Roami
-ng/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/Admin/AppData/Ro
-aming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admin/AppData
-/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/Users/Admin/AppD
-ata/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/Admin
-/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on template.pdf (18 pages, 260345 bytes).
+-dist/fonts/type1/public/lm/lmmi9.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/t
+exmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roaming/TinyT
+eX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Admin/AppData/Roaming/T
+inyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/Admin/AppData/Roamin
+g/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admin/AppData/Roa
+ming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/Users/Admin/AppData/
+Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/Admin/App
+Data/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on template.pdf (18 pages, 263416 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
- 75 named destinations out of 1000 (max. 500000)
- 34966 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 258 compressed objects within 3 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 34958 words of extra memory for PDF output out of 35830 (max. 10000000)
 
