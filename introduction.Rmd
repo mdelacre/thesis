@@ -14,25 +14,77 @@ header-includes:
 
 ## Début de la vraie intro
 
-Les statistiques font partie intégrante du cursus de formation des psychologues et jouent un rôle très important dans le parcours des chercheurs en psychologie, et des psychologues de manière générale. On attend d'eux qu'ils soient capables de produire des connaissances, fondées sur des preuves scientifiques (et non sur des croyances et opinions), et également de comprendre et évaluer les recherches menées par d'autres [@haslam_research_2014]. Or, dans un domaine dominé par les analyses quantitatives\footnote{parmi 68 articles analysés en 2013 par Counsell et ses collaborateurs (2017) dans 4 revues canadiennes, $92.7 \%$ incluaient au moins une analyse quantitative (contre $7.3 \%$ incluant une analyse qualitative)} [@counsell_reporting_2017], les connaissances statistiques s'avèrent fondamentales pour comprendre, planifier et analyser une recherche [@howitt_understanding_2017; @everitt_statistics_2001]. 
+On attend des chercheurs en psychologie, et des psychologues en général, qu'ils soient capables de produire des connaissances, fondées sur des preuves scientifiques (et non sur des croyances et opinions), et également de comprendre et évaluer les recherches menées par d'autres [@haslam_research_2014]. Or, dans un domaine dominé par les analyses quantitatives\footnote{parmi 68 articles analysés en 2013 par Counsell et ses collaborateurs (2017) dans 4 revues canadiennes, $92.7 \%$ incluaient au moins une analyse quantitative (contre $7.3 \%$ incluant une analyse qualitative)} [@counsell_reporting_2017], les connaissances statistiques s'avèrent fondamentales pour comprendre, planifier et analyser une recherche [@howitt_understanding_2017; @everitt_statistics_2001]. Les statistiques font dès lors partie intégrante du cursus de formation des psychologues et jouent un rôle très important dans leur parcours. 
 
-Au cours des 50 dernières années, on a assisté à un développement inouï de méthodes statistiques de plus en plus complexes: méta-analyses, équations structurelles, modèles linéaires hiérarchiques...[@byrne_status_1996; @sharpe_why_2013]. Pourtant, les programmes de statistiques au sein des facultés de psychologies n'ont que peu évolués [@henson_methodology_2010] et les tests de comparaison de moyennes ainsi que les régressions avec prédicteurs continus perdurent au choeur de la grande majorité des programmes [@aiken_doctoral_2008; @golinski_expanding_2009 REFERENCE PR L EUROPE A TROUVER] et des livres d'introduction aux statistiques pour psychologues. Ceci explique vraisemblablement leur succès persistant dans la recherche en psychologie [@counsell_reporting_2017]. Ces tests sont, depuis plus de 60 ans [@nunnally_place_1960; @byrne_status_1996], les tests les plus fréquemment cités dans la littérature scientifique [@golinski_expanding_2009; @delacre_why_2017; @delacre_taking_2019]. Dans une revue de 486 articles publiés en 2000 dans des journaux populaires en psychologie \footnote{Les revues analysées étaient les suivantes: "Child Development", "Journal of Abnormal Psychology", "Journal of Consulting and Clinical Psychology", "Journal of Experimental Psychology: General", "Journal of Personality" et "Social Psychology"}, @golinski_expanding_2009 avaient relevé 140 articles ($\approx 29 \%$) au sein desquels les auteurs avaient mené au moins une ANOVA à un ou plusieurs facteurs. Plus récemment, @counsell_reporting_2017 mentionnaient que parmis un ensemble de 151 études soumises dans 4 revues canadiennes en 2013, environ 40% incluaient une comparaison de moyennes. Plus récemment encore, nous avons trouvé qu'environ $34\%$ des études reportées dans *Social Psychological $\&$ Personality Science* entre avril 2015 et avril 2016 utilisaient un test-$t$ [@delacre_why_2017], et qu'environ $14\%$ des articles publiés en 2016 dans le *Journal of Personality and Social psychology* utilisaient une analyse de variance à un facteur [@delacre_taking_2019].     
-
-On imagine, souvent à tort, que la plupart des chercheurs en psychologie ont une parfaite maîtrise des tests de comparaisons de moyennes \footnote{Parmi les professeurs interrogés en 2008 par Aiken et ses collaborateurs au sein de 201 départements des USA et du Canada, presque tous (entre $80\%$ et $100\%$) affirmaient que la plupart (si pas tous) leurs étudiants étaient capable de réaliser une ANOVA à un ou plusieurs facteurs (que ce soit l'approche a priori ou post hoc).}[@aiken_doctoral_2008; @hoekstra_are_2012].  ESSAYER DE TROUVER DES LIVRES QUI EN PARLENT THEORIQUEMENT ET D AUTRES QUI LES METTENT EN LIEN AVEC DES LOGICIELS CONNUS. Pourtant, la littérature tend à révéler que leur usage pourrait être amélioré. Parmi les critiques avancées à l'égard de ces tests, certaines relèvent des conditions dans lesquelles ils peuvent être utilisés et d'autres sont liées à la manière dont les chercheurs interprètent leur résultat (2 choses: la nil-null hypothesis, et la croyance que la pvaleur donne une info sur la pertinence de l'effet).  
-
-## La manière dont l'ANOVA et les tests $t$ sont utilisés en psychologie.
-
-Lorsqu'on applique un test-$t$ (ou une $ANOVA$), la distribution de deux (ou plus de deux) groupes indépendants est "résumée" par un indicateur de tendance centrale (par exemple la moyenne), et l'on compare ensuite les indicateurs de tendance centrale de chaque groupe, en vue de déterminer s'il existe des différences entre eux. On peut faire plusieurs constats quant à la manière dont ces tests sont reportés dans la littérature scientifique. 
+Traditionnellement, depuis plus de 50 ans, les tests-$t$ et les $ANOVA$ se trouvent au choeur de la grande majorité des programmes dans les domaines des Sciences Psychologiques et de l'Education [@aiken_doctoral_2008; @golinski_expanding_2009;@curtis_training_1998] et des livres d'introduction aux statistiques pour psychologues (EXEMPLES?). Cela pourrait vraisemblablement expliquer pourquoi ils sont si persistants dans la recherche en psychologie [@counsell_reporting_2017]. Ces tests sont, depuis plus de 60 ans [@nunnally_place_1960; @byrne_status_1996], les tests les plus fréquemment cités dans la littérature scientifique [@golinski_expanding_2009]. Dans une revue de 486 articles publiés en 2000 dans des journaux populaires en psychologie \footnote{Les revues analysées étaient les suivantes: "Child Development", "Journal of Abnormal Psychology", "Journal of Consulting and Clinical Psychology", "Journal of Experimental Psychology: General", "Journal of Personality" et "Social Psychology"}, @golinski_expanding_2009 avaient relevé 140 articles ($\approx 29 \%$) au sein desquels les auteurs avaient mené au moins une ANOVA à un ou plusieurs facteurs. Plus récemment, @counsell_reporting_2017 mentionnaient que parmis un ensemble de 151 études soumises dans 4 revues canadiennes en 2013, environ 40% incluaient une comparaison de moyennes. Peut-être est-ce en raison de leur grande fréquence d'usage, ajoutée à leur apparente simplicité, qu'on tend à croire que la plupart des chercheurs, si pas tous, ont une bonne maîtrise des tests de comparaisons de moyennes [@aiken_doctoral_2008; @hoekstra_are_2012]. Pourtant, certains indices semblent contredire cette conviction. A travers cette thèse, nous allons adresser deux aspects de l'usage des tests de comparaison de moyennes qui peuvent être améliorés. *D'abord, ces sont souvent utilisés dans des contextes inadéquats, ce qui a pour conséquences d'augmenter le nombre de conclusions invalides et non réplicables  [@hoekstra_are_2012]. Ensuite, ils sont presque invariablement utilisés en définissant comme hypothèse nulle une absence de différence entre les moyennes des groupes [@meehl_appraising_1990; @steyn_practical_2000].* A AMELIORER. 
 
 ### Limite 1: conditions d'application
 
-D'abord, il n'y a pas un unique test-$t$ ou une unique $ANOVA$, mais une famille de tests-$t$ et une famille d'$ANOVA$. Pourtant, malgré la diversité des tests disponibles, le test-$t$ de Student (qui sert à comparer deux moyennes indépendantes) et l'$ANOVA$ de Fisher (qui permet de comparer deux ou plus de deux moyennes indépendantes) sont presque systématiquement utilisés par défaut. Ces deux tests, mathématiquement liés entre eux, ne seront pourtant valides qu'à condition que les résidus indépendants et identiquement distribués se distribuent normalement, et soient extraits de populations ayant des variances identiques. Un non respect des conditions d'application pourra sérieusement affecter le taux d'erreur de types I et II des tests. Pourtant, ces conditions ne sont que peu ou pas vérifiées [@hoekstra_are_2012]:  
-- @keselman_statistical_1998: sur 61 articles contenant des designs dans lesquels des échantillons indépendants étaient définis par un seul facteur (between-subjects univariate designs, 13 n'ont pas donné d'information relatives aux écart-types. Parmi les autres, il y avait de l'hétéroscédasticité. En tout, moins d'un article sur 5 se préoccupait des violations possibles des conditions d'application, et lorsqu'ils le faisaient, ils s'inquiétaient surtout de la condition de normalité (moins de l'hétéroscédasticité), et ce malgré le fait que pourtant, des violations de cette conditions sont bien plus dommageables!     
-- voir dans mes 2 articles sur le Welch, je donne des exemples aussi de ça  
-- @golinski_expanding_2009: parmi 140 articles publiés dans plusieurs revues célèbres qui utilisaient l'ANOVA (voir plus haut), très peu vérifiaient les conditions d'application. *"It is interesting that, of the 11 articles that mentioned the normality assumption, 10 found distributions thate were nonnormal. Althought it is possible that the remaining articles taht did not mention th enormality assumptiona ll found noevidence of nonnormality, it seems highly unlikely given that Micceri (1989) who examined 440 variables from pubmished articles in educaiton and psychology, found that 84% showed moderate to extreme skew"*. En ce qui concerne l'homogénéité des variances, seulement 3 mentionnaient l'hypothèse d'homogénéité des variances, alors que parmis les 65 articles donnant l'info sur les variances de groupe, 27 avaient un SDR de plus de 2 (dans une étude, le SDR était même de 104), et que la plupart d'entre elles avaient des designs non balancés.       
+Bien qu'il existe plusieurs types de tests $t$, les chercheurs en psychologie tendent à privilégier par défaut le test $t$ de Student et l'$ANOVA$ de Fisher. La statistique $t$ de Student se calcule comme suit [@student_probable_1908]:
+\begin{equation} 
+t_{Student}=\frac{\bar{X_1}-\bar{X_2}}{\sqrt{\left(\frac{1}{N-2}\sum_{j=1}^2(n_j-1)S_j^2\right) \times \left(\frac{1}{n_1}+\frac{1}{n_2}\right)}}
+\label{Student}
+\end{equation} 
+où $N$ = le nombre total de sujets, et $n_j$ et $\bar{X_j}$ sont respectivement la taille et la moyenne du $j^{ème}$ échantillon ($j = 1, 2$). Sous l'hypothèse de normalité, la statistique $t$ de Student suit une distribution $t$ avec $n_1+n_2-2$ degrés de liberté. La statistique $F$ de Fisher est une généralisation de la statistique $t$ de Student, et se calcule comme suit:  
+\begin{equation} 
+F=\frac{\frac{1}{k-1}\sum_{j=1}^k \left[n_j\left(\bar{x_{j}}-\bar{x_{..}}\right)^2 \right]}{\frac{1}{N-k}\sum_{j=1}^k \left[\left(n_j-1\right)S_j^2 \right]}
+\label{Fisher}
+\end{equation} 
+où $k$ est le nombre d'échantillons indépendants, et $S^2_j$ est la variance du $j^{ème}$ échantillon ($1 \le j \le k$). Sous l'hypothèse de normalité, la statistique $F$ suit loi de Fisher caractérisée par 2 paramètres:
+\begin{equation*} 
+df_1 = k-1
+\end{equation*} 
+\begin{equation*} 
+df_2 = \sum_{j=1}^k{n_j}-k
+\end{equation*} 
+Comme le révêlent les équations \eqref{Student} et \eqref{Fisher}, la variance poolée intervient au dénominateur des statistiques $t$ de Student et $F$ de Fisher. Or, utiliser ce terme n'a de sens que si la condition d'homogénéité des variances est respectée. 
+
+Dans certains cas, la violation des conditions peut entraîner une augmentation du risque alpha mais également amener à une perte de puissance [@hoekstra_are_2012;@osborne_four_2002]. Pour cette raison, les chercheurs devraient toujours s’assurer de systématiquement faire mention des conditions des tests qu'ils utilisent, afin de rassurer le lecteur sur la confiance qu’il peut accorder à la fiabilité des résultats [@osborne_four_2002]. Pourtant, malgré la demande de plus de transparence dans la transmission des analyses de données [@counsell_reporting_2017], on constate que dans les articles publiés, il n’est que rarement fait mention de ces conditions d’application. @osborne_educational_2001, par exemple, avaient trouvé que seulement 8% des auteurs reportaient des informations sur les conditions d’application des tests, soit à peine 1% de plus qu’en 1969. Plus récemment, @hoekstra_are_2012 ont montré que sur 50 articles publiés en 2011 dans *Psychological Science* utilisant au moins une ANOVA, test-$t$ ou régression, seulement trois discutaient des questions de normalité et d’homogénéité des variances. Par ailleurs, les informations reportées sont souvent non exhaustives [@counsell_reporting_2017], et la condition de normalité est plus fréquemment discutée que celle d'homogénéité des variances. Parmi les 61 articles analysés par @keselman_statistical_1998, seulement $5\%$ des articles mentionnaient simultanément les conditions de normalité et d'homogénéité des variances (et à peine $6\%$ de plus mentionnaient exclusivement la condition de normalité, et $3\%$ celle d'homogénéité des variances). @golinski_expanding_2009 ont fait un constat similaire: parmi les 140 articles qu'ils ont analysé, seulement 11 mentionnaient explicitement la condition de normalité, contre 3 qui mentionnaient celle d'homogénéité des variances. 
+
+On pourrait imaginer que dans certains cas, les conditions d’application aient été vérifiées et respectées, mais que les auteurs n’aient pas reporté l’information dans leur article [@counsell_reporting_2017; @golinski_expanding_2009]. C'est cependant peu probable [CAR CONDITIONS PAS REALISTES BLABLABLA]. @golinski_expanding_2009, mentionnent par exemple que si seulement 3 des 140 articles analysés mentionnaient la condition d'homogénéité des variances, un ratio d'écart-type variant de 2 à 104 était visible dans 27 articles. De plus, dans la mesure où 75 articles ne donnaient aucune information sur les variances de groupe, on peut déduire qu'une violation de la condition d'homogénéité des variances aurait pu être détecté dans un pourcentage d'articles variant de $19\%$ à $73\%$. 
+
+Il est également possible que les chercheurs utilisent des alternatives au test $t$ de Student et à l'$ANOVA$ qui soient robustes aux violations des conditions de normalité et d'homogénéité ds variances. C'est également peu probable étant donné que [d'abord quand on fait bien les choses on veut le dire, et ensuite... chercher des revues qui vont dans ce sens, pe Hoekstra?] 
+
+Il est bien plus probable que les connaissances soient limitées. Décrire l'expérience d'Hoekstra.
+
+: *En ce qui concerne l'homogénéité des variances, seulement 3 mentionnaient l'hypothèse d'homogénéité des variances, alors que parmis les 65 articles donnant l'info sur les variances de groupe, 27 avaient un SDR de plus de 2 (dans une étude, le SDR était même de 104), et que la plupart d'entre elles avaient des designs non balancés.* 
+
+*Il s’agit pourtant d’une condition d’application dont le respect est souvent peu réaliste (Micceri, 1989). Par ailleurs, si le test t s’avère robuste à de légers à moyens écarts à la normalité, il ne l’est plus en cas de forte asymétrie (Delacre, Lakens & Leys, 2017), or des distributions fortement asymétriques représentent une part non négligeable des données. Micceri (1989) par exemple, mettait en évidence, à travers l’étude de 440 distributions, un taux de près de 20% de distributions fortement asymétriques. Hoekstra et ses collaborateurs (2012) ont également constaté une absence de vérification des conditions d’application des tests ou, le cas échéant, une vérification inappropriée, par exemple à travers l’usage de tests statistiques (Hoekstra et al., 2012). Afin de le justifier, ils ont envisagé et testé quatre hypothèses explicatives par questionnaire. Premièrement, les auteurs pourraient considérer que vérifier les conditions soit inutile, parce qu’ils surestiment la robustesse des tests (Hoekstra et al., 2012). Deuxièmement, il est probable que les auteurs manquent de connaissance à propos de ces hypothèses  (Hoekstra et al., 2012), ou en aient une compréhension erronée. Le théorème central limite, par exemple, fait l’objet d’incompréhensions, si bien que même des chercheurs expérimentés ont l’intuition erronée que la loi des grands nombres s’applique également à de petits nombres (Braver et al., 2014). Troisièmement, il est possible que les auteurs aient conscience de la nécessité de vérifier les conditions d’application, mais ne savent pas comment vérifier si une condition a été violée (Hoekstra et al., 2012) ou encore, quatrièmement, qu’ils n’aient simplement pas connaissance d’alternatives existantes dans les cas où une condition semble violée (Hoekstra et al., 2012). Ces quatre hypothèses ont pour point commun d’envisager un manque de connaissance ou une compréhension erronée des conditions des tests.* 
+
+
+
+ 
+
+
+
+
 - @counsell_reporting_2017: sur 151 études analysées, 44 reportaient des informations relatives aux conditions d'application des tests utilisés. Parmi celles ci, seulement 2 étaient exhaustifs: toutes les autres soit reportaient seulement une partie des conditions, soit le faisaient de manière inappropriée (ex.: vérifier la normalité de la VD au lieu de celle des résidus, dans le cas d'une régression). 
 
-*Remarque: il est commun que les chercheurs annoncent l'usage d'un test-$t$ ou d'une $ANOVA$ dans leur étude sans préciser de quel "test-$t$" ou de quelle "$ANOVA$" il s'agit [@counsell_reporting_2017]. N'EST-CE PAS PARCE QUILS UTILISENT L OPTION DISPO PAR DEFAUT DANS LES LOGICIELS CLIC BOUTON?*
+
+
+
+  
+
+
+
+
+Il arrive fréquemment que les chercheurs annoncent avoir réalisé un test-$t$ ou une $ANOVA$ sans spécifier de quel type de test-$t$ ou d'$ANOVA$ il s'agit [@counsell_reporting_2017].Il existe pourtant plusieurs variations de ces tests
+
+
+
+
+
+N'EST-CE PAS PARCE QUILS UTILISENT L OPTION DISPO PAR DEFAUT DANS LES LOGICIELS CLIC BOUTON?*
+
+
+
+
+
+
+
+
+
+
 
 A cause du manque de transparence des chercheurs quant au respect ou non respect des conditions d'application, il est très compliqué de vérifier si le test qu'ils ont choisi est approprié ou non [counsell_reporting_2017].CA JE PEUX COMPLETER AVEC MON PROJET DE RECHERCHE: *le non report peut vouloir dire que la condition était ok mais ça semble très peu crédible qu'elle le soit dans autant d'études*. 
 
@@ -58,6 +110,15 @@ ARTICLE1
 ARTICLE2.
 
 ## Limite 2: hypothèse nulle
+
+Effect sizes are an important outcome of empirical research. Moving beyond decisions about statistical significance, there is a strong call for researchers to report and interpret effect sizes and associated confidence intervals. This practice is highly endorsed by the American Psychological Association (APA) and the American Educational Research Association (American Educational Research Association, 2006; American Psychological Association, 2010).
+
+En parlant des tailles d'effets, on commence de plus en plus à les utiliser (j'ai une réf qui le dit) mais:
+- on les calcule sans vraiment les comprendres/interpréter
+- comme pour le test t de Student et l'ANOVA, on utilise un test qui dépend des mm conditions d'application.
+Utiliser des tests plus adéquats permettrait d'améliorer les pratiques et à termes, de déterminer des mesures de taille d'effets qui pourront être utilisées a priori dans des tests plus informatifs que ceux visant à détecter l'absence d'effet (cf. tests d'équivalence). 
+
+Un paragraphe relatif à la taille d'effet. EN EXPLORATOIRE, ce qui à termes pourrait servir à définir des hypothèses plus informatives pour d'autres chercheurs, qui pourraient être utilisées, soit dans des tests d'effets minimaux, soit pour des tests d'équivalence. Et that's it.
 
 Rem.: "une violation des conditions d'application peut amener à une sous- ou sur-estimation des mesure de taille d'effet (Osborne & Waters, 2002, cités par Hoekstra!)
 
