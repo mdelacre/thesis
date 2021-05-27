@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.26)  26 MAY 2021 15:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.26)  27 MAY 2021 18:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -675,20 +675,20 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 207.
 [4]
 
-LaTeX Warning: Command \` invalid in math mode on input line 256.
+LaTeX Warning: Command \` invalid in math mode on input line 258.
 
 
-LaTeX Warning: Command \` invalid in math mode on input line 266.
+LaTeX Warning: Command \` invalid in math mode on input line 267.
 
-[5] [6]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-65.
+[5] [6] [7] [8]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
+86.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [7] [8] [9] [10] [1]
+) [9] [10] [1]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 611.
+(hyperref)                than one, level fixed on input line 582.
 
 [2] [3] [4] [5] [6] [7] 
 AED: lastpage setting LastPage
@@ -702,13 +702,13 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 ### semi simple group (level 1) entered at line 65 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13209 strings out of 480714
- 200288 string characters out of 5901854
- 547240 words of memory out of 5000000
- 30235 multiletter control sequences out of 15000+600000
- 461007 words of font info for 126 fonts, out of 8000000 for 9000
+ 13212 strings out of 480714
+ 200424 string characters out of 5901854
+ 547244 words of memory out of 5000000
+ 30236 multiletter control sequences out of 15000+600000
+ 460924 words of font info for 125 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,8n,66p,656b,2066s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,66p,656b,2067s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced bu
 t does not exist, replaced by a fixed one
 
@@ -736,10 +736,10 @@ pData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/Users/Admin
 /AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/
 Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/U
 sers/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on template.pdf (19 pages, 276707 bytes).
+Output written on template.pdf (19 pages, 276879 bytes).
 PDF statistics:
- 313 PDF objects out of 1000 (max. 8388607)
- 273 compressed objects within 3 object streams
- 81 named destinations out of 1000 (max. 500000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 85 named destinations out of 1000 (max. 500000)
  32902 words of extra memory for PDF output out of 35830 (max. 10000000)
 

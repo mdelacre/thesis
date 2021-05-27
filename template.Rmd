@@ -13,7 +13,7 @@ header-includes:
   - \usepackage{fancyhdr}
   - \usepackage{lastpage}
   - \usepackage{dcolumn}
-  - \usepackage{natbib}\bibliographystyle{agsm}
+  - \usepackage{natbib} \bibliographystyle{ksfh_nat}
   - \usepackage[nottoc, numbib]{tocbibind}
 
 bibliography: bibliography.bib
