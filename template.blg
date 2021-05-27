@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: template.aux
+The style file: apalike-fr.bst
+Database file #1: bibliography.bib
+Warning--empty journal in mills_quantitative_2010
+Warning--empty journal in osborne_educational_2001
+You've used 26 entries,
+            2038 wiz_defined-function locations,
+            679 strings with 9132 characters,
+and the built_in function-call counts, 11099 in all, are:
+= -- 1249
+> -- 322
+< -- 21
++ -- 120
+- -- 108
+* -- 788
+:= -- 2323
+add.period$ -- 97
+call.type$ -- 26
+change.case$ -- 180
+chr.to.int$ -- 26
+cite$ -- 28
+duplicate$ -- 366
+empty$ -- 678
+format.name$ -- 152
+if$ -- 2200
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 30
+newline$ -- 157
+num.names$ -- 78
+pop$ -- 121
+preamble$ -- 1
+purify$ -- 184
+quote$ -- 0
+skip$ -- 275
+stack$ -- 0
+substring$ -- 930
+swap$ -- 29
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 148
+warning$ -- 2
+while$ -- 81
+width$ -- 0
+write$ -- 377
+(There were 2 warnings)

@@ -13,10 +13,14 @@ header-includes:
   - \usepackage{fancyhdr}
   - \usepackage{lastpage}
   - \usepackage{dcolumn}
-  - \usepackage{natbib} \bibliographystyle{ksfh_nat}
+  - \usepackage{natbib} \bibliographystyle{apalike}
   - \usepackage[nottoc, numbib]{tocbibind}
+  
+   
 
 bibliography: bibliography.bib
+lang: fr
+csl: ecole-de-technologie-superieure-apa.csl
 ---
 
 \allsectionsfont{\centering}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.26)  27 MAY 2021 18:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.27)  27 MAY 2021 19:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -480,56 +480,104 @@ Package tocbibind Info: The document has section divisions on input line 50.
 
 Package tocbibind Note: Using section or other style headings.
 
+) (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babel.st
+y
+Package: babel 2021/05/16 3.59 The Babel package
+(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/05/16 3.59 Babel common definitions
+\babel@savecnt=\count285
+\U@D=\dimen165
+\l@unhyphenated=\language4
+
+(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/txtbabel.d
+ef)
+\bbl@readstream=\read2
 )
+\bbl@dirlevel=\count286
+
+(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel-french/fre
+nch.ldf
+Language: french 2020/10/10 v3.5l French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language3). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language3). Reported on input line 92.
+\FB@nonchar=\count287
+Package babel Info: Making : an active character on input line 430.
+Package babel Info: Making ; an active character on input line 431.
+Package babel Info: Making ! an active character on input line 432.
+Package babel Info: Making ? an active character on input line 433.
+\FBguill@level=\count288
+\FBold@everypar=\toks29
+\FB@Mht=\dimen166
+\mc@charclass=\count289
+\mc@charfam=\count290
+\mc@charslot=\count291
+\std@mcc=\count292
+\dec@mcc=\count293
+\listindentFB=\dimen167
+\descindentFB=\dimen168
+\labelindentFB=\dimen169
+\labelwidthFB=\dimen170
+\leftmarginFB=\dimen171
+\parindentFFN=\dimen172
+\FBfnindent=\dimen173
+)
+(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel-french/fre
+nch.ldf
+Language: french 2020/10/10 v3.5l French support from the babel system
+))
+(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/carlisle/scalefnt.
+sty)
 \cslhangindent=\skip71
 \csllabelwidth=\skip72
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count285
-\calc@Bcount=\count286
-\calc@Adimen=\dimen165
-\calc@Bdimen=\dimen166
+\calc@Acount=\count294
+\calc@Bcount=\count295
+\calc@Adimen=\dimen174
+\calc@Bdimen=\dimen175
 \calc@Askip=\skip73
 \calc@Bskip=\skip74
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count287
+\calc@Ccount=\count296
 \calc@Cskip=\skip75
 )
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count288
+\l__color_backend_stack_int=\count297
 \l__pdf_internal_box=\box53
 ) (./template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Info: Redefining \microtypecontext on input line 98.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Info: Redefining \microtypecontext on input line 110.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 98.
+LaTeX Info: Redefining \showhyphens on input line 110.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -550,7 +598,7 @@ df-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 98.
+Package hyperref Info: Link coloring OFF on input line 110.
 
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
 ty
@@ -564,11 +612,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count289
+\c@section@level=\count298
 )
-LaTeX Info: Redefining \ref on input line 98.
-LaTeX Info: Redefining \pageref on input line 98.
-LaTeX Info: Redefining \nameref on input line 98.
+LaTeX Info: Redefining \ref on input line 110.
+LaTeX Info: Redefining \pageref on input line 110.
+LaTeX Info: Redefining \nameref on input line 110.
 (./template.out) (./template.out)
 \@outlinefile=\write3
 \openout3 = `template.out'.
@@ -609,47 +657,56 @@ LaTeX Info: Redefining \nameref on input line 98.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 98.
+(lastpage)             ! on input line 110.
+LaTeX Info: Redefining \degres on input line 110.
+LaTeX Info: Redefining \dots on input line 110.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with paralist package,
+(french.ldf)             reported on input line 110.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with paralist package,
+(french.ldf)             reported on input line 110.
+LaTeX Info: Redefining \up on input line 110.
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png, id=68, 225.
 84375pt x 225.84375pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png Graphic
  file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Logo.png  used on input line 111.
+is/Logo.png  used on input line 123.
 (pdftex.def)             Requested size: 97.2522pt x 97.2522pt.
 [1
 
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
 x.map} <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png>] [1]
 (./template.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
 .
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
 .
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-2.
+3.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-2.
+3.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 2.
+(Font)              <10.95> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 2.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 2.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+(Font)              <6> on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -657,7 +714,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 fg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -670,25 +727,20 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 [2] [3]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 207.
+(Font)              <9> on input line 219.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 207.
+(Font)              <5> on input line 219.
 [4]
 
-LaTeX Warning: Command \` invalid in math mode on input line 258.
+LaTeX Warning: Command \` invalid in math mode on input line 270.
 
 
-LaTeX Warning: Command \` invalid in math mode on input line 267.
+LaTeX Warning: Command \` invalid in math mode on input line 279.
 
-[5] [6] [7] [8]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-86.
-(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [9] [10] [1]
+[5] [6] [7] [8] [9] [10] [1]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 582.
+(hyperref)                than one, level fixed on input line 591.
 
 [2] [3] [4] [5] [6] [7] 
 AED: lastpage setting LastPage
@@ -698,48 +750,47 @@ Package rerunfilecheck Info: File `template.out' has not changed.
  )
 (\end occurred inside a group at level 2)
 
-### semi simple group (level 2) entered at line 161 (\begingroup)
-### semi simple group (level 1) entered at line 65 (\begingroup)
+### semi simple group (level 2) entered at line 173 (\begingroup)
+### semi simple group (level 1) entered at line 67 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13212 strings out of 480714
- 200424 string characters out of 5901854
- 547244 words of memory out of 5000000
- 30236 multiletter control sequences out of 15000+600000
- 460924 words of font info for 125 fonts, out of 8000000 for 9000
+ 14667 strings out of 480694
+ 222089 string characters out of 5900895
+ 595602 words of memory out of 5000000
+ 31692 multiletter control sequences out of 15000+600000
+ 457200 words of font info for 118 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,8n,66p,656b,2067s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,66p,656b,3471s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced bu
 t does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.en
-c}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.e
-nc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mat
-hsy.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/l
-m-mathex.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips
-/lm/lm-mathit.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/
-dvips/lm/lm-ec.enc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
-e1/public/lm/lmbx10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/font
-s/type1/public/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist
-/fonts/type1/public/lm/lmex10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
--dist/fonts/type1/public/lm/lmmi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/
-texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/Users/Admin/AppData/Roaming/Tiny
-TeX/texmf-dist/fonts/type1/public/lm/lmmi9.pfb><c:/Users/Admin/AppData/Roaming/
-TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roam
-ing/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Admin/AppData/
-Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/Admin/AppDa
-ta/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admin/Ap
-pData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/Users/Admin
-/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/
-Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/U
-sers/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on template.pdf (19 pages, 276879 bytes).
+{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
+}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-maths
+y.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-
+mathex.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/l
+m/lm-mathit.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dv
+ips/lm/lm-ec.enc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1
+/public/lm/lmbx10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/
+type1/public/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/f
+onts/type1/public/lm/lmex10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-d
+ist/fonts/type1/public/lm/lmmi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/te
+xmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/Users/Admin/AppData/Roaming/TinyTe
+X/texmf-dist/fonts/type1/public/lm/lmmi9.pfb><c:/Users/Admin/AppData/Roaming/Ti
+nyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roamin
+g/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Admin/AppData/Ro
+aming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/Admin/AppData
+/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admin/AppD
+ata/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/Users/Admin/A
+ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/Ad
+min/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Use
+rs/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on template.pdf (19 pages, 276740 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 278 compressed objects within 3 object streams
+ 313 PDF objects out of 1000 (max. 8388607)
+ 273 compressed objects within 3 object streams
  85 named destinations out of 1000 (max. 500000)
- 32902 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 28806 words of extra memory for PDF output out of 29859 (max. 10000000)
 

@@ -1,0 +1,213 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
+
+\bibitem[Aiken \emph{et~al.}, 2008]{aiken_doctoral_2008}
+\bgroup\fonteauteurs\bgroup Aiken\egroup\egroup{}, L.~S.,
+  \bgroup\fonteauteurs\bgroup West\egroup\egroup{}, S.~G. et
+  \bgroup\fonteauteurs\bgroup Millsap\egroup\egroup{}, R.~E. (2008).
+\newblock Doctoral training in statistics, measurement, and methodology in
+  psychology: {Replication} and extension of {Aiken}, {West}, {Sechrest}, and
+  {Reno}'s (1990) survey of {PhD} programs in {North} {America}.
+\newblock {\em American Psychologist}, 63(1)\string:\penalty500\relax 32.
+\newblock Publisher: American Psychological Association.
+
+\bibitem[Byrne, 1996]{byrne_status_1996}
+\bgroup\fonteauteurs\bgroup Byrne\egroup\egroup{}, B.~M. (1996).
+\newblock The status and role of quantitative methods in psychology: {Past},
+  present, and future perspectives.
+\newblock {\em Canadian Psychology/Psychologie canadienne},
+  37(2)\string:\penalty500\relax 76.
+\newblock Publisher: Canadian Psychological Association.
+
+\bibitem[Cain \emph{et~al.}, 2017]{cain_univariate_2017}
+\bgroup\fonteauteurs\bgroup Cain\egroup\egroup{}, M.~K.,
+  \bgroup\fonteauteurs\bgroup Zhang\egroup\egroup{}, Z. et
+  \bgroup\fonteauteurs\bgroup Yuan\egroup\egroup{}, K.-H. (2017).
+\newblock Univariate and multivariate skewness and kurtosis for measuring
+  nonnormality: {Prevalence}, influence and estimation.
+\newblock {\em Behavior research methods}, 49(5)\string:\penalty500\relax
+  1716--1735.
+\newblock Publisher: Springer.
+
+\bibitem[Counsell et Harlow, 2017]{counsell_reporting_2017}
+\bgroup\fonteauteurs\bgroup Counsell\egroup\egroup{}, A. et
+  \bgroup\fonteauteurs\bgroup Harlow\egroup\egroup{}, L. (2017).
+\newblock Reporting practices and use of quantitative methods in {Canadian}
+  journal articles in psychology.
+\newblock {\em Canadian Psychology/psychologie canadienne},
+  58(2)\string:\penalty500\relax 140.
+\newblock Publisher: Educational Publishing Foundation.
+
+\bibitem[Curtis et Harwell, 1998]{curtis_training_1998}
+\bgroup\fonteauteurs\bgroup Curtis\egroup\egroup{}, D.~A. et
+  \bgroup\fonteauteurs\bgroup Harwell\egroup\egroup{}, M. (1998).
+\newblock Training doctoral students in educational statistics in the {United}
+  {States}: {A} national survey.
+\newblock {\em Journal of Statistics Education}, 6(1).
+\newblock Publisher: Taylor \& Francis.
+
+\bibitem[Erceg-Hurn et Mirosevich, 2008]{erceg-hurn_modern_2008}
+\bgroup\fonteauteurs\bgroup Erceg-Hurn\egroup\egroup{}, D.~M. et
+  \bgroup\fonteauteurs\bgroup Mirosevich\egroup\egroup{}, V.~M. (2008).
+\newblock Modern robust statistical methods: an easy way to maximize the
+  accuracy and power of your research.
+\newblock {\em American Psychologist}, 63(7)\string:\penalty500\relax 591.
+\newblock Publisher: American Psychological Association.
+
+\bibitem[Everitt, 2001]{everitt_statistics_2001}
+\bgroup\fonteauteurs\bgroup Everitt\egroup\egroup{}, B.~S. (2001).
+\newblock {\em Statistics for psychologists: {An} intermediate course}.
+\newblock Psychology Press.
+
+\bibitem[Field, 2013]{field_discovering_2013}
+\bgroup\fonteauteurs\bgroup Field\egroup\egroup{}, A. (2013).
+\newblock {\em Discovering statistics using {IBM} {SPSS} statistics}.
+\newblock sage.
+
+\bibitem[Golinski et Cribbie, 2009]{golinski_expanding_2009}
+\bgroup\fonteauteurs\bgroup Golinski\egroup\egroup{}, C. et
+  \bgroup\fonteauteurs\bgroup Cribbie\egroup\egroup{}, R.~A. (2009).
+\newblock The expanding role of quantitative methodologists in advancing
+  psychology.
+\newblock {\em Canadian Psychology/Psychologie canadienne},
+  50(2)\string:\penalty500\relax 83.
+\newblock Publisher: Educational Publishing Foundation.
+
+\bibitem[Grissom, 2000]{grissom_heterogeneity_2000}
+\bgroup\fonteauteurs\bgroup Grissom\egroup\egroup{}, R.~J. (2000).
+\newblock Heterogeneity of variance in clinical data.
+\newblock {\em Journal of consulting and clinical psychology},
+  68(1)\string:\penalty500\relax 155.
+\newblock Publisher: American Psychological Association.
+
+\bibitem[Haslam et McGarty, 2014]{haslam_research_2014}
+\bgroup\fonteauteurs\bgroup Haslam\egroup\egroup{}, S.~A. et
+  \bgroup\fonteauteurs\bgroup McGarty\egroup\egroup{}, C. (2014).
+\newblock {\em Research methods and statistics in psychology}.
+\newblock Sage.
+
+\bibitem[Hoekstra \emph{et~al.}, 2012]{hoekstra_are_2012}
+\bgroup\fonteauteurs\bgroup Hoekstra\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Kiers\egroup\egroup{}, H. et
+  \bgroup\fonteauteurs\bgroup Johnson\egroup\egroup{}, A. (2012).
+\newblock Are assumptions of well-known statistical techniques checked, and why
+  (not)?
+\newblock {\em Frontiers in psychology}, 3\string:\penalty500\relax 137.
+\newblock Publisher: Frontiers.
+
+\bibitem[Howitt et Cramer, 2017]{howitt_understanding_2017}
+\bgroup\fonteauteurs\bgroup Howitt\egroup\egroup{}, D. et
+  \bgroup\fonteauteurs\bgroup Cramer\egroup\egroup{}, D. (2017).
+\newblock {\em Understanding statistics in psychology with {SPSS}}.
+\newblock Pearson London, UK:.
+
+\bibitem[Keselman \emph{et~al.}, 1998]{keselman_statistical_1998}
+\bgroup\fonteauteurs\bgroup Keselman\egroup\egroup{}, H.~J.,
+  \bgroup\fonteauteurs\bgroup Huberty\egroup\egroup{}, C.~J.,
+  \bgroup\fonteauteurs\bgroup Lix\egroup\egroup{}, L.~M.,
+  \bgroup\fonteauteurs\bgroup Olejnik\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Cribbie\egroup\egroup{}, R.~A.,
+  \bgroup\fonteauteurs\bgroup Donahue\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Kowalchuk\egroup\egroup{}, R.~K.,
+  \bgroup\fonteauteurs\bgroup Lowman\egroup\egroup{}, L.~L.,
+  \bgroup\fonteauteurs\bgroup Petoskey\egroup\egroup{}, M.~D. et
+  \bgroup\fonteauteurs\bgroup Keselman\egroup\egroup{}, J.~C. (1998).
+\newblock Statistical practices of educational researchers: {An} analysis of
+  their {ANOVA}, {MANOVA}, and {ANCOVA} analyses.
+\newblock {\em Review of educational research}, 68(3)\string:\penalty500\relax
+  350--386.
+\newblock Publisher: Sage Publications Sage CA: Thousand Oaks, CA.
+
+\bibitem[Lakens, 2021]{lakens_practical_2021}
+\bgroup\fonteauteurs\bgroup Lakens\egroup\egroup{}, D. (2021).
+\newblock The practical alternative to the p value is the correctly used p
+  value.
+\newblock {\em Perspectives on psychological science},
+  16(3)\string:\penalty500\relax 639--648.
+\newblock Publisher: SAGE Publications Sage CA: Los Angeles, CA.
+
+\bibitem[Meehl, 1990]{meehl_appraising_1990}
+\bgroup\fonteauteurs\bgroup Meehl\egroup\egroup{}, P.~E. (1990).
+\newblock Appraising and amending theories: {The} strategy of {Lakatosian}
+  defense and two principles that warrant it.
+\newblock {\em Psychological inquiry}, 1(2)\string:\penalty500\relax 108--141.
+\newblock Publisher: Taylor \& Francis.
+
+\bibitem[Micceri, 1989]{micceri_unicorn_1989}
+\bgroup\fonteauteurs\bgroup Micceri\egroup\egroup{}, T. (1989).
+\newblock The unicorn, the normal curve, and other improbable creatures.
+\newblock {\em Psychological bulletin}, 105(1)\string:\penalty500\relax 156.
+\newblock Publisher: American Psychological Association.
+
+\bibitem[Mills \emph{et~al.}, 2010]{mills_quantitative_2010}
+\bgroup\fonteauteurs\bgroup Mills\egroup\egroup{}, L.,
+  \bgroup\fonteauteurs\bgroup Abdulla\egroup\egroup{}, E. et
+  \bgroup\fonteauteurs\bgroup Cribbie\egroup\egroup{}, R. (2010).
+\newblock Quantitative methodology research: {Is} it on psychologists’
+  reading lists?
+\newblock Publisher: Université d'Ottawa.
+
+\bibitem[Nunnally, 1960]{nunnally_place_1960}
+\bgroup\fonteauteurs\bgroup Nunnally\egroup\egroup{}, J. (1960).
+\newblock The place of statistics in psychology.
+\newblock {\em Educational and Psychological Measurement},
+  20(4)\string:\penalty500\relax 641--650.
+\newblock Publisher: Sage Publications Sage CA: Thousand Oaks, CA.
+
+\bibitem[Osborne et Christianson, 2001]{osborne_educational_2001}
+\bgroup\fonteauteurs\bgroup Osborne\egroup\egroup{}, J.~W. et
+  \bgroup\fonteauteurs\bgroup Christianson\egroup\egroup{}, W.~R. (2001).
+\newblock Educational {Psychology} from a {Statistician}'s {Perspective}: {A}
+  {Review} of the {Quantitative} {Quality} of {Our} {Field}.
+\newblock Publisher: ERIC.
+
+\bibitem[Osborne et Waters, 2002]{osborne_four_2002}
+\bgroup\fonteauteurs\bgroup Osborne\egroup\egroup{}, J.~W. et
+  \bgroup\fonteauteurs\bgroup Waters\egroup\egroup{}, E. (2002).
+\newblock Four assumptions of multiple regression that researchers should
+  always test.
+\newblock {\em Practical assessment, research, and evaluation},
+  8(1)\string:\penalty500\relax 2.
+
+\bibitem[Schucany et Tony~Ng, 2006]{schucany_preliminary_2006}
+\bgroup\fonteauteurs\bgroup Schucany\egroup\egroup{}, W.~R. et
+  \bgroup\fonteauteurs\bgroup Tony~Ng\egroup\egroup{}, H.~K. (2006).
+\newblock Preliminary goodness-of-fit tests for normality do not validate the
+  one-sample {Student} t.
+\newblock {\em Communications in Statistics-Theory and Methods},
+  35(12)\string:\penalty500\relax 2275--2286.
+\newblock Publisher: Taylor \& Francis.
+
+\bibitem[Sharpe, 2013]{sharpe_why_2013}
+\bgroup\fonteauteurs\bgroup Sharpe\egroup\egroup{}, D. (2013).
+\newblock Why the resistance to statistical innovations? {Bridging} the
+  communication gap.
+\newblock {\em Psychological methods}, 18(4)\string:\penalty500\relax 572.
+\newblock Publisher: American Psychological Association.
+
+\bibitem[Steyn, 2000]{steyn_practical_2000}
+\bgroup\fonteauteurs\bgroup Steyn\egroup\egroup{}, H.~S. (2000).
+\newblock Practical significance of the difference in means.
+\newblock {\em SA journal of industrial psychology},
+  26(3)\string:\penalty500\relax 1--3.
+\newblock Publisher: AOSIS.
+
+\bibitem[{Student}, 1908]{student_probable_1908}
+\bgroup\fonteauteurs\bgroup {Student}\egroup\egroup{} (1908).
+\newblock The probable error of a mean.
+\newblock {\em Biometrika}, pages 1--25.
+\newblock Publisher: JSTOR.
+
+\bibitem[Yuan \emph{et~al.}, 2004]{yuan_structural_2004}
+\bgroup\fonteauteurs\bgroup Yuan\egroup\egroup{}, K.-H.,
+  \bgroup\fonteauteurs\bgroup Bentler\egroup\egroup{}, P.~M. et
+  \bgroup\fonteauteurs\bgroup Chan\egroup\egroup{}, W. (2004).
+\newblock Structural equation modeling with heavy tailed distributions.
+\newblock {\em Psychometrika}, 69(3)\string:\penalty500\relax 421--436.
+\newblock Publisher: Springer.
+
+\end{thebibliography}

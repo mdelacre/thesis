@@ -1,0 +1,17 @@
+\babel@toc {french}{}
+\contentsline {section}{\numberline {1}Introduction}{iv}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Truc qui n'ont rien à voir mais dont je pourrais avoir besoin à la défense}{iv}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Début de la vraie intro}{iv}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Limite 1: conditions d'application}{v}{subsubsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.3}Limite 2: hypothèse nulle}{viii}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Pourquoi jusque là la sauce n'a pas pris?}{x}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Conclusion}{2}{section.2}%
+\contentsline {subsubsection}{\numberline {2.0.1}Usage des articles méthodo}{2}{subsubsection.2.0.1}%
+\contentsline {subsubsection}{\numberline {2.0.2}Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes}{2}{subsubsection.2.0.2}%
+\contentsline {subsubsection}{\numberline {2.0.3}Comment écrire/transmettre l'info aux psys}{3}{subsubsection.2.0.3}%
+\contentsline {subsubsection}{\numberline {2.0.4}Recommandations générales}{3}{subsubsection.2.0.4}%
+\contentsline {section}{\numberline {3}Bibliographie}{4}{section.3}%
+\contentsline {section}{\numberline {4}Annexe(s)}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Annexe A: additional tables}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Annexe B: additional figures}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Annexe C: code}{8}{subsection.4.3}%
