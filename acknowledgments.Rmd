@@ -3,7 +3,7 @@ title: ''
 output: pdf_document
 ---
 
-\section*{Acknowledgements}
+\section*{Remerciements}
 
 Thank you for following this tutorial! 
 
