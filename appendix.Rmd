@@ -4,18 +4,32 @@ output: pdf_document
 ---
 # Annexe(s)
 
-## Annexe A: additional tables 
+## Annexe A: erratum
 
-Insert content for additional tables here.
+### Why psychologists Should by Default Use Welch's $t$-test Instead of Student's $t$-test
+
+#### Erreurs conceptuelles
+
+#### Mise en forme et Notations
+
+En termes de mises en forme, nous avons omis à plusieurs endroit d'italiser les notations mathématiques. Par exemple, à la page [93], nous avons indiqué "F-ratio test" au lieu de "$F$-ratio test" à plusieurs reprises. A la même page, nous avons également noté "$\mathrm{x_{ij}}$" au lieu de "$x_{ij}$", et |$\mathrm{x_{ij}-\hat{\theta_j}}$| au lieu de |$x_{ij}-\hat{\theta_j}$|. 
+
+En termes de notation, nous avons relevé des inconsistantes dans la notation de la variance de chaque groupes. Par exemple, dans l'équation 1, nous utilisons $S^2_j$, alors que nous utilisons $s^2_j$ dans l'équation 4 ou encore SDj lorsque nous définission la statistique du $F$-ratio à la page [93]. 
+
+### Taking parametric assumptions very seriously
+
+#### Erreurs conceptuelles
+
+#### Mise en forme et Notations
+
+Dû à un manque de connaissance de Latex lors de mes premières tentatives d'écritures d'articles via Rmarkdown, certaines majuscules sont manquantes dans les références bibliographiques. S'assurer qu'une lettre apparaissent en majuscule, via latex, implique de l'entourer des symboles {}, ce qui n'a pas été fait. Par exemple, dans le titre de l'article de Tiku(1971), il aurait fallu indiquer "Power function of the {F}-test.." au lieu de "Power function of the F-test...". Cela ne serait pas arrivé, si j'avais utilisé un outil comme Zotero, afin d'exporter directement un fichier au format Bibtex (puisque via ces outils, ce genre de détail est automatiquement inclu), mais je n'ai découvert cette possibilité que très récemment.
+
+### Effect sizes
+
+### Equivalence tests
 
 \newpage
 
-## Annexe B: additional figures
-
-Insert content for additional figures here. 
-
-\newpage
-
-## Annexe C: code
+## Annexe B
 
 Insert code (if any) used during your dissertation work here. 

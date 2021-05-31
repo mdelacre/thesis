@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.27)  28 MAY 2021 14:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.27)  31 MAY 2021 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -727,26 +727,31 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 [2] [3]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 221.
+(Font)              <9> on input line 206.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 221.
+(Font)              <5> on input line 206.
 [4]
 
-LaTeX Warning: Command \` invalid in math mode on input line 264.
+LaTeX Warning: Command \` invalid in math mode on input line 245.
 
 
-LaTeX Warning: Command \` invalid in math mode on input line 273.
+LaTeX Warning: Command \` invalid in math mode on input line 254.
 
-[5] [6] [7] [8] [9] [10] [1]
+[5] [6] [7]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 593.
+(hyperref)                than one, level fixed on input line 406.
 
-[2] [3] [4] [5] [6] [7] 
+[8] [9] [1]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 572.
+
+[2] [3] [4] [5] [6] 
 AED: lastpage setting LastPage
-[8] (./template.aux)
+[7] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 8AEDF9CB122126F23B54B99DF3CD3E3E;3666.
+(rerunfilecheck)             Checksum: 548670BAD5EAA3F249ABC9BA8A157F5C;3623.
  )
 (\end occurred inside a group at level 2)
 
@@ -754,15 +759,18 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 ### semi simple group (level 1) entered at line 67 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14658 strings out of 480694
- 221995 string characters out of 5900895
- 594616 words of memory out of 5000000
- 31693 multiletter control sequences out of 15000+600000
- 456821 words of font info for 114 fonts, out of 8000000 for 9000
+ 14677 strings out of 480694
+ 222345 string characters out of 5900895
+ 593939 words of memory out of 5000000
+ 31697 multiletter control sequences out of 15000+600000
+ 457087 words of font info for 117 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,6n,66p,656b,3473s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced bu
+ 60i,6n,66p,656b,3471s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced bu
 t does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -787,10 +795,10 @@ ata/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/Users/Admin/A
 ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/Ad
 min/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Use
 rs/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on template.pdf (19 pages, 278347 bytes).
+Output written on template.pdf (17 pages, 281071 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
- 83 named destinations out of 1000 (max. 500000)
+ 315 PDF objects out of 1000 (max. 8388607)
+ 277 compressed objects within 3 object streams
+ 92 named destinations out of 1000 (max. 500000)
  28806 words of extra memory for PDF output out of 29859 (max. 10000000)
 
