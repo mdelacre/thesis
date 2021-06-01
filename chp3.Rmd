@@ -1,0 +1,13 @@
+---
+title: " "
+output: 
+  papaja::apa6_pdf:
+    includes:
+      extra_dependencies: ["float"]
+
+header-includes:
+  - \usepackage{float}
+  - \usepackage{sectsty}
+---
+# Chapitre 3: le test $\bf \emph W$ de Welch (article 2)
+

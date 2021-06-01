@@ -10,6 +10,14 @@ output: pdf_document
 
 #### Erreurs conceptuelles
 
+- Erreur (p. [99]): "As it is explained in the additional file, Yuen's $t$-test is not a better test than Welch's $t$-test, since it often suffers high departure from the alpha risk of 5 percent". 
+
+Explication: d'un point de vue purement statistique, à travers le test de Yuen, on ne compare plus les moyennes de chaque groupe, mais les moyennes *trimmées* (soit les moyennes calculées sur les données après avoir écarté les 20% des scores les plus bas ainsi que les 20% des scores les plus élevés). Or, à travers nos simulations, les scénarios créés en vue de tester le taux d'erreur de type I (risque alpha) étaient systématiquement des scénarios dans lesquels les moyennes de chaque groupe étaient identiques. Lorsque les distributions sont symétriques, les moyennes de populations sont identiques aux moyennes trimmées des populations. Quand les distributions sont asymétriques, par contre, la moyenne trimmée sera plus proche du mode de la distribution que la moyenne. Cela explique pourquoi nous avions noté ceci: "Yuen's $t$-test is not a good unconditional alternative because we oserve an unacceptable departure from the nominal alpha risk of 5 percent for several shapes of distributions [...] particularly when we are studying asymmetric distributions of unequal shapes.
+
+A partir du moment où cela ne correspond *pas* à l'hypothèse nulle du test de Yuen, il est erroné de conclure à une inflation du risque alpha pour ce test sur base de nos scénarios. *D'un point de vue méthodologique, par contre, nous pensons qu'il n'est pas clair pour beaucoup de gens que l'hypothèse nulle du test de Yuen n'est pas la même que celle du test t de Student, ce qui pourrait être source d'ambiguïté. En conclusion, ce test ne devrait être utilisé que par des personnes ayant pleinement conscience du fait que le test de Student et celui de Yuen ne testent pas la même hypothèse. **Relire l'article de Wilcox et celui de Erceg-Hurn pour voir si c'est vraiment bien clair dedans, histoire de me défendre un peu*
+
+When both the normality and equal variances assumptions are violated, we can use a combination of the Trimmed Means t-Test and Welch’s t-Test, called the Yuen-Welch Test. Using the notation for the Trimmed Means t-test, the Yuen-Welch Test is
+
 #### Mise en forme et Notations
 
 En termes de mises en forme, nous avons omis à plusieurs endroit d'italiser les notations mathématiques. Par exemple, à la page [93], nous avons indiqué "F-ratio test" au lieu de "$F$-ratio test" à plusieurs reprises. A la même page, nous avons également noté "$\mathrm{x_{ij}}$" au lieu de "$x_{ij}$", et |$\mathrm{x_{ij}-\hat{\theta_j}}$| au lieu de |$x_{ij}-\hat{\theta_j}$|. 

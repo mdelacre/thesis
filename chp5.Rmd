@@ -1,0 +1,13 @@
+---
+title: " "
+output: 
+  papaja::apa6_pdf:
+    includes:
+      extra_dependencies: ["float"]
+
+header-includes:
+  - \usepackage{float}
+  - \usepackage{sectsty}
+---
+# Chapitre 5: les tests d'équivalence (article 4)
+

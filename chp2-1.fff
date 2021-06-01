@@ -1,0 +1,10 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics{C:/Users/Admin/OneDrive/Documents/Github projects/thesis/page1 chp2}
+
+}
+
+\caption{ }\label{fig:chp2p1}
+\end{figure*}

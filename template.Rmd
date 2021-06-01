@@ -15,8 +15,6 @@ header-includes:
   - \usepackage{dcolumn}
   - \usepackage{natbib} \bibliographystyle{apalike}
   - \usepackage[nottoc, numbib]{tocbibind}
-  
-   
 
 bibliography: bibliography.bib
 lang: fr
@@ -107,7 +105,28 @@ Abstract (voir nombre de mots requis)
 
 ```{r intro, child = 'introduction.Rmd'}
 ```
+
+\newpage
+
 \pagenumbering{arabic}
+
+```{r chp2, child = 'chp2.Rmd'}
+```
+
+\newpage
+
+```{r chp3, child = 'chp3.Rmd'}
+```
+
+\newpage
+
+```{r chp4, child = 'chp4.Rmd'}
+```
+
+\newpage
+
+```{r chp5, child = 'chp5.Rmd'}
+```
 
 \newpage
 

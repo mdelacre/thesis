@@ -1,0 +1,13 @@
+---
+title: " "
+output: 
+  papaja::apa6_pdf:
+    includes:
+      extra_dependencies: ["float"]
+
+header-includes:
+  - \usepackage{float}
+  - \usepackage{sectsty}
+---
+# Chapitre 4: le $\bf \emph d$ de Cohen avec variances non poolées (article 3)
+
