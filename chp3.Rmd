@@ -9,5 +9,51 @@ header-includes:
   - \usepackage{float}
   - \usepackage{sectsty}
 ---
-# Chapitre 3: le test $\bf \emph W$ de Welch (article 2)
+# Chapitre 3: utiliser l'ANOVA $\bf \emph F$ de Welch par défaut
+```{r "chp3p1", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="93%"}
+knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-1.png")
+```
 
+```{r "chp3p2", fig.align='center', fig.cap=NULL,echo=FALSE}
+knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-2.png")
+```
+
+```{r "chp3p3", fig.align='center', fig.cap=NULL,echo=FALSE}
+knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-3.png")
+```
+
+```{r "chp3p4", fig.align='center', fig.cap=NULL,echo=FALSE}
+knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-4.png")
+```
+
+```{r "chp3p5", fig.align='center', fig.cap=NULL,echo=FALSE}
+knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-5.png")
+```
+
+```{r "chp3p6", fig.align='center', fig.cap=NULL,echo=FALSE}
+knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-6.png")
+```
+
+```{r "chp3p7", fig.align='center', fig.cap=NULL,echo=FALSE}
+knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-7.png")
+```
+
+```{r "chp3p8", fig.align='center', fig.cap=NULL,echo=FALSE}
+knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-8.png")
+```
+
+```{r "chp3p9", fig.align='center', fig.cap=NULL,echo=FALSE}
+knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-9.png")
+```
+
+```{r "chp3p10", fig.align='center', fig.cap=NULL,echo=FALSE}
+knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-10.png")
+```
+
+```{r "chp3p11", fig.align='center', fig.cap=NULL,echo=FALSE}
+knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-11.png")
+```
+
+```{r "chp3p12", fig.align='center', fig.cap=NULL,echo=FALSE}
+knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-12.png")
+```

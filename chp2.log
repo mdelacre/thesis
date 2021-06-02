@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.1)  1 JUN 2021 18:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.1)  2 JUN 2021 09:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -848,8 +848,19 @@ re 2-1.pdf>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
 is/Chapitre 2/Chapitre 2-1.pdf  used on input line 140.
 (pdftex.def)             Requested size: 436.87033pt x 617.85924pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[1{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map}
+
+]
+Overfull \vbox (28.72255pt too high) has occurred while \output is active []
+
+[2 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
+e 2-1.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--2.pdf, id=9, 597.50829pt x 845.0471pt>
+-2.pdf, id=58, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-2.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -857,17 +868,10 @@ re 2-2.pdf>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
 is/Chapitre 2/Chapitre 2-2.pdf  used on input line 142.
 (pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-
-Underfull \vbox (badness 1259) has occurred while \output is active []
-
-[1{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map}
-
- <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 
-2-1.pdf>] [2 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre
- 2/Chapitre 2-2.pdf>]
+[3 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
+e 2-2.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--3.pdf, id=101, 597.50829pt x 845.0471pt>
+-3.pdf, id=105, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-3.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -875,10 +879,10 @@ re 2-3.pdf>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
 is/Chapitre 2/Chapitre 2-3.pdf  used on input line 144.
 (pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-[3 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
+[4 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
 e 2-3.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--4.pdf, id=139, 597.50829pt x 845.0471pt>
+-4.pdf, id=143, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-4.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -886,10 +890,10 @@ re 2-4.pdf>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
 is/Chapitre 2/Chapitre 2-4.pdf  used on input line 146.
 (pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-[4 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
+[5 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
 e 2-4.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--5.pdf, id=228, 597.50829pt x 845.0471pt>
+-5.pdf, id=232, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-5.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -897,10 +901,10 @@ re 2-5.pdf>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
 is/Chapitre 2/Chapitre 2-5.pdf  used on input line 148.
 (pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-[5 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
+[6 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
 e 2-5.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--6.pdf, id=328, 597.50829pt x 845.0471pt>
+-6.pdf, id=332, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-6.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -908,10 +912,10 @@ re 2-6.pdf>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
 is/Chapitre 2/Chapitre 2-6.pdf  used on input line 150.
 (pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-[6 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
+[7 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
 e 2-6.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--7.pdf, id=359, 597.50829pt x 845.0471pt>
+-7.pdf, id=364, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-7.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -919,10 +923,10 @@ re 2-7.pdf>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
 is/Chapitre 2/Chapitre 2-7.pdf  used on input line 152.
 (pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-[7 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
+[8 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
 e 2-7.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--8.pdf, id=390, 597.50829pt x 845.0471pt>
+-8.pdf, id=394, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-8.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -930,10 +934,10 @@ re 2-8.pdf>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
 is/Chapitre 2/Chapitre 2-8.pdf  used on input line 154.
 (pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-[8 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
+[9 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
 e 2-8.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--9.pdf, id=445, 597.50829pt x 845.0471pt>
+-9.pdf, id=449, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-9.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -941,10 +945,10 @@ re 2-9.pdf>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
 is/Chapitre 2/Chapitre 2-9.pdf  used on input line 156.
 (pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-[9 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
-e 2-9.pdf>]
+[10 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
+re 2-9.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--10.pdf, id=484, 597.50829pt x 845.0471pt>
+-10.pdf, id=488, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-10.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -952,28 +956,28 @@ re 2-10.pdf>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
 is/Chapitre 2/Chapitre 2-10.pdf  used on input line 158.
 (pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-[10 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
+[11 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
 re 2-10.pdf>] AED endfloat: Processing end Figures and Tables (./chp2.aux)
 Package rerunfilecheck Info: File `chp2.out' has not changed.
-(rerunfilecheck)             Checksum: 9E3A7E274E14105473BC84C26FB61635;346.
+(rerunfilecheck)             Checksum: BDB2A97B220F5D1ADA633B840882DFCB;434.
  ) 
 Here is how much of TeX's memory you used:
- 16064 strings out of 480694
- 255285 string characters out of 5900896
- 601852 words of memory out of 5000000
+ 16065 strings out of 480694
+ 255336 string characters out of 5900896
+ 600888 words of memory out of 5000000
  33172 multiletter control sequences out of 15000+600000
  458428 words of font info for 92 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,11n,80p,2243b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,11n,80p,2243b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
 nc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmb
 x12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/l
 m/lmbxi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pu
 blic/lm/lmr12.pfb>
-Output written on chp2.pdf (10 pages, 1707771 bytes).
+Output written on chp2.pdf (11 pages, 1708705 bytes).
 PDF statistics:
- 547 PDF objects out of 1000 (max. 8388607)
- 321 compressed objects within 4 object streams
- 13 named destinations out of 1000 (max. 500000)
+ 551 PDF objects out of 1000 (max. 8388607)
+ 324 compressed objects within 4 object streams
+ 14 named destinations out of 1000 (max. 500000)
  28731 words of extra memory for PDF output out of 29859 (max. 10000000)
 

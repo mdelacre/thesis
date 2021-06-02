@@ -9,5 +9,6 @@ header-includes:
   - \usepackage{float}
   - \usepackage{sectsty}
 ---
-# Chapitre 4: le $\bf \emph d$ de Cohen avec variances non poolées (article 3)
+# Chapitre 4: reporter le $\bf \emph g^*_s$ de Hedges basé sur l'écart-type non poolé avec le test $\bf \emph t$ de Welch
+
 
