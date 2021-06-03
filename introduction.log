@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.3)  3 JUN 2021 15:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.3)  3 JUN 2021 19:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -537,37 +537,37 @@ Underfull \hbox (badness 1242) in paragraph at lines 76--89
  []
 
 
-Underfull \hbox (badness 2913) in paragraph at lines 90--115
+Underfull \hbox (badness 2443) in paragraph at lines 90--115
 \T1/lmr/m/n/10 aux statis-tiques pour psy-cho-logues [@field_discovering_2013; 
-autres ex-em-ples?]. Cela pour-rait
+@judd_data_2011]. Cela pour-rait
  []
 
 
-LaTeX Warning: Command \` invalid in math mode on input line 134.
+LaTeX Warning: Command \` invalid in math mode on input line 135.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--139
+Underfull \hbox (badness 10000) in paragraph at lines 134--140
 
  []
 
 
-LaTeX Warning: Command \` invalid in math mode on input line 143.
+LaTeX Warning: Command \` invalid in math mode on input line 144.
 
 [1
 
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
-x.map}] [2] [3] [4]
+x.map}] [2] [3] [4] [5]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-74.
+83.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [5] [6] (./introduction.aux)
+) [6] (./introduction.aux)
 Package rerunfilecheck Info: File `introduction.out' has not changed.
 (rerunfilecheck)             Checksum: 0E39B368D26B3021E7796C7870541196;2211.
  ) 
 Here is how much of TeX's memory you used:
- 10218 strings out of 480517
- 151219 string characters out of 5898339
+ 10220 strings out of 480517
+ 151241 string characters out of 5898339
  468345 words of memory out of 5000000
  27684 multiletter control sequences out of 15000+600000
  455283 words of font info for 64 fonts, out of 8000000 for 9000
@@ -594,10 +594,10 @@ ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admi
 n/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users
 /Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/
 Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on introduction.pdf (6 pages, 269621 bytes).
+Output written on introduction.pdf (6 pages, 270687 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
+ 177 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
