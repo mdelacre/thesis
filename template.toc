@@ -1,28 +1,29 @@
 \babel@toc {french}{}
-\contentsline {section}{Chapitre 1: Introduction}{iv}{section*.3}%
-\contentsline {subsubsection}{Ces mesures sont-elles reportées/interprétées?}{viii}{section*.4}%
-\contentsline {subsection}{eFFECT SIZES}{viii}{section*.5}%
-\contentsline {subsubsection}{Pourquoi est-il important de les reporter?}{viii}{section*.6}%
-\contentsline {subsubsection}{Quand oui, quelles mesures sont reportées?}{ix}{section*.7}%
-\contentsline {subsubsection}{Pourquoi jusque là la sauce n'a pas pris?}{xi}{section*.8}%
-\contentsline {section}{Chapitre 2: utiliser le test \(\bf \emph t\) de Welch par défaut}{1}{section*.9}%
-\contentsline {section}{Chapitre 3: utiliser l'ANOVA \(\bf \emph F\) de Welch par défaut}{11}{section*.10}%
-\contentsline {section}{Chapitre 4: reporter le \(\bf \emph g^*_s\) de Hedges basé sur l'écart-type non poolé avec le test \(\bf \emph t\) de Welch}{23}{section*.11}%
-\contentsline {section}{Chapitre 5: les tests d'équivalence (article 4)}{24}{section*.12}%
-\contentsline {section}{Conclusion}{25}{section*.13}%
-\contentsline {subsubsection}{Usage des articles méthodo}{25}{section*.14}%
-\contentsline {subsubsection}{Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes}{25}{section*.15}%
-\contentsline {subsubsection}{Comment écrire/transmettre l'info aux psys}{26}{section*.16}%
-\contentsline {subsubsection}{Recommandations générales}{26}{section*.17}%
-\contentsline {section}{Bibliographie}{27}{section*.18}%
-\contentsline {section}{Annexe(s)}{30}{section*.19}%
-\contentsline {subsection}{Annexe A: erratum}{30}{section*.20}%
-\contentsline {subsubsection}{Why psychologists Should by Default Use Welch's \(t\)-test Instead of Student's \(t\)-test}{30}{section*.21}%
-\contentsline {paragraph}{Erreurs conceptuelles}{30}{section*.22}%
-\contentsline {paragraph}{Mise en forme et Notations}{30}{section*.23}%
-\contentsline {subsubsection}{Taking parametric assumptions very seriously}{31}{section*.24}%
-\contentsline {paragraph}{Erreurs conceptuelles}{31}{section*.25}%
-\contentsline {paragraph}{Mise en forme et Notations}{31}{section*.26}%
-\contentsline {subsubsection}{Effect sizes}{31}{section*.27}%
-\contentsline {subsubsection}{Equivalence tests}{31}{section*.28}%
-\contentsline {subsection}{Annexe B}{32}{section*.29}%
+\contentsline {section}{Chapitre 1: Introduction}{v}{section*.3}%
+\contentsline {subsection}{Effect size {[}faudra glisser quelque part qu'on le fait svt avec une nil-null hypothesis{]}}{ix}{section*.4}%
+\contentsline {subsubsection}{Ces mesures sont-elles reportées/interprétées?}{ix}{section*.5}%
+\contentsline {subsubsection}{Pourquoi est-il important de les reporter?}{x}{section*.6}%
+\contentsline {subsubsection}{Quand oui, quelles mesures sont reportées?}{x}{section*.7}%
+\contentsline {subsubsection}{Quels sont les problèmes liés au report de ces mesures?}{xi}{section*.8}%
+\contentsline {subsubsection}{Pourquoi jusque là la sauce n'a pas pris?}{xiii}{section*.9}%
+\contentsline {section}{Chapitre 2: utiliser le test \(\bf \emph t\) de Welch par défaut}{1}{section*.10}%
+\contentsline {section}{Chapitre 3: utiliser l'ANOVA \(\bf \emph F\) de Welch par défaut}{11}{section*.11}%
+\contentsline {section}{Chapitre 4: reporter le \(\bf \emph g^*_s\) de Hedges basé sur l'écart-type non poolé avec le test \(\bf \emph t\) de Welch}{23}{section*.12}%
+\contentsline {section}{Chapitre 5: les tests d'équivalence (article 4)}{24}{section*.13}%
+\contentsline {section}{Conclusion}{25}{section*.14}%
+\contentsline {subsubsection}{Usage des articles méthodo}{25}{section*.15}%
+\contentsline {subsubsection}{Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes}{25}{section*.16}%
+\contentsline {subsubsection}{Comment écrire/transmettre l'info aux psys}{26}{section*.17}%
+\contentsline {subsubsection}{Recommandations générales}{26}{section*.18}%
+\contentsline {section}{Bibliographie}{27}{section*.19}%
+\contentsline {section}{Annexe(s)}{30}{section*.20}%
+\contentsline {subsection}{Annexe A: erratum}{30}{section*.21}%
+\contentsline {subsubsection}{Why psychologists Should by Default Use Welch's \(t\)-test Instead of Student's \(t\)-test}{30}{section*.22}%
+\contentsline {paragraph}{Erreurs conceptuelles}{30}{section*.23}%
+\contentsline {paragraph}{Mise en forme et Notations}{30}{section*.24}%
+\contentsline {subsubsection}{Taking parametric assumptions very seriously}{31}{section*.25}%
+\contentsline {paragraph}{Erreurs conceptuelles}{31}{section*.26}%
+\contentsline {paragraph}{Mise en forme et Notations}{31}{section*.27}%
+\contentsline {subsubsection}{Effect sizes}{31}{section*.28}%
+\contentsline {subsubsection}{Equivalence tests}{31}{section*.29}%
+\contentsline {subsection}{Annexe B}{32}{section*.30}%

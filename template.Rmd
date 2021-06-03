@@ -1,6 +1,6 @@
 ---
 title: " "
-output:
+output: 
   pdf_document:
     number_sections: FALSE
 geometry: "left = 2.5cm, right = 2cm, top = 2cm, bottom = 2cm"
