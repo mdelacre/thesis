@@ -1,10 +1,10 @@
 \babel@toc {french}{}
 \contentsline {section}{Chapitre 1: Introduction}{iv}{section*.3}%
-\contentsline {section}{Tests d'équivalence}{xi}{section*.4}%
+\contentsline {section}{Tests d'équivalence}{x}{section*.4}%
 \contentsline {section}{Chapitre 2: utiliser le test \(\bf \emph t\) de Welch par défaut}{1}{section*.5}%
 \contentsline {section}{Chapitre 3: utiliser l'ANOVA \(\bf \emph F\) de Welch par défaut}{11}{section*.6}%
 \contentsline {section}{Chapitre 4: reporter le \(\bf \emph g^*_s\) de Hedges basé sur l'écart-type non poolé avec le test \(\bf \emph t\) de Welch}{23}{section*.7}%
-\contentsline {section}{Chapitre 5: les tests d'équivalence (article 4)}{24}{section*.8}%
+\contentsline {section}{Chapitre 5: les tests d'équivalence}{24}{section*.8}%
 \contentsline {section}{Conclusion}{25}{section*.9}%
 \contentsline {subsubsection}{Usage des articles méthodo}{25}{section*.10}%
 \contentsline {subsubsection}{Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes}{26}{section*.11}%
