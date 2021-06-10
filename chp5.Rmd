@@ -11,3 +11,4 @@ header-includes:
 ---
 # Chapitre 5: les tests d'équivalence
 
+L'hypothèse nulle la plus couramment définie est celle d'absence d'effet ou de différence entre les groupes [@nickerson_null_2000]. Parfois, les chercheurs définissent un intervalle de valeur comme hypothèse nulle (lorsqu'ils définissent des hypothèses unilatérales), mais le plus souvent, cet intervalle est borné par la valeur 0 [@nickerson_null_2000].  

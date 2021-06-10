@@ -26,10 +26,13 @@ Au delà des tests d'hypothèse, de nombreux journaux de psychologies encouragen
  
 # Tests d'équivalence
 
-Les mesures de taille d'effet ainsi que leur intervalles de confiance sont parfois vues comme un outil qui permet de combler les limites des tests d'hypothèse. 
+Les mesures de taille d'effet ainsi que leur intervalles de confiance sont parfois vues comme des outils qui permettent de combler les limites des tests d'hypothèse. Une critique fréquemment avancée à l'égard des tests d'hypothèse est le fait qu'un rejet de l'hypothèse nulle ne fournit qu'une idée de la direction de l'effet, sans information relative à l'importance de l'effet étudié. Cette critique repose implicitement sur la conception d'après laquelle l'hypothèse nulle doit être définie comme l'absence d'effet (ou l'absence de différence entre les groupes). Il est vrai que c'est l'hypothèse nulle la plus couramment définie par les chercheurs [@nickerson_null_2000]. 
 
-L'argument suivant se retrouve fréquemment parmi la liste des arguments en défaveur des tests d'hypothèse: la $p$-valeur dépend intrinsèquement de la taille des échantillons. Pour un seuil alpha donné et une certaine différence de moyenne entre les groupes, plus l'échantillon est grand, plus on aura de chance de rejeter l'hypothèse nulle (Fan, 2001; Kirk, 2009; Olejnik & Algina, 2000;
-28 Sullivan & Feinn, 2012). Cela implique que même de minuscules différences pourront être détectées comme étant statistiquement significatives à condition que les échantillons soient assez grands (McBride, Loftis, & Adkins, 1993). Cet argument repose implicitement sur la conception d'après laquelle l'hypothèse nulle doit être définie comme l'absence d'effet (ou l'absence de différence entre les groupes). Il est vrai qu'en général, c'est ce qui est fait [TROUVER REFERENCE]. Pourtant, ce n'est pas une obligation. Plutôt que de percevoir la mesure de taille d'effet comme un palliatif des faiblesses des tests d'hypothèse, nous préférons percevoir ces mesures comme un outil qui permet d'enrichir ces tests d'hypothèse. Utiliser les tailles d'effet *a priori* permettrait la réalisation de tests plus informatifs que le classique test visant à détecter l'absence d'effet (cf. tests d'équivalence). --> Tests d'effets minimaux. 
+Savoir si tester l'hypothèse d'absence d'effet fait l'objet d'énormément de débats depuis plus de 70 ans. Certains chercheurs s'y opposent fermement, alors que d'autres estiment que c'est indispensable (citer pleins de noms). On ne souhaite pas rouvrir ce débat. Mais les deux ne sont pas forcément incompatibles (voir Fraas & Newman). 
+
+
+
+Il est vrai qu'en général, c'est ce qui est fait [TROUVER REFERENCE]. Pourtant, ce n'est pas une obligation. Plutôt que de percevoir la mesure de taille d'effet comme un palliatif des faiblesses des tests d'hypothèse, nous préférons percevoir ces mesures comme un outil qui permet d'enrichir ces tests d'hypothèse. Utiliser les tailles d'effet *a priori* permettrait la réalisation de tests plus informatifs que le classique test visant à détecter l'absence d'effet (cf. tests d'équivalence). --> Tests d'effets minimaux. 
 
 D'après @lakens_practical_2021, un test d'hypothèse (selon l'approche de Nayman-Pearson) vaut la peine à 2 conditions:  
 1) que l'hypothèse nulle soit assez plausible pour que son rejet puisse surprendre au moins certains;  
