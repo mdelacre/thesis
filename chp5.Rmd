@@ -13,7 +13,55 @@ header-includes:
 
 L'hypothèse nulle la plus couramment définie est celle d'absence d'effet ou de différence entre les groupes [@nickerson_null_2000]. Parfois, les chercheurs définissent un intervalle de valeur comme hypothèse nulle, mais le plus souvent, cet intervalle est borné par la valeur 0 [@nickerson_null_2000], on parle alors d'hypothèse unilatérale. Le rejet de l'hypothèse nul constitue alors un soutien en faveur de la présence d'un effet non nul. 
 
-Cependant, il arrive qu'au contraire, les chercheurs désirent tester une *absence* d'effet. A titre d'illustration, @goertzen_detecting_2010 évoquent la situation où un chercheur désire écarter de potentielles covariables de leur analyse, en démontrant préalablement que ces variables ne sont pas corrélées à la variable dépendante. Or, lorsque notre objectif est de montrer un soutien en faveur de l'absence d'effet, les tests traditionnels ne sont plus appropriés. En effet, si un rejet de l'hypothèse nulle constitue un soutien en faveur de la présence d'un effet non nul, au contraire, un non rejet de l'hypothèse nulle ne peut en aucun cas être interprété comme un soutien en faveur de l'absence d'effet [référence?]. Au mieux, le non rejet de l'hypothèse nul nous montre que les donnes ne sont pas incompatibles avec l'hypothèse nulle, mais cela ne veut en aucun cas dire qu'elles ne sont compatibles avec aucune autres hypothèse! Il arrive pourtant fréquemment que des psychologues interprètent le non rejet de l'hypothèse nulle comme l'acceptation de cette dernière. @finch_reporting_2001, par exemple, ont reporté que parmis 150 articles publiés entre 1940 et 1999 dans le *JAP* (*Journal of Applied Psychology*), 38% interprétaient un résultat non significatif comme une acceptation de l'hypothès nulle. Plus récemment, @lakens_equivalence_2017 a noté que l'expression "pas d'effet" a été utilisée dans 108 articles publié dans *Social Psychological and Personality Science* avant août 2016 et que dans presque tous les cas, c'était sur base du non rejet de l'hypothèse nulle que cette conclusion était tirée. 
+Cependant, il arrive qu'au contraire, les chercheurs désirent tester une *absence* d'effet. A titre d'illustration, @goertzen_detecting_2010 évoquent la situation où un chercheur désire écarter de potentielles covariables de leur analyse, en démontrant préalablement que ces variables ne sont pas corrélées à la variable dépendante. Or, lorsque notre objectif est de montrer un soutien en faveur de l'absence d'effet, les tests traditionnels ne sont plus appropriés. En effet, si un rejet de l'hypothèse nulle constitue un soutien en faveur de la présence d'un effet non nul, au contraire, un non rejet de l'hypothèse nulle ne peut en aucun cas être interprété comme un soutien en faveur de l'absence d'effet [référence?]. 
+
+DECRIRE RESULTATS DE MA SIMULATION
+```{r "tauxbeta", echo=FALSE}
+
+#simu_beta <- function(n){
+
+#  mudiff <- seq(.1,1.9,.2)
+#  NRH0 <- NULL
+  
+#  for(j in seq_len(length(mudiff))){
+
+#    m2 <- mudiff[j]  
+#    t <- NULL
+#    pval <- NULL
+    
+#    for (i in seq_len(5000)){
+#      G1 <- rnorm(n,0,1)
+#      G2 <- rnorm(n,m2,1)
+#      res <- t.test(G1,G2,var.equal=TRUE)
+#      t <- c(t, res$statistic)  
+#      pval <- c(pval,res $p.value)  
+#    }
+
+#    NRH0 <- c(NRH0,sum(pval>.05)/length(pval))
+    
+#}
+
+# return(round(NRH0,3))
+ 
+  
+#}
+
+#S1 <- simu_beta(10)
+#S2 <- simu_beta(15)
+#S3 <- simu_beta(20)
+#S4 <- simu_beta(25)
+#S5 <- simu_beta(50)
+#S6 <- simu_beta(100)
+#S7 <- simu_beta(200)
+
+#df <- rbind(S1,S2,S3,S4,S5,S6,S7)
+#colnames(df)=seq(.1,1.9,.2)
+#rownames(df)=c(10,15,20,25,50,100,200)
+
+#write.table(df,"df.txt",sep=";",dec=",")
+```
+
+Au mieux, le non rejet de l'hypothèse nul nous montre que les donnes ne sont pas incompatibles avec l'hypothèse nulle, mais cela ne veut en aucun cas dire qu'elles ne sont compatibles avec aucune autres hypothèse! Il arrive pourtant fréquemment que des psychologues interprètent le non rejet de l'hypothèse nulle comme l'acceptation de cette dernière. @finch_reporting_2001, par exemple, ont reporté que parmis 150 articles publiés entre 1940 et 1999 dans le *JAP* (*Journal of Applied Psychology*), 38% interprétaient un résultat non significatif comme une acceptation de l'hypothès nulle. Plus récemment, @lakens_equivalence_2017 a noté que l'expression "pas d'effet" a été utilisée dans 108 articles publié dans *Social Psychological and Personality Science* avant août 2016 et que dans presque tous les cas, c'était sur base du non rejet de l'hypothèse nulle que cette conclusion était tirée. 
 
 
 
