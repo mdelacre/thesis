@@ -24,6 +24,10 @@ On sait que les chercheurs tendent à privilégier les méthodes qui sont propos
 
 Malgré tout, un logiciel ne fait pas tout et après avoir utilisé le test adéquat, il est important d'être capable de l'interpréter correctement. Les tests font appel à des notions faussement simples telles que les p-valeurs et les distributions d'échantillonnage. A mon sens, le seul moyen d'enseigner correctement ces notions, c'est à travers des simulations. 
 
+D'après Thompson (1999a, cité par @fraas_testing_2000), les chercheurs continuent à utiliser la nil nul hypothesis pour 2 raisons:  (1) la plupart des logiciels partent du postulat que c'est l'hypothèse nulle qu'utilisent les chercheurs et ne donnent pas la possibilité de faire autre chose  (2) les non nil-nul hypotheses incluent un niveau de complexité pas toujours possible à atteindre dans bcp de designs. 
+
+--> Concernant la raison (1), ce n'est plus tellement vrai en 2021. Jamovi, par exemple, contient un package "TOSTER" qui permet de faire des tests d'effets minimaux ET des tests d'équivalence. Il est très important que des logiciels le fassent, car comme disaient @fraas_testing_2000, "unless researchers are able to test non-nil null hypotheses with readily available computer software, they may continue to exclusively use nil null hypothesis" (p.4). 
+
 ### Comment écrire/transmettre l'info aux psys
 Un consultant doit pouvoir parler de langage des psycs, c'est-à-dire décrire et expliquer les méthodes requises d'une manière compréhensible pour les clients [@golinski_expanding_2009]. Est-ce bien de demander à des mathématiciens/Statisticiens d'enseigner les stat aux psy's? Par forcément, car un psychologue spécialisé en méthodo quanti sera plsu à m^mee de comprendre les procédures et méthodes requises par les psys (ex. de la question de la taille d'effet qui n'intéresse pas vraiment les statisticiens; @golinski_expanding_2009). 
 
@@ -38,3 +42,10 @@ Un consultant doit pouvoir parler de langage des psycs, c'est-à-dire décrire e
 
 
 Anecdote, pour quand je parlerai des logiciels et de leur intérêt: les chercheurs font souvent l'erreur de croire qu'il faut vérifier la normalité de la VD en faisant une régression. Dans SPSS, il est assez complexe de le faire car il faut d'abord calculer les résidus, ce qui implique de comprendre que les tests t et ANOVA sont des cas particuliers de régression, puis ensuite a posteriori représenter graphiquement les résidus. C'est chronophage et complexe. Dans Jamovi, par contre, la vérification de la normalité des résidus est automatiquement réalisée lorsqu'on fait un test t. Le rôle des méthodologistes, à mon sens, est de prémacher le travail, pour permettre à d'autres de créer des outils conçus pour améliorer les pratiques de recherche. à partir du moment où c'est automatiquement fait correctement, il devient moins problématique que les psychologues maîtrisent le détail. Débarassés de ces questions, ils pourront peut-être alors plus se focaliser sur l'important pour mieux comprendre et interpréter les résultats de leur tests: càd comprendre la distribution d'échantillonnage, dont pratiquement tt découle.
+
+### Limites
+
+#### pour les tests d'équivalence: 
+
+Déterminer un effet pratiquement significatif reste super compliqué. C'est un fait admis même par les chercheurs qui prônent ces méthodes. "With respect to determining the practical significance of results, Cohen's definitions of small, medium , and large effects represent a good beginning. However, much more systematic research is needed to extend his work... If practical significance is to be a useful concept, its determination must not be ritualized" [@fraas_testing_2000]. Note: je pense que je pourrais parler là des bornes plus normatives que celles de Cohen (cf document word).
+
