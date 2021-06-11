@@ -1,26 +1,26 @@
 \babel@toc {french}{}
-\contentsline {section}{Chapitre 1: Introduction}{v}{section*.3}%
-\contentsline {section}{Intégrer quelque part cette notion d'interprétation qui est une des limites de notre article.}{xi}{section*.4}%
-\contentsline {section}{Chapitre 2: utiliser le test \(\bf \emph t\) de Welch par défaut}{1}{section*.5}%
-\contentsline {section}{Chapitre 3: utiliser l'ANOVA \(\bf \emph F\) de Welch par défaut}{11}{section*.6}%
-\contentsline {section}{Chapitre 4: reporter le \(\bf \emph g^*_s\) de Hedges basé sur l'écart-type non poolé avec le test \(\bf \emph t\) de Welch}{23}{section*.7}%
-\contentsline {section}{Chapitre 5: les tests d'équivalence}{24}{section*.8}%
-\contentsline {section}{Conclusion}{25}{section*.9}%
-\contentsline {subsubsection}{Usage des articles méthodo}{25}{section*.10}%
-\contentsline {subsubsection}{Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes}{26}{section*.11}%
-\contentsline {subsubsection}{Comment écrire/transmettre l'info aux psys}{26}{section*.12}%
-\contentsline {subsubsection}{Recommandations générales}{27}{section*.13}%
-\contentsline {subsubsection}{Limites}{27}{section*.14}%
-\contentsline {paragraph}{pour les tests d'équivalence:}{27}{section*.15}%
-\contentsline {section}{Bibliographie}{29}{section*.16}%
-\contentsline {section}{Annexe(s)}{32}{section*.17}%
-\contentsline {subsection}{Annexe A: erratum}{32}{section*.18}%
-\contentsline {subsubsection}{Why psychologists Should by Default Use Welch's \(t\)-test Instead of Student's \(t\)-test}{32}{section*.19}%
-\contentsline {paragraph}{Erreurs conceptuelles}{32}{section*.20}%
-\contentsline {paragraph}{Mise en forme et Notations}{33}{section*.21}%
-\contentsline {subsubsection}{Taking parametric assumptions very seriously}{33}{section*.22}%
-\contentsline {paragraph}{Erreurs conceptuelles}{33}{section*.23}%
-\contentsline {paragraph}{Mise en forme et Notations}{33}{section*.24}%
-\contentsline {subsubsection}{Effect sizes}{33}{section*.25}%
-\contentsline {subsubsection}{Equivalence tests}{33}{section*.26}%
-\contentsline {subsection}{Annexe B}{34}{section*.27}%
+\contentsline {section}{Chapitre 1: Introduction}{iv}{section*.3}%
+\contentsline {section}{Chapitre 2: utiliser le test \(\bf \emph t\) de Welch par défaut}{1}{section*.4}%
+\contentsline {section}{Chapitre 3: utiliser l'ANOVA \(\bf \emph F\) de Welch par défaut}{11}{section*.5}%
+\contentsline {section}{Chapitre 4: reporter le \(\bf \emph g^*_s\) de Hedges basé sur l'écart-type non poolé avec le test \(\bf \emph t\) de Welch}{23}{section*.6}%
+\contentsline {section}{Chapitre 5: les tests d'équivalence}{24}{section*.7}%
+\contentsline {section}{Conclusion}{36}{section*.8}%
+\contentsline {subsubsection}{Usage des articles méthodo}{36}{section*.9}%
+\contentsline {subsubsection}{Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes}{37}{section*.10}%
+\contentsline {subsubsection}{Comment écrire/transmettre l'info aux psys}{37}{section*.11}%
+\contentsline {subsubsection}{Recommandations générales}{38}{section*.12}%
+\contentsline {subsubsection}{Limites}{38}{section*.13}%
+\contentsline {paragraph}{pour le chapitre 4}{38}{section*.14}%
+\contentsline {paragraph}{pour le chapitre 5}{39}{section*.15}%
+\contentsline {section}{Bibliographie}{40}{section*.16}%
+\contentsline {section}{Annexe(s)}{44}{section*.17}%
+\contentsline {subsection}{Annexe A: erratum}{44}{section*.18}%
+\contentsline {subsubsection}{Why psychologists Should by Default Use Welch's \(t\)-test Instead of Student's \(t\)-test}{44}{section*.19}%
+\contentsline {paragraph}{Erreurs conceptuelles}{44}{section*.20}%
+\contentsline {paragraph}{Mise en forme et Notations}{45}{section*.21}%
+\contentsline {subsubsection}{Taking parametric assumptions very seriously}{45}{section*.22}%
+\contentsline {paragraph}{Erreurs conceptuelles}{45}{section*.23}%
+\contentsline {paragraph}{Mise en forme et Notations}{45}{section*.24}%
+\contentsline {subsubsection}{Effect sizes}{45}{section*.25}%
+\contentsline {subsubsection}{Equivalence tests}{45}{section*.26}%
+\contentsline {subsection}{Annexe B}{46}{section*.27}%
