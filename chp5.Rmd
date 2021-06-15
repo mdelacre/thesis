@@ -9,24 +9,46 @@ header-includes:
   - \usepackage{float}
   - \usepackage{sectsty}
 ---
+
 # Chapitre 5: les tests d'équivalence
 
-L'hypothèse nulle la plus couramment définie est celle d'absence d'effet ou de différence entre les groupes [@nickerson_null_2000]. Parfois, les chercheurs définissent un intervalle de valeur comme hypothèse nulle, mais le plus souvent, cet intervalle est borné par la valeur 0 [@nickerson_null_2000], on parle alors d'hypothèse unilatérale. Le rejet de l'hypothèse nul constitue alors un soutien en faveur de la présence d'un effet non nul. 
+## Introduction du chapitre
 
-Cependant, il arrive qu'au contraire, les chercheurs désirent tester une *absence* d'effet. A titre d'illustration, @goertzen_detecting_2010 évoquent la situation où un chercheur désire écarter de potentielles covariables de leur analyse, en démontrant préalablement que ces variables ne sont pas corrélées à la variable dépendante. Or, lorsque notre objectif est de montrer un soutien en faveur de l'absence d'effet, les tests traditionnels ne sont plus appropriés. En effet, si un rejet de l'hypothèse nulle constitue un soutien en faveur de la présence d'un effet non nul, au contraire, un non rejet de l'hypothèse nulle ne peut en aucun cas être interprété comme un soutien en faveur de l'absence d'effet [référence?]. 
+Lorsqu'on applique un test d'hypothèse, l'hypothèse nulle la plus couramment définie est celle d'absence d'effet ou de différence entre les groupes [@nickerson_null_2000]. Il arrive également parfois que les chercheurs définissent un intervalle de valeur comme hypothèse nulle, mais le plus souvent, cet intervalle est borné par la valeur 0 [@nickerson_null_2000], on parle alors d'hypothèse unilatérale. Avec cette stratégie, le rejet de l'hypothèse nulle constitue un soutien en faveur de la présence d'un effet non nul. Par contre, le non rejet de l'hypothèse nulle ne peut être interprété comme un soutien en faveur de l'absence d'effet. Il arrive pourtant fréquemment que des chercheurs fassent cette erreur d'interprétation. @finch_reporting_2001, par exemple, ont reporté que parmis 150 articles publiés entre 1940 et 1999 dans le *JAP* (*Journal of Applied Psychology*), 38% interprétaient un résultat non significatif comme une acceptation de l'hypothès nulle. Plus récemment, @lakens_equivalence_2017 a noté que l'expression "pas d'effet" a été utilisée dans 108 articles publié dans *Social Psychological and Personality Science* avant août 2016 et que dans presque tous les cas, c'était sur base du non rejet de l'hypothèse nulle que cette conclusion était tirée. 
 
-DECRIRE RESULTATS DE MA SIMULATION
+(1) A travers ce chapitre, notre premier objectif sera d'expliquer pourquoi le non-rejet de l'hypothèse nulle ne peut être assimilé à une acceptation de l'hypothèse nulle. (2) Nous expliquerons ensuite le principe des tests d'équivalence. (3) Nous concluerons ce chapitre sur un article dans lequel nous comparer les tests d'équivalence à une stratégie récement développée par Blume (le $SGPV$).
+
+## Quand veut-on montrer une absence d'effet?
+
+Il arrive que des chercheurs souhaitent obtenir un soutien en faveur d'une absence d'effet. A titre d'illustration, @goertzen_detecting_2010 évoquent la situation où un chercheur désire écarter de potentielles covariables de leur analyse, en démontrant préalablement que ces variables ne sont pas corrélées à la variable dépendante. ESSAYER DE TROUVER ENCORE UN EXEMPLE. Or, on constate que très souvent, 
+
+## (1) Différence entre NRH0 et AH0
+
+Même lorsqu'une vraie différence non nulle entre les moyennes de population existe, il arrive fréquemment que l'on soit amenés à conclure au non rejet de l'hypothèse nulle. A titre d'illustration, nous avons généré des simulations pour un ensemble de 70 scénarios qui différaient en fonction de de la taille des échantillons ($n_j$) et de la différence entre les moyennes des populations dont étaient extraits les échantillons $\mu_1-\mu_2$. Pour chaque scénario, on générait aléatoirement 5000 paires d'échantillons sur lesquels on réalisait un test $t$ de Student pour échantillons indépendants. Dans tous les cas, les deux échantillons étaient extraits de populations normales qui avaient la même variance (cas d'homoscédasticité). Les résultats de la Table 1 représentent, pour chaque scénario, la proportion de tests $t$ associés à une p-valeur supérieure à 5% (soit le risque alpha souvent utilisé par les chercheurs). Cette proportion correspond en fait au taux d'erreur de type II ($\beta$). 
 
 
-# Morceau qui servira peut-être (ou pas)
+```{r "simu", fig.align='center', fig.cap=NULL,echo=FALSE}
+knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illustration/Illustration.png")
+```
+Table: Proportion de $p$-valeurs supérieures à .05 en fonction de $n_j$ et $\mu_1-\mu_2$.
 
-D'après @lakens_practical_2021, un test d'hypothèse (selon l'approche de Nayman-Pearson) vaut la peine à 2 conditions:  
-1) que l'hypothèse nulle soit assez plausible pour que son rejet puisse surprendre au moins certains;  
-2) le chercheur veut appliquer une procédure méthodol qui l'autorise à prendre des décisions quant à la manière d'agir, tout en contrôlant le taux d'erreur. Agir peut vouloir dire: adopter un traitement, une politique, une intervention, ou abandonner un domaine de rechercher, modifier une manipulation, ou de faire un certain type de déclaration ou revendication.  
-*One of the most widely suggested improvements of the use of p values is to replace null-ypothesis tests (where the goal is to reject ann effect of exactly 0) with tests of range predictions (where the goal is to reject effects that fall outside of the range of effects that is predicted or considered practically important) [@lakens_practical_2021]. 
+*Note*. $n_j$ = nombre de sujets au sein de chaque groupe $(j=1,2)$. 5000 itérations par condition.
 
-Un autre argument en défaveur de la p-valeur est la tendance des chercheurs à interpréter un effet NS comme l'acceptation de l'hypothèse nulle (Schmidt, 1996, cité par Harris, 1997). Une fois encore, l'usage des tailles d'effet peut aider à cette fin, non pas en "remplaçant" les tests d'hypothèses, mais en les complétant. --> Tests d'équivalence. 
+In order to assess the quality of
+281 estimators under realistic deviations from the normality assumption, we referred to the
+282 review of Cain, Zhang, and Yuan (2017). Cain et al. (2017) investigated 1,567 univariate
+283 distributions from 194 studies published by authors in Psychological Science (from January
+284 2013 to June 2014) and the American Education Research Journal (from January 2010 to
+285 June 2014). For each distribution, they computed Fisher’s skewness
 
+
+La **table 1** montre la proportion d'itérations ayant amené à conclure au non rejet de l'hypothèse nulle, 
+
+Table 1 presents the proportion of sample correlations of each magnitude for each of the sample size conditions. It is important to point out that we are not focusing on statistical significance in this example, but instead on the magnitude of the correlation, as we expect that that would be the most important factor in trying to delineate whether a relationship exists among two variables. What is evident from the table is that it would be extremely difficult to ‘prove’ a lack of association when sample sizes are small to
+moderate. With a sample size of N ¼ 10, approximately 75% of sample correlation values (in absolute value) exceed r ¼ :1, 40% exceed r ¼ :3, and even 15% exceed r ¼ :5. With larger sample sizes there is still substantial variability in correlation coefficients. With a sample size of N ¼ 20, approximately 40% of sample correlation values exceed r ¼ :2, and 20% exceed r ¼ :3. Even with a sample size of N ¼ 100, more than 30% of sample correlation values exceed r ¼ :1.
+
+
+Sur le long terme, idéalement, on voudrait que la proportion d'études qui amènent au conclure au non rejet de l'hypothèse nulle soit la plus faible possible (cette proportion est le taux d'erreur de deuxième espèce, $\beta$). 
 
 
 ```{r "tauxbeta", echo=FALSE}
@@ -74,10 +96,19 @@ Un autre argument en défaveur de la p-valeur est la tendance des chercheurs à 
 #write.table(df,"df.txt",sep=";",dec=",")
 ```
 
-Au mieux, le non rejet de l'hypothèse nul nous montre que les donnes ne sont pas incompatibles avec l'hypothèse nulle, mais cela ne veut en aucun cas dire qu'elles ne sont compatibles avec aucune autres hypothèse! Il arrive pourtant fréquemment que des psychologues interprètent le non rejet de l'hypothèse nulle comme l'acceptation de cette dernière. @finch_reporting_2001, par exemple, ont reporté que parmis 150 articles publiés entre 1940 et 1999 dans le *JAP* (*Journal of Applied Psychology*), 38% interprétaient un résultat non significatif comme une acceptation de l'hypothès nulle. Plus récemment, @lakens_equivalence_2017 a noté que l'expression "pas d'effet" a été utilisée dans 108 articles publié dans *Social Psychological and Personality Science* avant août 2016 et que dans presque tous les cas, c'était sur base du non rejet de l'hypothèse nulle que cette conclusion était tirée. 
+-Au mieux, le non rejet de l'hypothèse nulle nous montre que les données ne sont pas incompatibles avec l'hypothèse nulle, mais cela ne veut en aucun cas dire qu'elles ne sont compatibles avec aucune autres hypothèse!  
 
 
+## Principe du test d'équivalence
 
+## Morceau qui servira peut-être (ou pas)
+
+D'après @lakens_practical_2021, un test d'hypothèse (selon l'approche de Nayman-Pearson) vaut la peine à 2 conditions:  
+1) que l'hypothèse nulle soit assez plausible pour que son rejet puisse surprendre au moins certains;  
+2) le chercheur veut appliquer une procédure méthodol qui l'autorise à prendre des décisions quant à la manière d'agir, tout en contrôlant le taux d'erreur. Agir peut vouloir dire: adopter un traitement, une politique, une intervention, ou abandonner un domaine de rechercher, modifier une manipulation, ou de faire un certain type de déclaration ou revendication.  
+*One of the most widely suggested improvements of the use of p values is to replace null-ypothesis tests (where the goal is to reject ann effect of exactly 0) with tests of range predictions (where the goal is to reject effects that fall outside of the range of effects that is predicted or considered practically important) [@lakens_practical_2021]. 
+
+Un autre argument en défaveur de la p-valeur est la tendance des chercheurs à interpréter un effet NS comme l'acceptation de l'hypothèse nulle (Schmidt, 1996, cité par Harris, 1997). Une fois encore, l'usage des tailles d'effet peut aider à cette fin, non pas en "remplaçant" les tests d'hypothèses, mais en les complétant. --> Tests d'équivalence. 
 
 
 

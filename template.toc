@@ -4,24 +4,28 @@
 \contentsline {section}{Chapitre 3: utiliser l'ANOVA \(\bf \emph F\) de Welch par défaut}{11}{section*.5}%
 \contentsline {section}{Chapitre 4: reporter le \(\bf \emph g^*_s\) de Hedges basé sur l'écart-type non poolé avec le test \(\bf \emph t\) de Welch}{23}{section*.6}%
 \contentsline {section}{Chapitre 5: les tests d'équivalence}{24}{section*.7}%
-\contentsline {section}{Morceau qui servira peut-être (ou pas)}{24}{section*.8}%
-\contentsline {section}{Conclusion}{37}{section*.9}%
-\contentsline {subsubsection}{Usage des articles méthodo}{37}{section*.10}%
-\contentsline {subsubsection}{Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes}{38}{section*.11}%
-\contentsline {subsubsection}{Comment écrire/transmettre l'info aux psys}{38}{section*.12}%
-\contentsline {subsubsection}{Recommandations générales}{39}{section*.13}%
-\contentsline {subsubsection}{Limites}{39}{section*.14}%
-\contentsline {paragraph}{pour le chapitre 4}{39}{section*.15}%
-\contentsline {paragraph}{pour le chapitre 5}{40}{section*.16}%
-\contentsline {section}{Bibliographie}{41}{section*.17}%
-\contentsline {section}{Annexe(s)}{45}{section*.18}%
-\contentsline {subsection}{Annexe A: erratum}{45}{section*.19}%
-\contentsline {subsubsection}{Why psychologists Should by Default Use Welch's \(t\)-test Instead of Student's \(t\)-test}{45}{section*.20}%
-\contentsline {paragraph}{Erreurs conceptuelles}{45}{section*.21}%
-\contentsline {paragraph}{Mise en forme et Notations}{46}{section*.22}%
-\contentsline {subsubsection}{Taking parametric assumptions very seriously}{46}{section*.23}%
-\contentsline {paragraph}{Erreurs conceptuelles}{46}{section*.24}%
-\contentsline {paragraph}{Mise en forme et Notations}{46}{section*.25}%
-\contentsline {subsubsection}{Effect sizes}{46}{section*.26}%
-\contentsline {subsubsection}{Equivalence tests}{46}{section*.27}%
-\contentsline {subsection}{Annexe B}{47}{section*.28}%
+\contentsline {subsection}{Introduction du chapitre}{24}{section*.8}%
+\contentsline {subsection}{Quand veut-on montrer une absence d'effet?}{24}{section*.9}%
+\contentsline {subsection}{(1) Différence entre NRH0 et AH0}{25}{section*.10}%
+\contentsline {subsection}{Principe du test d'équivalence}{26}{section*.11}%
+\contentsline {subsection}{Morceau qui servira peut-être (ou pas)}{26}{section*.12}%
+\contentsline {section}{Conclusion}{39}{section*.13}%
+\contentsline {subsubsection}{Usage des articles méthodo}{39}{section*.14}%
+\contentsline {subsubsection}{Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes}{40}{section*.15}%
+\contentsline {subsubsection}{Comment écrire/transmettre l'info aux psys}{40}{section*.16}%
+\contentsline {subsubsection}{Recommandations générales}{41}{section*.17}%
+\contentsline {subsubsection}{Limites}{41}{section*.18}%
+\contentsline {paragraph}{pour le chapitre 4}{41}{section*.19}%
+\contentsline {paragraph}{pour le chapitre 5}{42}{section*.20}%
+\contentsline {section}{Bibliographie}{43}{section*.21}%
+\contentsline {section}{Annexe(s)}{47}{section*.22}%
+\contentsline {subsection}{Annexe A: erratum}{47}{section*.23}%
+\contentsline {subsubsection}{Why psychologists Should by Default Use Welch's \(t\)-test Instead of Student's \(t\)-test}{47}{section*.24}%
+\contentsline {paragraph}{Erreurs conceptuelles}{47}{section*.25}%
+\contentsline {paragraph}{Mise en forme et Notations}{48}{section*.26}%
+\contentsline {subsubsection}{Taking parametric assumptions very seriously}{48}{section*.27}%
+\contentsline {paragraph}{Erreurs conceptuelles}{48}{section*.28}%
+\contentsline {paragraph}{Mise en forme et Notations}{48}{section*.29}%
+\contentsline {subsubsection}{Effect sizes}{48}{section*.30}%
+\contentsline {subsubsection}{Equivalence tests}{48}{section*.31}%
+\contentsline {subsection}{Annexe B}{49}{section*.32}%
