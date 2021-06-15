@@ -24,31 +24,23 @@ Il arrive que des chercheurs souhaitent obtenir un soutien en faveur d'une absen
 
 ## (1) Différence entre NRH0 et AH0
 
-Même lorsqu'une vraie différence non nulle entre les moyennes de population existe, il arrive fréquemment que l'on soit amenés à conclure au non rejet de l'hypothèse nulle. A titre d'illustration, nous avons généré des simulations pour un ensemble de 70 scénarios qui différaient en fonction de de la taille des échantillons ($n_j$) et de la différence entre les moyennes des populations dont étaient extraits les échantillons $\mu_1-\mu_2$. Pour chaque scénario, on générait aléatoirement 5000 paires d'échantillons sur lesquels on réalisait un test $t$ de Student pour échantillons indépendants. Dans tous les cas, les deux échantillons étaient extraits de populations normales qui avaient la même variance (cas d'homoscédasticité). Les résultats de la Table 1 représentent, pour chaque scénario, la proportion de tests $t$ associés à une p-valeur supérieure à 5% (soit le risque alpha souvent utilisé par les chercheurs). Cette proportion correspond en fait au taux d'erreur de type II ($\beta$). 
+Le premier problème avec la stratégie traditionnelle est le fait que conclure au non rejet de l'hypothèse nulle ne signifie pas que l'on puisse accepter l'hypothèse nulle. En pratique, même lorsqu'une vraie différence non nulle existe entre les moyennes de population, il arrive que l'on soit amenés à conclure au non rejet de l'hypothèse nulle. *Dans le cas idéal où nous aurions un échantillon de taille suffisante pour détecter l'effet étudié avec suffisamment de puissance, ce taux resterait assez faible bien que non nul. Et dans la mesure où souvent, la puissance dans les études est assez basses, ce taux peut encore augmenter. (retrouver projet de recherche pour décrire un peu ça sur base de quelques références)*. Afin de l'illustrer, nous avons réalisé des simulations Monte Carlo pour un ensemble de 70 scénarios qui diffèrent en fonction de la taille des échantillons ($n_j$) et de la différence entre les moyennes des deux populations dont sont extraits les échantillons ($\mu_1-\mu_2$; voir Table 1). Pour chaque scénario, à 5000 reprises, nous avons généré une paire d'échantillons, réalisé un test $t$ de Student pour échantillons indépendants et extrait la $p$-valeur du test, de sorte à obtenir au final 5000 $p$-valeur par scénario. Les résultats qui apparaissent au sein de la table 1 correspondent, pour chaque scénario, à la proportion de $p$-valeurs *supérieures* à .05, le risque alpha communément accepté par les chercheurs \footnote{Cette proportion est ce qu'on appelle communément $\beta$, le taux d'erreur de type II.} [référence?]. Etant donné que dans tous les scénarios envisagés, la différence entre les moyennes de population est non nulle, on souhaiterait sur le long terme conclure le plus souvent possible au rejet de l'hypothèse nulle. Dit autrement, on souhaiterait que $\beta$ soit le plus faible possible. Pourtant, il s'avère très élevé pour certains scénarios. Par exemple, avec 10 sujets par groupes et une taille d'effet standardisée de .1, on conclut dans près de 95% des cas au non rejet de l'hypothèse nulle. On peut constater qu'avec une telle taille d'effet, même avec 200 sujets par groupes, on est encore amenés à conclure au non rejet de l'hypothèse nulle plus de 8 fois sur 10.
 
+Le deuxième problème avec l'approche traditionnelle est que la probabilité de détecter l'absence d'effet va diminuer non seulement (1) quand la taille des échantillons augmente, mais également (2) quand l'erreur (la variabilité des scores au sein de chaque groupe) va augmenter [Meyners, voir power point]. On se retrouve alors dans la situation paradoxale où la probabilité de démontrer l'absence d'effet augmente lorsque des petits échantillons sont associés à une grande erreur de mesure [Meyners].  
+
+Un test a de bonnes propriétés asymptotiques si sa puissance augmente à mesure que la taille des échantillons grandit. Or, plus les échantillons sont grands, *moins* il est probable de conclure au non rejet de l'hypothèse nulle (soit en l'occurence, ce que les chercheurs tentent de démontrer lorsqu'ils postulent en faveur d'une absence d'effet). Ils se retrouvent alors dans une situation paradoxale où plus l'échantillon est grand, moins ils ont de chance de démontrer ce qu'ils veulent démontrer. 
 
 ```{r "simu", fig.align='center', fig.cap=NULL,echo=FALSE}
 knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illustration/Illustration.png")
 ```
-Table: Proportion de $p$-valeurs supérieures à .05 en fonction de $n_j$ et $\mu_1-\mu_2$.
-
-*Note*. $n_j$ = nombre de sujets au sein de chaque groupe $(j=1,2)$. 5000 itérations par condition.
-
-In order to assess the quality of
-281 estimators under realistic deviations from the normality assumption, we referred to the
-282 review of Cain, Zhang, and Yuan (2017). Cain et al. (2017) investigated 1,567 univariate
-283 distributions from 194 studies published by authors in Psychological Science (from January
-284 2013 to June 2014) and the American Education Research Journal (from January 2010 to
-285 June 2014). For each distribution, they computed Fisher’s skewness
+Table: Proportion de $p$-valeurs supérieures à .05 ($\beta$) en fonction de $n_j$ et $\mu_1-\mu_2$.
+*Note*. Pour chaque scénario, les deux échantillons sont toujours de même taille ($n_j=n_1=n_2$) et sont extraits de populations se distribuant normalement et ayant la même variance ($\sigma_1=\sigma_2=\sigma$). La moyenne de la première population ($\mu_1$) vaut systématiquement 0, et celle de la deuxième population ($\mu_2$) varie de sorte à obtenir la différence de moyenne $\mu_1-\mu_2$ désirée. Par ailleurs, $\sigma$ vaut systématiquement 1, si bien que la différence de moyenne brute est égale au $\delta$ de Cohen. 
 
 
-La **table 1** montre la proportion d'itérations ayant amené à conclure au non rejet de l'hypothèse nulle, 
 
-Table 1 presents the proportion of sample correlations of each magnitude for each of the sample size conditions. It is important to point out that we are not focusing on statistical significance in this example, but instead on the magnitude of the correlation, as we expect that that would be the most important factor in trying to delineate whether a relationship exists among two variables. What is evident from the table is that it would be extremely difficult to ‘prove’ a lack of association when sample sizes are small to
 moderate. With a sample size of N ¼ 10, approximately 75% of sample correlation values (in absolute value) exceed r ¼ :1, 40% exceed r ¼ :3, and even 15% exceed r ¼ :5. With larger sample sizes there is still substantial variability in correlation coefficients. With a sample size of N ¼ 20, approximately 40% of sample correlation values exceed r ¼ :2, and 20% exceed r ¼ :3. Even with a sample size of N ¼ 100, more than 30% of sample correlation values exceed r ¼ :1.
 
 
-Sur le long terme, idéalement, on voudrait que la proportion d'études qui amènent au conclure au non rejet de l'hypothèse nulle soit la plus faible possible (cette proportion est le taux d'erreur de deuxième espèce, $\beta$). 
 
 
 ```{r "tauxbeta", echo=FALSE}
