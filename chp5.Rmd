@@ -16,6 +16,19 @@ L'hypothèse nulle la plus couramment définie est celle d'absence d'effet ou de
 Cependant, il arrive qu'au contraire, les chercheurs désirent tester une *absence* d'effet. A titre d'illustration, @goertzen_detecting_2010 évoquent la situation où un chercheur désire écarter de potentielles covariables de leur analyse, en démontrant préalablement que ces variables ne sont pas corrélées à la variable dépendante. Or, lorsque notre objectif est de montrer un soutien en faveur de l'absence d'effet, les tests traditionnels ne sont plus appropriés. En effet, si un rejet de l'hypothèse nulle constitue un soutien en faveur de la présence d'un effet non nul, au contraire, un non rejet de l'hypothèse nulle ne peut en aucun cas être interprété comme un soutien en faveur de l'absence d'effet [référence?]. 
 
 DECRIRE RESULTATS DE MA SIMULATION
+
+
+# Morceau qui servira peut-être (ou pas)
+
+D'après @lakens_practical_2021, un test d'hypothèse (selon l'approche de Nayman-Pearson) vaut la peine à 2 conditions:  
+1) que l'hypothèse nulle soit assez plausible pour que son rejet puisse surprendre au moins certains;  
+2) le chercheur veut appliquer une procédure méthodol qui l'autorise à prendre des décisions quant à la manière d'agir, tout en contrôlant le taux d'erreur. Agir peut vouloir dire: adopter un traitement, une politique, une intervention, ou abandonner un domaine de rechercher, modifier une manipulation, ou de faire un certain type de déclaration ou revendication.  
+*One of the most widely suggested improvements of the use of p values is to replace null-ypothesis tests (where the goal is to reject ann effect of exactly 0) with tests of range predictions (where the goal is to reject effects that fall outside of the range of effects that is predicted or considered practically important) [@lakens_practical_2021]. 
+
+Un autre argument en défaveur de la p-valeur est la tendance des chercheurs à interpréter un effet NS comme l'acceptation de l'hypothèse nulle (Schmidt, 1996, cité par Harris, 1997). Une fois encore, l'usage des tailles d'effet peut aider à cette fin, non pas en "remplaçant" les tests d'hypothèses, mais en les complétant. --> Tests d'équivalence. 
+
+
+
 ```{r "tauxbeta", echo=FALSE}
 
 #simu_beta <- function(n){
@@ -121,4 +134,5 @@ knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesi
 ```{r "chp5p11", fig.align='center', fig.cap=NULL,echo=FALSE}
 knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.png")
 ```
+
 
