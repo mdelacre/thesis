@@ -8,6 +8,9 @@ output:
 header-includes:
   - \usepackage{float}
   - \usepackage{sectsty}
+  - \usepackage{lscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
 ---
 
 # Chapitre 5: les tests d'équivalence
@@ -16,33 +19,15 @@ Lorsqu'on applique un test d'hypothèse, l'hypothèse nulle la plus couramment d
 
 A travers ce chapitre, notre premier objectif sera d'expliquer pourquoi interpréter le non rejet de l'hypothèse nulle comme un soutien en faveur d'une absence d'effet n'est pas une bonne stratégie. Nous introduirons ensuite les tests d'équivalence qui permettent d'obtenir un soutien en faveur d'un effet jugé non pertinent. Pour finir, nous présenterons un article dans lequel nous comparons les tests d'équivalence à la *SGPV* (Second Generation P-value), une stratégie récemment développée Blume [@blume_second-generation_2018].
 
-## Interpréter le non rejet de l'hypothèse nulle comme une preuve d'absence d'effets
+## Limites de l'approche traditionnelle
 
-Lorsqu'on teste une hypothèse nulle, il y a deux conclusions possibles: soit ont la rejette (et ont conclut alors en faveur de l'hypothèse alternative) soit on ne la rejette pas. Ne pas rejeter l'hypothèse nulle ne permet pas de conclure en faveur de cette dernière. Au mieux, cela nous montre que les données ne sont pas incompatibles avec l'hypothèse nulle, mais cela ne veut en aucun cas dire qu'elles ne sont compatibles avec aucune autres hypothèse.  Afin de l'illustrer, la Table 1 résume les résultats de simulations Monte Carlo que nous avons réalisées pour un ensemble de 70 scénarios qui varient en fonction de la taille des échantillons ($n_j$) et de la différence entre les moyennes des deux populations dont sont extraits les échantillons ($\mu_1-\mu_2$). Pour chaque scénario, à 5000 reprises, nous avons généré une paire d'échantillons, réalisé un test $t$ de Student pour échantillons indépendants et extrait la $p$-valeur du test, de sorte à obtenir au final 5000 $p$-valeur. Pour finir, nous avons calculé la proportion de $p$-valeurs supérieures à .05 [le risque alpha typiquement accepté, @meyners_equivalence_2012]. Cette proportion correspond au taux d'erreur de type II. Dans la mesure où une vraie différence entre les moyennes de population existe pour l'ensemble des scénarios envisagés, nous souhaiterions que ce taux d'erreur soit le plus faible possible. Pourtant, il est très élevé dans certains cas. Par exemple, on échouera à détecter un effet standardisé de taille .1 dans près de 95% des cas avec seulement 10 sujets par groupes, et on continuera à échouer dans plus de 80% des cas avec 200 sujets par groupes. 
+Lorsqu'on teste une hypothèse nulle, il y a deux conclusions possibles: soit ont la rejette (et ont conclut alors en faveur de l'hypothèse alternative) soit on ne la rejette pas. Ne pas rejeter l'hypothèse nulle ne permet pas de conclure en faveur de cette dernière. Au mieux, cela nous montre que les données ne sont pas incompatibles avec l'hypothèse nulle, mais cela ne veut en aucun cas dire qu'elles ne sont compatibles avec aucune autres hypothèse.  Afin de l'illustrer, la Table 1 résume les résultats de simulations Monte Carlo pour un ensemble de 70 scénarios qui varient en fonction de la taille des échantillons ($n_j$) et de la différence entre les moyennes des deux populations dont sont extraits les échantillons ($\mu_1-\mu_2$). Pour chaque scénario, à 5000 reprises, nous avons généré une paire d'échantillons, réalisé un test $t$ de Student pour échantillons indépendants et extrait la $p$-valeur du test. Ensuite, nous avons calculé la proportion de $p$-valeurs supérieures à .05 [le risque alpha typiquement accepté, @meyners_equivalence_2012]. Cette proportion correspond au taux d'erreur de type II (communément appelé $\beta$). 
 
-*COMMENT REDUIRE L ESPACE AVANT ET APRES UNE FIGURE? Recherche en ligne!*
-Table 1.  
-*Proportion de $p$-valeurs supérieures à .05 ($\beta$) en fonction de $n_j$ et $\mu_1-\mu_2$*.
 ```{r "simu", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illustration/Illustration.png")
+knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illustration/Table 1.png")
 ```
-*Note*. Pour chaque scénario, les deux échantillons sont toujours de même taille ($n_j=n_1=n_2$) et sont extraits de populations se distribuant normalement et ayant la même variance ($\sigma_1=\sigma_2=\sigma$). La moyenne de la première population ($\mu_1$) vaut systématiquement 0, et celle de la deuxième population ($\mu_2$) varie de sorte à obtenir la différence de moyenne $\mu_1-\mu_2$ désirée. Par ailleurs, $\sigma$ vaut systématiquement 1, si bien que la différence de moyenne brute est égale au $\delta$ de Cohen. 
 
-
-1) Manque de puissance des études qui fait que svt, on va NRH0 parce qu'on n'est pas capable de détecter un effet. 
-Le premier problème avec la stratégie traditionnelle est le fait que conclure au non rejet de l'hypothèse nulle ne signifie pas que l'on puisse accepter l'hypothèse nulle. En pratique, même lorsqu'une vraie différence non nulle existe entre les moyennes de population, il arrive que l'on soit amenés à conclure au non rejet de l'hypothèse nulle. *Dans le cas idéal où nous aurions un échantillon de taille suffisante pour détecter l'effet étudié avec suffisamment de puissance, ce taux resterait assez faible bien que non nul. Et dans la mesure où souvent, la puissance dans les études est assez basses, ce taux peut encore augmenter. (retrouver projet de recherche pour décrire un peu ça sur base de quelques références)*. 
-
-Le deuxième problème avec l'approche traditionnelle est que la probabilité de détecter l'absence d'effet va diminuer non seulement (1) quand la taille des échantillons augmente, mais également (2) quand l'erreur (la variabilité des scores au sein de chaque groupe) va augmenter [Meyners, voir power point]. On se retrouve alors dans la situation paradoxale où la probabilité de démontrer l'absence d'effet augmente lorsque des petits échantillons sont associés à une grande erreur de mesure [Meyners].  
-
-Un test a de bonnes propriétés asymptotiques si sa puissance augmente à mesure que la taille des échantillons grandit. Or, plus les échantillons sont grands, *moins* il est probable de conclure au non rejet de l'hypothèse nulle (soit en l'occurence, ce que les chercheurs tentent de démontrer lorsqu'ils postulent en faveur d'une absence d'effet). Ils se retrouvent alors dans une situation paradoxale où plus l'échantillon est grand, moins ils ont de chance de démontrer ce qu'ils veulent démontrer. 
-
-
-
-
-moderate. With a sample size of N ¼ 10, approximately 75% of sample correlation values (in absolute value) exceed r ¼ :1, 40% exceed r ¼ :3, and even 15% exceed r ¼ :5. With larger sample sizes there is still substantial variability in correlation coefficients. With a sample size of N ¼ 20, approximately 40% of sample correlation values exceed r ¼ :2, and 20% exceed r ¼ :3. Even with a sample size of N ¼ 100, more than 30% of sample correlation values exceed r ¼ :1.
-
-
-
+Dans la mesure où une vraie différence entre les moyennes de population existe pour l'ensemble des scénarios envisagés, la conclusion adéquate serait le rejet de l'hypothèse nulle. Pourtant, $\beta$ est très élevé dans certains cas. Par exemple, avec 10 sujets par groupes, on ne détectera pas un effet standardisé de taille .1 dans près de 95% des cas. Avec 200 sujets par groupe, on ne le détectera toujours pas dans 80% des cas. Cela se justifie par un manque de puissance des tests réalisés, ce qui démontre bien qu'un non rejet de l'hypothèse nulle n'est pas forcément synonyme d'acceptation de l'hypothèse nulle. Il peut en fait signifier deux choses: soit qu'il n'y a pas de différence entre les moyennes des populations (ou autrement dit, que les différences observées sont dûes au hasard), soit que nous manquions de puissance pour détecter la différence. Or, ce manque de puissance est récurrent dans la littérature, comme tendent à le montrer diverses méta-analyses [voir par exemple @button_power_2013; @bakker_rules_2012; @funder_improving_2014]. Typiquement, la taille des échantillons récoltés est telle que la puissance des tests pour détecter un effet de taille moyenne varierait approximativement entre .45 et .65 (et serait nécessairement encore plus faible pour des effets plus petits) [@funder_improving_2014]. C'est d'autant plus problématique que l'argument de la puissance est rarement pris en compte pour justifier la taille des échantillons dans les analyses [@bakker_rules_2012], et ce malgré les recommandations fréquentes de mettre en oeuvre  des analyses de puissance a priori pour déterminer la taille de l’échantillon nécessaire à l’atteinte d’une puissance suffisante [voir par exemple @bakker_rules_2012; @braver_continuously_2014; @button_power_2013; @perugini_safeguard_2014; @simmons_false-positive_2011; @stroebe_are_2016]. Un autre problème lié est le fait que la probabilité de détecter l'absence d'effet, via l'approche traditionnel, va diminuer non seulement quand la taille des échantillons augmente, mais également quand l'erreur (la variabilité des scores au sein de chaque groupe) va augmenter. On se retrouve alors dans la situation paradoxale où la probabilité de démontrer l'absence d'effet sera la plus élevée lorsque des petits échantillons sont associés à une grande erreur de mesure [@meyners_equivalence_2012]. 
 
 ```{r "tauxbeta", echo=FALSE}
 
@@ -88,8 +73,6 @@ moderate. With a sample size of N ¼ 10, approximately 75% of sample correlation
 
 #write.table(df,"df.txt",sep=";",dec=",")
 ```
-
-
 
 ## Principe du test d'équivalence
 

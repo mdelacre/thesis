@@ -15,6 +15,9 @@ header-includes:
   - \usepackage{dcolumn}
   - \usepackage{natbib} \bibliographystyle{apalike}
   - \usepackage[nottoc, numbib]{tocbibind}
+  - \usepackage{lscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
 
 bibliography: bibliography.bib
 lang: fr
