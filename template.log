@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.7)  16 JUN 2021 16:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.7)  17 JUN 2021 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -637,7 +637,7 @@ Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with paralist package,
 (french.ldf)             reported on input line 113.
 LaTeX Info: Redefining \up on input line 113.
-<C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png, id=100, 225
+<C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png, id=116, 225
 .84375pt x 225.84375pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png Graphic
  file (type png)
@@ -684,7 +684,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 1194) in paragraph at lines 14--14
+Underfull \hbox (badness 1194) in paragraph at lines 18--18
  [][] []\T1/lmr/m/n/12 Importance des simulations et des logiciels mordernes po
 ur enseigner les 
  []
@@ -704,7 +704,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 492.
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--1.pdf, id=207, 597.50829pt x 845.0471pt>
+-1.pdf, id=227, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-1.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -713,7 +713,7 @@ Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
 is/Chapitre 2/Chapitre 2-1.pdf  used on input line 494.
 (pdftex.def)             Requested size: 452.21463pt x 639.56046pt.
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--2.pdf, id=208, 597.50829pt x 845.0471pt>
+-2.pdf, id=228, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-2.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -725,7 +725,7 @@ is/Chapitre 2/Chapitre 2-2.pdf  used on input line 496.
 e 2-1.pdf>] [2 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapit
 re 2/Chapitre 2-2.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--3.pdf, id=297, 597.50829pt x 845.0471pt>
+-3.pdf, id=317, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-3.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -736,7 +736,7 @@ is/Chapitre 2/Chapitre 2-3.pdf  used on input line 498.
 [3 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
 e 2-3.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--4.pdf, id=335, 597.50829pt x 845.0471pt>
+-4.pdf, id=356, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-4.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -747,7 +747,7 @@ is/Chapitre 2/Chapitre 2-4.pdf  used on input line 500.
 [4 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
 e 2-4.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--5.pdf, id=424, 597.50829pt x 845.0471pt>
+-5.pdf, id=444, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-5.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -758,7 +758,7 @@ is/Chapitre 2/Chapitre 2-5.pdf  used on input line 502.
 [5 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
 e 2-5.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--6.pdf, id=525, 597.50829pt x 845.0471pt>
+-6.pdf, id=545, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-6.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -769,7 +769,7 @@ is/Chapitre 2/Chapitre 2-6.pdf  used on input line 504.
 [6 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
 e 2-6.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--7.pdf, id=555, 597.50829pt x 845.0471pt>
+-7.pdf, id=575, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-7.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -780,7 +780,7 @@ is/Chapitre 2/Chapitre 2-7.pdf  used on input line 506.
 [7 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
 e 2-7.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--8.pdf, id=586, 597.50829pt x 845.0471pt>
+-8.pdf, id=606, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-8.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -791,7 +791,7 @@ is/Chapitre 2/Chapitre 2-8.pdf  used on input line 508.
 [8 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
 e 2-8.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--9.pdf, id=641, 597.50829pt x 845.0471pt>
+-9.pdf, id=661, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-9.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -802,7 +802,7 @@ is/Chapitre 2/Chapitre 2-9.pdf  used on input line 510.
 [9 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitr
 e 2-9.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2
--10.pdf, id=680, 597.50829pt x 845.0471pt>
+-10.pdf, id=701, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapi
 tre 2-10.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
@@ -813,7 +813,7 @@ is/Chapitre 2/Chapitre 2-10.pdf  used on input line 512.
 [10 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapit
 re 2-10.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3
--1.pdf, id=724, 597.50829pt x 845.0471pt>
+-1.pdf, id=744, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapi
 tre 3-1.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
@@ -822,7 +822,7 @@ Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
 is/Chapitre 3/Chapitre 3-1.pdf  used on input line 521.
 (pdftex.def)             Requested size: 452.21463pt x 639.56046pt.
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3
--2.pdf, id=725, 597.50829pt x 845.0471pt>
+-2.pdf, id=745, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapi
 tre 3-2.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
@@ -834,7 +834,7 @@ is/Chapitre 3/Chapitre 3-2.pdf  used on input line 523.
 re 3-1.pdf>] [12 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chap
 itre 3/Chapitre 3-2.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3
--3.pdf, id=793, 597.50829pt x 845.0471pt>
+-3.pdf, id=813, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapi
 tre 3-3.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
@@ -845,7 +845,7 @@ is/Chapitre 3/Chapitre 3-3.pdf  used on input line 525.
 [13 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
 re 3-3.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3
--4.pdf, id=829, 597.50829pt x 845.0471pt>
+-4.pdf, id=849, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapi
 tre 3-4.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
@@ -856,7 +856,7 @@ is/Chapitre 3/Chapitre 3-4.pdf  used on input line 527.
 [14 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
 re 3-4.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3
--5.pdf, id=988, 597.50829pt x 845.0471pt>
+-5.pdf, id=1008, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapi
 tre 3-5.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
@@ -867,7 +867,7 @@ is/Chapitre 3/Chapitre 3-5.pdf  used on input line 529.
 [15 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
 re 3-5.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3
--6.pdf, id=1065, 597.50829pt x 845.0471pt>
+-6.pdf, id=1085, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapi
 tre 3-6.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
@@ -878,7 +878,7 @@ is/Chapitre 3/Chapitre 3-6.pdf  used on input line 531.
 [16 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
 re 3-6.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3
--7.pdf, id=1108, 597.50829pt x 845.0471pt>
+-7.pdf, id=1128, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapi
 tre 3-7.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
@@ -889,7 +889,7 @@ is/Chapitre 3/Chapitre 3-7.pdf  used on input line 533.
 [17 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
 re 3-7.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3
--8.pdf, id=1171, 597.50829pt x 845.0471pt>
+-8.pdf, id=1191, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapi
 tre 3-8.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
@@ -900,7 +900,7 @@ is/Chapitre 3/Chapitre 3-8.pdf  used on input line 535.
 [18 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
 re 3-8.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3
--9.pdf, id=1204, 597.50829pt x 845.0471pt>
+-9.pdf, id=1224, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapi
 tre 3-9.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
@@ -911,7 +911,7 @@ is/Chapitre 3/Chapitre 3-9.pdf  used on input line 537.
 [19 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
 re 3-9.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3
--10.pdf, id=1244, 597.50829pt x 845.0471pt>
+-10.pdf, id=1265, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapi
 tre 3-10.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
@@ -922,7 +922,7 @@ is/Chapitre 3/Chapitre 3-10.pdf  used on input line 539.
 [20 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
 re 3-10.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3
--11.pdf, id=1284, 597.50829pt x 845.0471pt>
+-11.pdf, id=1304, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapi
 tre 3-11.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
@@ -933,7 +933,7 @@ is/Chapitre 3/Chapitre 3-11.pdf  used on input line 541.
 [21 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
 re 3-11.pdf>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3
--12.pdf, id=1323, 597.50829pt x 845.0471pt>
+-12.pdf, id=1343, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapi
 tre 3-12.pdf Graphic file (type pdf)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
@@ -944,149 +944,154 @@ is/Chapitre 3/Chapitre 3-12.pdf  used on input line 543.
 [22 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
 re 3-12.pdf>] [23] [24]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illustrati
-on/Table 1.png, id=1372, 447.6725pt x 266.49562pt>
+on/Table 1.png, id=1392, 497.35812pt x 298.61563pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illus
 tration/Table 1.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illust
 ration/Table 1.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
 is/Chapitre 5/Illustration/Table 1.png  used on input line 610.
-(pdftex.def)             Requested size: 447.71239pt x 266.51935pt.
+(pdftex.def)             Requested size: 497.38725pt x 298.63312pt.
+
+Overfull \hbox (11.12964pt too wide) in paragraph at lines 610--610
+ [] 
+ []
+
 [25 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illust
-ration/Table 1.png>] [26] [27]
+ration/Table 1.png>] [26]
+Underfull \hbox (badness 2302) in paragraph at lines 704--714
+[]\T1/lmr/m/n/12 Lorsqu'ils sont combinés avec un test traditionnel pour lequel
+ l'hypothèse nulle est
+ []
+
+[27] [28]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--1.png, id=1393, 1660.2025pt x 2347.77126pt>
+-1.png, id=1424, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-1.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-1.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-1.png  used on input line 726.
+is/Chapitre 5/Chapitre 5-1.png  used on input line 781.
 (pdftex.def)             Requested size: 447.3487pt x 632.61707pt.
-[28]
+[29]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--2.png, id=1398, 1660.2025pt x 2347.77126pt>
+-2.png, id=1431, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-2.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-2.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-2.png  used on input line 728.
+is/Chapitre 5/Chapitre 5-2.png  used on input line 783.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[29 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[30 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-1.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--3.png, id=1404, 1660.2025pt x 2347.77126pt>
+-3.png, id=1437, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-3.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-3.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-3.png  used on input line 730.
+is/Chapitre 5/Chapitre 5-3.png  used on input line 785.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[30 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[31 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-2.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--4.png, id=1410, 1660.2025pt x 2347.77126pt>
+-4.png, id=1444, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-4.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-4.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-4.png  used on input line 732.
+is/Chapitre 5/Chapitre 5-4.png  used on input line 787.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[31 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[32 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-3.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--5.png, id=1418, 1660.2025pt x 2347.77126pt>
+-5.png, id=1450, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-5.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-5.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-5.png  used on input line 734.
+is/Chapitre 5/Chapitre 5-5.png  used on input line 789.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[32 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[33 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-4.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--6.png, id=1424, 1660.2025pt x 2347.77126pt>
+-6.png, id=1456, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-6.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-6.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-6.png  used on input line 736.
+is/Chapitre 5/Chapitre 5-6.png  used on input line 791.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[33 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[34 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-5.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--7.png, id=1430, 1660.2025pt x 2347.77126pt>
+-7.png, id=1462, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-7.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-7.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-7.png  used on input line 738.
+is/Chapitre 5/Chapitre 5-7.png  used on input line 793.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[34 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[35 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-6.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--8.png, id=1436, 1660.2025pt x 2347.77126pt>
+-8.png, id=1468, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-8.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-8.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-8.png  used on input line 740.
+is/Chapitre 5/Chapitre 5-8.png  used on input line 795.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[35 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[36 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-7.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--9.png, id=1442, 1660.2025pt x 2347.77126pt>
+-9.png, id=1474, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-9.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-9.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-9.png  used on input line 742.
+is/Chapitre 5/Chapitre 5-9.png  used on input line 797.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[36 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[37 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-8.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--10.png, id=1448, 1660.2025pt x 2347.77126pt>
+-10.png, id=1481, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-10.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-10.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-10.png  used on input line 744.
+is/Chapitre 5/Chapitre 5-10.png  used on input line 799.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[37 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[38 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-9.png>]
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-10.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-10.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-10.png  used on input line 746.
+is/Chapitre 5/Chapitre 5-10.png  used on input line 801.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[38 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
-re 5-10.png>] [39]
+[39 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+re 5-10.png>] [40]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 768.
+(hyperref)                than one, level fixed on input line 823.
 
-[40] [41] [42] [43] [44] [45] [46]
-Underfull \hbox (badness 1365) in paragraph at lines 1153--1158
-\T1/lmr/m/n/12 flexibility in data collection and analysis allows presenting an
-ything as significant.
- []
-
-[47] [48] [49] [50] 
+[41] [42] [43] [44] [45] [46] [47] [48] [49] [50] 
 AED: lastpage setting LastPage
 [51] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 093A0BAFA235C626AE3AD8BD1B9076C4;5959.
+(rerunfilecheck)             Checksum: A01416C1F5E7BA0DCBCC04F33E17EE64;7077.
  )
 (\end occurred inside a group at level 2)
 
@@ -1094,15 +1099,21 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 ### semi simple group (level 1) entered at line 67 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13240 strings out of 480496
- 218565 string characters out of 5897906
- 533937 words of memory out of 5000000
- 30462 multiletter control sequences out of 15000+600000
+ 13255 strings out of 480496
+ 218963 string characters out of 5897906
+ 534206 words of memory out of 5000000
+ 30470 multiletter control sequences out of 15000+600000
  511233 words of font info for 88 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,6n,66p,753b,3507s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.5} has been referenced bu
+ 60i,6n,66p,753b,3489s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced bu
 t does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
 , replaced by a fixed one
@@ -1134,10 +1145,10 @@ aming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admin/AppData
 /Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/Admin/Ap
 pData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Adm
 in/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on template.pdf (63 pages, 7083232 bytes).
+Output written on template.pdf (63 pages, 7087788 bytes).
 PDF statistics:
- 1704 PDF objects out of 1728 (max. 8388607)
- 1090 compressed objects within 11 object streams
- 184 named destinations out of 1000 (max. 500000)
- 363 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1731 PDF objects out of 2073 (max. 8388607)
+ 1116 compressed objects within 12 object streams
+ 191 named destinations out of 1000 (max. 500000)
+ 395 words of extra memory for PDF output out of 10000 (max. 10000000)
 
