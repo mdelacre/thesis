@@ -17,7 +17,7 @@ header-includes:
 
 Lorsqu'on applique un test d'hypothèse, l'hypothèse nulle la plus couramment définie est celle d'absence d'effet ou de différence entre les groupes [@nickerson_null_2000]. Il arrive également parfois que les chercheurs définissent un intervalle de valeur comme hypothèse nulle, mais le plus souvent, cet intervalle est borné par la valeur 0 [@nickerson_null_2000], on parle alors d'hypothèse unilatérale. Avec cette stratégie, le rejet de l'hypothèse nulle constitue un soutien en faveur de la présence d'un effet non nul. Par contre, le non rejet de l'hypothèse nulle ne peut être interprété comme un soutien en faveur de l'absence d'effet, or il arrive souvent que des chercheurs l'interprètent de la sorte. @finch_reporting_2001, par exemple, ont reporté que parmis 150 articles publiés entre 1940 et 1999 dans le *JAP* (*Journal of Applied Psychology*), 38% interprétaient un résultat non significatif comme une acceptation de l'hypothès nulle. Plus récemment, @lakens_equivalence_2017 a noté que l'expression "pas d'effet" a été utilisée dans 108 articles publié dans *Social Psychological and Personality Science* avant août 2016 et que dans presque tous les cas, c'était sur base du non rejet de l'hypothèse nulle que cette conclusion était tirée. 
 
-A travers ce chapitre, notre premier objectif sera d'expliquer pourquoi interpréter le non rejet de l'hypothèse nulle comme un soutien en faveur d'une absence d'effet n'est pas une bonne stratégie. Nous introduirons ensuite les tests d'équivalence qui permettent d'obtenir un soutien en faveur d'un effet jugé non pertinent. Pour finir, nous présenterons un article dans lequel nous comparons les tests d'équivalence à la *SGPV* (Second Generation P-value), une stratégie récemment développée Blume [@blume_second-generation_2018].
+A travers ce chapitre, notre premier objectif sera d'expliquer pourquoi interpréter le non rejet de l'hypothèse d'absence d'effet comme un soutien en faveur d'une absence d'effet n'est pas une bonne stratégie. Nous introduirons ensuite les tests d'équivalence qui permettent d'obtenir un soutien en faveur d'un effet jugé non pertinent, et plus particulièrement le TOST (Two One-sided test). Pour finir, nous présenterons un article dans lequel nous comparons le TOST à la *SGPV* (Second Generation P-value), une stratégie récemment développée Blume [@blume_second-generation_2018].
 
 ## Limites de l'approche traditionnelle
 
@@ -29,7 +29,7 @@ knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesi
 
 Dans la mesure où une vraie différence entre les moyennes de population existe pour l'ensemble des scénarios envisagés, la conclusion adéquate serait le rejet de l'hypothèse nulle. Pourtant, on conclut souvent au non rejet de l'hypothèse nulle, comme on peut le voir à travers les valeurs $\beta$ très élevées dans certains cas. Par exemple, avec 10 sujets par groupes et considérant $\sigma_1=\sigma_2=1$, on ne détectera pas une différence de moyenne de .1 dans près de 95% des cas. Avec 200 sujets par groupe, on ne détectera toujours pas cette différence dans 80% des cas. Cela se justifie par un manque de puissance des tests réalisés. Cela démontre bien qu'un non rejet de l'hypothèse nulle peut en fait signifier deux choses: soit qu'il n'y a vraiment pas de différence entre les moyennes des populations (ou autrement dit, que les différences observées sont dûes au hasard), soit que le test n'est pas suffisamment puissant pour détecter la différence. Or, le manque de puissance des tests est récurrent dans la littérature, comme tendent à le montrer diverses méta-analyses [voir par exemple @button_power_2013; @bakker_rules_2012; @funder_improving_2014].
 
-Dans les années 80, "l'approche de la puissance" est devenue l'approche par défaut pour tester l'équivalence [@meyners_equivalence_2012]. Encore aujourd'hui, c'est l'approche la plus populaire [@quertemont_how_2011]. Dans un premier temps, on définit ce qu'on considère comme étant la plus petite valeur d'intérêt (en anglais, le "SESOI" pour "Smaller Effect Size of Interest"), c'est-à-dire la taille d'effet minimale requise pour considérer qu'un effet est pertient. Ensuite, on estime la puissance de notre test à détecter un effet de cette taille\footnote{On parle d'estimation et non de mesure, car la puissance dépend de paramètres de population qu'on ne connait pas (Schuirmann,1987).}, et si cette estimation dépasse une valeur donnée (généralement, 80%), alors on considère qu'on peut interpréter le non rejet de l'hypothèse nulle d'absence d'effet comme soutien en faveur de l'équivalence[@quertemont_how_2011]. L'idée sous-jacente est que si l'effet est au moins aussi grand que les limites de la zone d'équivalence, on devrait vraisemblablement rejeter l'hypothèse nulle [@schuirmann_comparison_1987]. Ce raisonnement a cependant de grosses limites, dans la mesure où via cette approche, la probabilité de détecter une absence d'effet va augmenter non seulement quand la taille des échantillons va diminuer, mais également quand l'erreur (la variabilité des scores au sein de chaque groupe) va augmenter @meyners_equivalence_2012; @schuirmann_comparison_1987], ce qui n'est pas une propriété désirable.
+Dans les années 80, "l'approche de la puissance" est devenue l'approche par défaut pour tester l'équivalence [@meyners_equivalence_2012]. Encore aujourd'hui, c'est l'approche la plus populaire [@quertemont_how_2011]. Dans un premier temps, on définit ce qu'on considère comme étant la plus petite valeur d'intérêt (en anglais, le "SESOI" pour "Smaller Effect Size of Interest"), c'est-à-dire la taille d'effet minimale requise pour considérer qu'un effet est pertient. Ensuite, on estime la puissance de notre test à détecter un effet de cette taille\footnote{On parle d'estimation et non de mesure, car la puissance dépend de paramètres de population qu'on ne connait pas (Schuirmann,1987).}, et si cette estimation dépasse une valeur donnée (généralement, 80%), alors on considère qu'on peut interpréter le non rejet de l'hypothèse nulle d'absence d'effet comme soutien en faveur de l'équivalence[@quertemont_how_2011]. L'idée sous-jacente est que si l'effet est au moins aussi grand que les limites de la zone d'équivalence, on devrait vraisemblablement rejeter l'hypothèse nulle [@schuirmann_comparison_1987]. Ce raisonnement a cependant de grosses limites, dans la mesure où via cette approche, la probabilité de détecter une absence d'effet va augmenter non seulement quand la taille des échantillons va diminuer, mais également quand l'erreur [la variabilité des scores au sein de chaque groupe va augmenter, @meyners_equivalence_2012; @schuirmann_comparison_1987], ce qui n'est pas une propriété désirable.
 
 ```{r "tauxbeta", echo=FALSE}
 
@@ -78,11 +78,118 @@ Dans les années 80, "l'approche de la puissance" est devenue l'approche par dé
 
 ## Les tests d'équivalence
 
-Avec les tests d'équivalence, il n'est pas possible de démontrer qu'un effet vaille exactement 0 [@meyners_equivalence_2012]. Il est par contre possible de montrer que l'effet observé est suffisamment petit pour être jugé non pertinent. Le point de départ des tests d'équivalence est de définir $\Delta_L$ et $\Delta_U$, les limites inférieures et supérieures de la zone d'équivalence, cette dernière contenant l'ensemble des valeurs jugées trop petites pour être susceptibles de nous intéresser. Les limites peuvent être exprimées soit dans l'unité des données brutes, soit en terme standardisé. Il existe plusieurs stratégies pour les définir, comme nous y reviendrons ultérieurement.
+Avec les tests d'équivalence, il n'est pas possible de démontrer qu'un effet vaille exactement zéro [@meyners_equivalence_2012]. Il est par contre possible de montrer que l'effet observé est suffisamment petit pour être jugé non pertinent. Le point de départ des tests d'équivalence est de définir $\Delta_L$ et $\Delta_U$, les limites inférieures et supérieures de la zone d'équivalence, cette dernière contenant l'ensemble des valeurs jugées trop petites pour être susceptibles de nous intéresser. Ces limites peuvent être exprimées soit dans l'unité des données brutes, soit en terme standardisé. 
 
-Lorsque les deux hypothèses nulle peuvent être simultanément rejetées, on peut conclure à l'équivalence (Seaman & Serlin, 1998, cités par lakens_equivalence_2017). Statistiquement parlant, montrer que les deux hypothèses nulles peuvent être rejetées, en considérant un risque $\alpha$ donné, équivaut à montrer que l'intervalle de confiance à $(1-2\times\alpha)\%$ est entièrement inclus dans la zone d'équivalence [@lakens_equivalence_2017]. L'avantage de l'approche par intervalles de confiance est que ces derniers peuvent généralement être calculés dans la plupart des logiciels statistiques, contrairement aux tests d'équivalence qui ne sont pas encore disponibles partout [@quertemont_how_2011]. 
+Il existe ensuite plusieurs approches pour démontrer que l'effet observé se situe ans la zone d'équivalence (*voir Meyners, par exemple*). Parmis celles-ci, une approche très simple est celle du *TOST* (pour "Two one-sided tests", @schuirmann_comparison_1987; @lakens_equivalence_2017)\footnote{il existe des alternatives au TOST qui sont très légèrement plus puissantes, mais le gain marginal en termes de puissance est contrebalancé par un niveau de complexité beaucoup plus élevé (Meyners, 2012).}. Le principe est de définir deux hypothèses nulles: la première est que l'effet observé est inférieur à la limite inférieure de la zone d'équivalence: $$H0_1: \theta < \theta_1$$ La deuxième est que l'effet observé est supérieur à la limite supérieure de la zone d'équivalence: $$H0_2: \theta > \theta_2$$ Lorsque les deux hypothèses nulle peuvent être simultanément rejetées, on peut conclure à l'équivalence (Seaman & Serlin, 1998, cités par lakens_equivalence_2017). Il est à noter qu'il n'est pas nécessaire de réaliser deux tests pour rejeter les deux hypothèse nulles. En effet, si l'effet observé se situe à équidistance des deux limites de la zone d'équivalence, les tests contre chacune des limites mèneront à une conclusion identique, car ils seront associés à la même valeur de statistique (en termes absolu) et par conséquent seront associés à la même $p$-valeur. Si l'effet observé ne se situe *pas* à égale distance des deux limites de la zone d'équivalence, alors il suffira de tester l'hypothèse nulle qui se rapporte à la limite la plus proche de l'effet observé. En effet, le test associé à cette limite sera nécessairement celui qui est associé à la plus petite valeur de statistique et donc, à la plus grande $p$-valeur [@rogers_using_1993].  
 
-Il existe plusieurs tests d'équivalence *lire article de Meyner*. Parmis ceux-ci, une approche très simple est celle du *TOST* (pour "Two one-sided tests", *Schuirman, 1987, cité par lakens_equivalence_2017--> A lire*)\footnote{il existe des alternatives au TOST qui sont très légèrement plus puissantes, mais le gain marginal en termes de puissance est contrebalancé par un niveau de complexité beaucoup plus élevé (Meyners, 2012).}. Le principe du TOST est de tester deux hypothèses nulles: La première est que l'effet observé est inférieur à la limite inférieure de la zone d'équivalence: $$H0_1: \Delta < \Delta_L$$ La deuxième est que l'effet observé est supérieur à la limite supérieure de la zone d'équivalence: $$H0_2: \Delta > \Delta_U$$
+A titre d'illustration, la Figure \ref{fig:equiv1} montre... (expliquer la figure: le carré = diff de moyenne observée, etc.)
+
+```{r, include=FALSE}
+library(TOSTER)
+m <- 144.5
+mu <- 144.5
+sd <- 500
+n <- 1000000
+low_eqbound = -2 
+high_eqbound = 2 
+alpha = 0.05
+tost_res1 <- TOSTone.raw(m = m, 
+                   mu = mu,
+                   sd = sd, 
+                   n = n, 
+                   low_eqbound = low_eqbound, 
+                   high_eqbound = high_eqbound, 
+                   alpha = alpha
+)
+
+m <- 143
+mu <- 144.5
+
+sd <- 500
+n <- 1000000
+low_eqbound = -2 
+high_eqbound = 2 
+alpha = 0.05
+tost_res2 <- TOSTone.raw(m = m, 
+                   mu = mu,
+                   sd = sd, 
+                   n = n, 
+                   low_eqbound = low_eqbound, 
+                   high_eqbound = high_eqbound, 
+                   alpha = alpha
+)
+m <- 147
+mu <- 144.5
+sd <- 500
+n <- 1000000
+low_eqbound = -2 
+high_eqbound = 2 
+alpha = 0.05
+tost_res3 <- TOSTone.raw(m = m, 
+                   mu = mu,
+                   sd = sd, 
+                   n = n, 
+                   low_eqbound = low_eqbound, 
+                   high_eqbound = high_eqbound, 
+                   alpha = alpha
+)
+```
+
+```{r "equiv1", fig.align = "center", fig.cap= "Différence de moyennes ($\\bar{X_1}-\\bar{X_2}$), distribution d'échantillonnage et IC à $1-2\\alpha\\%$ autour de la différence de moyennes ($\\bar{X_1}-\\bar{X_2}$) pour 3 exemples de TOST.", echo=FALSE, dpi=600, fig.width=5, fig.height=4}
+plot(NA, 
+     ylim = c(0, 1), 
+     xlim = c(-3, 4),
+     yaxt = "n",
+     xaxt= "n",
+     ylab = "",
+     xlab = "Mean Difference")
+axis(2, at = c(0.25,0.5,0.75), labels = c("C", "B", "A"), las = 1)
+axis(1, at = c(-2,0,2), labels = c(expression(theta[1]),0,expression(theta[2])),las = 1)
+abline(v = tost_res1$high_eqbound, 
+       lty = 2)
+abline(v = tost_res1$low_eqbound, 
+       lty = 2)
+abline(v = 0, 
+       lty = 2, 
+       col = "grey")
+points(x = tost_res3$diff, 
+       y = 0.25, 
+       pch = 15, 
+       cex = 1.5)
+segments(tost_res3$LL_CI_TOST, 
+         0.25, 
+         tost_res3$UL_CI_TOST, 
+         0.25, 
+         lwd = 2)
+points(x = tost_res2$diff, 
+       y = 0.5, 
+       pch = 15, 
+       cex = 1.5)
+segments(tost_res2$LL_CI_TOST, 
+         0.5, 
+         tost_res2$UL_CI_TOST, 
+         0.5, 
+         lwd = 2)
+points(x = tost_res1$diff, 
+       y = 0.75, 
+       pch = 15, 
+       cex = 1.5)
+segments(tost_res1$LL_CI_TOST, 
+         0.75, 
+         tost_res1$UL_CI_TOST, 
+         0.75, 
+         lwd = 2)
+
+par(new=TRUE)
+curve(dnorm(x, 144.5 - 144.5, 0.5), from=-1, to=1, ylim = c(-6, 2), xlim = c(-3, 4), xlab = "", ylab = "", axes = FALSE)
+par(new=TRUE)
+curve(dnorm(x, 143 - 144.5, 0.5), from=-2.5, to=-0.5, ylim = c(-4, 4), xlim = c(-3, 4), xlab = "", ylab = "", axes = FALSE)
+par(new=TRUE)
+curve(dnorm(x, 147 - 144.5, 0.5), from=1.5, to=3.5, ylim = c(-2, 6), xlim = c(-3, 4), xlab = "", ylab = "", axes = FALSE)
+```
+
+
+Statistiquement parlant, montrer que les deux hypothèses nulles peuvent être rejetées, en considérant un risque $\alpha$ donné, équivaut à montrer que l'intervalle de confiance à $(1-2\times\alpha)\%$ est entièrement inclus dans la zone d'équivalence [@lakens_equivalence_2017]. L'avantage de l'approche par intervalles de confiance est que ces derniers peuvent généralement être calculés dans la plupart des logiciels statistiques, contrairement aux tests d'équivalence qui ne sont pas encore disponibles partout [@quertemont_how_2011]. 
 
 
 ## Avantage des tests d'équivalence

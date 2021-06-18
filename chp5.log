@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.7)  15 JUN 2021 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.7)  18 JUN 2021 14:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -645,24 +645,24 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 ) (./chp5.aux)
 \openout1 = `chp5.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -730,7 +730,7 @@ sty
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 135.
+Package hyperref Info: Link coloring OFF on input line 138.
 
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
 ty
@@ -746,45 +746,45 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count311
 )
-LaTeX Info: Redefining \ref on input line 135.
-LaTeX Info: Redefining \pageref on input line 135.
-LaTeX Info: Redefining \nameref on input line 135.
+LaTeX Info: Redefining \ref on input line 138.
+LaTeX Info: Redefining \pageref on input line 138.
+LaTeX Info: Redefining \nameref on input line 138.
 (./chp5.out) (./chp5.out)
 \@outlinefile=\write5
 \openout5 = `chp5.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-49.
+50.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-49.
+50.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-149.
+150.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-149.
+150.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 149.
+(Font)              <12> on input line 150.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 149.
+(Font)              <8> on input line 150.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 149.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 149
+(Font)              <6> on input line 150.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 150
 .
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 149
+LaTeX Font Info:    Trying to load font information for U+msb on input line 150
 .
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -795,211 +795,204 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 tex.map}
 
 ]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 160.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 160.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 160.
-[2]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illustrati
-on/Illustration.png, id=55, 474.27188pt x 191.21437pt>
+on/Table 1.png, id=54, 497.35812pt x 298.61563pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illus
-tration/Illustration.png Graphic file (type png)
+tration/Table 1.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illust
-ration/Illustration.png>
+ration/Table 1.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Illustration/Illustration.png  used on input line 166.
-(pdftex.def)             Requested size: 227.64792pt x 91.78185pt.
-[3 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illustr
-ation/Illustration.png>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-71.
-(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [4]
+is/Chapitre 5/Illustration/Table 1.png  used on input line 152.
+(pdftex.def)             Requested size: 238.49393pt x 143.19261pt.
+[2 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illustr
+ation/Table 1.png>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 156.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 156.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 156.
+[3] [4] [5] [6]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--1.png, id=70, 1660.2025pt x 2347.77126pt>
+-1.png, id=97, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-1.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-1.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-1.png  used on input line 188.
+is/Chapitre 5/Chapitre 5-1.png  used on input line 223.
 (pdftex.def)             Requested size: 432.17445pt x 611.15845pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[5]
+[7]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--2.png, id=75, 1660.2025pt x 2347.77126pt>
+-2.png, id=105, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-2.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-2.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-2.png  used on input line 190.
-(pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[6 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitr
-e 5-1.png>]
-<C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--3.png, id=81, 1660.2025pt x 2347.77126pt>
-File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
-tre 5-3.png Graphic file (type png)
-<use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
-re 5-3.png>
-Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-3.png  used on input line 192.
-(pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[7 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitr
-e 5-2.png>]
-<C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--4.png, id=88, 1660.2025pt x 2347.77126pt>
-File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
-tre 5-4.png Graphic file (type png)
-<use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
-re 5-4.png>
-Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-4.png  used on input line 194.
+is/Chapitre 5/Chapitre 5-2.png  used on input line 225.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [8 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitr
-e 5-3.png>]
+e 5-1.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--5.png, id=94, 1660.2025pt x 2347.77126pt>
+-3.png, id=111, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
-tre 5-5.png Graphic file (type png)
+tre 5-3.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
-re 5-5.png>
+re 5-3.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-5.png  used on input line 196.
+is/Chapitre 5/Chapitre 5-3.png  used on input line 227.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [9 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitr
-e 5-4.png>]
+e 5-2.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--6.png, id=100, 1660.2025pt x 2347.77126pt>
+-4.png, id=117, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
-tre 5-6.png Graphic file (type png)
+tre 5-4.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
-re 5-6.png>
+re 5-4.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-6.png  used on input line 198.
+is/Chapitre 5/Chapitre 5-4.png  used on input line 229.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [10 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
-re 5-5.png>]
+re 5-3.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--7.png, id=106, 1660.2025pt x 2347.77126pt>
+-5.png, id=123, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
-tre 5-7.png Graphic file (type png)
+tre 5-5.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
-re 5-7.png>
+re 5-5.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-7.png  used on input line 200.
+is/Chapitre 5/Chapitre 5-5.png  used on input line 231.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [11 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
-re 5-6.png>]
+re 5-4.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--8.png, id=112, 1660.2025pt x 2347.77126pt>
+-6.png, id=129, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
-tre 5-8.png Graphic file (type png)
+tre 5-6.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
-re 5-8.png>
+re 5-6.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-8.png  used on input line 202.
+is/Chapitre 5/Chapitre 5-6.png  used on input line 233.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [12 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
-re 5-7.png>]
+re 5-5.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--9.png, id=118, 1660.2025pt x 2347.77126pt>
+-7.png, id=135, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
-tre 5-9.png Graphic file (type png)
+tre 5-7.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
-re 5-9.png>
+re 5-7.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-9.png  used on input line 204.
+is/Chapitre 5/Chapitre 5-7.png  used on input line 235.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [13 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
-re 5-8.png>]
+re 5-6.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--10.png, id=125, 1660.2025pt x 2347.77126pt>
+-8.png, id=142, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
-tre 5-10.png Graphic file (type png)
+tre 5-8.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
-re 5-10.png>
+re 5-8.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-10.png  used on input line 206.
+is/Chapitre 5/Chapitre 5-8.png  used on input line 237.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [14 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+re 5-7.png>]
+<C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
+-9.png, id=148, 1660.2025pt x 2347.77126pt>
+File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
+tre 5-9.png Graphic file (type png)
+<use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+re 5-9.png>
+Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
+is/Chapitre 5/Chapitre 5-9.png  used on input line 239.
+(pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[15 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+re 5-8.png>]
+<C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
+-10.png, id=154, 1660.2025pt x 2347.77126pt>
+File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
+tre 5-10.png Graphic file (type png)
+<use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+re 5-10.png>
+Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
+is/Chapitre 5/Chapitre 5-10.png  used on input line 241.
+(pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[16 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-9.png>]
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-10.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-10.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-10.png  used on input line 208.
+is/Chapitre 5/Chapitre 5-10.png  used on input line 243.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[15 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
-re 5-10.png>] AED endfloat: Processing end Figures and Tables [16] (./chp5.aux)
+[17 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+re 5-10.png>] AED endfloat: Processing end Figures and Tables [18] (./chp5.aux)
 Package rerunfilecheck Info: File `chp5.out' has not changed.
-(rerunfilecheck)             Checksum: F9392BE5B4689C033D9B42B0B87163F0;1415.
+(rerunfilecheck)             Checksum: C9EABAE130D6264D438601CDF045820B;2461.
  ) 
 Here is how much of TeX's memory you used:
- 14662 strings out of 480496
- 230791 string characters out of 5897906
- 556315 words of memory out of 5000000
- 32013 multiletter control sequences out of 15000+600000
- 482926 words of font info for 94 fonts, out of 8000000 for 9000
+ 14651 strings out of 480496
+ 230321 string characters out of 5897906
+ 556595 words of memory out of 5000000
+ 31994 multiletter control sequences out of 15000+600000
+ 482551 words of font info for 93 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,11n,80p,2358b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.
-enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm
-.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-m
-athit.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm
-/lm-ec.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/l
-m/lm-mathsy.enc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
-public/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
-ype1/public/lm/lmmi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fo
-nts/type1/public/lm/lmmi12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-di
-st/fonts/type1/public/lm/lmmi8.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texm
-f-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/
-texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Admin/AppData/Roaming/Tiny
-TeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/Admin/AppData/Roaming/T
-inyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admin/AppData/Roamin
-g/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/Admin/AppData/R
-oaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on chp5.pdf (16 pages, 2612981 bytes).
+ 72i,11n,80p,2243b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
+nc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.
+enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ma
+thsy.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/
+lm-mathit.enc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pu
+blic/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
+e1/public/lm/lmmi12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/font
+s/type1/public/lm/lmmi8.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/
+fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-d
+ist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/tex
+mf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/
+texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admin/AppData/Roaming/TinyT
+eX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/Admin/AppData/Roaming/
+TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on chp5.pdf (18 pages, 2643704 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 104 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 230 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
