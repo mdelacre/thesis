@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.18)  18 JUN 2021 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.18)  21 JUN 2021 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -944,162 +944,174 @@ is/Chapitre 3/Chapitre 3-12.pdf  used on input line 543.
 [22 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapit
 re 3-12.pdf>] [23] [24]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illustrati
-on/Table 1.png, id=1392, 497.35812pt x 298.61563pt>
+on/Table 1.png, id=1392, 566.115pt x 334.24875pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illus
 tration/Table 1.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illust
 ration/Table 1.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
 is/Chapitre 5/Illustration/Table 1.png  used on input line 611.
-(pdftex.def)             Requested size: 497.38725pt x 298.63312pt.
-
-Overfull \hbox (11.12964pt too wide) in paragraph at lines 611--611
- [] 
- []
-
+(pdftex.def)             Requested size: 466.82605pt x 275.626pt.
 [25 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illust
 ration/Table 1.png>] [26]
-<template_files/figure-latex/equiv1-1.pdf, id=1410, 361.35pt x 289.08pt>
+<C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illustrati
+on/Fig1.png, id=1411, 481.8pt x 481.8pt>
+File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illus
+tration/Fig1.png Graphic file (type png)
+<use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illust
+ration/Fig1.png>
+Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
+is/Chapitre 5/Illustration/Fig1.png  used on input line 683.
+(pdftex.def)             Requested size: 466.82346pt x 466.82346pt.
+[27pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.702 
+       <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Ill
+ustration/Fig1.png>]
+<template_files/figure-latex/equiv1-1.pdf, id=1422, 361.35pt x 289.08pt>
 File: template_files/figure-latex/equiv1-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/equiv1-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/equiv1-1.pdf  used on inpu
-t line 697.
+t line 733.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
-[27]
-Underfull \hbox (badness 2302) in paragraph at lines 735--745
+[28] [29pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.768   e
+         quivalence (Quertemont, 2011) <./template_files/figure-latex/equiv1-1.
+pdf>]
+Underfull \hbox (badness 2302) in paragraph at lines 771--786
 []\T1/lmr/m/n/12 Lorsqu'ils sont combinés avec un test traditionnel pour lequel
  l'hypothèse nulle est
  []
 
-[28pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.745 
-       <./template_files/figure-latex/equiv1-1.pdf>] [29]
+[30]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--1.png, id=1440, 1660.2025pt x 2347.77126pt>
+-1.png, id=1451, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-1.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-1.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-1.png  used on input line 812.
+is/Chapitre 5/Chapitre 5-1.png  used on input line 855.
 (pdftex.def)             Requested size: 447.3487pt x 632.61707pt.
-[30]
+[31]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--2.png, id=1447, 1660.2025pt x 2347.77126pt>
+-2.png, id=1459, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-2.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-2.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-2.png  used on input line 814.
+is/Chapitre 5/Chapitre 5-2.png  used on input line 857.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[31 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[32 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-1.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--3.png, id=1454, 1660.2025pt x 2347.77126pt>
+-3.png, id=1465, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-3.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-3.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-3.png  used on input line 816.
+is/Chapitre 5/Chapitre 5-3.png  used on input line 859.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[32 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[33 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-2.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--4.png, id=1460, 1660.2025pt x 2347.77126pt>
+-4.png, id=1471, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-4.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-4.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-4.png  used on input line 818.
+is/Chapitre 5/Chapitre 5-4.png  used on input line 861.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[33 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[34 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-3.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--5.png, id=1466, 1660.2025pt x 2347.77126pt>
+-5.png, id=1477, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-5.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-5.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-5.png  used on input line 820.
+is/Chapitre 5/Chapitre 5-5.png  used on input line 863.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[34 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[35 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-4.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--6.png, id=1472, 1660.2025pt x 2347.77126pt>
+-6.png, id=1483, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-6.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-6.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-6.png  used on input line 822.
+is/Chapitre 5/Chapitre 5-6.png  used on input line 865.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[35 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[36 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-5.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--7.png, id=1478, 1660.2025pt x 2347.77126pt>
+-7.png, id=1489, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-7.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-7.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-7.png  used on input line 824.
+is/Chapitre 5/Chapitre 5-7.png  used on input line 867.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[36 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[37 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-6.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--8.png, id=1484, 1660.2025pt x 2347.77126pt>
+-8.png, id=1496, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-8.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-8.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-8.png  used on input line 826.
+is/Chapitre 5/Chapitre 5-8.png  used on input line 869.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[37 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[38 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-7.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--9.png, id=1491, 1660.2025pt x 2347.77126pt>
+-9.png, id=1502, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-9.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-9.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-9.png  used on input line 828.
+is/Chapitre 5/Chapitre 5-9.png  used on input line 871.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[38 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[39 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-8.png>]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
--10.png, id=1497, 1660.2025pt x 2347.77126pt>
+-10.png, id=1508, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-10.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-10.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-10.png  used on input line 830.
+is/Chapitre 5/Chapitre 5-10.png  used on input line 873.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[39 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+[40 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-9.png>]
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
 tre 5-10.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
 re 5-10.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
-is/Chapitre 5/Chapitre 5-10.png  used on input line 832.
+is/Chapitre 5/Chapitre 5-10.png  used on input line 875.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[40 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
-re 5-10.png>] [41]
+[41 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapit
+re 5-10.png>] [42]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 854.
+(hyperref)                than one, level fixed on input line 897.
 
-[42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] 
+[43] [44] [45] [46] [47] [48] [49] [50] [51] [52] 
 AED: lastpage setting LastPage
 [53] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
@@ -1111,15 +1123,18 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 ### semi simple group (level 1) entered at line 67 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13280 strings out of 480472
- 219575 string characters out of 5897305
- 535073 words of memory out of 5000000
- 30509 multiletter control sequences out of 15000+600000
+ 13294 strings out of 480472
+ 220554 string characters out of 5897305
+ 535198 words of memory out of 5000000
+ 30520 multiletter control sequences out of 15000+600000
  514028 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,6n,66p,753b,3489s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.7} has been referenced bu
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced bu
 t does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
 , replaced by a fixed one
@@ -1140,28 +1155,31 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
-}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathi
-t.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-
-rm.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm
--mathsy.enc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publ
-ic/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1
-/public/lm/lmbx8.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
-ype1/public/lm/lmbxi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/f
-onts/type1/public/lm/lmcsc10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-
-dist/fonts/type1/public/lm/lmmi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/t
-exmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/Admin/AppData/Roaming/Tiny
-TeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/Users/Admin/AppData/Roaming/
-TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roam
-ing/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Admin/AppData/
-Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/Admin/AppD
-ata/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admin/A
-ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/Ad
-min/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Use
-rs/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on template.pdf (65 pages, 7115822 bytes).
+}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathe
+x.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-
+mathit.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/l
+m/lm-rm.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/
+lm/lm-mathsy.enc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1
+/public/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/
+type1/public/lm/lmbx8.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fo
+nts/type1/public/lm/lmbxi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-d
+ist/fonts/type1/public/lm/lmcsc10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/t
+exmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/Users/Admin/AppData/Roaming/Tiny
+TeX/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/Users/Admin/AppData/Roaming
+/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/Admin/AppData/Ro
+aming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/Users/Admin/AppDat
+a/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/Ap
+pData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Admi
+n/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/
+Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Use
+rs/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c
+:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.p
+fb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lms
+y8.pfb>
+Output written on template.pdf (65 pages, 7131044 bytes).
 PDF statistics:
- 1758 PDF objects out of 2073 (max. 8388607)
- 1137 compressed objects within 12 object streams
- 198 named destinations out of 1000 (max. 500000)
- 400 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1771 PDF objects out of 2073 (max. 8388607)
+ 1146 compressed objects within 12 object streams
+ 200 named destinations out of 1000 (max. 500000)
+ 405 words of extra memory for PDF output out of 10000 (max. 10000000)
 

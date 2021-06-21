@@ -5,23 +5,23 @@
 \contentsline {section}{Chapitre 4: reporter le \(\bf \emph g^*_s\) de Hedges basé sur l'écart-type non poolé avec le test \(\bf \emph t\) de Welch}{23}{section*.6}%
 \contentsline {section}{Chapitre 5: les tests d'équivalence}{24}{section*.7}%
 \contentsline {subsection}{Limites de l'approche traditionnelle}{24}{section*.8}%
-\contentsline {subsection}{Les tests d'équivalence}{26}{section*.9}%
-\contentsline {subsection}{Avantage des tests d'équivalence}{28}{section*.10}%
-\contentsline {subsection}{Conclusions possibles}{28}{section*.11}%
-\contentsline {subsection}{Définir les limites de la zone d'équivalence:LE sesoi}{29}{section*.12}%
-\contentsline {subsection}{Les 4 conclusions possibles quand combiné au NHST classique}{29}{section*.13}%
-\contentsline {subsection}{Morceau qui servira peut-être (ou pas)}{29}{section*.14}%
-\contentsline {subsection}{Remarques diverses}{30}{section*.15}%
-\contentsline {subsection}{Quand veut-on montrer une absence d'effet?}{30}{section*.16}%
-\contentsline {section}{Conclusion}{42}{section*.17}%
-\contentsline {subsubsection}{Usage des articles méthodo}{42}{section*.18}%
-\contentsline {subsubsection}{Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes}{43}{section*.19}%
-\contentsline {subsubsection}{Comment écrire/transmettre l'info aux psys}{43}{section*.20}%
-\contentsline {subsubsection}{Recommandations générales}{44}{section*.21}%
-\contentsline {subsubsection}{Limites}{44}{section*.22}%
-\contentsline {paragraph}{pour le chapitre 4}{44}{section*.23}%
-\contentsline {paragraph}{pour le chapitre 5}{45}{section*.24}%
-\contentsline {section}{Bibliographie}{46}{section*.25}%
+\contentsline {subsection}{Les tests d'équivalence}{28}{section*.9}%
+\contentsline {subsection}{Avantage des tests d'équivalence}{29}{section*.10}%
+\contentsline {subsection}{Conclusions possibles}{30}{section*.11}%
+\contentsline {subsection}{Définir les limites de la zone d'équivalence:LE sesoi}{30}{section*.12}%
+\contentsline {subsection}{Les 4 conclusions possibles quand combiné au NHST classique}{30}{section*.13}%
+\contentsline {subsection}{Morceau qui servira peut-être (ou pas)}{31}{section*.14}%
+\contentsline {subsection}{Remarques diverses}{31}{section*.15}%
+\contentsline {subsection}{Quand veut-on montrer une absence d'effet?}{31}{section*.16}%
+\contentsline {section}{Conclusion}{43}{section*.17}%
+\contentsline {subsubsection}{Usage des articles méthodo}{43}{section*.18}%
+\contentsline {subsubsection}{Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes}{44}{section*.19}%
+\contentsline {subsubsection}{Comment écrire/transmettre l'info aux psys}{44}{section*.20}%
+\contentsline {subsubsection}{Recommandations générales}{45}{section*.21}%
+\contentsline {subsubsection}{Limites}{45}{section*.22}%
+\contentsline {paragraph}{pour le chapitre 4}{45}{section*.23}%
+\contentsline {paragraph}{pour le chapitre 5}{46}{section*.24}%
+\contentsline {section}{Bibliographie}{47}{section*.25}%
 \contentsline {section}{Annexe(s)}{51}{section*.26}%
 \contentsline {subsection}{Annexe A: erratum}{51}{section*.27}%
 \contentsline {subsubsection}{Why psychologists Should by Default Use Welch's \(t\)-test Instead of Student's \(t\)-test}{51}{section*.28}%
