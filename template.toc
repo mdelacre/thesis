@@ -5,9 +5,9 @@
 \contentsline {section}{Chapitre 4: reporter le \(\bf \emph g^*_s\) de Hedges basé sur l'écart-type non poolé avec le test \(\bf \emph t\) de Welch}{23}{section*.6}%
 \contentsline {section}{Chapitre 5: les tests d'équivalence}{24}{section*.7}%
 \contentsline {subsection}{Limites de l'approche traditionnelle}{24}{section*.8}%
-\contentsline {subsection}{Les tests d'équivalence}{28}{section*.9}%
+\contentsline {subsection}{Les tests d'équivalence}{27}{section*.9}%
 \contentsline {subsection}{Avantage des tests d'équivalence}{29}{section*.10}%
-\contentsline {subsection}{Conclusions possibles}{30}{section*.11}%
+\contentsline {subsection}{Conclusions possibles}{29}{section*.11}%
 \contentsline {subsection}{Définir les limites de la zone d'équivalence:LE sesoi}{30}{section*.12}%
 \contentsline {subsection}{Les 4 conclusions possibles quand combiné au NHST classique}{30}{section*.13}%
 \contentsline {subsection}{Morceau qui servira peut-être (ou pas)}{31}{section*.14}%

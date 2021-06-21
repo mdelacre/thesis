@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.18)  21 JUN 2021 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.18)  21 JUN 2021 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -955,14 +955,14 @@ is/Chapitre 5/Illustration/Table 1.png  used on input line 611.
 [25 <c:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illust
 ration/Table 1.png>] [26]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illustrati
-on/Fig1.png, id=1411, 481.8pt x 481.8pt>
+on/Fig1.png, id=1411, 361.35pt x 361.35pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illus
 tration/Fig1.png Graphic file (type png)
 <use C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illust
 ration/Fig1.png>
 Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/Github projects/thes
 is/Chapitre 5/Illustration/Fig1.png  used on input line 683.
-(pdftex.def)             Requested size: 466.82346pt x 466.82346pt.
+(pdftex.def)             Requested size: 361.34912pt x 361.34912pt.
 [27pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -976,19 +976,18 @@ File: template_files/figure-latex/equiv1-1.pdf Graphic file (type pdf)
 Package pdftex.def Info: template_files/figure-latex/equiv1-1.pdf  used on inpu
 t line 733.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
-[28] [29pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.768   e
-         quivalence (Quertemont, 2011) <./template_files/figure-latex/equiv1-1.
-pdf>]
+[28]
 Underfull \hbox (badness 2302) in paragraph at lines 771--786
 []\T1/lmr/m/n/12 Lorsqu'ils sont combinés avec un test traditionnel pour lequel
  l'hypothèse nulle est
  []
 
-[30]
+[29pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.786 
+       <./template_files/figure-latex/equiv1-1.pdf>] [30]
 <C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
 -1.png, id=1451, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapi
@@ -1125,7 +1124,7 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 Here is how much of TeX's memory you used:
  13294 strings out of 480472
  220554 string characters out of 5897305
- 535198 words of memory out of 5000000
+ 535246 words of memory out of 5000000
  30520 multiletter control sequences out of 15000+600000
  514028 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1176,7 +1175,7 @@ rs/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c
 :/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.p
 fb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lms
 y8.pfb>
-Output written on template.pdf (65 pages, 7131044 bytes).
+Output written on template.pdf (65 pages, 7141111 bytes).
 PDF statistics:
  1771 PDF objects out of 2073 (max. 8388607)
  1146 compressed objects within 12 object streams
