@@ -305,7 +305,8 @@ par(new=TRUE)
 curve(dnorm(x, 147 - 144.5, 0.5), from=1.5, to=3.5, ylim = c(-2, 6), xlim = c(-3, 4), xlab = "", ylab = "", axes = FALSE)
 ```
 
-Statistiquement parlant, montrer que les deux hypothèses nulles peuvent être rejetées, en considérant un risque $\alpha$ donné, équivaut à montrer que l'intervalle de confiance à $(1-2\times\alpha)\%$ est entièrement inclus dans la zone d'équivalence [Westlake, 1981, cité par Seaman & Serlin, 1998; @lakens_equivalence_2017]. L'avantage de l'approche par intervalles de confiance est que ces derniers peuvent généralement être calculés dans la plupart des logiciels statistiques, contrairement aux tests d'équivalence qui ne sont pas encore disponibles partout [@quertemont_how_2011]. 
+Statistiquement parlant, montrer que les deux hypothèses nulles peuvent être rejetées, en considérant un risque $\alpha$ donné, équivaut à montrer que l'intervalle de confiance à $(1-2\times\alpha)\%$ est entièrement inclus dans la zone d'équivalence [Westlake, 1981, cité par Seaman & Serlin, 1998; 
+@lakens_equivalence_2017]. L'avantage de l'approche par intervalles de confiance est que ces derniers peuvent généralement être calculés dans la plupart des logiciels statistiques, contrairement aux tests d'équivalence qui ne sont pas encore disponibles partout [@quertemont_how_2011]. 
 
 
 ## Avantage des tests d'équivalence

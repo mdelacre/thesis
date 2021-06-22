@@ -58,7 +58,7 @@ crit_SE <- abs(meandiff)/t_crit # quand n1=n2=n
 ### Si -theta2 < meandiff < theta2, t_crit_TOST ne peut pas dépasser theta2-abs(meandiff)
 ##### ex.: si meandiff = 1, et que theta2 = 20, le demi intervalle de confiance ne 
 ##### peut pas valoir plus de 19 sinon la borne sup sortira de la zone d'équivalence.
-##### idem si meandiff = -1.
+x ##### idem si meandiff = -1.
 #### t_crit_TOST*SE < theta2-abs(meandiff) <--> abs(meandiff) < theta2-t_crit_TOST*SE
 # SE < [theta2-abs(meandiff)]/t_crit_TOST
 
