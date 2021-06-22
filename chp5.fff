@@ -1,0 +1,20 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=0.96\linewidth]{D:/Documents/Github_projects/thesis/Chapitre 5/Illustration/Fig1}
+
+}
+
+\caption{Région d'équivalence pour l'approche de la puissance (zone grisée) et pour le TOST (zone hachurée), pour l'exemple où $|\theta$|=20, n = 50 et $\alpha=.05$}\label{fig:schuirman}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics{chp5_files/figure-latex/equiv1-1}
+
+}
+
+\caption{Différence de moyennes ($\bar{X_1}-\bar{X_2}$), distribution d'échantillonnage et IC à $1-2\alpha\%$ autour de la différence de moyennes ($\bar{X_1}-\bar{X_2}$) pour 3 exemples de TOST.}\label{fig:equiv1}
+\end{figure*}
