@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.28)  23 JUN 2021 10:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.28)  23 JUN 2021 15:18
 entering extended mode
 **./chp5.tex
 (chp5.tex
@@ -1065,216 +1065,198 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 65.
 ("C:\Users\Marie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-
-LaTeX Warning: Reference `fig:schuirman' on page 4 undefined on input line 170.
-
-
-[4]
+) [4]
 \openout4 = `chp5.fff'.
 
-(chp5.fff) [5] [6] [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[8] [9]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-65.
-("C:\Users\Marie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-1".png, id=88, 16
+(chp5.fff) [5] [6] [7] [8]
+<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-1".png, id=79, 16
 60.2025pt x 2347.77126pt>
 File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-1".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-1".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-1".png  used on input line 272.
+itre 5-1".png  used on input line 251.
 (pdftex.def)             Requested size: 432.17445pt x 611.15845pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[10]
-<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-2".png, id=94, 16
+[9]
+<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-2".png, id=86, 16
 60.2025pt x 2347.77126pt>
 File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-2".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-2".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-2".png  used on input line 274.
+itre 5-2".png  used on input line 253.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[11 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-1.png>]
-<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-3".png, id=100, 1
-660.2025pt x 2347.77126pt>
+[10 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-1.png>]
+<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-3".png, id=92, 16
+60.2025pt x 2347.77126pt>
 File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-3".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-3".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-3".png  used on input line 276.
+itre 5-3".png  used on input line 255.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[12 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-2.png>]
-<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-4".png, id=106, 1
-660.2025pt x 2347.77126pt>
+[11 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-2.png>]
+<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-4".png, id=98, 16
+60.2025pt x 2347.77126pt>
 File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-4".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-4".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-4".png  used on input line 278.
+itre 5-4".png  used on input line 257.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[13 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-3.png>]
-<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-5".png, id=113, 1
+[12 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-3.png>]
+<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-5".png, id=104, 1
 660.2025pt x 2347.77126pt>
 File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-5".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-5".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-5".png  used on input line 280.
+itre 5-5".png  used on input line 259.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[14 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-4.png>]
-<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-6".png, id=119, 1
+[13 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-4.png>]
+<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-6".png, id=111, 1
 660.2025pt x 2347.77126pt>
 File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-6".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-6".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-6".png  used on input line 282.
+itre 5-6".png  used on input line 261.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[15 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-5.png>]
-<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-7".png, id=125, 1
+[14 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-5.png>]
+<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-7".png, id=117, 1
 660.2025pt x 2347.77126pt>
 File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-7".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-7".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-7".png  used on input line 284.
+itre 5-7".png  used on input line 263.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[16 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-6.png>]
-<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-8".png, id=131, 1
+[15 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-6.png>]
+<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-8".png, id=123, 1
 660.2025pt x 2347.77126pt>
 File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-8".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-8".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-8".png  used on input line 286.
+itre 5-8".png  used on input line 265.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[17 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-7.png>]
-<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-9".png, id=137, 1
+[16 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-7.png>]
+<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-9".png, id=129, 1
 660.2025pt x 2347.77126pt>
 File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-9".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-9".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-9".png  used on input line 288.
+itre 5-9".png  used on input line 267.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[18 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-8.png>]
-<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-10".png, id=143, 
+[17 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-8.png>]
+<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-10".png, id=135, 
 1660.2025pt x 2347.77126pt>
 File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-10".png Grap
 hic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-10".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-10".png  used on input line 290.
+itre 5-10".png  used on input line 269.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[19 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-9.png>]
-<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-11".png, id=150, 
+[18 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-9.png>]
+<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-11".png, id=141, 
 1660.2025pt x 2347.77126pt>
 File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-11".png Grap
 hic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-11".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-11".png  used on input line 292.
+itre 5-11".png  used on input line 271.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[20 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-10.png>] AED end
-float: Processing end Figures and Tables [21 <D:/Documents/Github_projects/thes
+[19 <D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-10.png>] AED end
+float: Processing end Figures and Tables [20 <D:/Documents/Github_projects/thes
 is/Chapitre 5/Chapitre 5-11.png>] (chp5.fff
 <"D:/Documents/Github_projects/thesis/Chapitre 5/Illustration/""Fig1".png, id=1
-61, 361.35pt x 361.35pt>
+53, 361.35pt x 361.35pt>
 File: "D:/Documents/Github_projects/thesis/Chapitre 5/Illustration/""Fig1".png 
 Graphic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/Illustration/""Fig1".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/Illust
 ration/""Fig1".png  used on input line 5.
 (pdftex.def)             Requested size: 361.34912pt x 361.34912pt.
-<"chp5_files/figure-latex/""equiv1-1".pdf, id=162, 361.35pt x 289.08pt>
+<"chp5_files/figure-latex/""equiv1-1".pdf, id=154, 361.35pt x 289.08pt>
 File: "chp5_files/figure-latex/""equiv1-1".pdf Graphic file (type pdf)
 <use "chp5_files/figure-latex/""equiv1-1".pdf>
 Package pdftex.def Info: "chp5_files/figure-latex/""equiv1-1".pdf  used on inpu
 t line 15.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
-[22
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
+[21
 
 
- <D:/Documents/Github_projects/thesis/Chapitre 5/Illustration/Fig1.png>] [23 <.
+ <D:/Documents/Github_projects/thesis/Chapitre 5/Illustration/Fig1.png>] [22 <.
 /chp5_files/figure-latex/equiv1-1.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
 (chp5.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 295.
-
-LaTeX Warning: There were undefined references.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 274.
  ) 
 Here is how much of TeX's memory you used:
- 17199 strings out of 492452
- 260798 string characters out of 3128447
- 383081 words of memory out of 3000000
- 21124 multiletter control sequences out of 15000+200000
- 91202 words of font info for 113 fonts, out of 3000000 for 9000
+ 17160 strings out of 492452
+ 259761 string characters out of 3128447
+ 383015 words of memory out of 3000000
+ 21089 multiletter control sequences out of 15000+200000
+ 86738 words of font info for 113 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,12n,51p,2664b,454s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.e
-nc}{C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.e
-nc}{C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-math
-ex.enc}{C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-
-rm.enc}{C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-
-mathsy.enc}{C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm
-/lm-mathit.enc}<C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmbx12.pfb><C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/lm/lmbxi10.pfb><C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/lm/lmex10.pfb><C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/lm/lmmi12.pfb><C:/Users/Marie/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Marie/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/Marie/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/Marie/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/Marie/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/Marie/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/Marie/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Marie/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on chp5.pdf (23 pages, 2806590 bytes).
+ 46i,12n,51p,2912b,454s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
+c}{C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathe
+x.enc}{C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-r
+m.enc}{C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-m
+athsy.enc}{C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
+lm-mathit.enc}<C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmbx12.pfb><C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/lm/lmex10.pfb><C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmmi12.pfb><C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/lm/lmmi8.pfb><C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/lm/lmr10.pfb><C:/Users/Marie/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/Marie/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/Marie/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/Marie/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/Marie/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Marie/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
+Output written on chp5.pdf (22 pages, 2790342 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 12439 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 253 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 12431 words of extra memory for PDF output out of 14400 (max. 10000000)
 
