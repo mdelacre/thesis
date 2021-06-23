@@ -24,8 +24,10 @@ A travers ce chapitre, notre premier objectif sera d'expliquer pourquoi interpr�
 Lorsqu'on teste une hypothèse nulle, il y a deux conclusions possibles: soit ont la rejette soit on ne la rejette pas. Si rejeter l'hypothèse nulle amène à conclure en faveur de l'hypothèse alternative, ne pas la rejeter ne permet pas de conclure en faveur de l'hypothèse nulle. Au mieux, cela nous montre que les données ne sont pas incompatibles avec l'hypothèse nulle, mais cela ne veut en aucun cas dire qu'elles ne sont compatibles avec aucune autre hypothèse.  Afin de l'illustrer, la Table 1 résume les résultats de simulations Monte Carlo pour un ensemble de 70 scénarios qui varient en fonction de la taille des échantillons ($n_j$) et de la différence entre les moyennes des deux populations dont sont extraits les échantillons ($\mu_1-\mu_2$). Pour chaque scénario, à 5000 reprises, nous avons généré une paire d'échantillons indépendants, réalisé un test $t$ de Student pour échantillons indépendants et extrait la $p$-valeur du test. Ensuite, nous avons calculé la proportion de $p$-valeurs supérieures à .05, nous amenant à ne pas rejeter l'hypothèse nulle lorsqu'on travaille avec un risque alpha de 5% [ce risque alpha étant communément accepté par la majorité des chercheurs, @meyners_equivalence_2012]. Cette proportion correspond au taux d'erreur de type II (communément appelé $\beta$). 
 
 ```{r "simu", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="96%"}
-knitr::include_graphics("D:/Documents/Github_projects/thesis/Chapitre 5/Illustration/Table 1.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Table 1.png")
+#knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Illustration/Table 1.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illustration/Table #1.png")
+
 ```
 
 Dans la mesure où une vraie différence entre les moyennes de population existe pour l'ensemble des scénarios envisagés dans la Table 1, nous espérerions être en mesure de rejeter l'hypothèse nulle le plus souvent possible. Pourtant, pour plusieurs scénarios, le nombre d'itérations amenant à conclure au non rejet de l'hypothèse nulle est bien supérieur au nombre d'itérations amenant à conclure au rejet de l'hypothèse nulle, comme on peut le voir à travers les valeurs $\beta$ très élevées dans certains cas. Par exemple, avec 10 sujets par groupes et considérant $\sigma_1=\sigma_2=1$, on ne détectera pas une différence de moyenne de .1 dans près de 95% des cas. Avec 200 sujets par groupe, on ne détectera toujours pas cette différence dans 80% des cas. En présence d'un effet non nul, cela se justifie par un manque de puissance des tests réalisés, ce qui démontre bien qu'un non rejet de l'hypothèse nulle peut en fait signifier deux choses: soit qu'il n'y a vraiment pas de différence entre les moyennes des populations (ou autrement dit, que les différences observées sont dûes au hasard), soit que le test n'est pas suffisamment puissant pour détecter la différence. Or, le manque de puissance des tests est récurrent dans la littérature, comme tendent à le montrer diverses méta-analyses [voir par exemple @button_power_2013; @bakker_rules_2012; @funder_improving_2014].
@@ -100,8 +102,8 @@ crit_SE <- abs(meandiff)/t_crit # quand n1=n2=n
 crit_SE_TOST <- (theta2-abs(meandiff))/t_crit_TOST
 
 # Représentation graphique:
-
-setwd("D:/Documents/Github_projects/thesis/Chapitre 5/Illustration")
+#setwd("C:/Users/Admin/Documents/Github #projects/thesis/Chapitre 5/Illustration")
+#setwd("D:/Documents/Github_projects/thesis/Chapitre #5/Illustration")
 #setwd("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illustration")
 png("Fig1.png",width=1500,height=1500, units = "px", res = 300)
 ylimsup <- round(SE_max*3/100,1)*100 # pour que la lim supérieure soit un multiple de 10
@@ -141,7 +143,8 @@ Bien que ce raisonnement puisse sembler tentant, de prime abord, il présente d'
 
 
 ```{r "schuirman2", fig.align='center', fig.cap="Région d'équivalence pour l'approche de la puissance (zone grisée) et pour le TOST (zone hachurée), pour l'exemple où $|\\theta$|=20, n = 50 et $\\alpha=.05$",echo=FALSE,out.width="96%"}
-knitr::include_graphics("D:/Documents/Github_projects/thesis/Chapitre 5/Illustration/Fig1.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fig1.png")
+#knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Illustration/Fig1.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre #5/Illustration/Fig1.png")
 ```
 
@@ -357,57 +360,68 @@ D'après Meyners, il existe pleins d'approches mais la différence entre elles e
 
 
 ```{r "chp5p1", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="92%"}
-knitr::include_graphics("D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-1.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.png")
+#knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Chapitre 5-1.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.png")
 ```
 
 ```{r "chp5p2", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-2.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.png")
+#knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Chapitre 5-2.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.png")
 ```
 
 ```{r "chp5p3", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-3.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.png")
+#knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Chapitre 5-3.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.png")
 ```
 
 ```{r "chp5p4", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-4.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.png")
+#knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Chapitre 5-4.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.png")
 ```
 
 ```{r "chp5p5", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-5.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.png")
+#knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Chapitre 5-5.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.png")
 ```
 
 ```{r "chp5p6", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-6.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.png")
+#knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Chapitre 5-6.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.png")
 ```
 
 ```{r "chp5p7", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-7.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.png")
+#knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Chapitre 5-7.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.png")
 ```
 
 ```{r "chp5p8", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-8.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.png")
+#knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Chapitre 5-8.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.png")
 ```
 
 ```{r "chp5p9", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-9.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.png")
+#knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Chapitre 5-9.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.png")
 ```
 
 ```{r "chp5p10", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-10.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.png")
+#knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Chapitre 5-10.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.png")
 ```
 
 ```{r "chp5p11", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("D:/Documents/Github_projects/thesis/Chapitre 5/Chapitre 5-11.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.png")
+#knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Chapitre 5-11.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.png")
 ```
 
