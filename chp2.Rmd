@@ -10,42 +10,42 @@ header-includes:
 ---
 
 # Chapitre 2: utiliser le test $\bf \emph t$ de Welch par défaut
-```{r "chp2p1", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="93%"}
-knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.png")
+```{r "chp2p1", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="92%"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.png")
 ```
 
 ```{r "chp2p2", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2.png")
 ```
 
 ```{r "chp2p3", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.png")
 ```
 
 ```{r "chp2p4", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.png")
 ```
 
 ```{r "chp2p5", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.png")
 ```
 
 ```{r "chp2p6", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.png")
 ```
 
 ```{r "chp2p7", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.png")
 ```
 
 ```{r "chp2p8", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.png")
 ```
 
 ```{r "chp2p9", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.png")
 ```
 
 ```{r "chp2p10", fig.align='center', fig.cap=NULL,echo=FALSE}
-knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.png")
 ```
