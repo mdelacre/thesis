@@ -7,8 +7,8 @@
   man]{apa6}
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{iftex}
-\ifPDFTeX
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -82,9 +82,9 @@
 
 % Create new environments so endfloat can handle them
 % \newenvironment{ltable}
-%   {\begin{landscape}\begin{center}\begin{threeparttable}}
-%   {\end{threeparttable}\end{center}\end{landscape}}
-\newenvironment{lltable}{\begin{landscape}\begin{center}\begin{ThreePartTable}}{\end{ThreePartTable}\end{center}\end{landscape}}
+%   {\begin{landscape}\centering\begin{threeparttable}}
+%   {\end{threeparttable}\end{landscape}}
+\newenvironment{lltable}{\begin{landscape}\centering\begin{ThreePartTable}}{\end{ThreePartTable}\end{landscape}}
 
 % Enables adjusting longtable caption width to table width
 % Solution found at http://golatex.de/longtable-mit-caption-so-breit-wie-die-tabelle-t15767.html
@@ -112,7 +112,7 @@
 \usepackage{csquotes}
 \usepackage{float}
 \usepackage{sectsty}
-\ifXeTeX
+\ifxetex
   % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
   \usepackage{polyglossia}
   \setmainlanguage[]{english}
@@ -122,7 +122,7 @@
 \let\LanguageShortHands\languageshorthands
 \def\languageshorthands#1{}
 \fi
-\ifLuaTeX
+\ifluatex
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
 
@@ -137,29 +137,29 @@
 \hypertarget{chapitre-3-utiliser-lanova-bf-emph-f-de-welch-par-duxe9faut}{%
 \section{\texorpdfstring{Chapitre 3: utiliser l'ANOVA \(\bf \emph F\) de Welch par défaut}{Chapitre 3: utiliser l'ANOVA \textbackslash bf \textbackslash emph F de Welch par défaut}}\label{chapitre-3-utiliser-lanova-bf-emph-f-de-welch-par-duxe9faut}}
 
-\begin{center}\includegraphics[width=0.93\linewidth]{C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-1} \end{center}
+\begin{center}\includegraphics[width=0.92\linewidth]{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-1} \end{center}
 
-\begin{center}\includegraphics{C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-2} \end{center}
+\begin{center}\includegraphics{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-2} \end{center}
 
-\begin{center}\includegraphics{C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-3} \end{center}
+\begin{center}\includegraphics{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-3} \end{center}
 
-\begin{center}\includegraphics{C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-4} \end{center}
+\begin{center}\includegraphics{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-4} \end{center}
 
-\begin{center}\includegraphics{C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-5} \end{center}
+\begin{center}\includegraphics{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-5} \end{center}
 
-\begin{center}\includegraphics{C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-6} \end{center}
+\begin{center}\includegraphics{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-6} \end{center}
 
-\begin{center}\includegraphics{C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-7} \end{center}
+\begin{center}\includegraphics{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-7} \end{center}
 
-\begin{center}\includegraphics{C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-8} \end{center}
+\begin{center}\includegraphics{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-8} \end{center}
 
-\begin{center}\includegraphics{C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-9} \end{center}
+\begin{center}\includegraphics{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-9} \end{center}
 
-\begin{center}\includegraphics{C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-10} \end{center}
+\begin{center}\includegraphics{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-10} \end{center}
 
-\begin{center}\includegraphics{C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-11} \end{center}
+\begin{center}\includegraphics{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-11} \end{center}
 
-\begin{center}\includegraphics{C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-12} \end{center}
+\begin{center}\includegraphics{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-12} \end{center}
 
 
 \end{document}
