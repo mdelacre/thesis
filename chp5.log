@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.28)  22 JUN 2021 13:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.28)  23 JUN 2021 09:05
 entering extended mode
 **./chp5.tex
 (chp5.tex
@@ -1031,11 +1031,14 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ("C:\Users\Marie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-eur.c
 fg"
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
-) [1{C:/Users/Marie/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[1{C:/Users/Marie/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ]
 <"D:/Documents/Github_projects/thesis/Chapitre 5/Illustration/""Table 1".png, i
-d=15, 566.115pt x 334.24875pt>
+d=14, 566.115pt x 334.24875pt>
 File: "D:/Documents/Github_projects/thesis/Chapitre 5/Illustration/""Table 1".p
 ng Graphic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/Illustration/""Table 1".pn
@@ -1050,30 +1053,38 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 163.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 163.
+
+Underfull \vbox (badness 7308) has occurred while \output is active []
+
+[3]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 65.
 ("C:\Users\Marie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [3]
+)
 
 LaTeX Warning: Reference `fig:schuirman' on page 4 undefined on input line 170.
 
 
+
+Underfull \vbox (badness 1902) has occurred while \output is active []
+
+[4]
 \openout4 = `chp5.fff'.
 
-(chp5.fff) [4] [5] [6] [7] [8]
+(chp5.fff) [5] [6] [7] [8]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
 64.
 ("C:\Users\Marie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-1".png, id=83, 16
+<"D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-1".png, id=81, 16
 60.2025pt x 2347.77126pt>
 File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-1".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-1".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-1".png  used on input line 269.
+itre 5-1".png  used on input line 271.
 (pdftex.def)             Requested size: 432.17445pt x 611.15845pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1085,7 +1096,7 @@ File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-2".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-2".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-2".png  used on input line 271.
+itre 5-2".png  used on input line 273.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1097,7 +1108,7 @@ File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-3".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-3".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-3".png  used on input line 273.
+itre 5-3".png  used on input line 275.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1109,7 +1120,7 @@ File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-4".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-4".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-4".png  used on input line 275.
+itre 5-4".png  used on input line 277.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1121,7 +1132,7 @@ File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-5".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-5".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-5".png  used on input line 277.
+itre 5-5".png  used on input line 279.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1133,7 +1144,7 @@ File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-6".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-6".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-6".png  used on input line 279.
+itre 5-6".png  used on input line 281.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1145,7 +1156,7 @@ File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-7".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-7".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-7".png  used on input line 281.
+itre 5-7".png  used on input line 283.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1157,7 +1168,7 @@ File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-8".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-8".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-8".png  used on input line 283.
+itre 5-8".png  used on input line 285.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1169,7 +1180,7 @@ File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-9".png Graph
 ic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-9".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-9".png  used on input line 285.
+itre 5-9".png  used on input line 287.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1181,7 +1192,7 @@ File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-10".png Grap
 hic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-10".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-10".png  used on input line 287.
+itre 5-10".png  used on input line 289.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1193,7 +1204,7 @@ File: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-11".png Grap
 hic file (type png)
 <use "D:/Documents/Github_projects/thesis/Chapitre 5/""Chapitre 5-11".png>
 Package pdftex.def Info: "D:/Documents/Github_projects/thesis/Chapitre 5/""Chap
-itre 5-11".png  used on input line 289.
+itre 5-11".png  used on input line 291.
 (pdftex.def)             Requested size: 398.20341pt x 563.11838pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1216,28 +1227,28 @@ Package pdftex.def Info: "chp5_files/figure-latex/""equiv1-1".pdf  used on inpu
 t line 15.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 292.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 294.
 [21
 
 
  <D:/Documents/Github_projects/thesis/Chapitre 5/Illustration/Fig1.png>] [22 <.
 /chp5_files/figure-latex/equiv1-1.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 292.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 294.
 (chp5.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 292.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 292.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 294.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 294.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 17204 strings out of 492452
- 260857 string characters out of 3128447
+ 17202 strings out of 492452
+ 260835 string characters out of 3128447
  382081 words of memory out of 3000000
  21124 multiletter control sequences out of 15000+200000
- 91551 words of font info for 116 fonts, out of 3000000 for 9000
+ 91460 words of font info for 115 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,11n,51p,2640b,524s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,12n,51p,2664b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.e
 nc}{C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.e
 nc}{C:/Users/Marie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-math
@@ -1257,7 +1268,7 @@ ms/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/Marie/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/Marie/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Marie/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on chp5.pdf (22 pages, 2804782 bytes).
+Output written on chp5.pdf (22 pages, 2805434 bytes).
 PDF statistics:
  266 PDF objects out of 1000 (max. 8388607)
  50 named destinations out of 1000 (max. 500000)
