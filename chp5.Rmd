@@ -21,9 +21,9 @@ A travers ce chapitre, notre premier objectif sera d'expliquer pourquoi interpr�
 
 ## Limites de l'approche traditionnelle
 
-Lorsqu'on teste une hypothèse nulle, il y a deux conclusions possibles: soit ont la rejette soit on ne la rejette pas. Si rejeter l'hypothèse nulle amène à conclure en faveur de l'hypothèse alternative, ne pas la rejeter ne permet pas de conclure en faveur de l'hypothèse nulle. Au mieux, cela nous montre que les données ne sont pas incompatibles avec l'hypothèse nulle, mais cela ne veut en aucun cas dire qu'elles ne sont compatibles avec aucune autre hypothèse.  Afin de l'illustrer, la Table 1 résume les résultats de simulations Monte Carlo pour un ensemble de 70 scénarios qui varient en fonction de la taille des échantillons ($n_j$) et de la différence entre les moyennes des deux populations dont sont extraits les échantillons ($\mu_1-\mu_2$). Pour chaque scénario, à 5000 reprises, nous avons généré une paire d'échantillons indépendants, réalisé un test $t$ de Student pour échantillons indépendants et extrait la $p$-valeur du test. Ensuite, nous avons calculé la proportion de $p$-valeurs supérieures à .05, nous amenant à ne pas rejeter l'hypothèse nulle lorsqu'on travaille avec un risque alpha de 5% [ce risque alpha étant communément accepté par la majorité des chercheurs, @meyners_equivalence_2012]. Cette proportion correspond au taux d'erreur de type II (communément appelé $\beta$). 
+Lorsqu'on teste une hypothèse nulle, il y a deux conclusions possibles: soit ont la rejette soit on ne la rejette pas. Si rejeter l'hypothèse nulle amène à conclure en faveur de l'hypothèse alternative, ne pas la rejeter ne permet pas de conclure en faveur de l'hypothèse nulle. Au mieux, cela nous montre que les données ne sont pas incompatibles avec l'hypothèse nulle, mais cela ne veut en aucun cas dire qu'elles ne sont compatibles avec aucune autre hypothèse.  Afin de l'illustrer, la Table 1 résume les résultats de simulations Monte Carlo pour un ensemble de 70 scénarios qui varient en fonction de la taille des échantillons ($n_j$) et de la différence entre les moyennes des deux populations dont sont extraits les échantillons ($\mu_1-\mu_2$). Pour chaque scénario, à 5000 reprises, nous avons généré aléatoirement une paire d'échantillons indépendants, réalisé un test $t$ de Student pour échantillons indépendants et extrait la $p$-valeur du test. Ensuite, nous avons calculé la proportion d'itérations associées à une $p$-valeurs supérieures à .05, nous amenant à ne pas rejeter l'hypothèse nulle lorsqu'on travaille avec un risque alpha de 5% [ce risque alpha étant communément accepté par la majorité des chercheurs, @meyners_equivalence_2012]. Cette proportion correspond au taux d'erreur de type II (communément appelé $\beta$). 
 
-```{r "simu", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="96%"}
+```{r "simu", fig.align='left', fig.cap=NULL,echo=FALSE,out.width="100%"}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Table 1.png")
 #knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Illustration/Table 1.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illustration/Table #1.png")
@@ -139,7 +139,7 @@ crit_SE_TOST <- (theta2-abs(meandiff))/t_crit_TOST
 #dev.off()
 ```
 
-Bien que ce raisonnement puisse sembler tentant, de prime abord, il présente d'importantes limites. Via cette approche, la probabilité de détecter une absence d’effet va augmenter non seulement quand la taille des échantillons va diminuer [@seaman_equivalence_1998,à condition de ne pas passer en deça de la puissance minimale requise], mais également quand l’erreur (la variabilité des scores au sein de chaque groupe) va augmenter [@meyners_equivalence_2012; @schuirmann_comparison_1987]. Ce dernier point est illustré au sein de la Figure \ref{fig:schuirman2}, dans le contexte de la comparaison de deux moyennes. Sur l'axe des abscisses, on représente différentes estimations de la différence de moyenne ($\bar{X_1}-\bar{X_2}$) et sur l'axe des ordonnées, la précision des estimations $\bar{X_1}-\bar{X_2}$ ($S\sqrt{\frac{2}{n}}$ correspond à l'estimation de l'erreur standard de $\bar{X_1}-\bar{X_2}$, avec $S$ étant l'écart-type poolé et $n$ la taille de chaque échantillon, lorsque les échantillons ont tous les deux la même taille et sont extraits de population ayant la même variance)\footnote{Par facilité, à l'instar de Schuirman (1987), on envisage le cas où les échantillons sont de même taille et que l'on suppose que la condition d'homogénéité des variances est respectée. Notons cependant que d'après Schuirman, ce raisonnement peut être généralisé aux scénarios où les deux échantillons n'ont pas la même taille et sont extraits de population n'ayant pas la même variance.}. Le triangle grisé représente l'ensemble des combinaisons estimation/précision qui vont amener à conclure à l'équivalence, avec l'approche de la puissance, lorsqu'on travaille avec des échantillons de taille 50, en acceptant un risque $\alpha$ de 5% et en exigeant une puissance minimale de 80% pour détecter une différence de 20 unités ($|\theta_j=20|,\;j=1,2$). Dans cet exemple, pour toutes les valeurs de $S\sqrt{\frac{2}{n}}$ supérieures à `r SE_max` aucune estimation de différence de moyennes ne permettra de conclure à l'équivalence (pas même 0) puisque la puissance du test à détecter une différence de 20 unités est inférieure à 80%.  Pour toutes les valeurs de $S\sqrt{\frac{2}{n}}$ inférieures à `r SE_max`, on constate que plus notre estimation de $\bar{X_1}-\bar{X_2}$ est précise (lorsqu'on se déplace du haut vers le bas, sur l'axe des ordonnées), plus l'estimation doit être proche de 0 pour pouvoir conclure à l'équivalence. Cette propriété, peu désirable, n'est pas partagée par les tests d'équivalence dont fait partie le TOST que nous allons décrire ci-dessous [@schuirmann_comparison_1987]. 
+Bien que ce raisonnement puisse sembler tentant, de prime abord, il présente d'importantes limites. Via cette approche, la probabilité de détecter une absence d’effet va augmenter non seulement quand la taille des échantillons va diminuer [@seaman_equivalence_1998,à condition de ne pas passer en deça de la puissance minimale requise], mais également quand l’erreur (la variabilité des scores au sein de chaque groupe) va augmenter [@meyners_equivalence_2012; @schuirmann_comparison_1987]. Ce dernier point est illustré au sein de la Figure \ref{fig:schuirman2}, dans le contexte de la comparaison de deux moyennes. Sur l'axe des abscisses, on représente différentes estimations de la différence de moyenne ($\bar{X_1}-\bar{X_2}$) et sur l'axe des ordonnées, la précision des estimations $\bar{X_1}-\bar{X_2}$ ($S\sqrt{\frac{2}{n}}$ correspond à l'estimation de l'erreur standard de $\bar{X_1}-\bar{X_2}$, avec $S$ étant l'écart-type poolé et $n$ la taille de chaque échantillon, lorsque les échantillons ont tous les deux la même taille et sont extraits de population ayant la même variance)\footnote{Par facilité, à l'instar de Schuirman (1987), on envisage le cas où les échantillons sont de même taille et que l'on suppose que la condition d'homogénéité des variances est respectée. Notons cependant que d'après Schuirman, ce raisonnement peut être généralisé aux scénarios où les deux échantillons n'ont pas la même taille et sont extraits de population n'ayant pas la même variance.}. Le triangle grisé représente l'ensemble des combinaisons estimation/précision qui vont amener à conclure à l'équivalence, avec l'approche de la puissance, lorsqu'on travaille avec des échantillons de taille 50, en acceptant un risque $\alpha$ de 5% et en exigeant une puissance minimale de 80% pour détecter une différence de 20 unités ($|\theta_j=20|,\;j=1,2$). Dans cet exemple, pour toutes les valeurs de $S\sqrt{\frac{2}{n}}$ supérieures à `r round(SE_max,2)` aucune estimation de différence de moyennes ne permettra de conclure à l'équivalence (pas même 0) puisque la puissance du test à détecter une différence de 20 unités est inférieure à 80%.  Pour toutes les valeurs de $S\sqrt{\frac{2}{n}}$ inférieures à `r round(SE_max,2)`, on constate que plus notre estimation de $\bar{X_1}-\bar{X_2}$ est précise (lorsqu'on se déplace du haut vers le bas, sur l'axe des ordonnées), plus l'estimation doit être proche de 0 pour pouvoir conclure à l'équivalence. Cette propriété, peu désirable, n'est pas partagée par les tests d'équivalence dont fait partie le TOST que nous allons décrire ci-dessous [@schuirmann_comparison_1987]. 
 
 
 ```{r "schuirman2", fig.align='center', fig.cap="Région d'équivalence pour l'approche de la puissance (zone grisée) et pour le TOST (zone hachurée), pour l'exemple où $|\\theta$|=20, n = 50 et $\\alpha=.05$",echo=FALSE,out.width="96%"}
@@ -147,8 +147,6 @@ knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitr
 #knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Illustration/Fig1.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre #5/Illustration/Fig1.png")
 ```
-
-
 
 
 ```{r "tauxbeta", echo=FALSE}
@@ -198,17 +196,14 @@ knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitr
 
 ## Les tests d'équivalence
 
-Avec les tests d'équivalence, il n'est pas possible de démontrer qu'un effet vaille exactement zéro [@meyners_equivalence_2012]. Il est par contre possible de montrer que l'effet observé est suffisamment petit pour être jugé non pertinent. Or, cela peut s'avérer précieux dans de nombreuses situations, par exemple pour justifier la décision de regrouper plusieurs groupes de sujets ensemble [@rogers_using_1993], pour contrôler qu'il n'y ait pas de différence trop importante entre les groupes sur base de critères autres que le (ou les) facteur(s) d'intérêts en cas de quasi-expérience [@seaman_equivalence_1998], pour falsifier une théorie qui prônerait en faveur d'un effet dépassant une certaine taille [@lakens_equivalence_2017;@anderson_theres_2016] *ou au contraire, pour démontrer qu'on obtient des résultats en ligne avec ceux d'une étude originale, en cas de réplication (en faisant un test d'équivalence sur la différence de tailles d'effets, @anderson_theres_2016)* --> Revoir ça car pas sûre d'avoir tout bien compris.
+Avec les tests d'équivalence, il n'est pas possible de démontrer qu'un effet vaille exactement zéro [@meyners_equivalence_2012]. Il est par contre possible de montrer que l'effet observé est suffisamment petit pour être jugé non pertinent. Or, cela peut s'avérer précieux dans de nombreuses situations, par exemple pour justifier la décision de regrouper plusieurs groupes de sujets ensemble [@rogers_using_1993], pour contrôler qu'il n'y ait pas de différence trop importante entre les groupes sur base de critères autres que le (ou les) facteur(s) d'intérêts en cas de quasi-expérience  [@seaman_equivalence_1998] ou encore pour falsifier une théorie qui prônerait en faveur d'un effet dépassant une certaine taille [@lakens_equivalence_2017;@anderson_theres_2016].
 
-Le point de départ des tests d'équivalence est de définir $\theta_1$ et $\theta_2$, les limites inférieures et supérieures de la zone d'équivalence, cette dernière contenant l'ensemble des valeurs jugées trop petites pour être susceptibles de nous intéresser. Ces limites peuvent être exprimées soit dans l'unité des données brutes, soit en terme standardisé, mais doivent être définies avant la récolte des données [@anderson_theres_2016]. Il existe ensuite plusieurs approches pour démontrer que l'effet observé se situe dans la zone d'équivalence [voir @meyners_equivalence_2012, par exemple]. Parmis celles-ci, une approche très simple est celle du *TOST* (pour "Two one-sided tests", @schuirmann_comparison_1987; @lakens_equivalence_2017)\footnote{il existe des alternatives au TOST qui sont très légèrement plus puissantes, mais le gain marginal en termes de puissance est contrebalancé par un niveau de complexité beaucoup plus élevé (Meyners, 2012).}. Le principe est de définir deux hypothèses nulles: la première est que l'effet observé est inférieur à la limite inférieure de la zone d'équivalence: $$H0_1: \theta < \theta_1, \; avec \; \theta_1 \neq 0$$ La deuxième est que l'effet observé est supérieur à la limite supérieure de la zone d'équivalence: $$H0_2: \theta > \theta_2, \; avec \; \theta_2 \neq 0$$ Lorsque les deux hypothèses nulle peuvent être simultanément rejetées, on peut conclure à l'équivalence [@seaman_equivalence_1998]. Cela équivaut, statistiquement parlant, à montrer que l'intervalle de confiance à $(1-2\times\alpha)\%$ est entièrement inclus dans la zone d'équivalence [Westlake, 1981, cité par @seaman_equivalence_1998; 
-@lakens_equivalence_2017]. Notons qu'il n'est pas nécessaire de reporter les résulats des deux tests unilatéraux, lorsqu'on réalise le TOST: il suffit de reporter les résultats du test associé à la plus petite valeur de statistique (et par conséquent, à la plus grande $p$-valeur). En effet, si ce test amène à conclure au rejet de l'hypothèse nulle, le second test amènera automatiquement à la même conclusion [@rogers_using_1993, @lakens_equivalence_2018]. Cette remarque reste vraie dans le cas particulier où les deux tests sont associés à la même valeur de statistique puisque dans ce cas, les deux tests mèneront à une conclusion identique [@rogers_using_1993]. Notons également qu'il n'est pas nécessaire de procéder à une correction du risque alpha dûe à la réalisation simultanée de deux tests. En effet, une erreur de type I (rejeter à tort l'hypothèse nulle) ne peut être commise que si l'hypothèse nulle est vraie. Or, les deux hypothèses nulles testées sont mutuellement exclusives: il n'est pas possible que $\theta$ soit simultanément inférieur à $\theta_1$ (ce qui correspond à $H0_1$) et supérieur à $\theta_2$ (ce qui correspond à $H0_2$).  
-
-Bien que le TOST ne soit pas encore disponible dans tous les logiciels, 
-Lorsqu'on utilise simultanément le TOST et le test traditionnel d'absence d'effet, 4 conclusions distinctes peuvent être tirées des résultats [@lakens_equivalence_2017]. 
+Le point de départ des tests d'équivalence est de définir $\theta_1$ et $\theta_2$, les limites inférieures et supérieures de la zone d'équivalence, cette dernière contenant l'ensemble des valeurs jugées trop petites pour être susceptibles de nous intéresser. Ces limites peuvent être exprimées soit dans l'unité des données brutes, soit en terme standardisé, mais doivent être définies avant la récolte des données [@anderson_theres_2016]. Il existe ensuite plusieurs approches pour démontrer que l'effet observé se situe dans la zone d'équivalence [voir @meyners_equivalence_2012, par exemple]. Parmis celles-ci, une approche très simple est celle du "Two one-sided tests" [@schuirmann_comparison_1987; @lakens_equivalence_2017], plus communément appelé le TOST \footnote{Il existe des alternatives au TOST qui sont très légèrement plus puissantes, mais le gain marginal en termes de puissance est contrebalancé par un niveau de complexité beaucoup plus élevé (Meyners, 2012).}. Le principe est de définir deux hypothèses nulles. La première est que l'effet observé est inférieur à la limite inférieure de la zone d'équivalence: $$\it H0_1: \theta < \theta_1, \; avec \; \theta_1 \neq 0$$ La deuxième est que l'effet observé est supérieur à la limite supérieure de la zone d'équivalence: $$\it H0_2: \theta > \theta_2, \; avec \; \theta_2 \neq 0$$ Lorsque les deux hypothèses nulle peuvent être simultanément rejetées, on peut conclure à l'équivalence [@seaman_equivalence_1998]. Cela équivaut, statistiquement parlant, à montrer que l'intervalle de confiance à $(1-2\times\alpha)\%$ est entièrement inclus dans la zone d'équivalence [@seaman_equivalence_1998; 
+@lakens_equivalence_2017]. Notons qu'il n'est pas nécessaire de reporter les résulats des deux tests unilatéraux, lorsqu'on réalise le TOST: il suffit de reporter les résultats du test associé à la plus petite valeur de statistique (et par conséquent, à la plus grande $p$-valeur). En effet, si ce test amène à conclure au rejet de l'hypothèse nulle, le second test amènera automatiquement à la même conclusion [@rogers_using_1993; @lakens_equivalence_2018]. Cette remarque reste vraie dans le cas particulier où les deux tests sont associés à la même valeur de statistique puisque dans ce cas, les deux tests mèneront à une conclusion identique [@rogers_using_1993]. Notons également qu'il n'est pas nécessaire de procéder à une correction du risque alpha dûe à la réalisation simultanée de deux tests. En effet, une erreur de type I (rejeter à tort l'hypothèse nulle) ne peut être commise que si l'hypothèse nulle est vraie. Or, les deux hypothèses nulles testées sont mutuellement exclusives: il n'est pas possible que $\theta$ soit simultanément inférieur à $\theta_1$ (ce qui correspond à $\it H0_1$) et supérieur à $\theta_2$ (ce qui correspond à $\it H0_2$).  
 
 ```{r, include=FALSE}
 library(TOSTER)
-m <- 144.5
+m <- 144
 mu <- 144.5
 sd <- 500
 n <- 1000000
@@ -216,31 +211,30 @@ low_eqbound = -2
 high_eqbound = 2 
 alpha = 0.05
 tost_res1 <- TOSTone.raw(m = m, 
-                   mu = mu,
-                   sd = sd, 
-                   n = n, 
-                   low_eqbound = low_eqbound, 
-                   high_eqbound = high_eqbound, 
-                   alpha = alpha
+                         mu = mu,
+                         sd = sd, 
+                         n = n, 
+                         low_eqbound = low_eqbound, 
+                         high_eqbound = high_eqbound, 
+                         alpha = alpha
 )
 
-m <- 143
+m <- 143.5
 mu <- 144.5
-
-sd <- 500
+sd <- 400
 n <- 1000000
 low_eqbound = -2 
 high_eqbound = 2 
 alpha = 0.05
 tost_res2 <- TOSTone.raw(m = m, 
-                   mu = mu,
-                   sd = sd, 
-                   n = n, 
-                   low_eqbound = low_eqbound, 
-                   high_eqbound = high_eqbound, 
-                   alpha = alpha
+                         mu = mu,
+                         sd = sd, 
+                         n = n, 
+                         low_eqbound = low_eqbound, 
+                         high_eqbound = high_eqbound, 
+                         alpha = alpha
 )
-m <- 147
+m <- 148
 mu <- 144.5
 sd <- 500
 n <- 1000000
@@ -248,16 +242,32 @@ low_eqbound = -2
 high_eqbound = 2 
 alpha = 0.05
 tost_res3 <- TOSTone.raw(m = m, 
-                   mu = mu,
-                   sd = sd, 
-                   n = n, 
-                   low_eqbound = low_eqbound, 
-                   high_eqbound = high_eqbound, 
-                   alpha = alpha
+                         mu = mu,
+                         sd = sd, 
+                         n = n, 
+                         low_eqbound = low_eqbound, 
+                         high_eqbound = high_eqbound, 
+                         alpha = alpha
+)
+
+m <- 143.5
+mu <- 144.5
+sd <- 700
+n <- 1000000
+low_eqbound = -2 
+high_eqbound = 2 
+alpha = 0.05
+tost_res4 <- TOSTone.raw(m = m, 
+                         mu = mu,
+                         sd = sd, 
+                         n = n, 
+                         low_eqbound = low_eqbound, 
+                         high_eqbound = high_eqbound, 
+                         alpha = alpha
 )
 ```
 
-```{r "equiv1", fig.align = "center", fig.cap= "Différence de moyennes ($\\bar{X_1}-\\bar{X_2}$), distribution d'échantillonnage et IC à $1-2\\alpha\\%$ autour de la différence de moyennes ($\\bar{X_1}-\\bar{X_2}$) pour 3 exemples de TOST.", echo=FALSE, dpi=600, fig.width=5, fig.height=4}
+```{r "equiv1", fig.align = "center", fig.cap= "Différence de moyennes ($\\bar{X_1}-\\bar{X_2}$), distribution d'échantillonnage et IC à $1-2\\alpha\\%$ autour de la différence de moyennes ($\\bar{X_1}-\\bar{X_2}$) pour 4 scénarios distincts.", echo=FALSE, dpi=600, fig.width=5, fig.height=4}
 plot(NA, 
      ylim = c(0, 1), 
      xlim = c(-3, 4),
@@ -265,7 +275,7 @@ plot(NA,
      xaxt= "n",
      ylab = "",
      xlab = "Mean Difference")
-axis(2, at = c(0.25,0.5,0.75), labels = c("C", "B", "A"), las = 1)
+axis(2, at = c(0.125,0.375,0.625,0.875), labels = c("D","C", "B", "A"), las = 1)
 axis(1, at = c(-2,0,2), labels = c(expression(theta[1]),0,expression(theta[2])),las = 1)
 abline(v = tost_res1$high_eqbound, 
        lty = 2)
@@ -274,41 +284,55 @@ abline(v = tost_res1$low_eqbound,
 abline(v = 0, 
        lty = 2, 
        col = "grey")
+
+points(x = tost_res4$diff, 
+       y = 0.125, 
+       pch = 15, 
+       cex = 1.5)
+segments(tost_res4$LL_CI_TOST, 
+         0.125, 
+         tost_res4$UL_CI_TOST, 
+         0.125, 
+         lwd = 2)
+
 points(x = tost_res3$diff, 
-       y = 0.25, 
+       y = 0.375, 
        pch = 15, 
        cex = 1.5)
 segments(tost_res3$LL_CI_TOST, 
-         0.25, 
+         0.375, 
          tost_res3$UL_CI_TOST, 
-         0.25, 
+         0.375, 
          lwd = 2)
+
 points(x = tost_res2$diff, 
-       y = 0.5, 
+       y = 0.625, 
        pch = 15, 
        cex = 1.5)
 segments(tost_res2$LL_CI_TOST, 
-         0.5, 
+         0.625, 
          tost_res2$UL_CI_TOST, 
-         0.5, 
+         0.625, 
          lwd = 2)
+
 points(x = tost_res1$diff, 
-       y = 0.75, 
+       y = 0.875, 
        pch = 15, 
        cex = 1.5)
 segments(tost_res1$LL_CI_TOST, 
-         0.75, 
+         0.875, 
          tost_res1$UL_CI_TOST, 
-         0.75, 
+         0.875, 
          lwd = 2)
-
-par(new=TRUE)
-curve(dnorm(x, 144.5 - 144.5, 0.5), from=-1, to=1, ylim = c(-6, 2), xlim = c(-3, 4), xlab = "", ylab = "", axes = FALSE)
-par(new=TRUE)
-curve(dnorm(x, 143 - 144.5, 0.5), from=-2.5, to=-0.5, ylim = c(-4, 4), xlim = c(-3, 4), xlab = "", ylab = "", axes = FALSE)
-par(new=TRUE)
-curve(dnorm(x, 147 - 144.5, 0.5), from=1.5, to=3.5, ylim = c(-2, 6), xlim = c(-3, 4), xlab = "", ylab = "", axes = FALSE)
 ```
+
+Jusqu'il y a peu, le TOST n'était pas disponible dans la plupart des logiciels, à l'exception de Minitab, ce qui constituait un frein important à son usage. Pour cette raison, @lakens_20_2016 a créé le package TOSTER et plus récemment encore, ce même package a été implémenté dans Jamovi \footnote{Jamovi est un logiciel clic-bouton entièrement gratuit qui gagne en popularité et qui présente, parmi ses nombreux avantages, le fait d'être très convivial. Dans la mesure où la plupart des chercheurs sont plus enclins à utiliser des procédures si elles sont implémentées dans ce type de logiciel (Fraas $\&$ Newman, 2000), cela constitue une excellente nouvelle pour le devenir du TOST dans la recherche en psychologie.}. Tant dans R que dans Jamovi, le package TOSTER compare simultanément l'effet observé à 0 (test traditionnel d'absence d'effet) ainsi qu'aux deux bornes de la zone d'équivalence (TOST). Il en découle 4 conclusions distinctes possibles [@lakens_equivalence_2017], qui sont illustrées dans la figure \ref{fig:equiv1} dans le contexte de la comparaison de deux moyennes indépendantes:  
+(1) Les résultats du TOST sont statistiquement significatifs, mais pas celui du test traditionnel d'absence d'effet (scénario A, Figure \ref{fig:equiv1}): dans ce cas, on conclura à l'absence d'effet ayant un quelconque intérêt pratique [@rogers_using_1993].  
+(2) Tant les résultats du TOST que du test traditionnel sont significatifs (scénario B, Figure \ref{fig:equiv1}):  on conclura alors qu'il existe un effet non nul, mais que celui-ci est si petit qu'il ne présente aucun intérêt pratique. C'est ce qui arrive typiquement lorsqu'on travaille avec de très grands échantillons, si bien que le test traditionnel est très puissance, même pour détecter des effets très petits [@rogers_using_1993].  
+(3) Le résultat du test traditionnel est statistiquement significatifs, mais pas ceux du TOST (scénario C, Figure \ref{fig:equiv1}): on conclura alors à la présence d'un effet non nul [@rogers_using_1993].  
+(4) Ni les résultats du TOST, ni celui du test traditionnel n'est statistiquement significatif (scénario D, Figure \ref{fig:equiv1}): c'est ce qui arrive lorsque les données sont si imprécises qu'on ne peut tirer aucune conclusion. Les données semblent compatibles tant avec un effet nul qu'avec un effet au là des bornes d'équivalence.   
+
+
 
 
 
@@ -316,15 +340,6 @@ curve(dnorm(x, 147 - 144.5, 0.5), from=1.5, to=3.5, ylim = c(-2, 6), xlim = c(-3
 
 ## Conclusions possibles
 
-1) statistical indeterminacy [@quertemont_how_2011]
-2) equivalence [@quertemont_how_2011]
-
-Lorsqu'ils sont combinés avec un test traditionnel pour lequel l'hypothèse nulle est l'absence d'effet, les TOST peuvent amener à 4 conclusions distinctes:
-1) Equivalent et non statistiquement différent de 0: on conclura à l'absence de différence ayant un intérêt pratique [@rogers_using_1993].
-2) Statistiquement différent de 0, mais équivalent: il existe un effet non nul, mais trop petit pour avoir un intérêt. C'est ce qui peut typiquement arriver avec des échantillons trop larges (résultant en des tests "trop "puissants, @rogers_using_1993)  
-3) Statistiquement différent de 0, et on ne peut conclure à l'équivalence: on conclura alors à la présence d'un effet [@rogers_using_1993]
-4) Ni statistiquement différent de 0 ni équivalent (quand les données sont si imprécises qu'on ne peut rien tirer comme conclusion)  
---> A illustrer quand Jamovi le voudra!
 
 
 ## Définir les limites de la zone d'équivalence:LE sesoi

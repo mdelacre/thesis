@@ -6,10 +6,10 @@
 \contentsline {section}{Chapitre 5: les tests d'équivalence}{24}{section*.7}%
 \contentsline {subsection}{Limites de l'approche traditionnelle}{25}{section*.8}%
 \contentsline {subsection}{Les tests d'équivalence}{27}{section*.9}%
-\contentsline {subsection}{Avantage des tests d'équivalence}{30}{section*.10}%
-\contentsline {subsection}{Conclusions possibles}{30}{section*.11}%
+\contentsline {subsection}{Avantage des tests d'équivalence}{31}{section*.10}%
+\contentsline {subsection}{Conclusions possibles}{31}{section*.11}%
 \contentsline {subsection}{Définir les limites de la zone d'équivalence:LE sesoi}{31}{section*.12}%
-\contentsline {subsection}{Les 4 conclusions possibles quand combiné au NHST classique}{31}{section*.13}%
+\contentsline {subsection}{Les 4 conclusions possibles quand combiné au NHST classique}{32}{section*.13}%
 \contentsline {subsection}{Morceau qui servira peut-être (ou pas)}{32}{section*.14}%
 \contentsline {subsection}{Remarques diverses}{32}{section*.15}%
 \contentsline {section}{Conclusion}{44}{section*.16}%

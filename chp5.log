@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.23)  23 JUN 2021 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.23)  25 JUN 2021 10:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -804,9 +804,14 @@ able 1.png Graphic file (type png)
 ble 1.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 5/Illustration/Table 1.png  used on input line 152.
-(pdftex.def)             Requested size: 450.98357pt x 266.2722pt.
+(pdftex.def)             Requested size: 540.25945pt x 318.98296pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (70.50443pt too wide) in paragraph at lines 152--152
+[]  
+ []
+
+
+Underfull \vbox (badness 6477) has occurred while \output is active []
 
 [2] [3 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration
 /Table 1.png>]
@@ -816,35 +821,34 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 156.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 156.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-58.
-(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [4]
+[4]
 \openout4 = `chp5.fff'.
 
-(chp5.fff) [5] [6] [7] [8]
+(chp5.fff) [5] [6]
+Underfull \vbox (badness 7649) has occurred while \output is active []
+
+[7]
+Underfull \vbox (badness 5878) has occurred while \output is active []
+
+[8]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.png, i
-d=109, 1660.2025pt x 2347.77126pt>
+d=107, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-1.png  used on input line 245.
+re 5/Chapitre 5-1.png  used on input line 229.
 (pdftex.def)             Requested size: 432.17445pt x 611.15845pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 [9]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.png, i
-d=115, 1660.2025pt x 2347.77126pt>
+d=114, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-2.png  used on input line 247.
+re 5/Chapitre 5-2.png  used on input line 231.
 (pdftex.def)             Requested size: 459.93901pt x 650.42162pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -852,13 +856,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [10 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.png, i
-d=121, 1660.2025pt x 2347.77126pt>
+d=120, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-3.png  used on input line 249.
+re 5/Chapitre 5-3.png  used on input line 233.
 (pdftex.def)             Requested size: 459.93901pt x 650.42162pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -866,13 +870,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [11 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.png, i
-d=127, 1660.2025pt x 2347.77126pt>
+d=126, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-4.png  used on input line 251.
+re 5/Chapitre 5-4.png  used on input line 235.
 (pdftex.def)             Requested size: 459.93901pt x 650.42162pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -880,13 +884,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [12 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.png, i
-d=133, 1660.2025pt x 2347.77126pt>
+d=132, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-5.png  used on input line 253.
+re 5/Chapitre 5-5.png  used on input line 237.
 (pdftex.def)             Requested size: 459.93901pt x 650.42162pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -894,13 +898,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [13 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.png, i
-d=140, 1660.2025pt x 2347.77126pt>
+d=139, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-6.png  used on input line 255.
+re 5/Chapitre 5-6.png  used on input line 239.
 (pdftex.def)             Requested size: 459.93901pt x 650.42162pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -908,13 +912,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [14 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.png, i
-d=146, 1660.2025pt x 2347.77126pt>
+d=145, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-7.png  used on input line 257.
+re 5/Chapitre 5-7.png  used on input line 241.
 (pdftex.def)             Requested size: 459.93901pt x 650.42162pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -922,13 +926,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [15 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.png, i
-d=152, 1660.2025pt x 2347.77126pt>
+d=151, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-8.png  used on input line 259.
+re 5/Chapitre 5-8.png  used on input line 243.
 (pdftex.def)             Requested size: 459.93901pt x 650.42162pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -936,13 +940,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [16 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.png, i
-d=158, 1660.2025pt x 2347.77126pt>
+d=157, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-9.png  used on input line 261.
+re 5/Chapitre 5-9.png  used on input line 245.
 (pdftex.def)             Requested size: 459.93901pt x 650.42162pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -950,13 +954,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [17 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.png, 
-id=164, 1660.2025pt x 2347.77126pt>
+id=163, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.
 png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.p
 ng>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-10.png  used on input line 263.
+re 5/Chapitre 5-10.png  used on input line 247.
 (pdftex.def)             Requested size: 459.93901pt x 650.42162pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -964,13 +968,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [18 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.png, 
-id=171, 1660.2025pt x 2347.77126pt>
+id=169, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.
 png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.p
 ng>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-11.png  used on input line 265.
+re 5/Chapitre 5-11.png  used on input line 249.
 (pdftex.def)             Requested size: 459.93901pt x 650.42162pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -982,7 +986,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [20 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.p
 ng>] (./chp5.fff
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fig1.p
-ng, id=183, 361.35pt x 361.35pt>
+ng, id=182, 361.35pt x 361.35pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/F
 ig1.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fi
@@ -990,7 +994,7 @@ g1.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 5/Illustration/Fig1.png  used on input line 5.
 (pdftex.def)             Requested size: 361.34912pt x 361.34912pt.
-<chp5_files/figure-latex/equiv1-1.pdf, id=184, 361.35pt x 289.08pt>
+<chp5_files/figure-latex/equiv1-1.pdf, id=183, 361.35pt x 289.08pt>
 File: chp5_files/figure-latex/equiv1-1.pdf Graphic file (type pdf)
 <use chp5_files/figure-latex/equiv1-1.pdf>
 Package pdftex.def Info: chp5_files/figure-latex/equiv1-1.pdf  used on input li
@@ -1005,17 +1009,17 @@ Package rerunfilecheck Info: File `chp5.out' has not changed.
 (rerunfilecheck)             Checksum: B2F84E56E6EB65055C286AE1050C0AE3;2180.
  ) 
 Here is how much of TeX's memory you used:
- 14751 strings out of 480470
- 232561 string characters out of 5897013
+ 14712 strings out of 480470
+ 231903 string characters out of 5897013
  557657 words of memory out of 5000000
- 32100 multiletter control sequences out of 15000+600000
- 487140 words of font info for 95 fonts, out of 8000000 for 9000
+ 32064 multiletter control sequences out of 15000+600000
+ 499482 words of font info for 97 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,12n,80p,2763b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
-nc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mat
-hex.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/l
-m-rm.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/
+ 72i,12n,80p,3122b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.e
+nc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.
+enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ma
+thex.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/
 lm-mathsy.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvip
 s/lm/lm-mathit.enc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
 e1/public/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/font
@@ -1028,12 +1032,12 @@ yTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roaming
 ming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/Admin/AppData/
 Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admin/AppDa
 ta/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/Admin/
-AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/A
-dmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on chp5.pdf (22 pages, 2791012 bytes).
+AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/Users/Ad
+min/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on chp5.pdf (22 pages, 2785036 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
+ 275 PDF objects out of 1000 (max. 8388607)
  194 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 500000)
+ 46 named destinations out of 1000 (max. 500000)
  143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
