@@ -105,12 +105,12 @@ Abstract (voir nombre de mots requis)
 
 \newpage
 
+\pagenumbering{arabic}
+
 ```{r intro, child = 'introduction.Rmd'}
 ```
 
 \newpage
-
-\pagenumbering{arabic}
 
 ```{r chp2, child = 'chp2.Rmd'}
 ```

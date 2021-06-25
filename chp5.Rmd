@@ -17,7 +17,7 @@ header-includes:
 
 Lorsqu'on applique un test d'hypothèse, l'hypothèse nulle la plus couramment définie est celle d'absence d'effet ou de différence entre les groupes [@nickerson_null_2000]. Il arrive également parfois que les chercheurs définissent un intervalle de valeur comme hypothèse nulle, mais le plus souvent, cet intervalle est borné par la valeur 0 [@nickerson_null_2000], on parle alors d'hypothèse unilatérale. Avec cette stratégie, le rejet de l'hypothèse nulle constitue un soutien en faveur de la présence d'un effet non nul, par contre, le non rejet de l'hypothèse nulle ne peut être interprété comme un soutien en faveur de l'absence d'effet. Pourtant, il arrive souvent que des chercheurs l'interprètent de la sorte [@anderson_theres_2016]. @finch_reporting_2001, par exemple, ont reporté que parmis 150 articles publiés entre 1940 et 1999 dans le *JAP* (*Journal of Applied Psychology*), 38% interprétaient un résultat non significatif comme une acceptation de l'hypothès nulle. Plus récemment, @lakens_equivalence_2017 a noté que l'expression "pas d'effet" a été utilisée dans 108 articles publié dans *Social Psychological and Personality Science* avant août 2016 et que dans presque tous les cas, c'était sur base du non rejet de l'hypothèse nulle que cette conclusion était tirée. Cette erreur d'interprétation est également fréquemment commise dans le cadre des études de réplication. @anderson_theres_2016, par exemple, ont analysé 50 réplications d'études publiées en 2013 dans PsycINFO. Ils ont noté que 14 études affirmaient avoir obtenu des effets "nuls" (interprété comme un échec à la réplication), et tous l'ont fait sur base de l'acceptation d'une hypothèse nulle d'absence d'effet. C'est par exemple de cette manière qu'on été réalisées la plupart des tentatives de réplications de la célèbre étude de Bem [Ritchie, Wiseman & French, 2012, cités par @anderson_theres_2016]. 
 
-A travers ce chapitre, notre premier objectif sera d'expliquer pourquoi interpréter le non rejet de l'hypothèse d'absence d'effet comme un soutien en faveur d'une absence d'effet n'est pas une bonne stratégie. Nous introduirons ensuite les tests d'équivalence qui permettent d'obtenir un soutien en faveur d'un effet jugé non pertinent, et plus particulièrement le TOST (Two One-sided test). Pour finir, nous présenterons un article dans lequel nous comparons le TOST à la *SGPV* (Second Generation P-value), une stratégie récemment développée par @blume_second-generation_2018.
+A travers ce chapitre, notre premier objectif sera d'expliquer pourquoi interpréter le non rejet de l'hypothèse d'absence d'effet comme un soutien en faveur d'une absence d'effet n'est pas une bonne stratégie. Nous introduirons ensuite les tests d'équivalence qui permettent d'obtenir un soutien en faveur d'un effet jugé non pertinent, et plus particulièrement le TOST (Two One-sided test). Nous verrons que l'aspect le plus compliqué de la réalisatin du TOST est la définition des bornes d'équivalence. Pour cette raison, notre troisième objectif sera de fournir quelques pistes en vue de définir ces bornes. Pour finir, nous présenterons un article dans lequel nous comparons le TOST à la *SGPV* (Second Generation P-value), une stratégie récemment développée par @blume_second-generation_2018.
 
 ## Limites de l'approche traditionnelle
 
@@ -29,7 +29,7 @@ knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitr
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Illustration/Table #1.png")
 
 ```
-
+\newpage
 Dans la mesure où une vraie différence entre les moyennes de population existe pour l'ensemble des scénarios envisagés dans la Table 1, nous espérerions être en mesure de rejeter l'hypothèse nulle le plus souvent possible. Pourtant, pour plusieurs scénarios, le nombre d'itérations amenant à conclure au non rejet de l'hypothèse nulle est bien supérieur au nombre d'itérations amenant à conclure au rejet de l'hypothèse nulle, comme on peut le voir à travers les valeurs $\beta$ très élevées dans certains cas. Par exemple, avec 10 sujets par groupes et considérant $\sigma_1=\sigma_2=1$, on ne détectera pas une différence de moyenne de .1 dans près de 95% des cas. Avec 200 sujets par groupe, on ne détectera toujours pas cette différence dans 80% des cas. En présence d'un effet non nul, cela se justifie par un manque de puissance des tests réalisés, ce qui démontre bien qu'un non rejet de l'hypothèse nulle peut en fait signifier deux choses: soit qu'il n'y a vraiment pas de différence entre les moyennes des populations (ou autrement dit, que les différences observées sont dûes au hasard), soit que le test n'est pas suffisamment puissant pour détecter la différence. Or, le manque de puissance des tests est récurrent dans la littérature, comme tendent à le montrer diverses méta-analyses [voir par exemple @button_power_2013; @bakker_rules_2012; @funder_improving_2014].
 
 Pour éviter d'interpréter un test peu puissant comme un soutien en faveur de l'hypothèse nulle, l'approche de la puissance est devenue l'approche par défaut dans les années 80 pour tester l'équivalence [@meyners_equivalence_2012]. A travers cette approche qui est restée très populaire [@quertemont_how_2011], dans un premier temps, on définit ce qu'on considère comme étant la plus petite valeur d'intérêt (en anglais, le "SESOI" pour "Smaller Effect Size of Interest"), c'est-à-dire la taille d'effet minimale requise pour considérer qu'un effet est pertinent. Ensuite, on estime la puissance de notre test à détecter un effet de cette taille\footnote{On parle d'estimation et non de mesure, car la puissance dépend de paramètres de population qu'on ne connait pas (Schuirmann,1987).}, et si cette estimation atteind une valeur jugée satisfaisante (en général, 80%), alors on considère que l'on peut interpréter le non rejet de l'hypothèse nulle d'absence d'effet comme soutien en faveur de l'équivalence [@quertemont_how_2011; @meyners_equivalence_2012; @schuirmann_comparison_1987]. L'idée sous-jacente est que si l'effet est au moins aussi grand que les limites de la zone d'équivalence, on devrait rejeter l'hypothèse nulle dans la majorité des cas. Par conséquent, un non rejet de l'hypothèse nulle devrait vraisemblablement signifier que l'effet n'atteint pas le SESOI et donc, que l'effet observé n'est pas pertinent. 
@@ -141,13 +141,11 @@ crit_SE_TOST <- (theta2-abs(meandiff))/t_crit_TOST
 
 Bien que ce raisonnement puisse sembler tentant, de prime abord, il présente d'importantes limites. Via cette approche, la probabilité de détecter une absence d’effet va augmenter non seulement quand la taille des échantillons va diminuer [@seaman_equivalence_1998,à condition de ne pas passer en deça de la puissance minimale requise], mais également quand l’erreur (la variabilité des scores au sein de chaque groupe) va augmenter [@meyners_equivalence_2012; @schuirmann_comparison_1987]. Ce dernier point est illustré au sein de la Figure \ref{fig:schuirman2}, dans le contexte de la comparaison de deux moyennes. Sur l'axe des abscisses, on représente différentes estimations de la différence de moyenne ($\bar{X_1}-\bar{X_2}$) et sur l'axe des ordonnées, la précision des estimations $\bar{X_1}-\bar{X_2}$ ($S\sqrt{\frac{2}{n}}$ correspond à l'estimation de l'erreur standard de $\bar{X_1}-\bar{X_2}$, avec $S$ étant l'écart-type poolé et $n$ la taille de chaque échantillon, lorsque les échantillons ont tous les deux la même taille et sont extraits de population ayant la même variance)\footnote{Par facilité, à l'instar de Schuirman (1987), on envisage le cas où les échantillons sont de même taille et que l'on suppose que la condition d'homogénéité des variances est respectée. Notons cependant que d'après Schuirman, ce raisonnement peut être généralisé aux scénarios où les deux échantillons n'ont pas la même taille et sont extraits de population n'ayant pas la même variance.}. Le triangle grisé représente l'ensemble des combinaisons estimation/précision qui vont amener à conclure à l'équivalence, avec l'approche de la puissance, lorsqu'on travaille avec des échantillons de taille 50, en acceptant un risque $\alpha$ de 5% et en exigeant une puissance minimale de 80% pour détecter une différence de 20 unités ($|\theta_j=20|,\;j=1,2$). Dans cet exemple, pour toutes les valeurs de $S\sqrt{\frac{2}{n}}$ supérieures à `r round(SE_max,2)` aucune estimation de différence de moyennes ne permettra de conclure à l'équivalence (pas même 0) puisque la puissance du test à détecter une différence de 20 unités est inférieure à 80%.  Pour toutes les valeurs de $S\sqrt{\frac{2}{n}}$ inférieures à `r round(SE_max,2)`, on constate que plus notre estimation de $\bar{X_1}-\bar{X_2}$ est précise (lorsqu'on se déplace du haut vers le bas, sur l'axe des ordonnées), plus l'estimation doit être proche de 0 pour pouvoir conclure à l'équivalence. Cette propriété, peu désirable, n'est pas partagée par les tests d'équivalence dont fait partie le TOST que nous allons décrire ci-dessous [@schuirmann_comparison_1987]. 
 
-
-```{r "schuirman2", fig.align='center', fig.cap="Région d'équivalence pour l'approche de la puissance (zone grisée) et pour le TOST (zone hachurée), pour l'exemple où $|\\theta$|=20, n = 50 et $\\alpha=.05$",echo=FALSE,out.width="96%"}
+```{r "schuirman2", fig.align='center', fig.cap="Région d'équivalence pour l'approche de la puissance (zone grisée) et pour le TOST (zone hachurée), pour l'exemple où $|\\theta$|=20, n = 50 et $\\alpha=.05$",echo=FALSE,out.width="96%",dpi=600, fig.width=5, fig.height=3}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fig1.png")
 #knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Illustration/Fig1.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre #5/Illustration/Fig1.png")
 ```
-
 
 ```{r "tauxbeta", echo=FALSE}
 
@@ -267,10 +265,10 @@ tost_res4 <- TOSTone.raw(m = m,
 )
 ```
 
-```{r "equiv1", fig.align = "center", fig.cap= "Différence de moyennes ($\\bar{X_1}-\\bar{X_2}$), distribution d'échantillonnage et IC à $1-2\\alpha\\%$ autour de la différence de moyennes ($\\bar{X_1}-\\bar{X_2}$) pour 4 scénarios distincts.", echo=FALSE, dpi=600, fig.width=5, fig.height=4}
+```{r "equiv1", fig.align = "center", fig.cap= "Différence de moyennes ($\\bar{X_1}-\\bar{X_2}$) et IC à $1-2\\alpha\\%$ autour de la différence de moyennes ($\\bar{X_1}-\\bar{X_2}$) pour 4 scénarios distincts.", echo=FALSE, dpi=600, fig.width=5, fig.height=4}
 plot(NA, 
      ylim = c(0, 1), 
-     xlim = c(-3, 4),
+     xlim = c(-3, 5),
      yaxt = "n",
      xaxt= "n",
      ylab = "",
@@ -326,23 +324,19 @@ segments(tost_res1$LL_CI_TOST,
          lwd = 2)
 ```
 
-Jusqu'il y a peu, le TOST n'était pas disponible dans la plupart des logiciels, à l'exception de Minitab, ce qui constituait un frein important à son usage. Pour cette raison, @lakens_20_2016 a créé le package TOSTER et plus récemment encore, ce même package a été implémenté dans Jamovi \footnote{Jamovi est un logiciel clic-bouton entièrement gratuit qui gagne en popularité et qui présente, parmi ses nombreux avantages, le fait d'être très convivial. Dans la mesure où la plupart des chercheurs sont plus enclins à utiliser des procédures si elles sont implémentées dans ce type de logiciel (Fraas $\&$ Newman, 2000), cela constitue une excellente nouvelle pour le devenir du TOST dans la recherche en psychologie.}. Tant dans R que dans Jamovi, le package TOSTER compare simultanément l'effet observé à 0 (test traditionnel d'absence d'effet) ainsi qu'aux deux bornes de la zone d'équivalence (TOST). Il en découle 4 conclusions distinctes possibles [@lakens_equivalence_2017], qui sont illustrées dans la figure \ref{fig:equiv1} dans le contexte de la comparaison de deux moyennes indépendantes:  
+Jusqu'il y a peu, le TOST n'était pas disponible dans la plupart des logiciels, à l'exception de Minitab, ce qui constituait un frein important à son usage. Pour cette raison, @lakens_20_2016 a créé le package TOSTER et plus récemment encore, ce même package a été implémenté dans Jamovi \footnote{Jamovi est un logiciel clic-bouton entièrement gratuit qui gagne en popularité et qui présente, parmi ses nombreux avantages, le fait d'être très convivial. Dans la mesure où la plupart des chercheurs sont plus enclins à utiliser des procédures si elles sont implémentées dans ce type de logiciel (Fraas $\&$ Newman, 2000), cela constitue une excellente nouvelle pour le devenir du TOST dans la recherche en psychologie.}. Tant dans R que dans Jamovi, le package TOSTER compare simultanément l'effet observé à 0 (test traditionnel d'absence d'effet) ainsi qu'aux deux bornes de la zone d'équivalence (TOST). Il en découle 4 conclusions distinctes possibles [@lakens_equivalence_2017], qui sont illustrées dans la figure \ref{fig:equiv1} dans le contexte de la comparaison de deux moyennes indépendantes:   
+
+\newpage
+
 (1) Les résultats du TOST sont statistiquement significatifs, mais pas celui du test traditionnel d'absence d'effet (scénario A, Figure \ref{fig:equiv1}): dans ce cas, on conclura à l'absence d'effet ayant un quelconque intérêt pratique [@rogers_using_1993].  
-(2) Tant les résultats du TOST que du test traditionnel sont significatifs (scénario B, Figure \ref{fig:equiv1}):  on conclura alors qu'il existe un effet non nul, mais que celui-ci est si petit qu'il ne présente aucun intérêt pratique. C'est ce qui arrive typiquement lorsqu'on travaille avec de très grands échantillons, si bien que le test traditionnel est très puissance, même pour détecter des effets très petits [@rogers_using_1993].  
-(3) Le résultat du test traditionnel est statistiquement significatifs, mais pas ceux du TOST (scénario C, Figure \ref{fig:equiv1}): on conclura alors à la présence d'un effet non nul [@rogers_using_1993].  
+
+(2) Tant les résultats du TOST que du test traditionnel sont significatifs (scénario B, Figure \ref{fig:equiv1}):  on conclura alors qu'il existe un effet non nul, mais que celui-ci est si petit qu'il ne présente aucun intérêt pratique. C'est ce qui arrive typiquement lorsqu'on travaille avec de très grands échantillons, si bien que le test traditionnel est très puissant, même pour détecter des effets très petits [@rogers_using_1993].  
+
+(3)  Le résultat du test traditionnel est statistiquement significatif, mais pas ceux du TOST (scénario C, Figure \ref{fig:equiv1}): on conclura alors à la présence d'un effet non nul [@rogers_using_1993].  
+
 (4) Ni les résultats du TOST, ni celui du test traditionnel n'est statistiquement significatif (scénario D, Figure \ref{fig:equiv1}): c'est ce qui arrive lorsque les données sont si imprécises qu'on ne peut tirer aucune conclusion. Les données semblent compatibles tant avec un effet nul qu'avec un effet au là des bornes d'équivalence.   
 
-
-
-
-
-## Avantage des tests d'équivalence
-
-## Conclusions possibles
-
-
-
-## Définir les limites de la zone d'équivalence:LE sesoi
+## Définir les limites de la zone d'équivalence
 
 L'aspect le plus compliqué dans la réalisation du TOST est la définition des bornes d'équivalence. Il existe plusieurs stratégies:  
 1) définir comme limites la plus petite taille d'effet pour laquelle on peut atteindre une puissance de détection suffisante (déterminé par les ressources disponibles pour étudier l'effet, @lakens_equivalence_2017) --> voir la section "Setting equivalence bounds" p. 359 mais je crois que j'en parle aussi dans la vidéo SOCLAB.  
@@ -350,29 +344,7 @@ L'aspect le plus compliqué dans la réalisation du TOST est la définition des 
 3) Idéalement basé sur une analyse coût-bénéfice). Attention: bien sûr une dimension subjective dans la définition des coûts et des bénéfices. 
 Attention: le SESOI doit être déterminé AVANT et INDEPENDAMMENT des données. 
 
-## Les 4 conclusions possibles quand combiné au NHST classique
-
-Voir @lakens_equivalence_2017 p. 357. J'en parle ou po?
-
-
-## Morceau qui servira peut-être (ou pas)
-
-D'après @lakens_practical_2021, un test d'hypothèse (selon l'approche de Nayman-Pearson) vaut la peine à 2 conditions:  
-1) que l'hypothèse nulle soit assez plausible pour que son rejet puisse surprendre au moins certains;  
-2) le chercheur veut appliquer une procédure méthodol qui l'autorise à prendre des décisions quant à la manière d'agir, tout en contrôlant le taux d'erreur. Agir peut vouloir dire: adopter un traitement, une politique, une intervention, ou abandonner un domaine de rechercher, modifier une manipulation, ou de faire un certain type de déclaration ou revendication.  
-*One of the most widely suggested improvements of the use of p values is to replace null-ypothesis tests (where the goal is to reject ann effect of exactly 0) with tests of range predictions (where the goal is to reject effects that fall outside of the range of effects that is predicted or considered practically important) [@lakens_practical_2021]. 
-
-Un autre argument en défaveur de la p-valeur est la tendance des chercheurs à interpréter un effet NS comme l'acceptation de l'hypothèse nulle (Schmidt, 1996, cité par Harris, 1997). Une fois encore, l'usage des tailles d'effet peut aider à cette fin, non pas en "remplaçant" les tests d'hypothèses, mais en les complétant. --> Tests d'équivalence. 
-
-## Remarques diverses
-
-D'après Meyners, il existe pleins d'approches mais la différence entre elles est souvent négligeable [@meyners_equivalence_2012].
-
-
-
-
-
-
+## Comparaison du TOST et du SGPV
 
 ```{r "chp5p1", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="92%"}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.png")
