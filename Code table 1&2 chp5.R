@@ -75,7 +75,7 @@ semin2 <- function(n){
       equiv <- c(equiv,equivalence) 
     }
 
-    NRH0 <- c(NRH0,sum(equiv==TRUE)/length(pval))
+    NRH0 <- c(NRH0,sum(equiv==TRUE)/100000)
     
   }
   
