@@ -16,5 +16,5 @@
 
 }
 
-\caption{Différence de moyennes ($\bar{X_1}-\bar{X_2}$), distribution d'échantillonnage et IC à $1-2\alpha\%$ autour de la différence de moyennes ($\bar{X_1}-\bar{X_2}$) pour 3 exemples de TOST.}\label{fig:equiv1}
+\caption{Différence de moyennes ($\bar{X_1}-\bar{X_2}$) et IC à $1-2\alpha\%$ autour de la différence de moyennes ($\bar{X_1}-\bar{X_2}$) pour 4 scénarios distincts.}\label{fig:equiv1}
 \end{figure*}

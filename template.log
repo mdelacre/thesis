@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.23)  25 JUN 2021 12:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.28)  28 JUN 2021 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -943,173 +943,190 @@ re 3/Chapitre 3-12.pdf  used on input line 543.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [29 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-12.p
 df>] [30] [31]
-<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Table 
-1.png, id=1367, 566.115pt x 334.24875pt>
+<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Table1
+.png, id=1367, 471.7625pt x 276.03125pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/T
-able 1.png Graphic file (type png)
+able1.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
-ble 1.png>
+ble1.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Illustration/Table 1.png  used on input line 625.
-(pdftex.def)             Requested size: 486.27065pt x 287.1066pt.
+re 5/Illustration/Table1.png  used on input line 625.
+(pdftex.def)             Requested size: 471.81172pt x 276.06004pt.
 [32 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
-ble 1.png>] [33]
+ble1.png>] [33]
+<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Table2
+.png, id=1382, 475.7775pt x 295.1025pt>
+File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/T
+able2.png Graphic file (type png)
+<use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
+ble2.png>
+Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
+re 5/Illustration/Table2.png  used on input line 681.
+(pdftex.def)             Requested size: 475.78357pt x 295.10626pt.
+[34 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
+ble2.png>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fig1.p
-ng, id=1384, 361.35pt x 361.35pt>
+ng, id=1393, 361.35pt x 361.35pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/F
 ig1.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fi
 g1.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Illustration/Fig1.png  used on input line 706.
+re 5/Illustration/Fig1.png  used on input line 716.
 (pdftex.def)             Requested size: 361.34912pt x 361.34912pt.
-[34] [35pdfTeX warning (ext4): destination with the same identifier (name{figur
+[35] [36pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.727 
-       <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration
-/Fig1.png>] [36]
-<template_files/figure-latex/equiv1-1.pdf, id=1407, 361.35pt x 289.08pt>
+l.753 \[
+        \it H0_1: \theta < \theta_1, \; avec \; \theta_1 \neq 0\] La deuxième 
+<c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fig1.p
+ng>]
+<template_files/figure-latex/equiv1-1.pdf, id=1406, 361.35pt x 289.08pt>
 File: template_files/figure-latex/equiv1-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/equiv1-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/equiv1-1.pdf  used on inpu
-t line 773.
+t line 783.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
-[37pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
- has been already used, duplicate ignored
+[37] [38pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.793 \newpage
-               <./template_files/figure-latex/equiv1-1.pdf>]
+l.803 \newpage
+               <./template_files/figure-latex/equiv1-1.pdf>] [39] [40]
+Underfull \hbox (badness 10000) in paragraph at lines 950--956
+
+ []
+
+[41]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.png, i
-d=1427, 1660.2025pt x 2347.77126pt>
+d=1455, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-1.png  used on input line 843.
+re 5/Chapitre 5-1.png  used on input line 968.
 (pdftex.def)             Requested size: 447.3487pt x 632.61707pt.
-[38]
+[42]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.png, i
-d=1439, 1660.2025pt x 2347.77126pt>
+d=1463, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-2.png  used on input line 845.
+re 5/Chapitre 5-2.png  used on input line 970.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[39 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.pn
+[43 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.png, i
-d=1445, 1660.2025pt x 2347.77126pt>
+d=1469, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-3.png  used on input line 847.
+re 5/Chapitre 5-3.png  used on input line 972.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[40 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.pn
+[44 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.png, i
-d=1451, 1660.2025pt x 2347.77126pt>
+d=1476, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-4.png  used on input line 849.
+re 5/Chapitre 5-4.png  used on input line 974.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[41 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.pn
+[45 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.png, i
-d=1457, 1660.2025pt x 2347.77126pt>
+d=1482, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-5.png  used on input line 851.
+re 5/Chapitre 5-5.png  used on input line 976.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[42 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.pn
+[46 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.png, i
-d=1463, 1660.2025pt x 2347.77126pt>
+d=1488, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-6.png  used on input line 853.
+re 5/Chapitre 5-6.png  used on input line 978.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[43 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.pn
+[47 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.png, i
-d=1469, 1660.2025pt x 2347.77126pt>
+d=1494, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-7.png  used on input line 855.
+re 5/Chapitre 5-7.png  used on input line 980.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[44 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.pn
+[48 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.png, i
-d=1476, 1660.2025pt x 2347.77126pt>
+d=1500, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-8.png  used on input line 857.
+re 5/Chapitre 5-8.png  used on input line 982.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[45 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.pn
+[49 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.png, i
-d=1482, 1660.2025pt x 2347.77126pt>
+d=1506, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-9.png  used on input line 859.
+re 5/Chapitre 5-9.png  used on input line 984.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[46 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.pn
+[50 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.png, 
-id=1488, 1660.2025pt x 2347.77126pt>
+id=1513, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.
 png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.p
 ng>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-10.png  used on input line 861.
+re 5/Chapitre 5-10.png  used on input line 986.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[47 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.pn
+[51 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.png, 
-id=1494, 1660.2025pt x 2347.77126pt>
+id=1519, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.
 png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.p
 ng>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-11.png  used on input line 863.
+re 5/Chapitre 5-11.png  used on input line 988.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[48 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.p
-ng>] [49 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
+[52 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.p
+ng>] [53 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5
 -11.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 885.
+(hyperref)                than one, level fixed on input line 1010.
 
-[50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] 
+[54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] 
 AED: lastpage setting LastPage
-[61] (./template.aux)
+[65] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: 761FFA92A9BC088F8CB0C576019B7EE7;5780.
  )
@@ -1119,15 +1136,18 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 ### semi simple group (level 1) entered at line 67 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13303 strings out of 480470
- 218538 string characters out of 5897013
- 534942 words of memory out of 5000000
- 30528 multiletter control sequences out of 15000+600000
+ 13320 strings out of 480479
+ 219261 string characters out of 5897631
+ 535692 words of memory out of 5000000
+ 30529 multiletter control sequences out of 15000+600000
  539350 words of font info for 95 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,6n,66p,753b,3507s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.9} has been referenced bu
-t does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced b
+ut does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
 , replaced by a fixed one
@@ -1176,10 +1196,10 @@ rs/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c
 b><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy
 10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm
 /lmsy8.pfb>
-Output written on template.pdf (66 pages, 7227129 bytes).
+Output written on template.pdf (70 pages, 7281726 bytes).
 PDF statistics:
- 1765 PDF objects out of 2073 (max. 8388607)
- 1134 compressed objects within 12 object streams
- 195 named destinations out of 1000 (max. 500000)
- 370 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1791 PDF objects out of 2073 (max. 8388607)
+ 1154 compressed objects within 12 object streams
+ 204 named destinations out of 1000 (max. 500000)
+ 375 words of extra memory for PDF output out of 10000 (max. 10000000)
 
