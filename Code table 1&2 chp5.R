@@ -13,7 +13,7 @@ for (j in seq_len(length(meandiff))){
   mu2 <- meandiff[j]
   pval <- NULL
   
-  for (i in seq_len(5000)){
+  for (i in seq_len(100000)){
     ech1 <- rnorm(n,mu1,1)
     ech2 <- rnorm(n,mu2,1)
     res <- t.test(ech1,ech2,var.equal=T)
@@ -53,7 +53,7 @@ semin2 <- function(n){
     mu2 <- meandiff[j]
     equiv <- NULL
     
-    for (i in seq_len(5000)){
+    for (i in seq_len(100000)){
       ech1 <- rnorm(n,mu1,1)
       ech2 <- rnorm(n,mu2,1)
       res <- t.test(ech1,ech2,var.equal=T)
@@ -75,7 +75,7 @@ semin2 <- function(n){
       equiv <- c(equiv,equivalence) 
     }
 
-    NRH0 <- c(NRH0,sum(equiv==TRUE)/5000)
+    NRH0 <- c(NRH0,sum(equiv==TRUE)/length(pval))
     
   }
   
