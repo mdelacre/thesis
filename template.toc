@@ -6,25 +6,25 @@
 \contentsline {section}{Chapitre 5: les tests d'équivalence}{31}{section*.7}%
 \contentsline {subsection}{Limites de l'approche traditionnelle}{32}{section*.8}%
 \contentsline {subsection}{Les tests d'équivalence}{36}{section*.9}%
-\contentsline {subsection}{Définir les limites de la zone d'équivalence}{39}{section*.10}%
-\contentsline {subsection}{Comparaison du TOST et du SGPV}{43}{section*.11}%
-\contentsline {section}{Conclusion}{54}{section*.12}%
-\contentsline {subsubsection}{Usage des articles méthodo}{54}{section*.13}%
-\contentsline {subsubsection}{Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes}{55}{section*.14}%
-\contentsline {subsubsection}{Comment écrire/transmettre l'info aux psys}{55}{section*.15}%
-\contentsline {subsubsection}{Recommandations générales}{56}{section*.16}%
-\contentsline {subsubsection}{Limites}{56}{section*.17}%
-\contentsline {paragraph}{pour le chapitre 4}{56}{section*.18}%
-\contentsline {paragraph}{pour le chapitre 5}{57}{section*.19}%
-\contentsline {section}{Bibliographie}{58}{section*.20}%
-\contentsline {section}{Annexe(s)}{63}{section*.21}%
-\contentsline {subsection}{Annexe A: erratum}{63}{section*.22}%
-\contentsline {subsubsection}{Why psychologists Should by Default Use Welch's \(t\)-test Instead of Student's \(t\)-test}{63}{section*.23}%
-\contentsline {paragraph}{Erreurs conceptuelles}{63}{section*.24}%
-\contentsline {paragraph}{Mise en forme et Notations}{64}{section*.25}%
-\contentsline {subsubsection}{Taking parametric assumptions very seriously}{64}{section*.26}%
-\contentsline {paragraph}{Erreurs conceptuelles}{64}{section*.27}%
-\contentsline {paragraph}{Mise en forme et Notations}{64}{section*.28}%
-\contentsline {subsubsection}{Effect sizes}{64}{section*.29}%
-\contentsline {subsubsection}{Equivalence tests}{64}{section*.30}%
-\contentsline {subsection}{Annexe B}{65}{section*.31}%
+\contentsline {subsection}{Définir les bornes de la zone d'équivalence}{39}{section*.10}%
+\contentsline {subsection}{Comparaison du TOST et du SGPV}{44}{section*.11}%
+\contentsline {section}{Conclusion}{55}{section*.12}%
+\contentsline {subsubsection}{Usage des articles méthodo}{55}{section*.13}%
+\contentsline {subsubsection}{Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes}{56}{section*.14}%
+\contentsline {subsubsection}{Comment écrire/transmettre l'info aux psys}{56}{section*.15}%
+\contentsline {subsubsection}{Recommandations générales}{57}{section*.16}%
+\contentsline {subsubsection}{Limites}{57}{section*.17}%
+\contentsline {paragraph}{pour le chapitre 4}{57}{section*.18}%
+\contentsline {paragraph}{pour le chapitre 5}{58}{section*.19}%
+\contentsline {section}{Bibliographie}{59}{section*.20}%
+\contentsline {section}{Annexe(s)}{64}{section*.21}%
+\contentsline {subsection}{Annexe A: erratum}{64}{section*.22}%
+\contentsline {subsubsection}{Why psychologists Should by Default Use Welch's \(t\)-test Instead of Student's \(t\)-test}{64}{section*.23}%
+\contentsline {paragraph}{Erreurs conceptuelles}{64}{section*.24}%
+\contentsline {paragraph}{Mise en forme et Notations}{65}{section*.25}%
+\contentsline {subsubsection}{Taking parametric assumptions very seriously}{65}{section*.26}%
+\contentsline {paragraph}{Erreurs conceptuelles}{65}{section*.27}%
+\contentsline {paragraph}{Mise en forme et Notations}{65}{section*.28}%
+\contentsline {subsubsection}{Effect sizes}{65}{section*.29}%
+\contentsline {subsubsection}{Equivalence tests}{65}{section*.30}%
+\contentsline {subsection}{Annexe B}{66}{section*.31}%
