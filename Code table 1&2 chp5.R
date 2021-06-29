@@ -1,6 +1,6 @@
 semin <- function(n,nSim=100000){
 
-meandiff <- seq(.1,.5,.1)
+meandiff <- seq(0,.5,.1)
 NRH0_1 <- NULL
 NRH0_2 <- NULL
 
