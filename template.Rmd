@@ -13,6 +13,7 @@ header-includes:
   - \usepackage{fancyhdr}
   - \usepackage{lastpage}
   - \usepackage{dcolumn}
+  - \usepackage{endnotes} \let\footnote=\endnote
   - \usepackage{natbib} \bibliographystyle{apalike}
   - \usepackage[nottoc, numbib]{tocbibind}
   - \usepackage{lscape}
@@ -110,6 +111,13 @@ Abstract (voir nombre de mots requis)
 ```{r intro, child = 'introduction.Rmd'}
 ```
 
+\begingroup
+\parindent 0pt
+\renewcommand{\notesname}{Notes de fin de chapitre}
+\parskip 2ex
+\theendnotes
+\endgroup
+
 \newpage
 
 ```{r chp2, child = 'chp2.Rmd'}
@@ -130,6 +138,10 @@ Abstract (voir nombre de mots requis)
 ```{r chp5, child = 'chp5.Rmd'}
 ```
 
+\parindent 0pt
+\renewcommand{\notesname}{Notes de fin de chapitre}
+\parskip 2ex
+\theendnotes
 \newpage
 
 ```{r conclusion, child = 'conclusion.Rmd'}

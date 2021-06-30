@@ -1,30 +1,30 @@
 \babel@toc {french}{}
 \contentsline {section}{Chapitre 1: Introduction}{1}{section*.3}%
-\contentsline {section}{Chapitre 2: utiliser le test \(\bf \emph t\) de Welch par défaut}{8}{section*.4}%
-\contentsline {section}{Chapitre 3: utiliser l'ANOVA \(\bf \emph F\) de Welch par défaut}{18}{section*.5}%
-\contentsline {section}{Chapitre 4: reporter le \(\bf \emph g^*_s\) de Hedges basé sur l'écart-type non poolé avec le test \(\bf \emph t\) de Welch}{30}{section*.6}%
-\contentsline {section}{Chapitre 5: les tests d'équivalence}{31}{section*.7}%
-\contentsline {subsection}{Limites de l'approche traditionnelle}{32}{section*.8}%
-\contentsline {subsection}{Les tests d'équivalence}{36}{section*.9}%
-\contentsline {subsection}{Définir les bornes de la zone d'équivalence}{39}{section*.10}%
-\contentsline {subsection}{Comparaison du TOST et du SGPV}{44}{section*.11}%
-\contentsline {section}{Conclusion}{55}{section*.12}%
-\contentsline {subsubsection}{Usage des articles méthodo}{55}{section*.13}%
-\contentsline {subsubsection}{Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes}{56}{section*.14}%
-\contentsline {subsubsection}{Comment écrire/transmettre l'info aux psys}{56}{section*.15}%
-\contentsline {subsubsection}{Recommandations générales}{57}{section*.16}%
-\contentsline {subsubsection}{Limites}{57}{section*.17}%
-\contentsline {paragraph}{pour le chapitre 4}{57}{section*.18}%
-\contentsline {paragraph}{pour le chapitre 5}{58}{section*.19}%
-\contentsline {section}{Bibliographie}{59}{section*.20}%
-\contentsline {section}{Annexe(s)}{64}{section*.21}%
-\contentsline {subsection}{Annexe A: erratum}{64}{section*.22}%
-\contentsline {subsubsection}{Why psychologists Should by Default Use Welch's \(t\)-test Instead of Student's \(t\)-test}{64}{section*.23}%
-\contentsline {paragraph}{Erreurs conceptuelles}{64}{section*.24}%
-\contentsline {paragraph}{Mise en forme et Notations}{65}{section*.25}%
-\contentsline {subsubsection}{Taking parametric assumptions very seriously}{65}{section*.26}%
-\contentsline {paragraph}{Erreurs conceptuelles}{65}{section*.27}%
-\contentsline {paragraph}{Mise en forme et Notations}{65}{section*.28}%
-\contentsline {subsubsection}{Effect sizes}{65}{section*.29}%
-\contentsline {subsubsection}{Equivalence tests}{65}{section*.30}%
-\contentsline {subsection}{Annexe B}{66}{section*.31}%
+\contentsline {section}{Chapitre 2: utiliser le test \(\bf \emph t\) de Welch par défaut}{8}{section*.5}%
+\contentsline {section}{Chapitre 3: utiliser l'ANOVA \(\bf \emph F\) de Welch par défaut}{18}{section*.6}%
+\contentsline {section}{Chapitre 4: reporter le \(\bf \emph g^*_s\) de Hedges basé sur l'écart-type non poolé avec le test \(\bf \emph t\) de Welch}{30}{section*.7}%
+\contentsline {section}{Chapitre 5: les tests d'équivalence}{31}{section*.8}%
+\contentsline {subsection}{Limites de l'approche traditionnelle}{32}{section*.9}%
+\contentsline {subsection}{Les tests d'équivalence}{36}{section*.10}%
+\contentsline {subsection}{Définir les bornes de la zone d'équivalence}{38}{section*.11}%
+\contentsline {subsection}{Comparaison du TOST et du SGPV}{43}{section*.12}%
+\contentsline {section}{Conclusion}{56}{section*.14}%
+\contentsline {subsubsection}{Usage des articles méthodo}{56}{section*.15}%
+\contentsline {subsubsection}{Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes}{57}{section*.16}%
+\contentsline {subsubsection}{Comment écrire/transmettre l'info aux psys}{57}{section*.17}%
+\contentsline {subsubsection}{Recommandations générales}{58}{section*.18}%
+\contentsline {subsubsection}{Limites}{59}{section*.19}%
+\contentsline {paragraph}{pour le chapitre 4}{59}{section*.20}%
+\contentsline {paragraph}{pour le chapitre 5}{59}{section*.21}%
+\contentsline {section}{Bibliographie}{60}{section*.22}%
+\contentsline {section}{Annexe(s)}{65}{section*.23}%
+\contentsline {subsection}{Annexe A: erratum}{65}{section*.24}%
+\contentsline {subsubsection}{Why psychologists Should by Default Use Welch's \(t\)-test Instead of Student's \(t\)-test}{65}{section*.25}%
+\contentsline {paragraph}{Erreurs conceptuelles}{65}{section*.26}%
+\contentsline {paragraph}{Mise en forme et Notations}{66}{section*.27}%
+\contentsline {subsubsection}{Taking parametric assumptions very seriously}{66}{section*.28}%
+\contentsline {paragraph}{Erreurs conceptuelles}{66}{section*.29}%
+\contentsline {paragraph}{Mise en forme et Notations}{66}{section*.30}%
+\contentsline {subsubsection}{Effect sizes}{66}{section*.31}%
+\contentsline {subsubsection}{Equivalence tests}{66}{section*.32}%
+\contentsline {subsection}{Annexe B}{67}{section*.33}%

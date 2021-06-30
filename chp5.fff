@@ -2,7 +2,7 @@
 \ifnextchar[{\eatarg}{}
 
 
-{\centering \includegraphics[width=0.96\linewidth]{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fig1}
+{\centering \includegraphics[width=0.6\linewidth]{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fig1}
 
 }
 
@@ -12,7 +12,7 @@
 \ifnextchar[{\eatarg}{}
 
 
-{\centering \includegraphics{chp5_files/figure-latex/equiv1-1}
+{\centering \includegraphics[width=0.8\linewidth]{chp5_files/figure-latex/equiv1-1}
 
 }
 

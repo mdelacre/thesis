@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.7)  15 JUN 2021 13:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.30)  30 JUN 2021 14:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **introduction.tex
 (./introduction.tex
-LaTeX2e <2021-06-01>
-L3 programming layer <2021-06-01> (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-06-18> (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/base/article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.clo
@@ -550,32 +550,31 @@ Package rerunfilecheck Info: File `introduction.out' has not changed.
 (rerunfilecheck)             Checksum: 5E16E5D650719BB83451C11C71657411;170.
  ) 
 Here is how much of TeX's memory you used:
- 10153 strings out of 480496
- 149338 string characters out of 5897906
- 479033 words of memory out of 5000000
- 27660 multiletter control sequences out of 15000+600000
- 448921 words of font info for 61 fonts, out of 8000000 for 9000
+ 10153 strings out of 480479
+ 149358 string characters out of 5897631
+ 480449 words of memory out of 5000000
+ 27678 multiletter control sequences out of 15000+600000
+ 445926 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,8n,66p,719b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
-nc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mat
-hit.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/l
-m-rm.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/
+{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-math
+it.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm
+-rm.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/l
+m-ec.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/
 lm-mathsy.enc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pu
-blic/lm/lmbx10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
-e1/public/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/font
-s/type1/public/lm/lmmi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist
-/fonts/type1/public/lm/lmmi8.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-
-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/te
-xmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX
-/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/Admin/AppData/Roaming/Tiny
-TeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admin/AppData/Roaming/T
-inyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/Admin/AppData/Roam
-ing/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on introduction.pdf (4 pages, 209389 bytes).
+blic/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
+e1/public/lm/lmmi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/font
+s/type1/public/lm/lmmi8.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/
+fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-d
+ist/fonts/type1/public/lm/lmr6.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texm
+f-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/t
+exmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admin/AppData/Roaming/TinyTe
+X/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/Admin/AppData/Roaming/T
+inyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on introduction.pdf (4 pages, 186455 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  12 named destinations out of 1000 (max. 500000)
  9 words of extra memory for PDF output out of 10000 (max. 10000000)
 
