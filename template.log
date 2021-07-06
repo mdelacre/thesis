@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.30)  5 JUL 2021 10:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.6)  6 JUL 2021 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -712,7 +712,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 2.
 ) [7]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 498.
+(Font)              <17.28> on input line 497.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.pdf, i
 d=194, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.p
@@ -720,7 +720,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-1.pdf  used on input line 500.
+re 2/Chapitre 2-1.pdf  used on input line 499.
 (pdftex.def)             Requested size: 447.35515pt x 632.68776pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2.pdf, i
 d=195, 597.50829pt x 845.0471pt>
@@ -729,7 +729,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-2.pdf  used on input line 502.
+re 2/Chapitre 2-2.pdf  used on input line 501.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [8 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.pdf
 >] [9 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2.
@@ -741,7 +741,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-3.pdf  used on input line 504.
+re 2/Chapitre 2-3.pdf  used on input line 503.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [10 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.pd
 f>]
@@ -752,7 +752,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-4.pdf  used on input line 506.
+re 2/Chapitre 2-4.pdf  used on input line 505.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [11 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.pd
 f>]
@@ -763,7 +763,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-5.pdf  used on input line 508.
+re 2/Chapitre 2-5.pdf  used on input line 507.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [12 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.pd
 f>]
@@ -774,7 +774,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-6.pdf  used on input line 510.
+re 2/Chapitre 2-6.pdf  used on input line 509.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [13 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.pd
 f>]
@@ -785,7 +785,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-7.pdf  used on input line 512.
+re 2/Chapitre 2-7.pdf  used on input line 511.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [14 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.pd
 f>]
@@ -796,7 +796,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-8.pdf  used on input line 514.
+re 2/Chapitre 2-8.pdf  used on input line 513.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [15 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.pd
 f>]
@@ -807,7 +807,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-9.pdf  used on input line 516.
+re 2/Chapitre 2-9.pdf  used on input line 515.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [16 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.pd
 f>]
@@ -818,7 +818,7 @@ pdf Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.p
 df>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-10.pdf  used on input line 518.
+re 2/Chapitre 2-10.pdf  used on input line 517.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [17 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.p
 df>]
@@ -829,7 +829,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-1.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 3/Chapitre 3-1.pdf  used on input line 527.
+re 3/Chapitre 3-1.pdf  used on input line 526.
 (pdftex.def)             Requested size: 447.35515pt x 632.68776pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-2.pdf, i
 d=712, 597.50829pt x 845.0471pt>
@@ -838,7 +838,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-2.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 3/Chapitre 3-2.pdf  used on input line 529.
+re 3/Chapitre 3-2.pdf  used on input line 528.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [18 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-1.pd
 f>] [19 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-
@@ -850,7 +850,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-3.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 3/Chapitre 3-3.pdf  used on input line 531.
+re 3/Chapitre 3-3.pdf  used on input line 530.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [20 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-3.pd
 f>]
@@ -861,7 +861,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-4.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 3/Chapitre 3-4.pdf  used on input line 533.
+re 3/Chapitre 3-4.pdf  used on input line 532.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [21 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-4.pd
 f>]
@@ -872,7 +872,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-5.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 3/Chapitre 3-5.pdf  used on input line 535.
+re 3/Chapitre 3-5.pdf  used on input line 534.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [22 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-5.pd
 f>]
@@ -883,7 +883,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-6.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 3/Chapitre 3-6.pdf  used on input line 537.
+re 3/Chapitre 3-6.pdf  used on input line 536.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [23 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-6.pd
 f>]
@@ -894,7 +894,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-7.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 3/Chapitre 3-7.pdf  used on input line 539.
+re 3/Chapitre 3-7.pdf  used on input line 538.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [24 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-7.pd
 f>]
@@ -905,7 +905,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-8.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 3/Chapitre 3-8.pdf  used on input line 541.
+re 3/Chapitre 3-8.pdf  used on input line 540.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [25 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-8.pd
 f>]
@@ -916,7 +916,7 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-9.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 3/Chapitre 3-9.pdf  used on input line 543.
+re 3/Chapitre 3-9.pdf  used on input line 542.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [26 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-9.pd
 f>]
@@ -927,7 +927,7 @@ pdf Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-10.p
 df>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 3/Chapitre 3-10.pdf  used on input line 545.
+re 3/Chapitre 3-10.pdf  used on input line 544.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [27 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-10.p
 df>]
@@ -938,7 +938,7 @@ pdf Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-11.p
 df>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 3/Chapitre 3-11.pdf  used on input line 547.
+re 3/Chapitre 3-11.pdf  used on input line 546.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [28 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-11.p
 df>]
@@ -949,7 +949,7 @@ pdf Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-12.p
 df>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 3/Chapitre 3-12.pdf  used on input line 549.
+re 3/Chapitre 3-12.pdf  used on input line 548.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [29 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-12.p
 df>] [30] [31]
@@ -960,7 +960,7 @@ able1.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
 ble1.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Illustration/Table1.png  used on input line 632.
+re 5/Illustration/Table1.png  used on input line 631.
 (pdftex.def)             Requested size: 461.9621pt x 259.25462pt.
 [32 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
 ble1.png>]
@@ -974,7 +974,7 @@ able2.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
 ble2.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Illustration/Table2.png  used on input line 708.
+re 5/Illustration/Table2.png  used on input line 707.
 (pdftex.def)             Requested size: 461.9621pt x 272.19342pt.
 [34 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
 ble2.png>]
@@ -985,26 +985,26 @@ ig1.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fi
 g1.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Illustration/Fig1.png  used on input line 743.
+re 5/Illustration/Fig1.png  used on input line 742.
 (pdftex.def)             Requested size: 194.49753pt x 194.49753pt.
 [35pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.750 \newpage
+l.749 \newpage
                <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illu
 stration/Fig1.png>] [36]
 <template_files/figure-latex/equiv1-1.pdf, id=1396, 469.755pt x 325.215pt>
 File: template_files/figure-latex/equiv1-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/equiv1-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/equiv1-1.pdf  used on inpu
-t line 826.
+t line 825.
 (pdftex.def)             Requested size: 389.00774pt x 269.31305pt.
 [37] [38pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.896 
+l.895 
        <./template_files/figure-latex/equiv1-1.pdf>] [39] [40]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.png, i
 d=1431, 1660.2025pt x 2347.77126pt>
@@ -1013,7 +1013,7 @@ ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-1.png  used on input line 994.
+re 5/Chapitre 5-1.png  used on input line 993.
 (pdftex.def)             Requested size: 447.3487pt x 632.61707pt.
 [41]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.png, i
@@ -1023,7 +1023,7 @@ ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-2.png  used on input line 996.
+re 5/Chapitre 5-2.png  used on input line 995.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
 [42 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.pn
 g>]
@@ -1034,7 +1034,7 @@ ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-3.png  used on input line 998.
+re 5/Chapitre 5-3.png  used on input line 997.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
 [43 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.pn
 g>]
@@ -1045,7 +1045,7 @@ ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-4.png  used on input line 1000.
+re 5/Chapitre 5-4.png  used on input line 999.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
 [44 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.pn
 g>]
@@ -1056,7 +1056,7 @@ ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-5.png  used on input line 1002.
+re 5/Chapitre 5-5.png  used on input line 1001.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
 [45 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.pn
 g>]
@@ -1067,7 +1067,7 @@ ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-6.png  used on input line 1004.
+re 5/Chapitre 5-6.png  used on input line 1003.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
 [46 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.pn
 g>]
@@ -1078,7 +1078,7 @@ ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-7.png  used on input line 1006.
+re 5/Chapitre 5-7.png  used on input line 1005.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
 [47 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.pn
 g>]
@@ -1089,7 +1089,7 @@ ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-8.png  used on input line 1008.
+re 5/Chapitre 5-8.png  used on input line 1007.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
 [48 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.pn
 g>]
@@ -1100,7 +1100,7 @@ ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-9.png  used on input line 1010.
+re 5/Chapitre 5-9.png  used on input line 1009.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
 [49 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.pn
 g>]
@@ -1111,7 +1111,7 @@ png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.p
 ng>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-10.png  used on input line 1012.
+re 5/Chapitre 5-10.png  used on input line 1011.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
 [50 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.pn
 g>]
@@ -1122,14 +1122,14 @@ png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.p
 ng>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-11.png  used on input line 1014.
+re 5/Chapitre 5-11.png  used on input line 1013.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
 [51 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.p
 ng>] (./template.ent [52 <c:/Users/Admin/Documents/Github projects/thesis/Chapi
 tre 5/Chapitre 5-11.png>] [53]) [54]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1039.
+(hyperref)                than one, level fixed on input line 1038.
 
 [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] 
 AED: lastpage setting LastPage
@@ -1143,9 +1143,9 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 ### semi simple group (level 1) entered at line 67 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13379 strings out of 480479
- 220315 string characters out of 5897631
- 536753 words of memory out of 5000000
+ 13379 strings out of 480477
+ 220315 string characters out of 5897581
+ 536754 words of memory out of 5000000
  30585 multiletter control sequences out of 15000+600000
  542342 words of font info for 96 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1175,7 +1175,7 @@ public/lm/lmri12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
 ype1/public/lm/lmri8.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fon
 ts/type1/public/lm/lmsy10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dis
 t/fonts/type1/public/lm/lmsy8.pfb>
-Output written on template.pdf (71 pages, 7320354 bytes).
+Output written on template.pdf (71 pages, 7320203 bytes).
 PDF statistics:
  1789 PDF objects out of 2073 (max. 8388607)
  1146 compressed objects within 12 object streams
