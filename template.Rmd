@@ -123,6 +123,13 @@ Abstract (voir nombre de mots requis)
 ```{r chp2, child = 'chp2.Rmd'}
 ```
 
+\begingroup
+\parindent 0pt
+\renewcommand{\notesname}{Note de fin de chapitre}
+\parskip 2ex
+\theendnotes
+\endgroup
+
 \newpage
 
 ```{r chp3, child = 'chp3.Rmd'}
@@ -132,6 +139,13 @@ Abstract (voir nombre de mots requis)
 
 ```{r chp4, child = 'chp4.Rmd'}
 ```
+
+\begingroup
+\parindent 0pt
+\renewcommand{\notesname}{Notes de fin de chapitre}
+\parskip 2ex
+\theendnotes
+\endgroup
 
 \newpage
 

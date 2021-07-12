@@ -4,9 +4,9 @@ output: pdf_document
 ---
 # Annexe(s)
 
-## Annexe A: erratum
+## Annexe A: erratum des articles
 
-### Why psychologists Should by Default Use Welch's $t$-test Instead of Student's $t$-test
+### Why psychologists Should by Default Use Welch's *t*-test Instead of Student's *t*-test (Chapitre 2)
 
 #### Erreurs conceptuelles
 
@@ -24,7 +24,7 @@ En termes de mises en forme, nous avons omis à plusieurs endroit d'italiser les
 
 En termes de notation, nous avons relevé des inconsistantes dans la notation de la variance de chaque groupes. Par exemple, dans l'équation 1, nous utilisons $S^2_j$, alors que nous utilisons $s^2_j$ dans l'équation 4 ou encore SDj lorsque nous définission la statistique du $F$-ratio à la page [93]. 
 
-### Taking parametric assumptions very seriously
+### Taking parametric assumptions very seriously: Arguments for the Use of Welch’s *F*-test instead of the Classical *F*-test in One-Way ANOVA (Chapitre 3)
 
 #### Erreurs conceptuelles
 
