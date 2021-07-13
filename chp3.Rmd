@@ -9,7 +9,7 @@ header-includes:
   - \usepackage{float}
   - \usepackage{sectsty}
 ---
-# Chapitre 3: utiliser l'ANOVA $\bf \emph F$ de Welch par défaut
+# Chapitre 3: utiliser l'ANOVA $\bf \emph F$ de Welch par défaut ^[Un erratum de cet article figure dans l'annexe A.]
 ```{r "chp3p1", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="92%"}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-1.png")
 ```
@@ -54,6 +54,6 @@ knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitr
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-11.png")
 ```
 
-```{r "chp3p12", fig.align='center', fig.cap=NULL,echo=FALSE}
+```{r "chp3p12", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="82%"}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-12.png")
 ```

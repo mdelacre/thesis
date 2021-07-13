@@ -46,6 +46,6 @@ knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitr
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.png")
 ```
 
-```{r "chp2p10", fig.align='center', fig.cap=NULL,echo=FALSE}
+```{r "chp2p10", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="82%"}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.png")
 ```

@@ -1,47 +1,44 @@
 \babel@toc {french}{}
 \contentsline {section}{Chapitre 1: Introduction}{1}{section*.3}%
-\contentsline {section}{Chapitre 2: utiliser le test \(\bf \emph t\) de Welch par défaut}{9}{section*.5}%
-\contentsline {section}{Chapitre 3: utiliser l'ANOVA \(\bf \emph F\) de Welch par défaut}{20}{section*.7}%
-\contentsline {section}{Chapitre 4: reporter le \(\bf \emph g^*_s\) de Hedges basé sur l'écart-type non poolé avec le test \(\bf \emph t\) de Welch}{32}{section*.8}%
-\contentsline {section}{Three purposes of effect size estimators}{33}{section*.9}%
-\contentsline {section}{Properties of a good effect size estimator}{34}{section*.10}%
-\contentsline {section}{Different measures of effect sizes}{36}{section*.11}%
-\contentsline {subsection}{When variances are equal between groups}{37}{section*.12}%
-\contentsline {subsection}{When variances are unequal between populations}{41}{section*.13}%
-\contentsline {subsubsection}{Glass's \(\bf d_s\)}{41}{section*.14}%
-\contentsline {subsubsection}{Shieh's \(\bf d_s\)}{44}{section*.15}%
-\contentsline {subsubsection}{Cohen's \(\bf d^*_s\)}{45}{section*.16}%
-\contentsline {subsubsection}{Glass's \(\bf g_s\), Shieh's \(\bf g_s\) and Hedges' \(\bf g^*_s\)}{46}{section*.17}%
-\contentsline {subsection}{Monte Carlo Simulations}{49}{section*.18}%
-\contentsline {subsubsection}{Assessing the bias, efficiency and consistency of 5 estimators}{49}{section*.19}%
-\contentsline {paragraph}{Method}{49}{section*.20}%
-\contentsline {paragraph}{Results}{51}{section*.21}%
-\contentsline {subparagraph}{When variances are equal across groups}{52}{section*.22}%
-\contentsline {subparagraph}{When variances are unequal across groups}{55}{section*.23}%
-\contentsline {subsection}{Recommendations}{60}{section*.24}%
-\contentsline {section}{References}{61}{section*.25}%
-\contentsline {section}{Chapitre 5: les tests d'équivalence}{70}{section*.27}%
-\contentsline {subsection}{Limites de l'approche traditionnelle}{71}{section*.28}%
-\contentsline {subsection}{Les tests d'équivalence}{75}{section*.29}%
-\contentsline {subsection}{Définir les bornes de la zone d'équivalence}{77}{section*.30}%
-\contentsline {subsection}{Comparaison du TOST et du SGPV}{81}{section*.31}%
-\contentsline {section}{Conclusion}{94}{section*.33}%
-\contentsline {subsubsection}{Usage des articles méthodo}{94}{section*.34}%
-\contentsline {subsubsection}{Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes}{95}{section*.35}%
-\contentsline {subsubsection}{Comment écrire/transmettre l'info aux psys}{95}{section*.36}%
-\contentsline {subsubsection}{Recommandations générales}{96}{section*.37}%
-\contentsline {subsubsection}{Limites}{97}{section*.38}%
-\contentsline {paragraph}{pour le chapitre 4}{97}{section*.39}%
-\contentsline {paragraph}{pour le chapitre 5}{97}{section*.40}%
-\contentsline {section}{Bibliographie}{98}{section*.41}%
-\contentsline {section}{Annexe(s)}{106}{section*.42}%
-\contentsline {subsection}{Annexe A: erratum des articles}{106}{section*.43}%
-\contentsline {subsubsection}{Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test (Chapitre 2)}{106}{section*.44}%
-\contentsline {paragraph}{Erreurs conceptuelles}{106}{section*.45}%
-\contentsline {paragraph}{Mise en forme et Notations}{107}{section*.46}%
-\contentsline {subsubsection}{Taking parametric assumptions very seriously: Arguments for the Use of Welch's \emph {F}-test instead of the Classical \emph {F}-test in One-Way ANOVA (Chapitre 3)}{107}{section*.47}%
-\contentsline {paragraph}{Erreurs conceptuelles}{107}{section*.48}%
-\contentsline {paragraph}{Mise en forme et Notations}{107}{section*.49}%
-\contentsline {subsubsection}{Effect sizes}{107}{section*.50}%
-\contentsline {subsubsection}{Equivalence tests}{107}{section*.51}%
-\contentsline {subsection}{Annexe B}{108}{section*.52}%
+\contentsline {section}{Chapitre 2: utiliser le test \(\bf \emph t\) de Welch par défaut}{8}{section*.5}%
+\contentsline {section}{Chapitre 3: utiliser l'ANOVA \(\bf \emph F\) de Welch par défaut}{18}{section*.7}%
+\contentsline {section}{Chapitre 4: reporter le \(\bf \emph g^*_s\) de Hedges basé sur l'écart-type non poolé avec le test \(\bf \emph t\) de Welch}{30}{section*.9}%
+\contentsline {subsection}{Three purposes of effect size estimators}{32}{section*.10}%
+\contentsline {subsection}{Properties of a good effect size estimator}{33}{section*.11}%
+\contentsline {subsection}{Different measures of effect sizes}{35}{section*.12}%
+\contentsline {subsubsection}{When variances are equal between groups}{35}{section*.13}%
+\contentsline {subsubsection}{When variances are unequal between populations}{39}{section*.14}%
+\contentsline {paragraph}{Glass's \(\bf d_s\)}{39}{section*.15}%
+\contentsline {paragraph}{Shieh's \(\bf d_s\)}{41}{section*.16}%
+\contentsline {paragraph}{Cohen's \(\bf d^*_s\)}{42}{section*.17}%
+\contentsline {paragraph}{Glass's \(\bf g_s\), Shieh's \(\bf g_s\) and Hedges' \(\bf g^*_s\)}{43}{section*.18}%
+\contentsline {subsubsection}{Monte Carlo Simulations}{46}{section*.19}%
+\contentsline {paragraph}{Assessing the bias, efficiency and consistency of 5 estimators}{46}{section*.20}%
+\contentsline {subparagraph}{Method}{46}{section*.21}%
+\contentsline {subparagraph}{Results}{48}{section*.22}%
+\contentsline {subsubsection}{Recommendations}{57}{section*.23}%
+\contentsline {section}{Chapitre 5: les tests d'équivalence}{60}{section*.25}%
+\contentsline {subsection}{Limites de l'approche traditionnelle}{61}{section*.26}%
+\contentsline {subsection}{Les tests d'équivalence}{65}{section*.27}%
+\contentsline {subsection}{Définir les bornes de la zone d'équivalence}{67}{section*.28}%
+\contentsline {subsection}{Comparaison du TOST et du SGPV}{71}{section*.29}%
+\contentsline {section}{Conclusion}{84}{section*.31}%
+\contentsline {subsubsection}{Usage des articles méthodo}{84}{section*.32}%
+\contentsline {subsubsection}{Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes}{85}{section*.33}%
+\contentsline {subsubsection}{Comment écrire/transmettre l'info aux psys}{85}{section*.34}%
+\contentsline {subsubsection}{Recommandations générales}{86}{section*.35}%
+\contentsline {subsubsection}{Limites}{87}{section*.36}%
+\contentsline {paragraph}{pour le chapitre 4}{87}{section*.37}%
+\contentsline {paragraph}{pour le chapitre 5}{87}{section*.38}%
+\contentsline {section}{Bibliographie}{88}{section*.39}%
+\contentsline {section}{Annexe(s)}{96}{section*.40}%
+\contentsline {subsection}{Annexe A: erratum des articles}{96}{section*.41}%
+\contentsline {subsubsection}{Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test (Chapitre 2)}{96}{section*.42}%
+\contentsline {paragraph}{Erreurs conceptuelles}{96}{section*.43}%
+\contentsline {paragraph}{Mise en forme et Notations}{97}{section*.44}%
+\contentsline {subsubsection}{Taking parametric assumptions very seriously: Arguments for the Use of Welch's \emph {F}-test instead of the Classical \emph {F}-test in One-Way ANOVA (Chapitre 3)}{97}{section*.45}%
+\contentsline {paragraph}{Erreurs conceptuelles}{97}{section*.46}%
+\contentsline {paragraph}{Mise en forme et Notations}{97}{section*.47}%
+\contentsline {subsubsection}{Effect sizes}{97}{section*.48}%
+\contentsline {subsubsection}{Equivalence tests}{97}{section*.49}%
+\contentsline {subsection}{Annexe B}{98}{section*.50}%

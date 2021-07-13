@@ -113,8 +113,8 @@ Abstract (voir nombre de mots requis)
 
 \begingroup
 \parindent 0pt
-\renewcommand{\notesname}{Notes de fin de chapitre}
-\parskip 2ex
+\renewcommand\notesname{{\normalsize Notes de fin de chapitre}}
+\parskip 1ex
 \theendnotes
 \endgroup
 
@@ -125,8 +125,8 @@ Abstract (voir nombre de mots requis)
 
 \begingroup
 \parindent 0pt
-\renewcommand{\notesname}{Note de fin de chapitre}
-\parskip 2ex
+\renewcommand\notesname{{\normalsize Note de fin de chapitre}}
+\parskip 1ex
 \theendnotes
 \endgroup
 
@@ -135,6 +135,13 @@ Abstract (voir nombre de mots requis)
 ```{r chp3, child = 'chp3.Rmd'}
 ```
 
+\begingroup
+\parindent 0pt
+\renewcommand\notesname{{\normalsize Note de fin de chapitre}}
+\parskip 1ex
+\theendnotes
+\endgroup
+
 \newpage
 
 ```{r chp4, child = 'chp4.Rmd'}
@@ -142,8 +149,8 @@ Abstract (voir nombre de mots requis)
 
 \begingroup
 \parindent 0pt
-\renewcommand{\notesname}{Notes de fin de chapitre}
-\parskip 2ex
+\renewcommand\notesname{{\normalsize Note de fin de chapitre}}
+\parskip 1ex
 \theendnotes
 \endgroup
 
