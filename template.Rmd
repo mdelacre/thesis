@@ -98,6 +98,9 @@ Abstract (voir nombre de mots requis)
 \newpage
 
 \tableofcontents
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+
+
 
 \newpage
 

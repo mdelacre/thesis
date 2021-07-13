@@ -9,7 +9,7 @@ header-includes:
   - \usepackage{float}
   - \usepackage{sectsty}
 ---
-# Chapitre 4: reporter le $\bf \emph g^*_s$ de Hedges basé sur l'écart-type non poolé avec le test $\bf \emph t$ de Welch 
+# Chapitre 4: utiliser le $\bf \emph g^*_s$ de Hedges basé sur l'écart-type non poolé 
 ```{r setup, include = FALSE}
 library("papaja")
 library("knitr")
@@ -18,11 +18,15 @@ render_appendix("appendix.Rmd")
 #devtools::install_github("crsh/papaja@devel") 
 ```
 
-```{r "chp4authors", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="150%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Capture d’écran 2021-07-13 101115.png
+```{r "chp4title", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="150%"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png
 ")
 ```
-**Note**: cet article n'a pas encore été accepté pour publication. Nous planifions de tenter une nouvelle soumission en septembre, après avoir inclus une série de modification suggérées par Geoff Cumming, conformément aux échanges reportés dans l'annexe B.
+```{r "chp4authornote", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="150%"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png
+")
+```
+**Commentaire**: l'article présenté ci-dessous n'a pas encore été accepté pour publication. Nous tenterons prochainement une nouvelle soumission, après avoir inclus une série de modifications suggérées par Geoff Cumming, conformément aux échanges reportés dans l'annexe B.
 ```{r analysis-preferences,echo=F}
 # Seed for random number generation
 set.seed(42)
@@ -37,7 +41,7 @@ However, the question which effect size to report when equal variances are not a
 
 Before reviewing the most important effect size measures in the *d*-family, we will first list the different purposes effect size measures serve, and discuss the relationship between effect sizes, statistical, and practical significance. Based on a detailed description of the good properties an effect size measure should possess, we will evaluate these properties in the Monte Carlo simulations we performed to compare the different effect size estimators with correction for bias. 
 
-## Three purposes of effect size estimators
+# Three purposes of effect size estimators
 
 The effect size is a measure of the magnitude of an effect. In the context of the comparison of two groups based on their means, when the null hypothesis is the absence of effect, *d*-family effect size estimators estimate the magnitude of the differences between parameters of two populations groups are extracted from [e.g. the mean, @peng_beyond_2014]. Such a measure can be used for three different purposes.
 
@@ -47,7 +51,7 @@ Second, effect size measures can be used for *comparative* purposes. They allow 
 
 Third, effect size measures can be used for *inferential* purposes. Hypothesis tests and confidence intervals based on the same statistical quantity are directly related: if the area of the null hypothesis is out of the $(1-\alpha)$-confidence interval, then the hypothesis test would also result in a *p*-value below the nominal alpha level. At the same time, the interval provides extra information about the precision of the sample estimate for inferential purposes [@ellis_essential_2010; @altman_why_2005], and which effect sizes are excluded. The narrower the interval, the higher the precision, and the wider the confidence interval, the more the data lack precision. Effect size measures are also indirectly related to the hypothesis tests as effect sizes from previous studies can be used in an a-priori power analysis when planning a new study [@sullivan_using_2012;@lakens_calculating_2013;@stout_assessing_1995;@prentice_when_1992; @wilkinson_statistical_1999].
 
-## Properties of a good effect size estimator
+# Properties of a good effect size estimator
 
 The empirical value of an estimator (called the *estimate*) depends on the sample value. Different samples extracted from the same population will lead to different sample estimates of the population value. The *sampling distribution* of the estimator is the distribution of all estimates, based on all possible samples of size *n* extracted from one population. Studying the sampling distribution is useful, as it allows us to assess the qualities of an estimator. More specifically, three desirable properties a good estimator should possess for inferential purposes are: *unbiasedness*, *consistency* and *efficiency* [@wackerly_mathematical_2008].
 
@@ -94,7 +98,7 @@ Note that both unbiasedness and efficiency are very important when choosing an e
 
 Finally, the last property of a good point estimator is *consistency*. Consistency means that the bigger the sample size, the closer the estimate is to the population parameter. In other words, the estimates *converge* to the true population parameter. 
 
-## Different measures of effect sizes
+# Different measures of effect sizes
 
 The *d*-family effect sizes are commonly used for mean differences between groups or conditions. The population effect size is defined as 
 \begin{equation} 
@@ -103,7 +107,7 @@ The *d*-family effect sizes are commonly used for mean differences between group
 \end{equation} 
 where both populations follow a normal distribution with mean $\mu_j$ in the $j^{th}$ population ($j=1,2$) and standard deviation $\sigma$. There exist different estimators of this effect size measure. For all, the mean difference is estimated by the difference $\bar{X}_1-\bar{X}_2$ of both sample means. When the equality of variances assumption is assumed, $\sigma$ is estimated by pooling both sample standard deviations ($S_1$ and $S_2$). When the equality of variances assumption cannot be assumed, alternatives to the pooled standard deviation are available. In the next section we will present effect sizes that assume equal variances between groups (Cohen's $d_s$ and Hedges' $g_s$), and effect sizes that do not assume equal variances (Glass's $d_s$, Shieh's $d_s$, Hedges' $d^*_s$, Glass's $g_s$, Shieh's $g_s$, and Hedges' $g^*_s$). For each effect size we will provide information about their theoretical bias, variance, and consistency.
 
-### When variances are equal between groups
+## When variances are equal between groups
 
 When we have good reasons to assume equality of variances between groups then the most common  estimator of $\delta$ is Cohen's $d_{s}$, where the sample mean difference is divided by a pooled error term [@cohen_statistical_1965]: 
 \begin{equation*} 
@@ -159,11 +163,11 @@ Table: Expentency, bias and variance of Cohen's $d_s$ and Hedges' $g_s$ under th
 
 \elandscape
 
-### When variances are unequal between populations
+## When variances are unequal between populations
 
 In his review, @shieh_confidence_2013 mentions three options available in the literature to deal with the case of unequal variances: (A) the Glass's $d_s$, (B)  the Shieh's $d_s$ and (C) the Cohen's $d^*_s$. 
 
-#### Glass's $\bf d_s$
+### Glass's $\bf d_s$
 When comparing one control group with one experimental group, @glass_meta-analysis_1981 recommend using the standard deviation of the control group as standardizer. This yields
 \begin{equation*} 
 Glass's \; d_s = \frac{\bar{X}_{e} - \bar{X}_{c}}{S_{c}}
@@ -206,7 +210,7 @@ Table: Expentency, bias and variance of Glass's $d_s$ and Cohen's $d^*_s$ and Sh
 \elandscape
 \newpage
 
-#### Shieh's $\bf d_s$
+### Shieh's $\bf d_s$
 @kulinskaya_confidence_2007 were the first to recommend the use of a standardizer that takes the sample sizes allocation ratios into account, in addition to the variance of both samples. @shieh_confidence_2013, following @kulinskaya_confidence_2007, proposed a modification of the exact *SD* of the sample mean difference: 
 \begin{equation*} 
 Shieh's \; d_s = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{S_1^2/q_1+S_2^2/q_2}}; \;\;\; q_j=\frac{n_j}{N} (j=1,2)
@@ -245,7 +249,7 @@ We can deduce from equations \ref{eqn:CohenShieh}, \ref{eqn:biasCohenshieh} and 
 
 When sample sizes are not equal, according to the statistical properties of Welch’s statistic under heteroscedasticity, Shieh's $d_s$ accounts for the allocation ratio of sample sizes to each condition. The lack of generality caused by taking this specificity of the design into account has led @cumming_cohens_2013 to question its usefulness in terms of interpretability: when the mean difference ($\bar{X_1}-\bar{X_2}$), $S_1$, and $S_2$ remain constant, Shieh's $d_s$ will vary as a function of the sample sizes allocation ratio (unlike Cohen's $d^*_s$ that we will define below). At the population level, $\delta_{Shieh}$ also depends on the sample sizes allocation ratio, as illustrated in the following shiny application:  https://effectsize.shinyapps.io/ShiehvsCohen/.
 
-#### Cohen's $\bf d^*_s$
+### Cohen's $\bf d^*_s$
 An effect size estimator based on the sample mean difference divided by the square root of the non pooled average of both variance estimates was suggested by @welch_significance_1938. Here, we indicate the difference between Cohen's $d_s$ (based on the pooled standard deviations) and Cohen's $d^*_s$ with an asterisk. This yields:
 \begin{equation*} 
 Cohen's \; d^*_s = \frac{\bar{X}_{1} - \bar{X}_{2}}{ \sqrt{\frac{\left(S^2_{1}+S^2_{2} \right)}{2}}}
@@ -269,7 +273,7 @@ where $\delta^*_{Cohen}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1+\sigma^2_2}{2}
 
 However, we will show throughout the simulation section that this estimator exhibits very good inferential properties. Moreover, it has a constant value across sample sizes ratios, as shown in the Shiny App at https://effectsize.shinyapps.io/ShiehvsCohen/. 
 
-#### Glass's $\bf g_s$,  Shieh's $\bf g_s$ and Hedges' $\bf g^*_s$
+### Glass's $\bf g_s$,  Shieh's $\bf g_s$ and Hedges' $\bf g^*_s$
 
 As for Cohen's $d_s$, a Hedges' correction can be applied in order to compensate for the bias of Glass's $d_s$, Shieh's $d_s$ and Cohen's $d^*_s$ with small sample sizes (see Table 2). This correction has the following general form:
 \begin{equation*} 
@@ -301,11 +305,11 @@ Table: Expectation, bias and variance of Glass's $d_s$ and Cohen's $d^*_s$ and S
 \elandscape
 \newpage
 
-### Monte Carlo Simulations
+## Monte Carlo Simulations
 
-#### Assessing the bias, efficiency and consistency of 5 estimators
+### Assessing the bias, efficiency and consistency of 5 estimators
 
-##### Method
+#### Method
 
 We performed Monte Carlo simulations using R (version 3.5.0) to assess the bias, efficiency and consistency of Cohen's $g_s$, Glass's $g_s$ (using respectively the sample $SD$ of the first or second group as a standardizer), Hedges' $g^*_s$ and Shieh's $g_s$. 
 
@@ -344,7 +348,7 @@ For the 4 resulting combinations of skewness and kurtosis (see Table 4), all oth
 
 Table: 4 conditions based on the n-ratio and the SD-ratio.
 
-##### Results
+#### Results
 
 Before presenting the comparison of the estimators for each condition, it is useful to make some general comments. 
 
@@ -356,7 +360,7 @@ Before presenting the comparison of the estimators for each condition, it is use
 
 After these general remarks, we will analyze each condition separately. In all Figures presented below, for different sub-conditions, the averaged relative bias and relative variance of five estimators are presented. When describing the Glass's $g_s$ estimators, we will systematically refer to the "control group" as the condition the standardizer is based on (i.e. the first group when using $S_1$ as standardizer, the second group when using $S_2$ as standardizer). The other condition will be referred to as the "experimental group".
 
-###### When variances are equal across groups
+##### When variances are equal across groups
 
 ```{r "ESgdnsoutputs",echo=FALSE}
 # G1=0; G2=0
@@ -432,7 +436,7 @@ Figure \ref{fig:idHomunbal} illustrates scenarios where population variances are
 
 When samples are extracted from skewed distributions and have unequal sizes (the two last columns in Figure \ref{fig:idHomunbal}), for a constant total sample size, Glass's $g_s$, Shieh's $g_s$ and  Hedges' $g^*_s$ will show different bias and variance depending on which group is the largest one (e.g. when distributions are right-skewed, the bias and variance of all these estimators when $n_1$ and $n_2$ are respectively 50 and 20 are not the same as their bias and variance when $n_1$ and $n_2$ are respectively 20 and 50). This is due to a non-null correlation of opposite sign between the mean difference ($\bar{X_1}-\bar{X_2}$) and their respective standardizers depending on which group is the largest one, as detailed in Supplemental Material 3. One observes that under these configurations, the bias and variance of Glass's $g_s$ are sometimes a bit smaller and sometimes much larger than the bias and variance of Shieh's $g_s$ and Cohen's $d^*_s$. \footnote{Supplemental Material 3 shows that when the $\mu_1-\mu_2 >0$ (like in our simulations), all other parameters being equal, an estimator is always less biased and variable when choosing a standardizer that is positively correlated with $\bar{X_1}-\bar{X_2}$. Supplemental Material 3 also shows that the smaller $n_c$, the larger the magnitude of correlation between $S_c$ and $\bar{X_1}-\bar{X_2}$. When $cor(S_c,\bar{X_1}-\bar{X_2})$ is positive, the positive effect of increasing the magnitude of the correlation is counterbalanced by the negative effect of reducing $n_c$. On the other hand, when $cor(S_c,\bar{X_1}-\bar{X_2})$ is negative, the negative effect of increasing the magnitude of the correlation is amplified by the negative effect of decreasing $n_c$. This explains why the difference between Glass's $g_s$ and other estimators is larger when Glass's $g_s$ is the least efficient estimator.}
 
-###### When variances are unequal across groups
+##### When variances are unequal across groups
 
 Figures \ref{fig:idHetbal1} to \ref{fig:idHetunbal4} represent configurations where the equality of variances assumption is not met. According to our expectations, one observes that the bias of all estimators is approximately zero as long as the normality assumption is met (first column in all Figures), and the further from the normality assumption (i.e. when moving from left to right in Figures), the larger the bias\footnote{When looking at the relative bias for all estimators, the maximum departure from zero is `r printnum(max(abs(output_normal_Hetbal[,11:15])),digits=4)` when sample sizes are equal across groups, and `r printnum(max(abs(output_normal_Hetunbal[,11:15])),digits=4)` when both sample sizes and variances differ across groups.}. It might be considered surprising that the bias of Hedges' $g_s$ remains very small throughout these conditions. As discussed in the section "Different measures of effect size", Hedges' $g_s$ should be avoided when population variances and sample sizes are unequal across groups, because of the pooled error term. When pooling the estimates of two unequal population variances, the resulting estimator will be smaller (in case of positive pairing) or larger (in case of negative pairing) than it should be. At the same time, when pooling two unequal population variances, the population effect size will also be smaller (in case of positive pairing) or larger (in case of negative pairing) as it should be. As a consequence, the distortion cannot be seen through the difference between the expected estimator and the population effect size measure. For this reason, the bias and variance of Hedges' $g_s$ will not be taken into account in the following comparisons.  
 
@@ -470,7 +474,7 @@ Figures \ref{fig:idHetunbal1} to \ref{fig:idHetunbal4} are dedicated to scenario
 
 When distributions are symmetric, the bias of Glass's $g_s$ only depends on the size of the control group and is therefore not impacted by either the sample sizes ratio or the total sample size. When comparing Figures \ref{fig:idHetunbal1} to \ref{fig:idHetunbal4}, one can also notice that the bias of Glass's $g_s$ does not depend on the $SD$-ratio either. Unlike the bias of Glass's $g_s$, its variance depends on both sample sizes, but not in an equivalent way. In most scenarios it is more efficient, in order to reduce the variance of Glass's $g_s$, to add subjects in the control group. Regarding Hedges' $g^*_s$ and Shieh's $g_s$, their respective biases and variances depend on an interaction effect between the sample sizes ratio and the $SD$-ratio $\left( \frac{n_1}{n_2} \times \frac{\sigma_1}{\sigma_2} \right)$: the sample sizes ratio associated with the smallest bias and variance is not the same when the more variable group is 10 times more variable than the other group (Figures \ref{fig:idHetunbal1} and \ref{fig:idHetunbal2}) than when it is only twice more variable (Figures \ref{fig:idHetunbal3} and \ref{fig:idHetunbal4}). However, the respective biases and variances of Hedges' $g^*_s$ and Shieh's $g_s$ are always smaller when there is a positive pairing between sample sizes and variances. When samples are extracted from skewed distributions, the bias and variance of Glass's $g_s$ are sometimes smaller and sometimes larger than the bias of Shieh's $g_s$ and Hedges' $g^*_s$, due to a combination of three factors: (1) which group is larger, (2) which group has the smallest standard deviation and (3) what is the correlation between the standardizer and the mean difference.
 
-### Recommendations
+## Recommendations
 
 We recommend using Hedges' $g^*_s$ in order to assess the magnitude of the effect when comparing two independent means, because a) it does not rely on the equality of population variances assumption (unlike Hedges' $g_s$), b) it is always consistent (unlike Shieh's $g_s$), c) it is easy to interpret (Hedges' $g^*_s$ can be interpreted in the same way as Hedges' $g_s$) and d) it remains constant for any sample sizes ratio, even when population variances are unequal across groups, as shown in the Shiny App at https://effectsize.shinyapps.io/ShiehvsCohen/.
 
