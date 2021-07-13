@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.6)  13 JUL 2021 11:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.6)  13 JUL 2021 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1413,11 +1413,16 @@ re 5/Chapitre 5-11.png  used on input line 2180.
 [81 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.p
 ng>] (./template.ent [82 <c:/Users/Admin/Documents/Github projects/thesis/Chapi
 tre 5/Chapitre 5-11.png>] [83]) [84] [85] [86] [87] [88] [89] [90] [91] [92] [9
-3] [94] [95] [96] [97] [98] 
+3] [94] [95] [96] [97]
+Underfull \hbox (badness 10000) in paragraph at lines 2882--2889
+
+ []
+
+[98] [99] [100] 
 AED: lastpage setting LastPage
-[99] (./template.aux)
+[101] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: A52D2548821C0A1506E829F099E2D6F7;2622.
+(rerunfilecheck)             Checksum: 269621CC01F2125120654965955ACF62;2606.
  )
 (\end occurred inside a group at level 2)
 
@@ -1425,10 +1430,10 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 ### semi simple group (level 1) entered at line 77 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14184 strings out of 480477
- 246137 string characters out of 5897581
- 559799 words of memory out of 5000000
- 31228 multiletter control sequences out of 15000+600000
+ 14189 strings out of 480477
+ 246204 string characters out of 5897581
+ 559848 words of memory out of 5000000
+ 31229 multiletter control sequences out of 15000+600000
  542342 words of font info for 96 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,10n,66p,1069b,3335s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1464,10 +1469,10 @@ yTeX/texmf-dist/fonts/type1/public/lm/lmsy5.pfb><c:/Users/Admin/AppData/Roaming
 /TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/Users/Admin/AppData/Roa
 ming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/Users/Admin/AppData
 /Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on template.pdf (103 pages, 8115231 bytes).
+Output written on template.pdf (105 pages, 8119399 bytes).
 PDF statistics:
- 2116 PDF objects out of 2487 (max. 8388607)
- 1402 compressed objects within 15 object streams
- 326 named destinations out of 1000 (max. 500000)
+ 2126 PDF objects out of 2487 (max. 8388607)
+ 1410 compressed objects within 15 object streams
+ 330 named destinations out of 1000 (max. 500000)
  334 words of extra memory for PDF output out of 10000 (max. 10000000)
 

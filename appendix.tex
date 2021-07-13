@@ -4,7 +4,7 @@
 
 \begin{appendix}
 \hypertarget{annexes}{%
-\section{Annexe(s)}\label{annexes}}
+\section{Annexes}\label{annexes}}
 
 \hypertarget{annexe-a-erratum-des-articles}{%
 \subsection{Annexe A: erratum des
@@ -18,66 +18,118 @@ Welch's \emph{t}-test Instead of Student's \emph{t}-test (Chapitre
 \hypertarget{erreurs-conceptuelles}{%
 \paragraph{Erreurs conceptuelles}\label{erreurs-conceptuelles}}
 
+Nous spÃ©cifions Ã~ plusieurs reprises que le test \(t\) de Yuen
+contrÃ´le moins bien le taux d'erreur de type I que le test \(t\) de
+Welch:\\
+- p.14: \emph{``Yuen's \(t\)-test is not a good unconditional
+alternative because we observe an unacceptable departure from the
+nominal alpha risk of 5 percent for several shapes of distributions
+{[}\ldots{]} particularly when we are studying asymmetric distributions
+of unequal shapes''};\\
+- p.15: \emph{``As it is explained in the additional file, Yuen's
+\(t\)-test is not a better test than Welch's \(t\)-test, since it often
+suffers high departure from the alpha risk of 5 percent''}.
+
+Ceci n'est pas exact d'un point de vue purement statistique. A travers
+le test de Yuen, on ne compare plus les moyennes de chaque groupe, mais
+les moyennes \emph{trimmÃ©es} (soit les moyennes calculÃ©es sur les
+donnÃ©es aprÃ¨s avoir Ã©cartÃ© les 20\% des scores les plus bas ainsi
+que les 20\% des scores les plus Ã©levÃ©s). Or, Ã~ travers nos
+simulations, les scÃ©narios crÃ©Ã©s en vue de tester le taux d'erreur de
+type I (risque alpha) Ã©taient systÃ©matiquement des scÃ©narios dans
+lesquels les moyennes de chaque groupe Ã©taient identiques. Lorsque les
+Ã©chantillons sont extraits de population parfaitement symmÃ©triques, il
+y aura vraisemblablement peu de diffÃ©rence entre les estimations des
+moyennes et des moyennes trimmÃ©es (puisqu'au niveau de la population,
+les moyennes et moyennes trimmÃ©es seront identiques). Quand les
+Ã©chantillons sont extraits de population asymÃ©triques, par contre, on
+observera plus vraisemblablement des diffÃ©rences entre les estimations
+des moyennes et des moyennes trimmÃ©es. Au niveau de la population, les
+moyennes trimmÃ©es seront plus proches du mode des distributions que les
+moyennes et reprÃ©senteront donc mieux les distributions.
+
+Notons malgrÃ© tout que d'un point de vue mÃ©thodologique, nous avons
+dÃ©jÃ~ relevÃ© que la plupart du temps, les chercheurs dÃ©finissent
+l'absence de diffÃ©rence entre les moyennes comme hypothÃ¨se nulle et
+dans ce contexte, nos simulations dÃ©montre que le test de Yuen n'est
+pas appropriÃ©. En conclusion, le test de Yuen ne devrait Ãªtre utilisÃ©
+que par des chercheurs ayant pleinement conscience du fait que les test
+\(t\) de Student et de Welch ne testent pas la mÃªme hypothÃ¨se que le
+test \(t\) de Yuen.
+
+\hypertarget{commentaires-divers}{%
+\paragraph{Commentaires divers}\label{commentaires-divers}}
+
 \begin{itemize}
-\tightlist
 \item
-  Erreur (p.~{[}99{]}): ``As it is explained in the additional file,
-  Yuen's \(t\)-test is not a better test than Welch's \(t\)-test, since
-  it often suffers high departure from the alpha risk of 5 percent''.
+  p.9: nous dÃ©crivons 3 arguments en dÃ©faveur de l'usage du test de
+  Levene. En troisiÃ¨me argument, nous mentionnons le manque de
+  puissance du test de Levenne. Nous ne mentionnons cependant pas le
+  fait qu'utiliser le test \(t\) de Student lorsque le test de Levene
+  est non significatif revient Ã~ confondre le non rejet de l'hypothÃ¨se
+  d'Ã©galitÃ© des variances avec l'acceptation de l'hypothÃ¨se
+  d'Ã©galitÃ© des variances. Au sein du chapitre 5 sur les tests
+  d'Ã©quivalence, il est dÃ©montrÃ© par simulation que mÃªme lorsqu'on
+  s'assure d'avoir une puissance suffisante pour dÃ©tecter une
+  diffÃ©rence attendue, la stratÃ©gie qui consiste Ã~ interprÃ©ter le
+  non rejet de l'hypothÃ¨se nulle comme un soutien en faveur de
+  l'hypothÃ¨se nulle n'est pas appropriÃ©e.
+\item
+  p.12: nous mentionnons ceci : \emph{``When both variances and sample
+  sizes are the same in each independent group, the \(t\)-values,
+  degrees of freedom, and the \(p\)-values in Student's \(t\)-test and
+  Welch's \(t\)-test are the same (see Table 1)\emph{. Par "variances"
+  il faut comprendre "}sample* variances'' ou ``variances
+  \emph{estimates}''. Nous ne sommes donc }pas* en train de dire que les
+  deux statistiques, ainsi que les degrÃ©s de libertÃ© et \(p\)-valeurs
+  qui leur sont associÃ©es seront identiques lorsque la condition
+  d'homogÃ©nÃ©itÃ© des variances sera respectÃ©e au niveau de la
+  population, mais bien lorsque les estimations de chaque variance de
+  population seront identiques.
 \end{itemize}
-
-Explication: d'un point de vue purement statistique, Ã~ travers le test
-de Yuen, on ne compare plus les moyennes de chaque groupe, mais les
-moyennes \emph{trimmÃ©es} (soit les moyennes calculÃ©es sur les donnÃ©es
-aprÃ¨s avoir Ã©cartÃ© les 20\% des scores les plus bas ainsi que les
-20\% des scores les plus Ã©levÃ©s). Or, Ã~ travers nos simulations, les
-scÃ©narios crÃ©Ã©s en vue de tester le taux d'erreur de type I (risque
-alpha) Ã©taient systÃ©matiquement des scÃ©narios dans lesquels les
-moyennes de chaque groupe Ã©taient identiques. Lorsque les distributions
-sont symÃ©triques, les moyennes de populations sont identiques aux
-moyennes trimmÃ©es des populations. Quand les distributions sont
-asymÃ©triques, par contre, la moyenne trimmÃ©e sera plus proche du mode
-de la distribution que la moyenne. Cela explique pourquoi nous avions
-notÃ© ceci: "Yuen's \(t\)-test is not a good unconditional alternative
-because we oserve an unacceptable departure from the nominal alpha risk
-of 5 percent for several shapes of distributions {[}\ldots{]}
-particularly when we are studying asymmetric distributions of unequal
-shapes.
-
-A partir du moment oÃ¹ cela ne correspond \emph{pas} Ã~ l'hypothÃ¨se
-nulle du test de Yuen, il est erronÃ© de conclure Ã~ une inflation du
-risque alpha pour ce test sur base de nos scÃ©narios. *D'un point de vue
-mÃ©thodologique, par contre, nous pensons qu'il n'est pas clair pour
-beaucoup de gens que l'hypothÃ¨se nulle du test de Yuen n'est pas la
-mÃªme que celle du test t de Student, ce qui pourrait Ãªtre source
-d'ambiguÃ¯tÃ©. En conclusion, ce test ne devrait Ãªtre utilisÃ© que par
-des personnes ayant pleinement conscience du fait que le test de Student
-et celui de Yuen ne testent pas la mÃªme hypothÃ¨se. **Relire l'article
-de Wilcox et celui de Erceg-Hurn pour voir si c'est vraiment bien clair
-dedans, histoire de me dÃ©fendre un peu*
-
-When both the normality and equal variances assumptions are violated, we
-can use a combination of the Trimmed Means t-Test and Welchâ€™s t-Test,
-called the Yuen-Welch Test. Using the notation for the Trimmed Means
-t-test, the Yuen-Welch Test is
 
 \hypertarget{mise-en-forme-et-notations}{%
 \paragraph{Mise en forme et
 Notations}\label{mise-en-forme-et-notations}}
 
-En termes de mises en forme, nous avons omis Ã~ plusieurs endroit
-d'italiser les notations mathÃ©matiques. Par exemple, Ã~ la page
-{[}93{]}, nous avons indiquÃ© ``F-ratio test'' au lieu de ``\(F\)-ratio
-test'' Ã~ plusieurs reprises. A la mÃªme page, nous avons Ã©galement
-notÃ© ``\(\mathrm{x_{ij}}\)'' au lieu de ``\(x_{ij}\)'', et
-\textbar{}\(\mathrm{x_{ij}-\hat{\theta_j}}\)\textbar{} au lieu de
-\textbar{}\(x_{ij}-\hat{\theta_j}\)\textbar.
+Les lettres utilisÃ©es pour dÃ©crire les statistiques (test-\(t\) ou
+test-\(F\)) doivent toujours Ãªtre inscrites en \emph{italique}. Or,
+cela a Ã©tÃ© omis Ã~ plusieurs reprises dans l'article. Par exemple, il
+aurait fallu Ã©crire:\\
+- p.9: ``\ldots{} as the Mann-Whitney \(U\)-test\ldots{}'' au lieu de
+``\ldots{} as the Mann-Whitney U-test\ldots{}'';\\
+- p.9: ``\(F\)-ratio test'' au lieu de ``F-ratio test''.\\
+\newpage Certaines notations mathÃ©matiques auraient Ã©galement dÃ»
+Ãªtre indiquÃ©es en italique. Par exemple, Ã~ la p.9, il aurait fallu
+Ã©crire:\\
+- ``\(x_{ij}\)'' au lieu de ``\(\mathrm{x_{ij}}\)'';\\
+- \textbar{}\(x_{ij}-\hat{\theta_j}\)\textbar{} au lieu de
+\textbar{}\(\mathrm{x_{ij}-\hat{\theta_j}}\)\textbar.
 
-En termes de notation, nous avons relevÃ© des inconsistantes dans la
-notation de la variance de chaque groupes. Par exemple, dans l'Ã©quation
-1, nous utilisons \(S^2_j\), alors que nous utilisons \(s^2_j\) dans
-l'Ã©quation 4 ou encore SDj lorsque nous dÃ©finission la statistique du
-\(F\)-ratio Ã~ la page {[}93{]}.
+Par ailleurs, il est trÃ¨s important d'Ãªtre consistant dans le choix
+des notations mathÃ©matiques, afin d'Ã©viter d'embrouiller le lecteur.
+Or, nous n'avons pas toujours respectÃ© cela. Par exemple, nous avons
+utilisÃ© plusieurs notations diffÃ©rentes pour dÃ©crire l'Ã©cart-type/la
+variance. Par exemple:\\
+- p.9: nous utilisons respectivement SD1 et SD2 pour dÃ©crire
+l'Ã©cart-type de chaque groupe;\\
+- p.11 (Ã©quation 1): nous utilisons respectivement \(S^2_1\) et
+\(S^2_2\) pour dÃ©crire la variance de chaque groupe;\\
+- p.12 (Ã©quation 4): nous utilisons respectivement \(s^2_1\) et
+\(s^2_2\) (lettres minuscules) pour dÃ©crire la variance de chaque
+groupe.
+
+C'est d'autant plus problÃ©matique qu'il y a parfois mÃªme des
+inconsistances entre les notations utilisÃ©es dans les formules et
+celles utilisÃ©es dans les lÃ©gendes des formules. Par exemple, nous
+spÃ©cifions p.11 que dans l'Ã©quation 1, \(s^2_1\) et \(s^2_2\) (lettres
+minuscules) reprÃ©sentent les estimations de variance de chaque groupe
+indÃ©pendant, alors qu'en rÃ©alitÃ©, les estimations des variances sont
+reprÃ©sentÃ©es par \(S^2_1\) et \(S^2_2\) (lettres majuscules) dans
+l'Ã©quation 1.
+
+Notons pour finir une faute de frappe Ã~ la p.13: nous indiquons ``see v
+2a'' au lieu de ``see Figure 2a''.
 
 \hypertarget{taking-parametric-assumptions-very-seriously-arguments-for-the-use-of-welchuxe2s-f-test-instead-of-the-classical-f-test-in-one-way-anova-chapitre-3}{%
 \subsubsection{\texorpdfstring{Taking parametric assumptions very
