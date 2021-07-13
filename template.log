@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.6)  12 JUL 2021 15:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.6)  13 JUL 2021 09:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -696,7 +696,7 @@ Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with paralist package,
 (french.ldf)             reported on input line 124.
 LaTeX Info: Redefining \up on input line 124.
-<C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png, id=140, 225
+<C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png, id=148, 225
 .84375pt x 225.84375pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png Graphic
  file (type png)
@@ -743,7 +743,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2]
-Underfull \hbox (badness 1194) in paragraph at lines 27--27
+Underfull \hbox (badness 1194) in paragraph at lines 30--30
  [][] []\T1/lmr/m/n/12 Importance des simulations et des logiciels mordernes po
 ur enseigner les 
  []
@@ -772,7 +772,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 509.
 
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.pdf, i
-d=257, 597.50829pt x 845.0471pt>
+d=267, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.pd
@@ -781,7 +781,7 @@ Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 2/Chapitre 2-1.pdf  used on input line 511.
 (pdftex.def)             Requested size: 447.35515pt x 632.68776pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2.pdf, i
-d=258, 597.50829pt x 845.0471pt>
+d=268, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2.pd
@@ -793,7 +793,7 @@ re 2/Chapitre 2-2.pdf  used on input line 513.
 >] [10 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2
 .pdf>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.pdf, i
-d=347, 597.50829pt x 845.0471pt>
+d=357, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.pd
@@ -804,7 +804,7 @@ re 2/Chapitre 2-3.pdf  used on input line 515.
 [11 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.pdf, i
-d=385, 597.50829pt x 845.0471pt>
+d=395, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.pd
@@ -815,7 +815,7 @@ re 2/Chapitre 2-4.pdf  used on input line 517.
 [12 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.pdf, i
-d=473, 597.50829pt x 845.0471pt>
+d=483, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.pd
@@ -826,7 +826,7 @@ re 2/Chapitre 2-5.pdf  used on input line 519.
 [13 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.pdf, i
-d=574, 597.50829pt x 845.0471pt>
+d=584, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.pd
@@ -837,7 +837,7 @@ re 2/Chapitre 2-6.pdf  used on input line 521.
 [14 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.pdf, i
-d=605, 597.50829pt x 845.0471pt>
+d=615, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.pd
@@ -848,7 +848,7 @@ re 2/Chapitre 2-7.pdf  used on input line 523.
 [15 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.pdf, i
-d=635, 597.50829pt x 845.0471pt>
+d=645, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.pd
@@ -859,7 +859,7 @@ re 2/Chapitre 2-8.pdf  used on input line 525.
 [16 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.pdf, i
-d=691, 597.50829pt x 845.0471pt>
+d=701, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.pd
@@ -870,7 +870,7 @@ re 2/Chapitre 2-9.pdf  used on input line 527.
 [17 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.pdf, 
-id=730, 597.50829pt x 845.0471pt>
+id=740, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.
 pdf Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.p
@@ -881,7 +881,7 @@ re 2/Chapitre 2-10.pdf  used on input line 529.
 [18 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.p
 df>] (./template.ent) [19]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-1.pdf, i
-d=778, 597.50829pt x 845.0471pt>
+d=788, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-1.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-1.pd
@@ -890,7 +890,7 @@ Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 3/Chapitre 3-1.pdf  used on input line 544.
 (pdftex.def)             Requested size: 447.35515pt x 632.68776pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-2.pdf, i
-d=779, 597.50829pt x 845.0471pt>
+d=789, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-2.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-2.pd
@@ -902,7 +902,7 @@ re 3/Chapitre 3-2.pdf  used on input line 546.
 f>] [21 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-
 2.pdf>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-3.pdf, i
-d=848, 597.50829pt x 845.0471pt>
+d=858, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-3.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-3.pd
@@ -913,7 +913,7 @@ re 3/Chapitre 3-3.pdf  used on input line 548.
 [22 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-3.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-4.pdf, i
-d=884, 597.50829pt x 845.0471pt>
+d=894, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-4.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-4.pd
@@ -924,7 +924,7 @@ re 3/Chapitre 3-4.pdf  used on input line 550.
 [23 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-4.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-5.pdf, i
-d=1043, 597.50829pt x 845.0471pt>
+d=1053, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-5.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-5.pd
@@ -935,7 +935,7 @@ re 3/Chapitre 3-5.pdf  used on input line 552.
 [24 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-5.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-6.pdf, i
-d=1119, 597.50829pt x 845.0471pt>
+d=1129, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-6.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-6.pd
@@ -946,7 +946,7 @@ re 3/Chapitre 3-6.pdf  used on input line 554.
 [25 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-6.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-7.pdf, i
-d=1162, 597.50829pt x 845.0471pt>
+d=1172, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-7.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-7.pd
@@ -957,7 +957,7 @@ re 3/Chapitre 3-7.pdf  used on input line 556.
 [26 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-7.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-8.pdf, i
-d=1226, 597.50829pt x 845.0471pt>
+d=1237, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-8.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-8.pd
@@ -968,7 +968,7 @@ re 3/Chapitre 3-8.pdf  used on input line 558.
 [27 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-8.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-9.pdf, i
-d=1260, 597.50829pt x 845.0471pt>
+d=1270, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-9.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-9.pd
@@ -979,7 +979,7 @@ re 3/Chapitre 3-9.pdf  used on input line 560.
 [28 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-9.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-10.pdf, 
-id=1299, 597.50829pt x 845.0471pt>
+id=1309, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-10.
 pdf Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-10.p
@@ -990,7 +990,7 @@ re 3/Chapitre 3-10.pdf  used on input line 562.
 [29 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-10.p
 df>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-11.pdf, 
-id=1338, 597.50829pt x 845.0471pt>
+id=1348, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-11.
 pdf Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-11.p
@@ -1001,7 +1001,7 @@ re 3/Chapitre 3-11.pdf  used on input line 564.
 [30 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-11.p
 df>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-12.pdf, 
-id=1377, 597.50829pt x 845.0471pt>
+id=1387, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-12.
 pdf Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-12.p
@@ -1011,7 +1011,7 @@ re 3/Chapitre 3-12.pdf  used on input line 566.
 (pdftex.def)             Requested size: 481.64505pt x 681.18346pt.
 [31 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-12.p
 df>] [32] [33]
-<template_files/figure-latex/BIAS-1.pdf, id=1428, 1084.05pt x 578.16pt>
+<template_files/figure-latex/BIAS-1.pdf, id=1438, 1084.05pt x 578.16pt>
 File: template_files/figure-latex/BIAS-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/BIAS-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/BIAS-1.pdf  used on input 
@@ -1048,190 +1048,870 @@ Underfull \hbox (badness 10000) in paragraph at lines 1149--1155
 
 ] [49
 
-] [50] [51] [52] (./template.ent) [53] [54] [55]
+] [50] [51]
+<C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
+of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Hom
+_bal.png, id=1583, 948.54375pt x 443.15562pt>
+File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
+lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
+y/Hom_bal.png Graphic file (type png)
+<use C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qual
+ity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality
+/Hom_bal.png>
+Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/Effect-sizes/
+Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figu
+res_relative quality/Hom_bal.png  used on input line 1403.
+(pdftex.def)             Requested size: 486.25484pt x 227.1762pt.
+<C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
+of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Hom
+_unbal.png, id=1585, 949.5475pt x 442.65375pt>
+File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
+lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
+y/Hom_unbal.png Graphic file (type png)
+<use C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qual
+ity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality
+/Hom_unbal.png>
+Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/Effect-sizes/
+Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figu
+res_relative quality/Hom_unbal.png  used on input line 1412.
+(pdftex.def)             Requested size: 486.26228pt x 226.68251pt.
+[52] [53pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1429 \newpage
+               pdfTeX warning (ext4): destination with the same identifier (nam
+e{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1429 \newpage
+                <c:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts 
+outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_rela
+tive quality/Hom_bal.png> <c:/Users/Admin/Documents/Github projects/Effect-size
+s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
+gures_relative quality/Hom_unbal.png>] [54]
+<C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
+of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
+_bal_N.png, id=1613, 948.04187pt x 440.64626pt>
+File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
+lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
+y/Het_bal_N.png Graphic file (type png)
+<use C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qual
+ity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality
+/Het_bal_N.png>
+Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/Effect-sizes/
+Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figu
+res_relative quality/Het_bal_N.png  used on input line 1533.
+(pdftex.def)             Requested size: 486.25795pt x 226.01083pt.
+<C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
+of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
+_bal_sd.png, id=1614, 950.04938pt x 442.65375pt>
+File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
+lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
+y/Het_bal_sd.png Graphic file (type png)
+<use C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qual
+ity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality
+/Het_bal_sd.png>
+Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/Effect-sizes/
+Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figu
+res_relative quality/Het_bal_sd.png  used on input line 1542.
+(pdftex.def)             Requested size: 486.25836pt x 226.56093pt.
+[55] [56pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1548 \newpage
+               pdfTeX warning (ext4): destination with the same identifier (nam
+e{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1548 \newpage
+                <c:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts 
+outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_rela
+tive quality/Het_bal_N.png> <c:/Users/Admin/Documents/Github projects/Effect-si
+zes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined 
+Figures_relative quality/Het_bal_sd.png>]
+<C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
+of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
+_firstlarger_SDR10.png, id=1637, 947.54pt x 442.65375pt>
+File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
+lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
+y/Het_firstlarger_SDR10.png Graphic file (type png)
+<use C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qual
+ity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality
+/Het_firstlarger_SDR10.png>
+Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/Effect-sizes/
+Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figu
+res_relative quality/Het_firstlarger_SDR10.png  used on input line 1581.
+(pdftex.def)             Requested size: 486.26079pt x 227.16206pt.
+<C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
+of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
+_firstsmaller_SDR10.png, id=1638, 950.04938pt x 446.16687pt>
+File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
+lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
+y/Het_firstsmaller_SDR10.png Graphic file (type png)
+<use C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qual
+ity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality
+/Het_firstsmaller_SDR10.png>
+Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/Effect-sizes/
+Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figu
+res_relative quality/Het_firstsmaller_SDR10.png  used on input line 1590.
+(pdftex.def)             Requested size: 486.25836pt x 228.35904pt.
+<C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
+of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
+_firstlarger_SDR2.png, id=1639, 949.5475pt x 442.15187pt>
+File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
+lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
+y/Het_firstlarger_SDR2.png Graphic file (type png)
+<use C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qual
+ity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality
+/Het_firstlarger_SDR2.png>
+Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/Effect-sizes/
+Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figu
+res_relative quality/Het_firstlarger_SDR2.png  used on input line 1599.
+(pdftex.def)             Requested size: 486.26228pt x 226.4255pt.
+<C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
+of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
+_firstsmaller_SDR2.png, id=1640, 949.5475pt x 442.15187pt>
+File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
+lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
+y/Het_firstsmaller_SDR2.png Graphic file (type png)
+<use C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qual
+ity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality
+/Het_firstsmaller_SDR2.png>
+Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/Effect-sizes/
+Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figu
+res_relative quality/Het_firstsmaller_SDR2.png  used on input line 1608.
+(pdftex.def)             Requested size: 486.26228pt x 226.4255pt.
+[57pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1614 \newpage
+                <c:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts 
+outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_rela
+tive quality/Het_firstlarger_SDR10.png>] [58pdfTeX warning (ext4): destination 
+with the same identifier (name{figure.7}) has been already used, duplicate igno
+red
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1614 \newpage
+               pdfTeX warning (ext4): destination with the same identifier (nam
+e{figure.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1614 \newpage
+                <c:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts 
+outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_rela
+tive quality/Het_firstsmaller_SDR10.png> <c:/Users/Admin/Documents/Github proje
+cts/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimat
+ors/Combined Figures_relative quality/Het_firstlarger_SDR2.png>] [59pdfTeX warn
+ing (ext4): destination with the same identifier (name{figure.9}) has been alre
+ady used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1659 
+        <c:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/
+Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qua
+lity/Het_firstsmaller_SDR2.png>]
+Underfull \hbox (badness 1648) in paragraph at lines 1673--1696
+\T1/lmr/m/it/12 deffectsize \T1/lmr/m/n/12 (see []$https : / / anonymous . 4ope
+n . science / r / de^^[ectsize -[] B1D2/$[]). The \T1/lmr/m/it/12 datacohen_CI
+ []
+
+[60] [61] [62] [63] [64] [65] [66] (./template.ent [67] [68]) [69] [70]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Table1
-.png, id=1600, 483.8075pt x 271.51437pt>
+.png, id=1824, 483.8075pt x 271.51437pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/T
 able1.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
 ble1.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Illustration/Table1.png  used on input line 1473.
+re 5/Illustration/Table1.png  used on input line 2216.
 (pdftex.def)             Requested size: 461.9621pt x 259.25462pt.
-[56 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
+[71 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
 ble1.png>]
 \openout3 = `template.ent'.
 
-[57]
+[72]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Table2
-.png, id=1612, 483.8075pt x 285.065pt>
+.png, id=1834, 483.8075pt x 285.065pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/T
 able2.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
 ble2.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Illustration/Table2.png  used on input line 1549.
+re 5/Illustration/Table2.png  used on input line 2292.
 (pdftex.def)             Requested size: 461.9621pt x 272.19342pt.
-[58 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
+[73 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
 ble2.png>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fig1.p
-ng, id=1619, 361.35pt x 361.35pt>
+ng, id=1841, 361.35pt x 361.35pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/F
 ig1.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fi
 g1.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Illustration/Fig1.png  used on input line 1584.
+re 5/Illustration/Fig1.png  used on input line 2327.
 (pdftex.def)             Requested size: 194.49753pt x 194.49753pt.
-[59pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
- has been already used, duplicate ignored
+[74pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1591 \newpage
+l.2334 \newpage
                 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Ill
-ustration/Fig1.png>] [60]
-<template_files/figure-latex/equiv1-1.pdf, id=1634, 469.755pt x 325.215pt>
+ustration/Fig1.png>] [75]
+<template_files/figure-latex/equiv1-1.pdf, id=1857, 469.755pt x 325.215pt>
 File: template_files/figure-latex/equiv1-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/equiv1-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/equiv1-1.pdf  used on inpu
-t line 1667.
+t line 2410.
 (pdftex.def)             Requested size: 389.00774pt x 269.31305pt.
-[61] [62pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.3}) has been already used, duplicate ignored
+[76] [77pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1737 
-        <./template_files/figure-latex/equiv1-1.pdf>] [63] [64]
+l.2480 
+        <./template_files/figure-latex/equiv1-1.pdf>] [78] [79]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.png, i
-d=1668, 1660.2025pt x 2347.77126pt>
+d=1890, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-1.png  used on input line 1835.
+re 5/Chapitre 5-1.png  used on input line 2578.
 (pdftex.def)             Requested size: 447.3487pt x 632.61707pt.
-[65]
+[80]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.png, i
-d=1675, 1660.2025pt x 2347.77126pt>
+d=1897, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-2.png  used on input line 1837.
+re 5/Chapitre 5-2.png  used on input line 2580.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[66 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.pn
+[81 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.png, i
-d=1681, 1660.2025pt x 2347.77126pt>
+d=1903, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-3.png  used on input line 1839.
+re 5/Chapitre 5-3.png  used on input line 2582.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[67 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.pn
+[82 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.png, i
-d=1687, 1660.2025pt x 2347.77126pt>
+d=1909, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-4.png  used on input line 1841.
+re 5/Chapitre 5-4.png  used on input line 2584.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[68 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.pn
+[83 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.png, i
-d=1694, 1660.2025pt x 2347.77126pt>
+d=1915, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-5.png  used on input line 1843.
+re 5/Chapitre 5-5.png  used on input line 2586.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[69 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.pn
+[84 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.png, i
-d=1700, 1660.2025pt x 2347.77126pt>
+d=1922, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-6.png  used on input line 1845.
+re 5/Chapitre 5-6.png  used on input line 2588.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[70 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.pn
+[85 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.png, i
-d=1706, 1660.2025pt x 2347.77126pt>
+d=1928, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-7.png  used on input line 1847.
+re 5/Chapitre 5-7.png  used on input line 2590.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[71 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.pn
+[86 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.png, i
-d=1712, 1660.2025pt x 2347.77126pt>
+d=1935, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-8.png  used on input line 1849.
+re 5/Chapitre 5-8.png  used on input line 2592.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[72 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.pn
+[87 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.png, i
-d=1718, 1660.2025pt x 2347.77126pt>
+d=1941, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-9.png  used on input line 1851.
+re 5/Chapitre 5-9.png  used on input line 2594.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[73 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.pn
+[88 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.png, 
-id=1724, 1660.2025pt x 2347.77126pt>
+id=1947, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.
 png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.p
 ng>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-10.png  used on input line 1853.
+re 5/Chapitre 5-10.png  used on input line 2596.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[74 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.pn
+[89 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.png, 
-id=1731, 1660.2025pt x 2347.77126pt>
+id=1953, 1660.2025pt x 2347.77126pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.
 png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.p
 ng>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-11.png  used on input line 1855.
+re 5/Chapitre 5-11.png  used on input line 2598.
 (pdftex.def)             Requested size: 481.6744pt x 681.15866pt.
-[75 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.p
-ng>] (./template.ent [76 <c:/Users/Admin/Documents/Github projects/thesis/Chapi
-tre 5/Chapitre 5-11.png>] [77]) [78]
+[90 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.p
+ng>] (./template.ent [91 <c:/Users/Admin/Documents/Github projects/thesis/Chapi
+tre 5/Chapitre 5-11.png>] [92]) [93]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1880.
+(hyperref)                than one, level fixed on input line 2623.
 
-[79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] 
+[94] [95] [96] [97]pdfTeX warning (ext4): destination with the same identifier 
+(name{refs}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2779 \hypertarget{refs}{}
+                           pdfTeX warning (ext4): destination with the same ide
+ntifier (name{ref-aiken_doctoral_2008}) has been already used, duplicate ignore
+d
+<to be read again> 
+                   \relax 
+l.2781 ...e\hypertarget{ref-aiken_doctoral_2008}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-algina_confidence_2006}) has been alr
+eady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2788 ...ypertarget{ref-algina_confidence_2006}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-altman_why_2005}) has been already us
+ed, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2793 ...vmode\hypertarget{ref-altman_why_2005}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-andersen_but_2007}) has been already 
+used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2797 ...ode\hypertarget{ref-andersen_but_2007}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-anderson_theres_2016}) has been alrea
+dy used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2803 ...\hypertarget{ref-anderson_theres_2016}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-association_publication_2010}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2808 ...rget{ref-association_publication_2010}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-bakker_rules_2012}) has been already 
+used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2813 ...ode\hypertarget{ref-bakker_rules_2012}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-balluerka_controversy_2005}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2818 ...target{ref-balluerka_controversy_2005}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-blume_second-generation_2018}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2823 ...rget{ref-blume_second-generation_2018}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-burriss_changes_2015}) has been alrea
+dy used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2829 ...\hypertarget{ref-burriss_changes_2015}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-button_power_2013}) has been already 
+used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2835 ...ode\hypertarget{ref-button_power_2013}{}
+                                                  % [98]pdfTeX warning (ext4): 
+destination with the same identifier (name{ref-button_minimal_2015}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2841 ...e\hypertarget{ref-button_minimal_2015}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-byrne_status_1996}) has been already 
+used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2848 ...ode\hypertarget{ref-byrne_status_1996}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-cain_univariate_2017}) has been alrea
+dy used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2853 ...\hypertarget{ref-cain_univariate_2017}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-coe_its_2002}) has been already used,
+ duplicate ignored
+<to be read again> 
+                   \relax 
+l.2859 \leavevmode\hypertarget{ref-coe_its_2002}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-cohen_statistical_1965}) has been alr
+eady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2863 ...ypertarget{ref-cohen_statistical_1965}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-counsell_reporting_2017}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2867 ...pertarget{ref-counsell_reporting_2017}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-cumming_cohens_2013}) has been alread
+y used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2872 ...e\hypertarget{ref-cumming_cohens_2013}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-cumming_statistical_2012}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2877 ...ertarget{ref-cumming_statistical_2012}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-curtis_training_1998}) has been alrea
+dy used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2884 ...\hypertarget{ref-curtis_training_1998}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-delacre_why_2017}) has been already u
+sed, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2889 ...mode\hypertarget{ref-delacre_why_2017}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-delacre_taking_2019}) has been alread
+y used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2894 ...e\hypertarget{ref-delacre_taking_2019}{}
+                                                  % [99]pdfTeX warning (ext4): 
+destination with the same identifier (name{ref-duran_standards_2006}) has been 
+already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2900 ...\hypertarget{ref-duran_standards_2006}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-ellis_essential_2010}) has been alrea
+dy used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2907 ...\hypertarget{ref-ellis_essential_2010}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-erceg-hurn_modern_2008}) has been alr
+eady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2912 ...ypertarget{ref-erceg-hurn_modern_2008}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-everitt_statistics_2001}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2917 ...pertarget{ref-everitt_statistics_2001}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-field_discovering_2013}) has been alr
+eady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2921 ...ypertarget{ref-field_discovering_2013}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-finch_reporting_2001}) has been alrea
+dy used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2925 ...\hypertarget{ref-finch_reporting_2001}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-fraas_testing_2000}) has been already
+ used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2930 ...de\hypertarget{ref-fraas_testing_2000}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-funder_improving_2014}) has been alre
+ady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2935 ...hypertarget{ref-funder_improving_2014}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-funder_evaluating_2019}) has been alr
+eady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2942 ...ypertarget{ref-funder_evaluating_2019}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-gignac_effect_2016}) has been already
+ used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2947 ...de\hypertarget{ref-gignac_effect_2016}{}
+                                                  % [100]pdfTeX warning (ext4):
+ destination with the same identifier (name{ref-glass_meta-analysis_1981}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2952 ...ertarget{ref-glass_meta-analysis_1981}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-glass_consequences_1972}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2956 ...pertarget{ref-glass_consequences_1972}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-golinski_expanding_2009}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2962 ...pertarget{ref-golinski_expanding_2009}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-goulet-pelletier_review_2018}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2967 ...rget{ref-goulet-pelletier_review_2018}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-grissom_heterogeneity_2000}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2972 ...target{ref-grissom_heterogeneity_2000}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-grissom_review_2001}) has been alread
+y used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2976 ...e\hypertarget{ref-grissom_review_2001}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-grissom_effect_2005}) has been alread
+y used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2981 ...e\hypertarget{ref-grissom_effect_2005}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-haslam_research_2014}) has been alrea
+dy used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2986 ...\hypertarget{ref-haslam_research_2014}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-hedges_statistical_1985}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2990 ...pertarget{ref-hedges_statistical_1985}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-hoekstra_are_2012}) has been already 
+used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2994 ...ode\hypertarget{ref-hoekstra_are_2012}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-howitt_understanding_2017}) has been 
+already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2999 ...rtarget{ref-howitt_understanding_2017}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-huynh_unified_1989}) has been already
+ used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3003 ...de\hypertarget{ref-huynh_unified_1989}{}
+                                                  % [101]pdfTeX warning (ext4):
+ destination with the same identifier (name{ref-judd_data_2011}) has been alrea
+dy used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3007 ...evmode\hypertarget{ref-judd_data_2011}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-kelley_effects_2005}) has been alread
+y used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3011 ...e\hypertarget{ref-kelley_effects_2005}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-keselman_generally_2008}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3017 ...pertarget{ref-keselman_generally_2008}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-keselman_statistical_1998}) has been 
+already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3023 ...rtarget{ref-keselman_statistical_1998}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-kulinskaya_confidence_2007}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3030 ...target{ref-kulinskaya_confidence_2007}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-lakens_calculating_2013}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3035 ...pertarget{ref-lakens_calculating_2013}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-lakens_20_2016}) has been already use
+d, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3040 ...evmode\hypertarget{ref-lakens_20_2016}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-lakens_equivalence_2017}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3046 ...pertarget{ref-lakens_equivalence_2017}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-lakens_equivalence_2018}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3051 ...pertarget{ref-lakens_equivalence_2018}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-meyners_equivalence_2012}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3056 ...ertarget{ref-meyners_equivalence_2012}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-micceri_unicorn_1989}) has been alrea
+dy used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3060 ...\hypertarget{ref-micceri_unicorn_1989}{}
+                                                  % [102]pdfTeX warning (ext4):
+ destination with the same identifier (name{ref-mills_quantitative_2010}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3064 ...pertarget{ref-mills_quantitative_2010}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-newman_testing_2001}) has been alread
+y used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3068 ...e\hypertarget{ref-newman_testing_2001}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-nickerson_null_2000}) has been alread
+y used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3072 ...e\hypertarget{ref-nickerson_null_2000}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-nunnally_place_1960}) has been alread
+y used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3077 ...e\hypertarget{ref-nunnally_place_1960}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-osborne_educational_2001}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3081 ...ertarget{ref-osborne_educational_2001}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-osborne_four_2002}) has been already 
+used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3086 ...ode\hypertarget{ref-osborne_four_2002}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-pek_reporting_2018}) has been already
+ used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3091 ...de\hypertarget{ref-pek_reporting_2018}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-peng_beyond_2014}) has been already u
+sed, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3096 ...mode\hypertarget{ref-peng_beyond_2014}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-peng_impact_2013}) has been already u
+sed, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3101 ...mode\hypertarget{ref-peng_impact_2013}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-prentice_when_1992}) has been already
+ used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3106 ...de\hypertarget{ref-prentice_when_1992}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-quertemont_how_2011}) has been alread
+y used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3110 ...e\hypertarget{ref-quertemont_how_2011}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-rasch_two-sample_2011}) has been alre
+ady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3114 ...hypertarget{ref-rasch_two-sample_2011}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-raviv_bias_2014}) has been already us
+ed, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3119 ...vmode\hypertarget{ref-raviv_bias_2014}{}
+                                                  % [103]pdfTeX warning (ext4):
+ destination with the same identifier (name{ref-rogers_using_1993}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3123 ...ode\hypertarget{ref-rogers_using_1993}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-ruxton_unequal_2006}) has been alread
+y used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3128 ...e\hypertarget{ref-ruxton_unequal_2006}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-schucany_preliminary_2006}) has been 
+already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3133 ...rtarget{ref-schucany_preliminary_2006}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-schuirmann_comparison_1987}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3139 ...target{ref-schuirmann_comparison_1987}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-seaman_equivalence_1998}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3145 ...pertarget{ref-seaman_equivalence_1998}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-shieh_confidence_2013}) has been alre
+ady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3150 ...hypertarget{ref-shieh_confidence_2013}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-simonsohn_p-curve_2014}) has been alr
+eady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3156 ...ypertarget{ref-simonsohn_p-curve_2014}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-stout_assessing_1995}) has been alrea
+dy used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3161 ...\hypertarget{ref-stout_assessing_1995}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-sullivan_using_2012}) has been alread
+y used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3167 ...e\hypertarget{ref-sullivan_using_2012}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-thompson_statistical_1997}) has been 
+already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3172 ...rtarget{ref-thompson_statistical_1997}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-wackerly_mathematical_2008}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3177 ...target{ref-wackerly_mathematical_2008}{}
+                                                  % [104]pdfTeX warning (ext4):
+ destination with the same identifier (name{ref-welch_significance_1938}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3182 ...pertarget{ref-welch_significance_1938}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-wilcox_how_1998}) has been already us
+ed, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3187 ...vmode\hypertarget{ref-wilcox_how_1998}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-wilkinson_statistical_1999}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3192 ...target{ref-wilkinson_statistical_1999}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-yuan_structural_2004}) has been alrea
+dy used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3197 ...\hypertarget{ref-yuan_structural_2004}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-zimmerman_note_2004}) has been alread
+y used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3202 ...e\hypertarget{ref-zimmerman_note_2004}{}
+                                                  % [105] [106] [107] 
 AED: lastpage setting LastPage
-[93] (./template.aux)
+[108] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 72E58A10A9E0EAA4188D5D458AB66BF2;9160.
+(rerunfilecheck)             Checksum: 44055D1E46E44E0CB2D331EBA865511A;9388.
  )
 (\end occurred inside a group at level 2)
 
@@ -1239,10 +1919,10 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 ### semi simple group (level 1) entered at line 77 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14072 strings out of 480477
- 230430 string characters out of 5897581
- 559317 words of memory out of 5000000
- 31147 multiletter control sequences out of 15000+600000
+ 14203 strings out of 480477
+ 245446 string characters out of 5897581
+ 561000 words of memory out of 5000000
+ 31240 multiletter control sequences out of 15000+600000
  542342 words of font info for 96 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,10n,66p,1069b,3368s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1278,10 +1958,10 @@ yTeX/texmf-dist/fonts/type1/public/lm/lmsy5.pfb><c:/Users/Admin/AppData/Roaming
 /TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/Users/Admin/AppData/Roa
 ming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/Users/Admin/AppData
 /Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on template.pdf (98 pages, 7478193 bytes).
+Output written on template.pdf (113 pages, 8064288 bytes).
 PDF statistics:
- 2123 PDF objects out of 2487 (max. 8388607)
- 1434 compressed objects within 15 object streams
- 308 named destinations out of 1000 (max. 500000)
- 468 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2266 PDF objects out of 2487 (max. 8388607)
+ 1545 compressed objects within 16 object streams
+ 337 named destinations out of 1000 (max. 500000)
+ 524 words of extra memory for PDF output out of 10000 (max. 10000000)
 
