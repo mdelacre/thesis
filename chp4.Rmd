@@ -205,7 +205,7 @@ where $\delta_{Glass} = \frac{\mu_{c}-\mu_{e}}{\sigma_{c}}$ and $\mu_c$ and $\mu
 |    |      |  |    |
   |  Shieh's $d_s$  |$\frac{\left(\frac{\sigma^2_1}{n_1}+\frac{\sigma^2_2}{n_2} \right)^2}{\frac{(\sigma^2_1/n_1)^2}{n_1-1}+\frac{(\sigma^2_2/n_2)^2}{n_2-1}}$|$\delta_{Shieh} \times c_f$|$\frac{df}{(df-2)N}  + \delta^2_{Shieh} \left( \frac{df}{df-2} - c_f^2 \right)$    |
 |    |      |  |    |
-Table: Expentency, bias and variance of Glass's $d_s$ and Cohen's $d^*_s$ and Shieh's $d_s$ under the assumption that independent residuals are normally distributed.
+Table: Expectation, bias and variance of Glass's $d_s$ and Cohen's $d^*_s$ and Shieh's $d_s$ under the assumption that independent residuals are normally distributed.
 
 *Note*. $c_f=\frac{\sqrt{\frac{df}{2}} \times \Gamma\left( \frac{df-1}{2}\right)}{\Gamma\left( \frac{df}{2}\right)}$; $\delta_{Glass}=\frac{\mu_c-\mu_e}{\sigma_c}$, $\delta_{Shieh}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1}{n_1/N}+\frac{\sigma^2_2}{n_2/N}}}$ and $\delta^*_{Cohen}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1+\sigma^2_2}{2}}}$; all estimators are biased estimators, because their expectations differ from the population effect size $\delta$. Moreover, the larger the population estimator ($\delta$), the larger the bias. Indeed, the bias is the difference between the expectation and $\delta$: $\delta_{bias} = \delta \times (c_f-1)$. Equations require $df \ge 3$ and at least 2 subjects per group. 
 
