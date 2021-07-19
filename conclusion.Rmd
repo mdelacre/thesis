@@ -5,19 +5,50 @@ output: pdf_document
 
 # Discussion générale et conclusion
 
-Apport général, Apports théoriques et appliqués
+## Apport général, Apports théoriques et appliqués
 
-Qu’est-ce que ma thèse apporte à la méthodologie statistique en général ? 
-Nos objectifs de départ : 
--	Identifier un manquement dans les pratiques actuelles des chercheurs : grâce à des revues de la littérature (par nous ou par d’autres), on a pris conscience des limites quant à l’usage des tests reposant sur des conditions d’application peu réalistes.
--	Simulations en vue de montrer l’impact concret de l’usage des tests lorsque les conditions d’application ne sont pas respectées
--	Avec de simples recommandations, il est possible d’améliorer les pratiques des chercheurs ainsi que leur compréhension des conditions d’application et de leurs transgressions ; 
-Pour rendre cela possible, nous avons tout mis en œuvre pour nous assurer une diffusion du message la plus larges possible. Conformément à ce que nous avions annoncé en introduction, nous avons fourni des exemples concrets et issus de la psychologie expliquant en quoi la condition d’homoscédasticité n’était pas réaliste et les conséquences réelles de ces violations. De plus, nous avons accordé beaucoup d’importance à la transparence dans notre recherche et à l’accès libre, en choisissant des revues de publication Open Access (l’International Review of Social Psychology et MetaPsychology)  en toucher un mot, MetaPsychology, même le reviewing est entièrement transparent !, en affichant l’évolution de notre travail sur Github et en soumettant des preprint de nos articles. Ce dernier point a pour avantage énorme de permettre d’améliorer la qualité de nos articles, grâce à des échanges enrichissants avec d’éminents chercheurs (exemple du dernier article qui a été très longuement commenté par Cumming). 
-En termes d’apport théorique : beaucoup avant nous ont tenté de faire passer ce message. L’idée de remplacer le test $t$ de Student par le test de Welch n’est pas récente. Mais les moyens informatiques actuels nous ont permis la réalisation de simulations intensives, avec 1,000,000 d’itérations pour un très grand nombre de scénarios qui varient en fonction du niveau d’hétéroscédasticité et du degré d’écart aux conditions d’application. Mais attention, il y a encore des améliorations possibles (voir section « recherches futures »).
-En clair, nous avons répondu à la problématique de départ en remettant à jour des questionnements qui ont déjà été faits mais avec des simulations bcp plus poussées car pas possible avant). Je l’ai fait pour le Welch, pour l’ANOVA, pour les tailles d’effets.
-De plus, la mouvance actuelle vers la transparence et l’open access ainsi que les moyens existants pour diffuser largement le message, la multiplicité des logiciels existants etc. nous ont aidé à augmenter notre impact (le premier article a déjà été cité 387 fois). En plus d’avoir été cité, nos articles semblent déjà avoir des implications pratiques réelles.
-Apports pratiques : 
-Pour le Welch, vérifier mais je crois que Daniel s’en était aussi servi pour le package TOSTER (ou en tout cas en parlait).
+A travers cette thèse, nous avions des objectifs de départ:      
+(1) Identifier un manquement dans les pratiques actuelles des chercheurs, grâce à des revues de la littérature (par nous ou par d’autres);  
+(2) Réaliser des simulations en vue de montrer l'impact réel et concrêt de ces pratiques;    
+(3) Proposer des recommandations, en vue d'améliorer ces pratiques.
+
+Nous nous sommes d'abord focalisés sur l'usage fréquent de tests statistiques dont les résultats ne sont généralement fiables que si certaines conditions d'application peu réalistes sont respectées (voir les chapitres 2, 3 et 4). Nous nous sommes ensuite intéressés à la définition courante des hypothèses nulles comme hypothèse d'absence d'effet ainsi qu'à un outil qui permet, au contraire, d'étudier des hyopthèses nulles de *présence* d'effet (voir le chapitre 5).
+
+Afin d'aider les chercheurs à prendre conscience des conséquences néfastes de pratiques couramment mises en oeuvre, conformément à ce que nous avions annoncé en introduction, nous avons fourni des exemples concrets et issus de la psychologie expliquant en quoi la condition d’homoscédasticité n’était pas réaliste et les conséquences réelles de ces violations.
+
+Nous avons tout mis en oeuvre pour assurer le plus de transparence possible de notre recherche ainsi qu'une grande accessibilité pour tous les chercheurs en psychologie, afin d'assurer la diffusion la plus large possible de notre message et permettre d'aider les chercheurs à **comprendre l'impact de certaines pratiques qu'ils mettent fréquemment en oeuvre**. 
+- D'abord, à partir de l'article présenté au sein du chapitre 3, nous avons travaillé conjointement avec Rstudio et Github. Grâce à l'historique de Github, il est possible de voir l'évolution continue des différents articles écrits;  
+- Ensuite, nous avons systématiquement diffusé des preprints de nos articles, avant même qu'ils ne soient acceptés pour publication;   
+- Enfin, nous avons choisi des revues de publication Open Access (l’International Review of Social Psychology et MetaPsychology).
+*en toucher un mot, MetaPsychology, même le reviewing est entièrement transparent !*
+
+Les preprint, en particulier, se sont avérés particulièrement utiles puisqu'ils nous ont permis d'améliorer la qualité des articles, grâce à des échanges enrichissants avec d’éminents chercheurs (exemple du dernier article qui a été très longuement commenté par Cumming). 
+
+### Apports théoriques  
+En termes d’apport théorique : beaucoup avant nous ont tenté de faire passer ce message. L’idée de remplacer le test $t$ de Student par le test de Welch n’est pas récente. Mais les moyens informatiques actuels nous ont permis la réalisation de simulations intensives, avec 1,000,000 d’itérations pour un très grand nombre de scénarios qui varient en fonction du niveau d’hétéroscédasticité et du degré d’écart aux conditions d’application. Mais attention, il y a encore des améliorations possibles (voir section « recherches futures »). En clair, nous avons répondu à la problématique de départ en remettant à jour des questionnements qui ont déjà été faits mais avec des simulations bcp plus poussées car pas possible avant). Je l’ai fait pour le Welch, pour l’ANOVA, pour les tailles d’effets.
+
+Nous semblons avoir relevé le défi de la diffusion et de l'impact théorique puisque nos articles ont un taux de citation élevé. Notre article sur le test $t$ de Welch (chapitre 2) a à ce jour été cité 387 fois. Notre article sur l'ANOVA de Welch (chapitre 3) a déjà été cité 61 fois et le preprint sur les mesures de taille d'effet a été source d'intérêt pour plusieurs chercheurs.
+
+### Apports appliqués
+Bien qu'il est très important d'aider les chercheurs à comprendre, théoriquement, en quoi les pratiques actuelles sont problématiques, il nous semble plus important encore de leur fournir des outils, afin de leur permettre de modifier ces pratiques. Or, un article méthodologique à lui seul suffit rarement à cela (d'après @mills_quantitative_2010, les chercheurs appliqués citent très peu les articles méthodologiques dans leur référence pour justifier leurs choix, ce qui pourrait être un signal du fait qu'ils basent peu leurs décisions sur ces articles). 
+
+Dans l'autre sens, on constate que les articles méthodos sont généralement peu cités, et ils le sont encore 3 fois moins par les chercheurs appliqués que par les autres méthodologistes [@mills_quantitative_2010, p.56]. On est en droit de questionner l'impact réel des publications méthodologiques, pour 2 raisons, d'après @mills_quantitative_2010:  
+(1) Les chercheurs appliqués sont noyés sous les articles dans leur domaine d'expertise si bien que cela limite le temps dont ils disposent pour se consacrer aux articles méthodologiques;   
+(2) malgré que des nouvelles méthodes sont disponibles, les chercheurs continuent à opter pour des tests traditionnels et familiaux (mais souvent inappropriés).  
+
+Par contre, les articles méthodos peuvent servir à la créations d'outils/logiciels qui seront très utiles aux chercheurs. *Retravailler cette partie sur l'importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes*:
+
+On sait que les chercheurs tendent à privilégier les méthodes qui sont proposées par défaut dans des logiciels de clique bouton (comme SPSS). C'est en tout cas ce que dit @counsell_reporting_2017 dans le contexte de la gestion des données manquantes (mais je crois que c'est vrai pour tout). Une manière d'améliorer les pratiques serait d'améliorer les options proposées par défaut dans les logiciels de clic-bouton. C'est à ce genre de choses que j'aspire à travers mes articles. 
+
+Malgré tout, un logiciel ne fait pas tout et après avoir utilisé le test adéquat, il est important d'être capable de l'interpréter correctement. Les tests font appel à des notions faussement simples telles que les p-valeurs et les distributions d'échantillonnage. A mon sens, le seul moyen d'enseigner correctement ces notions, c'est à travers des simulations. 
+
+D'après Thompson (1999a, cité par @fraas_testing_2000), les chercheurs continuent à utiliser la nil nul hypothesis pour 2 raisons:  (1) la plupart des logiciels partent du postulat que c'est l'hypothèse nulle qu'utilisent les chercheurs et ne donnent pas la possibilité de faire autre chose  (2) les non nil-nul hypotheses incluent un niveau de complexité pas toujours possible à atteindre dans bcp de designs.  Fraas et Newman (2001) admettent que les chercheurs sont probablement plus enclins à utiliser des procédures si elles sont implémentées dans des logiciels "user friendly".
+
+--> Concernant la raison (1), ce n'est plus tellement vrai en 2021. Jamovi, par exemple, contient un package "TOSTER" qui permet de faire des tests d'effets minimaux ET des tests d'équivalence. Il est très important que des logiciels le fassent, car comme disaient @fraas_testing_2000, "unless researchers are able to test non-nil null hypotheses with readily available computer software, they may continue to exclusively use nil null hypothesis" (p.4). 
+
+Au final, nos articles ont souvent été utiles pour ce genre de choses:
+
+- Pour le Welch, vérifier mais je crois que Daniel s’en était aussi servi pour le package TOSTER (ou en tout cas en parlait).
 Nous avons créés des outils pour aider les autres chercheurs (packages R et Shiny App).
 De plus, nos articles ont été utilisés par d’autres chercheurs qui ont eux-mêmes créés des outils utiles. Par exemple, notre dernier article sur l’ES a inspiré plusieurs chercheurs :
 -	Aardon Caldwell s’est appuyé sur nos équations pour implémenter le g* de Hedges dans sa mise à jour du Package TOSTER (sur Jamovi)
@@ -25,6 +56,7 @@ De plus, nos articles ont été utilisés par d’autres chercheurs qui ont eux-
 	Ça met en lumière ce à quoi à mon avis les articles méthodos doivent servir : à inspirer la création de packages/fonctions dans des logiciels user friendly et communément utilisés pour que les chercheurs sachent concrètement comment agir ! (citer la source qui dit que bien souvent, les chercheurs ne vont utiliser des techniques que si elles sont implémentées dans ce type de logiciel)
 Pour continuer à mettre à jour les logiciels, il est important de continuer à éprouver les méthodes existantes, et à les comparer aux nouvelles méthodes existantes. Comme la SGPV proposé par Blume était une nouvelle statistique qui semblait remplir les mêmes objectifs que le TOST, il était tout naturel de comparer ces deux techniques de la manière la plus détaillée possible. Peut-être que de nouvelles techniques avec un meilleur ratio coût/bénéfice seront mises en lumière et viendront dès lors naturellement remplacer les techniques existantes (c’est la magie de la science : un questionnement critique et des mises à jours régulières).
 Par exemple, on a pu montrer effectivement que conformément à ce que certains auteurs suggéraient mais sans que ça soit entendu dans le mnode de la psychologie (car pas appliqué à une compréhension claire du fait que l’hétéroscédatisticité était presque inhérente au domaine, par exemple), il vaut mieux utiliser le test de Welch tt le tps.
+
 Je peux aussi signaler que confirmer une hypothèse nulle, ce qui est important car il y a pas mal de domaines dans la psycho ou le but est de montrer les similitudes, surtout quand c’est mêlé à des questions sociétales (est-ce que les couples homosexuels sont aussi performants que les couples hétérosexuels ?)
 
 Limites
@@ -58,26 +90,6 @@ Titre de la thèse :
 
 
 
-
-### Usage des articles méthodo
-
-Ces derniers semblent assez peu utilisés par les chercheurs. En tout cas s'ils les utilisent, ils les citent très peu dans leurs références pour justifier leurs choix (cf. article de @mills_quantitative_2010: le mode du nombre de citation méthodo dans les articles de recherche appliqués est 0, et la médiane vaut 1... ). Dans l'autre sens, on constate que les articles méthodos sont généralement peu cités, et ils le sont encore 3 fois moins par les chercheurs appliqués que par les autres méthodologistes [@mills_quantitative_2010, p.56]. 
-
-On est en droit de questionner l'impact réel des publications méthodologiques, pour 2 raisons, d'après @mills_quantitative_2010:  
-(1) Les chercheurs appliqués sont noyés sous les articles dans leur domaine d'expertise si bien que cela limite le temps dont ils disposent pour se consacrer aux articles méthodologiques.   
-(2) malgré que des nouvelles méthodes sont disponibles, les chercheurs continuent à opter pour des tests traditionnels et familiaux (mais souvent inappropriés).  
---> Qu'est-ce qui va pousser les chercheurs à lire des articles méthodos? 
---> Si je trouve la réponse à ceci, j'ai mon intro.
-
-### Importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes
-
-On sait que les chercheurs tendent à privilégier les méthodes qui sont proposées par défaut dans des logiciels de clique bouton (comme SPSS). C'est en tout cas ce que dit @counsell_reporting_2017 dans le contexte de la gestion des données manquantes (mais je crois que c'est vrai pour tout). Une manière d'améliorer les pratiques serait d'améliorer les options proposées par défaut dans les logiciels de clic-bouton. C'est à ce genre de choses que j'aspire à travers mes articles. 
-
-Malgré tout, un logiciel ne fait pas tout et après avoir utilisé le test adéquat, il est important d'être capable de l'interpréter correctement. Les tests font appel à des notions faussement simples telles que les p-valeurs et les distributions d'échantillonnage. A mon sens, le seul moyen d'enseigner correctement ces notions, c'est à travers des simulations. 
-
-D'après Thompson (1999a, cité par @fraas_testing_2000), les chercheurs continuent à utiliser la nil nul hypothesis pour 2 raisons:  (1) la plupart des logiciels partent du postulat que c'est l'hypothèse nulle qu'utilisent les chercheurs et ne donnent pas la possibilité de faire autre chose  (2) les non nil-nul hypotheses incluent un niveau de complexité pas toujours possible à atteindre dans bcp de designs.  Fraas et Newman (2001) admettent que les chercheurs sont probablement plus enclins à utiliser des procédures si elles sont implémentées dans des logiciels "user friendly".
-
---> Concernant la raison (1), ce n'est plus tellement vrai en 2021. Jamovi, par exemple, contient un package "TOSTER" qui permet de faire des tests d'effets minimaux ET des tests d'équivalence. Il est très important que des logiciels le fassent, car comme disaient @fraas_testing_2000, "unless researchers are able to test non-nil null hypotheses with readily available computer software, they may continue to exclusively use nil null hypothesis" (p.4). 
 
 ### Comment écrire/transmettre l'info aux psys
 Un consultant doit pouvoir parler de langage des psycs, c'est-à-dire décrire et expliquer les méthodes requises d'une manière compréhensible pour les clients [@golinski_expanding_2009]. Est-ce bien de demander à des mathématiciens/Statisticiens d'enseigner les stat aux psy's? Par forcément, car un psychologue spécialisé en méthodo quanti sera plsu à m^mee de comprendre les procédures et méthodes requises par les psys (ex. de la question de la taille d'effet qui n'intéresse pas vraiment les statisticiens; @golinski_expanding_2009). 

@@ -150,7 +150,8 @@ suivante.
 En piÃ¨ce jointe de cet email, figurait un feedback long et dÃ©taillÃ©
 de notre article. Celui-ci est entiÃ¨rement retranscris juste aprÃ¨s le
 mail. Le texte en bleu qui est insÃ©rÃ© dans ce feedback correspond aux
-rÃ©ponses que nous lui avons fournies.
+rÃ©ponses que nous lui avons fournies, et le texte en brun correspond
+aux rÃ©actions de Cumming Ã~ nos rÃ©ponses.
 
 Pour finir, cet Ã©change a donnÃ© lieu Ã~ un blog post disponible Ã~
 l'adresse suivante:
@@ -239,6 +240,12 @@ have no idea how to generate such distributions in a realistic way. If
 you have any suggestion, I would be more than happy to think about it
 next time!
 
+\color{brown} Yes, it would be valuable to have investigations with
+discrete distributions, but I can't think of good starting points. We'd
+hope for better than the normal approximation to the binomial. Maybe
+start with the investigations that have been made of that, especially
+with small N (Likert, as you mention).
+
 \color{black}\textbf{Bias}
 
 I take your point (p.~23) about the value of focusing on relative,
@@ -297,6 +304,11 @@ ES measures/Graphs/Unbiased estimators/Raw estimators of goodness/''.
 The fact that you haven't found it probably means that I should
 reorganize the folder, in order to make it clearer, to indicate more
 clearly the Figures position in the folder or to add a read me file!
+
+\color{brown} Thanks for the link for raw results.
+https://github.com/mdelacre/Effect-sizes/ That's different from the link
+in the preprint. \color{darkgray}{[}En effet, nous avions collÃ© un
+mauvais lien par erreur dans le preprint{]}.
 
 \color{black} You say that the main purpose of the figures is to allow
 comparisons between the different ES measures, rather than absolute
@@ -377,8 +389,6 @@ variance. I assumed two equal sized groups. The figure suggests that for
 size, for two samples each of at least 20, as you use.
 
 \includegraphics{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cumming/printscreen4.png}\\
-\newpage
-
 For \(\delta\) values of 1, 2, 3, and 4 (as are averaged in Figures 2,
 3), the \(\%\)ages are, in round numbers, about 11, 34, 54, and 67,
 respectively. I expect the \(\%\)ages for the other ES measures would
@@ -423,7 +433,15 @@ clear in Figure 2, and can also be seen in Figure 3.)
 
 \color{blue} This is not very clear to me. If you think this is a key
 point, perhaps we could discuss it together when I will revise the
-article? \newpage \color{black} \textbf{Shiehâ€™s \emph{d} and \emph{g}}
+article?\\
+\color{brown} It looks complicated here but, I think, mainly because
+Iâ€™m trying to get approx CI info from averaged relative variance
+values. Itâ€™s probably not worth considering this further, given that
+somewhere in future plans may be analyses that tell us directly about CI
+lengths and coverage \%ages, and likely errors (biases) in these. Iâ€™m
+more than happy to discuss at revision time.
+
+\color{black} \textbf{Shiehâ€™s \emph{d} and \emph{g}}
 
 I can see that including these does give a comprehensive exploration of
 ES possibilities. Seeing them here led me to go back to Shiehâ€™s
@@ -486,6 +504,10 @@ scale as in column 2 and 3 (this is true for both Figures 2 and 3)? So
 indeed the bias is larger in column 3 than in column 2, and larger in
 column 4 than in column 3.
 
+\color{brown} In some places I did note the differing vertical scales in
+your figures, esp.~Column 4. But I slipped up in my comments on
+interpretation of those figures. Sorry.
+
 \color{black} p.~27, l. 403: Unequal variances. In Figure 4, what are
 the variances? A single pair of values in all cases, or are the pictured
 values averaged over a range of variance pairs?
@@ -527,6 +549,33 @@ mean(Hedgesâ€™ g) with \(\delta_{Cohen}\) in order to compute the raw
 bias. This explains why I also used \(\delta_{Cohen}\) in the
 denominator when I computed the relative bias.
 
+\color{brown} I had in mind the introduction of Cohenâ€™s d on pp.~7-8.
+We are assuming homogeneity of variance. I made a comment:\\
+p.~8, l. 152: â€œUse \(\sigma\) rather than \(\sigma_{pooled}\) (twice)
+because here weâ€™re assuming homogeneity of variance, with
+\(\sigma = \sigma_1 =\sigma_2\) as the common population \(SD\)? (Also
+Table 1, line 1 of Note.)â€ Ok!
+
+\(\rightarrow\) you agreed with that. So the formula, line 152, with the
+square root (Iâ€™ll call that â€˜the weird formulaâ€™) reduces to
+\(\sigma = \sigma\). I guess Iâ€™m assuming that Cohenâ€™s \(d\), and
+also Hedgesâ€™ \(g\), are defined assuming homogeneity of variance and
+their formulas use \(s_p\), the pooled value. They both estimate
+\(\delta\), defined as in your (5).
+
+Thinking further about this, I take your point. In a simulation we know
+\(\sigma_1^2\) and \(\sigma_2^2\), as well as the two sample sizes, but
+we know of no â€˜trueâ€™ single \(\sigma\) to use in defining the
+\(\delta\) we would like to use as the benchmark to assess the estimates
+calculated in the simulation. Perhaps using the weird formula is the
+best we can do; if anything using this means weâ€™re bending over
+backwards to minimise likely estimation error.
+
+Perhaps you could consider shifting the weird formula from the basic
+intro to Cohenâ€™s \(d\) on pp.~7-8, where to me it doesnâ€™t seem to
+fit, and introducing it, as a sort of necessary evil, when explaining
+the simulation evaluation of \(d\) and \(g\)?
+
 \color{black} However, on p.~27, from l. 411, you say that pooling
 variance estimates in this situation results in an {[}effect size{]}
 estimator that â€œwill be smallerâ€¦ or largerâ€¦ than it should be.â€
@@ -549,6 +598,19 @@ in case of heteroscedasticity is not revealed by the calculation of the
 bias. This is actually the same explanation as p.10:
 
 \includegraphics{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cumming/printscreen5.png}\\
+\color{brown} Given your explanation about using the weird formula, I
+think I now understand what you were getting at. Your statement that the
+estimate and the population measure (calculated using the weird formula)
+are both invalid expresses the problem that thereâ€™s probably no good
+way to calculate the population measure when variances are unequal. No
+sensible way to specify what the estimate should be estimating. Indeed!
+
+Of course, if we try to avoid the double invalidity you point to by
+simply averaging the two different \(\sigma\) values, we get the \(d^*\)
+and \(g^*\) estimators. These may solve the unequal \(n\) problem of the
+weird formula, but still have problems (in my view, severe problems) in
+terms of interpretability.
+
 \color{black} p.~28, l. 422: â€œparameters that we cannot controlâ€¦â€.
 You include the \(n\)-ratio, which is true if, for example, we are
 meta-analysing past research. But in many cases a researcher chooses
@@ -744,6 +806,9 @@ data analysis plan to be preregistered.
 into account when I rework my article in September. If you're ok with
 that, I'd love to show you our next draft before submitting it.
 
+\color{brown} I'd be more than happy to comment on future drafts, in due
+course. Or to discuss any of these fascinating issues!
+
 \color{black} Earlier I made a very sketchy attempt to estimate roughly
 what CI length might be, given your relative variance results. You refer
 (e.g., p.~17, l. 253) to â€œvery good inferential propertiesâ€.
@@ -802,10 +867,42 @@ What do you think about: â€œArguments to use the Hedgesâ€™\(g_s^*\) wit
 the Welchâ€™s \(t\)-test: an investigation of interpretability, bias,
 precision, and robustness of d-family effect sizesâ€?
 
+\color{brown} As I said in the blog post, \color{darkgray} {[}Voir lien
+vers le blog post{]} \color{brown} Iâ€™m not convinced that Welchâ€™s
+\(t\)-test deserves mention, even though you have made a strong case for
+using that form of the \(t\)-test in your earlier paper. If people ask
+â€˜which \(ES\)?â€™ Iâ€™d answer that they need to make a judgment in
+context, partly guided by your robustness resultsâ€''but Iâ€™ve said all
+that in the post.
+
+I know that you make a general recommendation that, when variances are
+or may be unequal, we should use Hedgesâ€™ \(g^*\), and, separately,
+Welchâ€™s \(t\)-test, but I donâ€™t see any other link between the two.
+
+Your Equation (10), p.~15, expresses the very strong link between
+Welchâ€™s \(t\) and Shiehâ€™s \(d\). Somewhere Iâ€™ve read a statement
+that the CI on Shiehâ€™s \(d\) corresponds with Welchâ€™s \(t\) test in
+the sense that the two give the same \(p\) values, thoâ€™ I canâ€™t find
+that statement in Shieh (2013) or in your preprint or supp
+materialâ€''sorry if Iâ€™ve missed it. However, Iâ€™d expect that the CI
+on your recommended Hedgesâ€™ \(g^*\) and Welchâ€™s \(t\) would not give
+the same \(p\) values. If thatâ€™s correct, we have one more reason not
+to link the two together, for example in the title.
+
 \color{black} Grissom, R. J., \& Kim, J. J. (2012). \emph{Effect sizes
 for research}, \(2{nd}\) ed.~New York: Routledge.
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\color{brown} It's nice to see a bunch of likes and retweets to the
+tweet about the blog post. \color{darkgray} {[}See
+\underline{https://twitter.com/TheNewStats/status/1405386935074496512}{]}
+
+\color{brown} There's a useful comment (link below) from Brenton Wiernik
+about relevant work by Doug Bonnett. Very likely you know this, tho'
+it's new to me. I'd better have a squiz.
+
+Cheers, Geoff\\
+\color{black}
+------------------------------------------------------------
 
 \newpage
 

@@ -60,7 +60,7 @@ Enfin, dû à un manque de connaissance de Latex lors de mes premières tentativ
 
 Le 4 juin 2021, suite à la soumission d'un preprint de notre article sur les tailles d'effet, nous avons eu le plaisir de recevoir un email de la part de Geoff Cumming. Cet email est présenté à la page suivante.
 
-En pièce jointe de cet email, figurait un feedback long et détaillé de notre article. Celui-ci est entièrement retranscris juste après le mail. Le texte en bleu qui est inséré dans ce feedback correspond aux réponses que nous lui avons fournies. 
+En pièce jointe de cet email, figurait un feedback long et détaillé de notre article. Celui-ci est entièrement retranscris juste après le mail. Le texte en bleu qui est inséré dans ce feedback correspond aux réponses que nous lui avons fournies, et le texte en brun correspond aux réactions de Cumming à nos réponses. 
 
 Pour finir, cet échange a donné lieu à un blog post disponible à l'adresse suivante: https://thenewstatistics.com/itns/2021/06/17/which-standardised-effect-size-measure-is-best-when-variances-are-unequal/.
 
@@ -110,6 +110,8 @@ It is a nice suggestion to add a Figure in the manuscript to show the compared d
 
 Additional comment: in our simulations, we used only continuous distributions. I think it would be interesting to test the properties of estimators when distributions are discrete (e.g. Likert scales) but I have no idea how to generate such distributions in a realistic way. If you have any suggestion, I would be more than happy to think about it next time!
 
+\color{brown} Yes, it would be valuable to have investigations with discrete distributions, but I can't think of good starting points. We'd hope for better than the normal approximation to the binomial. Maybe start with the investigations that have been made of that, especially with small N (Likert, as you mention).
+
 \color{black}**Bias**  
 
 I take your point (p. 23) about the value of focusing on relative, rather than absolute, bias (and variance) when there is a change in measurement units. But that doesn’t happen in your investigations. 
@@ -126,7 +128,9 @@ Note: I explain below why I think it’s important to consider Shieh’s $d$ in 
 
 \color{blue} The graphs for raw estimators of goodness are available on my Github account:    
 \underline{https://github.com/mdelacre/Effect-sizes/}.  
-You will find them in the following folder: "Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Raw estimators of goodness/". The fact that you haven't found it probably means that I should reorganize the folder, in order to make it clearer, to indicate more clearly the Figures position in the folder or to add a read me file!
+You will find them in the following folder: "Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Raw estimators of goodness/". The fact that you haven't found it probably means that I should reorganize the folder, in order to make it clearer, to indicate more clearly the Figures position in the folder or to add a read me file!  
+
+\color{brown} Thanks for the link for raw results. https://github.com/mdelacre/Effect-sizes/ That's different from the link in the preprint. \color{darkgray}[En effet, nous avions collé un mauvais lien par erreur dans le preprint].  
 
 \color{black} You say that the main purpose of the figures is to allow comparisons between the different ES measures, rather than absolute values for bias (and variance). Even so, knowing when bias is likely to be absolutely small or large can inform judgments about the different ES measures in various contexts. In Figures 2 and 3, we have $\sigma_1=\sigma_2$ and four versions of $g$, all debiased. If I’m following, the relative bias values pictured in the top rows of both figures are averaged over $\delta$ = 1, 2, 3, and 4. (I’m assuming $\sigma_1=\sigma_2=1$; correct?) \color{blue} Right! \color{black} For the non-normal distributions, average relative bias in the best cases is around 1-2$\%$, so not bad. But up to around 5-10$\%$ in some other cases, a bit more concerning. 
 
@@ -150,16 +154,15 @@ Note that analyses on CIs would probably be very redundant with that of the vari
 \color{black} The variance formulas in Tables 1 and 2 show that the variance of $d$ and $g$, and the top two ES measures in Table 2, do indeed depend on $\delta$. To try to get a feel for the extent of this dependence I made a quick spreadsheet of the variance formula for Cohen’s $d$, using the approximate formula in the second line of Table 1. The figure below shows the percentage of variance in $d$ that is given by the second, $\delta$-dependent, term in the formula for variance. I assumed two equal sized groups. The figure suggests that for $\delta<1$ only a very small $\%$ of the variance is dependent on $\delta$, and for $\delta=1$ (around 10$\%$) and greater, the $\%$ increases rapidly with $\delta$—not surprisingly, given the $\delta^2$ term in the formula. The $\%$ hardly changes with sample size, for two samples each of at least 20, as you use. 
 
 ![](C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cumming/printscreen4.png)  
-\newpage
-
 For $\delta$ values of 1, 2, 3, and 4 (as are averaged in Figures 2, 3), the $\%$ages are, in round numbers, about 11, 34, 54, and 67, respectively. I expect the $\%$ages for the other ES measures would not be vastly different. Therefore the relative variance values shown in the lower row in Figures 2 and 3 are averages over cases in which dramatically different proportions of the variance are dependent on $\delta$. I think this makes it harder to get good intuitions. Values of the variance of the estimates, rather than relative values, may be more understandable?
 
 \color{blue} This is a very interesting analysis. I was quite confused about this question, and I’ve been wondering for a long time what the best solution would be.  We had many long discussions in order to decide whether we should compute the variance or the relative variance. The issue was indeed the fact that the variance only partly depends on delta. Finally, we decided to compute the relative variance because we had in mind that when $n_1=n_2$ and $\sigma_1=\sigma_2$, the bias (variance) of Shieh’s $d$ is twice smaller (four times smaller) as the bias for Cohen’s $d$, only because Shieh’s $d$ is twice smaller as Cohen’s $d$ (see Appendix 1 in our paper).  However, I keep in mind that you argue in favor of removing Shieh's $d$ from our analyses.
 
 \color{black} Taking a different approach, and considering the relative variance values plotted in Figures 2 and 3, would it be reasonable to say that relative $SD$, the square root of relative variance, is the $SE$ used to calculate the CI on that ES estimate, expressed as a fraction of $\delta$, the population ES? If so, such a 95$\%$ CI would be about  $\pm 2 \times SE \; value \times \delta$. (Given that the smallest total $N$ being considered is 40, that approximation should be reasonable? Perhaps less so for much smaller group sizes. The asymmetry of CIs on $d$ is actually very small unless $N$ is very small and $\delta$ is large.) If that’s at least roughly correct, then your reported values of average efficiency become indicators of the precision of the different ES estimates. An efficiency estimate (lower row in the figures) of, say, 0.04 (a typical low value) would correspond approximately to $SE=0.2\delta$ and a 95$\%$ CI of about  $\pm 0.4 \delta$. However, that’s very rough because the efficiency values plotted are means of four possibly quite different values. (The dependence of relative variance—and thus CI length—on $N$ is clear in Figure 2, and can also be seen in Figure 3.)
 
-\color{blue} This is not very clear to me. If you think this is a key point, perhaps we could discuss it together when I will revise the article?
-\newpage
+\color{blue} This is not very clear to me. If you think this is a key point, perhaps we could discuss it together when I will revise the article?    
+\color{brown} It looks complicated here but, I think, mainly because I’m trying to get approx CI info from averaged relative variance values. It’s probably not worth considering this further, given that somewhere in future plans may be analyses that tell us directly about CI lengths and coverage %ages, and likely errors (biases) in these. I’m more than happy to discuss at revision time.   
+
 \color{black} **Shieh’s _d_ and _g_**  
 
 I can see that including these does give a comprehensive exploration of ES possibilities. Seeing them here led me to go back to Shieh’s original article and my comment. You cite that comment (thank you) as reason to doubt the value of the Shieh approach. You also point out (p. 15, bottom) that in the base case the Shieh value is half $d$. This seems to me so crazy that it alone may provide sufficient reason to dump the Shieh approach. For example, a difference of 7.5 between two IQ means is $d$ = 0.5, half an $SD$. That makes sense. But Shieh would calculate 0.25! Units of double the SD! How could we make sense of that? How could I even attempt to justify that to students as a meaningful standardised ES measure?
@@ -175,7 +178,9 @@ All that seems to me more than enough reason simply to dump the Shieh approach. 
 \color{black} **Results section**
 p. 24, ll. 356-8: moving left to right, columns 2-4: in both figures the bias increases slightly then decreases considerably—not “moving left to right… the larger the bias”
 
-\color{blue} Have you noticed that in column 4, we don’t use the same scale as in column 2 and 3 (this is true for both Figures 2 and 3)? So indeed the bias is larger in column 3 than in column 2, and larger in column 4 than in column 3. 
+\color{blue} Have you noticed that in column 4, we don’t use the same scale as in column 2 and 3 (this is true for both Figures 2 and 3)? So indeed the bias is larger in column 3 than in column 2, and larger in column 4 than in column 3.   
+
+\color{brown} In some places I did note the differing vertical scales in your figures, esp. Column 4. But I slipped up in my comments on interpretation of those figures. Sorry.  
 
 \color{black} p. 27, l. 403: Unequal variances. In Figure 4, what are the variances? A single pair of values in all cases, or are the pictured values averaged over a range of variance pairs?
 
@@ -193,12 +198,26 @@ p. 24, ll. 356-8: moving left to right, columns 2-4: in both figures the bias in
 
 \color{blue} What would you recommend to use? Indeed I’m using $\delta_{Cohen}$. Mathematically speaking, the expectation of Hedges’ $g$ always equals $\delta_{Cohen}$  when both assumptions of normality and equal population variances are met, so we compare mean(Hedges’ g) with $\delta_{Cohen}$  in order to compute the raw bias. This explains why I also used  $\delta_{Cohen}$  in the denominator when I computed the relative bias.
 
+\color{brown} I had in mind the introduction of Cohen’s d on pp. 7-8. We are assuming homogeneity of variance. I made a comment:   
+p. 8, l. 152: “Use $\sigma$ rather than $\sigma_{pooled}$ (twice) because here we’re assuming homogeneity of variance, with $\sigma = \sigma_1 =\sigma_2$ as the common population $SD$? (Also Table 1, line 1 of Note.)” Ok! 
+
+$\rightarrow$ you agreed with that. So the formula, line 152, with the square root (I’ll call that ‘the weird formula’) reduces to $\sigma = \sigma$. I guess I’m assuming that Cohen’s $d$, and also Hedges’ $g$, are defined assuming homogeneity of variance and their formulas use $s_p$, the pooled value. They both estimate $\delta$, defined as in your (5). 
+
+Thinking further about this, I take your point. In a simulation we know $\sigma_1^2$ and $\sigma_2^2$, as well as the two sample sizes, but we know of no ‘true’ single $\sigma$ to use in defining the $\delta$ we would like to use as the benchmark to assess the estimates calculated in the simulation. Perhaps using the weird formula is the best we can do; if anything using this means we’re bending over backwards to minimise likely estimation error. 
+
+Perhaps you could consider shifting the weird formula from the basic intro to Cohen’s $d$ on pp. 7-8, where to me it doesn’t seem to fit, and introducing it, as a sort of necessary evil, when explaining the simulation evaluation of $d$ and $g$? 
+
 \color{black} However, on p. 27, from l. 411, you say that pooling variance estimates in this situation results in an [effect size] estimator that “will be smaller… or larger… than it should be.” What should it be? Doesn’t such an estimator match the definition of $\delta$ I refer to above? Then you make the same statement about population values, although that would not be true if you are using the definition of $\delta$ I refer to above—which is based on just such a pooled (and weighted by sample size) population $SD$? Even so, your conclusion at the top of p. 28, dismissing Hedges’ $g$, may be justified—when variances differ.  
 
 \color{blue} I’m not sure that I understand your comment. Could you please clarify? P.27, we meant that when variances are unequal across populations, the pooled error term is not valid (because it assumes equal population variances). When we compute the bias of Cohen’s $d$ in scenarios with unequal population variances, we compare an invalid estimate with an invalid population measure of effect size. Because both estimate and population value are invalid, the problem of Cohen's $d$ in case of heteroscedasticity is not revealed by the calculation of the bias. This is actually the same explanation as p.10:
 
 ![](C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cumming/printscreen5.png)  
-\color{black} p. 28, l. 422: “parameters that we cannot control…”. You include the $n$-ratio, which is true if, for example, we are meta-analysing past research. But in many cases a researcher chooses sample sizes, and your investigations are likely to lead to useful advice about choice of sample sizes.
+\color{brown} Given your explanation about using the weird formula, I think I now understand what you were getting at. Your statement that the estimate and the population measure (calculated using the weird formula) are both invalid expresses the problem that there’s probably no good way to calculate the population measure when variances are unequal. No sensible way to specify what the estimate should be estimating. Indeed!   
+
+Of course, if we try to avoid the double invalidity you point to by simply averaging the two different $\sigma$ values, we get the $d^*$ and $g^*$ estimators. These may solve the unequal $n$ problem of the weird formula, but still have problems (in my view, severe problems) in terms of interpretability.   
+
+\color{black} p. 28, l. 422: “parameters that we cannot control…”. You 
+include the $n$-ratio, which is true if, for example, we are meta-analysing past research. But in many cases a researcher chooses sample sizes, and your investigations are likely to lead to useful advice about choice of sample sizes.
 
 \color{blue} I think it’s partly true. About the bias, the larger the control group size, the lower the bias. About the variance, it’s a bit more complex: in Supplemental Material 1 we write that when the normality assumption is met “The variance always decreases when the control and/or the experimental group increases. The benefit of adding subjects in the control, in the experimental, or in both groups, in order to reduce the variance, varies as a function of the $SD$-ratio and the population effect size. The only situation where it is optimal to maximize the experimental group is when $\sigma_e>\sigma_c$ and $\delta_{Glass}\approx 0$. Most of the time, it is more efficient to maximize the control groups (e.g. anytime $\sigma_e<\sigma_c$, and when $\delta_{Glass}$ is very large) or to uniformly add subjects in both groups (e.g. when $\sigma_e>\sigma_c$ and $\delta_{Glass}$  is neither null nor huge)” (This is a summary but you can see more details and figures here: https://github.com/mdelacre/Effect-sizes/blob/master/Supplemental$\%$20Material$\%$201/Theoretical$\%$20Variance$\%$20of$\%$20all$\%$20estimators$\%$20as$\%$20a$\%$20function$\%$20of$\%$20population$\%$20parameters.pdf ).
 
@@ -251,6 +270,8 @@ The great value of your findings is then to help us be specific about the trade-
 
 \color{blue} This is a set of considerations that I will have to take into account when I rework my article in September. If you're ok with that, I'd love to show you our next draft before submitting it.
 
+\color{brown} I'd be more than happy to comment on future drafts, in due course. Or to discuss any of these fascinating issues!
+
 \color{black} Earlier I made a very sketchy attempt to estimate roughly what CI length might be, given your relative variance results. You refer (e.g., p. 17, l. 253) to “very good inferential properties”. That’s highly relevant, but I suggest CI length and coverage should be central issues in assessing the inferential effectiveness of any estimator. Then, when considering some judgment call, I could weigh up any price there might be to pay in terms of a longer CI for one of the options under consideration, or a slight departure from 95$\%$ coverage.
 No doubt investigation of CI length and coverage would be a further project, although perhaps you could derive from your variance results some relevant guidance based on CIs?
 
@@ -274,9 +295,21 @@ More positively, your investigations warrant broader recognition and description
 
 \color{blue} We wanted to mention $t$-test because this answering the question many people asked us: Which effect size should I report for Welch’s $t$-test. Yes, the paper discusses more, adding Interpretability, bias, precision, and robustness is a good addition. What do you think about: “Arguments to use the Hedges’$g_s^*$ with the Welch’s $t$-test: an investigation of interpretability, bias, precision, and robustness of d-family effect sizes”?
 
+\color{brown} As I said in the blog post, \color{darkgray} [Voir lien vers le blog post] \color{brown} I’m not convinced that Welch’s $t$-test deserves mention, even though you have made a strong case for using that form of the $t$-test in your earlier paper. If people ask ‘which $ES$?’ I’d answer that they need to make a judgment in context, partly guided by your robustness results—but I’ve said all that in the post. 
+
+I know that you make a general recommendation that, when variances are or may be unequal, we should use Hedges’ $g^*$, and, separately, Welch’s $t$-test, but I don’t see any other link between the two. 
+
+Your Equation (10), p. 15, expresses the very strong link between Welch’s $t$ and Shieh’s $d$. Somewhere I’ve read a statement that the CI on Shieh’s $d$ corresponds with Welch’s $t$ test in the sense that the two give the same $p$ values, tho’ I can’t find that statement in Shieh (2013) or in your preprint or supp material—sorry if I’ve missed it. However, I’d expect that the CI on your recommended Hedges’ $g^*$ and Welch’s $t$ would not give the same $p$ values. If that’s correct, we have one more reason not to link the two together, for example in the title. 
+
 \color{black} Grissom, R. J., & Kim, J. J. (2012). *Effect sizes for research*, $2{nd}$ ed. New York: Routledge.
 
-------------------------------------------------------------
+\color{brown} It's nice to see a bunch of likes and retweets to the tweet about the blog post. \color{darkgray} [See \underline{https://twitter.com/TheNewStats/status/1405386935074496512}]
+
+\color{brown} There's a useful comment (link below) from Brenton Wiernik about relevant work by Doug Bonnett. Very likely you know this, tho' it's new to me. I'd better have a squiz.
+
+Cheers,
+Geoff  
+\color{black} ------------------------------------------------------------
 
 \newpage
 ## Annexe D: A VOIR SI ERRATUM DU CHP 5?
