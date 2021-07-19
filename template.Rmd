@@ -55,7 +55,7 @@ knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesi
 \Large
 
 \doublespacing
-{\bf TITRE, \\TITRE SUITE}
+{\bf METHODE EN PSCHOLOGIE : \\OUTILS ET RECOMMANDATIONS POUR COMPRENDRE ET GERER LES HYPOTHESES, CONDITIONS D'APPLICATION DES TESTS ET LES MESURES DE TAILLE D'EFFETS}
 
 \vspace{1 cm}
 

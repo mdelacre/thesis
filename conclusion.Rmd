@@ -5,7 +5,58 @@ output: pdf_document
 
 # Discussion générale et conclusion
 
-The conclusion section should specify the key findings of your study, explain their wider significance in the context of the research field and explain how you have filled the knowledge gap that you have identified in the introduction. This is your chance to present to your reader the major take-home messages of your dissertation research. It should be similar in content to the last sentence of your summary abstract. It should not be a repetition of the first paragraph of the discussion. They can be distinguished in their connection to broader issues. The first paragraph of the discussion will tend to focus on the direct scientific implications of your work (i.e. basic science, fundamental knowledge) while the conclusion will tend to focus more on the implications of the results for society, conservation, etc.
+Apport général, Apports théoriques et appliqués
+
+Qu’est-ce que ma thèse apporte à la méthodologie statistique en général ? 
+Nos objectifs de départ : 
+-	Identifier un manquement dans les pratiques actuelles des chercheurs : grâce à des revues de la littérature (par nous ou par d’autres), on a pris conscience des limites quant à l’usage des tests reposant sur des conditions d’application peu réalistes.
+-	Simulations en vue de montrer l’impact concret de l’usage des tests lorsque les conditions d’application ne sont pas respectées
+-	Avec de simples recommandations, il est possible d’améliorer les pratiques des chercheurs ainsi que leur compréhension des conditions d’application et de leurs transgressions ; 
+Pour rendre cela possible, nous avons tout mis en œuvre pour nous assurer une diffusion du message la plus larges possible. Conformément à ce que nous avions annoncé en introduction, nous avons fourni des exemples concrets et issus de la psychologie expliquant en quoi la condition d’homoscédasticité n’était pas réaliste et les conséquences réelles de ces violations. De plus, nous avons accordé beaucoup d’importance à la transparence dans notre recherche et à l’accès libre, en choisissant des revues de publication Open Access (l’International Review of Social Psychology et MetaPsychology)  en toucher un mot, MetaPsychology, même le reviewing est entièrement transparent !, en affichant l’évolution de notre travail sur Github et en soumettant des preprint de nos articles. Ce dernier point a pour avantage énorme de permettre d’améliorer la qualité de nos articles, grâce à des échanges enrichissants avec d’éminents chercheurs (exemple du dernier article qui a été très longuement commenté par Cumming). 
+En termes d’apport théorique : beaucoup avant nous ont tenté de faire passer ce message. L’idée de remplacer le test $t$ de Student par le test de Welch n’est pas récente. Mais les moyens informatiques actuels nous ont permis la réalisation de simulations intensives, avec 1,000,000 d’itérations pour un très grand nombre de scénarios qui varient en fonction du niveau d’hétéroscédasticité et du degré d’écart aux conditions d’application. Mais attention, il y a encore des améliorations possibles (voir section « recherches futures »).
+En clair, nous avons répondu à la problématique de départ en remettant à jour des questionnements qui ont déjà été faits mais avec des simulations bcp plus poussées car pas possible avant). Je l’ai fait pour le Welch, pour l’ANOVA, pour les tailles d’effets.
+De plus, la mouvance actuelle vers la transparence et l’open access ainsi que les moyens existants pour diffuser largement le message, la multiplicité des logiciels existants etc. nous ont aidé à augmenter notre impact (le premier article a déjà été cité 387 fois). En plus d’avoir été cité, nos articles semblent déjà avoir des implications pratiques réelles.
+Apports pratiques : 
+Pour le Welch, vérifier mais je crois que Daniel s’en était aussi servi pour le package TOSTER (ou en tout cas en parlait).
+Nous avons créés des outils pour aider les autres chercheurs (packages R et Shiny App).
+De plus, nos articles ont été utilisés par d’autres chercheurs qui ont eux-mêmes créés des outils utiles. Par exemple, notre dernier article sur l’ES a inspiré plusieurs chercheurs :
+-	Aardon Caldwell s’est appuyé sur nos équations pour implémenter le g* de Hedges dans sa mise à jour du Package TOSTER (sur Jamovi)
+-	Intrajeel Patil (twitter) et son collaborateur se sont servis de notre preprint pour corriger une erreur dans un package R qu’ils ont créés
+	Ça met en lumière ce à quoi à mon avis les articles méthodos doivent servir : à inspirer la création de packages/fonctions dans des logiciels user friendly et communément utilisés pour que les chercheurs sachent concrètement comment agir ! (citer la source qui dit que bien souvent, les chercheurs ne vont utiliser des techniques que si elles sont implémentées dans ce type de logiciel)
+Pour continuer à mettre à jour les logiciels, il est important de continuer à éprouver les méthodes existantes, et à les comparer aux nouvelles méthodes existantes. Comme la SGPV proposé par Blume était une nouvelle statistique qui semblait remplir les mêmes objectifs que le TOST, il était tout naturel de comparer ces deux techniques de la manière la plus détaillée possible. Peut-être que de nouvelles techniques avec un meilleur ratio coût/bénéfice seront mises en lumière et viendront dès lors naturellement remplacer les techniques existantes (c’est la magie de la science : un questionnement critique et des mises à jours régulières).
+Par exemple, on a pu montrer effectivement que conformément à ce que certains auteurs suggéraient mais sans que ça soit entendu dans le mnode de la psychologie (car pas appliqué à une compréhension claire du fait que l’hétéroscédatisticité était presque inhérente au domaine, par exemple), il vaut mieux utiliser le test de Welch tt le tps.
+Je peux aussi signaler que confirmer une hypothèse nulle, ce qui est important car il y a pas mal de domaines dans la psycho ou le but est de montrer les similitudes, surtout quand c’est mêlé à des questions sociétales (est-ce que les couples homosexuels sont aussi performants que les couples hétérosexuels ?)
+
+Limites
+
+En recherche, on apprend constamment de nos erreurs. Pour chaque article, j’ai pu identifier des éléments que je ne reproduirais plus à l’identique avec dû recul. Par exemple, dans l’article sur le test de Welch (le premier) j’aurais dû fragmenter. Commencer par faire des simultions avec des distributions identiques dans tous les groupes (car ça permet de moins bien visualiser l’effet de compensation, ex . quand asymétrie positive et négative en mm tps). 
+J’ai également identifié des erreurs conceptuelles dans plusieurs articles : 
+## Concernant le premier article sur le test $t$ de Welch (vérifier mais je crois que ça s’applique aussi au 2ème article en fait ces erreurs)
+Nous spécifions à plusieurs reprises que le test $t$ de Yuen contrôle moins bien le taux d'erreur de type $I$ que le test $t$ de Welch:  
+- p.14: *"Yuen's $t$-test is not a good unconditional alternative because we observe an unacceptable departure from the nominal alpha risk of 5 percent for several shapes of distributions [...] particularly when we are studying asymmetric distributions of unequal shapes"*;  
+- p.15: *"As it is explained in the additional file, Yuen's $t$-test is not a better test than Welch's $t$-test, since it often suffers high departure from the alpha risk of 5 percent"*.   
+
+Ceci n'est pas exact d'un point de vue purement statistique. A travers le test de Yuen, on ne compare plus les moyennes de chaque groupe, mais les moyennes *trimmées* (soit les moyennes calculées sur les données après avoir écarté les 20$\%$ des scores les plus faibles ainsi que les 20$\%$ des scores les plus élevés). Or, à travers nos simulations, les scénarios créés en vue de tester le taux d'erreur de type $I$ (risque alpha) étaient systématiquement des scénarios dans lesquels les moyennes de chaque population étaient identiques. Lorsque la distribution d'une population est parfaitement symétrique, la moyenne et la moyenne trimmée seront identiques. Au contraire, lorsque la distribution d'une population est asymétrique, la moyenne et la moyenne trimmée diffèreront (la moyenne trimmée sera plus proche du mode de la distribution et donc, représentera mieux cette dernière).
+Notons malgré tout que d'un point de vue méthodologique, nous avons déjà relevé que la plupart du temps, les chercheurs définissent l'absence de différence entre les moyennes comme hypothèse nulle et nos simulations démontrent que dans ce contexte, le test de Yuen n'est pas approprié. En conclusion, le test de Yuen ne devrait être utilisé que par des chercheurs ayant pleinement conscience du fait que les tests $t$ de Student et de Welch ne reposent pas sur la même hypothèse que le test $t$ de Yuen.
+### Commentaires divers
+- p.9: nous décrivons 3 arguments en défaveur de l'usage du test de Levene. En troisième argument, nous mentionnons le manque de puissance du test de Levenne. Nous ne mentionnons cependant pas le fait qu'utiliser le test $t$ de Student lorsque le test de Levene est non significatif revient à confondre le non rejet de l'hypothèse d'égalité des variances avec l'acceptation de l'hypothèse d'égalité des variances. Au sein du chapitre 5 sur les tests d'équivalence, il est démontré par simulation que même lorsqu'on s'assure d'avoir une puissance suffisante pour détecter une différence attendue, la stratégie qui consiste à interpréter le non rejet de l'hypothèse nulle comme un soutien en faveur de l'hypothèse nulle n'est pas appropriée.  
+- p.12: nous mentionnons ceci : *"When both variances and sample sizes are the same in each independent group, the $t$-values, degrees of freedom, and the $p$-values in Student's $t$-test and Welch's $t$-test are the same (see Table 1)*. Avec du recul, cette phrase peut porter à confusion. Par "variances" il faut comprendre "*sample* variances" ou "variances *estimates*". Nous ne sommes donc *pas* en train de dire que les deux statistiques, ainsi que les degrés de liberté et $p$-valeurs qui leur sont associées seront identiques lorsque la condition d'homogénéité des variances sera respectée au niveau de la population, mais bien lorsque les estimations de chaque variance de population seront identiques.
+## Concernant le deuxième article sur le test $t$ de Welch
+Perspectives futures
+
+-	Je ne travaille pas avec des distributions discrètes.
+-	On n’a pe pas assez exploré le bootstrapping (on s’est contenté de croire l’avis de machin qui dit que ça marche pas bien) mais on pourrait requestioner cela et dans les recherches futures le ré-investiguer la comparaison du test de welch classique avec sa version boostrappé.
+
+Take home message :
+Ce qu’il faut retenir de ma thèse : les recommandations en qlq points.  Parler ici du fait que j’ai créé des packages et les indiquer : donner le lien github vers ces packages (même si déjà donné ailleurs). 
+
+Titre de la thèse : 
+« Méthode en psychologie : Outils et recommandations pour comprendre et gérer les hypothèses, les CA des tests et les tailles d’effets ». 
+
+
+
+
+
 
 
 ### Usage des articles méthodo
