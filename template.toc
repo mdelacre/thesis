@@ -26,8 +26,8 @@
 \contentsline {section}{Discussion générale et conclusion}{84}{section*.31}%
 \contentsline {subsection}{Apports théoriques et appliqués}{85}{section*.32}%
 \contentsline {subsubsection}{Apports théoriques}{85}{section*.33}%
-\contentsline {subsubsection}{Apports appliqués}{86}{section*.34}%
-\contentsline {subsection}{Limites}{89}{section*.35}%
+\contentsline {subsubsection}{Apports appliqués}{87}{section*.34}%
+\contentsline {subsection}{Limites}{90}{section*.35}%
 \contentsline {subsubsection}{Commentaires divers}{91}{section*.36}%
 \contentsline {subsection}{Perspectives futures}{92}{section*.37}%
 \contentsline {section}{Bibliographie}{93}{section*.38}%
