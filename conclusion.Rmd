@@ -1,36 +1,46 @@
 ---
 title: ''
 output: pdf_document
+
+header-includes:
+  - \usepackage{xcolor}
+  - \usepackage{bm}
 ---
 
 # Discussion générale et conclusion
 
-## Apport général, Apports théoriques et appliqués
+A travers cette thèse, nos objectifs de départ étaient :  
+(1)	D’identifier des manquements dans les pratiques actuelles des chercheurs, via des analyses d’articles publiés dans des revues de psychologie ;  
+(2)	De réaliser des simulations, en vue de montrer l’impact de ces pratiques ;  
+(3)	De proposer des recommandations pour les améliorer.  
 
-A travers cette thèse, nous avions des objectifs de départ:      
-(1) Identifier un manquement dans les pratiques actuelles des chercheurs, grâce à des revues de la littérature (par nous ou par d’autres);  
-(2) Réaliser des simulations en vue de montrer l'impact réel et concrêt de ces pratiques;    
-(3) Proposer des recommandations, en vue d'améliorer ces pratiques.
+\color{blue} Nous nous sommes d’abord focalisés sur l'usage des tests $t$ de Student et $F$ de Fisher, soit des tests de comparaison de moyennes dont les résultats ne sont généralement fiables que si certaines conditions d’application sont respectées, ces dernières étant rarement rencontrées en situations réelles. Après avoir expliqué théoriquement en quoi ces conditions sont peu réalistes, nous avons réalisé des simulations Monte Carlo en vue de montrer les conséquences réelles de leurs violations et de comparer les résultats des tests $t$ de Student et $F$ de Fisher à ceux des tests de Welch sous diverses conditions. Il est essentiellement ressorti de ces simulations que c’est une violation de la condition d’homogénéité des variances qui affecte le plus la fiabilité de leurs résultats (sur le long-terme, les proportions de faux positifs et de faux négatifs de ces tests sont altérées *réfléchir pour être sûre que je peux dire ça*, contrairement à celles des tests de Welch, qui ne dépendent pas de la condition d’homogénéité des variances). Lorsqu’on ne compare que deux groupes (chapitre 2), le test $t$ de Student ne souffrira pas d’une violation de la condition d’homogénéité des variances lorsque les deux échantillons extraits sont de même taille. Par contre, lorsqu’on compare plus de deux groupes (chapitre 3), les résultats du test $F$ de Fisher seront toujours affectés par l’hétérogénéité des variances. On conseille dès lors souvent aux chercheurs de réaliser d’abord le test de Levene (un test d’homogénéité des variances) et de remplacer les tests $t$ de Student et $F$ de Fisher par un test de Welch lorsque le test de Levene amène à rejeter l’hypothèse d’égalité des variances. A travers les chapitre 2 et 3 de cette thèse, nous avons argumenté qu’il est préférable d’utiliser systématiquement les tests de Welch, dans la mesure où il est très difficile (voire impossible) de montrer efficacement l'absence d'hétérogénéité des variances, cette dernière étant plus la norme que l’exception et que les tests de Welch sont pratiquement aussi puissants que les tests $t$ de Student et $F$ de Fisher lorsque la condition d’homogénéité des variances est respectée. 
 
-Nous nous sommes d'abord focalisés sur l'usage fréquent de tests statistiques dont les résultats ne sont généralement fiables que si certaines conditions d'application peu réalistes sont respectées (voir les chapitres 2, 3 et 4). Nous nous sommes ensuite intéressés à la définition courante des hypothèses nulles comme hypothèse d'absence d'effet ainsi qu'à un outil qui permet, au contraire, d'étudier des hyopthèses nulles de *présence* d'effet (voir le chapitre 5).
+Ensuite, nous nous sommes intéressés à la question de la taille d'effet. Ecrire un petit paragraphe là dessus.
 
-Afin d'aider les chercheurs à prendre conscience des conséquences néfastes de pratiques couramment mises en oeuvre, conformément à ce que nous avions annoncé en introduction, nous avons fourni des exemples concrets et issus de la psychologie expliquant en quoi la condition d’homoscédasticité n’était pas réaliste et les conséquences réelles de ces violations.
+\color{brown} Enfin, écrire sur les tests d'équivalence. *Nous nous sommes ensuite intéressés à la définition courante des hypothèses nulles comme hypothèse d'absence d'effet ainsi qu'à un outil qui permet, au contraire, d'étudier des hyopthèses nulles de présence d'effet (voir le chapitre 5).*
 
-Nous avons tout mis en oeuvre pour assurer le plus de transparence possible de notre recherche ainsi qu'une grande accessibilité pour tous les chercheurs en psychologie, afin d'assurer la diffusion la plus large possible de notre message et permettre d'aider les chercheurs à **comprendre l'impact de certaines pratiques qu'ils mettent fréquemment en oeuvre**. 
-- D'abord, à partir de l'article présenté au sein du chapitre 3, nous avons travaillé conjointement avec Rstudio et Github. Grâce à l'historique de Github, il est possible de voir l'évolution continue des différents articles écrits;  
-- Ensuite, nous avons systématiquement diffusé des preprints de nos articles, avant même qu'ils ne soient acceptés pour publication;   
-- Enfin, nous avons choisi des revues de publication Open Access (l’International Review of Social Psychology et MetaPsychology).
-*en toucher un mot, MetaPsychology, même le reviewing est entièrement transparent !*
+## Apports théoriques et appliqués
 
-Les preprint, en particulier, se sont avérés particulièrement utiles puisqu'ils nous ont permis d'améliorer la qualité des articles, grâce à des échanges enrichissants avec d’éminents chercheurs (exemple du dernier article qui a été très longuement commenté par Cumming). 
+### Apports théoriques
 
-### Apports théoriques  
-En termes d’apport théorique : beaucoup avant nous ont tenté de faire passer ce message. L’idée de remplacer le test $t$ de Student par le test de Welch n’est pas récente. Mais les moyens informatiques actuels nous ont permis la réalisation de simulations intensives, avec 1,000,000 d’itérations pour un très grand nombre de scénarios qui varient en fonction du niveau d’hétéroscédasticité et du degré d’écart aux conditions d’application. Mais attention, il y a encore des améliorations possibles (voir section « recherches futures »). En clair, nous avons répondu à la problématique de départ en remettant à jour des questionnements qui ont déjà été faits mais avec des simulations bcp plus poussées car pas possible avant). Je l’ai fait pour le Welch, pour l’ANOVA, pour les tailles d’effets.
+\color{blue} Afin d'aider les chercheurs à prendre conscience des conséquences néfastes de l'usage récurrent des tests $t$ de Student, $F$ de Fisher et du $d$ de Cohen, conformément à ce que nous avions annoncé en introduction, nous avons fourni des exemples concrets et issus de la psychologie expliquant en quoi la condition d’homoscédasticité n’était pas réaliste et les conséquences réelles de ces violations. 
 
+*[Un consultant doit pouvoir parler de langage des psycs, c'est-à-dire décrire et expliquer les méthodes requises d'une manière compréhensible pour les clients [@golinski_expanding_2009]. Est-ce bien de demander à des mathématiciens/Statisticiens d'enseigner les stat aux psy's? Par forcément, car un psychologue spécialisé en méthodo quanti sera plsu à m^mee de comprendre les procédures et méthodes requises par les psys (ex. de la question de la taille d'effet qui n'intéresse pas vraiment les statisticiens; @golinski_expanding_2009)]*. 
+
+Beaucoup avant nous ont tenté de faire passer ce message. L’idée de remplacer le test $t$ de Student par le test de Welch n’est pas récente. Mais les moyens informatiques actuels nous ont permis la réalisation de simulations intensives, avec 1,000,000 d’itérations pour un très grand nombre de scénarios qui varient en fonction du niveau d’hétéroscédasticité et du degré d’écart aux conditions d’application. En clair, nous avons remis au goût du jour une problématique ancienne, mais avec des simulations bcp plus poussées car pas possible avant. 
+
+De plus, nous avons tout mis en oeuvre pour rendre notre recherche la plus tranparente possible et pour assurer une grande accessibilité pour tous les chercheurs en psychologie. 
+- Premièrement, nous avons systématiquement diffusé des preprint, chaque fois que nous avons soumis un article. *Cette pratique a eu des retombées positives qui ont dépassé nos attentes, grâce à la collaborations d'éminents chercheurs (exemple du dernier article qui a été très longuement commenté par Cumming), *  
+- Deuxièmement, nous avons systématiquement privilégié des revues Open Access (*International Review of Social Psychology*, *British Journal of Mathematical and Statistical Science*, *AMPPS*).   
+- Troisièmement, nous avons utilisé Github.  
 Nous semblons avoir relevé le défi de la diffusion et de l'impact théorique puisque nos articles ont un taux de citation élevé. Notre article sur le test $t$ de Welch (chapitre 2) a à ce jour été cité 387 fois. Notre article sur l'ANOVA de Welch (chapitre 3) a déjà été cité 61 fois et le preprint sur les mesures de taille d'effet a été source d'intérêt pour plusieurs chercheurs.
 
+\color{brown} Bien que nos trois premiers articles soulignent des questions importantes, toutes les recommandations que nous y faisons permettent d'améliorer la fiabilité des résultats en cas de rejet de l'hypothèse nulle, mais n'apportent aucune solution pour démontrer l'*absence* d'effet. Contrairement au TOST. Ce test commence à gagner en popularité, notamment grâce aux travaux de Lakens. Même si ce test est simple et efficace, il est important de continuer à le comparer à de nouvelles techniques existantes. C'est ce que nous avons fait à travers notre article comparant le TOST et le SGPV *relire article pour écrire un petit paragraphe là-dessus). A nouveau, nous avons attaché beaucoup d'importance à la transparence et à l'accessibilité de ce travail. Nous avons cette fois encore réalisé un preprint et régulièrement mis à jour un lien Github permettant d'appréhender l'évolution de l'étude. L'article a été soumis dans la revue "MetaPsychology". Dans cette revue, même le processus re Reviewing est transparent!*
+
 ### Apports appliqués
-Bien qu'il est très important d'aider les chercheurs à comprendre, théoriquement, en quoi les pratiques actuelles sont problématiques, il nous semble plus important encore de leur fournir des outils, afin de leur permettre de modifier ces pratiques. Or, un article méthodologique à lui seul suffit rarement à cela (d'après @mills_quantitative_2010, les chercheurs appliqués citent très peu les articles méthodologiques dans leur référence pour justifier leurs choix, ce qui pourrait être un signal du fait qu'ils basent peu leurs décisions sur ces articles). 
+
+\color{blue} Bien qu'il est très important d'aider les chercheurs à comprendre, théoriquement, en quoi les pratiques actuelles sont problématiques, il nous semble plus important encore de leur fournir des outils, afin de leur permettre de modifier ces pratiques. Or, un article méthodologique à lui seul suffit rarement à cela (d'après @mills_quantitative_2010, les chercheurs appliqués citent très peu les articles méthodologiques dans leur référence pour justifier leurs choix, ce qui pourrait être un signal du fait qu'ils basent peu leurs décisions sur ces articles). 
 
 Dans l'autre sens, on constate que les articles méthodos sont généralement peu cités, et ils le sont encore 3 fois moins par les chercheurs appliqués que par les autres méthodologistes [@mills_quantitative_2010, p.56]. On est en droit de questionner l'impact réel des publications méthodologiques, pour 2 raisons, d'après @mills_quantitative_2010:  
 (1) Les chercheurs appliqués sont noyés sous les articles dans leur domaine d'expertise si bien que cela limite le temps dont ils disposent pour se consacrer aux articles méthodologiques;   
@@ -39,6 +49,10 @@ Dans l'autre sens, on constate que les articles méthodos sont généralement pe
 Par contre, les articles méthodos peuvent servir à la créations d'outils/logiciels qui seront très utiles aux chercheurs. *Retravailler cette partie sur l'importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes*:
 
 On sait que les chercheurs tendent à privilégier les méthodes qui sont proposées par défaut dans des logiciels de clique bouton (comme SPSS). C'est en tout cas ce que dit @counsell_reporting_2017 dans le contexte de la gestion des données manquantes (mais je crois que c'est vrai pour tout). Une manière d'améliorer les pratiques serait d'améliorer les options proposées par défaut dans les logiciels de clic-bouton. C'est à ce genre de choses que j'aspire à travers mes articles. 
+
+*[ Par manque de connaissances, les chercheurs se contentent souvent des informations fournies dans les logiciels clic/bouton. "for example, if software does not report a CI on Cohen's $d$, it is unlikely that a researcher will calculate one his or herself" (@counsell_reporting_2017). Une chance qu'on a, c'est Jamovi (regarder si Jamovi me cite)]*
+
+*[Anecdote, pour quand je parlerai des logiciels et de leur intérêt: les chercheurs font souvent l'erreur de croire qu'il faut vérifier la normalité de la VD en faisant une régression. Dans SPSS, il est assez complexe de le faire car il faut d'abord calculer les résidus, ce qui implique de comprendre que les tests t et ANOVA sont des cas particuliers de régression, puis ensuite a posteriori représenter graphiquement les résidus. C'est chronophage et complexe. Dans Jamovi, par contre, la vérification de la normalité des résidus est automatiquement réalisée lorsqu'on fait un test t. Le rôle des méthodologistes, à mon sens, est de prémacher le travail, pour permettre à d'autres de créer des outils conçus pour améliorer les pratiques de recherche. à partir du moment où c'est automatiquement fait correctement, il devient moins problématique que les psychologues maîtrisent le détail. Débarassés de ces questions, ils pourront peut-être alors plus se focaliser sur l'important pour mieux comprendre et interpréter les résultats de leur tests: càd comprendre la distribution d'échantillonnage, dont pratiquement tt découle.]*
 
 Malgré tout, un logiciel ne fait pas tout et après avoir utilisé le test adéquat, il est important d'être capable de l'interpréter correctement. Les tests font appel à des notions faussement simples telles que les p-valeurs et les distributions d'échantillonnage. A mon sens, le seul moyen d'enseigner correctement ces notions, c'est à travers des simulations. 
 
@@ -59,60 +73,30 @@ Par exemple, on a pu montrer effectivement que conformément à ce que certains 
 
 Je peux aussi signaler que confirmer une hypothèse nulle, ce qui est important car il y a pas mal de domaines dans la psycho ou le but est de montrer les similitudes, surtout quand c’est mêlé à des questions sociétales (est-ce que les couples homosexuels sont aussi performants que les couples hétérosexuels ?)
 
-Limites
+## Limites
 
-En recherche, on apprend constamment de nos erreurs. Pour chaque article, j’ai pu identifier des éléments que je ne reproduirais plus à l’identique avec dû recul. Par exemple, dans l’article sur le test de Welch (le premier) j’aurais dû fragmenter. Commencer par faire des simultions avec des distributions identiques dans tous les groupes (car ça permet de moins bien visualiser l’effet de compensation, ex . quand asymétrie positive et négative en mm tps). 
-J’ai également identifié des erreurs conceptuelles dans plusieurs articles : 
-## Concernant le premier article sur le test $t$ de Welch (vérifier mais je crois que ça s’applique aussi au 2ème article en fait ces erreurs)
-Nous spécifions à plusieurs reprises que le test $t$ de Yuen contrôle moins bien le taux d'erreur de type $I$ que le test $t$ de Welch:  
+En recherche, on apprend constamment de nos erreurs. Pour chaque article, j’ai pu identifier des éléments que je ne reproduirais plus à l’identique avec dû recul. Par exemple, dans l’article sur le test de Welch (le premier) j’aurais dû fragmenter. Commencer par faire des simultions avec des distributions identiques dans tous les groupes (car ça permet de moins bien visualiser l’effet de compensation, ex . quand asymétrie positive et négative en mm tps). J’ai également identifié des erreurs dans certains articles 
+
+Concernant le premier article sur le test $t$ de Welch (vérifier mais je crois que ça s’applique aussi au 2ème article en fait ces erreurs) Nous spécifions à plusieurs reprises que le test $t$ de Yuen contrôle moins bien le taux d'erreur de type $I$ que le test $t$ de Welch:  
 - p.14: *"Yuen's $t$-test is not a good unconditional alternative because we observe an unacceptable departure from the nominal alpha risk of 5 percent for several shapes of distributions [...] particularly when we are studying asymmetric distributions of unequal shapes"*;  
 - p.15: *"As it is explained in the additional file, Yuen's $t$-test is not a better test than Welch's $t$-test, since it often suffers high departure from the alpha risk of 5 percent"*.   
 
-Ceci n'est pas exact d'un point de vue purement statistique. A travers le test de Yuen, on ne compare plus les moyennes de chaque groupe, mais les moyennes *trimmées* (soit les moyennes calculées sur les données après avoir écarté les 20$\%$ des scores les plus faibles ainsi que les 20$\%$ des scores les plus élevés). Or, à travers nos simulations, les scénarios créés en vue de tester le taux d'erreur de type $I$ (risque alpha) étaient systématiquement des scénarios dans lesquels les moyennes de chaque population étaient identiques. Lorsque la distribution d'une population est parfaitement symétrique, la moyenne et la moyenne trimmée seront identiques. Au contraire, lorsque la distribution d'une population est asymétrique, la moyenne et la moyenne trimmée diffèreront (la moyenne trimmée sera plus proche du mode de la distribution et donc, représentera mieux cette dernière).
-Notons malgré tout que d'un point de vue méthodologique, nous avons déjà relevé que la plupart du temps, les chercheurs définissent l'absence de différence entre les moyennes comme hypothèse nulle et nos simulations démontrent que dans ce contexte, le test de Yuen n'est pas approprié. En conclusion, le test de Yuen ne devrait être utilisé que par des chercheurs ayant pleinement conscience du fait que les tests $t$ de Student et de Welch ne reposent pas sur la même hypothèse que le test $t$ de Yuen.
+Ceci n'est pas exact d'un point de vue purement statistique. A travers le test de Yuen, on ne compare plus les moyennes de chaque groupe, mais les moyennes *trimmées* (soit les moyennes calculées sur les données après avoir écarté les 20$\%$ des scores les plus faibles ainsi que les 20$\%$ des scores les plus élevés). Or, à travers nos simulations, les scénarios créés en vue de tester le taux d'erreur de type $I$ (risque alpha) étaient systématiquement des scénarios dans lesquels les moyennes de chaque population étaient identiques. Lorsque la distribution d'une population est parfaitement symétrique, la moyenne et la moyenne trimmée seront identiques. Au contraire, lorsque la distribution d'une population est asymétrique, la moyenne et la moyenne trimmée diffèreront (la moyenne trimmée sera plus proche du mode de la distribution et donc, représentera mieux cette dernière). Notons malgré tout que d'un point de vue méthodologique, nous avons déjà relevé que la plupart du temps, les chercheurs définissent l'absence de différence entre les moyennes comme hypothèse nulle et nos simulations démontrent que dans ce contexte, le test de Yuen n'est pas approprié. En conclusion, le test de Yuen ne devrait être utilisé que par des chercheurs ayant pleinement conscience du fait que les tests $t$ de Student et de Welch ne reposent pas sur la même hypothèse que le test $t$ de Yuen.
+
+*Revoir si je parle du fait que le kurtosis impacte la puissance du test de Welch dans l'article en tant que tel (je le fais en tout cas dans les annexes). Expliquer que j'avais fait une erreur en confondant kurtosis et sd (j'ai cru à tort que la mesure de dispersion de la double expo était le sd alors qu'en fait non). Ca m'a fait prendre conscience qu'il est SUPER important de toujours demander, dans les simulations, le calcul des descriptives, afin de vérifier que tout s'est bien passé (si la variance moyenne n'est pas égale à la variable théorique, par exemple, en tt cas qd la condition de normalité est ok, c'est qu'il y a eu un couac). En plus de permettre un contrôle des erreurs, ça peut être utile comme aide à l'interprétation. A partir de l'article 2, je l'ai systématiquement fait. Et pour me "rattraper", j'ai expliqué en détail la différence entre le kurtosis et le SD dans le 2ème article.*
+
 ### Commentaires divers
+
+Dans les deux articles sur le Welch: (même si les pages relevées concerne le test $t$, c vrai aussi pour le suivant):
 - p.9: nous décrivons 3 arguments en défaveur de l'usage du test de Levene. En troisième argument, nous mentionnons le manque de puissance du test de Levenne. Nous ne mentionnons cependant pas le fait qu'utiliser le test $t$ de Student lorsque le test de Levene est non significatif revient à confondre le non rejet de l'hypothèse d'égalité des variances avec l'acceptation de l'hypothèse d'égalité des variances. Au sein du chapitre 5 sur les tests d'équivalence, il est démontré par simulation que même lorsqu'on s'assure d'avoir une puissance suffisante pour détecter une différence attendue, la stratégie qui consiste à interpréter le non rejet de l'hypothèse nulle comme un soutien en faveur de l'hypothèse nulle n'est pas appropriée.  
 - p.12: nous mentionnons ceci : *"When both variances and sample sizes are the same in each independent group, the $t$-values, degrees of freedom, and the $p$-values in Student's $t$-test and Welch's $t$-test are the same (see Table 1)*. Avec du recul, cette phrase peut porter à confusion. Par "variances" il faut comprendre "*sample* variances" ou "variances *estimates*". Nous ne sommes donc *pas* en train de dire que les deux statistiques, ainsi que les degrés de liberté et $p$-valeurs qui leur sont associées seront identiques lorsque la condition d'homogénéité des variances sera respectée au niveau de la population, mais bien lorsque les estimations de chaque variance de population seront identiques.
-## Concernant le deuxième article sur le test $t$ de Welch
-Perspectives futures
+
+Limites dans le chapitre 4, on compare essentiellement les estimateurs sur base de leurs propriétés inférentielles. Nous avons tenté de prendre la dimension interprétative en compte, mais c'est parfois très compliqué. Cette dimension est d'ailleurs rarement prises en compte par les chercheurs. On constate que même si les mesures de taille d'effet sont de plus en plus fréquemment reportées, elles ne sont que rarement interprétées et incluses dans les discussions [@funder_evaluating_2019;@thompson_statistical_1997] par les chercheurs. Dans un tel contexte, il est particulièrement important d'ouvrir les débats sur cette question.
+
+## Perspectives futures
 
 -	Je ne travaille pas avec des distributions discrètes.
 -	On n’a pe pas assez exploré le bootstrapping (on s’est contenté de croire l’avis de machin qui dit que ça marche pas bien) mais on pourrait requestioner cela et dans les recherches futures le ré-investiguer la comparaison du test de welch classique avec sa version boostrappé.
 
 Take home message :
 Ce qu’il faut retenir de ma thèse : les recommandations en qlq points.  Parler ici du fait que j’ai créé des packages et les indiquer : donner le lien github vers ces packages (même si déjà donné ailleurs). 
-
-Titre de la thèse : 
-« Méthode en psychologie : Outils et recommandations pour comprendre et gérer les hypothèses, les CA des tests et les tailles d’effets ». 
-
-
-
-
-
-
-
-### Comment écrire/transmettre l'info aux psys
-Un consultant doit pouvoir parler de langage des psycs, c'est-à-dire décrire et expliquer les méthodes requises d'une manière compréhensible pour les clients [@golinski_expanding_2009]. Est-ce bien de demander à des mathématiciens/Statisticiens d'enseigner les stat aux psy's? Par forcément, car un psychologue spécialisé en méthodo quanti sera plsu à m^mee de comprendre les procédures et méthodes requises par les psys (ex. de la question de la taille d'effet qui n'intéresse pas vraiment les statisticiens; @golinski_expanding_2009). 
-
-### Recommandations générales
-
-@mills_quantitative_2010:  
-- au moins un reviewer compétant pour analyser le caractère approprié des méthodes stat  
-- que les éditeurs/reviewers encouragent l'usage d'article de méthodo dans leur recherche
---> interesting, mais réaliste? La proportion de méthodologistes parmis les psychologues n'est pe pas assez élevée... Ou alors il faut vraiment de l'interdisciplinarité!
-
-2) Par manque de connaissances, les chercheurs se contentent souvent des informations fournies dans les logiciels clic/bouton. *for example, if software does not report a CI on Cohen's $d$, it is unlikely that a researcher will calculate one his or herself* (@counsell_reporting_2017). *Une chance qu'on a, c'est Jamovi* (regarder si Jamovi me cite)
-
-
-Anecdote, pour quand je parlerai des logiciels et de leur intérêt: les chercheurs font souvent l'erreur de croire qu'il faut vérifier la normalité de la VD en faisant une régression. Dans SPSS, il est assez complexe de le faire car il faut d'abord calculer les résidus, ce qui implique de comprendre que les tests t et ANOVA sont des cas particuliers de régression, puis ensuite a posteriori représenter graphiquement les résidus. C'est chronophage et complexe. Dans Jamovi, par contre, la vérification de la normalité des résidus est automatiquement réalisée lorsqu'on fait un test t. Le rôle des méthodologistes, à mon sens, est de prémacher le travail, pour permettre à d'autres de créer des outils conçus pour améliorer les pratiques de recherche. à partir du moment où c'est automatiquement fait correctement, il devient moins problématique que les psychologues maîtrisent le détail. Débarassés de ces questions, ils pourront peut-être alors plus se focaliser sur l'important pour mieux comprendre et interpréter les résultats de leur tests: càd comprendre la distribution d'échantillonnage, dont pratiquement tt découle.
-
-### Limites
-
-#### pour le chapitre 4
-
-Dans le chapitre 4, on compare essentiellement les estimateurs sur base de leurs propriétés inférentielles. Nous avons tenté de prendre la dimension interprétative en compte, mais c'est parfois très compliqué. Cette dimension est d'ailleurs rarement prises en compte par les chercheurs. On constate que même si les mesures de taille d'effet sont de plus en plus fréquemment reportées, elles ne sont que rarement interprétées et incluses dans les discussions [@funder_evaluating_2019;@thompson_statistical_1997] par les chercheurs. Dans un tel contexte, il est particulièrement important d'ouvrir les débats sur cette question.
-
-#### pour le chapitre 5
-
-Déterminer un effet pratiquement significatif reste super compliqué. C'est un fait admis même par les chercheurs qui prônent ces méthodes. "With respect to determining the practical significance of results, Cohen's definitions of small, medium , and large effects represent a good beginning. However, much more systematic research is needed to extend his work... If practical significance is to be a useful concept, its determination must not be ritualized" [@fraas_testing_2000]. Note: je pense que je pourrais parler là des bornes plus normatives que celles de Cohen (cf document word).
-
