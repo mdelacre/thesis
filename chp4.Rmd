@@ -9,7 +9,7 @@ header-includes:
   - \usepackage{float}
   - \usepackage{sectsty}
 ---
-# Chapitre 4: utiliser le $\bf \emph g^*_s$ de Hedges basé sur l'écart-type non poolé 
+# Chapitre 4: utiliser le $\bf \emph g^*_s$ de Hedges basé sur l'écart-type non poolé ^[Dans cet article, on définit le $SD$-ratio comme étant $\sigma_1/\sigma_2$ alors que dans l'article présenté au chapitre 2, nous avions défini le $SD$-ratio comme étant $\sigma_2/\sigma_1$. Par souci de cohérence, ce détail sera modifié dans la prochaine version de l'article.]
 ```{r setup, include = FALSE}
 library("papaja")
 library("knitr")

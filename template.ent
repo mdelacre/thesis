@@ -1,4 +1,4 @@
-\@doanenote {31}
+\@doanenote {32}
 macro:->Dans
 ce
 cas,
@@ -34,7 +34,7 @@ d'indépendance
 des
 résidus.
 \@endanenote 
-\@doanenote {32}
+\@doanenote {33}
 macro:->Comme
 expliqué
 en
@@ -117,4 +117,56 @@ la
 condition
 de
 normalité.
+\@endanenote 
+\@doanenote {34}
+macro:->L'ANOVA
+$F$
+de
+Fisher
+peut
+être
+utilisée
+lorsqu'on
+compare
+deux
+ou
+plus
+de
+deux
+échantillons
+indépendants
+sur
+base
+de
+leur
+moyenne.
+Lorsqu'on
+compare
+exactement
+deux
+groupes,
+le
+test
+$t$
+de
+Student
+et
+l'ANOVA
+$F$
+de
+Fisher
+sont
+strictement
+équivalents.
+En
+effet,
+ils
+entretiennent
+la
+relation
+mathématique
+suivante:
+$F(1,x)
+=
+t^2(x)$.
 \@endanenote 
