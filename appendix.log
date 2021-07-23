@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.15)  15 JUL 2021 13:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.15)  23 JUL 2021 11:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -491,123 +491,191 @@ LaTeX Info: Redefining \nameref on input line 72.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
-6.
+7.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
-6.
+7.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-86.
+87.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-86.
+87.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 86.
+(Font)              <10> on input line 87.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 86.
+(Font)              <7> on input line 87.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 86.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
+(Font)              <5> on input line 87.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
 
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
 
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-25.
+28.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
 
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
-x.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 242--245
+x.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 176--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--248
+Underfull \hbox (badness 10000) in paragraph at lines 179--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--251
+Underfull \hbox (badness 10000) in paragraph at lines 182--185
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--253
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--257
+Underfull \hbox (badness 10000) in paragraph at lines 187--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--261
+Underfull \hbox (badness 10000) in paragraph at lines 191--195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--263
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
 
  []
 
-[3]
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--201
+
+ []
+
+[2]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 274.
+(Font)              <12> on input line 211.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 274.
+(Font)              <8> on input line 211.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 274.
+(Font)              <6> on input line 211.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/Cummingmail1.png, id=81, 1866.22218pt x 2640.86626pt>
+ng/Cummingmail1.png, id=68, 1866.22218pt x 2640.86626pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/Cummingmail1.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
 umming/Cummingmail1.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 4/Echanges avec Cumming/Cummingmail1.png  used on input line 282.
+re 4/Echanges avec Cumming/Cummingmail1.png  used on input line 227.
 (pdftex.def)             Requested size: 459.63469pt x 650.42294pt.
+[3] [4 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges ave
+c Cumming/Cummingmail1.png>]
 
-LaTeX Warning: Float too large for page by 23.93736pt on input line 287.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 251.
 
+<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
+ng/printscreen.png, id=83, 252.44313pt x 112.42pt>
+File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
+Cumming/printscreen.png Graphic file (type png)
+<use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
+umming/printscreen.png>
+Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
+re 4/Echanges avec Cumming/printscreen.png  used on input line 282.
+(pdftex.def)             Requested size: 252.44635pt x 112.42143pt.
+<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
+ng/printscreen2.png, id=84, 240.39813pt x 135.00438pt>
+File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
+Cumming/printscreen2.png Graphic file (type png)
+<use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
+umming/printscreen2.png>
+Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
+re 4/Echanges avec Cumming/printscreen2.png  used on input line 299.
+(pdftex.def)             Requested size: 240.4012pt x 135.00609pt.
+[5 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cu
+mming/printscreen.png>] [6 <c:/Users/Admin/Documents/Github projects/thesis/Cha
+pitre 4/Echanges avec Cumming/printscreen2.png>]
+<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
+ng/printscreen3.png, id=99, 280.54813pt x 221.82875pt>
+File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
+Cumming/printscreen3.png Graphic file (type png)
+<use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
+umming/printscreen3.png>
+Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
+re 4/Echanges avec Cumming/printscreen3.png  used on input line 414.
+(pdftex.def)             Requested size: 280.54742pt x 221.82819pt.
+[7 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cu
+mming/printscreen3.png>]
+<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
+ng/printscreen4.png, id=108, 442.2924pt x 251.37915pt>
+File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
+Cumming/printscreen4.png Graphic file (type png)
+<use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
+umming/printscreen4.png>
+Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
+re 4/Echanges avec Cumming/printscreen4.png  used on input line 457.
+(pdftex.def)             Requested size: 442.29132pt x 251.37852pt.
+[8 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cu
+mming/printscreen4.png>] [9] [10]
+<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
+ng/printscreen5.png, id=123, 383.93437pt x 87.32625pt>
+File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
+Cumming/printscreen5.png Graphic file (type png)
+<use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
+umming/printscreen5.png>
+Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
+re 4/Echanges avec Cumming/printscreen5.png  used on input line 665.
+(pdftex.def)             Requested size: 383.95685pt x 87.33136pt.
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 314.
+Underfull \hbox (badness 10000) in paragraph at lines 685--702
+\T1/lmr/m/n/10 Supplemental$ / %$20Material$ / %$201 / Theoretical$ / %$20Varia
+nce$ / %$20of$ / %$20all$ / %$20estimators$ /
+ []
 
-[4] [5 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges ave
-c Cumming/Cummingmail1.png>] [6] (./appendix.aux)
+[11 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
+umming/printscreen5.png>] [12] [13]
+Overfull \hbox (160.98665pt too wide) in paragraph at lines 959--962
+[]\T1/lmr/m/n/10 It's nice to see a bunch of likes and retweets to the tweet ab
+out the blog post. [][See $[]$] 
+ []
+
+[14] [15] (./appendix.aux)
 Package rerunfilecheck Info: File `appendix.out' has not changed.
-(rerunfilecheck)             Checksum: AA6D64C725A7820CA2B9BEE895A3341D;4301.
+(rerunfilecheck)             Checksum: 523DB00EAC753837705CE3A129D8BF52;4054.
  ) 
 Here is how much of TeX's memory you used:
- 10274 strings out of 480502
- 152665 string characters out of 5898081
- 463318 words of memory out of 5000000
- 27735 multiletter control sequences out of 15000+600000
+ 10307 strings out of 480502
+ 155343 string characters out of 5898081
+ 459751 words of memory out of 5000000
+ 27755 multiletter control sequences out of 15000+600000
  480567 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,6n,66p,1172b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,66p,1169b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-math
 sy.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm
 -mathit.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/
-lm/lm-rm.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips
-/lm/lm-ts1.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvi
+lm/lm-ts1.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvip
+s/lm/lm-rm.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvi
 ps/lm/lm-ec.enc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
 public/lm/lmbsy10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/
 type1/public/lm/lmbsy7.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/f
@@ -624,10 +692,10 @@ min/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users
 Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
 ><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7
 .pfb>
-Output written on appendix.pdf (6 pages, 826135 bytes).
+Output written on appendix.pdf (15 pages, 1317468 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 238 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

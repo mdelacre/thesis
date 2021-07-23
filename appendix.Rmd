@@ -43,7 +43,7 @@ Par ailleurs, comme dans l'article précédent sur le test $t$ de Welch, on cons
 
 Enfin, dû à un manque de connaissance de Latex lors de mes premières tentatives d'écritures d'articles via Rmarkdown, certaines majuscules sont manquantes dans les références bibliographiques. S'assurer qu'une lettre apparaisse en majuscule, via latex, implique de l'entourer des symboles {}, ce qui n'a pas été fait. Par exemple, dans le titre de l'article de Tiku(1971), il aurait fallu indiquer "Power function of the {F}-test.." au lieu de "Power function of the F-test...". Cela ne serait pas arrivé, si j'avais utilisé un outil comme Zotero, afin d'exporter directement un fichier au format Bibtex (puisque via ces outils, ce genre de détail est automatiquement inclu), mais je n'ai découvert cette possibilité que récemment.
 
-### Faute(s) de frappe
+### Faute(s) de frappe et grammaire
 
 - p.18: "Although it is important to make sure ~~test~~ **that** assumptions are met";    
 - p.19: "... we think that a ~~first~~ realistic first step towards progress would be to get researchers...";   
@@ -53,6 +53,7 @@ Enfin, dû à un manque de connaissance de Latex lors de mes premières tentativ
 - p.22: "... negative pairings (the group with the ~~smallest~~ **largest** sample size is extracted from the population with the smallest $SD$);  
 - p.22: "the type I error rate of all test**s**";  
 - p.24: "... which is either more liberal or more conservative, depending on the $SDs$ and ~~$SD$~~ **sample sizes** pairing";  
+- p.24: "... ~~whatever~~ the correlation between the $SD$ and the mean **does not matter**";  
 
 \newpage
 
