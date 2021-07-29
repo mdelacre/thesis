@@ -24,10 +24,10 @@
 \contentsline {subsection}{Définir les bornes de la zone d'équivalence}{67}{section*.28}%
 \contentsline {subsection}{Comparaison du TOST et du SGPV}{71}{section*.29}%
 \contentsline {section}{Discussion générale et conclusion}{84}{section*.31}%
-\contentsline {subsection}{Apports théoriques et appliqués}{87}{section*.32}%
-\contentsline {subsubsection}{Apports théoriques}{87}{section*.33}%
-\contentsline {subsubsection}{Apports appliqués}{88}{section*.34}%
-\contentsline {subsection}{Limites}{91}{section*.35}%
+\contentsline {subsection}{Apports théoriques et appliqués}{86}{section*.32}%
+\contentsline {subsubsection}{Apports théoriques}{86}{section*.33}%
+\contentsline {subsubsection}{Apports appliqués}{87}{section*.34}%
+\contentsline {subsection}{Limites}{90}{section*.35}%
 \contentsline {subsubsection}{Commentaires divers}{92}{section*.36}%
 \contentsline {subsection}{Perspectives futures}{93}{section*.37}%
 \contentsline {section}{Bibliographie}{95}{section*.39}%
