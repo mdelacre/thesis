@@ -70,7 +70,7 @@ Pour finir, cet échange a donné lieu à un blog post disponible à l'adresse s
 
 ------------------------------------------------------------
 
-**Why Hedges’ $\bm{g_s^*}$ based on the non-pooled standard deviation should be reported with Welch’s $\bm{t}$-test**
+\color{black}**Why Hedges’ $\bm{g_s^*}$ based on the non-pooled standard deviation should be reported with Welch’s $\bm{t}$-test**
 
 \underline{https://psyarxiv.com/tu6mp/}
 
