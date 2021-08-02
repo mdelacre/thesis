@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.15)  2 AUG 2021 10:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.15)  2 AUG 2021 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1605,7 +1605,7 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 Here is how much of TeX's memory you used:
  14433 strings out of 480502
  252498 string characters out of 5898081
- 560763 words of memory out of 5000000
+ 560801 words of memory out of 5000000
  31406 multiletter control sequences out of 15000+600000
  563160 words of font info for 121 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1644,7 +1644,7 @@ ing/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Admin/AppData
 Data/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/Users/Admin
 /AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/Users/A
 dmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on template.pdf (132 pages, 9269142 bytes).
+Output written on template.pdf (132 pages, 9269087 bytes).
 PDF statistics:
  2259 PDF objects out of 2487 (max. 8388607)
  1500 compressed objects within 15 object streams
