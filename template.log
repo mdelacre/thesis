@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.15)  2 AUG 2021 11:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.15)  2 AUG 2021 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1431,127 +1431,127 @@ tre 5/Chapitre 5-11.png>] [82]) [83]
 \openout3 = `template.ent'.
 
 [84] [85] [86] [87]
-Underfull \hbox (badness 1796) in paragraph at lines 2386--2402
+Underfull \hbox (badness 1796) in paragraph at lines 2397--2413
 []\T1/lmr/m/n/12 Bien que nos trois premiers articles soulignent des questions 
 importantes, toutes les
  []
 
-[88] [89] [90] [91] [92] [93] (./template.ent [94]) [95] [96] [97] [98] [99] [1
+[88] [89] [90] [91] [92] [93] [94] (./template.ent) [95] [96] [97] [98] [99] [1
 00] [101] [102] [103] [104] [105]
-Underfull \hbox (badness 2818) in paragraph at lines 3198--3209
+Underfull \hbox (badness 2818) in paragraph at lines 3220--3231
 \T1/lmr/m/n/12 d'articles via Rmarkdown, certaines majuscules sont manquantes d
 ans les références
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3217--3220
+Underfull \hbox (badness 10000) in paragraph at lines 3239--3242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3220--3223
+Underfull \hbox (badness 10000) in paragraph at lines 3242--3245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3223--3226
+Underfull \hbox (badness 10000) in paragraph at lines 3245--3248
 
  []
 
 [106]
-Underfull \hbox (badness 10000) in paragraph at lines 3226--3228
+Underfull \hbox (badness 10000) in paragraph at lines 3248--3250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3228--3232
+Underfull \hbox (badness 10000) in paragraph at lines 3250--3254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3232--3236
+Underfull \hbox (badness 10000) in paragraph at lines 3254--3258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3236--3238
+Underfull \hbox (badness 10000) in paragraph at lines 3258--3260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3238--3242
+Underfull \hbox (badness 10000) in paragraph at lines 3260--3264
 
  []
 
 [107]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 3252.
+(Font)              <14.4> on input line 3274.
 
-Underfull \hbox (badness 1275) in paragraph at lines 3264--3267
+Underfull \hbox (badness 1275) in paragraph at lines 3286--3289
 []\T1/lmr/m/n/12 Pour finir, cet échange a donné lieu à un blog post disponible
  à l'adresse suivante:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3264--3267
+Underfull \hbox (badness 10000) in paragraph at lines 3286--3289
 []$\T1/lmr/m/n/12 https : / / thenewstatistics . com / itns / 2021 / 06 / 17 / 
 which -[] standardised -[] e^^[ect -[] size -[] measure -[] is -[]
  []
 
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/Cummingmail1.png, id=1930, 1866.22218pt x 2640.86626pt>
+ng/Cummingmail1.png, id=1928, 1866.22218pt x 2640.86626pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/Cummingmail1.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
 umming/Cummingmail1.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 4/Echanges avec Cumming/Cummingmail1.png  used on input line 3268.
+re 4/Echanges avec Cumming/Cummingmail1.png  used on input line 3290.
 (pdftex.def)             Requested size: 481.36205pt x 681.16904pt.
 [108] [109 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges
  avec Cumming/Cummingmail1.png>]
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 3292.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 3314.
 
 
 [110]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/printscreen.png, id=1949, 252.44313pt x 112.42pt>
+ng/printscreen.png, id=1947, 252.44313pt x 112.42pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
 umming/printscreen.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 4/Echanges avec Cumming/printscreen.png  used on input line 3323.
+re 4/Echanges avec Cumming/printscreen.png  used on input line 3345.
 (pdftex.def)             Requested size: 252.44635pt x 112.42143pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/printscreen2.png, id=1950, 240.39813pt x 135.00438pt>
+ng/printscreen2.png, id=1948, 240.39813pt x 135.00438pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen2.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
 umming/printscreen2.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 4/Echanges avec Cumming/printscreen2.png  used on input line 3340.
+re 4/Echanges avec Cumming/printscreen2.png  used on input line 3362.
 (pdftex.def)             Requested size: 240.4012pt x 135.00609pt.
 [111 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen.png> <c:/Users/Admin/Documents/Github projects/thesis/Chapi
 tre 4/Echanges avec Cumming/printscreen2.png>] [112]
-Overfull \hbox (24.5078pt too wide) in paragraph at lines 3406--3414
+Overfull \hbox (24.5078pt too wide) in paragraph at lines 3428--3436
 \T1/lmr/m/n/12 You will find them in the following folder: ``Scripts outputs/Qu
 ality of ES measures/Graphs/Unbiased
  []
 
 [113]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/printscreen3.png, id=1967, 280.54813pt x 221.82875pt>
+ng/printscreen3.png, id=1965, 280.54813pt x 221.82875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen3.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
 umming/printscreen3.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 4/Echanges avec Cumming/printscreen3.png  used on input line 3455.
+re 4/Echanges avec Cumming/printscreen3.png  used on input line 3477.
 (pdftex.def)             Requested size: 280.54742pt x 221.82819pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3467--3473
+Underfull \hbox (badness 10000) in paragraph at lines 3489--3495
 \T1/lmr/m/n/12 in CI.pdf, here: []$https : / / github . com / mdelacre / E^^[ec
 t -[] sizes / tree / master / Supplemental %
  []
@@ -1559,34 +1559,34 @@ t -[] sizes / tree / master / Supplemental %
 [114 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen3.png>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/printscreen4.png, id=1975, 442.2924pt x 251.37915pt>
+ng/printscreen4.png, id=1973, 442.2924pt x 251.37915pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen4.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
 umming/printscreen4.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 4/Echanges avec Cumming/printscreen4.png  used on input line 3498.
+re 4/Echanges avec Cumming/printscreen4.png  used on input line 3520.
 (pdftex.def)             Requested size: 442.29132pt x 251.37852pt.
 [115] [116 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges
  avec Cumming/printscreen4.png>] [117] [118] [119]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/printscreen5.png, id=2000, 383.93437pt x 87.32625pt>
+ng/printscreen5.png, id=1998, 383.93437pt x 87.32625pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen5.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
 umming/printscreen5.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 4/Echanges avec Cumming/printscreen5.png  used on input line 3706.
+re 4/Echanges avec Cumming/printscreen5.png  used on input line 3728.
 (pdftex.def)             Requested size: 383.95685pt x 87.33136pt.
 [120 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen5.png>]
-Underfull \hbox (badness 2671) in paragraph at lines 3726--3743
+Underfull \hbox (badness 2671) in paragraph at lines 3748--3765
 \T1/lmr/m/n/12 here: []$https : / / github . com / mdelacre / E^^[ect -[] sizes
  / blob / master / Supplemental$ / %$20Material$ /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3726--3743
+Underfull \hbox (badness 10000) in paragraph at lines 3748--3765
 \T1/lmr/m/n/12 %$201 / Theoretical$ / %$20Variance$ / %$20of$ / %$20all$ / %$20
 estimators$ / %$20as$ / %$20a$ /
  []
@@ -1595,7 +1595,7 @@ estimators$ / %$20as$ / %$20a$ /
 AED: lastpage setting LastPage
 [128] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 8902AFF7429CA95431B53679DD85E8A2;1974.
+(rerunfilecheck)             Checksum: B2AF1FB40E17C47FCCE3E0222864823C;1974.
  )
 (\end occurred inside a group at level 2)
 
@@ -1603,13 +1603,13 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 ### semi simple group (level 1) entered at line 80 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14433 strings out of 480502
- 252498 string characters out of 5898081
- 560801 words of memory out of 5000000
- 31406 multiletter control sequences out of 15000+600000
+ 14430 strings out of 480502
+ 252445 string characters out of 5898081
+ 560661 words of memory out of 5000000
+ 31405 multiletter control sequences out of 15000+600000
  563160 words of font info for 121 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,10n,66p,1069b,3521s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,10n,66p,1069b,3519s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dv
 ips/lm/lm-mathsy.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/e
 nc/dvips/lm/lm-mathit.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fo
@@ -1644,10 +1644,10 @@ ing/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Admin/AppData
 Data/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/Users/Admin
 /AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/Users/A
 dmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on template.pdf (132 pages, 9269087 bytes).
+Output written on template.pdf (132 pages, 9270927 bytes).
 PDF statistics:
- 2259 PDF objects out of 2487 (max. 8388607)
- 1500 compressed objects within 15 object streams
- 349 named destinations out of 1000 (max. 500000)
+ 2256 PDF objects out of 2487 (max. 8388607)
+ 1497 compressed objects within 15 object streams
+ 347 named destinations out of 1000 (max. 500000)
  340 words of extra memory for PDF output out of 10000 (max. 10000000)
 
