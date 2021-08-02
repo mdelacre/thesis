@@ -3,16 +3,16 @@
 \contentsline {section}{Chapitre 1: Introduction}{1}{section*.3}%
 \contentsline {section}{Chapitre 2: utiliser le test \(\bf \emph t\) de Welch par défaut}{8}{section*.5}%
 \contentsline {section}{Chapitre 3: utiliser l'ANOVA \(\bf \emph F\) de Welch par défaut}{18}{section*.7}%
-\contentsline {section}{Chapitre 4: utiliser le \(\bf \emph g^*_s\) de Hedges basé sur l'écart-type non poolé}{30}{section*.9}%
+\contentsline {section}{Chapitre 4: utiliser le \(\bf \emph g^*\) de Hedges basé sur l'écart-type non poolé}{30}{section*.9}%
 \contentsline {subsection}{Three purposes of effect size estimators}{32}{section*.10}%
 \contentsline {subsection}{Properties of a good effect size estimator}{33}{section*.11}%
 \contentsline {subsection}{Different measures of effect sizes}{35}{section*.12}%
 \contentsline {subsubsection}{When variances are equal between groups}{35}{section*.13}%
 \contentsline {subsubsection}{When variances are unequal between populations}{39}{section*.14}%
-\contentsline {paragraph}{Glass's \(\bf d_s\)}{39}{section*.15}%
-\contentsline {paragraph}{Shieh's \(\bf d_s\)}{41}{section*.16}%
-\contentsline {paragraph}{Cohen's \(\bf d^*_s\)}{42}{section*.17}%
-\contentsline {paragraph}{Glass's \(\bf g_s\), Shieh's \(\bf g_s\) and Hedges' \(\bf g^*_s\)}{43}{section*.18}%
+\contentsline {paragraph}{Glass's \(\bm {d}\)}{39}{section*.15}%
+\contentsline {paragraph}{Shieh's \(\bm {d}\)}{41}{section*.16}%
+\contentsline {paragraph}{Cohen's \(\bm {d^*}\)}{42}{section*.17}%
+\contentsline {paragraph}{Glass's \(\bm {g}\), Shieh's \(\bm {g}\) and Hedges' \(\bm {g^*}\)}{43}{section*.18}%
 \contentsline {subsubsection}{Monte Carlo Simulations}{46}{section*.19}%
 \contentsline {paragraph}{Assessing the bias, efficiency and consistency of 5 estimators}{46}{section*.20}%
 \contentsline {subparagraph}{Method}{46}{section*.21}%
