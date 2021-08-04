@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.30)  30 JUN 2021 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.3)  4 AUG 2021 09:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **introduction.tex
 (./introduction.tex
 LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-06-18> (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
+L3 programming layer <2021-07-12> (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/base/article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.clo
@@ -397,7 +397,7 @@ LaTeX Warning: Command \underline  has changed.
 )
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2021-07-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count282
 \l__pdf_internal_box=\box54
 ) (./introduction.aux)
@@ -531,15 +531,15 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 82.
 
-Underfull \hbox (badness 1242) in paragraph at lines 76--89
+Underfull \hbox (badness 1242) in paragraph at lines 76--92
 \T1/lmr/m/n/10 fon-da-men-tales pour com-pren-dre, plan-i-fier et anal-yser une
  recherche [@howitt_understanding_2017;
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 90--115
-\T1/lmr/m/n/10 aux statis-tiques pour psy-cho-logues [@field_discovering_2013; 
-@judd_data_2011]. Cela pour-rait
+Overfull \hbox (2.28354pt too wide) in paragraph at lines 93--118
+\T1/lmr/m/n/10 et des livres d'introduction aux statis-tiques pour psy-cho-logu
+es [@field_discovering_2013; @judd_data_2011].
  []
 
 [1
@@ -550,16 +550,16 @@ Package rerunfilecheck Info: File `introduction.out' has not changed.
 (rerunfilecheck)             Checksum: 5E16E5D650719BB83451C11C71657411;170.
  ) 
 Here is how much of TeX's memory you used:
- 10153 strings out of 480479
- 149358 string characters out of 5897631
- 480449 words of memory out of 5000000
- 27678 multiletter control sequences out of 15000+600000
+ 10153 strings out of 480502
+ 149356 string characters out of 5898082
+ 479499 words of memory out of 5000000
+ 27652 multiletter control sequences out of 15000+600000
  445926 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,8n,66p,719b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-math
-it.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm
--rm.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/l
+ 60i,8n,66p,701b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.e
+nc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mat
+hit.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/l
 m-ec.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/
 lm-mathsy.enc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pu
 blic/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
@@ -571,10 +571,10 @@ f-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/t
 exmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admin/AppData/Roaming/TinyTe
 X/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/Admin/AppData/Roaming/T
 inyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on introduction.pdf (4 pages, 186455 bytes).
+Output written on introduction.pdf (4 pages, 194663 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
+ 104 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
  9 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,7 +9,7 @@ header-includes:
   - \usepackage{float}
   - \usepackage{sectsty}
 ---
-# Chapitre 4: utiliser le $\bf \emph g^*$ de Hedges basé sur l'écart-type non poolé
+# Chapitre 4: Utiliser le $\bm{g^*}$ de Hedges basé sur l'écart-type non poolé
 
 ```{r setup, include = FALSE}
 library("papaja")
