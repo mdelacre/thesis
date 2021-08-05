@@ -11,17 +11,14 @@ header-includes:
 2) Nous avons systématiquement privilégié des revues Open Access (*International Review of Social Psychology*, *British Journal of Mathematical and Statistical Science*, *AMPPS*).       
 3) Nous avons utilisé Github.    
 
-Bien qu'il est très important d'aider les chercheurs à comprendre, théoriquement, en quoi les pratiques actuelles sont problématiques, il nous semble plus important encore de leur fournir des outils, afin de leur permettre de modifier ces pratiques. Or, un article méthodologique à lui seul suffit rarement à cela (d'après @mills_quantitative_2010, les chercheurs appliqués citent très peu les articles méthodologiques dans leur référence pour justifier leurs choix, ce qui pourrait être un signal du fait qu'ils basent peu leurs décisions sur ces articles). 
 
-Dans l'autre sens, on constate que les articles méthodos sont généralement peu cités, et ils le sont encore 3 fois moins par les chercheurs appliqués que par les autres méthodologistes [@mills_quantitative_2010, p.56]. On est en droit de questionner l'impact réel des publications méthodologiques, pour 2 raisons, d'après @mills_quantitative_2010:  
-(1) Les chercheurs appliqués sont noyés sous les articles dans leur domaine d'expertise si bien que cela limite le temps dont ils disposent pour se consacrer aux articles méthodologiques;   
-(2) malgré que des nouvelles méthodes sont disponibles, les chercheurs continuent à opter pour des tests traditionnels et familiaux (mais souvent inappropriés).  
 
 ### Apports appliqués
 
 Nous avons déjà mentionné que les outils méthodologiques peuvent servir à proposer des recomandations concrètes. Ajoutons que les articles méthodos peuvent servir à la créations d'outils/logiciels qui seront très utiles aux chercheurs. *Retravailler cette partie sur l'importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes*:
 
-On sait que les chercheurs tendent à privilégier les méthodes qui sont proposées par défaut dans des logiciels de clique bouton (comme SPSS). C'est en tout cas ce que dit @counsell_reporting_2017 dans le contexte de la gestion des données manquantes (mais je crois que c'est vrai pour tout). Une manière d'améliorer les pratiques serait d'améliorer les options proposées par défaut dans les logiciels de clic-bouton. C'est à ce genre de choses que j'aspire à travers mes articles. 
+Or, un article méthodologique à lui seul suffit rarement à cela (d'après @mills_quantitative_2010, les chercheurs appliqués citent très peu les articles méthodologiques dans leur référence pour justifier leurs choix, ce qui pourrait être un signal du fait qu'ils basent peu leurs décisions sur ces articles). Dans l'autre sens, on constate que les articles méthodos sont généralement peu cités, et ils le sont encore 3 fois moins par les chercheurs appliqués que par les autres méthodologistes [@mills_quantitative_2010, p.56]. 
+--> si l'article est très simple et avec des recommandations précises, ça peut aider!
 
 *[ Par manque de connaissances, les chercheurs se contentent souvent des informations fournies dans les logiciels clic/bouton. "for example, if software does not report a CI on Cohen's $d$, it is unlikely that a researcher will calculate one his or herself" (@counsell_reporting_2017). Une chance qu'on a, c'est Jamovi (regarder si Jamovi me cite)]*
 

@@ -25,10 +25,10 @@
 \contentsline {subsection}{Comparaison du TOST et du SGPV}{72}{section*.29}%
 \contentsline {section}{Discussion générale et conclusion}{85}{section*.31}%
 \contentsline {subsection}{Résumé de la thèse}{85}{section*.32}%
-\contentsline {subsection}{Apports (à faire article par article pour mettre mes idées en ordre)}{89}{section*.33}%
-\contentsline {subsubsection}{Test t de student et ANOVA de Fisher}{89}{section*.34}%
+\contentsline {subsection}{Apports (à faire article par article pour mettre mes idées en ordre)}{90}{section*.33}%
+\contentsline {subsubsection}{Test t de student et ANOVA de Fisher}{90}{section*.34}%
 \contentsline {subsubsection}{d de Cohen}{91}{section*.35}%
-\contentsline {subsubsection}{TOST vs.~SGPV}{91}{section*.36}%
+\contentsline {subsubsection}{TOST vs.~SGPV}{92}{section*.36}%
 \contentsline {section}{Bibliographie}{93}{section*.38}%
 \contentsline {section}{Annexes}{101}{section*.39}%
 \contentsline {subsection}{Annexe A: erratum de l'article ``Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test'' (Chapitre 2)}{101}{section*.40}%
