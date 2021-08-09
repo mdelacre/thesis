@@ -24,17 +24,16 @@
 \contentsline {subsection}{Définir les bornes de la zone d'équivalence}{68}{section*.28}%
 \contentsline {subsection}{Comparaison du TOST et du SGPV}{72}{section*.29}%
 \contentsline {section}{Discussion générale et conclusion}{85}{section*.31}%
-\contentsline {subsection}{Apports (à faire article par article pour mettre mes idées en ordre)}{91}{section*.32}%
-\contentsline {subsubsection}{La plus-value de la transparence: parler de l'échange avec Cumming.}{91}{section*.33}%
-\contentsline {subsubsection}{d de Cohen}{92}{section*.34}%
-\contentsline {subsubsection}{TOST vs.~SGPV}{93}{section*.35}%
-\contentsline {section}{Bibliographie}{94}{section*.37}%
-\contentsline {section}{Annexes}{102}{section*.38}%
-\contentsline {subsection}{Annexe A: erratum de l'article ``Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test'' (Chapitre 2)}{102}{section*.39}%
-\contentsline {subsubsection}{Mise en forme et Notations}{102}{section*.40}%
-\contentsline {subsubsection}{Faute(s) de frappe}{103}{section*.41}%
-\contentsline {subsection}{Annexe B: erratum de l'article ``Taking parametric assumptions very seriously: Arguments for the Use of Welch's \emph {F}-test instead of the Classical \emph {F}-test in One-Way ANOVA'' (Chapitre 3)}{104}{section*.42}%
-\contentsline {subsubsection}{Mise en forme et Notations}{104}{section*.43}%
-\contentsline {subsubsection}{Faute(s) de frappe et grammaire}{104}{section*.44}%
-\contentsline {subsection}{Annexe C: échanges avec Geoff Cumming, en vue d'améliorer l'article non publié ``Why Hedges' \(\bm {g_s^*}\) based on the non-pooled standard deviation should be reported with Welch's \(\bm {t}\)-test''}{106}{section*.45}%
-\contentsline {subsection}{Annexe D: A VOIR SI ERRATUM DU CHP 5?}{126}{section*.46}%
+\contentsline {subsubsection}{d de Cohen}{91}{section*.32}%
+\contentsline {subsubsection}{TOST vs.~SGPV}{92}{section*.33}%
+\contentsline {section}{La plus-value de la transparence: parler de l'échange avec Cumming.}{92}{section*.34}%
+\contentsline {section}{Bibliographie}{94}{section*.36}%
+\contentsline {section}{Annexes}{102}{section*.37}%
+\contentsline {subsection}{Annexe A: erratum de l'article ``Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test'' (Chapitre 2)}{102}{section*.38}%
+\contentsline {subsubsection}{Mise en forme et Notations}{102}{section*.39}%
+\contentsline {subsubsection}{Faute(s) de frappe}{103}{section*.40}%
+\contentsline {subsection}{Annexe B: erratum de l'article ``Taking parametric assumptions very seriously: Arguments for the Use of Welch's \emph {F}-test instead of the Classical \emph {F}-test in One-Way ANOVA'' (Chapitre 3)}{104}{section*.41}%
+\contentsline {subsubsection}{Mise en forme et Notations}{104}{section*.42}%
+\contentsline {subsubsection}{Faute(s) de frappe et grammaire}{104}{section*.43}%
+\contentsline {subsection}{Annexe C: échanges avec Geoff Cumming, en vue d'améliorer l'article non publié ``Why Hedges' \(\bm {g_s^*}\) based on the non-pooled standard deviation should be reported with Welch's \(\bm {t}\)-test''}{106}{section*.44}%
+\contentsline {subsection}{Annexe D: A VOIR SI ERRATUM DU CHP 5?}{126}{section*.45}%
