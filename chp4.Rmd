@@ -28,7 +28,7 @@ knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitr
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png
 ")
 ```
-**Commentaire**: l'article présenté ci-dessous n'a pas encore été accepté pour publication. Nous tenterons prochainement une nouvelle soumission, après avoir inclus une série de modifications suggérées par Geoff Cumming, conformément aux échanges reportés dans l'annexe C (pour l'instant, la seule modification prise en compte est le conseil de supprimer tous les indices "$_s$" associés aux mesure de taille d'effet).
+**Commentaire**: l'article présenté ci-dessous n'a pas encore été accepté pour publication. Nous tenterons prochainement une nouvelle soumission, après avoir inclus une série de modifications suggérées par Geoff Cumming, conformément aux échanges reportés dans l'annexe C.
 
 ```{r analysis-preferences,echo=F}
 # Seed for random number generation
