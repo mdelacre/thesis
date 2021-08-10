@@ -24,7 +24,7 @@
 \contentsline {subsection}{Définir les bornes de la zone d'équivalence}{68}{section*.28}%
 \contentsline {subsection}{Comparaison du TOST et du SGPV}{72}{section*.29}%
 \contentsline {section}{Discussion générale et conclusion}{85}{section*.31}%
-\contentsline {subsubsection}{d de Cohen}{91}{section*.32}%
+\contentsline {subsubsection}{d de Cohen}{92}{section*.32}%
 \contentsline {subsubsection}{TOST vs.~SGPV}{92}{section*.33}%
 \contentsline {section}{La plus-value de la transparence: parler de l'échange avec Cumming.}{92}{section*.34}%
 \contentsline {section}{Bibliographie}{95}{section*.36}%
