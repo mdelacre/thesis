@@ -26,7 +26,7 @@
 \contentsline {section}{Discussion générale et conclusion}{85}{section*.31}%
 \contentsline {subsubsection}{d de Cohen}{92}{section*.32}%
 \contentsline {subsubsection}{TOST vs.~SGPV}{92}{section*.33}%
-\contentsline {section}{La plus-value de la transparence: parler de l'échange avec Cumming.}{93}{section*.34}%
+\contentsline {section}{La plus-value de la transparence: parler de l'échange avec Cumming.}{92}{section*.34}%
 \contentsline {section}{Bibliographie}{96}{section*.36}%
 \contentsline {section}{Annexes}{104}{section*.37}%
 \contentsline {subsection}{Annexe A: erratum de l'article ``Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test'' (Chapitre 2)}{104}{section*.38}%
