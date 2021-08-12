@@ -313,5 +313,5 @@ Geoff
 \color{black} ------------------------------------------------------------
 
 \newpage
-## Annexe D: A VOIR SI ERRATUM DU CHP 5?
+## Annexe D: Améliorations apportées par Aaron Caldwell dans la nouvell version du package TOSTER? Demander à Christophe ce qu'il en pense. 
 
