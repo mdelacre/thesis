@@ -355,7 +355,7 @@ Hors du contexte des réplications d'études, on peut également se baser sur la
 
 ## Comparaison du TOST et du SGPV
 
-```{r "chp5p1", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="92%"}
+```{r "chp5p1", fig.align='center', fig.cap=NULL,echo=FALSE,out.height="94%"}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.png")
 #knitr::include_graphics("D:/Documents/Github_projec#ts/thesis/Chapitre 5/Chapitre 5-1.png")
 #knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.png")

@@ -10,7 +10,8 @@ header-includes:
 ---
 
 # Chapitre 2: Utiliser le test $\bf \emph t$ de Welch par défaut ^[Un erratum de cet article figure dans l'annexe A.]
-```{r "chp2p1", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="92%"}
+
+```{r "chp2p1", fig.align='center',echo=FALSE,out.height="94%"}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.png")
 ```
 
@@ -46,6 +47,6 @@ knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitr
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.png")
 ```
 
-```{r "chp2p10", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="82%"}
+```{r "chp2p10", fig.align='center', fig.cap=NULL,echo=FALSE}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.png")
 ```

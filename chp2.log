@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.23)  23 JUN 2021 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.10)  15 AUG 2021 22:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **chp2.tex
 (./chp2.tex
 LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-06-18> (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
+L3 programming layer <2021-07-12> (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/apa6/apa6.cls
 Document Class: apa6 2020/01/13 v2.34 APA formatting (6th edition)
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
@@ -601,9 +601,9 @@ LaTeX Warning: Command \underline  has changed.
 
 ) (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babel.st
 y
-Package: babel 2021/06/02 3.60 The Babel package
+Package: babel 2021/07/22 3.63 The Babel package
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2021/06/02 3.60 Babel common definitions
+File: babel.def 2021/07/22 3.63 Babel common definitions
 \babel@savecnt=\count308
 \U@D=\dimen191
 \l@unhyphenated=\language3
@@ -639,7 +639,7 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count310
 \l__pdf_internal_box=\box63
 ) (./chp2.aux)
@@ -789,15 +789,14 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 138
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.pdf, i
-d=8, 597.50829pt x 845.0471pt>
-File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.p
-df Graphic file (type pdf)
-<use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.pd
-f>
-Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-1.pdf  used on input line 140.
-(pdftex.def)             Requested size: 432.17496pt x 611.21864pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 138.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 138.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 138.
+
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2.pdf, i
 d=9, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2.p
@@ -805,122 +804,149 @@ df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-2.pdf  used on input line 142.
+re 2/Chapitre 2-2.pdf  used on input line 140.
 (pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 [1{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdf
 tex.map}
 
- <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.pdf>]
+]
+Overfull \vbox (59.62204pt too high) has occurred while \output is active []
+
 [2 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2.pdf
 >]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.pdf, i
-d=101, 597.50829pt x 845.0471pt>
+d=68, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-3.pdf  used on input line 144.
-(pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-[3 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.pdf
->]
+re 2/Chapitre 2-3.pdf  used on input line 142.
+(pdftex.def)             Requested size: 398.20415pt x 563.17424pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.pdf, i
-d=139, 597.50829pt x 845.0471pt>
+d=69, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-4.pdf  used on input line 146.
-(pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-[4 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.pdf
+re 2/Chapitre 2-4.pdf  used on input line 144.
+(pdftex.def)             Requested size: 398.20415pt x 563.17424pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[3 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.pdf
 >]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.pdf, i
-d=228, 597.50829pt x 845.0471pt>
+d=107, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-5.pdf  used on input line 148.
-(pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-[5 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.pdf
+re 2/Chapitre 2-5.pdf  used on input line 146.
+(pdftex.def)             Requested size: 398.20415pt x 563.17424pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[4 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.pdf
 >]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.pdf, i
-d=328, 597.50829pt x 845.0471pt>
+d=196, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-6.pdf  used on input line 150.
-(pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-[6 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.pdf
+re 2/Chapitre 2-6.pdf  used on input line 148.
+(pdftex.def)             Requested size: 398.20415pt x 563.17424pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[5 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.pdf
 >]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.pdf, i
-d=359, 597.50829pt x 845.0471pt>
+d=296, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-7.pdf  used on input line 152.
-(pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-[7 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.pdf
+re 2/Chapitre 2-7.pdf  used on input line 150.
+(pdftex.def)             Requested size: 398.20415pt x 563.17424pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[6 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.pdf
 >]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.pdf, i
-d=390, 597.50829pt x 845.0471pt>
+d=326, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-8.pdf  used on input line 154.
-(pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-[8 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.pdf
+re 2/Chapitre 2-8.pdf  used on input line 152.
+(pdftex.def)             Requested size: 398.20415pt x 563.17424pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[7 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.pdf
 >]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.pdf, i
-d=445, 597.50829pt x 845.0471pt>
+d=358, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.pd
 f>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-9.pdf  used on input line 156.
-(pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-[9 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.pdf
+re 2/Chapitre 2-9.pdf  used on input line 154.
+(pdftex.def)             Requested size: 398.20415pt x 563.17424pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[8 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.pdf
 >]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.pdf, 
-id=484, 597.50829pt x 845.0471pt>
+id=413, 597.50829pt x 845.0471pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.
 pdf Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.p
 df>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 2/Chapitre 2-10.pdf  used on input line 158.
-(pdftex.def)             Requested size: 459.91869pt x 650.45619pt.
-[10 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.p
-df>] AED endfloat: Processing end Figures and Tables (./chp2.aux)
+re 2/Chapitre 2-10.pdf  used on input line 156.
+(pdftex.def)             Requested size: 385.20299pt x 544.78688pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[9 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.pdf
+>] AED endfloat: Processing end Figures and Tables [10 <c:/Users/Admin/Document
+s/Github projects/thesis/Chapitre 2/Chapitre 2-10.pdf>] (./chp2.aux)
 Package rerunfilecheck Info: File `chp2.out' has not changed.
-(rerunfilecheck)             Checksum: A1BAA211CF372C0908EF8FA9AEADAEFA;386.
+(rerunfilecheck)             Checksum: 8B959AA758BCF88824C597D6BB2B24F5;324.
  ) 
 Here is how much of TeX's memory you used:
- 14510 strings out of 480470
- 225689 string characters out of 5897013
- 550857 words of memory out of 5000000
- 31936 multiletter control sequences out of 15000+600000
- 455496 words of font info for 64 fonts, out of 8000000 for 9000
+ 14690 strings out of 480502
+ 230095 string characters out of 5898081
+ 547884 words of memory out of 5000000
+ 32065 multiletter control sequences out of 15000+600000
+ 477246 words of font info for 84 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,11n,80p,2243b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,11n,80p,2243b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
 nc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmb
 x12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/l
 m/lmbxi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pu
-blic/lm/lmr12.pfb>
-Output written on chp2.pdf (10 pages, 1710690 bytes).
+blic/lm/lmr10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type
+1/public/lm/lmr12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/
+type1/public/lm/lmr7.pfb>
+Output written on chp2.pdf (10 pages, 1602379 bytes).
 PDF statistics:
- 550 PDF objects out of 1000 (max. 8388607)
- 321 compressed objects within 4 object streams
- 13 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 525 PDF objects out of 1000 (max. 8388607)
+ 309 compressed objects within 4 object streams
+ 14 named destinations out of 1000 (max. 500000)
+ 54 words of extra memory for PDF output out of 10000 (max. 10000000)
 

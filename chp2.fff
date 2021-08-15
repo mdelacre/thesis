@@ -1,0 +1,10 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics{chp2_files/figure-latex/chp2p1-1}
+
+}
+
+\caption{ }\label{fig:chp2p1}
+\end{figure*}
