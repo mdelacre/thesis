@@ -7,15 +7,7 @@ header-includes:
   - \usepackage{bm}
 ---
 
-1) Nous avons systématiquement diffusé des preprint, chaque fois que nous avons soumis un article. *Cette pratique a eu des retombées positives qui ont dépassé nos attentes, grâce à la collaborations d'éminents chercheurs (exemple du dernier article qui a été très longuement commenté par Cumming), *    
-2) Nous avons systématiquement privilégié des revues Open Access (*International Review of Social Psychology*, *British Journal of Mathematical and Statistical Science*, *AMPPS*).       
-3) Nous avons utilisé Github.    
-
-
-
 ### Apports appliqués
-
-Nous avons déjà mentionné que les outils méthodologiques peuvent servir à proposer des recomandations concrètes. Ajoutons que les articles méthodos peuvent servir à la créations d'outils/logiciels qui seront très utiles aux chercheurs. *Retravailler cette partie sur l'importance des simulations et des logiciels mordernes pour enseigner les statistiques fréquentistes*:
 
 Or, un article méthodologique à lui seul suffit rarement à cela (d'après @mills_quantitative_2010, les chercheurs appliqués citent très peu les articles méthodologiques dans leur référence pour justifier leurs choix, ce qui pourrait être un signal du fait qu'ils basent peu leurs décisions sur ces articles). Dans l'autre sens, on constate que les articles méthodos sont généralement peu cités, et ils le sont encore 3 fois moins par les chercheurs appliqués que par les autres méthodologistes [@mills_quantitative_2010, p.56]. 
 --> si l'article est très simple et avec des recommandations précises, ça peut aider!
@@ -26,50 +18,18 @@ Or, un article méthodologique à lui seul suffit rarement à cela (d'après @mi
 
 Malgré tout, un logiciel ne fait pas tout et après avoir utilisé le test adéquat, il est important d'être capable de l'interpréter correctement. Les tests font appel à des notions faussement simples telles que les p-valeurs et les distributions d'échantillonnage. A mon sens, le seul moyen d'enseigner correctement ces notions, c'est à travers des simulations. 
 
+
+
 D'après Thompson (1999a, cité par @fraas_testing_2000), les chercheurs continuent à utiliser la nil nul hypothesis pour 2 raisons:  (1) la plupart des logiciels partent du postulat que c'est l'hypothèse nulle qu'utilisent les chercheurs et ne donnent pas la possibilité de faire autre chose  (2) les non nil-nul hypotheses incluent un niveau de complexité pas toujours possible à atteindre dans bcp de designs.  Fraas et Newman (2001) admettent que les chercheurs sont probablement plus enclins à utiliser des procédures si elles sont implémentées dans des logiciels "user friendly".
 
 --> Concernant la raison (1), ce n'est plus tellement vrai en 2021. Jamovi, par exemple, contient un package "TOSTER" qui permet de faire des tests d'effets minimaux ET des tests d'équivalence. Il est très important que des logiciels le fassent, car comme disaient @fraas_testing_2000, "unless researchers are able to test non-nil null hypotheses with readily available computer software, they may continue to exclusively use nil null hypothesis" (p.4). 
 
-Au final, nos articles ont souvent été utiles pour ce genre de choses:
 
-- Pour le Welch, vérifier mais je crois que Daniel s’en était aussi servi pour le package TOSTER (ou en tout cas en parlait).
-Nous avons créés des outils pour aider les autres chercheurs (packages R et Shiny App).
-De plus, nos articles ont été utilisés par d’autres chercheurs qui ont eux-mêmes créés des outils utiles. Par exemple, notre dernier article sur l’ES a inspiré plusieurs chercheurs :
--	Aardon Caldwell s’est appuyé sur nos équations pour implémenter le g* de Hedges dans sa mise à jour du Package TOSTER (sur Jamovi)
--	Intrajeel Patil (twitter) et son collaborateur se sont servis de notre preprint pour corriger une erreur dans un package R qu’ils ont créés
-	Ça met en lumière ce à quoi à mon avis les articles méthodos doivent servir : à inspirer la création de packages/fonctions dans des logiciels user friendly et communément utilisés pour que les chercheurs sachent concrètement comment agir ! (citer la source qui dit que bien souvent, les chercheurs ne vont utiliser des techniques que si elles sont implémentées dans ce type de logiciel)
-Pour continuer à mettre à jour les logiciels, il est important de continuer à éprouver les méthodes existantes, et à les comparer aux nouvelles méthodes existantes. Comme la SGPV proposé par Blume était une nouvelle statistique qui semblait remplir les mêmes objectifs que le TOST, il était tout naturel de comparer ces deux techniques de la manière la plus détaillée possible. Peut-être que de nouvelles techniques avec un meilleur ratio coût/bénéfice seront mises en lumière et viendront dès lors naturellement remplacer les techniques existantes (c’est la magie de la science : un questionnement critique et des mises à jours régulières).
-Par exemple, on a pu montrer effectivement que conformément à ce que certains auteurs suggéraient mais sans que ça soit entendu dans le mnode de la psychologie (car pas appliqué à une compréhension claire du fait que l’hétéroscédatisticité était presque inhérente au domaine, par exemple), il vaut mieux utiliser le test de Welch tt le tps.
-
-Je peux aussi signaler que confirmer une hypothèse nulle, ce qui est important car il y a pas mal de domaines dans la psycho ou le but est de montrer les similitudes, surtout quand c’est mêlé à des questions sociétales (est-ce que les couples homosexuels sont aussi performants que les couples hétérosexuels ?)
 
 ## Limites
 
-En recherche, on apprend constamment de nos erreurs. Pour chaque article, j’ai pu identifier des éléments que je ne reproduirais plus à l’identique avec dû recul. Par exemple, dans l’article sur le test de Welch (le premier) j’aurais dû fragmenter. Commencer par faire des simultions avec des distributions identiques dans tous les groupes (car ça permet de moins bien visualiser l’effet de compensation, ex . quand asymétrie positive et négative en mm tps). J’ai également identifié des erreurs dans certains articles 
-
-Concernant le premier article sur le test $t$ de Welch (vérifier mais je crois que ça s’applique aussi au 2ème article en fait ces erreurs) Nous spécifions à plusieurs reprises que le test $t$ de Yuen contrôle moins bien le taux d'erreur de type I que le test $t$ de Welch:  
-- p.14: *"Yuen's $t$-test is not a good unconditional alternative because we observe an unacceptable departure from the nominal alpha risk of 5 percent for several shapes of distributions [...] particularly when we are studying asymmetric distributions of unequal shapes"*;  
-- p.15: *"As it is explained in the additional file, Yuen's $t$-test is not a better test than Welch's $t$-test, since it often suffers high departure from the alpha risk of 5 percent"*.   
-
-Ceci n'est pas exact d'un point de vue purement statistique. A travers le test de Yuen, on ne compare plus les moyennes de chaque groupe, mais les moyennes *trimmées* (soit les moyennes calculées sur les données après avoir écarté les 20$\%$ des scores les plus faibles ainsi que les 20$\%$ des scores les plus élevés). Or, à travers nos simulations, les scénarios créés en vue de tester le taux d'erreur de type I (risque alpha) étaient systématiquement des scénarios dans lesquels les moyennes de chaque population étaient identiques. Lorsque la distribution d'une population est parfaitement symétrique, la moyenne et la moyenne trimmée seront identiques. Au contraire, lorsque la distribution d'une population est asymétrique, la moyenne et la moyenne trimmée diffèreront (la moyenne trimmée sera plus proche du mode de la distribution et donc, représentera mieux cette dernière). Notons malgré tout que d'un point de vue méthodologique, nous avons déjà relevé que la plupart du temps, les chercheurs définissent l'absence de différence entre les moyennes comme hypothèse nulle et nos simulations démontrent que dans ce contexte, le test de Yuen n'est pas approprié. En conclusion, le test de Yuen ne devrait être utilisé que par des chercheurs ayant pleinement conscience du fait que les tests $t$ de Student et de Welch ne reposent pas sur la même hypothèse que le test $t$ de Yuen.
-
-*Revoir si je parle du fait que le kurtosis impacte la puissance du test de Welch dans l'article en tant que tel (je le fais en tout cas dans les annexes). Expliquer que j'avais fait une erreur en confondant kurtosis et sd (j'ai cru à tort que la mesure de dispersion de la double expo était le sd alors qu'en fait non). Ca m'a fait prendre conscience qu'il est SUPER important de toujours demander, dans les simulations, le calcul des descriptives, afin de vérifier que tout s'est bien passé (si la variance moyenne n'est pas égale à la variable théorique, par exemple, en tt cas qd la condition de normalité est ok, c'est qu'il y a eu un couac). En plus de permettre un contrôle des erreurs, ça peut être utile comme aide à l'interprétation. A partir de l'article 2, je l'ai systématiquement fait. Et pour me "rattraper", j'ai expliqué en détail la différence entre le kurtosis et le SD dans le 2ème article.*
-
-### Commentaires divers
-
-Dans les deux articles sur le Welch: (même si les pages relevées concerne le test $t$, c vrai aussi pour le suivant):
-- p.9: nous décrivons 3 arguments en défaveur de l'usage du test de Levene. En troisième argument, nous mentionnons le manque de puissance du test de Levenne. Ceci est rappelé en conclusion de l'article présenté au sein du chapitre 2: *"Because the statistical power for this test is often low, researchers will inappropriately choose Student's $t$-test instead of more robust alternatives"*. Nous aurions pu ajouter le fait qu'utiliser le test $t$ de Student lorsque le test de Levene est non significatif revient à confondre le non rejet de l'hypothèse d'égalité des variances avec l'acceptation de l'hypothèse d'égalité des variances. Au sein du chapitre 5 sur les tests d'équivalence, il est démontré par simulation que même lorsqu'on s'assure d'avoir une puissance suffisante pour détecter une différence attendue, la stratégie qui consiste à interpréter le non rejet de l'hypothèse nulle comme un soutien en faveur de l'hypothèse nulle n'est pas appropriée.  
-- p.12: nous mentionnons ceci : *"When both variances and sample sizes are the same in each independent group, the $t$-values, degrees of freedom, and the $p$-values in Student's $t$-test and Welch's $t$-test are the same (see Table 1)*. Avec du recul, cette phrase peut porter à confusion. Par "variances" il faut comprendre "*sample* variances" ou "variances *estimates*". Nous ne sommes donc *pas* en train de dire que les deux statistiques, ainsi que les degrés de liberté et $p$-valeurs qui leur sont associées seront identiques lorsque la condition d'homogénéité des variances sera respectée au niveau de la population, mais bien lorsque les estimations de chaque variance de population seront identiques.
-
-Limites dans le chapitre 4: nous avons peut-êtr par moment légèrement perdu de vue l'importance de parler le langage des psychologues. *la question de la taille d'effet n'intéresse pas vraiment les statisticiens à la base; @golinski_expanding_2009)]. Et nous avons sans doute mis un peu trop l'accent sur les propriétés inférentielles, comme nous l'a judicieusement fait comprendre Cumming*. 
-Limites dans le chapitre 4, on compare essentiellement les estimateurs sur base de leurs propriétés inférentielles. Nous avons tenté de prendre la dimension interprétative en compte, mais c'est parfois très compliqué. Cette dimension est d'ailleurs rarement prises en compte par les chercheurs. On constate que même si les mesures de taille d'effet sont de plus en plus fréquemment reportées, elles ne sont que rarement interprétées et incluses dans les discussions [@funder_evaluating_2019;@thompson_statistical_1997] par les chercheurs. Dans un tel contexte, il est particulièrement important d'ouvrir les débats sur cette question.
-
-Nous avons parfois pu donner l'impression, dans la manière dont nous avons écrit cet article, que de bonnes propriétés asymptotiques suffisaient (qu'un estimateur, même impossible à interpréter, pouvait être utile s'il avait de bonnes propriétés). Pourtant, les deux éléments sont extrêmement importants. Bien sûr, les propriétés inférentielles sont très importantes (il est difficile de concevoir qu'un estimateur puisse fournir une interprétation adéquate s'il est extrêmement biaisé, tel que le Glass, comme on le souligne dans nos échanges avec Cumming). Mais ça ne suffit pas. Il sera nécessaire de reformuler de sorte à mieux faire comprendre cela. Dire pour le Shieh par exemple, qu'on l'a inclu pour montrer que non seulement il est dur à interpréter, mais en plus, ses propriétés inférentielles ne sont pas aussi bonnes qu'on le croit. 
 ## Perspectives futures
 
-\color{blue} *t-test*: "We do not include the bootstrapped $t$-test because it is known to fail in specific situations, such as when there are unequal sample sizes and standard deviations differ moderately"(p.8; Hayes & Cai, 2007): on s’est contenté de croire l’avis de machin qui dit que ça marche pas bien, mais on pourrait requestioner cela et dans les recherches futures le ré-investiguer la comparaison du test de welch classique avec sa version boostrappé. --> relire son artic pour voir dans quelles conditions ils ont étudié le t boostrappé. Pe pas les mêmes que nous! Dc ça pourrait être utile de refaire la même étude mais en comparant uniquement le $t$ de Welch à sa version boostrappée.
-
--	Je ne travaille pas avec des distributions discrètes.
 
 
 Take home message :
