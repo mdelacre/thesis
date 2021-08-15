@@ -87,6 +87,40 @@ $F(1,x)
 t^2(x)$.
 \@endanenote 
 \@doanenote {34}
+macro:->Dans
+Jamovi,
+par
+exemple,
+lorsqu'on
+réalise
+un
+test
+$t$
+de
+Welch
+tout
+en
+demandant
+une
+mesure
+de
+taille
+d'effet,
+c'est
+la
+mesure
+$d^*$
+de
+Cohen
+sans
+correction
+du
+biais
+qui
+est
+proposée.
+\@endanenote 
+\@doanenote {35}
 macro:->Ce
 package
 n'a
@@ -116,14 +150,17 @@ install.packages(``devtools'')\\
 library(devtools)\\
 install\_github(``mdelacre/deffectsize'').
 \@endanenote 
-\@doanenote {35}
-macro:->définir
-un
-peu
-Github
-\@endanenote 
 \@doanenote {36}
-macro:->le
+macro:->L'application
+est
+disponible
+à
+l'adresse
+suivante:
+https://effectsize.shinyapps.io/deffsize/
+\@endanenote 
+\@doanenote {37}
+macro:->Le
 draft
 de
 l'article
@@ -143,7 +180,7 @@ lien
 suivant:
 https://github.com/mdelacre/Effect-sizes.
 \@endanenote 
-\@doanenote {37}
+\@doanenote {38}
 macro:->Nous
 avons
 soumis
@@ -165,7 +202,7 @@ a
 été
 rejeté.
 \@endanenote 
-\@doanenote {38}
+\@doanenote {39}
 macro:->Aaron
 Caldwell
 est
@@ -213,7 +250,7 @@ sa
 page:
 https://aaroncaldwell.us/
 \@endanenote 
-\@doanenote {39}
+\@doanenote {40}
 macro:->Le
 package
 amélioré
@@ -241,27 +278,8 @@ fil
 d'actualité
 Twitter:
 https://twitter.com/ExPhysStudent/status/1400861069048958981.
-Un
-résumé
-des
-changements
-apporté
-dans
-cette
-nouvelle
-version
-du
-package
-se
-trouve
-également
-au
-sein
-de
-l'annexe
-D.
 \@endanenote 
-\@doanenote {40}
+\@doanenote {41}
 macro:->Mattan
 S.
 Ben-Shachar
@@ -292,7 +310,7 @@ sa
 page:
 https://sites.google.com/view/mattansb/.
 \@endanenote 
-\@doanenote {41}
+\@doanenote {42}
 macro:->Les
 modifications
 qu'il
@@ -404,7 +422,7 @@ le
 de
 Cohen).
 \@endanenote 
-\@doanenote {42}
+\@doanenote {43}
 macro:->Entre
 autre,
 la
