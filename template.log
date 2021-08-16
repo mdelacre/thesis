@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.10)  16 AUG 2021 00:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.10)  16 AUG 2021 08:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1026,7 +1026,7 @@ pdf Graphic file (type pdf)
 df>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 3/Chapitre 3-12.pdf  used on input line 599.
-(pdftex.def)             Requested size: 398.7453pt x 622.57323pt.
+(pdftex.def)             Requested size: 436.26535pt x 681.15442pt.
 (./template.ent [31 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3
 /Chapitre 3-12.pdf>]) [32]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png, id=1335,
@@ -1323,144 +1323,99 @@ ng Graphic file (type png)
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 5/Chapitre 5-2.png  used on input line 2183.
-(pdftex.def)             Requested size: 513.7965pt x 681.1434pt.
-
-Overfull \hbox (27.53888pt too wide) in paragraph at lines 2183--2183
- [] 
- []
-
+(pdftex.def)             Requested size: 486.25745pt x 644.63472pt.
 [74 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.pn
-g>] [75]
+g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.png, i
-d=1710, 1491.5725pt x 1977.3875pt>
+d=1705, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 5/Chapitre 5-3.png  used on input line 2185.
-(pdftex.def)             Requested size: 513.7965pt x 681.1434pt.
-
-Overfull \hbox (27.53888pt too wide) in paragraph at lines 2185--2185
- [] 
- []
-
-[76 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.pn
-g>] [77]
+(pdftex.def)             Requested size: 486.25745pt x 644.63472pt.
+[75 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.pn
+g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.png, i
-d=1720, 1491.5725pt x 1977.3875pt>
+d=1712, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 5/Chapitre 5-4.png  used on input line 2187.
-(pdftex.def)             Requested size: 513.7965pt x 681.1434pt.
-
-Overfull \hbox (27.53888pt too wide) in paragraph at lines 2187--2187
- [] 
- []
-
-[78 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.pn
-g>] [79]
+(pdftex.def)             Requested size: 486.25745pt x 644.63472pt.
+[76 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.pn
+g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.png, i
-d=1730, 1491.5725pt x 1977.3875pt>
+d=1718, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 5/Chapitre 5-5.png  used on input line 2189.
-(pdftex.def)             Requested size: 513.7965pt x 681.1434pt.
-
-Overfull \hbox (27.53888pt too wide) in paragraph at lines 2189--2189
- [] 
- []
-
-[80 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.pn
-g>] [81]
+(pdftex.def)             Requested size: 486.25745pt x 644.63472pt.
+[77 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.pn
+g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.png, i
-d=1741, 1491.5725pt x 1977.3875pt>
+d=1724, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 5/Chapitre 5-6.png  used on input line 2191.
-(pdftex.def)             Requested size: 513.7965pt x 681.1434pt.
-
-Overfull \hbox (27.53888pt too wide) in paragraph at lines 2191--2191
- [] 
- []
-
-[82 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.pn
-g>] [83]
+(pdftex.def)             Requested size: 486.25745pt x 644.63472pt.
+[78 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.pn
+g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.png, i
-d=1751, 1491.5725pt x 1977.3875pt>
+d=1730, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 5/Chapitre 5-7.png  used on input line 2193.
-(pdftex.def)             Requested size: 513.7965pt x 681.1434pt.
-
-Overfull \hbox (27.53888pt too wide) in paragraph at lines 2193--2193
- [] 
- []
-
-[84 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.pn
-g>] [85]
+(pdftex.def)             Requested size: 486.25745pt x 644.63472pt.
+[79 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.pn
+g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.png, i
-d=1761, 1491.5725pt x 1977.3875pt>
+d=1736, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 5/Chapitre 5-8.png  used on input line 2195.
-(pdftex.def)             Requested size: 513.7965pt x 681.1434pt.
-
-Overfull \hbox (27.53888pt too wide) in paragraph at lines 2195--2195
- [] 
- []
-
-[86 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.pn
-g>] [87]
+(pdftex.def)             Requested size: 486.25745pt x 644.63472pt.
+[80 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.pn
+g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.png, i
-d=1772, 1491.5725pt x 1977.3875pt>
+d=1742, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.pn
 g>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 5/Chapitre 5-9.png  used on input line 2197.
-(pdftex.def)             Requested size: 513.7965pt x 681.1434pt.
-
-Overfull \hbox (27.53888pt too wide) in paragraph at lines 2197--2197
- [] 
- []
-
-[88 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.pn
-g>] [89]
+(pdftex.def)             Requested size: 486.25745pt x 644.63472pt.
+[81 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.pn
+g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.png, 
-id=1782, 1491.5725pt x 1977.3875pt>
+id=1749, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.
 png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.p
 ng>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 5/Chapitre 5-10.png  used on input line 2199.
-(pdftex.def)             Requested size: 513.7965pt x 681.1434pt.
-
-Overfull \hbox (27.53888pt too wide) in paragraph at lines 2199--2199
- [] 
- []
-
-[90 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.pn
-g>] [91]
+(pdftex.def)             Requested size: 486.25745pt x 644.63472pt.
+[82 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.pn
+g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.png, 
-id=1792, 501.91515pt x 165.85965pt>
+id=1755, 501.91515pt x 165.85965pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.
 png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.p
@@ -1468,19 +1423,19 @@ ng>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 5/Chapitre 5-11.png  used on input line 2201.
 (pdftex.def)             Requested size: 486.25972pt x 160.68625pt.
-[92 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.p
-ng>] (./template.ent [93 <c:/Users/Admin/Documents/Github projects/thesis/Chapi
-tre 5/Chapitre 5-11.png>]) [94]
+[83 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.p
+ng>] (./template.ent [84 <c:/Users/Admin/Documents/Github projects/thesis/Chapi
+tre 5/Chapitre 5-11.png>]) [85]
 \openout3 = `template.ent'.
 
-[95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] (./template.
-ent [107]
+[86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] (./template.ent [98
+]
 Underfull \hbox (badness 1342) in paragraph at lines 283--312
 \T1/lmr/m/n/10 d'ERP neurocognitif développemental, à l'université Ben Gourion 
 du Néguev (Israël). Voici sa page:
  []
 
-[108]) [109] [110] [111] [112] [113] [114] [115] [116] [117] [118] [119]
+[99]) [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110]
 Underfull \hbox (badness 2818) in paragraph at lines 3338--3349
 \T1/lmr/m/n/12 d'articles via Rmarkdown, certaines majuscules sont manquantes d
 ans les références
@@ -1501,7 +1456,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3363--3366
 
  []
 
-[120]
+[111]
 Underfull \hbox (badness 10000) in paragraph at lines 3366--3368
 
  []
@@ -1526,7 +1481,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3378--3382
 
  []
 
-[121]
+[112]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 3392.
 
@@ -1542,7 +1497,7 @@ which -[] standardised -[] e^^[ect -[] size -[] measure -[] is -[]
  []
 
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/Cummingmail1.png, id=2043, 1866.22218pt x 2640.86626pt>
+ng/Cummingmail1.png, id=2006, 1866.22218pt x 2640.86626pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/Cummingmail1.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
@@ -1550,15 +1505,15 @@ umming/Cummingmail1.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 4/Echanges avec Cumming/Cummingmail1.png  used on input line 3408.
 (pdftex.def)             Requested size: 481.36205pt x 681.16904pt.
-[122] [123 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges
+[113] [114 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges
  avec Cumming/Cummingmail1.png>]
 
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 3432.
 
 
-[124]
+[115]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/printscreen.png, id=2061, 252.44313pt x 112.42pt>
+ng/printscreen.png, id=2023, 252.44313pt x 112.42pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
@@ -1567,7 +1522,7 @@ Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 4/Echanges avec Cumming/printscreen.png  used on input line 3463.
 (pdftex.def)             Requested size: 252.44635pt x 112.42143pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/printscreen2.png, id=2062, 240.39813pt x 135.00438pt>
+ng/printscreen2.png, id=2024, 240.39813pt x 135.00438pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen2.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
@@ -1575,17 +1530,17 @@ umming/printscreen2.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 4/Echanges avec Cumming/printscreen2.png  used on input line 3480.
 (pdftex.def)             Requested size: 240.4012pt x 135.00609pt.
-[125 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
+[116 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen.png> <c:/Users/Admin/Documents/Github projects/thesis/Chapi
-tre 4/Echanges avec Cumming/printscreen2.png>] [126]
+tre 4/Echanges avec Cumming/printscreen2.png>] [117]
 Overfull \hbox (24.5078pt too wide) in paragraph at lines 3546--3554
 \T1/lmr/m/n/12 You will find them in the following folder: ``Scripts outputs/Qu
 ality of ES measures/Graphs/Unbiased
  []
 
-[127]
+[118]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/printscreen3.png, id=2079, 280.54813pt x 221.82875pt>
+ng/printscreen3.png, id=2041, 280.54813pt x 221.82875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen3.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
@@ -1599,10 +1554,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 3607--3613
 t -[] sizes / tree / master / Supplemental %
  []
 
-[128 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
+[119 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen3.png>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/printscreen4.png, id=2087, 442.2924pt x 251.37915pt>
+ng/printscreen4.png, id=2049, 442.2924pt x 251.37915pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen4.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
@@ -1610,10 +1565,10 @@ umming/printscreen4.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 4/Echanges avec Cumming/printscreen4.png  used on input line 3638.
 (pdftex.def)             Requested size: 442.29132pt x 251.37852pt.
-[129] [130 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges
- avec Cumming/printscreen4.png>] [131] [132] [133]
+[120] [121 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges
+ avec Cumming/printscreen4.png>] [122] [123] [124]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/printscreen5.png, id=2112, 383.93437pt x 87.32625pt>
+ng/printscreen5.png, id=2074, 383.93437pt x 87.32625pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen5.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
@@ -1621,7 +1576,7 @@ umming/printscreen5.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 4/Echanges avec Cumming/printscreen5.png  used on input line 3846.
 (pdftex.def)             Requested size: 383.95685pt x 87.33136pt.
-[134 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
+[125 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen5.png>]
 Underfull \hbox (badness 2671) in paragraph at lines 3866--3883
 \T1/lmr/m/n/12 here: []$https : / / github . com / mdelacre / E^^[ect -[] sizes
@@ -1634,9 +1589,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 3866--3883
 estimators$ / %$20as$ / %$20a$ /
  []
 
-[135] [136] [137] [138] [139] [140] [141] 
+[126] [127] [128] [129] [130] [131] [132] 
 AED: lastpage setting LastPage
-[142] (./template.aux)
+[133] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: 13EFA85D39502AA2FC9AE526638D87B1;2162.
  )
@@ -1646,9 +1601,9 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 ### semi simple group (level 1) entered at line 80 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14589 strings out of 480502
- 257534 string characters out of 5898081
- 563251 words of memory out of 5000000
+ 14580 strings out of 480502
+ 257462 string characters out of 5898081
+ 563244 words of memory out of 5000000
  31545 multiletter control sequences out of 15000+600000
  563160 words of font info for 121 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1686,10 +1641,10 @@ ming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy5.pfb><c:/Users/Admin/AppData
 /Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/Users/Admin/App
 Data/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/Users/Admin
 /AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on template.pdf (146 pages, 16891437 bytes).
+Output written on template.pdf (137 pages, 16889753 bytes).
 PDF statistics:
- 2370 PDF objects out of 2487 (max. 8388607)
- 1577 compressed objects within 16 object streams
- 366 named destinations out of 1000 (max. 500000)
+ 2329 PDF objects out of 2487 (max. 8388607)
+ 1545 compressed objects within 16 object streams
+ 357 named destinations out of 1000 (max. 500000)
  356 words of extra memory for PDF output out of 10000 (max. 10000000)
 
