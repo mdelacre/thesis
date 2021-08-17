@@ -28,7 +28,7 @@
 \contentsline {subsection}{Dans le chapitre 3}{97}{section*.33}%
 \contentsline {subsection}{Dans le chapitre 4}{97}{section*.34}%
 \contentsline {subsection}{Dans le chapitre 5}{98}{section*.35}%
-\contentsline {section}{Perspectives futures}{98}{section*.36}%
+\contentsline {section}{Perspectives futures}{99}{section*.36}%
 \contentsline {section}{Bibliographie}{101}{section*.38}%
 \contentsline {section}{Annexes}{109}{section*.39}%
 \contentsline {subsection}{Annexe A: erratum de l'article ``Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test'' (Chapitre 2)}{109}{section*.40}%
