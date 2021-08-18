@@ -3,9 +3,9 @@
 \contentsline {section}{Chapitre 1: Introduction}{1}{section*.3}%
 \contentsline {section}{Chapitre 2: Utiliser le test \(\bf \emph t\) de Welch par défaut}{9}{section*.5}%
 \contentsline {section}{Chapitre 3: Utiliser l'ANOVA \(\bf \emph F\) de Welch par défaut}{20}{section*.7}%
-\contentsline {section}{Chapitre 4: Utiliser le \(\bm {g^*}\) de Hedges basé sur l'écart-type non poolé}{33}{section*.9}%
+\contentsline {section}{Chapitre 4 : Utiliser le \(\bm {g^*}\) de Hedges basé sur l'écart-type non poolé}{33}{section*.9}%
 \contentsline {subsection}{Three purposes of effect size estimators}{35}{section*.10}%
-\contentsline {subsection}{Properties of a good effect size estimator}{36}{section*.11}%
+\contentsline {subsection}{Inferential properties of a good effect size estimator}{36}{section*.11}%
 \contentsline {subsection}{Different measures of effect sizes}{38}{section*.12}%
 \contentsline {subsubsection}{When variances are equal between groups}{38}{section*.13}%
 \contentsline {subsubsection}{When variances are unequal between populations}{42}{section*.14}%
@@ -25,15 +25,14 @@
 \contentsline {subsection}{Comparaison du TOST et du SGPV}{74}{section*.29}%
 \contentsline {section}{Discussion générale et conclusion}{86}{section*.31}%
 \contentsline {section}{Limites}{93}{section*.32}%
-\contentsline {subsubsection}{Pour le chapitre 5}{98}{section*.33}%
-\contentsline {section}{Perspectives futures}{98}{section*.34}%
-\contentsline {section}{Bibliographie}{100}{section*.36}%
-\contentsline {section}{Annexes}{108}{section*.37}%
-\contentsline {subsection}{Annexe A: erratum de l'article ``Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test'' (Chapitre 2)}{108}{section*.38}%
-\contentsline {subsubsection}{Mise en forme et Notations}{108}{section*.39}%
-\contentsline {subsubsection}{Faute(s) de frappe}{109}{section*.40}%
-\contentsline {subsection}{Annexe B: erratum de l'article ``Taking parametric assumptions very seriously: Arguments for the Use of Welch's \emph {F}-test instead of the Classical \emph {F}-test in One-Way ANOVA'' (Chapitre 3)}{110}{section*.41}%
-\contentsline {subsubsection}{Mise en forme et Notations}{110}{section*.42}%
-\contentsline {subsubsection}{Faute(s) de frappe et grammaire}{110}{section*.43}%
-\contentsline {subsection}{Annexe C: échanges avec Geoff Cumming, en vue d'améliorer l'article non publié ``Why Hedges' \(\bm {g_s^*}\) based on the non-pooled standard deviation should be reported with Welch's \(\bm {t}\)-test''}{112}{section*.44}%
-\contentsline {subsection}{Annexe D: Améliorations apportées par Aaron Caldwell dans la nouvell version du package TOSTER? Demander à Christophe ce qu'il en pense.}{132}{section*.45}%
+\contentsline {section}{Perspectives futures}{98}{section*.33}%
+\contentsline {section}{Bibliographie}{100}{section*.35}%
+\contentsline {section}{Annexes}{108}{section*.36}%
+\contentsline {subsection}{Annexe A: erratum de l'article ``Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test'' (Chapitre 2)}{108}{section*.37}%
+\contentsline {subsubsection}{Mise en forme et Notations}{108}{section*.38}%
+\contentsline {subsubsection}{Faute(s) de frappe}{109}{section*.39}%
+\contentsline {subsection}{Annexe B: erratum de l'article ``Taking parametric assumptions very seriously: Arguments for the Use of Welch's \emph {F}-test instead of the Classical \emph {F}-test in One-Way ANOVA'' (Chapitre 3)}{110}{section*.40}%
+\contentsline {subsubsection}{Mise en forme et Notations}{110}{section*.41}%
+\contentsline {subsubsection}{Faute(s) de frappe et grammaire}{110}{section*.42}%
+\contentsline {subsection}{Annexe C: échanges avec Geoff Cumming, en vue d'améliorer l'article non publié ``Why Hedges' \(\bm {g_s^*}\) based on the non-pooled standard deviation should be reported with Welch's \(\bm {t}\)-test''}{112}{section*.43}%
+\contentsline {subsection}{Annexe D: Améliorations apportées par Aaron Caldwell dans la nouvell version du package TOSTER? Demander à Christophe ce qu'il en pense.}{132}{section*.44}%
