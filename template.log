@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.10)  18 AUG 2021 13:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.10)  18 AUG 2021 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -715,7 +715,7 @@ Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with paralist package,
 (french.ldf)             reported on input line 128.
 LaTeX Info: Redefining \up on input line 128.
-<C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png, id=44, 225.
+<C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png, id=36, 225.
 84375pt x 225.84375pt>
 File: C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png Graphic
  file (type png)
@@ -786,7 +786,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 541.
 
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.pdf, i
-d=127, 482.80376pt x 756.8275pt>
+d=117, 482.80376pt x 756.8275pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.pd
@@ -795,7 +795,7 @@ Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 2/Chapitre 2-1.pdf  used on input line 543.
 (pdftex.def)             Requested size: 408.46236pt x 640.29233pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2.pdf, i
-d=128, 482.80376pt x 756.8275pt>
+d=118, 482.80376pt x 756.8275pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2.pd
@@ -807,7 +807,7 @@ re 2/Chapitre 2-2.pdf  used on input line 545.
 >] [10 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2
 .pdf>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.pdf, i
-d=222, 482.80376pt x 756.8275pt>
+d=212, 482.80376pt x 756.8275pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.pd
@@ -818,7 +818,7 @@ re 2/Chapitre 2-3.pdf  used on input line 547.
 [11 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.pdf, i
-d=262, 482.80376pt x 756.8275pt>
+d=252, 482.80376pt x 756.8275pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.pd
@@ -829,7 +829,7 @@ re 2/Chapitre 2-4.pdf  used on input line 549.
 [12 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.pdf, i
-d=353, 482.80376pt x 755.82375pt>
+d=342, 482.80376pt x 755.82375pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.pd
@@ -838,7 +838,7 @@ Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 2/Chapitre 2-5.pdf  used on input line 551.
 (pdftex.def)             Requested size: 435.10873pt x 681.15773pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.pdf, i
-d=354, 481.8pt x 755.82375pt>
+d=343, 481.8pt x 755.82375pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.pd
@@ -849,7 +849,7 @@ re 2/Chapitre 2-6.pdf  used on input line 553.
 [13 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.pdf, i
-d=456, 482.80376pt x 756.8275pt>
+d=446, 482.80376pt x 756.8275pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.pd
@@ -861,7 +861,7 @@ re 2/Chapitre 2-7.pdf  used on input line 555.
 f>] [15 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-
 7.pdf>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.pdf, i
-d=520, 482.80376pt x 756.8275pt>
+d=510, 482.80376pt x 756.8275pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.pd
@@ -872,7 +872,7 @@ re 2/Chapitre 2-8.pdf  used on input line 557.
 [16 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.pdf, i
-d=578, 481.8pt x 744.7825pt>
+d=568, 481.8pt x 744.7825pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.pd
@@ -883,7 +883,7 @@ re 2/Chapitre 2-9.pdf  used on input line 559.
 [17 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.pdf, 
-id=619, 483.8075pt x 753.81625pt>
+id=609, 483.8075pt x 753.81625pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.
 pdf Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.p
@@ -900,7 +900,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 575.
 
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-1.pdf, i
-d=669, 482.80376pt x 756.8275pt>
+d=659, 482.80376pt x 756.8275pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-1.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-1.pd
@@ -909,7 +909,7 @@ Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 3/Chapitre 3-1.pdf  used on input line 577.
 (pdftex.def)             Requested size: 408.46236pt x 640.29233pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-2.pdf, i
-d=670, 482.80376pt x 756.8275pt>
+d=660, 482.80376pt x 756.8275pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-2.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-2.pd
@@ -921,7 +921,7 @@ re 3/Chapitre 3-2.pdf  used on input line 579.
 f>] [21 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-
 2.pdf>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-3.pdf, i
-d=744, 482.80376pt x 756.8275pt>
+d=734, 482.80376pt x 756.8275pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-3.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-3.pd
@@ -932,7 +932,7 @@ re 3/Chapitre 3-3.pdf  used on input line 581.
 [22 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-3.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-4.pdf, i
-d=781, 483.8075pt x 756.8275pt>
+d=771, 483.8075pt x 756.8275pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-4.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-4.pd
@@ -943,7 +943,7 @@ re 3/Chapitre 3-4.pdf  used on input line 583.
 [23 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-4.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-5.pdf, i
-d=942, 481.8pt x 756.8275pt>
+d=932, 481.8pt x 756.8275pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-5.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-5.pd
@@ -954,7 +954,7 @@ re 3/Chapitre 3-5.pdf  used on input line 585.
 [24 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-5.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-6.pdf, i
-d=1020, 482.80376pt x 756.8275pt>
+d=1010, 482.80376pt x 756.8275pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-6.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-6.pd
@@ -965,7 +965,7 @@ re 3/Chapitre 3-6.pdf  used on input line 587.
 [25 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-6.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-7.pdf, i
-d=1066, 481.8pt x 756.8275pt>
+d=1055, 481.8pt x 756.8275pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-7.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-7.pd
@@ -976,7 +976,7 @@ re 3/Chapitre 3-7.pdf  used on input line 589.
 [26 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-7.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-8.pdf, i
-d=1131, 482.80376pt x 768.8725pt>
+d=1121, 482.80376pt x 768.8725pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-8.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-8.pd
@@ -987,7 +987,7 @@ re 3/Chapitre 3-8.pdf  used on input line 591.
 [27 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-8.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-9.pdf, i
-d=1167, 481.8pt x 768.8725pt>
+d=1157, 481.8pt x 768.8725pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-9.p
 df Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-9.pd
@@ -998,7 +998,7 @@ re 3/Chapitre 3-9.pdf  used on input line 593.
 [28 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-9.pd
 f>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-10.pdf, 
-id=1208, 482.80376pt x 755.82375pt>
+id=1198, 482.80376pt x 755.82375pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-10.
 pdf Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-10.p
@@ -1007,7 +1007,7 @@ Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 3/Chapitre 3-10.pdf  used on input line 595.
 (pdftex.def)             Requested size: 435.10873pt x 681.15773pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-11.pdf, 
-id=1209, 482.80376pt x 756.8275pt>
+id=1199, 482.80376pt x 756.8275pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-11.
 pdf Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-11.p
@@ -1019,7 +1019,7 @@ re 3/Chapitre 3-11.pdf  used on input line 597.
 df>] [30 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3
 -11.pdf>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-12.pdf, 
-id=1291, 482.80376pt x 753.81625pt>
+id=1281, 482.80376pt x 753.81625pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-12.
 pdf Graphic file (type pdf)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-12.p
@@ -1029,7 +1029,7 @@ re 3/Chapitre 3-12.pdf  used on input line 599.
 (pdftex.def)             Requested size: 436.26535pt x 681.15442pt.
 (./template.ent [31 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3
 /Chapitre 3-12.pdf>]) [32]
-<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png, id=1335,
+<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png, id=1325,
  367.3725pt x 173.14688pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png Grap
 hic file (type png)
@@ -1038,7 +1038,7 @@ Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
 re 4/title.png  used on input line 615.
 (pdftex.def)             Requested size: 367.38278pt x 173.15173pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png, id=
-1337, 372.39125pt x 172.14313pt>
+1327, 372.39125pt x 172.14313pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png
  Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png>
@@ -1049,7 +1049,7 @@ re 4/authornote.png  used on input line 618.
 [33 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png> <c:/
 Users/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png>] [34] [
 35]
-<template_files/figure-latex/BIAS-1.pdf, id=1357, 1084.05pt x 578.16pt>
+<template_files/figure-latex/BIAS-1.pdf, id=1347, 1084.05pt x 578.16pt>
 File: template_files/figure-latex/BIAS-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/BIAS-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/BIAS-1.pdf  used on input 
@@ -1089,7 +1089,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1194--1200
 ] [50] [51]
 <C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
 of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Hom
-_bal.png, id=1506, 948.54375pt x 443.15562pt>
+_bal.png, id=1496, 948.54375pt x 443.15562pt>
 File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
 lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
 y/Hom_bal.png Graphic file (type png)
@@ -1102,7 +1102,7 @@ res_relative quality/Hom_bal.png  used on input line 1437.
 (pdftex.def)             Requested size: 486.25484pt x 227.1762pt.
 <C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
 of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Hom
-_unbal.png, id=1507, 949.5475pt x 442.65375pt>
+_unbal.png, id=1497, 949.5475pt x 442.65375pt>
 File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
 lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
 y/Hom_unbal.png Graphic file (type png)
@@ -1130,7 +1130,7 @@ s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
 gures_relative quality/Hom_unbal.png>] [54]
 <C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
 of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
-_bal_N.png, id=1533, 948.04187pt x 440.64626pt>
+_bal_N.png, id=1523, 948.04187pt x 440.64626pt>
 File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
 lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
 y/Het_bal_N.png Graphic file (type png)
@@ -1143,7 +1143,7 @@ res_relative quality/Het_bal_N.png  used on input line 1564.
 (pdftex.def)             Requested size: 486.25795pt x 226.01083pt.
 <C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
 of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
-_bal_sd.png, id=1534, 950.04938pt x 442.65375pt>
+_bal_sd.png, id=1524, 950.04938pt x 442.65375pt>
 File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
 lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
 y/Het_bal_sd.png Graphic file (type png)
@@ -1171,7 +1171,7 @@ zes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined
 Figures_relative quality/Het_bal_sd.png>]
 <C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
 of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
-_firstlarger_SDR10.png, id=1555, 947.54pt x 442.65375pt>
+_firstlarger_SDR10.png, id=1544, 947.54pt x 442.65375pt>
 File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
 lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
 y/Het_firstlarger_SDR10.png Graphic file (type png)
@@ -1184,7 +1184,7 @@ res_relative quality/Het_firstlarger_SDR10.png  used on input line 1612.
 (pdftex.def)             Requested size: 486.26079pt x 227.16206pt.
 <C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
 of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
-_firstsmaller_SDR10.png, id=1556, 950.04938pt x 446.16687pt>
+_firstsmaller_SDR10.png, id=1545, 950.04938pt x 446.16687pt>
 File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
 lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
 y/Het_firstsmaller_SDR10.png Graphic file (type png)
@@ -1197,7 +1197,7 @@ res_relative quality/Het_firstsmaller_SDR10.png  used on input line 1621.
 (pdftex.def)             Requested size: 486.25836pt x 228.35904pt.
 <C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
 of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
-_firstlarger_SDR2.png, id=1557, 949.5475pt x 442.15187pt>
+_firstlarger_SDR2.png, id=1546, 949.5475pt x 442.15187pt>
 File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
 lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
 y/Het_firstlarger_SDR2.png Graphic file (type png)
@@ -1210,7 +1210,7 @@ res_relative quality/Het_firstlarger_SDR2.png  used on input line 1630.
 (pdftex.def)             Requested size: 486.26228pt x 226.4255pt.
 <C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
 of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
-_firstsmaller_SDR2.png, id=1558, 949.5475pt x 442.15187pt>
+_firstsmaller_SDR2.png, id=1547, 949.5475pt x 442.15187pt>
 File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
 lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
 y/Het_firstsmaller_SDR2.png Graphic file (type png)
@@ -1253,7 +1253,7 @@ l.1689
 Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qua
 lity/Het_firstsmaller_SDR2.png>] (./template.ent [60] [61]) [62] [63]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Table1
-.png, id=1622, 483.8075pt x 271.51437pt>
+.png, id=1612, 483.8075pt x 271.51437pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/T
 able1.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
@@ -1267,7 +1267,7 @@ ble1.png>]
 
 [65]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Table2
-.png, id=1633, 483.8075pt x 285.065pt>
+.png, id=1623, 483.8075pt x 285.065pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/T
 able2.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
@@ -1278,7 +1278,7 @@ re 5/Illustration/Table2.png  used on input line 1881.
 [66 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
 ble2.png>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fig1.p
-ng, id=1640, 361.35pt x 361.35pt>
+ng, id=1630, 361.35pt x 361.35pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/F
 ig1.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fi
@@ -1293,7 +1293,7 @@ re 5/Illustration/Fig1.png  used on input line 1916.
 l.1923 \newpage
                 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Ill
 ustration/Fig1.png>] [68]
-<template_files/figure-latex/equiv1-1.pdf, id=1656, 469.755pt x 325.215pt>
+<template_files/figure-latex/equiv1-1.pdf, id=1646, 469.755pt x 325.215pt>
 File: template_files/figure-latex/equiv1-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/equiv1-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/equiv1-1.pdf  used on inpu
@@ -1306,7 +1306,7 @@ e.11}) has been already used, duplicate ignored
 l.2069 
         <./template_files/figure-latex/equiv1-1.pdf>] [71] [72]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.png, i
-d=1692, 1491.5725pt x 1977.3875pt>
+d=1682, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.pn
@@ -1316,7 +1316,7 @@ re 5/Chapitre 5-1.png  used on input line 2166.
 (pdftex.def)             Requested size: 482.98007pt x 640.28989pt.
 [73]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.png, i
-d=1698, 1491.5725pt x 1977.3875pt>
+d=1688, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.pn
@@ -1327,7 +1327,7 @@ re 5/Chapitre 5-2.png  used on input line 2168.
 [74 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-1.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.png, i
-d=1705, 1491.5725pt x 1977.3875pt>
+d=1695, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.pn
@@ -1338,7 +1338,7 @@ re 5/Chapitre 5-3.png  used on input line 2170.
 [75 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-2.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.png, i
-d=1712, 1491.5725pt x 1977.3875pt>
+d=1702, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.pn
@@ -1349,7 +1349,7 @@ re 5/Chapitre 5-4.png  used on input line 2172.
 [76 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-3.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.png, i
-d=1718, 1491.5725pt x 1977.3875pt>
+d=1708, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.pn
@@ -1360,7 +1360,7 @@ re 5/Chapitre 5-5.png  used on input line 2174.
 [77 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-4.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.png, i
-d=1724, 1491.5725pt x 1977.3875pt>
+d=1714, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.pn
@@ -1371,7 +1371,7 @@ re 5/Chapitre 5-6.png  used on input line 2176.
 [78 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-5.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.png, i
-d=1730, 1491.5725pt x 1977.3875pt>
+d=1720, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.pn
@@ -1382,7 +1382,7 @@ re 5/Chapitre 5-7.png  used on input line 2178.
 [79 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-6.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.png, i
-d=1736, 1491.5725pt x 1977.3875pt>
+d=1726, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.pn
@@ -1393,7 +1393,7 @@ re 5/Chapitre 5-8.png  used on input line 2180.
 [80 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-7.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.png, i
-d=1742, 1491.5725pt x 1977.3875pt>
+d=1732, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.p
 ng Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.pn
@@ -1404,7 +1404,7 @@ re 5/Chapitre 5-9.png  used on input line 2182.
 [81 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-8.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.png, 
-id=1749, 1491.5725pt x 1977.3875pt>
+id=1739, 1491.5725pt x 1977.3875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.
 png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-10.p
@@ -1415,7 +1415,7 @@ re 5/Chapitre 5-10.png  used on input line 2184.
 [82 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-9.pn
 g>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.png, 
-id=1755, 501.91515pt x 165.85965pt>
+id=1745, 501.91515pt x 165.85965pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.
 png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-11.p
@@ -1428,166 +1428,166 @@ ng>] (./template.ent [84 <c:/Users/Admin/Documents/Github projects/thesis/Chapi
 tre 5/Chapitre 5-11.png>]) [85]
 \openout3 = `template.ent'.
 
-[86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] (./template.ent [98
-]) [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109]
-Underfull \hbox (badness 2818) in paragraph at lines 3339--3350
+[86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] (./template.en
+t [99]) [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110]
+Underfull \hbox (badness 2818) in paragraph at lines 3347--3358
 \T1/lmr/m/n/12 d'articles via Rmarkdown, certaines majuscules sont manquantes d
 ans les références
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3358--3361
+Underfull \hbox (badness 10000) in paragraph at lines 3366--3369
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3361--3364
+Underfull \hbox (badness 10000) in paragraph at lines 3369--3372
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3364--3367
-
- []
-
-[110]
-Underfull \hbox (badness 10000) in paragraph at lines 3367--3369
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3369--3373
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3373--3377
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3377--3379
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3379--3383
+Underfull \hbox (badness 10000) in paragraph at lines 3372--3375
 
  []
 
 [111]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 3393.
+Underfull \hbox (badness 10000) in paragraph at lines 3375--3377
 
-Underfull \hbox (badness 1275) in paragraph at lines 3405--3408
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3377--3381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3381--3385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3385--3387
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3387--3391
+
+ []
+
+[112]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 3401.
+
+Underfull \hbox (badness 1275) in paragraph at lines 3413--3416
 []\T1/lmr/m/n/12 Pour finir, cet échange a donné lieu à un blog post disponible
  à l'adresse suivante:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3405--3408
+Underfull \hbox (badness 10000) in paragraph at lines 3413--3416
 []$\T1/lmr/m/n/12 https : / / thenewstatistics . com / itns / 2021 / 06 / 17 / 
 which -[] standardised -[] e^^[ect -[] size -[] measure -[] is -[]
  []
 
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/Cummingmail1.png, id=1993, 1866.22218pt x 2640.86626pt>
+ng/Cummingmail1.png, id=1989, 1866.22218pt x 2640.86626pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/Cummingmail1.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
 umming/Cummingmail1.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 4/Echanges avec Cumming/Cummingmail1.png  used on input line 3409.
+re 4/Echanges avec Cumming/Cummingmail1.png  used on input line 3417.
 (pdftex.def)             Requested size: 481.36205pt x 681.16904pt.
-[112] [113 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges
+[113] [114 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges
  avec Cumming/Cummingmail1.png>]
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 3433.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 3441.
 
 
-[114]
+[115]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/printscreen.png, id=2010, 252.44313pt x 112.42pt>
+ng/printscreen.png, id=2006, 252.44313pt x 112.42pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
 umming/printscreen.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 4/Echanges avec Cumming/printscreen.png  used on input line 3464.
+re 4/Echanges avec Cumming/printscreen.png  used on input line 3472.
 (pdftex.def)             Requested size: 252.44635pt x 112.42143pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/printscreen2.png, id=2011, 240.39813pt x 135.00438pt>
+ng/printscreen2.png, id=2007, 240.39813pt x 135.00438pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen2.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
 umming/printscreen2.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 4/Echanges avec Cumming/printscreen2.png  used on input line 3481.
+re 4/Echanges avec Cumming/printscreen2.png  used on input line 3489.
 (pdftex.def)             Requested size: 240.4012pt x 135.00609pt.
-[115 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
+[116 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen.png> <c:/Users/Admin/Documents/Github projects/thesis/Chapi
-tre 4/Echanges avec Cumming/printscreen2.png>] [116]
-Overfull \hbox (24.5078pt too wide) in paragraph at lines 3547--3555
+tre 4/Echanges avec Cumming/printscreen2.png>] [117]
+Overfull \hbox (24.5078pt too wide) in paragraph at lines 3555--3563
 \T1/lmr/m/n/12 You will find them in the following folder: ``Scripts outputs/Qu
 ality of ES measures/Graphs/Unbiased
  []
 
-[117]
+[118]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/printscreen3.png, id=2028, 280.54813pt x 221.82875pt>
+ng/printscreen3.png, id=2024, 280.54813pt x 221.82875pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen3.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
 umming/printscreen3.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 4/Echanges avec Cumming/printscreen3.png  used on input line 3596.
+re 4/Echanges avec Cumming/printscreen3.png  used on input line 3604.
 (pdftex.def)             Requested size: 280.54742pt x 221.82819pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3608--3614
+Underfull \hbox (badness 10000) in paragraph at lines 3616--3622
 \T1/lmr/m/n/12 in CI.pdf, here: []$https : / / github . com / mdelacre / E^^[ec
 t -[] sizes / tree / master / Supplemental %
  []
 
-[118 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
+[119 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen3.png>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/printscreen4.png, id=2036, 442.2924pt x 251.37915pt>
+ng/printscreen4.png, id=2032, 442.2924pt x 251.37915pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen4.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
 umming/printscreen4.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 4/Echanges avec Cumming/printscreen4.png  used on input line 3639.
+re 4/Echanges avec Cumming/printscreen4.png  used on input line 3647.
 (pdftex.def)             Requested size: 442.29132pt x 251.37852pt.
-[119] [120 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges
- avec Cumming/printscreen4.png>] [121] [122] [123]
+[120] [121 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges
+ avec Cumming/printscreen4.png>] [122] [123] [124]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cummi
-ng/printscreen5.png, id=2061, 383.93437pt x 87.32625pt>
+ng/printscreen5.png, id=2057, 383.93437pt x 87.32625pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen5.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec C
 umming/printscreen5.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 4/Echanges avec Cumming/printscreen5.png  used on input line 3847.
+re 4/Echanges avec Cumming/printscreen5.png  used on input line 3855.
 (pdftex.def)             Requested size: 383.95685pt x 87.33136pt.
-[124 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
+[125 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec 
 Cumming/printscreen5.png>]
-Underfull \hbox (badness 2671) in paragraph at lines 3867--3884
+Underfull \hbox (badness 2671) in paragraph at lines 3875--3892
 \T1/lmr/m/n/12 here: []$https : / / github . com / mdelacre / E^^[ect -[] sizes
  / blob / master / Supplemental$ / %$20Material$ /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3867--3884
+Underfull \hbox (badness 10000) in paragraph at lines 3875--3892
 \T1/lmr/m/n/12 %$201 / Theoretical$ / %$20Variance$ / %$20of$ / %$20all$ / %$20
 estimators$ / %$20as$ / %$20a$ /
  []
 
-[125] [126] [127] [128] [129] [130] [131] 
+[126] [127] [128] [129] [130] [131] [132] 
 AED: lastpage setting LastPage
-[132] (./template.aux)
+[133] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 75E21BE5C04F51478EBE23AB09974A2C;2170.
+(rerunfilecheck)             Checksum: 9C185377C6EA504FDF1CF6C2C852DDC2;1941.
  )
 (\end occurred inside a group at level 2)
 
@@ -1595,10 +1595,10 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 ### semi simple group (level 1) entered at line 80 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14566 strings out of 480502
- 257270 string characters out of 5898081
- 563231 words of memory out of 5000000
- 31541 multiletter control sequences out of 15000+600000
+ 14565 strings out of 480502
+ 257252 string characters out of 5898081
+ 562224 words of memory out of 5000000
+ 31539 multiletter control sequences out of 15000+600000
  563160 words of font info for 121 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,10n,66p,1069b,3654s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1635,10 +1635,10 @@ ming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy5.pfb><c:/Users/Admin/AppData
 /Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/Users/Admin/App
 Data/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/Users/Admin
 /AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on template.pdf (136 pages, 16889340 bytes).
+Output written on template.pdf (137 pages, 16890094 bytes).
 PDF statistics:
- 2314 PDF objects out of 2487 (max. 8388607)
- 1531 compressed objects within 16 object streams
- 347 named destinations out of 1000 (max. 500000)
- 356 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2310 PDF objects out of 2487 (max. 8388607)
+ 1526 compressed objects within 16 object streams
+ 348 named destinations out of 1000 (max. 500000)
+ 340 words of extra memory for PDF output out of 10000 (max. 10000000)
 

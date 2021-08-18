@@ -7,18 +7,6 @@ header-includes:
   - \usepackage{bm}
 ---
 
-### Apports appliqués
-
-Or, un article méthodologique à lui seul suffit rarement à cela (d'après @mills_quantitative_2010, les chercheurs appliqués citent très peu les articles méthodologiques dans leur référence pour justifier leurs choix, ce qui pourrait être un signal du fait qu'ils basent peu leurs décisions sur ces articles). Dans l'autre sens, on constate que les articles méthodos sont généralement peu cités, et ils le sont encore 3 fois moins par les chercheurs appliqués que par les autres méthodologistes [@mills_quantitative_2010, p.56]. 
---> si l'article est très simple et avec des recommandations précises, ça peut aider!
-
-*[ Par manque de connaissances, les chercheurs se contentent souvent des informations fournies dans les logiciels clic/bouton. "for example, if software does not report a CI on Cohen's $d$, it is unlikely that a researcher will calculate one his or herself" (@counsell_reporting_2017). Une chance qu'on a, c'est Jamovi (regarder si Jamovi me cite)]*
-
-*[Anecdote, pour quand je parlerai des logiciels et de leur intérêt: les chercheurs font souvent l'erreur de croire qu'il faut vérifier la normalité de la VD en faisant une régression. Dans SPSS, il est assez complexe de le faire car il faut d'abord calculer les résidus, ce qui implique de comprendre que les tests t et ANOVA sont des cas particuliers de régression, puis ensuite a posteriori représenter graphiquement les résidus. C'est chronophage et complexe. Dans Jamovi, par contre, la vérification de la normalité des résidus est automatiquement réalisée lorsqu'on fait un test t. Le rôle des méthodologistes, à mon sens, est de prémacher le travail, pour permettre à d'autres de créer des outils conçus pour améliorer les pratiques de recherche. à partir du moment où c'est automatiquement fait correctement, il devient moins problématique que les psychologues maîtrisent le détail. Débarassés de ces questions, ils pourront peut-être alors plus se focaliser sur l'important pour mieux comprendre et interpréter les résultats de leur tests: càd comprendre la distribution d'échantillonnage, dont pratiquement tt découle.]*
-
-Malgré tout, un logiciel ne fait pas tout et après avoir utilisé le test adéquat, il est important d'être capable de l'interpréter correctement. Les tests font appel à des notions faussement simples telles que les p-valeurs et les distributions d'échantillonnage. A mon sens, le seul moyen d'enseigner correctement ces notions, c'est à travers des simulations. 
-
-
 
 D'après Thompson (1999a, cité par @fraas_testing_2000), les chercheurs continuent à utiliser la nil nul hypothesis pour 2 raisons:  (1) la plupart des logiciels partent du postulat que c'est l'hypothèse nulle qu'utilisent les chercheurs et ne donnent pas la possibilité de faire autre chose  (2) les non nil-nul hypotheses incluent un niveau de complexité pas toujours possible à atteindre dans bcp de designs.  Fraas et Newman (2001) admettent que les chercheurs sont probablement plus enclins à utiliser des procédures si elles sont implémentées dans des logiciels "user friendly".
 
@@ -26,11 +14,3 @@ D'après Thompson (1999a, cité par @fraas_testing_2000), les chercheurs continu
 
 
 
-## Limites
-
-## Perspectives futures
-
-
-
-Take home message :
-Ce qu’il faut retenir de ma thèse : les recommandations en qlq points.  Parler ici du fait que j’ai créé des packages et les indiquer : donner le lien github vers ces packages (même si déjà donné ailleurs). 
