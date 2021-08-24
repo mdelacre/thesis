@@ -24,20 +24,21 @@
 \contentsline {subsection}{Définir les bornes de la zone d'équivalence}{70}{section*.28}%
 \contentsline {subsection}{Comparaison du TOST et du SGPV}{74}{section*.29}%
 \contentsline {section}{Discussion générale et conclusion}{86}{section*.31}%
-\contentsline {subsection}{Limites et perspectives}{93}{section*.32}%
-\contentsline {subsection}{Perspectives futures}{98}{section*.33}%
-\contentsline {subsubsection}{Perspectives méthodologiques}{98}{section*.34}%
-\contentsline {paragraph}{Etude des échelles de Likert}{98}{section*.35}%
-\contentsline {paragraph}{Etude de tests pour échantillons intra}{99}{section*.36}%
-\contentsline {paragraph}{Déterminer l'équivalent ``Régression'' des tests de Welch}{99}{section*.37}%
-\contentsline {subsubsection}{Perspectives pédagogiques}{99}{section*.38}%
-\contentsline {section}{Bibliographie}{102}{section*.40}%
-\contentsline {section}{Annexes}{110}{section*.41}%
-\contentsline {subsection}{Annexe A: erratum de l'article ``Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test'' (Chapitre 2)}{110}{section*.42}%
-\contentsline {subsubsection}{Mise en forme et Notations}{110}{section*.43}%
-\contentsline {subsubsection}{Faute(s) de frappe}{111}{section*.44}%
-\contentsline {subsection}{Annexe B: erratum de l'article ``Taking parametric assumptions very seriously: Arguments for the Use of Welch's \emph {F}-test instead of the Classical \emph {F}-test in One-Way ANOVA'' (Chapitre 3)}{112}{section*.45}%
-\contentsline {subsubsection}{Mise en forme et Notations}{112}{section*.46}%
-\contentsline {subsubsection}{Faute(s) de frappe et grammaire}{112}{section*.47}%
-\contentsline {subsection}{Annexe C: échanges avec Geoff Cumming, en vue d'améliorer l'article non publié ``Why Hedges' \(\bm {g_s^*}\) based on the non-pooled standard deviation should be reported with Welch's \(\bm {t}\)-test''}{114}{section*.48}%
-\contentsline {subsection}{Annexe D: Améliorations apportées par Aaron Caldwell dans la nouvell version du package TOSTER? Demander à Christophe ce qu'il en pense.}{134}{section*.49}%
+\contentsline {subsection}{Objectifs de départ et apports de la thèse}{86}{section*.32}%
+\contentsline {subsection}{Limites}{93}{section*.33}%
+\contentsline {subsection}{Perspectives futures}{98}{section*.34}%
+\contentsline {subsubsection}{Perspectives méthodologiques}{98}{section*.35}%
+\contentsline {paragraph}{Bootstrapping}{99}{section*.36}%
+\contentsline {paragraph}{Etude de tests pour échantillons intra}{99}{section*.37}%
+\contentsline {paragraph}{Déterminer l'équivalent ``Régression'' des tests de Welch}{99}{section*.38}%
+\contentsline {subsubsection}{Perspectives pédagogiques}{99}{section*.39}%
+\contentsline {section}{Bibliographie}{101}{section*.41}%
+\contentsline {section}{Annexes}{110}{section*.42}%
+\contentsline {subsection}{Annexe A: erratum de l'article ``Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test'' (Chapitre 2)}{110}{section*.43}%
+\contentsline {subsubsection}{Mise en forme et Notations}{110}{section*.44}%
+\contentsline {subsubsection}{Faute(s) de frappe}{111}{section*.45}%
+\contentsline {subsection}{Annexe B: erratum de l'article ``Taking parametric assumptions very seriously: Arguments for the Use of Welch's \emph {F}-test instead of the Classical \emph {F}-test in One-Way ANOVA'' (Chapitre 3)}{112}{section*.46}%
+\contentsline {subsubsection}{Mise en forme et Notations}{112}{section*.47}%
+\contentsline {subsubsection}{Faute(s) de frappe et grammaire}{112}{section*.48}%
+\contentsline {subsection}{Annexe C: échanges avec Geoff Cumming, en vue d'améliorer l'article non publié ``Why Hedges' \(\bm {g_s^*}\) based on the non-pooled standard deviation should be reported with Welch's \(\bm {t}\)-test''}{114}{section*.49}%
+\contentsline {subsection}{Annexe D: Améliorations apportées par Aaron Caldwell dans la nouvell version du package TOSTER? Demander à Christophe ce qu'il en pense.}{134}{section*.50}%
