@@ -29,7 +29,7 @@
 \contentsline {subsection}{Perspectives futures}{98}{section*.34}%
 \contentsline {subsubsection}{Perspectives méthodologiques}{98}{section*.35}%
 \contentsline {paragraph}{Déterminer l'équivalent ``Régression'' des tests de Welch}{99}{section*.36}%
-\contentsline {subsubsection}{Perspectives pédagogiques}{100}{section*.37}%
+\contentsline {subsubsection}{Perspectives pédagogiques}{99}{section*.37}%
 \contentsline {section}{Bibliographie}{102}{section*.39}%
 \contentsline {section}{Annexes}{111}{section*.40}%
 \contentsline {subsection}{Annexe A: erratum de l'article ``Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test'' (Chapitre 2)}{111}{section*.41}%
