@@ -28,7 +28,7 @@
 \contentsline {subsection}{Limites}{93}{section*.33}%
 \contentsline {subsection}{Perspectives futures}{98}{section*.34}%
 \contentsline {subsubsection}{Perspectives méthodologiques}{98}{section*.35}%
-\contentsline {paragraph}{Déterminer l'équivalent ``Régression'' des tests de Welch}{101}{section*.36}%
+\contentsline {paragraph}{Déterminer l'équivalent ``Régression'' des tests de Welch}{100}{section*.36}%
 \contentsline {subsubsection}{Perspectives pédagogiques}{101}{section*.37}%
 \contentsline {section}{Bibliographie}{103}{section*.39}%
 \contentsline {section}{Annexes}{113}{section*.40}%
