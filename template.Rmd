@@ -180,7 +180,6 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 \theendnotes
 \endgroup
 
-\newpage
 
 ```{r biblio, child = 'bibliography.Rmd'}
 ```
