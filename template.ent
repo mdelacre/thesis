@@ -1,4 +1,4 @@
-\@doanenote {32}
+\@doanenote {33}
 macro:->Dans
 ce
 cas,
@@ -34,7 +34,7 @@ d'indépendance
 des
 résidus.
 \@endanenote 
-\@doanenote {33}
+\@doanenote {34}
 macro:->L'ANOVA
 $F$
 de
@@ -87,7 +87,7 @@ $F(1,x)
 =
 t^2(x)$.
 \@endanenote 
-\@doanenote {34}
+\@doanenote {35}
 macro:->Dans
 Jamovi,
 par
@@ -121,7 +121,7 @@ qui
 est
 proposée.
 \@endanenote 
-\@doanenote {35}
+\@doanenote {36}
 macro:->Ce
 package
 n'a
@@ -151,7 +151,7 @@ install.packages(``devtools'')\\
 library(devtools)\\
 install\_github(``mdelacre/deffectsize'').
 \@endanenote 
-\@doanenote {36}
+\@doanenote {37}
 macro:->L'application
 est
 disponible
@@ -161,7 +161,7 @@ suivante
 :
 https://effectsize.shinyapps.io/deffsize/
 \@endanenote 
-\@doanenote {37}
+\@doanenote {38}
 macro:->Le
 draft
 de
@@ -183,7 +183,7 @@ suivant
 :
 https://github.com/mdelacre/Effect-sizes.
 \@endanenote 
-\@doanenote {38}
+\@doanenote {39}
 macro:->Aaron
 Caldwell
 est
@@ -232,7 +232,7 @@ page
 :
 https://aaroncaldwell.us/
 \@endanenote 
-\@doanenote {39}
+\@doanenote {40}
 macro:->Le
 package
 amélioré
@@ -262,7 +262,7 @@ Twitter
 :
 https://twitter.com/ExPhysStudent/status/1400861069048958981.
 \@endanenote 
-\@doanenote {40}
+\@doanenote {41}
 macro:->Mattan
 S.
 Ben-Shachar
@@ -294,7 +294,7 @@ page
 :
 https://sites.google.com/view/mattansb/.
 \@endanenote 
-\@doanenote {41}
+\@doanenote {42}
 macro:->Les
 modifications
 qu'il
@@ -407,7 +407,7 @@ le
 de
 Cohen).
 \@endanenote 
-\@doanenote {42}
+\@doanenote {43}
 macro:->A
 l'origine,
 il
@@ -447,7 +447,7 @@ Pal,
 Subedi,
 2016).
 \@endanenote 
-\@doanenote {43}
+\@doanenote {44}
 macro:->Par
 exemple,
 lorsqu'on
@@ -490,7 +490,7 @@ variance
 (Lane,
 2016).
 \@endanenote 
-\@doanenote {44}
+\@doanenote {45}
 macro:->Comme
 le
 soulignent
@@ -537,7 +537,7 @@ deux
 mesures
 répétées
 \@endanenote 
-\@doanenote {45}
+\@doanenote {46}
 macro:->Parmi
 les
 alternatives
@@ -869,7 +869,7 @@ liberté
 sont
 impactés!
 \@endanenote 
-\@doanenote {46}
+\@doanenote {47}
 macro:->Le
 test
 de
