@@ -1,8 +1,8 @@
 \babel@toc {french}{}\relax 
 \setcounter {tocdepth}{1}
-\contentsline {section}{Chapitre 1: Introduction}{1}{section*.3}%
-\contentsline {section}{Chapitre 2: Utiliser le test \(\bf \emph t\) de Welch par défaut}{9}{section*.5}%
-\contentsline {section}{Chapitre 3: Utiliser l'ANOVA \(\bf \emph F\) de Welch par défaut}{20}{section*.7}%
+\contentsline {section}{Chapitre 1 : Introduction}{1}{section*.3}%
+\contentsline {section}{Chapitre 2 : Utiliser le test \(\bf \emph t\) de Welch par défaut}{9}{section*.5}%
+\contentsline {section}{Chapitre 3 : Utiliser l'ANOVA \(\bf \emph F\) de Welch par défaut}{20}{section*.7}%
 \contentsline {section}{Chapitre 4 : Utiliser le \(\bm {g^*}\) de Hedges basé sur l'écart-type non poolé}{33}{section*.9}%
 \contentsline {subsection}{Three purposes of effect size estimators}{35}{section*.10}%
 \contentsline {subsection}{Inferential properties of a good effect size estimator}{36}{section*.11}%
@@ -18,7 +18,7 @@
 \contentsline {subparagraph}{Method}{49}{section*.21}%
 \contentsline {subparagraph}{Results}{51}{section*.22}%
 \contentsline {subsubsection}{Recommendations}{60}{section*.23}%
-\contentsline {section}{Chapitre 5: Les tests d'équivalence}{63}{section*.25}%
+\contentsline {section}{Chapitre 5 : Les tests d'équivalence}{63}{section*.25}%
 \contentsline {subsection}{Limites de l'approche traditionnelle}{64}{section*.26}%
 \contentsline {subsection}{Les tests d'équivalence}{68}{section*.27}%
 \contentsline {subsection}{Définir les bornes de la zone d'équivalence}{70}{section*.28}%
@@ -27,14 +27,13 @@
 \contentsline {subsection}{Objectifs de départ et apports de la thèse}{86}{section*.32}%
 \contentsline {subsection}{Limites}{93}{section*.33}%
 \contentsline {subsection}{Perspectives futures}{98}{section*.34}%
-\contentsline {subsubsection}{Perspectives pédagogiques}{101}{section*.35}%
-\contentsline {section}{Bibliographie}{104}{section*.37}%
-\contentsline {section}{Annexes}{113}{section*.38}%
-\contentsline {subsection}{Annexe A: erratum de l'article ``Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test'' (Chapitre 2)}{113}{section*.39}%
-\contentsline {subsubsection}{Mise en forme et Notations}{113}{section*.40}%
-\contentsline {subsubsection}{Faute(s) de frappe}{114}{section*.41}%
-\contentsline {subsection}{Annexe B: erratum de l'article ``Taking parametric assumptions very seriously: Arguments for the Use of Welch's \emph {F}-test instead of the Classical \emph {F}-test in One-Way ANOVA'' (Chapitre 3)}{115}{section*.42}%
-\contentsline {subsubsection}{Mise en forme et Notations}{115}{section*.43}%
-\contentsline {subsubsection}{Faute(s) de frappe et grammaire}{115}{section*.44}%
-\contentsline {subsection}{Annexe C: échanges avec Geoff Cumming, en vue d'améliorer l'article non publié ``Why Hedges' \(\bm {g_s^*}\) based on the non-pooled standard deviation should be reported with Welch's \(\bm {t}\)-test''}{117}{section*.45}%
-\contentsline {subsection}{Annexe D: Améliorations apportées par Aaron Caldwell dans la nouvell version du package TOSTER? Demander à Christophe ce qu'il en pense.}{137}{section*.46}%
+\contentsline {section}{Bibliographie}{103}{section*.36}%
+\contentsline {section}{Annexes}{113}{section*.37}%
+\contentsline {subsection}{Annexe A: erratum de l'article ``Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test'' (Chapitre 2)}{113}{section*.38}%
+\contentsline {subsubsection}{Mise en forme et Notations}{113}{section*.39}%
+\contentsline {subsubsection}{Faute(s) de frappe}{114}{section*.40}%
+\contentsline {subsection}{Annexe B: erratum de l'article ``Taking parametric assumptions very seriously: Arguments for the Use of Welch's \emph {F}-test instead of the Classical \emph {F}-test in One-Way ANOVA'' (Chapitre 3)}{115}{section*.41}%
+\contentsline {subsubsection}{Mise en forme et Notations}{115}{section*.42}%
+\contentsline {subsubsection}{Faute(s) de frappe et grammaire}{115}{section*.43}%
+\contentsline {subsection}{Annexe C: échanges avec Geoff Cumming, en vue d'améliorer l'article non publié ``Why Hedges' \(\bm {g_s^*}\) based on the non-pooled standard deviation should be reported with Welch's \(\bm {t}\)-test''}{117}{section*.44}%
+\contentsline {subsection}{Annexe D: Améliorations apportées par Aaron Caldwell dans la nouvell version du package TOSTER? Demander à Christophe ce qu'il en pense.}{137}{section*.45}%

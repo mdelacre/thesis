@@ -437,17 +437,32 @@ faire
 (Boone
 \&
 Boone,
-2012~;
+2012;
 Joshi,
 Kale,
 Chandel,
 \&
 Pal,
-2015~;
+2015;
 Subedi,
 2016).
 \@endanenote 
 \@doanenote {44}
+macro:->Cette
+question
+est
+abordé
+dans
+le
+forum
+de
+discussion
+suivant
+:
+\url
+{https://stats.stackexchange.com/questions/142685/equivalent-to-welchs-t-test-in-gls-framework}
+\@endanenote 
+\@doanenote {45}
 macro:->Par
 exemple,
 lorsqu'on
@@ -490,7 +505,7 @@ variance
 (Lane,
 2016).
 \@endanenote 
-\@doanenote {45}
+\@doanenote {46}
 macro:->Comme
 le
 soulignent
@@ -537,7 +552,7 @@ deux
 mesures
 répétées
 \@endanenote 
-\@doanenote {46}
+\@doanenote {47}
 macro:->Parmi
 les
 alternatives
@@ -547,7 +562,7 @@ distingue
 l'approche
 multivariée
 (Lane,
-2016~;
+2016;
 MANOVA,
 Vasey
 \&
@@ -869,7 +884,7 @@ liberté
 sont
 impactés!
 \@endanenote 
-\@doanenote {47}
+\@doanenote {48}
 macro:->Le
 test
 de
