@@ -154,7 +154,7 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 
 \begingroup
 \parindent 0pt
-\renewcommand\notesname{{\normalsize Note de fin de chapitre}}
+\renewcommand\notesname{{\normalsize Endnotes}}
 \parskip 1ex
 \theendnotes
 \endgroup

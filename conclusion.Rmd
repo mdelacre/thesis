@@ -7,7 +7,7 @@ header-includes:
   - \usepackage{bm}
 ---
 
-# Discussion générale et conclusion
+# Chapitre 6 : Discussion générale et conclusion
 
 ## Objectifs de départ et apports de la thèse
 
