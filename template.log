@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.10)  6 SEP 2021 10:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.10)  6 SEP 2021 18:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1435,7 +1435,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2816--2900
 
 [99] [100] (./template.ent [101]
 
-LaTeX Warning: Command \' invalid in math mode on input line 886.
+LaTeX Warning: Command \' invalid in math mode on input line 888.
 
 ) [102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113]
 Underfull \hbox (badness 2818) in paragraph at lines 3516--3527
@@ -1599,11 +1599,11 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 Here is how much of TeX's memory you used:
  14583 strings out of 480502
  257508 string characters out of 5898081
- 564118 words of memory out of 5000000
+ 564122 words of memory out of 5000000
  31539 multiletter control sequences out of 15000+600000
  563160 words of font info for 121 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,10n,66p,1075b,3648s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,10n,66p,1074b,3648s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dv
 ips/lm/lm-rm.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/d
 vips/lm/lm-mathit.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/
@@ -1637,7 +1637,7 @@ ming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy5.pfb><c:/Users/Admin/AppData
 /Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/Users/Admin/App
 Data/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/Users/Admin
 /AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on template.pdf (139 pages, 16903682 bytes).
+Output written on template.pdf (139 pages, 16903707 bytes).
 PDF statistics:
  2341 PDF objects out of 2487 (max. 8388607)
  1555 compressed objects within 16 object streams
