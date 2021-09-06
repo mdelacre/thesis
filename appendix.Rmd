@@ -12,18 +12,18 @@ header-includes:
 
 ### Mise en forme et Notations
 
-Les lettres utilisées pour décrire les statistiques (test-$t$ ou test-$F$) doivent toujours être inscrites en *italique*. Or, cela a été omis à plusieurs reprises dans l'article. Par exemple, il aurait fallu écrire:   
-- p.9: "... as the Mann-Whitney $U$-test..." au lieu de "... as the Mann-Whitney U-test...";   
-- p.9: "$F$-ratio test" au lieu de "F-ratio test".   
+Les lettres utilisées pour décrire les statistiques ($t$ ou $F$, par exemple) doivent toujours être inscrites en *italique*. Or, cela a été omis à plusieurs reprises dans l'article. Par exemple, il aurait fallu écrire :   
+- p.9 : "... as the Mann-Whitney $U$-test..." au lieu de "... as the Mann-Whitney U-test...";   
+- p.9 : "$F$-ratio test" au lieu de "F-ratio test".   
 
-Certaines notations mathématiques auraient également dû être indiquées en italique. Par exemple, à la p.9, il aurait fallu écrire:     
+Certaines notations mathématiques auraient également dû être indiquées en italique. Par exemple, à la p.9, il aurait fallu écrire :     
 - "$x_{ij}$" au lieu de "$\mathrm{x_{ij}}$";  
 - |$x_{ij}-\hat{\theta_j}$| au lieu de |$\mathrm{x_{ij}-\hat{\theta_j}}$|. 
 
-Par ailleurs, il est très important d'être consistant dans le choix des notations mathématiques, afin d'éviter d'embrouiller le lecteur. Or, nous n'avons pas toujours respecté cela. Par exemple, nous avons utilisé plusieurs notations différentes pour décrire l'écart-type et la variance. Par exemple:   
-- p.9: nous utilisons respectivement SD1 et SD2 pour décrire l'écart-type de chaque groupe;  
-- p.11 (équation 1): nous utilisons respectivement $S^2_1$ et $S^2_2$ pour décrire la variance de chaque groupe;   
-- p.12 (équation 4): nous utilisons respectivement $s^2_1$ et $s^2_2$ (lettres minuscules) pour décrire la variance de chaque groupe.
+Par ailleurs, il est très important d'être consistant dans le choix des notations mathématiques, afin d'éviter d'embrouiller le lecteur. Or, nous n'avons pas toujours respecté cela. Par exemple, nous avons utilisé plusieurs notations différentes pour décrire l'écart-type et la variance. Par exemple :   
+- p.9 : nous utilisons respectivement SD1 et SD2 pour décrire l'écart-type de chaque groupe;  
+- p.11 (équation 1) : nous utilisons respectivement $S^2_1$ et $S^2_2$ pour décrire la variance de chaque groupe;   
+- p.12 (équation 4) : nous utilisons respectivement $s^2_1$ et $s^2_2$ (lettres minuscules) pour décrire la variance de chaque groupe.
 
 C'est d'autant plus problématique qu'il y a parfois même des inconsistances entre les notations utilisées dans les formules et celles utilisées dans les légendes des formules. Par exemple, nous spécifions p.11 que dans l'équation 1, $s^2_1$ et $s^2_2$ (lettres minuscules) représentent les estimations de variance de chaque groupe indépendant, alors qu'en réalité, les estimations des variances sont représentées par $S^2_1$ et $S^2_2$ (lettres majuscules) dans l'équation 1.
 
@@ -33,7 +33,7 @@ C'est d'autant plus problématique qu'il y a parfois même des inconsistances en
 
 \newpage
 
-## Annexe B: erratum de l'article "Taking parametric assumptions very seriously: Arguments for the Use of Welch’s *F*-test instead of the Classical *F*-test in One-Way ANOVA" (Chapitre 3)
+## Annexe B: erratum de l'article "Taking parametric assumptions very seriously : Arguments for the Use of Welch’s *F*-test instead of the Classical *F*-test in One-Way ANOVA" (Chapitre 3)
 
 ### Mise en forme et Notations  
 
@@ -41,29 +41,29 @@ Une légende est manquante pour certaines notations mathématiques. Par exemple,
 
 Par ailleurs, comme dans l'article précédent sur le test $t$ de Welch, on constate certaines incohérences en termes de notation. Par exemple, si la moyenne de chaque groupe est définie par $\bar{x_j}$ dans l'équation (1), elle est définie par $\bar{X_j}$ dans l'équation (7). 
 
-Enfin, dû à un manque de connaissance de Latex lors de mes premières tentatives d'écritures d'articles via Rmarkdown, certaines majuscules sont manquantes dans les références bibliographiques. S'assurer qu'une lettre apparaisse en majuscule, via latex, implique de l'entourer des symboles {}, ce qui n'a pas été fait. Par exemple, dans le titre de l'article de Tiku(1971), il aurait fallu indiquer "Power function of the {F}-test.." au lieu de "Power function of the F-test...". Cela ne serait pas arrivé, si j'avais utilisé un outil comme Zotero, afin d'exporter directement un fichier au format Bibtex (puisque via ces outils, ce genre de détail est automatiquement inclu), mais je n'ai découvert cette possibilité que récemment.
+Enfin, dû à un manque de connaissance de Latex lors de mes premières tentatives d'écritures d'articles via Rmarkdown, certaines majuscules sont manquantes dans les références bibliographiques. S'assurer qu'une lettre apparaisse en majuscule, via latex, implique de l'entourer des symboles {}, ce qui n'a pas été fait. Par exemple, dans le titre de l'article de Tiku(1971), il aurait fallu indiquer "Power function of the {F}-test.." au lieu de "Power function of the F-test...". Cela ne serait pas arrivé si j'avais utilisé un outil comme Zotero afin d'exporter directement un fichier au format Bibtex (puisque via ces outils, ce genre de détail est automatiquement inclus), mais je n'ai découvert cette possibilité que récemment.
 
 ### Faute(s) de frappe et grammaire
 
-- p.18: "Although it is important to make sure ~~test~~ **that** assumptions are met";    
-- p.19: "... we think that a ~~first~~ realistic first step towards progress would be to get researchers...";   
-- p.20: "Based on mathematical explanations and Monte~~o~~ Carlo simulations";  
-- p.21: "~~With~~ **w**ith $N=$...";  
-- p.21: "~~Where~~ **w**here ~~$x_j$~~ $\bar{x_j}$ and $s^2_j$ are respectively the group mean and the group variance...";    
-- p.22: "... negative pairings (the group with the ~~smallest~~ **largest** sample size is extracted from the population with the smallest $SD$);  
-- p.22: "the type I error rate of all test**s**";  
-- p.24: "... which is either more liberal or more conservative, depending on the $SDs$ and ~~$SD$~~ **sample sizes** pairing";  
-- p.24: "... ~~whatever~~ the correlation between the $SD$ and the mean **does not matter**";  
+- p.18 : "Although it is important to make sure ~~test~~ **that** assumptions are met";    
+- p.19 : "... we think that a ~~first~~ realistic first step towards progress would be to get researchers...";   
+- p.20 : "Based on mathematical explanations and Monte~~o~~ Carlo simulations";  
+- p.21 : "~~With~~ **w**ith $N=$...";  
+- p.21 : "~~Where~~ **w**here ~~$x_j$~~ $\bar{x_j}$ and $s^2_j$ are respectively the group mean and the group variance...";    
+- p.22 : "... negative pairings (the group with the ~~smallest~~ **largest** sample size is extracted from the population with the smallest $SD$);  
+- p.22 : "the type I error rate of all test**s**";  
+- p.24 : "... which is either more liberal or more conservative, depending on the $SDs$ and ~~$SD$~~ **sample sizes** pairing";  
+- p.24 : "... ~~whatever~~ the correlation between the $SD$ and the mean **does not matter**";  
 
 \newpage
 
-## Annexe C: échanges avec Geoff Cumming, en vue d'améliorer l'article non publié "Why Hedges’ $\bm{g_s^*}$ based on the non-pooled standard deviation should be reported with Welch’s $\bm{t}$-test"
+## Annexe C : échanges avec Geoff Cumming, en vue d'améliorer l'article non publié "Why Hedges’ $\bm{g_s^*}$ based on the non-pooled standard deviation should be reported with Welch’s $\bm{t}$-test"
 
 Le 4 juin 2021, suite à la soumission d'un preprint de notre article sur les tailles d'effet, nous avons eu le plaisir de recevoir un email de la part de Geoff Cumming. Cet email est présenté à la page suivante.
 
 En pièce jointe de cet email, figurait un feedback long et détaillé de notre article. Celui-ci est entièrement retranscris juste après le mail. Le texte en bleu qui est inséré dans ce feedback correspond aux réponses que nous lui avons fournies, et le texte en brun correspond aux réactions de Cumming à nos réponses. 
 
-Pour finir, cet échange a donné lieu à un blog post disponible à l'adresse suivante: https://thenewstatistics.com/itns/2021/06/17/which-standardised-effect-size-measure-is-best-when-variances-are-unequal/.
+Pour finir, cet échange a donné lieu à un blog post disponible à l'adresse suivante : https://thenewstatistics.com/itns/2021/06/17/which-standardised-effect-size-measure-is-best-when-variances-are-unequal/.
 
 ![Mail from Cumming](C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Echanges avec Cumming/Cummingmail1.png)
 \newpage
@@ -312,6 +312,5 @@ Cheers,
 Geoff  
 \color{black} ------------------------------------------------------------
 
-\newpage
-## Annexe D: Améliorations apportées par Aaron Caldwell dans la nouvell version du package TOSTER? Demander à Christophe ce qu'il en pense. 
+
 
