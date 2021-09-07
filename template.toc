@@ -28,11 +28,11 @@
 \contentsline {subsection}{Limites}{93}{section*.33}%
 \contentsline {subsection}{Perspectives futures}{98}{section*.34}%
 \contentsline {section}{Bibliographie}{103}{section*.36}%
-\contentsline {section}{Annexes}{114}{section*.37}%
-\contentsline {subsection}{Annexe A: erratum de l'article ``Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test'' (Chapitre 2)}{114}{section*.38}%
-\contentsline {subsubsection}{Mise en forme et Notations}{114}{section*.39}%
-\contentsline {subsubsection}{Faute(s) de frappe}{115}{section*.40}%
-\contentsline {subsection}{Annexe B: erratum de l'article ``Taking parametric assumptions very seriously : Arguments for the Use of Welch's \emph {F}-test instead of the Classical \emph {F}-test in One-Way ANOVA'' (Chapitre 3)}{116}{section*.41}%
-\contentsline {subsubsection}{Mise en forme et Notations}{116}{section*.42}%
-\contentsline {subsubsection}{Faute(s) de frappe et grammaire}{116}{section*.43}%
-\contentsline {subsection}{Annexe C : échanges avec Geoff Cumming, en vue d'améliorer l'article non publié ``Why Hedges' \(\bm {g_s^*}\) based on the non-pooled standard deviation should be reported with Welch's \(\bm {t}\)-test''}{118}{section*.44}%
+\contentsline {section}{Annexes}{115}{section*.37}%
+\contentsline {subsection}{Annexe A: erratum de l'article ``Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test'' (Chapitre 2)}{115}{section*.38}%
+\contentsline {subsubsection}{Mise en forme et Notations}{115}{section*.39}%
+\contentsline {subsubsection}{Faute(s) de frappe}{116}{section*.40}%
+\contentsline {subsection}{Annexe B: erratum de l'article ``Taking parametric assumptions very seriously : Arguments for the Use of Welch's \emph {F}-test instead of the Classical \emph {F}-test in One-Way ANOVA'' (Chapitre 3)}{117}{section*.41}%
+\contentsline {subsubsection}{Mise en forme et Notations}{117}{section*.42}%
+\contentsline {subsubsection}{Faute(s) de frappe et grammaire}{117}{section*.43}%
+\contentsline {subsection}{Annexe C : échanges avec Geoff Cumming, en vue d'améliorer l'article non publié ``Why Hedges' \(\bm {g_s^*}\) based on the non-pooled standard deviation should be reported with Welch's \(\bm {t}\)-test''}{119}{section*.44}%
