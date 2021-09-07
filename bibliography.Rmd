@@ -1,6 +1,8 @@
 ---
 title: ''
 output: pdf_document
+header-includes:
+    - \usepackage{setspace}\doublespacing
 ---
 
 # Bibliographie

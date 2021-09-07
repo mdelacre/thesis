@@ -9,7 +9,7 @@ header-includes:
   - \usepackage{float}
   - \usepackage{sectsty}
   - \usepackage{paralist}
-  - \usepackage{setspace}\spacing{1.5}
+  - \usepackage{setspace} \spacing{1.5}
   - \usepackage{fancyhdr}
   - \usepackage{lastpage}
   - \usepackage{dcolumn}
@@ -181,11 +181,13 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 \endgroup
 
 \newpage
+\doublespacing
 
 ```{r biblio, child = 'bibliography.Rmd'}
 ```
 
 \newpage
+\spacing{1.5}
 
 ```{r annexe, child = 'appendix.Rmd'}
 ```
