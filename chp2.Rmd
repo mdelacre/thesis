@@ -9,7 +9,7 @@ header-includes:
   - \usepackage{sectsty}
 ---
 
-# Chapitre 2 : Utiliser le test $\bf \emph t$ de Welch par défaut ^[Un erratum de cet article figure dans l'annexe A.]
+# Chapitre 2 : Utiliser le test $\bf \emph t$ de Welch par défaut
 
 ```{r "chp2p1", fig.align='center',echo=FALSE,out.height="94%"}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.png")

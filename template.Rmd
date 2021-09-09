@@ -22,6 +22,7 @@ header-includes:
   - \usepackage{bm}
 
 bibliography: bibliography.bib
+
 lang: fr
 csl: apa-fr-provost.csl
 ---
@@ -184,10 +185,4 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 \doublespacing
 
 ```{r biblio, child = 'bibliography.Rmd'}
-```
-
-\newpage
-\spacing{1.5}
-w
-```{r annexe, child = 'appendix.Rmd'}
 ```

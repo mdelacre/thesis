@@ -20,19 +20,11 @@
 \contentsline {subsubsection}{Recommendations}{60}{section*.23}%
 \contentsline {section}{Chapitre 5 : Les tests d'équivalence}{63}{section*.25}%
 \contentsline {subsection}{Limites de l'approche traditionnelle}{64}{section*.26}%
-\contentsline {subsection}{Les tests d'équivalence}{68}{section*.27}%
+\contentsline {subsection}{Les tests d'équivalence}{67}{section*.27}%
 \contentsline {subsection}{Définir les bornes de la zone d'équivalence}{70}{section*.28}%
-\contentsline {subsection}{Comparaison du TOST et du SGPV}{74}{section*.29}%
-\contentsline {section}{Chapitre 6 : Discussion générale et conclusion}{86}{section*.31}%
-\contentsline {subsection}{Objectifs de départ, résumé et apports de la thèse}{86}{section*.32}%
-\contentsline {subsection}{Limites}{93}{section*.33}%
-\contentsline {subsection}{Perspectives futures}{98}{section*.34}%
-\contentsline {section}{Bibliographie}{103}{section*.36}%
-\contentsline {section}{Annexes}{115}{section*.37}%
-\contentsline {subsection}{Annexe A: erratum de l'article ``Why psychologists Should by Default Use Welch's \emph {t}-test Instead of Student's \emph {t}-test'' (Chapitre 2)}{115}{section*.38}%
-\contentsline {subsubsection}{Mise en forme et Notations}{115}{section*.39}%
-\contentsline {subsubsection}{Faute(s) de frappe}{116}{section*.40}%
-\contentsline {subsection}{Annexe B: erratum de l'article ``Taking parametric assumptions very seriously : Arguments for the Use of Welch's \emph {F}-test instead of the Classical \emph {F}-test in One-Way ANOVA'' (Chapitre 3)}{117}{section*.41}%
-\contentsline {subsubsection}{Mise en forme et Notations}{117}{section*.42}%
-\contentsline {subsubsection}{Faute(s) de frappe et grammaire}{117}{section*.43}%
-\contentsline {subsection}{Annexe C : échanges avec Geoff Cumming, en vue d'améliorer l'article non publié ``Why Hedges' \(\bm {g_s^*}\) based on the non-pooled standard deviation should be reported with Welch's \(\bm {t}\)-test''}{119}{section*.44}%
+\contentsline {subsection}{Comparaison du TOST et du SGPV}{73}{section*.29}%
+\contentsline {section}{Chapitre 6 : Discussion générale et conclusion}{85}{section*.31}%
+\contentsline {subsection}{Objectifs de départ, résumé et apports de la thèse}{85}{section*.32}%
+\contentsline {subsection}{Limites}{92}{section*.33}%
+\contentsline {subsection}{Perspectives futures}{95}{section*.34}%
+\contentsline {section}{Bibliographie}{100}{section*.36}%
