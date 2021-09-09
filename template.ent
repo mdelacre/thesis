@@ -474,51 +474,6 @@ Subedi,
 2016).
 \@endanenote 
 \@doanenote {42}
-macro:->La
-question
-de
-l'équation
-de
-prédiction
-appropriée
-à
-utiliser
-en
-cas
-d'hétérogénéité
-des
-variances
-ainsi
-que
-de
-l'approche
-utile
-pour
-tester
-la
-significativité
-du
-(ou
-des)
-coefficient(s)
-associé(s)
-au
-prédicteur
-``groupe
-d'appartenance''
-est
-abordée
-dans
-le
-forum
-de
-discussion
-suivant
-:
-\url
-{https://stats.stackexchange.com/questions/142685/equivalent-to-welchs-t-test-in-gls-framework}).
-\@endanenote 
-\@doanenote {43}
 macro:->Par
 exemple,
 lorsqu'on
@@ -561,7 +516,7 @@ variance
 (Lane,
 2016).
 \@endanenote 
-\@doanenote {44}
+\@doanenote {43}
 macro:->Comme
 le
 soulignent
@@ -610,7 +565,7 @@ deux
 mesures
 répétées.
 \@endanenote 
-\@doanenote {45}
+\@doanenote {44}
 macro:->Parmi
 les
 alternatives
@@ -941,7 +896,7 @@ liberté
 sont
 impactés!
 \@endanenote 
-\@doanenote {46}
+\@doanenote {45}
 macro:->Le
 test
 de
@@ -1000,4 +955,49 @@ puissance
 \&
 Thayer,
 1987).
+\@endanenote 
+\@doanenote {46}
+macro:->La
+question
+de
+l'équation
+de
+prédiction
+appropriée
+à
+utiliser
+en
+cas
+d'hétérogénéité
+des
+variances
+ainsi
+que
+de
+l'approche
+utile
+pour
+tester
+la
+significativité
+du
+(ou
+des)
+coefficient(s)
+associé(s)
+au
+prédicteur
+``groupe
+d'appartenance''
+est
+abordée
+dans
+le
+forum
+de
+discussion
+suivant
+:
+\url
+{https://stats.stackexchange.com/questions/142685/equivalent-to-welchs-t-test-in-gls-framework}).
 \@endanenote 

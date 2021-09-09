@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.10)  27 AUG 2021 16:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.8)  9 SEP 2021 10:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **conclusion.tex
 (./conclusion.tex
 LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-07-12> (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
+L3 programming layer <2021-08-27> (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/base/article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.clo
@@ -522,56 +522,55 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [1
 
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
-x.map}] [2]
-Underfull \hbox (badness 1147) in paragraph at lines 345--345
+x.map}] [2] [3]
+Underfull \hbox (badness 1147) in paragraph at lines 342--342
 [][][]\T1/lmr/m/n/8 Le draft de l'article ainsi que l'ensemble des scripts et o
 ut-puts générés sont disponibles via le lien suiv-ant :
  []
 
-[3] [4] [5] [6] [7]
+[4] [5] [6] [7] [8]
 
-LaTeX Warning: Command \' invalid in math mode on input line 770.
+LaTeX Warning: Command \' invalid in math mode on input line 701.
 
-[8]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 8
-26.
-(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [9] [10] (./conclusion.aux)
+
+Underfull \hbox (badness 6658) in paragraph at lines 701--701
+[][][]\T1/lmr/m/n/8 Parmi les al-ter-na-tives pro-posées, on dis-tingue l'appro
+che mul-ti-var-iée [MANOVA, @vasey_continuing_1987;
+ []
+
+[9] (./conclusion.aux)
 Package rerunfilecheck Info: File `conclusion.out' has not changed.
-(rerunfilecheck)             Checksum: DDE70082E7364DB5E1750534DBD71807;1146.
+(rerunfilecheck)             Checksum: 199CD2EF240D0DF33D3A81CC80A9B534;884.
  ) 
 Here is how much of TeX's memory you used:
- 10169 strings out of 480502
- 149763 string characters out of 5898081
- 477190 words of memory out of 5000000
- 27630 multiletter control sequences out of 15000+600000
- 473269 words of font info for 79 fonts, out of 8000000 for 9000
+ 10125 strings out of 480559
+ 148625 string characters out of 5901781
+ 476307 words of memory out of 5000000
+ 27538 multiletter control sequences out of 15000+600000
+ 469909 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,8n,66p,396b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,66p,396b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-math
 it.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm
--ts1.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/
-lm-ec.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm
-/lm-rm.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/l
-m/lm-mathsy.enc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
-public/lm/lmbx10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
-ype1/public/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fo
-nts/type1/public/lm/lmmi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-di
-st/fonts/type1/public/lm/lmmi6.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texm
-f-dist/fonts/type1/public/lm/lmmi8.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/
-texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roaming/Tiny
-TeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/Admin/AppData/Roaming/T
-inyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/Admin/AppData/Roamin
-g/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admin/AppData/Roa
-ming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/Admin/AppDat
-a/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Admin/A
-ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/Users/Adm
-in/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on conclusion.pdf (10 pages, 293203 bytes).
+-mathsy.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/
+lm/lm-rm.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips
+/lm/lm-ec.enc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pu
+blic/lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
+e1/public/lm/lmmi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/font
+s/type1/public/lm/lmmi6.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/
+fonts/type1/public/lm/lmmi8.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-d
+ist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/tex
+mf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/
+texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/Admin/AppData/Roaming/TinyT
+eX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Admin/AppData/Roaming/Ti
+nyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/Admin/AppData/Roami
+ng/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Admin/AppData/
+Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/Users/Admin/AppD
+ata/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
+Output written on conclusion.pdf (9 pages, 251591 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 183 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
