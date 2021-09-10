@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.8)  9 SEP 2021 10:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.8)  9 SEP 2021 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -528,25 +528,25 @@ Underfull \hbox (badness 1147) in paragraph at lines 342--342
 ut-puts générés sont disponibles via le lien suiv-ant :
  []
 
-[4] [5] [6] [7] [8]
+[4] [5] [6] [7]
 
-LaTeX Warning: Command \' invalid in math mode on input line 701.
+LaTeX Warning: Command \' invalid in math mode on input line 677.
 
 
-Underfull \hbox (badness 6658) in paragraph at lines 701--701
+Underfull \hbox (badness 6658) in paragraph at lines 677--677
 [][][]\T1/lmr/m/n/8 Parmi les al-ter-na-tives pro-posées, on dis-tingue l'appro
 che mul-ti-var-iée [MANOVA, @vasey_continuing_1987;
  []
 
-[9] (./conclusion.aux)
+[8] [9] [10] (./conclusion.aux)
 Package rerunfilecheck Info: File `conclusion.out' has not changed.
-(rerunfilecheck)             Checksum: 199CD2EF240D0DF33D3A81CC80A9B534;884.
+(rerunfilecheck)             Checksum: 5AEE9F2C7B619D97DE17B7FF3FA6F3A6;1042.
  ) 
 Here is how much of TeX's memory you used:
- 10125 strings out of 480559
- 148625 string characters out of 5901781
- 476307 words of memory out of 5000000
- 27538 multiletter control sequences out of 15000+600000
+ 10130 strings out of 480559
+ 148706 string characters out of 5901781
+ 476354 words of memory out of 5000000
+ 27540 multiletter control sequences out of 15000+600000
  469909 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,8n,66p,396b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -567,10 +567,10 @@ nyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/Admin/AppData/Roami
 ng/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Admin/AppData/
 Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/Users/Admin/AppD
 ata/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on conclusion.pdf (9 pages, 251591 bytes).
+Output written on conclusion.pdf (10 pages, 257492 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

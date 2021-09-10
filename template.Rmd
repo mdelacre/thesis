@@ -173,7 +173,6 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 
 ```{r conclusion, child = 'conclusion.Rmd'}
 ```
-\newpage
 \begingroup
 \parindent 0pt
 \renewcommand\notesname{{\normalsize Notes de fin de chapitre}}
