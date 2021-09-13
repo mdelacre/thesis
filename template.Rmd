@@ -21,7 +21,7 @@ header-includes:
   - \newcommand{\elandscape}{\end{landscape}}
   - \usepackage{bm}
 
-bibliography: bibliography.bib
+bibliography: bibliography_formatRmd.bib
 
 lang: fr
 csl: apa-fr-provost.csl

@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.6)  12 JUL 2021 10:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.8)  13 SEP 2021 10:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **chp4backup.tex
 (./chp4backup.tex
 LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-06-18> (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
+L3 programming layer <2021-08-27> (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/apa6/apa6.cls
 Document Class: apa6 2020/01/13 v2.34 APA formatting (6th edition)
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
@@ -618,9 +618,9 @@ LaTeX Warning: Command \underline  has changed.
 
 ) (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babel.st
 y
-Package: babel 2021/06/28 3.61 The Babel package
+Package: babel 2021/07/22 3.63 The Babel package
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2021/06/28 3.61 Babel common definitions
+File: babel.def 2021/07/22 3.63 Babel common definitions
 \babel@savecnt=\count311
 \U@D=\dimen194
 \l@unhyphenated=\language3
@@ -658,7 +658,7 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count313
 \l__pdf_internal_box=\box64
 )
@@ -921,10 +921,10 @@ Type  H <return>  for immediate help.
 l.568 \begin{sidewaysfigure}
                              
 Here is how much of TeX's memory you used:
- 14743 strings out of 480477
- 223697 string characters out of 5897581
- 571259 words of memory out of 5000000
- 32080 multiletter control sequences out of 15000+600000
+ 14880 strings out of 480559
+ 228392 string characters out of 5901781
+ 568201 words of memory out of 5000000
+ 32135 multiletter control sequences out of 15000+600000
  487197 words of font info for 95 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,12n,80p,2958b,489s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -148,9 +148,21 @@ While the pooled error term is the best choice when variances are equal between 
 \newpage
 \blandscape
 
-```{r "chp4.1", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Tables/Table 1.PNG")
-```
+| |  df   |      Expectation    |               Variance                     |
+|-----------| :--------:  |:---------------------:  | :--------------------------------------:  |
+| Cohen's $d_s$    |     $N-2$| $\delta_{Cohen} \times c_f$  |$\frac{N\times df}{n_1n_2 \times (df-2)} + \delta^2_{Cohen} \left[ \frac{df}{df-2} - c_f^2\right]$ |
+|    |      |  |    |
+|    | |$\approx \frac{\delta_{Cohen}}{\left(1-\frac{3}{4N-9}\right)}$|$\approx \frac{N\times df}{n_1n_2 \times (df-2)} + \delta^2_{Cohen} \left[ \frac{df}{df-2} - \left( \frac{1}{1-\frac{3}{4N-9} }\right)^2\right]$    |
+|    |      |  |    |
+|    |      |  |    |
+| Hedges' $g_s$   |$N-2$ | $\delta_{Cohen}$       |$Var(Cohen's \; d_s) \times \left[ \frac{\Gamma(\frac{df}{2})}{\sqrt{\frac{df}{2}} \times \Gamma(\frac{df-1}{2})} \right]^2$   |
+|    |      |  |    |
+|     |       |  |$\approx Var(Cohen's \; d_s) \times \left[1-\frac{3}{4N-9}\right]^2$   |
+|    |      |  |    |
+
+Table: Expentency, bias and variance of Cohen's $d_s$ and Hedges' $g_s$ under the assumptions that independent residuals are normally distributed with equal variances across groups.  
+
+*Note*. $\delta_{Cohen}= \frac{\mu_1-\mu_2}{\sigma_{pooled}}$ and $c_f=\frac{\sqrt{\frac{df}{2}} \times \Gamma\left( \frac{df-1}{2}\right)}{\Gamma\left( \frac{df}{2}\right)}$; Cohen's $d_s$ is a biased estimator, because its expectation differs from the population effect size. Moreover, the larger the population estimator ($\delta_{Cohen}$), the larger the bias. Indeed, the bias is the difference between the expectation and $\delta_{Cohen}$: $\delta_{bias} = \delta_{Cohen} \times (c_f-1)$. On the other hand, Hedges' $g_s$ is an unbiased estimator, because its expectation equals $\delta_{Cohen}$; equations in Table 1 require $df \ge 3$ (i.e. $N \ge 5$).
 
 \elandscape
 
@@ -183,9 +195,19 @@ where $\delta_{Glass} = \frac{\mu_{c}-\mu_{e}}{\sigma_{c}}$ and $\mu_c$ and $\mu
 \newpage
 \blandscape
 
-```{r "chp4.2", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Tables/Table 2.PNG")
-```
+| | df|      Expectation    |               Variance                     |
+|:-----------|:-------------------:|:-----------------:  | :----------------------------------------------------:| 
+| Glass's $d_s$    |$n_c-1$|\ $\delta_{Glass} \times c_f$  |   $\frac{df}{df-2} \times \left( \frac{1}{n_c} + \frac{\sigma^2_e}{n_e\sigma^2_c}\right) + \delta^2_{Glass} \left( \frac{df}{df-2} - c_f^2 \right)$ |     |
+|    |      |  |    |
+| Cohen's $d^*_s$    |$\frac{(n_1-1)(n_2-1)(\sigma^2_1+\sigma^2_2)^2}{(n_2-1)\sigma^4_1+(n_1-1)\sigma^4_2}$|  $\delta^*_{Cohen} \times c_f$       |$\frac{df}{df-2} \times \frac{2\left( \frac{\sigma^2_1}{n_1} + \frac{\sigma^2_2}{n_2} \right)}{\sigma^2_1+\sigma^2_2} + (\delta^*_{Cohen})^2 \left( \frac{df}{df-2} - c_f^2 \right)$ |     |
+  |    |      |  |    ||
+  |     || $\approx \delta^*_{Cohen} \times \frac{4df-1}{4(df-1)}$  |  $\approx \frac{df}{df-2} \times \frac{2\left( \frac{\sigma^2_1}{n_1} + \frac{\sigma^2_2}{n_2} \right)}{\sigma^2_1+\sigma^2_2} + (\delta^*_{Cohen})^2 \left[ \frac{df}{df-2} - \left( \frac{4 \;df-1}{4(df-1)}\right)^2 \right]$              |
+|    |      |  |    |
+  |  Shieh's $d_s$  |$\frac{\left(\frac{\sigma^2_1}{n_1}+\frac{\sigma^2_2}{n_2} \right)^2}{\frac{(\sigma^2_1/n_1)^2}{n_1-1}+\frac{(\sigma^2_2/n_2)^2}{n_2-1}}$|$\delta_{Shieh} \times c_f$|$\frac{df}{(df-2)N}  + \delta^2_{Shieh} \left( \frac{df}{df-2} - c_f^2 \right)$    |
+|    |      |  |    |
+Table: Expentency, bias and variance of Glass's $d_s$ and Cohen's $d^*_s$ and Shieh's $d_s$ under the assumption that independent residuals are normally distributed.
+
+*Note*. $c_f=\frac{\sqrt{\frac{df}{2}} \times \Gamma\left( \frac{df-1}{2}\right)}{\Gamma\left( \frac{df}{2}\right)}$; $\delta_{Glass}=\frac{\mu_c-\mu_e}{\sigma_c}$, $\delta_{Shieh}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1}{n_1/N}+\frac{\sigma^2_2}{n_2/N}}}$ and $\delta^*_{Cohen}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1+\sigma^2_2}{2}}}$; all estimators are biased estimators, because their expectations differ from the population effect size $\delta$. Moreover, the larger the population estimator ($\delta$), the larger the bias. Indeed, the bias is the difference between the expectation and $\delta$: $\delta_{bias} = \delta \times (c_f-1)$; equations in Table 2 require $df \ge 3$ and at least 2 subjects per group. 
 
 \elandscape
 \newpage
@@ -201,7 +223,7 @@ where $N = n_1+n_2$. Shieh's $d$ is directly related with Welch's *t*-statistic 
 Shieh's \; d=\frac{t_{Welch}}{\sqrt{N}}\leftrightarrow t_{welch} = Shieh's \; d \times \sqrt{N}
 \label{eqn:shiehvswelch}
 \end{equation} 
-The exact distribution of Welch’s *t*-statistic is more complicated than the exact distribution of Student’s *t*-statistic, but it can be approximated, under the assumption of normality, by a *t*-distribution with degrees of freedom and noncentrality parameters [@welch_significance_1938; @shieh_confidence_2013] :
+The exact distribution of Welch’s *t*-statistic is more complicated than the exact distribution of Student’s *t*-statistic, but it can be approximated, under the assumption of normality, by a *t*-distribution with degrees of freedom and noncentrality parameters [@welch_significance_1938] :
 \begin{equation} 
 df_{Welch} = \frac{\left(\frac{\sigma^2_1}{n_1}+\frac{\sigma^2_2}{n_2} \right)^2}{\frac{(\sigma^2_1/n_1)^2}{n_1-1}+\frac{(\sigma^2_2/n_2)^2}{n_2-1}}
 \label{eqn:welchdf}
@@ -249,9 +271,7 @@ df^* = \frac{(n_1-1)(n_2-1)(\sigma^2_1+\sigma^2_2)^2}{(n_2-1)\sigma^4_1+(n_1-1)\
 ncp^*=\delta^*_{Cohen} \times \sqrt{\frac{n_1n_2(\sigma^2_1+\sigma^2_2)}{2(n_2\sigma^2_1+n_1\sigma^2_2)}}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma_1^2}{n_1}+\frac{\sigma^2_2}{n_2}}}
 \label{eqn:Cohendprimevst}
 \end{equation*} 
-where $\delta^*_{Cohen}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1+\sigma^2_2}{2}}}$. Using equation \ref{eqn:Cohendprimedist} we can compute its theoretical expectation and variance when the assumption of normality is met (see Table 2), and therefore determine which factors influence bias and variance, and how they do so (see Supplemental Material 1). This estimator has been widely criticized, because it results in a variance term of an artificial population (i.e. since the variance term does not estimate the variance of one or the other group, the composite variance is an estimation of the variance of an artificial population) and is therefore very difficult to interpret [@grissom_review_2001], and unless both sample sizes are equal, the variance term does not correspond to the variance of the mean difference [@shieh_confidence_2013].     
-
-However, we will show throughout the simulation section that this estimator exhibits very good inferential properties. Moreover, it has a constant value across sample sizes ratios, as shown in the Shiny App at https://effectsize.shinyapps.io/ShiehvsCohen/. 
+where $\delta^*_{Cohen}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1+\sigma^2_2}{2}}}$. Using equation \ref{eqn:Cohendprimedist} we can compute its theoretical expectation and variance when the assumption of normality is met (see Table 2), and therefore determine which factors influence bias and variance, and how they do so (see Supplemental Material 1). This estimator has been widely criticized, because it results in a variance term of an artificial population (i.e. since the variance term does not estimate the variance of one or the other group, the composite variance is an estimation of the variance of an artificial population; Grissom $\&$ Kim, 2001), and unless both sample sizes are equal, the variance term does not correspond to the variance of the mean difference [@shieh_confidence_2013]. However, we will show throughout the simulation section that this estimator exhibits very good inferential properties. Moreover, it has a constant value across sample sizes ratios, as shown in the Shiny App at https://effectsize.shinyapps.io/ShiehvsCohen/. 
 
 #### Glass's $\bm{g}$,  Shieh's $\bm{g}$ and Hedges' $\bm{g^*}$
 
@@ -269,9 +289,17 @@ How these parameters influence the variance of the estimators will be summarized
 \newpage
 \blandscape
 
-```{r "chp4.3", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Tables/Table 3.PNG")
-```
+| | df|      Expectation    |               Variance                     |
+|:-----------|:-------------------:|:-----------------:  | :----------------------------------------------------:| 
+| Glass's $g_s$    |$n_c-1$|\ $\delta_{glass}$  |   $Var(Glass's \; d_s) \times \left( \frac{\Gamma\left(\frac{df}{2} \right)}{\sqrt{\frac{df}{2}} \times \Gamma \left( \frac{df-1}{2}\right)}\right)^2$ |
+|    |      |  |    |
+| Cohen's $g^*_s$    |$\frac{(n_1-1)(n_2-1)(\sigma^2_1+\sigma^2_2)^2}{(n_2-1)\sigma^4_1+(n_1-1)\sigma^4_2}$|  $\delta^*_{Cohen}$       |$Var(Cohen's \; d^*_s) \times \left( \frac{\Gamma\left(\frac{df}{2} \right)}{\sqrt{\frac{df}{2}} \times \Gamma \left( \frac{df-1}{2}\right)}\right)^2$ |     |
+  |    |      |  |    ||
+  |  Shieh's $g_s$  |$\approx \frac{\left(\frac{\sigma^2_1}{n_1}+\frac{\sigma^2_2}{n_2} \right)^2}{\frac{(\sigma^2_1/n_1)^2}{n_1-1}+\frac{(\sigma^2_2/n_2)^2}{n_2-1}}$|$\delta_{Shieh}$|$Var(Shieh's \; d_s) \times \left( \frac{\Gamma\left(\frac{df}{2} \right)}{\sqrt{\frac{df}{2}} \times \Gamma \left( \frac{df-1}{2}\right)}\right)^2$    |
+|    |      |  |    |
+Table: Expectation, bias and variance of Glass's $d_s$ and Cohen's $d^*_s$ and Shieh's $d_s$ under the assumption that independent residuals are normally distributed.
+
+*Note*. $c_f=\frac{\sqrt{\frac{df}{2}} \times \Gamma\left( \frac{df-1}{2}\right)}{\Gamma\left( \frac{df}{2}\right)}$; $\delta_{Glass}=\frac{\mu_c-\mu_e}{\sigma_c}$, $\delta_{Shieh}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1}{n_1/N}+\frac{\sigma^2_2}{n_2/N}}}$ and $\delta^*_{Cohen}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1+\sigma^2_2}{2}}}$; all estimators are unbiased estimators, because their expectations equal the population effect size $\delta$; equations in Table 3 require $df \ge 3$ and at least 2 subjects per group. 
 
 \elandscape
 \newpage
@@ -289,29 +317,41 @@ $$G_{1}=\frac{\sqrt{n(n-1)}}{n-2} \frac{m_{3}}{\sqrt{(m_{2})^3}}$$
 and kurtosis $$G_{2}=\frac{n-1}{(n-2)(n-3)}\times \left[(n+1)\left(\frac{m_{4}}{(m_{2})^2}-3\right)+6\right]$$
 where $n$ is the sample size and $m_{2}$, $m_{3}$ and $m_{4}$ are respectively the second, third and fourth centered moments. They found values of kurtosis from $G_2$ = -2.20 to 1,093.48. According to their suggestions, throughout our simulations, we kept constant the population kurtosis value at the 99th percentile of their distribution of kurtosis, i.e. $G_2$=95.75. Regarding skewness, we simulated population parameter values which correspond to the 1st and 99th percentile of their distribution of skewness, i.e. respectively $G_1$ = -2.08 and $G_1$ = 6.32. We also simulated samples extracted from population where $G_1$ = 0, in order to assess the main effect of high kurtosis on the quality of estimators. All possible combinations of population skewness and kurtosis and the number of scenarios for each combination are summarized in Table 4.
 
-```{r "chp4.4", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/Tables/Table 4.PNG")
-```
+|                         |               |               | __Kurtosis__ |               
+| :---------------------: | :-----------: |:-------------:|:------------:|:-------------:|
+|                         |               |     0         |   95.75      |    **TOTAL**    |
+|                         |               |---------------|--------------|---------------|
+|                         |        0      |     252       |     252      |     **504**     | 
+|                         |               |               |              |               |
+|      __Skewness__       |      -2.08    |      /        |     252      |     **252**     |
+|                         |               |               |              |               |
+|                         |      6.32     |        /      |     252      |     **252**     |
+|                         |               |               |              |               |
+|                         |    **TOTAL**    |    **252**      |    **756**     |    **1008**     |
+
+Table: Number of combinations of skewness and kurtosis in our simulations.
+
+*Note.* Fisher's skewness (G1) and kurtosis (G2) are presented in Table 4. The 252 combinations where both G1 and G2 equal 0 correspond to the normal case. 
 
 For the 4 resulting combinations of skewness and kurtosis (see Table 4), all other parameter values were chosen in order to illustrate the consequences of factors identified as playing a key role on the variance of unbiased estimators. We manipulated the population mean difference ($\mu_1-\mu_2$), the sample sizes (*n*), the sample size ratio (*n*-ratio = $\frac{n_2}{n_1}$), the population *SD*-ratio (i.e. $\frac{\sigma_2}{\sigma_1}$), and the sample size and population variance pairing $\left(\frac{n_2}{n_1}\times\frac{\sigma_2}{\sigma_1} \right)$. In our scenarios, $\mu_2$ was always 0 and $\mu_1$ varied from 1 to 4, in steps of 1 (so does $\mu_1-\mu_2$).\footnote{In the original plan, we had added 252 simulations in which $\mu_1$ and $\mu_2$ were both null. We decided not to present the results of these simulations in the main article, because the relative bias and the relative variance appeared to us to be very useful to fully understand the comparison of the estimators, and computing them is impossible when the real mean difference is zero. Indeed, for these specific configurations, both relative bias and relative variance would have infinite values due to the presence of the population effect size term in their denominator. However, these extra simulations were included in the simulation checks, in Supplemental Material 2. } Moreover, $\sigma_1$ always equals 1, and $\sigma_2$ equals .1, .25, .5, 1, 2, 4 or 10, and therefore, the $SD$-ratio were 10, 4, 2, 1, .5, .25 or .1. The simulations for which both $\sigma_1$ and $\sigma_2$ equal 1 are the particular case of homoscedasticity, or equal population variances across groups. The sample sizes of both groups ($n_1$ and $n_2$) were 20, 50 or 100. When sample sizes of both groups are equal, the *n*-ratio equals 1 (this is known as a balanced design). All possible combinations of *n*-ratio and population *SD*-ratio were simulated in order to distinguish scenarios where both sample sizes and population variances are unequal across groups (with positive pairing when the group with the largest sample size is extracted from the population with the largest *SD*, and negative pairing when the group with the smallest sample size is extracted from the population with the smallest *SD*) and scenarios with no pairing between sample sizes and variances (sample sizes and/or population *SD* are equal across all groups). In sum, the simulations grouped over different sample sizes yield 4 conditions (a, b, c and d) based on the *n*-ratio, population *SD*-ratio, and sample size and population variance pairing, as summarized in Table 5.  We chose to divide scenarios into these 4 conditions because analyses in Supplemental Material 1 revealed main and interaction effects of sample sizes ratio and $SD$-ratio on the bias and variance of some estimators.
 
 |                               |             |             |__*n*-ratio__|             |
 | :---------------------------: | :---------: |:----------: |:-----------:|:-----------:|
 |                               |             |    **1**    |    **>1**   |    **<1**   |
-|                               |             |------------ |-------------|-------------|
+|                               |             |----------- |------------|------------|
 |                               |    **1**    |      a      |      b      |      b      | 
 |                               |             |             |             |             |
 |      __*SD*-ratio__           |   **>1**    |      c      |      d      |      d      |
 |                               |             |             |             |             |
 |                               |   **<1**    |      c      |      d      |      d      |
 
-Table : 4 conditions based on the $n$-ratio and the $SD$-ratio.
+Table: 4 conditions based on the $n$-ratio and the $SD$-ratio.
 
 ##### Results
 
 Before presenting the comparison of the estimators for each condition, it is useful to make some general comments. 
 
-1) We previously discussed the fact that raw bias and variances are sometimes misleading. They can give the illusion of huge differences between two estimators, even if these differences only reflect a change of unit (i.e. different population effect sizes). To better understand this, imagine a sample of 15 people for whom we know the height (in meters) and we compute a sample variance of 0.06838. If we convert sizes to centimeters and compute the sample variance again, we find a measure of 683.8 (i.e. $10^4$ larger). Both measures represent the same amount of variability, but they are expressed in different units. The same issue due to a change in scales occurs when comparing the estimates of different population measures. To avoid this possible confusion, we will only present the relative bias and relative variance in all Figures (and anytime we will mention the biases and variances in the results section, we will be referring to relative bias and variance). For interested readers, illustrations of the raw bias and variance are available on Github : https://github.com/mdelacre/Effect-sizes/.  
+1) We previously discussed the fact that raw bias and variances are sometimes misleading. They can give the illusion of huge differences between two estimators, even if these differences only reflect a change of unit (i.e. different population effect sizes). To better understand this, imagine a sample of 15 people for whom we know the height (in meters) and we compute a sample variance of 0.06838. If we convert sizes to centimeters and compute the sample variance again, we find a measure of 683.8 (i.e. $10^4$ larger). Both measures represent the same amount of variability, but they are expressed in different units. The same issue due to a change in scales occurs when comparing the estimates of different population measures. To avoid this possible confusion, we will only present the relative bias and relative variance in all Figures (and anytime we will mention the biases and variances in the results section, we will be referring to relative bias and variance). For interested readers, illustrations of the raw bias and variance are available on Github at https://github.com/mdelacre/Effect-sizes/.  
  
 2) For the sake of readability, the vertical axis differs across plots.
 
@@ -391,7 +431,7 @@ We will observe that Glass's $g$ should always be avoided when the equality of v
 \newpage
 Figure \ref{fig:idHombal} illustrates scenarios where both population variances and sample sizes are equal across groups (condition a). One can first notice that all estimators are consistent, as their bias and variance decrease when the total sample size increases. For any departure from the normality assumption, both bias and variance of Hedges' $g$, Shieh's $g$ and Hedges' $g^*$ are similar\footnote{While the bias and variance of Cohen's $d$, Cohen's $d^*$ and Shieh's $d$ are identical, the bias and variance of Hedges' $g$ are marginally different from the bias and variance of Hedges' $g^*$ and Shieh's $g$ (these last two having identical bias and variance). Indeed, because of the sampling error, differences remain between sample variances, even when population variances are equal between groups. Since the Hedges' correction applied to Cohen's $d$ does not contain the sample variances (unlike the correction applied on both other estimators), the bias and variance of Hedges' $g$ are slighly different from the bias and variance of Hedges' $g^*$ and Shieh's $g$.} and smaller than the bias and variance of Glass's $g$ estimates using either $S_1$ or $S_2$ as a standardizer. Moreover, when samples are extracted from skewed distributions, Glass's $g$ will show different bias and variance as a function of the chosen standardizer ($S_1$ or $S_2$), even if both $S_1$ and $S_2$ are estimates of the same population variance, based on the same sample size. This is due to non-null correlations of opposite sign between the mean difference ($\bar{X_1}-\bar{X_2}$) and respectively $S_1$ and $S_2$. In Supplemental Material 3, we detailed in which situation a non-null correlation occurs between the sample mean difference ($\bar{X_1}-\bar{X_2}$) and the standardizer of compared estimators as well as the way this correlation impacts the bias and variance of estimators. 
 
-Figure \ref{fig:idHomunbal} illustrates scenarios where population variances are equal across groups, but sample sizes are unequal (condition b). For any departures from the normality assumptions, Hedges' $g$ shows the smallest bias and variance. Hedges' $g$ and Hedges' $g^*$ are consistent estimators (i.e. the larger the sample sizes, the lower the bias and the variance), unlike Shieh's $g$ and Glass's $g$. The bias of Glass's $g$ does not depend either on the size of the experimental group or on the total sample size. The only way to decrease the bias of Glass's $g$ is therefore to add subjects in the control group.  On the other hand, the variance of Glass's $g$ depends on both sample sizes, but not in an equivalent way : in order to reduce the variance, it is much more efficient to add subjects in the control group and when the size of the experimental group decreases so does the variance, even when the total sample size is increased. Regarding Shieh's $g$, for a given sample size ratio, the bias and variance will decrease when sample sizes increase. However, there is a large effect of the sample sizes ratio such that when the sample sizes ratio moves away from 1 by adding subjects, bias and variance might increase.\footnote{Regarding variance, in Supplemental Material 1, we mentioned that when the population effect size is zero, the larger the total sample size, the lower the variance, whether the sample sizes ratio is constant or not. We also mentioned that this is no longer true when the population effect size is not zero. In our simulations the effect size is never zero. The effect size effect is partially visible in Figure \ref{fig:idHomunbal} because we do not entirely remove the effect size effect when we divide the variance by $\delta^2$. This is due to the fact that one term, in the equation of the variance computation, does not depend on the effect size.} On the other hand, when the sample sizes ratio moves closer to 1 by adding subjects, the bias will decrease. 
+Figure \ref{fig:idHomunbal} illustrates scenarios where population variances are equal across groups, but sample sizes are unequal (condition b). For any departures from the normality assumptions, Hedges' $g$ shows the smallest bias and variance. Hedges' $g$ and Hedges' $g^*$ are consistent estimators (i.e. the larger the sample sizes, the lower the bias and the variance), unlike Shieh's $g$ and Glass's $g$. The bias of Glass's $g$ does not depend either on the size of the experimental group or on the total sample size. The only way to decrease the bias of Glass's $g$ is therefore to add subjects in the control group.  On the other hand, the variance of Glass's $g$ depends on both sample sizes, but not in an equivalent way : in order to reduce the variance, it is much more efficient to add subjects in the control group and when the relative size of the experimental group decreases so does the variance, even when the total sample size is decreased. Regarding Shieh's $g$, for a given sample size ratio, the bias and variance will decrease when sample sizes increase. However, there is a large effect of the sample sizes ratio such that when the sample sizes ratio moves away from 1 by adding subjects, bias and variance might increase.\footnote{Regarding variance, in Supplemental Material 1, we mentioned that when the population effect size is zero, the larger the total sample size, the lower the variance, whether the sample sizes ratio is constant or not. We also mentioned that this is no longer true when the population effect size is not zero. In our simulations the effect size is never zero. The effect size effect is partially visible in Figure \ref{fig:idHomunbal} because we do not entirely remove the effect size effect when we divide the variance by $\delta^2$. This is due to the fact that one term, in the equation of the variance computation, does not depend on the effect size.} On the other hand, when the sample sizes ratio moves closer to 1 by adding subjects, the bias will decrease. 
 
 When samples are extracted from skewed distributions and have unequal sizes (the two last columns in Figure \ref{fig:idHomunbal}), for a constant total sample size, Glass's $g$, Shieh's $g$ and  Hedges' $g^*$ will show different bias and variance depending on which group is the largest one (e.g. when distributions are right-skewed, the bias and variance of all these estimators when $n_1$ and $n_2$ are respectively 50 and 20 are not the same as their bias and variance when $n_1$ and $n_2$ are respectively 20 and 50). This is due to a non-null correlation of opposite sign between the mean difference ($\bar{X_1}-\bar{X_2}$) and their respective standardizers depending on which group is the largest one, as detailed in Supplemental Material 3. One observes that under these configurations, the bias and variance of Glass's $g$ are sometimes a bit smaller and sometimes much larger than the bias and variance of Shieh's $g$ and Cohen's $d^*$.\footnote{Supplemental Material 3 shows that when the $\mu_1-\mu_2 >0$ (like in our simulations), all other parameters being equal, an estimator is always less biased and variable when choosing a standardizer that is positively correlated with $\bar{X_1}-\bar{X_2}$. Supplemental Material 3 also shows that the smaller $n_c$, the larger the magnitude of correlation between $S_c$ and $\bar{X_1}-\bar{X_2}$. When $cor(S_c,\bar{X_1}-\bar{X_2})$ is positive, the positive effect of increasing the magnitude of the correlation is counterbalanced by the negative effect of reducing $n_c$. On the other hand, when $cor(S_c,\bar{X_1}-\bar{X_2})$ is negative, the negative effect of increasing the magnitude of the correlation is amplified by the negative effect of decreasing $n_c$. This explains why the difference between Glass's $g$ and other estimators is larger when Glass's $g$ is the least efficient estimator.}
 

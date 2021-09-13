@@ -1,0 +1,295 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  english,
+  man]{apa6}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdflang={en-EN},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+% Manuscript styling
+\usepackage{upgreek}
+\captionsetup{font=singlespacing,justification=justified}
+
+% Table formatting
+\usepackage{longtable}
+\usepackage{lscape}
+% \usepackage[counterclockwise]{rotating}   % Landscape page setup for large tables
+\usepackage{multirow}		% Table styling
+\usepackage{tabularx}		% Control Column width
+\usepackage[flushleft]{threeparttable}	% Allows for three part tables with a specified notes section
+\usepackage{threeparttablex}            % Lets threeparttable work with longtable
+
+% Create new environments so endfloat can handle them
+% \newenvironment{ltable}
+%   {\begin{landscape}\centering\begin{threeparttable}}
+%   {\end{threeparttable}\end{landscape}}
+\newenvironment{lltable}{\begin{landscape}\centering\begin{ThreePartTable}}{\end{ThreePartTable}\end{landscape}}
+
+% Enables adjusting longtable caption width to table width
+% Solution found at http://golatex.de/longtable-mit-caption-so-breit-wie-die-tabelle-t15767.html
+\makeatletter
+\newcommand\LastLTentrywidth{1em}
+\newlength\longtablewidth
+\setlength{\longtablewidth}{1in}
+\newcommand{\getlongtablewidth}{\begingroup \ifcsname LT@\roman{LT@tables}\endcsname \global\longtablewidth=0pt \renewcommand{\LT@entry}[2]{\global\advance\longtablewidth by ##2\relax\gdef\LastLTentrywidth{##2}}\@nameuse{LT@\roman{LT@tables}} \fi \endgroup}
+
+% \setlength{\parindent}{0.5in}
+% \setlength{\parskip}{0pt plus 0pt minus 0pt}
+
+% \usepackage{etoolbox}
+\makeatletter
+\patchcmd{\HyOrg@maketitle}
+  {\section{\normalfont\normalsize\abstractname}}
+  {\section*{\normalfont\normalsize\abstractname}}
+  {}{\typeout{Failed to patch abstract.}}
+\patchcmd{\HyOrg@maketitle}
+  {\section{\protect\normalfont{\@title}}}
+  {\section*{\protect\normalfont{\@title}}}
+  {}{\typeout{Failed to patch title.}}
+\makeatother
+\shorttitle{SHORTTITLE}
+\usepackage{csquotes}
+\usepackage{float}
+\usepackage{sectsty}
+\usepackage{lscape}
+\newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}}
+\ifxetex
+  % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
+  \usepackage{polyglossia}
+  \setmainlanguage[]{english}
+\else
+  \usepackage[main=english]{babel}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\fi
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{\phantom{0}}
+\date{}
+
+
+\affiliation{\phantom{0}}
+
+\begin{document}
+
+\newpage
+\begin{landscape}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.13}}
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.12}}
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.27}}
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.48}}@{}}
+\caption{Expentency, bias and variance of Cohen's \(d_s\) and Hedges' \(g_s\) under the assumptions that independent residuals are normally distributed with equal variances across groups.}\tabularnewline
+\toprule
+& df & Expectation & Variance \\
+\midrule
+\endfirsthead
+\toprule
+& df & Expectation & Variance \\
+\midrule
+\endhead
+Cohen's \(d_s\) & \(N-2\) & \(\delta_{Cohen} \times c_f\) & \(\frac{N\times df}{n_1n_2 \times (df-2)} + \delta^2_{Cohen} \left[ \frac{df}{df-2} - c_f^2\right]\) \\
+& & & \\
+& & \(\approx \frac{\delta_{Cohen}}{\left(1-\frac{3}{4N-9}\right)}\) & \(\approx \frac{N\times df}{n_1n_2 \times (df-2)} + \delta^2_{Cohen} \left[ \frac{df}{df-2} - \left( \frac{1}{1-\frac{3}{4N-9} }\right)^2\right]\) \\
+& & & \\
+& & & \\
+Hedges' \(g_s\) & \(N-2\) & \(\delta_{Cohen}\) & \(Var(Cohen's \; d_s) \times \left[ \frac{\Gamma(\frac{df}{2})}{\sqrt{\frac{df}{2}} \times \Gamma(\frac{df-1}{2})} \right]^2\) \\
+& & & \\
+& & & \(\approx Var(Cohen's \; d_s) \times \left[1-\frac{3}{4N-9}\right]^2\) \\
+& & & \\
+\bottomrule
+\end{longtable}
+
+\emph{Note}. \(\delta_{Cohen}= \frac{\mu_1-\mu_2}{\sigma_{pooled}}\) and \(c_f=\frac{\sqrt{\frac{df}{2}} \times \Gamma\left( \frac{df-1}{2}\right)}{\Gamma\left( \frac{df}{2}\right)}\); Cohen's \(d_s\) is a biased estimator, because its expectation differs from the population effect size. Moreover, the larger the population estimator (\(\delta_{Cohen}\)), the larger the bias. Indeed, the bias is the difference between the expectation and \(\delta_{Cohen}\): \(\delta_{bias} = \delta_{Cohen} \times (c_f-1)\). On the other hand, Hedges' \(g_s\) is an unbiased estimator, because its expectation equals \(\delta_{Cohen}\); equations in Table 1 require \(df \ge 3\) (i.e.~\(N \ge 5\)).
+
+\end{landscape}
+
+\newpage
+\begin{landscape}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.11}}
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.20}}
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.18}}
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.51}}@{}}
+\caption{Expentency, bias and variance of Glass's \(d_s\) and Cohen's \(d^*_s\) and Shieh's \(d_s\) under the assumption that independent residuals are normally distributed.}\tabularnewline
+\toprule
+& df & Expectation & Variance \\
+\midrule
+\endfirsthead
+\toprule
+& df & Expectation & Variance \\
+\midrule
+\endhead
+Glass's \(d_s\) & \(n_c-1\) & ~\(\delta_{Glass} \times c_f\) & \(\frac{df}{df-2} \times \left( \frac{1}{n_c} + \frac{\sigma^2_e}{n_e\sigma^2_c}\right) + \delta^2_{Glass} \left( \frac{df}{df-2} - c_f^2 \right)\) \\
+& & & \\
+Cohen's \(d^*_s\) & \(\frac{(n_1-1)(n_2-1)(\sigma^2_1+\sigma^2_2)^2}{(n_2-1)\sigma^4_1+(n_1-1)\sigma^4_2}\) & \(\delta^*_{Cohen} \times c_f\) & \(\frac{df}{df-2} \times \frac{2\left( \frac{\sigma^2_1}{n_1} + \frac{\sigma^2_2}{n_2} \right)}{\sigma^2_1+\sigma^2_2} + (\delta^*_{Cohen})^2 \left( \frac{df}{df-2} - c_f^2 \right)\) \\
+& & & \\
+& & \(\approx \delta^*_{Cohen} \times \frac{4df-1}{4(df-1)}\) & \(\approx \frac{df}{df-2} \times \frac{2\left( \frac{\sigma^2_1}{n_1} + \frac{\sigma^2_2}{n_2} \right)}{\sigma^2_1+\sigma^2_2} + (\delta^*_{Cohen})^2 \left[ \frac{df}{df-2} - \left( \frac{4 \;df-1}{4(df-1)}\right)^2 \right]\) \\
+& & & \\
+Shieh's \(d_s\) & \(\frac{\left(\frac{\sigma^2_1}{n_1}+\frac{\sigma^2_2}{n_2} \right)^2}{\frac{(\sigma^2_1/n_1)^2}{n_1-1}+\frac{(\sigma^2_2/n_2)^2}{n_2-1}}\) & \(\delta_{Shieh} \times c_f\) & \(\frac{df}{(df-2)N} + \delta^2_{Shieh} \left( \frac{df}{df-2} - c_f^2 \right)\) \\
+& & & \\
+\bottomrule
+\end{longtable}
+
+\emph{Note}. \(c_f=\frac{\sqrt{\frac{df}{2}} \times \Gamma\left( \frac{df-1}{2}\right)}{\Gamma\left( \frac{df}{2}\right)}\); \(\delta_{Glass}=\frac{\mu_c-\mu_e}{\sigma_c}\), \(\delta_{Shieh}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1}{n_1/N}+\frac{\sigma^2_2}{n_2/N}}}\) and \(\delta^*_{Cohen}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1+\sigma^2_2}{2}}}\); all estimators are biased estimators, because their expectations differ from the population effect size \(\delta\). Moreover, the larger the population estimator (\(\delta\)), the larger the bias. Indeed, the bias is the difference between the expectation and \(\delta\): \(\delta_{bias} = \delta \times (c_f-1)\); equations in Table 2 require \(df \ge 3\) and at least 2 subjects per group.
+
+\end{landscape}
+\newpage
+
+\newpage
+\begin{landscape}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.11}}
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.20}}
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.18}}
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.51}}@{}}
+\caption{Expectation, bias and variance of Glass's \(d_s\) and Cohen's \(d^*_s\) and Shieh's \(d_s\) under the assumption that independent residuals are normally distributed.}\tabularnewline
+\toprule
+& df & Expectation & Variance \\
+\midrule
+\endfirsthead
+\toprule
+& df & Expectation & Variance \\
+\midrule
+\endhead
+Glass's \(g_s\) & \(n_c-1\) & ~\(\delta_{glass}\) & \(Var(Glass's \; d_s) \times \left( \frac{\Gamma\left(\frac{df}{2} \right)}{\sqrt{\frac{df}{2}} \times \Gamma \left( \frac{df-1}{2}\right)}\right)^2\) \\
+& & & \\
+Cohen's \(g^*_s\) & \(\frac{(n_1-1)(n_2-1)(\sigma^2_1+\sigma^2_2)^2}{(n_2-1)\sigma^4_1+(n_1-1)\sigma^4_2}\) & \(\delta^*_{Cohen}\) & \(Var(Cohen's \; d^*_s) \times \left( \frac{\Gamma\left(\frac{df}{2} \right)}{\sqrt{\frac{df}{2}} \times \Gamma \left( \frac{df-1}{2}\right)}\right)^2\) \\
+& & & \\
+Shieh's \(g_s\) & \(\approx \frac{\left(\frac{\sigma^2_1}{n_1}+\frac{\sigma^2_2}{n_2} \right)^2}{\frac{(\sigma^2_1/n_1)^2}{n_1-1}+\frac{(\sigma^2_2/n_2)^2}{n_2-1}}\) & \(\delta_{Shieh}\) & \(Var(Shieh's \; d_s) \times \left( \frac{\Gamma\left(\frac{df}{2} \right)}{\sqrt{\frac{df}{2}} \times \Gamma \left( \frac{df-1}{2}\right)}\right)^2\) \\
+& & & \\
+\bottomrule
+\end{longtable}
+
+\emph{Note}. \(c_f=\frac{\sqrt{\frac{df}{2}} \times \Gamma\left( \frac{df-1}{2}\right)}{\Gamma\left( \frac{df}{2}\right)}\); \(\delta_{Glass}=\frac{\mu_c-\mu_e}{\sigma_c}\), \(\delta_{Shieh}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1}{n_1/N}+\frac{\sigma^2_2}{n_2/N}}}\) and \(\delta^*_{Cohen}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1+\sigma^2_2}{2}}}\); all estimators are unbiased estimators, because their expectations equal the population effect size \(\delta\); equations in Table 3 require \(df \ge 3\) and at least 2 subjects per group.
+
+\end{landscape}
+\newpage
+
+\begin{longtable}[]{@{}ccccc@{}}
+\caption{Number of combinations of skewness and kurtosis in our simulations.}\tabularnewline
+\toprule
+& & & \textbf{Kurtosis} & \\
+\midrule
+\endfirsthead
+\toprule
+& & & \textbf{Kurtosis} & \\
+\midrule
+\endhead
+& & 0 & 95.75 & \textbf{TOTAL} \\
+& & --------------- & -------------- & --------------- \\
+& 0 & 252 & 252 & \textbf{504} \\
+& & & & \\
+\textbf{Skewness} & -2.08 & / & 252 & \textbf{252} \\
+& & & & \\
+& 6.32 & / & 252 & \textbf{252} \\
+& & & & \\
+& \textbf{TOTAL} & \textbf{252} & \textbf{756} & \textbf{1008} \\
+\bottomrule
+\end{longtable}
+
+\emph{Note.} Fisher's skewness (G1) and kurtosis (G2) are presented in Table 4. The 252 combinations where both G1 and G2 equal 0 correspond to the normal case.
+
+\end{landscape}
+\newpage
+
+\begin{longtable}[]{@{}ccccc@{}}
+\caption{4 conditions based on the \(n\)-ratio and the \(SD\)-ratio.}\tabularnewline
+\toprule
+& & & \textbf{\emph{n}-ratio} & \\
+\midrule
+\endfirsthead
+\toprule
+& & & \textbf{\emph{n}-ratio} & \\
+\midrule
+\endhead
+& & \textbf{1} & \textbf{\textgreater1} & \textbf{\textless1} \\
+& & ------------ & ------------- & ------------- \\
+& \textbf{1} & a & b & b \\
+& & & & \\
+\textbf{\emph{SD}-ratio} & \textbf{\textgreater1} & c & d & d \\
+& & & & \\
+& \textbf{\textless1} & c & d & d \\
+\bottomrule
+\end{longtable}
+
+
+\end{document}
