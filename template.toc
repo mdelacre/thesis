@@ -1,8 +1,8 @@
 \babel@toc {french}{}\relax 
 \setcounter {tocdepth}{1}
 \contentsline {section}{Chapitre 1 : Introduction}{1}{section*.3}%
-\contentsline {section}{Chapitre 2 : Utiliser le test \(\bf \emph t\) de Welch par défaut}{9}{section*.5}%
-\contentsline {section}{Chapitre 3 : Utiliser l'ANOVA \(\bf \emph F\) de Welch par défaut}{19}{section*.6}%
+\contentsline {section}{Chapitre 2 : Utiliser le test \(\bf \emph t\) de Welch}{9}{section*.5}%
+\contentsline {section}{Chapitre 3 : Utiliser l'ANOVA \(\bf \emph W\) de Welch}{19}{section*.6}%
 \contentsline {section}{Chapitre 4 : Utiliser le \(\bm {g^*}\) de Hedges basé sur l'écart-type non poolé}{31}{section*.7}%
 \contentsline {subsection}{Three purposes of effect size estimators}{33}{section*.8}%
 \contentsline {subsection}{Inferential properties of a good effect size estimator}{34}{section*.9}%
@@ -17,15 +17,14 @@
 \contentsline {paragraph}{Assessing the bias, efficiency and consistency of 5 estimators}{47}{section*.18}%
 \contentsline {subparagraph}{Method}{47}{section*.19}%
 \contentsline {subparagraph}{Results}{49}{section*.20}%
-\contentsline {subsubsection}{Recommendations}{58}{section*.21}%
-\contentsline {section}{Chapitre 5 : Les tests d'équivalence}{61}{section*.23}%
-\contentsline {subsection}{Limites de l'approche traditionnelle}{62}{section*.24}%
-\contentsline {subsection}{Les tests d'équivalence}{65}{section*.25}%
-\contentsline {subsection}{Définir les bornes de la zone d'équivalence}{68}{section*.26}%
-\contentsline {subsection}{Comparaison du TOST et du SGPV}{71}{section*.27}%
-\contentsline {section}{Chapitre 6 : Discussion générale et conclusion}{83}{section*.29}%
-\contentsline {subsection}{Objectifs de départ, résumé et apports de la thèse}{83}{section*.30}%
-\contentsline {subsection}{Limites}{90}{section*.31}%
-\contentsline {subsection}{Perspectives futures}{93}{section*.32}%
-\contentsline {subsection}{Conclusion générale}{96}{section*.33}%
-\contentsline {section}{Bibliographie}{101}{section*.35}%
+\contentsline {subsubsection}{Recommendations}{62}{section*.21}%
+\contentsline {section}{Chapitre 5 : Les tests d'équivalence}{65}{section*.23}%
+\contentsline {subsection}{Limites de l'approche traditionnelle}{66}{section*.24}%
+\contentsline {subsection}{Les tests d'équivalence}{69}{section*.25}%
+\contentsline {subsection}{Définir les bornes de la zone d'équivalence}{72}{section*.26}%
+\contentsline {subsection}{Comparaison du TOST et du SGPV}{76}{section*.27}%
+\contentsline {section}{Chapitre 6 : Discussion et conclusion générale}{88}{section*.29}%
+\contentsline {subsection}{Objectifs de départ, résumé et apports de la thèse}{88}{section*.30}%
+\contentsline {subsection}{Limites et perspectives futures}{96}{section*.31}%
+\contentsline {subsection}{Conclusion générale}{101}{section*.32}%
+\contentsline {section}{Bibliographie}{106}{section*.34}%

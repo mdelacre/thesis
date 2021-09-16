@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.23)  23 JUN 2021 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.8)  15 SEP 2021 11:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **chp4.tex
 (./chp4.tex
 LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-06-18> (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
+L3 programming layer <2021-08-27> (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/apa6/apa6.cls
 Document Class: apa6 2020/01/13 v2.34 APA formatting (6th edition)
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
@@ -483,12 +483,6 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip74
-) (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/was/upgreek.sty
-Package: upgreek 2003/02/12 v2.0 (WaS)
-Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
-\symugrf@m=\mathgroup9
-LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
-(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 )
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.st
 y
@@ -509,6 +503,39 @@ Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
 \c@LT@tables=\count297
 \c@LT@chunks=\count298
 \LT@p@ftn=\toks25
+) (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
+\col@sep=\dimen183
+\ar@mcellbox=\box59
+\extrarowheight=\dimen184
+\NC@list=\toks26
+\extratabsurround=\skip79
+\backup@length=\skip80
+\ar@cellbox=\box60
+) (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count299
+\calc@Bcount=\count300
+\calc@Adimen=\dimen185
+\calc@Bdimen=\dimen186
+\calc@Askip=\skip81
+\calc@Bskip=\skip82
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count301
+\calc@Cskip=\skip83
+)
+(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.
+sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box61
+\fn@width=\dimen187
+) (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 )
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/lscape.st
 y
@@ -517,29 +544,19 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/multirow/multirow.
 sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip79
-\multirow@cntb=\count299
-\multirow@dima=\skip80
-\bigstrutjot=\dimen183
+\multirow@colwidth=\skip84
+\multirow@cntb=\count302
+\multirow@dima=\skip85
+\bigstrutjot=\dimen188
 )
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-(c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
-Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
-\col@sep=\dimen184
-\ar@mcellbox=\box59
-\extrarowheight=\dimen185
-\NC@list=\toks26
-\extratabsurround=\skip81
-\backup@length=\skip82
-\ar@cellbox=\box60
-)
-\TX@col@width=\dimen186
-\TX@old@table=\dimen187
-\TX@old@col=\dimen188
-\TX@target=\dimen189
-\TX@delta=\dimen190
-\TX@cols=\count300
+\TX@col@width=\dimen189
+\TX@old@table=\dimen190
+\TX@old@col=\dimen191
+\TX@target=\dimen192
+\TX@delta=\dimen193
+\TX@cols=\count303
 \TX@ftn=\toks27
 )
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttablex/th
@@ -554,19 +571,19 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 ces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\TPTL@width=\skip83
+\TPTL@width=\skip86
 )
-\longtablewidth=\skip84
+\longtablewidth=\skip87
 
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquotes.
 sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count301
-\csq@gtype=\count302
-\csq@glevel=\count303
-\csq@qlevel=\count304
-\csq@maxlvl=\count305
-\csq@tshold=\count306
+\csq@reset=\count304
+\csq@gtype=\count305
+\csq@glevel=\count306
+\csq@qlevel=\count307
+\csq@maxlvl=\count308
+\csq@tshold=\count309
 \csq@ltx@everypar=\toks28
 
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquotes.
@@ -581,11 +598,11 @@ cfg
 File: csquotes.cfg 
 )) (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count307
+\c@float@type=\count310
 \float@exts=\toks29
-\float@box=\box61
+\float@box=\box62
 \@float@everytoks=\toks30
-\@floatcapt=\box62
+\@floatcapt=\box63
 )
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/sectsty/sectsty.st
 y
@@ -601,18 +618,18 @@ LaTeX Warning: Command \underline  has changed.
 
 ) (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babel.st
 y
-Package: babel 2021/06/02 3.60 The Babel package
+Package: babel 2021/07/22 3.63 The Babel package
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2021/06/02 3.60 Babel common definitions
-\babel@savecnt=\count308
-\U@D=\dimen191
+File: babel.def 2021/07/22 3.63 Babel common definitions
+\babel@savecnt=\count311
+\U@D=\dimen194
 \l@unhyphenated=\language3
 
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/txtbabel.d
 ef)
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count309
+\bbl@dirlevel=\count312
 
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel-english/en
 glish.ldf
@@ -639,30 +656,31 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count310
-\l__pdf_internal_box=\box63
-) (./chp4.aux)
+File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count313
+\l__pdf_internal_box=\box64
+)
+No file chp4.aux.
 \openout1 = `chp4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -730,7 +748,7 @@ sty
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 135.
+Package hyperref Info: Link coloring OFF on input line 145.
 
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
 ty
@@ -744,77 +762,109 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count311
+\c@section@level=\count314
 )
-LaTeX Info: Redefining \ref on input line 135.
-LaTeX Info: Redefining \pageref on input line 135.
-LaTeX Info: Redefining \nameref on input line 135.
-(./chp4.out) (./chp4.out)
+LaTeX Info: Redefining \ref on input line 145.
+LaTeX Info: Redefining \pageref on input line 145.
+LaTeX Info: Redefining \nameref on input line 145.
 \@outlinefile=\write5
 \openout5 = `chp4.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-38.
+48.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-38.
+48.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-138.
+148.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-138.
+148.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 138.
+(Font)              <17.28> on input line 148.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 138.
+(Font)              <12> on input line 148.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 138.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 138
+(Font)              <10> on input line 148.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 148
 .
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 138
+LaTeX Font Info:    Trying to load font information for U+msb on input line 148
 .
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) AED endfloat: Processing end Figures and Tables [1{c:/Users/Admin/AppData/Roa
-ming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+)
+<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png, id=4, 36
+7.3725pt x 173.14688pt>
+File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png Grap
+hic file (type png)
+<use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png>
+Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
+re 4/title.png  used on input line 150.
+(pdftex.def)             Requested size: 367.38278pt x 173.15173pt.
+<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png, id=
+6, 372.39125pt x 172.14313pt>
+File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png
+ Graphic file (type png)
+<use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png>
 
-] (./chp4.aux)
-Package rerunfilecheck Info: File `chp4.out' has not changed.
-(rerunfilecheck)             Checksum: 0365C99CD28B2698069C4D2B4D2F52A3;709.
- ) 
+Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
+re 4/authornote.png  used on input line 152.
+(pdftex.def)             Requested size: 372.39034pt x 172.14268pt.
+[1{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map}
+
+ <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png> <c:/Use
+rs/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 160.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 160.
+[2] [3]
+
+LaTeX Warning: Reference `fig:BIAS' on page 4 undefined on input line 183.
+
+[4]
+\openout4 = `chp4.fff'.
+
+(chp4.fff)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 204.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 204.
+[5] [6]
+
+LaTeX Warning: Reference `eqn:Cohenvsstudent' on page 7 undefined on input line
+ 243.
+
+[7]
+
+LaTeX Warning: Reference `eqn:studentdf' on page 8 undefined on input line 250.
+
+
+[8] [9]
+! Undefined control sequence.
+l.260 \blandscape
+                  
 Here is how much of TeX's memory you used:
- 14410 strings out of 480470
- 218906 string characters out of 5897013
- 549965 words of memory out of 5000000
- 31856 multiletter control sequences out of 15000+600000
- 455496 words of font info for 64 fonts, out of 8000000 for 9000
+ 14800 strings out of 480559
+ 228126 string characters out of 5901781
+ 557069 words of memory out of 5000000
+ 32102 multiletter control sequences out of 15000+600000
+ 490471 words of font info for 102 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,11n,80p,2243b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.e
-nc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mat
-hsy.enc}{c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/l
-m-ec.enc}<c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/
-lm/lmbx12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pu
-blic/lm/lmbxi10.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/ty
-pe1/public/lm/lmr12.pfb><c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/font
-s/type1/public/lm/lmsy10.pfb>
-Output written on chp4.pdf (1 page, 63603 bytes).
-PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 72i,12n,80p,2243b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+!  ==> Fatal error occurred, no output PDF file produced!

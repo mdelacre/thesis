@@ -9,44 +9,44 @@ header-includes:
   - \usepackage{sectsty}
 ---
 
-# Chapitre 2 : Utiliser le test $\bf \emph t$ de Welch par défaut
+# Chapitre 2 : Utiliser le test $\bf \emph t$ de Welch
 
 ```{r "chp2p1", fig.align='center',echo=FALSE,out.height="94%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-1 bis.png")
 ```
 
 ```{r "chp2p2", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-2 bis.png")
 ```
 
 ```{r "chp2p3", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-3 bis.png")
 ```
 
 ```{r "chp2p4", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-4 bis.png")
 ```
 
 ```{r "chp2p5", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-5 bis.png")
 ```
 
 ```{r "chp2p6", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-6 bis.png")
 ```
 
 ```{r "chp2p7", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-7 bis.png")
 ```
 
 ```{r "chp2p8", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-8 bis.png")
 ```
 
 ```{r "chp2p9", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-9 bis.png")
 ```
 
 ```{r "chp2p10", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10.png")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-10 bis.png")
 ```

@@ -24,10 +24,9 @@ knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitr
 ```
 
 ```{r "chp4authornote", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="150%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png
-")
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png")
 ```
-**Commentaire** : l'article présenté ci-dessous n'a pas encore été accepté pour publication. 
+**Commentaire** : l'article présenté dans ce chapitre n'a pas encore été accepté pour publication. 
 
 ```{r analysis-preferences,echo=F}
 # Seed for random number generation
@@ -418,17 +417,24 @@ output_rightskewed_Homunbal <- output_rightskewed[idcondition(File=output_normal
 
 Figures \ref{fig:idHombal} and \ref{fig:idHomunbal} represent configurations where the equality of variances assumption is met. According to our expectations, one observes that the bias of all estimators is approximately zero as long as the normality assumption is met (first column in both Figures).\footnote{When looking at relative bias for all estimators, the maximum departure from zero is `r printnum(max(abs(output_normal_Hombal[,11:15])),digits=4)` when sample sizes are equal across groups, and `r printnum(max(abs(output_normal_Homunbal[,11:15])),digits=4)` with unequal sample sizes.} However, the more the data generation process deviations from the normality assumption (i.e. when moving from left to right in the Figures), the larger the bias in the estimators. 
 
+We will observe that Glass's $g$ should always be avoided when the equality of variance assumption is met. Hedges' $g$, Hedges' $g^*$ and Shieh’s $g$ perform equally well as long as the sample size ratio is close to 1 (condition a; see Figure \ref{fig:idHombal}). However, when designs are highly unbalanced (condition b; see Figure \ref{fig:idHomunbal}), Shieh’s $g$ is not consistent anymore, while Hedges' $g^*$ remains consistent, Hedges’s $g$ is a better estimator. For interested readers, these findings are detailed in the three paragraphs below. 
+
+\blandscape
+\newpage
+
 ```{r "idHombal", echo=FALSE, fig.cap="Bias and efficiency of estimators of standardized mean difference, when variances and sample sizes are equal across groups (condition a)",fig.show='hold',fig.align='center',out.width="100%"}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Hom_bal.png")
 ```
+\elandscape
+\newpage
+\blandscape
 
 ```{r "idHomunbal",echo=FALSE, fig.cap="Bias and efficiency of estimators of standardized mean difference, when variances are equal across groups and sample sizes are unequal (condition b)",fig.show='hold',fig.align='center',out.width="100%"}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Hom_unbal.png")
 ```
 
-We will observe that Glass's $g$ should always be avoided when the equality of variance assumption is met. Hedges' $g$, Hedges' $g^*$ and Shieh’s $g$ perform equally well as long as the sample size ratio is close to 1 (condition a; see Figure \ref{fig:idHombal}). However, when designs are highly unbalanced (condition b; see Figure \ref{fig:idHomunbal}), Shieh’s $g$ is not consistent anymore, while Hedges' $g^*$ remains consistent, Hedges’s $g$ is a better estimator. For interested readers, these findings are detailed in the three paragraphs below. 
+\elandscape
 
-\newpage
 Figure \ref{fig:idHombal} illustrates scenarios where both population variances and sample sizes are equal across groups (condition a). One can first notice that all estimators are consistent, as their bias and variance decrease when the total sample size increases. For any departure from the normality assumption, both bias and variance of Hedges' $g$, Shieh's $g$ and Hedges' $g^*$ are similar\footnote{While the bias and variance of Cohen's $d$, Cohen's $d^*$ and Shieh's $d$ are identical, the bias and variance of Hedges' $g$ are marginally different from the bias and variance of Hedges' $g^*$ and Shieh's $g$ (these last two having identical bias and variance). Indeed, because of the sampling error, differences remain between sample variances, even when population variances are equal between groups. Since the Hedges' correction applied to Cohen's $d$ does not contain the sample variances (unlike the correction applied on both other estimators), the bias and variance of Hedges' $g$ are slighly different from the bias and variance of Hedges' $g^*$ and Shieh's $g$.} and smaller than the bias and variance of Glass's $g$ estimates using either $S_1$ or $S_2$ as a standardizer. Moreover, when samples are extracted from skewed distributions, Glass's $g$ will show different bias and variance as a function of the chosen standardizer ($S_1$ or $S_2$), even if both $S_1$ and $S_2$ are estimates of the same population variance, based on the same sample size. This is due to non-null correlations of opposite sign between the mean difference ($\bar{X_1}-\bar{X_2}$) and respectively $S_1$ and $S_2$. In Supplemental Material 3, we detailed in which situation a non-null correlation occurs between the sample mean difference ($\bar{X_1}-\bar{X_2}$) and the standardizer of compared estimators as well as the way this correlation impacts the bias and variance of estimators. 
 
 Figure \ref{fig:idHomunbal} illustrates scenarios where population variances are equal across groups, but sample sizes are unequal (condition b). For any departures from the normality assumptions, Hedges' $g$ shows the smallest bias and variance. Hedges' $g$ and Hedges' $g^*$ are consistent estimators (i.e. the larger the sample sizes, the lower the bias and the variance), unlike Shieh's $g$ and Glass's $g$. The bias of Glass's $g$ does not depend either on the size of the experimental group or on the total sample size. The only way to decrease the bias of Glass's $g$ is therefore to add subjects in the control group.  On the other hand, the variance of Glass's $g$ depends on both sample sizes, but not in an equivalent way : in order to reduce the variance, it is much more efficient to add subjects in the control group and when the relative size of the experimental group decreases so does the variance, even when the total sample size is decreased. Regarding Shieh's $g$, for a given sample size ratio, the bias and variance will decrease when sample sizes increase. However, there is a large effect of the sample sizes ratio such that when the sample sizes ratio moves away from 1 by adding subjects, bias and variance might increase.\footnote{Regarding variance, in Supplemental Material 1, we mentioned that when the population effect size is zero, the larger the total sample size, the lower the variance, whether the sample sizes ratio is constant or not. We also mentioned that this is no longer true when the population effect size is not zero. In our simulations the effect size is never zero. The effect size effect is partially visible in Figure \ref{fig:idHomunbal} because we do not entirely remove the effect size effect when we divide the variance by $\delta^2$. This is due to the fact that one term, in the equation of the variance computation, does not depend on the effect size.} On the other hand, when the sample sizes ratio moves closer to 1 by adding subjects, the bias will decrease. 
@@ -441,35 +447,62 @@ Figures \ref{fig:idHetbal1} to \ref{fig:idHetunbal4} represent configurations wh
 
 We will observe that when variances are unequal across populations, Glass's $g$ sometimes performs better, but also sometimes performs much worst than Shieh's $g$ and Hedges' $g^*$, both in terms of bias and variance. The performance of Glass's $g$ highly depends on parameters that we  cannot control (i.e. a triple interaction between the $n$-ratio, the $SD$-ratio and the correlation between the standardizer and the mean difference) and for this reason, we do not recommend using it. When the sample sizes ratio is close to 1, Shieh's $g$ and Hedges' $g^*$ are both appropriate but the further the sample sizes ratio is from 1, the larger the bias of Shieh's $g$ in order that in the end, the measure that we believe performs best across scenarios is Hedges' $g^*$.
 
+\blandscape
+\newpage
+
 ```{r "idHetbal1", echo=FALSE, fig.cap="Bias and efficiency of estimators of standardized mean difference, when variances are unequal across groups and sample sizes are equal (condition c), as a function of sample sizes",fig.show='hold',fig.align='center',out.width="100%"}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_bal_N.png")
 ```
 
+\elandscape
+\newpage
+\blandscape
+
 ```{r "idHetbal2", echo=FALSE, fig.cap="Bias and efficiency of estimators of standardized mean difference, when variances are unequal across groups and sample sizes are equal (condition c) as a function of the $SD$-ratio (when $n_1=n_2=20$)",fig.show='hold',fig.align='center',out.width="100%"}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_bal_sd.png")
 ```
+
+\elandscape
 \newpage
 Figures \ref{fig:idHetbal1} and \ref{fig:idHetbal2} are dedicated to scenarios where population variances are unequal between groups and sample sizes are equal (condition c). In Figure \ref{fig:idHetbal1}, scenarios are subdivided as a function of the sample sizes and one can notice that all estimators are consistent, as their bias and variance decrease when the total sample size increases. In Figure \ref{fig:idHetbal2}, scenarios are subdivided as a function of the $SD$-ratio. Because the comparison pattern remains very similar for all sample sizes, we present only scenarios when sample sizes equal 20. One should first notice that for all estimators in Figure \ref{fig:idHetbal2}, the relative variance seems to be much larger when $S_2>S_1$.\footnote{The difference between the variance of estimators when the second group is 10 times larger than the first group was so large that we decided to not present it, for the sake of readability of the Figures.} This information should not be taken into account because it is only an artefact of our simulation conditions combined with the way we computed the relative variance.\footnote{We previously mentioned that when dividing the variance by $\delta^2$, we do not entirely remove the effect size effect. Actually, we introduce $\delta^2$ in the denominator of the first term, in the equation of the variance computation. Because we performed our simulations in order that $\sigma_1$ always equals 1, the smaller $S_2$, the larger the population effect size and therefore, the smaller the relative variance.} 
 
 When samples are extracted from skewed distributions, the bias and variance of Glass's $g$  are sometimes smaller and sometimes larger than the bias of Shieh's $g$ and Hedges' $g^*$. This is mainly due to the fact that when two samples of same sizes are extracted from two skewed distributions with unequal variances (the two last columns in Figure \ref{fig:idHetbal2}), there will be non-null correlations of opposite sign between the mean difference ($\bar{X_1}-\bar{X_2}$) and the standardizer of *all* estimators, depending on which population variance is larger.\footnote{When population variances are unequal, a non-null correlation occurs between standardizer estimates and $\bar{X_1}-\bar{X_2}$. For standardizers computed based on both $S_1$ and $S_2$, the sign of the correlation between the standardizer and the mean difference will be the same as the sign of the correlation between the mean difference and the estimate of the larger population variance. For interested readers, this is detailed in Supplemental Material 3.} 
 
+Figures \ref{fig:idHetunbal1} to \ref{fig:idHetunbal4} are dedicated to scenarios where both sample sizes and population variances differ across groups. Due to a high number of combinations between the sample sizes ratio and the $SD$-ratio in our simulations, we decided to present only some conditions. Because equations in Table 3 revealed an interaction effect between the sample sizes ratio and the $SD$-ratio  on the bias and variance of Hedges' $g^*$ and Shieh's $g$ (see Supplemental Material 1), we chose to present all configurations where the larger $SD$ is 10 times larger than the smaller $SD$ (Figures \ref{fig:idHetunbal1} and \ref{fig:idHetunbal2}), and configurations where the larger $SD$ is twice larger than the smaller $SD$ (Figures \ref{fig:idHetunbal3} and \ref{fig:idHetunbal4}), in order to compare the effect of the sample sizes ratio on the bias and variance of all estimators when the $SD$-ratio is large ($\frac{\sigma_2}{\sigma_1}=10 \; \mathrm{or} \; .1$ ) or medium ($\frac{\sigma_2}{\sigma_1}=2 \; \mathrm{or} \; .5$).
+
+\blandscape
+\newpage
+
 ```{r "idHetunbal1", echo=FALSE, fig.cap="Bias and efficiency of estimators of standardized mean difference, when variances and sample sizes are unequal across groups (condition d), and $\\sigma_1$ is 10 times larger than $\\sigma_2$",fig.show='hold',fig.align='center',out.width="100%"}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_firstlarger_SDR10.png")
 ```
+
+\elandscape
+\newpage
+\blandscape
 
 ```{r "idHetunbal2", echo=FALSE, fig.cap="Bias and efficiency of estimators of standardized mean difference, when variances and sample sizes are unequal across groups (condition d), and $\\sigma_2$ is 10 times larger than $\\sigma_1$",fig.show='hold',fig.align='center',out.width="100%"}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_firstsmaller_SDR10.png")
 ```
 
+\elandscape
+\newpage
+\blandscape
+
 ```{r "idHetunbal3", echo=FALSE, fig.cap="Bias and efficiency of estimators of standardized mean difference, when variances and sample sizes are unequal across groups (condition d), and $\\sigma_1$ is twice larger than $\\sigma_2$",fig.show='hold',fig.align='center',out.width="100%"}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_firstlarger_SDR2.png")
 ```
 
+\elandscape
+\newpage
+\blandscape
+
 ```{r "idHetunbal4", echo=FALSE, fig.cap="Bias and efficiency of estimators of standardized mean difference, when variances and sample sizes are unequal across groups (condition d), and $\\sigma_2$ is twice larger than $\\sigma_1$",fig.show='hold',fig.align='center',out.width="100%"}
 knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_firstsmaller_SDR2.png")
 ```
+
+\elandscape
 \newpage
-Figures \ref{fig:idHetunbal1} to \ref{fig:idHetunbal4} are dedicated to scenarios where both sample sizes and population variances differ across groups. Due to a high number of combinations between the sample sizes ratio and the $SD$-ratio in our simulations, we decided to present only some conditions. Because equations in Table 3 revealed an interaction effect between the sample sizes ratio and the $SD$-ratio  on the bias and variance of Hedges' $g^*$ and Shieh's $g$ (see Supplemental Material 1), we chose to present all configurations where the larger $SD$ is 10 times larger than the smaller $SD$ (Figures \ref{fig:idHetunbal1} and \ref{fig:idHetunbal2}), and configurations where the larger $SD$ is twice larger than the smaller $SD$ (Figures \ref{fig:idHetunbal3} and \ref{fig:idHetunbal4}), in order to compare the effect of the sample sizes ratio on the bias and variance of all estimators when the $SD$-ratio is large ($\frac{\sigma_2}{\sigma_1}=10 \; \mathrm{or} \; .1$ ) or medium ($\frac{\sigma_2}{\sigma_1}=2 \; \mathrm{or} \; .5$).
 
 When distributions are symmetric, the bias of Glass's $g$ only depends on the size of the control group and is therefore not impacted by either the sample sizes ratio or the total sample size. When comparing Figures \ref{fig:idHetunbal1} to \ref{fig:idHetunbal4}, one can also notice that the bias of Glass's $g$ does not depend on the $SD$-ratio either. Unlike the bias of Glass's $g$, its variance depends on both sample sizes, but not in an equivalent way. In most scenarios it is more efficient, in order to reduce the variance of Glass's $g$, to add subjects in the control group. Regarding Hedges' $g^*$ and Shieh's $g$, their respective biases and variances depend on an interaction effect between the sample sizes ratio and the $SD$-ratio $\left( \frac{n_2}{n_1} \times \frac{\sigma_2}{\sigma_1} \right)$ : the sample sizes ratio associated with the smallest bias and variance is not the same when the more variable group is 10 times more variable than the other group (Figures \ref{fig:idHetunbal1} and \ref{fig:idHetunbal2}) than when it is only twice more variable (Figures \ref{fig:idHetunbal3} and \ref{fig:idHetunbal4}). However, the respective biases and variances of Hedges' $g^*$ and Shieh's $g$ are always smaller when there is a positive pairing between sample sizes and variances. When samples are extracted from skewed distributions, the bias and variance of Glass's $g$ are sometimes smaller and sometimes larger than the bias of Shieh's $g$ and Hedges' $g^*$, due to a combination of three factors : (1) which group is larger, (2) which group has the smallest standard deviation and (3) what is the correlation between the standardizer and the mean difference.
 

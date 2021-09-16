@@ -21,7 +21,7 @@ header-includes:
   - \newcommand{\elandscape}{\end{landscape}}
   - \usepackage{bm}
 
-bibliography: bibliography_formatRmd.bib
+bibliography: bibliography.bib
 
 lang: fr
 csl: apa-fr-provost.csl
@@ -92,7 +92,7 @@ Septembre 2021
 
 \spacing{1.5}
 
-Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la littérature scientifique dans les domaines des Sciences Psychologiques et de l’Education. Pourtant, les résultats de ces tests ne seront valides qu’à condition que les résidus, indépendants et identiquement distribués soient extraits d’une population qui se distribue normalement, et que tous les groupes soient extraits de populations ayant la même variance (c’est ce qu’on appelle la condition d’homogénéité des variances). Or, il existe de nombreux arguments qui remettent en cause la crédibilité des conditions de normalité et d’homogénéité des variances dans le champ de la psychologie. On conseille souvent aux chercheurs de tester d’abord la condition d’homogénéité des variances et de décider ensuite si les tests $t$ de Student et $F$ de Fisher sont adéquats ou s’il est préférable de les remplacer par les tests de Welch (qui ne dépendent pas de la condition d’homogénéité des variances). Au sein des chapitres 2 et 3, nous recommandons de privilégier les tests de Welch, indépendamment des résultats préliminaires aux tests d’homogénéité des variances. Par ailleurs, il est de plus en plus recommandé d’accompagner les tests d’hypothèses par des mesures de taille d’effet. Une mesure communément utilisée lorsqu'on compare la moyenne de deux groupes est le traditionnel $d$ de Cohen. Or, cette mesure dépend des mêmes conditions que les tests $t$ de Student et $F$ de Fisher et souffre dès lors des mêmes limites. Nous proposons de la remplacer par le $g^*$ de Cohen décrit au sein du chapitre 4. Pour finir, plutôt que de tester la présence d’un effet non nul et de quantifier cet effet a posteriori, il est possible de tester l’absence d’effet jugé « pertinent » à condition de modifier la manière dont on définit l’hypothèse nulle. Cela fait l’objet du cinquième chapitre de cette thèse.
+Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la littérature scientifique dans les domaines des Sciences Psychologiques et de l’Education. Pourtant, les résultats de ces tests ne seront théoriquement valides qu’à condition que les résidus, indépendants et identiquement distribués soient extraits d’une population qui se distribue normalement, et que tous les groupes soient extraits de populations ayant la même variance (c’est ce qu’on appelle la condition d’homogénéité des variances). Or, il existe de nombreux arguments qui remettent en cause la crédibilité des conditions de normalité et d’homogénéité des variances dans le champ de la psychologie. Comme il a été montré que c'est surtout la violation de la condition d'homogénéité des variances qui est susceptible de poser problème, on conseille souvent aux chercheurs de tester d’abord la condition d’homogénéité des variances et de décider ensuite si les tests $t$ de Student et $F$ de Fisher sont adéquats ou s’il est préférable de les remplacer par les tests de Welch (qui ne dépendent pas de la condition d’homogénéité des variances). Au sein des chapitres 2 et 3, nous recommandons de privilégier les tests de Welch, indépendamment des résultats préliminaires aux tests d’homogénéité des variances. Par ailleurs, il est de plus en plus recommandé d’accompagner les tests d’hypothèse par des mesures de taille d’effet. Une mesure communément utilisée lorsqu'on compare la moyenne de deux groupes indépendants est le traditionnel $d$ de Cohen. Or, cette mesure dépend des mêmes conditions que les tests $t$ de Student et $F$ de Fisher et souffre dès lors des mêmes limites. Nous proposons de la remplacer par le $g^*$ de Cohen décrit au sein du chapitre 4. Pour finir, plutôt que de tester la présence d’un effet non nul et de quantifier cet effet a posteriori, il est possible de tester l’absence d’effet jugé « pertinent » à condition de modifier la manière dont on définit l’hypothèse nulle. Cela fait l’objet du cinquième chapitre de cette thèse.
 
 \pagenumbering{roman}
 
@@ -156,7 +156,6 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 \parskip 2ex
 \theendnotes
 \newpage
-
 ```{r conclusion, child = 'conclusion.Rmd'}
 ```
 \begingroup

@@ -1,0 +1,16 @@
+---
+title: " "
+output: 
+  papaja::apa6_pdf:
+    includes:
+      extra_dependencies: ["float"]
+header-includes:
+  - \usepackage{float}
+  - \usepackage{sectsty}
+---
+
+# Chapitre 2 : Utiliser le test $\bf \emph t$ de Welch par défaut
+
+```{r "chp2p1", fig.align='center',echo=FALSE,out.height="35%"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-couverture.png")
+```
