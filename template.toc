@@ -1,30 +1,32 @@
 \babel@toc {french}{}\relax 
 \setcounter {tocdepth}{1}
 \contentsline {section}{Chapitre 1 : Introduction}{1}{section*.3}%
-\contentsline {section}{Chapitre 2 : Utiliser le test \(\bf \emph t\) de Welch}{9}{section*.5}%
-\contentsline {section}{Chapitre 3 : Utiliser l'ANOVA \(\bf \emph W\) de Welch}{19}{section*.6}%
-\contentsline {section}{Chapitre 4 : Utiliser le \(\bm {g^*}\) de Hedges basé sur l'écart-type non poolé}{31}{section*.7}%
-\contentsline {subsection}{Three purposes of effect size estimators}{33}{section*.8}%
-\contentsline {subsection}{Inferential properties of a good effect size estimator}{34}{section*.9}%
-\contentsline {subsection}{Different measures of effect sizes}{36}{section*.10}%
-\contentsline {subsubsection}{When variances are equal between groups}{36}{section*.11}%
-\contentsline {subsubsection}{When variances are unequal between populations}{40}{section*.12}%
-\contentsline {paragraph}{Glass's \(\bm {d}\)}{40}{section*.13}%
-\contentsline {paragraph}{Shieh's \(\bm {d}\)}{42}{section*.14}%
-\contentsline {paragraph}{Cohen's \(\bm {d^*}\)}{43}{section*.15}%
-\contentsline {paragraph}{Glass's \(\bm {g}\), Shieh's \(\bm {g}\) and Hedges' \(\bm {g^*}\)}{44}{section*.16}%
-\contentsline {subsubsection}{Monte Carlo Simulations}{47}{section*.17}%
-\contentsline {paragraph}{Assessing the bias, efficiency and consistency of 5 estimators}{47}{section*.18}%
-\contentsline {subparagraph}{Method}{47}{section*.19}%
-\contentsline {subparagraph}{Results}{49}{section*.20}%
-\contentsline {subsubsection}{Recommendations}{62}{section*.21}%
-\contentsline {section}{Chapitre 5 : Les tests d'équivalence}{65}{section*.23}%
-\contentsline {subsection}{Limites de l'approche traditionnelle}{66}{section*.24}%
-\contentsline {subsection}{Les tests d'équivalence}{69}{section*.25}%
-\contentsline {subsection}{Définir les bornes de la zone d'équivalence}{72}{section*.26}%
-\contentsline {subsection}{Comparaison du TOST et du SGPV}{76}{section*.27}%
-\contentsline {section}{Chapitre 6 : Discussion et conclusion générale}{88}{section*.29}%
-\contentsline {subsection}{Objectifs de départ, résumé et apports de la thèse}{88}{section*.30}%
-\contentsline {subsection}{Limites et perspectives futures}{96}{section*.31}%
-\contentsline {subsection}{Conclusion générale}{101}{section*.32}%
-\contentsline {section}{Bibliographie}{106}{section*.34}%
+\contentsline {section}{Chapitre 2 : Utiliser le test \(\bf \emph t\) de Welch par défaut}{9}{section*.5}%
+\contentsline {subsection}{Limitations of Two-Step Procedures}{10}{section*.6}%
+\contentsline {subsection}{Different ways to test for equal variances}{11}{section*.7}%
+\contentsline {section}{Chapitre 3 : Utiliser l'ANOVA \(\bf \emph W\) de Welch}{16}{section*.9}%
+\contentsline {section}{Chapitre 4 : Utiliser le \(\bm {g^*}\) de Hedges basé sur l'écart-type non poolé}{28}{section*.10}%
+\contentsline {subsection}{Three purposes of effect size estimators}{30}{section*.11}%
+\contentsline {subsection}{Inferential properties of a good effect size estimator}{31}{section*.12}%
+\contentsline {subsection}{Different measures of effect sizes}{33}{section*.13}%
+\contentsline {subsubsection}{When variances are equal between groups}{33}{section*.14}%
+\contentsline {subsubsection}{When variances are unequal between populations}{37}{section*.15}%
+\contentsline {paragraph}{Glass's \(\bm {d}\)}{37}{section*.16}%
+\contentsline {paragraph}{Shieh's \(\bm {d}\)}{39}{section*.17}%
+\contentsline {paragraph}{Cohen's \(\bm {d^*}\)}{40}{section*.18}%
+\contentsline {paragraph}{Glass's \(\bm {g}\), Shieh's \(\bm {g}\) and Hedges' \(\bm {g^*}\)}{41}{section*.19}%
+\contentsline {subsubsection}{Monte Carlo Simulations}{44}{section*.20}%
+\contentsline {paragraph}{Assessing the bias, efficiency and consistency of 5 estimators}{44}{section*.21}%
+\contentsline {subparagraph}{Method}{44}{section*.22}%
+\contentsline {subparagraph}{Results}{46}{section*.23}%
+\contentsline {subsubsection}{Recommendations}{59}{section*.24}%
+\contentsline {section}{Chapitre 5 : Les tests d'équivalence}{62}{section*.26}%
+\contentsline {subsection}{Limites de l'approche traditionnelle}{63}{section*.27}%
+\contentsline {subsection}{Les tests d'équivalence}{66}{section*.28}%
+\contentsline {subsection}{Définir les bornes de la zone d'équivalence}{69}{section*.29}%
+\contentsline {subsection}{Comparaison du TOST et du SGPV}{73}{section*.30}%
+\contentsline {section}{Chapitre 6 : Discussion et conclusion générale}{85}{section*.32}%
+\contentsline {subsection}{Objectifs de départ, résumé et apports de la thèse}{85}{section*.33}%
+\contentsline {subsection}{Limites et perspectives futures}{93}{section*.34}%
+\contentsline {subsection}{Conclusion générale}{98}{section*.35}%
+\contentsline {section}{Bibliographie}{103}{section*.37}%

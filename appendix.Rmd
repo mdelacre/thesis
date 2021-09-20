@@ -31,9 +31,22 @@ Par ailleurs, il est très important d'être consistant dans le choix des notati
 
 C'est d'autant plus problématique qu'il y a parfois même des inconsistances entre les notations utilisées dans les formules et celles utilisées dans les légendes des formules. Par exemple, nous spécifions p.11 que dans l'équation 1, $s^2_1$ et $s^2_2$ (lettres minuscules) représentent les estimations de variance de chaque groupe indépendant, alors qu'en réalité, les estimations des variances sont représentées par $S^2_1$ et $S^2_2$ (lettres majuscules) dans l'équation 1.
 
+**Partout**: j'ai remplacé "type 1 error rate" et "type 2 error rate" par "type I error rate" et "type II error rate".
+
 ### Faute(s) de frappe
 
 - p.13: "see ~~v~~ **Figure** 2a".
+
+### Erreurs
+
+**p.10**: "the F-ratio statistic is obtained by computing SD2/SD1 (standard deviation ratio, SDR)". --> SD2/SD1 n'est pas le SDR (SDR = $\frac{\sigma_2}{\sigma_1}$) mais le ratio entre les écart-type des ECHANTILLONS. De plus, ce n'est pas systématiquement SD2/SD1 mais le ratio entre le plus grand et le plus petit écart-type d'échantillon. J'ai corrigé la phrase : *"The $F$-ratio statistic is obtained by computing  $\frac{max(S_1,S_2)}{min(S_1,S_2)}$  where $S_j$ is the sample standard deviation of the $j^{th}$ group ($j=1,2$)."* J'ai redéfini correctement le SDR 4 paragraphes plus loin (p.10): au lieu d'écrire "under three SDR where the true varainces are unequal, respectively, 1.1, 1.5 and 2, ...", j'ai écrit : "under three population standard deviation ratio (SDR = $\frac{\sigma_2}{\sigma_1}$ where $\sigma_j$ is the population standard deviation of the $j^{th}$ group ($j=1,2$) : respectively 1.1, 1.5 and 2".  
+
+
+**p.10**: "When SDR = 1, the equal variances assumption is true, when SDR > 1 the standard deviation of the second ~~sample~~ **population** is bigger than the standard deviation of the first ~~sample~~ **population**, and when SDR < 1 the standard deviation of the second ~~sample~~ **population** is smaller than the standard deviation of the first ~~sample~~ **population**". 
+
+### Bibliographie
+
+Référence manquante: Bradley (1978).
 
 \newpage
 

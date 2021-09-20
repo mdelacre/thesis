@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.8)  9 SEP 2021 10:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.20)  20 SEP 2021 09:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -665,7 +665,7 @@ Package rerunfilecheck Info: File `appendix.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  10308 strings out of 480559
- 155459 string characters out of 5901781
+ 155459 string characters out of 5901780
  465888 words of memory out of 5000000
  27699 multiletter control sequences out of 15000+600000
  480567 words of font info for 87 fonts, out of 8000000 for 9000

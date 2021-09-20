@@ -21,7 +21,7 @@ header-includes:
   - \newcommand{\elandscape}{\end{landscape}}
   - \usepackage{bm}
 
-bibliography: bibliography.bib
+bibliography: bibliography_formatRmd.bib
 
 lang: fr
 csl: apa-fr-provost.csl
@@ -126,9 +126,15 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 
 \newpage
 
-```{r chp2, child = 'chp2.Rmd'}
+```{r chp2, child = 'chp2_format Rmd.Rmd'}
 ```
 
+\begingroup
+\parindent 0pt
+\renewcommand\notesname{{\normalsize Endnotes}}
+\parskip 1ex
+\theendnotes
+\endgroup
 \newpage
 
 ```{r chp3, child = 'chp3.Rmd'}
