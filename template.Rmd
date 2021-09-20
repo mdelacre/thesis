@@ -154,7 +154,7 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 
 \newpage
 
-```{r chp5, child = 'chp5.Rmd'}
+```{r chp5, child = 'chp5_format Rmd.Rmd'}
 ```
 
 \parindent 0pt
