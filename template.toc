@@ -5,35 +5,38 @@
 \contentsline {subsection}{Limitations of Two-Step Procedures}{10}{section*.6}%
 \contentsline {subsection}{Different ways to test for equal variances}{11}{section*.7}%
 \contentsline {subsection}{Homogeneity of Variance Assumptions}{14}{section*.8}%
-\contentsline {section}{Chapitre 3 : Utiliser l'ANOVA \(\bf \emph W\) de Welch}{18}{section*.10}%
-\contentsline {section}{Chapitre 4 : Utiliser le \(\bm {g^*}\) de Hedges basé sur l'écart-type non poolé}{30}{section*.11}%
-\contentsline {subsection}{Three purposes of effect size estimators}{32}{section*.12}%
-\contentsline {subsection}{Inferential properties of a good effect size estimator}{33}{section*.13}%
-\contentsline {subsection}{Different measures of effect sizes}{35}{section*.14}%
-\contentsline {subsubsection}{When variances are equal between groups}{35}{section*.15}%
-\contentsline {subsubsection}{When variances are unequal between populations}{39}{section*.16}%
-\contentsline {paragraph}{Glass's \(\bm {d}\)}{39}{section*.17}%
-\contentsline {paragraph}{Shieh's \(\bm {d}\)}{41}{section*.18}%
-\contentsline {paragraph}{Cohen's \(\bm {d^*}\)}{42}{section*.19}%
-\contentsline {paragraph}{Glass's \(\bm {g}\), Shieh's \(\bm {g}\) and Hedges' \(\bm {g^*}\)}{43}{section*.20}%
-\contentsline {subsubsection}{Monte Carlo Simulations}{46}{section*.21}%
-\contentsline {paragraph}{Assessing the bias, efficiency and consistency of 5 estimators}{46}{section*.22}%
-\contentsline {subparagraph}{Method}{46}{section*.23}%
-\contentsline {subparagraph}{Results}{48}{section*.24}%
-\contentsline {subsubsection}{Recommendations}{61}{section*.25}%
-\contentsline {section}{Chapitre 5 : Les tests d'équivalence}{64}{section*.27}%
-\contentsline {subsection}{Limites de l'approche traditionnelle}{65}{section*.28}%
-\contentsline {subsection}{Les tests d'équivalence}{68}{section*.29}%
-\contentsline {subsection}{Définir les bornes de la zone d'équivalence}{71}{section*.30}%
-\contentsline {subsection}{Comparaison du TOST et du SGPV}{74}{section*.31}%
-\contentsline {subsubsection}{The relationship between \emph {p}-values from TOST and SGPV when confidence intervals are symmetrical}{76}{section*.32}%
-\contentsline {paragraph}{SGPV as a uniform measure of overlap}{78}{section*.33}%
-\contentsline {paragraph}{When different \emph {p}-values for equivalence tests yield the same SGPV}{81}{section*.34}%
-\contentsline {paragraph}{The relation between equivalence tests and SGPV for asymmetrical confidence intervals around correlations}{86}{section*.35}%
-\contentsline {paragraph}{What are the Relative Strengths and Weaknesses of Equivalence Testing and the SGPV?}{89}{section*.36}%
-\contentsline {subsubsection}{Conclusion}{91}{section*.37}%
-\contentsline {section}{Chapitre 6 : Discussion et conclusion générale}{94}{section*.39}%
-\contentsline {subsection}{Objectifs de départ, résumé et apports de la thèse}{94}{section*.40}%
-\contentsline {subsection}{Limites et perspectives futures}{102}{section*.41}%
-\contentsline {subsection}{Conclusion générale}{107}{section*.42}%
-\contentsline {section}{Bibliographie}{112}{section*.44}%
+\contentsline {subsection}{The Mathematical Differences Between Student's \(\bm {t}\)-test and Welch's \(\bm {t}\)-test}{17}{section*.9}%
+\contentsline {subsection}{Simulations: Error Rates for Student's \(t\)-test versus Welch's \(t\)-test}{19}{section*.10}%
+\contentsline {subsection}{Conclusion}{21}{section*.11}%
+\contentsline {section}{Chapitre 3 : Utiliser l'ANOVA \(\bf \emph W\) de Welch}{23}{section*.13}%
+\contentsline {section}{Chapitre 4 : Utiliser le \(\bm {g^*}\) de Hedges basé sur l'écart-type non poolé}{35}{section*.14}%
+\contentsline {subsection}{Three purposes of effect size estimators}{37}{section*.15}%
+\contentsline {subsection}{Inferential properties of a good effect size estimator}{38}{section*.16}%
+\contentsline {subsection}{Different measures of effect sizes}{40}{section*.17}%
+\contentsline {subsubsection}{When variances are equal between groups}{40}{section*.18}%
+\contentsline {subsubsection}{When variances are unequal between populations}{44}{section*.19}%
+\contentsline {paragraph}{Glass's \(\bm {d}\)}{44}{section*.20}%
+\contentsline {paragraph}{Shieh's \(\bm {d}\)}{46}{section*.21}%
+\contentsline {paragraph}{Cohen's \(\bm {d^*}\)}{47}{section*.22}%
+\contentsline {paragraph}{Glass's \(\bm {g}\), Shieh's \(\bm {g}\) and Hedges' \(\bm {g^*}\)}{48}{section*.23}%
+\contentsline {subsubsection}{Monte Carlo Simulations}{51}{section*.24}%
+\contentsline {paragraph}{Assessing the bias, efficiency and consistency of 5 estimators}{51}{section*.25}%
+\contentsline {subparagraph}{Method}{51}{section*.26}%
+\contentsline {subparagraph}{Results}{53}{section*.27}%
+\contentsline {subsubsection}{Recommendations}{66}{section*.28}%
+\contentsline {section}{Chapitre 5 : Les tests d'équivalence}{69}{section*.30}%
+\contentsline {subsection}{Limites de l'approche traditionnelle}{70}{section*.31}%
+\contentsline {subsection}{Les tests d'équivalence}{73}{section*.32}%
+\contentsline {subsection}{Définir les bornes de la zone d'équivalence}{76}{section*.33}%
+\contentsline {subsection}{Comparaison du TOST et du SGPV}{79}{section*.34}%
+\contentsline {subsubsection}{The relationship between \emph {p}-values from TOST and SGPV when confidence intervals are symmetrical}{81}{section*.35}%
+\contentsline {paragraph}{SGPV as a uniform measure of overlap}{83}{section*.36}%
+\contentsline {paragraph}{When different \emph {p}-values for equivalence tests yield the same SGPV}{86}{section*.37}%
+\contentsline {paragraph}{The relation between equivalence tests and SGPV for asymmetrical confidence intervals around correlations}{91}{section*.38}%
+\contentsline {paragraph}{What are the Relative Strengths and Weaknesses of Equivalence Testing and the SGPV?}{94}{section*.39}%
+\contentsline {subsubsection}{Conclusion}{96}{section*.40}%
+\contentsline {section}{Chapitre 6 : Discussion et conclusion générale}{99}{section*.42}%
+\contentsline {subsection}{Objectifs de départ, résumé et apports de la thèse}{99}{section*.43}%
+\contentsline {subsection}{Limites et perspectives futures}{107}{section*.44}%
+\contentsline {subsection}{Conclusion générale}{112}{section*.45}%
+\contentsline {section}{Bibliographie}{117}{section*.47}%

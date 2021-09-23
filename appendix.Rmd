@@ -6,43 +6,57 @@ header-includes:
   - \usepackage{xcolor}
   - \usepackage{bm}
 ---
-# Annexes
+# Erratum
 
-## Ambiguïtés possibles dans les articles présentés au sein des chapitres 2 et 3
+## "Why psychologists Should by Default Use Welch's *t*-test Instead of Student's *t*-test" (Chapitre 2)
 
-Il nous est arrivé d'écrire certaines phrases dans nos articles qui, avec du recul, nous semblent pouvoir porter à confusion. D'abord, dans l'article présenté au sein du deuxième chapitre, nous avons écrit ceci (p.12) : *"When both variances and sample sizes are the same in each independent group, the $t$-values, degrees of freedom, and the $p$-values in Student's $t$-test and Welch's $t$-test are the same (see Table 1)."* Cette phrase peut donner l'impression que les deux statistiques mentionnées, ainsi que les degrés de liberté et $p$-valeurs qui leur sont associés sont identiques lorsqu'on travaille avec des échantillons de tailles identiques et que la condition d'homogénéité des variances est respectée, ou autrement dit, lorsque les variances de population ainsi que les tailles d'échantillon sont identiques, or, ce n'est nullement vrai. Pour calculer les statistiques $t$ de Student et $t$ de Welch ainsi que leurs degrés de liberté, on utilise les *estimations* des variances de chaque groupe, et non les variances de population. C'est donc chaque fois que l'on obtiendra des *estimations* identiques pour les variances de chaque groupe, sur base d'échantillons de taille égale, que les statistiques, leur degré de liberté et leur $p$-valeur seront identiques. Or, ceci n'est pas une information très pertinente en soi, puisqu'il arrive très fréquemment d'obtenir des estimations de variance différentes pour chaque groupe lorsque la condition d'homogénéité des variances est respectée, et qu'à l'inverse, il est possible (bien que peu probable) d'obtenir des estimations de variance identiques pour chaque groupe lorsque la condition d'homogénéité des variances n'est pas respectée. Ensuite, dans les articles présentés au sein des chapitres 2 et 3, nous avons décrit trois arguments en défaveur de l'usage du test de Levene. Le troisième argument est le manque de puissance de ce test. Par exemple, nous pouvons lire ceci dans la conclusion de l'article sur le test $t$ de Welch (p.15) : *"Because the statistical power for this test is often low, researchers will inappropriately choose Student's $t$-test instead of more robust alternatives."* Cette phrase peut amener à comprendre que si le test de Levene était toujours très puissant, il serait approprié de l'utiliser en vue de choisir entre les tests $t$ de Student et $t$ de Welch. Pourtant, privilégier le test $t$ de Student lorsque l'on ne peut rejeter l'hypothèse d'égalité des variances (autrement dit, lorsque les résultats du test de Levene sont non significatifs) reviendrait à confondre le non-rejet de l'hypothèse d'égalité des variances avec l'acceptation de l'hypothèse d'égalité des variances. Au sein du chapitre 5 dédié aux tests d'équivalence, nous avons montré que même lorsqu'on s'assure d'avoir une puissance suffisante pour détecter un effet de taille donnée, la stratégie qui consiste à interpréter le non-rejet de l'hypothèse nulle comme un soutien en faveur de l'hypothèse nulle n'est pas appropriée.  
+### Erreurs conceptuelles
 
-## Erratum de l'article "Why psychologists Should by Default Use Welch's *t*-test Instead of Student's *t*-test" (Chapitre 2)
+1) **p.10**: *"the $F$-ratio statistic is obtained by computing SD2/SD1 (standard deviation ratio, SDR)"* :   
+- D'abord, le ratio entre les 2 écart-types d'échantillons ne correspond pas au SDR, mais à l'**estimation** du SDR (SDR = $\frac{\sigma_2}{\sigma_1}$).  
+- Ensuite, ce n'est pas nécessairement le deuxième écart-type d'échantillon qui se trouve au numérateur, mais le plus grand des deux échantillons.  
+
+\color{blue} **Proposition de reformulation : ** *"The $F$-ratio statistic is obtained by computing  $\frac{max(S_1,S_2)}{min(S_1,S_2)}$  where $S_j$ is the sample standard deviation of the $j^{th}$ group ($j=1,2$)."*
+
+\color{black} Cette nouvelle formulation implique de définir le SDR ultérieurement, ce qui est fait 4 paragraphes plus loin dans la version corrigée: *"under three population standard deviation ratio (SDR = $\frac{\sigma_2}{\sigma_1}$ where $\sigma_j$ is the population standard deviation of the $j^{th}$ group; $j=1,2$) : respectively 1.1, 1.5 and 2"*.  
+
+2) \color{black}**p.10**: "When SDR = 1, the equal variances assumption is true, when SDR > 1 the standard deviation of the second ~~sample~~ \color{blue}population \color{black} is bigger than the standard deviation of the first ~~sample~~ \color{blue}population\color{black}, and when SDR < 1 the standard deviation of the second ~~sample~~ \color{blue}population \color{black} is smaller than the standard deviation of the first ~~sample~~ \color{blue} population". \color{black}
+
+3) **p.11**: *"We will discuss ~~three~~ \color{blue} two \color{black}different origins of unequal standard deviations across two ~~groups~~ \color{blue}populations \color{black}..."* 
+
+4) **p.14** (partie "simulations") : *"As long as the variances are equal between ~~groups~~ color{blue}populations \color{black}or sample sizes are equal, the distribution of Student’s $p$-values is uniform..."*.
+
+5) **Partout**: toutes les mentions au test de Yuen, pour les raisons expliquées en limites. 
+\color{blue} **Proposition de rectification** : supprimer tout ce pagraphe (et la table associée). \color{black}
+
+### Ambiguïtés possibles
+
+1) **p.12** : *"When both variances and sample sizes are the same in each independent group, the $t$-values, degrees of freedom, and the $p$-values in Student's $t$-test and Welch's $t$-test are the same (see Table 1)."* Cette phrase peut donner l'impression que les deux statistiques mentionnées, ainsi que les degrés de liberté et $p$-valeurs qui leur sont associés sont identiques lorsqu'on travaille avec des échantillons de tailles identiques et que la condition d'homogénéité des variances est respectée, ou autrement dit, lorsque les variances de population ainsi que les tailles d'échantillon sont identiques, or, ce n'est nullement vrai. Pour calculer les statistiques $t$ de Student et $t$ de Welch ainsi que leurs degrés de liberté, on utilise les *estimations* des variances de chaque groupe, et non les variances de population. C'est donc chaque fois que l'on obtiendra des *estimations* identiques pour les variances de chaque groupe, sur base d'échantillons de taille égale, que les statistiques, leur degré de liberté et leur $p$-valeur seront identiques. Or, ceci n'est pas une information très pertinente en soi, puisqu'il arrive très fréquemment d'obtenir des estimations de variance différentes pour chaque groupe lorsque la condition d'homogénéité des variances est respectée, et qu'à l'inverse, il est possible (bien que peu probable) d'obtenir des estimations de variance identiques pour chaque groupe lorsque la condition d'homogénéité des variances n'est pas respectée.   
+
+\color{blue} **Proposition de rectification** : supprimer tout ce pagraphe (et la table associée). \color{black}
+
+1) **p.16** (à propos du test de Levene) : *"Because the statistical power for this test is often low, researchers will inappropriately choose Student's $t$-test instead of more robust alternatives."* Cette phrase peut amener à comprendre que si le test de Levene était toujours très puissant, il serait approprié de l'utiliser en vue de choisir entre les tests $t$ de Student et $t$ de Welch. Pourtant, privilégier le test $t$ de Student lorsque l'on ne peut rejeter l'hypothèse d'égalité des variances (autrement dit, lorsque les résultats du test de Levene sont non significatifs) reviendrait à confondre le non-rejet de l'hypothèse d'égalité des variances avec l'acceptation de l'hypothèse d'égalité des variances. Au sein du chapitre 5 dédié aux tests d'équivalence, nous avons montré que même lorsqu'on s'assure d'avoir une puissance suffisante pour détecter un effet de taille donnée, la stratégie qui consiste à interpréter le non-rejet de l'hypothèse nulle comme un soutien en faveur de l'hypothèse nulle n'est pas appropriée.  
 
 ### Mise en forme et Notations
 
-Les lettres utilisées pour décrire les statistiques ($t$ ou $F$, par exemple) doivent toujours être inscrites en *italique*. Or, cela a été omis à plusieurs reprises dans l'article. Par exemple, il aurait fallu écrire :   
-- p.9 : "... as the Mann-Whitney $U$-test..." au lieu de "... as the Mann-Whitney U-test...";   
-- p.9 : "$F$-ratio test" au lieu de "F-ratio test".   
+1) Les lettres utilisées pour décrire les statistiques ($t$ ou $F$, par exemple) doivent toujours être inscrites en *italique*. Or, cela a été omis à plusieurs reprises dans l'article. Par exemple, il aurait fallu écrire :   
+**- p.10** : "... as the Mann-Whitney \color{blue}$U$ \color{black}-test...";   
+**- p.10** : "\color{blue}$F$ \color{black}-ratio test".
 
-Certaines notations mathématiques auraient également dû être indiquées en italique. Par exemple, à la p.9, il aurait fallu écrire :     
+2) Certaines notations mathématiques auraient également dû être indiquées en italique. Par exemple, à la p.10, il aurait fallu écrire :     
 - "$x_{ij}$" au lieu de "$\mathrm{x_{ij}}$";  
 - |$x_{ij}-\hat{\theta_j}$| au lieu de |$\mathrm{x_{ij}-\hat{\theta_j}}$|. 
 
-Par ailleurs, il est très important d'être consistant dans le choix des notations mathématiques, afin d'éviter d'embrouiller le lecteur. Or, nous n'avons pas toujours respecté cela. Par exemple, nous avons utilisé plusieurs notations différentes pour décrire l'écart-type et la variance. Par exemple :   
-- p.9 : nous utilisons respectivement SD1 et SD2 pour décrire l'écart-type de chaque groupe;  
-- p.11 (équation 1) : nous utilisons respectivement $S^2_1$ et $S^2_2$ pour décrire la variance de chaque groupe;   
-- p.12 (équation 4) : nous utilisons respectivement $s^2_1$ et $s^2_2$ (lettres minuscules) pour décrire la variance de chaque groupe.
+3) Il est très important d'être consistant dans le choix des notations mathématiques, pour éviter toute confusion pour le lecteur. Or, nous ne l'avons pas toujours été. Par exemple, nous avons utilisé plusieurs notations différentes pour décrire l'écart-type et la variance :   
+- p.10 : nous utilisons respectivement SD1 et SD2 pour décrire l'écart-type de chaque groupe;  
+- p.12 (équation 1) : nous utilisons respectivement $S^2_1$ et $S^2_2$ pour décrire la variance de chaque groupe, alors que nous utilisons $s^2_1$ et $s^2_2$ (lettres minuscules) dans la légende de cette formule;    
+- p.13 (équations 3 et 4) : nous utilisons respectivement $s^2_1$ et $s^2_2$ (lettres minuscules) pour décrire la variance de chaque groupe.
 
-C'est d'autant plus problématique qu'il y a parfois même des inconsistances entre les notations utilisées dans les formules et celles utilisées dans les légendes des formules. Par exemple, nous spécifions p.11 que dans l'équation 1, $s^2_1$ et $s^2_2$ (lettres minuscules) représentent les estimations de variance de chaque groupe indépendant, alors qu'en réalité, les estimations des variances sont représentées par $S^2_1$ et $S^2_2$ (lettres majuscules) dans l'équation 1.
-
-**Partout**: j'ai remplacé "type 1 error rate" et "type 2 error rate" par "type I error rate" et "type II error rate".
+4) On parle normalement d'erreur de type I et II (et non d'erreur de type 1 et 2): or dans tout l'article du chapitre 2, j'ai parlé des erreurs de type 1 et 2. Par exemple, p.13: *"An increase in the Type 1 error rate leads to an inflation of... while an increase in the Type 2 error rate..."*
 
 ### Faute(s) de frappe
 
 - p.13: "see ~~v~~ **Figure** 2a".
-
-### Erreurs
-
-**p.10**: "the F-ratio statistic is obtained by computing SD2/SD1 (standard deviation ratio, SDR)". --> SD2/SD1 n'est pas le SDR (SDR = $\frac{\sigma_2}{\sigma_1}$) mais le ratio entre les écart-type des ECHANTILLONS. De plus, ce n'est pas systématiquement SD2/SD1 mais le ratio entre le plus grand et le plus petit écart-type d'échantillon. J'ai corrigé la phrase : *"The $F$-ratio statistic is obtained by computing  $\frac{max(S_1,S_2)}{min(S_1,S_2)}$  where $S_j$ is the sample standard deviation of the $j^{th}$ group ($j=1,2$)."* J'ai redéfini correctement le SDR 4 paragraphes plus loin (p.10): au lieu d'écrire "under three SDR where the true varainces are unequal, respectively, 1.1, 1.5 and 2, ...", j'ai écrit : "under three population standard deviation ratio (SDR = $\frac{\sigma_2}{\sigma_1}$ where $\sigma_j$ is the population standard deviation of the $j^{th}$ group ($j=1,2$) : respectively 1.1, 1.5 and 2".  
-
-
-**p.10**: "When SDR = 1, the equal variances assumption is true, when SDR > 1 the standard deviation of the second ~~sample~~ **population** is bigger than the standard deviation of the first ~~sample~~ **population**, and when SDR < 1 the standard deviation of the second ~~sample~~ **population** is smaller than the standard deviation of the first ~~sample~~ **population**". 
 
 ### Bibliographie
 
@@ -58,7 +72,7 @@ Une légende est manquante pour certaines notations mathématiques. Par exemple,
 
 Par ailleurs, comme dans l'article précédent sur le test $t$ de Welch, on constate certaines incohérences en termes de notation. Par exemple, si la moyenne de chaque groupe est définie par $\bar{x_j}$ dans l'équation (1), elle est définie par $\bar{X_j}$ dans l'équation (7). 
 
-Enfin, dû à un manque de connaissance de Latex lors de mes premières tentatives d'écritures d'articles via Rmarkdown, certaines majuscules sont manquantes dans les références bibliographiques. S'assurer qu'une lettre apparaisse en majuscule, via latex, implique de l'entourer des symboles {}, ce qui n'a pas été fait. Par exemple, dans le titre de l'article de @tiku_power_1971, il aurait fallu indiquer "Power function of the {F}-test.." au lieu de "Power function of the F-test...". Cela ne serait pas arrivé si j'avais utilisé un outil comme Zotero afin d'exporter directement un fichier au format Bibtex (puisque via ces outils, ce genre de détail est automatiquement inclus), mais je n'ai découvert cette possibilité que récemment.
+Enfin, dû à un manque de connaissance de Latex lors de mes premières tentatives d'écritures d'articles via Rmarkdown, certaines majuscules sont manquantes dans les références bibliographiques. 
 
 ### Faute(s) de frappe et grammaire
 

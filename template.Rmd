@@ -114,7 +114,7 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 
 \pagenumbering{arabic}
 
-```{r intro, child = 'introduction.Rmd'}
+```{r intro, child = 'introduction_bib.Rmd'}
 ```
 
 \begingroup
