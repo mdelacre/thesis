@@ -142,7 +142,7 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 
 \newpage
 
-```{r chp4, child = 'chp4.Rmd'}
+```{r chp4, child = 'chp4_formatRmd.Rmd'}
 ```
 
 \begingroup
