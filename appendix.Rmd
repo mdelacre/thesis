@@ -68,6 +68,10 @@ Référence manquante: Bradley (1978).
 
 ## Annexe B: erratum de l'article "Taking parametric assumptions very seriously : Arguments for the Use of Welch’s *F*-test instead of the Classical *F*-test in One-Way ANOVA" (Chapitre 3)
 
+### Erreur conceptuelle
+**p.22** : ~~Formula (7)~~ \color{blue}Equation 7 \color{black} provides the computation of the ~~W-test, or Welch’s F-test~~ \color{blue}Welch’s statistic ($W$) \color{black}
+**p.22** :  In the numerator of the ~~W-test~~ \color{blue}$W$ statistic,\color{black} the squared deviation between group mean
+
 ### Mise en forme et Notations  
 
 Une légende est manquante pour certaines notations mathématiques. Par exemple, en ce qui concerne l'équation (1), bien que $n_j$, $k$ et $s^2_j$ aient été correctement définis, les définitions pour $\bar{x_j}$, $\bar{x_{..}}$ et $N$ ne sont données que plus tard, en référence à d'autres équations. Cela peut rendre la lecture de l'article plus compliquée pour certaines personnes non familières avec ces notations.
@@ -76,10 +80,9 @@ Par ailleurs, comme dans l'article précédent sur le test $t$ de Welch, on cons
 
 **p.21** : ~~($SD_{spanish}=.80 > SD_{english}=.50$\color{blue})~~ ($S_{spanish}=.80 > S_{english}=.50$\color{blue}, with S = sample standard deviation) [...] \color{black}For men, the reverse was true ~~($SD_{spanish}=.97 < SD_{english}=1.33$)~~ ($S_{spanish}=.97 < S_{english}=1.33$)
 
-
 Enfin, dû à un manque de connaissance de Latex lors de mes premières tentatives d'écritures d'articles via Rmarkdown, certaines majuscules sont manquantes dans les références bibliographiques. 
 
-### Faute(s) de frappe et grammaire
+### Faute(s) de frappe et grammaire et autres
 
 - p.18 : "Although it is important to make sure ~~test~~ **that** assumptions are met";    
 - p.19 : "... we think that a ~~first~~ realistic first step towards progress would be to get researchers...";   
@@ -87,7 +90,8 @@ Enfin, dû à un manque de connaissance de Latex lors de mes premières tentativ
 - p.21 : "~~With~~ **w**ith $N=$...";  
 - p.21 : "~~Where~~ **w**here ~~$x_j$~~ $\bar{x_j}$ and $s^2_j$ are respectively the group mean and the group variance...";    
 - p.22 : "... negative pairings (the group with the ~~smallest~~ **largest** sample size is extracted from the population with the smallest $SD$);  
-- p.22 : "the type I error rate of all test**s**";  
+- p.22 : "the type I error rate of all test**s**";
+- p.22 : " In the ~~appendix~~ Supplemental Material we illustrate the calculation of all three statistics in detail for a fictional three-group design for educational purposes."
 - p.24 : "... which is either more liberal or more conservative, depending on the $SDs$ and ~~$SD$~~ **sample sizes** pairing";  
 - p.24 : "... ~~whatever~~ the correlation between the $SD$ and the mean **does not matter**";  
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.20)  27 SEP 2021 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.20)  27 SEP 2021 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -789,17 +789,17 @@ gures/Figure 1/Figure1.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs/Fig
 ures/Figure 1/Figure1.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/studentbackup
-/scripts outputs/Figures/Figure 1/Figure1.png  used on input line 801.
+/scripts outputs/Figures/Figure 1/Figure1.png  used on input line 802.
 (pdftex.def)             Requested size: 486.2576pt x 283.65025pt.
 [13pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.829 
+l.830 
        <c:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs/
 Figures/Figure 1/Figure1.png>] [14] [15] [16]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 976.
+(Font)              <14.4> on input line 977.
 [17] [18]
 <C:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs/Figures
 /Figure 2/Figure 2.png, id=186, 277.035pt x 300.62312pt>
@@ -808,13 +808,13 @@ gures/Figure 2/Figure 2.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs/Fig
 ures/Figure 2/Figure 2.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/studentbackup
-/scripts outputs/Figures/Figure 2/Figure 2.png  used on input line 1089.
+/scripts outputs/Figures/Figure 2/Figure 2.png  used on input line 1090.
 (pdftex.def)             Requested size: 277.05968pt x 300.64989pt.
 [19] [20pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1114 
+l.1115 
         <c:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs
 /Figures/Figure 2/Figure 2.PNG>]
 <C:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs/Figures
@@ -824,13 +824,13 @@ gures/Figure 3/Figure 3.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs/Fig
 ures/Figure 3/Figure 3.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/studentbackup
-/scripts outputs/Figures/Figure 3/Figure 3.png  used on input line 1145.
+/scripts outputs/Figures/Figure 3/Figure 3.png  used on input line 1146.
 (pdftex.def)             Requested size: 296.1281pt x 316.7065pt.
 [21] [22pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1167 
+l.1168 
         <c:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs
 /Figures/Figure 3/Figure 3.PNG>] [23] [24] (./template.ent) [25]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-couvertu
@@ -840,75 +840,85 @@ verture.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-couv
 erture.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 3/Chapitre 3-couverture.png  used on input line 1221.
+re 3/Chapitre 3-couverture.png  used on input line 1222.
 (pdftex.def)             Requested size: 480.40338pt x 367.824pt.
 [26 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 3/Chapitre 3-couv
 erture.png>] [27] [28] [29]
 \openout3 = `template.ent'.
 
-[30] [31] [32]
-<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png, id=273, 
+[30] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 1503--1508
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1511--1517
+
+ []
+
+[32] [33] [34]
+<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png, id=293, 
 367.3725pt x 173.14688pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png Grap
 hic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 4/title.png  used on input line 1504.
+re 4/title.png  used on input line 1598.
 (pdftex.def)             Requested size: 367.38278pt x 173.15173pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png, id=
-274, 372.39125pt x 172.14313pt>
+294, 372.39125pt x 172.14313pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png
  Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png>
 
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 4/authornote.png  used on input line 1506.
+re 4/authornote.png  used on input line 1600.
 (pdftex.def)             Requested size: 372.39034pt x 172.14268pt.
-[33 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png> <c:/
+[35 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png> <c:/
 Users/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png>]
-Underfull \hbox (badness 2065) in paragraph at lines 1513--1520
+Underfull \hbox (badness 2065) in paragraph at lines 1607--1614
 \T1/lmr/m/n/12 Psychological Association (APA) and the American Educational Res
 earch Association
  []
 
-[34] [35]
-<template_files/figure-latex/BIAS-1.pdf, id=293, 1084.05pt x 578.16pt>
+[36] [37]
+<template_files/figure-latex/BIAS-1.pdf, id=314, 1084.05pt x 578.16pt>
 File: template_files/figure-latex/BIAS-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/BIAS-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/BIAS-1.pdf  used on input 
-line 1637.
+line 1731.
 (pdftex.def)             Requested size: 401.50575pt x 214.1364pt.
-[36] [37pdfTeX warning (ext4): destination with the same identifier (name{figur
+[38] [39pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1685 
-        <./template_files/figure-latex/BIAS-1.pdf>] [38] [39] [40] [41
+l.1779 
+        <./template_files/figure-latex/BIAS-1.pdf>] [40] [41] [42] [43
 
-] [42
+] [44
 
-] [43
+] [45
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1983--1988
+Underfull \hbox (badness 10000) in paragraph at lines 2077--2082
 
  []
 
-[44
+[46
 
-] [45]
-Underfull \hbox (badness 10000) in paragraph at lines 2083--2089
+] [47]
+Underfull \hbox (badness 10000) in paragraph at lines 2177--2183
 
  []
 
-[46] [47] [48
+[48] [49] [50
 
-] [49
+] [51
 
-] [50] [51] [52]
+] [52] [53] [54]
 <C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
 of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Hom
-_bal.png, id=449, 948.54375pt x 443.15562pt>
+_bal.png, id=467, 948.54375pt x 443.15562pt>
 File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
 lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
 y/Hom_bal.png Graphic file (type png)
@@ -917,21 +927,21 @@ ity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality
 /Hom_bal.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/Effect-sizes/
 Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figu
-res_relative quality/Hom_bal.png  used on input line 2349.
+res_relative quality/Hom_bal.png  used on input line 2443.
 (pdftex.def)             Requested size: 681.1852pt x 318.24683pt.
-[53
+[55
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2355 \end{landscape}
+l.2449 \end{landscape}
                        <c:/Users/Admin/Documents/Github projects/Effect-sizes/S
 cripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figur
 es_relative quality/Hom_bal.png>]
 <C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
 of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Hom
-_unbal.png, id=455, 949.5475pt x 442.65375pt>
+_unbal.png, id=473, 949.5475pt x 442.65375pt>
 File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
 lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
 y/Hom_unbal.png Graphic file (type png)
@@ -940,24 +950,24 @@ ity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality
 /Hom_unbal.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/Effect-sizes/
 Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figu
-res_relative quality/Hom_unbal.png  used on input line 2361.
+res_relative quality/Hom_unbal.png  used on input line 2455.
 (pdftex.def)             Requested size: 681.1816pt x 317.54869pt.
-[54
+[56
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2368 \end{landscape}
+l.2462 \end{landscape}
                        <c:/Users/Admin/Documents/Github projects/Effect-sizes/S
 cripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figur
-es_relative quality/Hom_unbal.png>] [55
+es_relative quality/Hom_unbal.png>] [57
 
-] [56]
+] [58]
 <C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
 of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
-_bal_N.png, id=477, 948.04187pt x 440.64626pt>
+_bal_N.png, id=495, 948.04187pt x 440.64626pt>
 File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
 lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
 y/Het_bal_N.png Graphic file (type png)
@@ -966,21 +976,21 @@ ity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality
 /Het_bal_N.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/Effect-sizes/
 Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figu
-res_relative quality/Het_bal_N.png  used on input line 2473.
+res_relative quality/Het_bal_N.png  used on input line 2567.
 (pdftex.def)             Requested size: 681.18643pt x 316.61285pt.
-[57
+[59
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2480 \end{landscape}
+l.2574 \end{landscape}
                        <c:/Users/Admin/Documents/Github projects/Effect-sizes/S
 cripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figur
 es_relative quality/Het_bal_N.png>]
 <C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
 of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
-_bal_sd.png, id=483, 950.04938pt x 442.65375pt>
+_bal_sd.png, id=501, 950.04938pt x 442.65375pt>
 File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
 lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
 y/Het_bal_sd.png Graphic file (type png)
@@ -989,24 +999,24 @@ ity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality
 /Het_bal_sd.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/Effect-sizes/
 Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figu
-res_relative quality/Het_bal_sd.png  used on input line 2486.
+res_relative quality/Het_bal_sd.png  used on input line 2580.
 (pdftex.def)             Requested size: 681.17921pt x 317.37984pt.
-[58
+[60
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2493 \end{landscape}
+l.2587 \end{landscape}
                        <c:/Users/Admin/Documents/Github projects/Effect-sizes/S
 cripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figur
-es_relative quality/Het_bal_sd.png>] [59
+es_relative quality/Het_bal_sd.png>] [61
 
 ]
 <C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
 of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
-_firstlarger_SDR10.png, id=509, 947.54pt x 442.65375pt>
+_firstlarger_SDR10.png, id=527, 947.54pt x 442.65375pt>
 File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
 lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
 y/Het_firstlarger_SDR10.png Graphic file (type png)
@@ -1015,21 +1025,21 @@ ity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality
 /Het_firstlarger_SDR10.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/Effect-sizes/
 Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figu
-res_relative quality/Het_firstlarger_SDR10.png  used on input line 2546.
+res_relative quality/Het_firstlarger_SDR10.png  used on input line 2640.
 (pdftex.def)             Requested size: 681.17282pt x 318.21738pt.
-[60
+[62
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2553 \end{landscape}
+l.2647 \end{landscape}
                        <c:/Users/Admin/Documents/Github projects/Effect-sizes/S
 cripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figur
 es_relative quality/Het_firstlarger_SDR10.png>]
 <C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
 of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
-_firstsmaller_SDR10.png, id=515, 945.5325pt x 441.14813pt>
+_firstsmaller_SDR10.png, id=534, 945.5325pt x 441.14813pt>
 File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
 lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
 y/Het_firstsmaller_SDR10.png Graphic file (type png)
@@ -1038,22 +1048,22 @@ ity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality
 /Het_firstsmaller_SDR10.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/Effect-sizes/
 Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figu
-res_relative quality/Het_firstsmaller_SDR10.png  used on input line 2559.
+res_relative quality/Het_firstsmaller_SDR10.png  used on input line 2653.
 (pdftex.def)             Requested size: 681.17244pt x 317.80815pt.
-[61
+[63
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2566 \end{landscape}
+l.2660 \end{landscape}
                        <c:/Users/Admin/Documents/Github projects/Effect-sizes/S
 cripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figur
 es_relative quality/Het_firstsmaller_SDR10.png>]
 <C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
 of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
-_firstlarger_SDR2.png, id=521, 949.5475pt x 442.15187pt>
+_firstlarger_SDR2.png, id=540, 949.5475pt x 442.15187pt>
 File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
 lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
 y/Het_firstlarger_SDR2.png Graphic file (type png)
@@ -1062,22 +1072,22 @@ ity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality
 /Het_firstlarger_SDR2.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/Effect-sizes/
 Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figu
-res_relative quality/Het_firstlarger_SDR2.png  used on input line 2572.
+res_relative quality/Het_firstlarger_SDR2.png  used on input line 2666.
 (pdftex.def)             Requested size: 681.1816pt x 317.18867pt.
-[62
+[64
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2579 \end{landscape}
+l.2673 \end{landscape}
                        <c:/Users/Admin/Documents/Github projects/Effect-sizes/S
 cripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figur
 es_relative quality/Het_firstlarger_SDR2.png>]
 <C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality 
 of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het
-_firstsmaller_SDR2.png, id=528, 949.5475pt x 442.15187pt>
+_firstsmaller_SDR2.png, id=546, 949.5475pt x 442.15187pt>
 File: C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Qua
 lity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qualit
 y/Het_firstsmaller_SDR2.png Graphic file (type png)
@@ -1086,347 +1096,347 @@ ity of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality
 /Het_firstsmaller_SDR2.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/Effect-sizes/
 Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figu
-res_relative quality/Het_firstsmaller_SDR2.png  used on input line 2585.
+res_relative quality/Het_firstsmaller_SDR2.png  used on input line 2679.
 (pdftex.def)             Requested size: 681.1816pt x 317.18867pt.
-[63
+[65
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2592 \end{landscape}
+l.2686 \end{landscape}
                        <c:/Users/Admin/Documents/Github projects/Effect-sizes/S
 cripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figur
-es_relative quality/Het_firstsmaller_SDR2.png>] [64
+es_relative quality/Het_firstsmaller_SDR2.png>] [66
 
-] (./template.ent [65]) [66]
+] (./template.ent [67]) [68]
 \openout3 = `template.ent'.
 
-[67]
+[69]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Table1
-.png, id=570, 483.8075pt x 271.51437pt>
+.png, id=589, 483.8075pt x 271.51437pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/T
 able1.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
 ble1.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Illustration/Table1.png  used on input line 2736.
+re 5/Illustration/Table1.png  used on input line 2830.
 (pdftex.def)             Requested size: 461.9621pt x 259.25462pt.
-[68 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
+[70 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
 ble1.png>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Table2
-.png, id=578, 483.8075pt x 285.065pt>
+.png, id=596, 483.8075pt x 285.065pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/T
 able2.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Ta
 ble2.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Illustration/Table2.png  used on input line 2783.
+re 5/Illustration/Table2.png  used on input line 2877.
 (pdftex.def)             Requested size: 461.9621pt x 272.19342pt.
-[69] [70 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustrati
+[71] [72 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustrati
 on/Table2.png>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fig1.p
-ng, id=591, 361.35pt x 361.35pt>
+ng, id=609, 361.35pt x 361.35pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/F
 ig1.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fi
 g1.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Illustration/Fig1.png  used on input line 2818.
+re 5/Illustration/Fig1.png  used on input line 2912.
 (pdftex.def)             Requested size: 194.49753pt x 194.49753pt.
-[71pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
+[73pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2855 \[
+l.2949 \[
          \it H0_1\;: \theta < \theta_1, \; avec \; \theta_1 \neq 0\] La seconde
  <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Illustration/Fig1.
 png>]
-<template_files/figure-latex/equiv1-1.pdf, id=600, 469.755pt x 325.215pt>
+<template_files/figure-latex/equiv1-1.pdf, id=618, 469.755pt x 325.215pt>
 File: template_files/figure-latex/equiv1-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/equiv1-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/equiv1-1.pdf  used on inpu
-t line 2897.
+t line 2991.
 (pdftex.def)             Requested size: 389.00774pt x 269.31305pt.
-[72] [73pdfTeX warning (ext4): destination with the same identifier (name{figur
+[74] [75pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.14}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2967 
-        <./template_files/figure-latex/equiv1-1.pdf>] [74] [75] [76]
-Underfull \hbox (badness 10000) in paragraph at lines 3064--3067
+l.3061 
+        <./template_files/figure-latex/equiv1-1.pdf>] [76] [77] [78]
+Underfull \hbox (badness 10000) in paragraph at lines 3158--3161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3064--3067
+Underfull \hbox (badness 10000) in paragraph at lines 3158--3161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3064--3067
+Underfull \hbox (badness 10000) in paragraph at lines 3158--3161
 
  []
 
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-couvertu
-re.png, id=641, 1098.35344pt x 1149.5447pt>
+re.png, id=659, 1098.35344pt x 1149.5447pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-cou
 verture.png Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-couv
 erture.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/Chapitre 5-couverture.png  used on input line 3068.
+re 5/Chapitre 5-couverture.png  used on input line 3162.
 (pdftex.def)             Requested size: 455.57355pt x 476.8066pt.
-[77 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-couv
+[79 <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/Chapitre 5-couv
 erture.png>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-081.
+175.
 (c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [78]
+) [80]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV1.png, id=6
-56, 490.83376pt x 217.81375pt>
+75, 490.83376pt x 217.81375pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV1.png 
 Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV1.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/TOSTSGPV1.png  used on input line 3162.
+re 5/TOSTSGPV1.png  used on input line 3256.
 (pdftex.def)             Requested size: 490.72769pt x 217.76666pt.
 
-Overfull \hbox (4.47008pt too wide) in paragraph at lines 3162--3163
+Overfull \hbox (4.47008pt too wide) in paragraph at lines 3256--3257
  [][] 
  []
 
-[79]
+[81]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV2.png, id=6
-67, 231.36438pt x 136.51pt>
+86, 231.36438pt x 136.51pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV2.png 
 Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV2.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/TOSTSGPV2.png  used on input line 3195.
+re 5/TOSTSGPV2.png  used on input line 3289.
 (pdftex.def)             Requested size: 462.5652pt x 272.9235pt.
-[80pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
+[82pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3200 \end{figure}
+l.3294 \end{figure}
                     <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5
-/TOSTSGPV1.png>] [81pdfTeX warning (ext4): destination with the same identifier
+/TOSTSGPV1.png>] [83pdfTeX warning (ext4): destination with the same identifier
  (name{figure.16}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3231 
+l.3325 
         <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV2.p
 ng>]
-<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV3.png, id=6
-85, 229.35687pt x 135.50626pt>
+<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV3.png, id=7
+04, 229.35687pt x 135.50626pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV3.png 
 Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV3.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/TOSTSGPV3.png  used on input line 3234.
+re 5/TOSTSGPV3.png  used on input line 3328.
 (pdftex.def)             Requested size: 458.93658pt x 271.14413pt.
-[82pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
+[84pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3267 
+l.3361 
         <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV3.P
 NG>]
-<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV4.png, id=6
-94, 214.30063pt x 134.5025pt>
+<C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV4.png, id=7
+13, 214.30063pt x 134.5025pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV4.png 
 Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV4.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/TOSTSGPV4.png  used on input line 3270.
+re 5/TOSTSGPV4.png  used on input line 3364.
 (pdftex.def)             Requested size: 428.59691pt x 269.00224pt.
-[83pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
+[85pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3295 
+l.3389 
         <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV4.P
 NG>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV5.png, id=7
-04, 231.36438pt x 132.99687pt>
+23, 231.36438pt x 132.99687pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV5.png 
 Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV5.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/TOSTSGPV5.png  used on input line 3320.
+re 5/TOSTSGPV5.png  used on input line 3414.
 (pdftex.def)             Requested size: 462.5652pt x 265.89972pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV6.png, id=7
-05, 230.8625pt x 135.50626pt>
+24, 230.8625pt x 135.50626pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV6.png 
 Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV6.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/TOSTSGPV6.png  used on input line 3350.
+re 5/TOSTSGPV6.png  used on input line 3444.
 (pdftex.def)             Requested size: 461.84009pt x 271.08003pt.
-[84]
+[86]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV7.png, id=7
-15, 228.35312pt x 132.495pt>
+34, 228.35312pt x 132.495pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV7.png 
 Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV7.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/TOSTSGPV7.png  used on input line 3381.
+re 5/TOSTSGPV7.png  used on input line 3475.
 (pdftex.def)             Requested size: 456.76433pt x 265.02368pt.
-[85pdfTeX warning (ext4): destination with the same identifier (name{figure.19}
+[87pdfTeX warning (ext4): destination with the same identifier (name{figure.19}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3398 
+l.3492 
         <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV5.P
-NG>] [86pdfTeX warning (ext4): destination with the same identifier (name{figur
+NG>] [88pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.20}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3398 
+l.3492 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .21}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3398 
+l.3492 
         <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV6.P
 NG> <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV7.PNG>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV8.png, id=7
-32, 229.85875pt x 132.495pt>
+50, 229.85875pt x 132.495pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV8.png 
 Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV8.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/TOSTSGPV8.png  used on input line 3401.
+re 5/TOSTSGPV8.png  used on input line 3495.
 (pdftex.def)             Requested size: 459.66373pt x 264.95898pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV9.png, id=7
-34, 231.86626pt x 135.00438pt>
+52, 231.86626pt x 135.00438pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV9.png 
 Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV9.png>
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/TOSTSGPV9.png  used on input line 3420.
+re 5/TOSTSGPV9.png  used on input line 3514.
 (pdftex.def)             Requested size: 464.01439pt x 270.17285pt.
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV10.png, id=
-736, 490.83376pt x 217.81375pt>
+754, 490.83376pt x 217.81375pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV10.png
  Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV10.png>
 
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/TOSTSGPV10.png  used on input line 3434.
+re 5/TOSTSGPV10.png  used on input line 3528.
 (pdftex.def)             Requested size: 490.72769pt x 217.76666pt.
 
-Overfull \hbox (4.47008pt too wide) in paragraph at lines 3434--3435
+Overfull \hbox (4.47008pt too wide) in paragraph at lines 3528--3529
  [][] 
  []
 
-[87pdfTeX warning (ext4): destination with the same identifier (name{figure.22}
+[89pdfTeX warning (ext4): destination with the same identifier (name{figure.22}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3445 
+l.3539 
         <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV8.P
-NG>] [88pdfTeX warning (ext4): destination with the same identifier (name{figur
+NG>] [90pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.23}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3445 
+l.3539 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .24}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3445 
+l.3539 
         <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV9.P
 NG> <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV10.png>
 ]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV11.png, id=
-753, 230.36063pt x 135.00438pt>
+771, 230.36063pt x 135.00438pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV11.png
  Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV11.png>
 
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/TOSTSGPV11.png  used on input line 3487.
+re 5/TOSTSGPV11.png  used on input line 3581.
 (pdftex.def)             Requested size: 461.11377pt x 270.23877pt.
-[89] [90pdfTeX warning (ext4): destination with the same identifier (name{figur
+[91] [92pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.25}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3522 
+l.3616 
         <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV11.
 PNG>]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV12.png, id=
-768, 202.25563pt x 135.00438pt>
+787, 202.25563pt x 135.00438pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV12.png
  Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV12.png>
 
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/TOSTSGPV12.png  used on input line 3525.
+re 5/TOSTSGPV12.png  used on input line 3619.
 (pdftex.def)             Requested size: 404.72011pt x 270.14813pt.
-[91pdfTeX warning (ext4): destination with the same identifier (name{figure.26}
+[93pdfTeX warning (ext4): destination with the same identifier (name{figure.26}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3564 
+l.3658 
         <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV12.
-PNG>] [92]
+PNG>] [94]
 <C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV13.png, id=
-782, 196.23312pt x 114.92938pt>
+800, 196.23312pt x 114.92938pt>
 File: C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV13.png
  Graphic file (type png)
 <use C:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV13.png>
 
 Package pdftex.def Info: C:/Users/Admin/Documents/Github projects/thesis/Chapit
-re 5/TOSTSGPV13.png  used on input line 3630.
+re 5/TOSTSGPV13.png  used on input line 3724.
 (pdftex.def)             Requested size: 392.45326pt x 229.85117pt.
-[93] [94pdfTeX warning (ext4): destination with the same identifier (name{figur
+[95] [96pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.27}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3682 
+l.3776 
         <c:/Users/Admin/Documents/Github projects/thesis/Chapitre 5/TOSTSGPV13.
-PNG>] (./template.ent [95]) [96]
+PNG>] (./template.ent [97]) [98]
 \openout3 = `template.ent'.
 
-[97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110
-] [111] (./template.ent [112]
+[99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [1
+12] [113] (./template.ent [114]
 
 LaTeX Warning: Command \' invalid in math mode on input line 881.
 
-[113]) [114] [115] [116]
-Underfull \hbox (badness 1062) in paragraph at lines 4582--4588
+[115]) [116] [117] [118]
+Underfull \hbox (badness 1062) in paragraph at lines 4681--4687
 \T1/lmr/m/n/12 kurtosis for measuring nonnormality: Prevalence, influence and e
 stimation. \T1/lmr/m/it/12 Behavior
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 4594--4601
+Underfull \hbox (badness 5460) in paragraph at lines 4693--4700
 \T1/lmr/m/n/12 of traitedness: Replication and extension with alternative measu
 rement formats
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 4594--4601
+Underfull \hbox (badness 3769) in paragraph at lines 4693--4700
 \T1/lmr/m/n/12 and cultural dimensions. \T1/lmr/m/it/12 Journal of Cross-Cultur
 al Psychology\T1/lmr/m/n/12 , \T1/lmr/m/it/12 43\T1/lmr/m/n/12 (8), 1268[]1296.
 
  []
 
-[117] [118] [119] [120]
-Underfull \hbox (badness 1728) in paragraph at lines 4805--4810
+[119] [120] [121] [122]
+Underfull \hbox (badness 1728) in paragraph at lines 4904--4909
 \T1/lmr/m/n/12 in Two-Group Comparative Bioavailability Trials. \T1/lmr/m/it/12
  Journal of Pharmacokinetics and
  []
 
-[121] [122] [123] [124] [125] [126] [127] [128] [129] [130] 
+[123] [124] [125] [126] [127] [128] [129] [130] [131] [132] 
 AED: lastpage setting LastPage
-[131] (./template.aux)
+[133] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 1A41524A4AA586B6C893B0FC9DCE1F31;2337.
+(rerunfilecheck)             Checksum: 33F6532156C265C8FF7BBE01BC6630E8;2332.
  )
 (\end occurred inside a group at level 2)
 
@@ -1434,11 +1444,11 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 ### semi simple group (level 1) entered at line 77 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14491 strings out of 480559
- 248794 string characters out of 5901780
- 562698 words of memory out of 5000000
- 31339 multiletter control sequences out of 15000+600000
- 554940 words of font info for 119 fonts, out of 8000000 for 9000
+ 14511 strings out of 480559
+ 249160 string characters out of 5901780
+ 564471 words of memory out of 5000000
+ 31350 multiletter control sequences out of 15000+600000
+ 559211 words of font info for 120 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,10n,66p,1074b,3579s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dv
@@ -1475,10 +1485,10 @@ oaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy5.pfb><c:/Users/Admin/AppDa
 ta/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/Users/Admin/A
 ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/Users/Adm
 in/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on template.pdf (136 pages, 3312317 bytes).
+Output written on template.pdf (138 pages, 3324743 bytes).
 PDF statistics:
- 1492 PDF objects out of 1728 (max. 8388607)
- 1213 compressed objects within 13 object streams
- 438 named destinations out of 1000 (max. 500000)
+ 1515 PDF objects out of 1728 (max. 8388607)
+ 1234 compressed objects within 13 object streams
+ 447 named destinations out of 1000 (max. 500000)
  240 words of extra memory for PDF output out of 10000 (max. 10000000)
 

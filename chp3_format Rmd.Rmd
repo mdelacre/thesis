@@ -44,7 +44,7 @@ For several reasons, assumptions of homogeneity of variances and normality are a
 
 ## Normality Assumption
 
-It has been argued that there are many fields in psychology where the assumption of normality does not hold [@cain_univariate_2017; @micceri_unicorn_1989; @yuan_structural_2004]. As argued by @micceri_unicorn_1989, there are several factors that could explain departures from the normality assumption, and we will focus on three of them: treatment effects, the presence of subpopulations, and the bounded measures underlying residuals.
+It has been argued that there are many fields in psychology where the assumption of normality does not hold [@cain_univariate_2017; @micceri_unicorn_1989; @yuan_structural_2004]. As argued by @micceri_unicorn_1989, there are several factors that could explain departures from the normality assumption, and we will focus on three of them : treatment effects, the presence of subpopulations, and the bounded measures underlying residuals.
 
 First, although the mean can be influenced by the treatment effects, experimental treatment could also change the shape of a distribution, either by influencing the *skewness*, quantifying the asymmetry of the shape of the distribution, and *kurtosis*, a measure of the tendency to produce extreme values. A distribution with positive kurtosis will have heavier tails than the normal distribution, which means that extreme values will be more likely, while a distribution with negative kurtosis will have lighter tails than the normal distribution, meaning that extreme values will be less likely [@Wilcox_2005;@Westfall_2014]. For example, a training aiming at reducing a bias perception of threat when being exposed to ambiguous words will not uniformly impact the perception of all participants, depending on their  level of anxiety [@Grey_and_Mathiews_2000]. This could influence the kurtosis of the distribution of bias score. 
 
@@ -53,7 +53,7 @@ Second, prior to any experimental treatment, the presence of several subpopulati
 Third, bounded measures can also explain non-normal distributions. For example, response time can be very large, but never below zero, which results in right-skewed distributions. In sum, there are many common situations in which normally distributed data is an unlikely assumption. 
 
 ## Homogeneity of Variances Assumption
-Homogeneity of variances (or homoscedasticity) is a mathematical requirement that is also ecologically unlikely [@erceg-hurn_modern_2008; @grissom_heterogeneity_2000]. In a previous paper [@delacre_why_2017], we identified three different causes of heteroscedasticity: the variability inherent to the use of measured variables, the variability induced by quasi-experimental treatments on measured variables, and the variability induced by different experimental treatments on randomly assigned subjects. One additional source of variability is the presence of unidentified moderators [@Cohen_et_al_2013].
+Homogeneity of variances (or homoscedasticity) is a mathematical requirement that is also ecologically unlikely [@erceg-hurn_modern_2008; @grissom_heterogeneity_2000]. In a previous paper [@delacre_why_2017], we identified three different causes of heteroscedasticity : the variability inherent to the use of measured variables, the variability induced by quasi-experimental treatments on measured variables, and the variability induced by different experimental treatments on randomly assigned subjects. One additional source of variability is the presence of unidentified moderators [@Cohen_et_al_2013].
 
 First, psychologists, as many scholars from various fields in human sciences, often use measured variables (e.g. age, gender, educational level, ethnic origin, depression level, etc.) instead of random assignment to conditions. Prior to any treatment, parameters of pre-existing groups can vary largely from one population to another, as suggested by @henrich_most_2010. For example, @Green_et_al_2005 have shown that the scores of competitiveness, self-reliance and interdependence are more variable in some ethnic groups than in others. This stands true for many pre-existing groups such as gender, cultures, or religions and for various outcomes [see for example @Adams_et_al_2014; @Beilmann_et_al_2014; @Church_et_al_2012; @Cohen_and_Hill_2007; @Haar_et_al_2014; @Montoya_Briggs_2013]. Moreover, groups are sometimes defined with the intention to have different variabilities. For example, as soon as a selective school admits its students based on the results of aptitude tests, the variability will be smaller compared to a school that accepts all students.  
 
@@ -61,9 +61,9 @@ Second, a quasi-experimental treatment can have different impacts on variances b
 
 Third, even when the variances of groups are the same before treatment (due to a complete succesful randomization in group assignment), unequal variances can emerge later, as a consequence of an experimental treatment [@bryk_heterogeneity_1988;@cumming_understanding_2013; @erceg-hurn_modern_2008;@Keppel_and_Wickens_2004;@box_theorems_1954]. For example, @Koeser_and_Sczesny_2014 have compared arguments advocating either masculine generic or gender-fair language with control messages in order to test the impact of these conditions on the use of gender-fair wording (measured as a frequency). They report that the standard deviations increase after treatment in all experimental conditions.
 
-# Consequences of Assumption Violations.
+# Consequences of Assumption Violations
 
-Assumptions violations would not be a matter per se, if the *F*-test was perfectly robust against departures from them [@glass_consequences_1972]. When performing a test, two types of errors can be made: Type I errors and Type II errors. A Type I error consists of falsely rejecting the null hypothesis in favour of an alternative hypothesis, and the Type I error rate ($\alpha$) is the proportion of tests that, when sampling many times from the same population, reject the null hypothesis when there is no true effect in the population. A Type II error consists of failing to reject the null hypothesis, and the Type II error rate ($\beta$) is the proportion of tests, when sampling many times from the same population, that fail to reject the null hypothesis when there is a true effect. Finally, the statistical power (1-$\beta$) is the proportion of tests, when sampling many times from the same population, that correctly reject the null hypothesis when there is a true effect in the population.
+Assumptions violations would not be a matter per se, if the *F*-test was perfectly robust against departures from them [@glass_consequences_1972]. When performing a test, two types of errors can be made : Type I errors and Type II errors. A Type I error consists of falsely rejecting the null hypothesis in favour of an alternative hypothesis, and the Type I error rate ($\alpha$) is the proportion of tests that, when sampling many times from the same population, reject the null hypothesis when there is no true effect in the population. A Type II error consists of failing to reject the null hypothesis, and the Type II error rate ($\beta$) is the proportion of tests, when sampling many times from the same population, that fail to reject the null hypothesis when there is a true effect. Finally, the statistical power (1-$\beta$) is the proportion of tests, when sampling many times from the same population, that correctly reject the null hypothesis when there is a true effect in the population.
 
 ## Violation of the Normality Assumption
 
@@ -81,4 +81,53 @@ Regarding the Type II error rate, there is a small impact of unequal variances w
 Regarding both Type I and Type II error rates, following @Harwell_et_al_1992, there is no interaction between normality violations and unequal variances. Indeed, the effect of heteroscedasticity is relatively constant regardless of the shape of the distribution. 
 
 Based on mathematical explanations and Monte Carlo simulations we chose to compare the *F*-test with the *W*-test and *F*\*-test and to exclude the James' second-order and Alexander-Govern's test because the latter two yield very similar results to the *W*-test, but are less readily available in statistical software packages. @Tomarken_and_Serlin_1986 have shown that from the available alternatives, the *F*\*-test and the *W*-test perform best, and both tests are available in SPSS, which is widely used software in the psychological sciences [@hoekstra_are_2012]. For a more extended description of the James' second-order and Alexander-Govern's test, see @Schneider_and_Penfield_1997.
+
+## The Mathematical Differences Between the *F*-test, *W*-test, and *F*\*-test
+
+The mathematical differences between the *F*-test, *W*-test and *F*\*-test can be explained by focusing on how standard deviations are pooled across groups. As shown in equation \ref{eqn:Fstat}, the *F* statistic is calculated by dividing the inter-group variance by a pooled error term :  
+\begin{equation} 
+F=\frac{\frac{1}{k-1}\sum_{j=1}^k \left[n_j(\bar{X_{j}}-\bar{X_{..}})^2\right]}{\frac{1}{N-k}\sum_{j=1}^k\left(n_j-1\right)s_j^2}
+\label{eqn:Fstat}
+\end{equation} 
+where $S_{j}^2$, $\bar{X_{j}}$ and $n_{j}$ are respectively the sample variance, sample mean and the sample size of the $j^{th}$ group ($j= 1,...,k$), $N=\sum_{j=1}^k n_j$,  and $\bar{X_{..}}$ is overall mean. The degrees of freedom in the numerator and in the denominator of the *F*-test are computed as follows :  
+\begin{equation*} 
+df_n=k-1
+\label{eqn:FnumDF}
+\end{equation*} 
+\begin{equation*} 
+df_d= N-k, 
+\label{eqn:FdenomDF}
+\end{equation*} 
+As a generalization of the Student's *t*-test, the *F*-test is calculated based on a pooled error term. This implies that all samples are considered as issued from a common population variance (hence the assumption of homoscedasticity). When there is heteroscedasticity and the larger variance is associated with the larger sample size, the error term, which is the denominator in equation \ref{eqn:Fstat}, is overestimated. The *F*-value is therefore smaller, leading to fewer significant findings than expected, and the *F*-test is too conservative. When the larger variance is associated with the smaller sample size, the denominator in equation \ref{eqn:Fstat} is underestimated. The *F*-value is then inflated, which yields more significant results than expected.
+
+The *F*\* statistic proposed by @Brown_and_Forsythe_1974 is computed as follows :
+\begin{equation} 
+F^*= \frac{\sum_{j=1}^k\left[n_j(\bar{X_j}-\bar{X_{..}})^2\right]}{\sum_{j=1}^k \left[\left(1-\frac{n_j}{N}\right)S_j^2\right]}
+\label{eqn:BFstat}
+\end{equation} 
+where $X_j$ and $S_j^2$ are respectively the mean and variance of the $j^{th}$ group ($j= 1,...k$), and $\bar{X_{..}}$ is the overall mean. As it can be seen in equation \ref{eqn:BFstat}, the numerator of the *F*\* statistic is equal to the sum of squares between groups (which is equal to the numerator of the *F* statistic when one compares two groups). In the denominator, the variance of each group is weighted by 1 minus the relative frequency of each group. This adjustment implies that the variance associated with the group with the smallest sample size is given more weight compared to the *F*-test. As a result, when the larger variance is associated with the larger sample size, *F*\* is larger than *F*, because the denominator decreases, leading to more significant findings compared to the *F*-test. On the other hand, when the larger variance is associated with the smaller sample size, *F*\* is smaller than *F*, because the denominator increases, leading to fewer significant findings compared to the *F*-test. The degrees of freedom in the numerator and in the denominator of *F*\*-test are computed as follows (with the same principle as the denominator computation of the *F\** statistic) :
+\begin{equation*} 
+df_n= k-1
+\label{eqn:BFnumDF}
+\end{equation*} 
+\begin{equation*} 
+df_d= \frac{1}{\sum_{j=1}^k\left[\frac{\left(\frac{\left(1-\frac{n_j}{N}\right)S_j^2}{\sum_{j=1}^k\left[\left(1-\frac{n_j}{N}\right)S_j^2\right]}\right)^2}{n_j-1}\right]}
+\label{eqn:BFdenomDF}
+\end{equation*} 
+Equation \ref{eqn:Wstat} provides the computation of the Welch's statistic ($W$). In the numerator of the *W* statistic, the squared deviation between group means and the general mean are weighted by $\frac{n_j}{s_j^2}$ instead of $n_j$ [@Brown_and_Forsythe_1974]. As a consequence, for equal sample sizes, the group with the highest variance will have smaller weight [@Liu_2015]. 
+\begin{equation} 
+W=\frac{\frac{1}{k-1}\sum_{j=1}^k\left[w_j(\bar{X_j}-\bar{X'})^2\right]}
+{1+\frac{2(k-2)}{k^2-1}\sum_{j=1}^k\left[(\frac{1}{n_j-1})(1-\frac{w_j}{w})^2\right]}
+\label{eqn:Wstat}
+\end{equation} 
+where $w_j=\frac{n_j}{S_j^2}$, $w=\sum_{j=1}^k(\frac{n_j}{S_j^2})$ and $\bar{X'}=\frac{\sum_{j=1}^k(w_j\bar{X_j})}{w}$. The degrees of freedom of the *W*-test are approximated as follows :
+\begin{equation*} 
+df_n= k-1
+\label{eqn:WnumDF}
+\end{equation*} 
+\begin{equation*}
+df_d= \frac{k^2-1}{3\sum_{j=1}^k[\frac{(1-\frac{w_j}{w})^2}{n_j-1}]}
+\label{eqn:WdenomDF}
+\end{equation*} 
+When there are only two groups to compare, the *F*\*-test and *W*-test are identical (i.e., they have exactly the same statistical value, degrees of freedom and significance). However, when there are more than two groups to compare, the tests differ. In the Supplemental Material we illustrate the calculation of all three statistics in detail for a fictional three-group design for educational purposes. 
 
