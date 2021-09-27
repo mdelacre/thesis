@@ -1,0 +1,60 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=4.9in,height=0.35\textheight]{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-couverture}
+
+}
+
+\caption{ }\label{fig:chp2p1}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs/Figures/Figure 1/Figure1}
+
+}
+
+\caption{Estimated power of Levene's test as a function of sample size, SDR and centering parameter}\label{fig:chp2fig1}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs/Figures/Figure 2/Figure2A}
+
+}
+
+\caption{$P$-value distributions for Student's and Welch's $t$-test under the null as a function of SDR, and sample size}\label{fig:chp2fig2-1}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs/Figures/Figure 2/Figure2B}
+
+}
+
+\caption{$P$-value distributions for Student's and Welch's $t$-test under the null as a function of SDR, and sample size}\label{fig:chp2fig2-2}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs/Figures/Figure 2/Figure2C}
+
+}
+
+\caption{$P$-value distributions for Student's and Welch's $t$-test under the null as a function of SDR, and sample size}\label{fig:chp2fig2-3}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs/Figures/Figure 2/Figure2D}
+
+}
+
+\caption{$P$-value distributions for Student's and Welch's $t$-test under the null as a function of SDR, and sample size}\label{fig:chp2fig2-4}
+\end{figure*}

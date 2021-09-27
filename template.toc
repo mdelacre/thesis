@@ -2,41 +2,48 @@
 \setcounter {tocdepth}{1}
 \contentsline {section}{Chapitre 1 : Introduction}{1}{section*.3}%
 \contentsline {section}{Chapitre 2 : Utiliser le test \(\bf \emph t\) de Welch par défaut}{9}{section*.5}%
-\contentsline {subsection}{Limitations of Two-Step Procedures}{10}{section*.6}%
+\contentsline {subsection}{Limitations of Two-Step Procedures}{11}{section*.6}%
 \contentsline {subsection}{Different ways to test for equal variances}{11}{section*.7}%
-\contentsline {subsection}{Homogeneity of Variance Assumptions}{14}{section*.8}%
+\contentsline {subsection}{Homogeneity of Variance Assumptions}{15}{section*.8}%
 \contentsline {subsection}{The Mathematical Differences Between Student's \(\bm {t}\)-test and Welch's \(\bm {t}\)-test}{17}{section*.9}%
 \contentsline {subsection}{Simulations: Error Rates for Student's \(t\)-test versus Welch's \(t\)-test}{19}{section*.10}%
-\contentsline {subsection}{Conclusion}{21}{section*.11}%
-\contentsline {section}{Chapitre 3 : Utiliser l'ANOVA \(\bf \emph W\) de Welch}{23}{section*.13}%
-\contentsline {section}{Chapitre 4 : Utiliser le \(\bm {g^*}\) de Hedges basé sur l'écart-type non poolé}{35}{section*.14}%
-\contentsline {subsection}{Three purposes of effect size estimators}{37}{section*.15}%
-\contentsline {subsection}{Inferential properties of a good effect size estimator}{38}{section*.16}%
-\contentsline {subsection}{Different measures of effect sizes}{40}{section*.17}%
-\contentsline {subsubsection}{When variances are equal between groups}{40}{section*.18}%
-\contentsline {subsubsection}{When variances are unequal between populations}{44}{section*.19}%
-\contentsline {paragraph}{Glass's \(\bm {d}\)}{44}{section*.20}%
-\contentsline {paragraph}{Shieh's \(\bm {d}\)}{46}{section*.21}%
-\contentsline {paragraph}{Cohen's \(\bm {d^*}\)}{47}{section*.22}%
-\contentsline {paragraph}{Glass's \(\bm {g}\), Shieh's \(\bm {g}\) and Hedges' \(\bm {g^*}\)}{48}{section*.23}%
-\contentsline {subsubsection}{Monte Carlo Simulations}{51}{section*.24}%
-\contentsline {paragraph}{Assessing the bias, efficiency and consistency of 5 estimators}{51}{section*.25}%
-\contentsline {subparagraph}{Method}{51}{section*.26}%
-\contentsline {subparagraph}{Results}{53}{section*.27}%
-\contentsline {subsubsection}{Recommendations}{66}{section*.28}%
-\contentsline {section}{Chapitre 5 : Les tests d'équivalence}{69}{section*.30}%
-\contentsline {subsection}{Limites de l'approche traditionnelle}{70}{section*.31}%
-\contentsline {subsection}{Les tests d'équivalence}{73}{section*.32}%
-\contentsline {subsection}{Définir les bornes de la zone d'équivalence}{76}{section*.33}%
-\contentsline {subsection}{Comparaison du TOST et du SGPV}{79}{section*.34}%
-\contentsline {subsubsection}{The relationship between \emph {p}-values from TOST and SGPV when confidence intervals are symmetrical}{81}{section*.35}%
-\contentsline {paragraph}{SGPV as a uniform measure of overlap}{83}{section*.36}%
-\contentsline {paragraph}{When different \emph {p}-values for equivalence tests yield the same SGPV}{86}{section*.37}%
-\contentsline {paragraph}{The relation between equivalence tests and SGPV for asymmetrical confidence intervals around correlations}{91}{section*.38}%
-\contentsline {paragraph}{What are the Relative Strengths and Weaknesses of Equivalence Testing and the SGPV?}{94}{section*.39}%
-\contentsline {subsubsection}{Conclusion}{96}{section*.40}%
-\contentsline {section}{Chapitre 6 : Discussion et conclusion générale}{99}{section*.42}%
-\contentsline {subsection}{Objectifs de départ, résumé et apports de la thèse}{99}{section*.43}%
-\contentsline {subsection}{Limites et perspectives futures}{107}{section*.44}%
-\contentsline {subsection}{Conclusion générale}{112}{section*.45}%
-\contentsline {section}{Bibliographie}{117}{section*.47}%
+\contentsline {subsection}{Conclusion}{23}{section*.11}%
+\contentsline {section}{Chapitre 3 : Utiliser l'ANOVA \(\bf \emph W\) de Welch par défaut}{26}{section*.13}%
+\contentsline {subsection}{Normality and Homogeneity of variances under Ecological Conditions}{28}{section*.14}%
+\contentsline {subsection}{Normality Assumption}{28}{section*.15}%
+\contentsline {subsection}{Homogeneity of Variances Assumption}{29}{section*.16}%
+\contentsline {section}{Consequences of Assumption Violations.}{30}{section*.17}%
+\contentsline {subsection}{Violation of the Normality Assumption}{31}{section*.18}%
+\contentsline {subsection}{Violation of Homogeneity of Variances Assumption}{31}{section*.19}%
+\contentsline {subsubsection}{Cumulative Violation of Normality and Homogeneity of Variance}{32}{section*.20}%
+\contentsline {section}{Chapitre 4 : Utiliser le \(\bm {g^*}\) de Hedges basé sur l'écart-type non poolé}{33}{section*.21}%
+\contentsline {subsection}{Three purposes of effect size estimators}{35}{section*.22}%
+\contentsline {subsection}{Inferential properties of a good effect size estimator}{36}{section*.23}%
+\contentsline {subsection}{Different measures of effect sizes}{38}{section*.24}%
+\contentsline {subsubsection}{When variances are equal between groups}{38}{section*.25}%
+\contentsline {subsubsection}{When variances are unequal between populations}{42}{section*.26}%
+\contentsline {paragraph}{Glass's \(\bm {d}\)}{42}{section*.27}%
+\contentsline {paragraph}{Shieh's \(\bm {d}\)}{44}{section*.28}%
+\contentsline {paragraph}{Cohen's \(\bm {d^*}\)}{45}{section*.29}%
+\contentsline {paragraph}{Glass's \(\bm {g}\), Shieh's \(\bm {g}\) and Hedges' \(\bm {g^*}\)}{46}{section*.30}%
+\contentsline {subsubsection}{Monte Carlo Simulations}{49}{section*.31}%
+\contentsline {paragraph}{Assessing the bias, efficiency and consistency of 5 estimators}{49}{section*.32}%
+\contentsline {subparagraph}{Method}{49}{section*.33}%
+\contentsline {subparagraph}{Results}{51}{section*.34}%
+\contentsline {subsubsection}{Recommendations}{64}{section*.35}%
+\contentsline {section}{Chapitre 5 : Les tests d'équivalence}{67}{section*.37}%
+\contentsline {subsection}{Limites de l'approche traditionnelle}{68}{section*.38}%
+\contentsline {subsection}{Les tests d'équivalence}{71}{section*.39}%
+\contentsline {subsection}{Définir les bornes de la zone d'équivalence}{74}{section*.40}%
+\contentsline {subsection}{Comparaison du TOST et du SGPV}{77}{section*.41}%
+\contentsline {subsubsection}{The relationship between \emph {p}-values from TOST and SGPV when confidence intervals are symmetrical}{79}{section*.42}%
+\contentsline {paragraph}{SGPV as a uniform measure of overlap}{81}{section*.43}%
+\contentsline {paragraph}{When different \emph {p}-values for equivalence tests yield the same SGPV}{84}{section*.44}%
+\contentsline {paragraph}{The relation between equivalence tests and SGPV for asymmetrical confidence intervals around correlations}{89}{section*.45}%
+\contentsline {paragraph}{What are the Relative Strengths and Weaknesses of Equivalence Testing and the SGPV?}{92}{section*.46}%
+\contentsline {subsubsection}{Conclusion}{94}{section*.47}%
+\contentsline {section}{Chapitre 6 : Discussion et conclusion générale}{97}{section*.49}%
+\contentsline {subsection}{Objectifs de départ, résumé et apports de la thèse}{97}{section*.50}%
+\contentsline {subsection}{Limites et perspectives futures}{105}{section*.51}%
+\contentsline {subsection}{Conclusion générale}{110}{section*.52}%
+\contentsline {section}{Bibliographie}{115}{section*.54}%

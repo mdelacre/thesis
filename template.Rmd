@@ -128,7 +128,7 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 
 ```{r chp2, child = 'chp2_format Rmd.Rmd'}
 ```
-
+\newpage
 \begingroup
 \parindent 0pt
 \renewcommand\notesname{{\normalsize Endnotes}}
@@ -137,7 +137,7 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 \endgroup
 \newpage
 
-```{r chp3, child = 'chp3.Rmd'}
+```{r chp3, child = 'chp3_format Rmd.Rmd'}
 ```
 
 \newpage

@@ -20,19 +20,16 @@ header-includes:
 
 \color{black} Cette nouvelle formulation implique de définir le SDR ultérieurement, ce qui est fait 4 paragraphes plus loin dans la version corrigée: *"under three population standard deviation ratio (SDR = $\frac{\sigma_2}{\sigma_1}$ where $\sigma_j$ is the population standard deviation of the $j^{th}$ group; $j=1,2$) : respectively 1.1, 1.5 and 2"*.  
 
-2) \color{black}**p.10**: "When SDR = 1, the equal variances assumption is true, when SDR > 1 the standard deviation of the second ~~sample~~ \color{blue}population \color{black} is bigger than the standard deviation of the first ~~sample~~ \color{blue}population\color{black}, and when SDR < 1 the standard deviation of the second ~~sample~~ \color{blue}population \color{black} is smaller than the standard deviation of the first ~~sample~~ \color{blue} population". \color{black}
+2) \color{black}**p.10**: "When SDR = 1, the equal variances assumption is true, when SDR > 1 the standard deviation of the second ~~sample~~ \color{blue} population \color{black} is bigger than the standard deviation of the first ~~sample~~ \color{blue} population \color{black}, and when SDR < 1 the standard deviation of the second ~~sample~~ \color{blue}population \color{black} is smaller than the standard deviation of the first ~~sample~~ \color{blue} population". \color{black}
 
-3) **p.11**: *"We will discuss ~~three~~ \color{blue} two \color{black}different origins of unequal standard deviations across two ~~groups~~ \color{blue}populations \color{black}..."* 
+3) **p.14** (partie "simulations") : *"As long as the variances are equal between ~~groups~~ \color{blue} populations \color{black} or sample sizes are equal, the distribution of Student’s $p$-values is uniform..."*.
 
-4) **p.14** (partie "simulations") : *"As long as the variances are equal between ~~groups~~ color{blue}populations \color{black}or sample sizes are equal, the distribution of Student’s $p$-values is uniform..."*.
-
-5) **Partout**: toutes les mentions au test de Yuen, pour les raisons expliquées en limites. 
+4) **Partout**: toutes les mentions au test de Yuen, pour les raisons expliquées en limites. 
 \color{blue} **Proposition de rectification** : supprimer tout ce pagraphe (et la table associée). \color{black}
 
 ### Ambiguïtés possibles
 
-1) **p.12** : *"When both variances and sample sizes are the same in each independent group, the $t$-values, degrees of freedom, and the $p$-values in Student's $t$-test and Welch's $t$-test are the same (see Table 1)."* Cette phrase peut donner l'impression que les deux statistiques mentionnées, ainsi que les degrés de liberté et $p$-valeurs qui leur sont associés sont identiques lorsqu'on travaille avec des échantillons de tailles identiques et que la condition d'homogénéité des variances est respectée, ou autrement dit, lorsque les variances de population ainsi que les tailles d'échantillon sont identiques, or, ce n'est nullement vrai. Pour calculer les statistiques $t$ de Student et $t$ de Welch ainsi que leurs degrés de liberté, on utilise les *estimations* des variances de chaque groupe, et non les variances de population. C'est donc chaque fois que l'on obtiendra des *estimations* identiques pour les variances de chaque groupe, sur base d'échantillons de taille égale, que les statistiques, leur degré de liberté et leur $p$-valeur seront identiques. Or, ceci n'est pas une information très pertinente en soi, puisqu'il arrive très fréquemment d'obtenir des estimations de variance différentes pour chaque groupe lorsque la condition d'homogénéité des variances est respectée, et qu'à l'inverse, il est possible (bien que peu probable) d'obtenir des estimations de variance identiques pour chaque groupe lorsque la condition d'homogénéité des variances n'est pas respectée.   
-
+1) **p.12** : *"When both variances and sample sizes are the same in each independent group, the $t$-values, degrees of freedom, and the $p$-values in Student's $t$-test and Welch's $t$-test are the same (see Table 1)."* Cette phrase peut donner l'impression que les deux statistiques mentionnées, ainsi que les degrés de liberté et $p$-valeurs qui leur sont associés sont identiques lorsqu'on travaille avec des échantillons de tailles identiques et que la condition d'homogénéité des variances est respectée, ou autrement dit, lorsque les variances de population ainsi que les tailles d'échantillon sont identiques, or, ce n'est nullement vrai. Pour calculer les statistiques $t$ de Student et $t$ de Welch ainsi que leurs degrés de liberté, on utilise les *estimations* des variances de chaque groupe, et non les variances de population. C'est donc chaque fois que l'on obtiendra des *estimations* identiques pour les variances de chaque groupe, sur base d'échantillons de taille égale, que les statistiques, leur degré de liberté et leur $p$-valeur seront identiques. Or, ceci n'est pas une information très pertinente en soi, puisqu'il arrive très fréquemment d'obtenir des estimations de variance différentes pour chaque groupe lorsque la condition d'homogénéité des variances est respectée, et qu'à l'inverse, il est possible (bien que peu probable) d'obtenir des estimations de variance identiques pour chaque groupe lorsque la condition d'homogénéité des variances n'est pas respectée.  
 \color{blue} **Proposition de rectification** : supprimer tout ce pagraphe (et la table associée). \color{black}
 
 1) **p.16** (à propos du test de Levene) : *"Because the statistical power for this test is often low, researchers will inappropriately choose Student's $t$-test instead of more robust alternatives."* Cette phrase peut amener à comprendre que si le test de Levene était toujours très puissant, il serait approprié de l'utiliser en vue de choisir entre les tests $t$ de Student et $t$ de Welch. Pourtant, privilégier le test $t$ de Student lorsque l'on ne peut rejeter l'hypothèse d'égalité des variances (autrement dit, lorsque les résultats du test de Levene sont non significatifs) reviendrait à confondre le non-rejet de l'hypothèse d'égalité des variances avec l'acceptation de l'hypothèse d'égalité des variances. Au sein du chapitre 5 dédié aux tests d'équivalence, nous avons montré que même lorsqu'on s'assure d'avoir une puissance suffisante pour détecter un effet de taille donnée, la stratégie qui consiste à interpréter le non-rejet de l'hypothèse nulle comme un soutien en faveur de l'hypothèse nulle n'est pas appropriée.  
@@ -54,9 +51,14 @@ header-includes:
 
 4) On parle normalement d'erreur de type I et II (et non d'erreur de type 1 et 2): or dans tout l'article du chapitre 2, j'ai parlé des erreurs de type 1 et 2. Par exemple, p.13: *"An increase in the Type 1 error rate leads to an inflation of... while an increase in the Type 2 error rate..."*
 
+5) **p.11**: *We will discuss three origins of unequal standard deviations across two groups of observations : \color{blue} the variability inherent to the use of measured variables, the variability induced by quasi-experimental treatments on measured variables, and the variability induced by different experimental treatments on randomly assigned subjects.[...] * 
+\color{black} Précision apportée car la découpe semblait montrer 2 causes ("A first reason..." "A second reason..").
+
 ### Faute(s) de frappe
 
-- p.13: "see ~~v~~ **Figure** 2a".
+- p.13 : "see ~~v~~ **Figure** 2a".
+- p.15 : "$p$-values from Welch's ~~$t$-test~~ and Student's ~~$t$-test~~ $t$-tests, shown separately..."
+- p.16 : Note 4 : "other variants have been proposed such as the **20%** trimmed mean"
 
 ### Bibliographie
 
@@ -71,6 +73,9 @@ Référence manquante: Bradley (1978).
 Une légende est manquante pour certaines notations mathématiques. Par exemple, en ce qui concerne l'équation (1), bien que $n_j$, $k$ et $s^2_j$ aient été correctement définis, les définitions pour $\bar{x_j}$, $\bar{x_{..}}$ et $N$ ne sont données que plus tard, en référence à d'autres équations. Cela peut rendre la lecture de l'article plus compliquée pour certaines personnes non familières avec ces notations.
 
 Par ailleurs, comme dans l'article précédent sur le test $t$ de Welch, on constate certaines incohérences en termes de notation. Par exemple, si la moyenne de chaque groupe est définie par $\bar{x_j}$ dans l'équation (1), elle est définie par $\bar{X_j}$ dans l'équation (7). 
+
+**p.21** : ~~($SD_{spanish}=.80 > SD_{english}=.50$\color{blue})~~ ($S_{spanish}=.80 > S_{english}=.50$\color{blue}, with S = sample standard deviation) [...] \color{black}For men, the reverse was true ~~($SD_{spanish}=.97 < SD_{english}=1.33$)~~ ($S_{spanish}=.97 < S_{english}=1.33$)
+
 
 Enfin, dû à un manque de connaissance de Latex lors de mes premières tentatives d'écritures d'articles via Rmarkdown, certaines majuscules sont manquantes dans les références bibliographiques. 
 
