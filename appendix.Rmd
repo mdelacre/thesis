@@ -92,6 +92,7 @@ Enfin, dû à un manque de connaissance de Latex lors de mes premières tentativ
 - p.22 : "... negative pairings (the group with the ~~smallest~~ **largest** sample size is extracted from the population with the smallest $SD$);  
 - p.22 : "the type I error rate of all test**s**";
 - p.22 : " In the ~~appendix~~ Supplemental Material we illustrate the calculation of all three statistics in detail for a fictional three-group design for educational purposes."
+- p.23 : "When there are more than ~~three~~ \color{blue}two  \color{black}groups
 - p.24 : "... which is either more liberal or more conservative, depending on the $SDs$ and ~~$SD$~~ **sample sizes** pairing";  
 - p.24 : "... ~~whatever~~ the correlation between the $SD$ and the mean **does not matter**";  
 

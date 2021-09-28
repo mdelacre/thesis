@@ -161,7 +161,7 @@ While the pooled error term is the best choice when variances are equal between 
 |     |       |  |$\approx Var(Cohen's \; d) \times \left[1-\frac{3}{4N-9}\right]^2$   |
 |    |      |  |    |
 
-Table : Expectation, bias and variance of Cohen's $d$ and Hedges' $g$ under the assumptions that independent residuals are normally distributed with equal variances across groups.  
+Table: Expectation, bias and variance of Cohen's $d$ and Hedges' $g$ under the assumptions that independent residuals are normally distributed with equal variances across groups.  
 
 *Note*. $\delta_{Cohen}= \frac{\mu_1-\mu_2}{\sigma_{pooled}}$ and $c_f=\frac{\sqrt{\frac{df}{2}} \times \Gamma\left( \frac{df-1}{2}\right)}{\Gamma\left( \frac{df}{2}\right)}$; Cohen's $d$ is a biased estimator, because its expectation differs from the population effect size. Moreover, the larger the population estimator ($\delta_{Cohen}$), the larger the bias. Indeed, the bias is the difference between the expectation and $\delta_{Cohen}$ : $\delta_{bias} = \delta_{Cohen} \times (c_f-1)$. On the other hand, Hedges' $g$ is an unbiased estimator, because its expectation equals $\delta_{Cohen}$; equations in Table 1 require $df \ge 3$ (i.e. $N \ge 5$).
 
@@ -207,7 +207,7 @@ where $\delta_{Glass} = \frac{\mu_{c}-\mu_{e}}{\sigma_{c}}$ and $\mu_c$ and $\mu
 |    |      |  |    |
   |  Shieh's $d$  |$\frac{\left(\frac{\sigma^2_1}{n_1}+\frac{\sigma^2_2}{n_2} \right)^2}{\frac{(\sigma^2_1/n_1)^2}{n_1-1}+\frac{(\sigma^2_2/n_2)^2}{n_2-1}}$|$\delta_{Shieh} \times c_f$|$\frac{df}{(df-2)N}  + \delta^2_{Shieh} \left( \frac{df}{df-2} - c_f^2 \right)$    |
 |    |      |  |    |
-Table : Expectation, bias and variance of Glass's $d$, Cohen's $d^*$ and Shieh's $d$ under the assumption that independent residuals are normally distributed.
+Table: Expectation, bias and variance of Glass's $d$, Cohen's $d^*$ and Shieh's $d$ under the assumption that independent residuals are normally distributed.
 
 *Note*. $c_f=\frac{\sqrt{\frac{df}{2}} \times \Gamma\left( \frac{df-1}{2}\right)}{\Gamma\left( \frac{df}{2}\right)}$; $\delta_{Glass}=\frac{\mu_c-\mu_e}{\sigma_c}$, $\delta_{Shieh}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1}{n_1/N}+\frac{\sigma^2_2}{n_2/N}}}$ and $\delta^*_{Cohen}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1+\sigma^2_2}{2}}}$; all estimators are biased estimators, because their expectations differ from the population effect size $\delta$. Moreover, the larger the population estimator ($\delta$), the larger the bias. Indeed, the bias is the difference between the expectation and $\delta$ : $\delta_{bias} = \delta \times (c_f-1)$. Equations require $df \ge 3$ and at least 2 subjects per group. 
 
@@ -302,7 +302,7 @@ How these parameters influence the variance of the estimators will be summarized
   |    |      |  |    ||
   |  Shieh's $g$  |$\approx \frac{\left(\frac{\sigma^2_1}{n_1}+\frac{\sigma^2_2}{n_2} \right)^2}{\frac{(\sigma^2_1/n_1)^2}{n_1-1}+\frac{(\sigma^2_2/n_2)^2}{n_2-1}}$|$\delta_{Shieh}$|$Var(Shieh's \; d) \times \left( \frac{\Gamma\left(\frac{df}{2} \right)}{\sqrt{\frac{df}{2}} \times \Gamma \left( \frac{df-1}{2}\right)}\right)^2$    |
 |    |      |  |    |
-Table : Expectation, bias and variance of Glass's $g$, Hedges' $g^*$ and Shieh's $g$ under the assumption that independent residuals are normally distributed.
+Table: Expectation, bias and variance of Glass's $g$, Hedges' $g^*$ and Shieh's $g$ under the assumption that independent residuals are normally distributed.
 
 *Note*. $c_f=\frac{\sqrt{\frac{df}{2}} \times \Gamma\left( \frac{df-1}{2}\right)}{\Gamma\left( \frac{df}{2}\right)}$; $\delta_{Glass}=\frac{\mu_c-\mu_e}{\sigma_c}$, $\delta_{Shieh}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1}{n_1/N}+\frac{\sigma^2_2}{n_2/N}}}$ and $\delta^*_{Cohen}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1+\sigma^2_2}{2}}}$; all estimators are unbiased estimators, because their expectations equal the population effect size $\delta$; equations require $df \ge 3$ and at least 2 subjects per group. 
 
@@ -334,7 +334,7 @@ where $n$ is the sample size and $m_{2}$, $m_{3}$ and $m_{4}$ are respectively t
 |                         |               |               |              |               |
 |                         |    **TOTAL**    |    **252**      |    **756**     |    **1008**     |
 
-Table : Number of combinations of skewness and kurtosis in our simulations.
+Table: Number of combinations of skewness and kurtosis in our simulations.
 
 *Note.* Fisher's skewness ($G_1$) and kurtosis ($G_2$) are presented in Table 4. The 252 combinations where both $G_1$ and $G_2$ equal 0 correspond to the normal case. 
 
@@ -350,7 +350,7 @@ For the 4 resulting combinations of skewness and kurtosis (see Table 4), all oth
 |                               |             |             |             |             |
 |                               |   **<1**    |      c      |      d      |      d      |
 
-Table : 4 conditions based on the $n$-ratio and the $SD$-ratio.
+Table: 4 conditions based on the $n$-ratio and the $SD$-ratio.
 
 ##### Results
 

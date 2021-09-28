@@ -19,6 +19,7 @@ library("smoothmest")
 library("moments")
 library("fGarch")
 library("dplyr")
+library("pander")
 ```
 
 ```{r analysis-preferences2, include = FALSE}
@@ -61,18 +62,18 @@ Second, a quasi-experimental treatment can have different impacts on variances b
 
 Third, even when the variances of groups are the same before treatment (due to a complete succesful randomization in group assignment), unequal variances can emerge later, as a consequence of an experimental treatment [@bryk_heterogeneity_1988;@cumming_understanding_2013; @erceg-hurn_modern_2008;@Keppel_and_Wickens_2004;@box_theorems_1954]. For example, @Koeser_and_Sczesny_2014 have compared arguments advocating either masculine generic or gender-fair language with control messages in order to test the impact of these conditions on the use of gender-fair wording (measured as a frequency). They report that the standard deviations increase after treatment in all experimental conditions.
 
-# Consequences of Assumption Violations
+## Consequences of Assumption Violations
 
 Assumptions violations would not be a matter per se, if the *F*-test was perfectly robust against departures from them [@glass_consequences_1972]. When performing a test, two types of errors can be made : Type I errors and Type II errors. A Type I error consists of falsely rejecting the null hypothesis in favour of an alternative hypothesis, and the Type I error rate ($\alpha$) is the proportion of tests that, when sampling many times from the same population, reject the null hypothesis when there is no true effect in the population. A Type II error consists of failing to reject the null hypothesis, and the Type II error rate ($\beta$) is the proportion of tests, when sampling many times from the same population, that fail to reject the null hypothesis when there is a true effect. Finally, the statistical power (1-$\beta$) is the proportion of tests, when sampling many times from the same population, that correctly reject the null hypothesis when there is a true effect in the population.
 
-## Violation of the Normality Assumption
+### Violation of the Normality Assumption
 
 Regarding the Type I error rate, the shape of the distribution has very little impact on the *F*-test [@Harwell_et_al_1992]. When departures are very small (i.e. a kurtosis between 1.2 and 3 or a skewness between -.4 and .4), the Type I error rate of the *F*-test is very close to expectations, even with sample sizes as small as 11 subjects per group [@Hsu_and_Feldt_1969].     
 Regarding the Type II error rate, many authors underlined that departures from normality do not seriously affect the power [@tiku_power_1971; @David_and_Johnson_1951; @Harwell_et_al_1992; @Srivastava_1959; @Boneau_1960; @glass_consequences_1972]. However, we can conclude from @Srivastava_1959 and @Boneau_1960 that kurtosis has a slightly larger impacts on the power than skewness. The effect of non-normality on power increases when sample sizes are unequal between groups [@glass_consequences_1972]. Lastly the effect of non-normality decreases when sample sizes increase [@Srivastava_1959].    
 
-## Violation of Homogeneity of Variances Assumption
+### Violation of Homogeneity of Variances Assumption
 
-Regarding the Type I error rate, the *F*-test is sensitive to unequal variances [@Harwell_et_al_1992]. More specifically, the more unequal the *SD* of the populations samples are extracted from, the higher the impact. When there are only two groups, the impact is smaller than when there are more than two groups [@Harwell_et_al_1992]. When there are more than two groups, the *F*-test becomes more liberal, meaning that the Type I error rate is larger than the nominal alpha level, even when sample sizes are equal across groups [@Tomarken_and_Serlin_1986]. Moreover, when sample sizes are unequal, there is a strong effect of the sample size and variance pairing. In case of a positive pairing (i.e. the group with the larger sample size also has the larger variance), the test is too conservative, meaning that the Type I error rate of the test is lower than the nominal alpha level, whereas in case of a negative pairing (i.e. the group with the larger sample size has the smaller variance), the test is too liberal [@glass_consequences_1972; @Nimon_2012; @Overall_et_al_1995; @Tomarken_and_Serlin_1986].   
+Regarding the Type I error rate, the *F*-test is sensitive to unequal variances [@Harwell_et_al_1992]. More specifically, the more unequal the *SD* of the populations samples are extracted from, the higher the impact. When there are only two groups, the impact is smaller than when there are more than two groups [@Harwell_et_al_1992]. When there are more than two groups, the *F*-test becomes more liberal, meaning that the Type I error rate is larger than the nominal alpha level, even when sample sizes are equal across groups [@Tomarken_and_Serlin_1986]. Moreover, when sample sizes are unequal, there is a strong effect of the sample size and variance pairing. In case of a positive pairing (i.e. the group with the larger sample size also has the larger variance), the test is too conservative, meaning that the Type I error rate of the test is lower than the nominal alpha level, whereas in case of a negative pairing (i.e. the group with the larger sample size has the smaller variance), the test is too liberal [@glass_consequences_1972; @Nimon_2012; @Overall_et_al_1995; @Tomarken_and_Serlin_1986].  
 
 Regarding the Type II error rate, there is a small impact of unequal variances when sample sizes are equal [@Harwell_et_al_1992], but there is a strong effect of the sample size and variance pairing [@Nimon_2012; @Overall_et_al_1995]. In case of a positive pairing, the Type II error rate increases (i.e. the power decreases), and in case of a negative pairing, the Type II error decreases (i.e. the power increases). 
 
@@ -131,3 +132,152 @@ df_d= \frac{k^2-1}{3\sum_{j=1}^k[\frac{(1-\frac{w_j}{w})^2}{n_j-1}]}
 \end{equation*} 
 When there are only two groups to compare, the *F*\*-test and *W*-test are identical (i.e., they have exactly the same statistical value, degrees of freedom and significance). However, when there are more than two groups to compare, the tests differ. In the Supplemental Material we illustrate the calculation of all three statistics in detail for a fictional three-group design for educational purposes. 
 
+## Monte Carlo simulations : *F*-test vs. *W*-test vs. *F*\*-test 
+
+We performed Monte Carlo simulations using R (version 3.5.0) to assess the Type I and Type II error rates for the three tests. One million datasets were generated for 3840 scenarios that address the arguments present in the literature. In 2560 scenarios, means were equal across all groups (i.e. the null hypothesis is true), in order to assess the Type I error rate of the tests. In 1280 scenarios, there were differences between means (i.e. the alternative hypothesis is true) in order to assess the power of the tests. In all scenarios, when using more than 2 samples, all samples but one was generated from the same population, and only one group had a different population mean. 
+
+Population parameter values were chosen in order to illustrate the consequences of factors known to play a key role on both the Type I error rate and the statistical power when performing an ANOVA. Based on the literature review presented above, we manipulated the number of groups, the sample sizes, the sample size ratio (*n*-ratio = $\frac{n_k}{n_j}$), the *SD*-ratio (*SD*-ratio = $\frac{\sigma_k}{\sigma_j}$), and the sample size and variance pairing. In our scenarios, the number of compared groups (*k*) varied from 2 to 5. Sample sizes of *k*-1 groups ($n_j$) were 20, 30, 40, 50, or 100. The sample size of the last group was a function of the *n*-ratio, ranging from 0.5 to 2, in steps of 0.5. The simulations for which the *n*-ratio equals 1 are known as a balanced design (i.e. sample sizes are equal across all groups). The *SD* of the population from which was extracted last group was a function of the *SD*-ratio, with values of 0.5, 1, 2 or 4. The simulations for which the *SD*-ratio equals 1 are the particular case of homoscedasticity (i.e. equal variances across groups).
+
+All possible combinations of *n*-ratio and *SD*-ratio were performed in order to distinguish positive pairings (the group with the largest sample size is extracted from the population with the largest *SD*), negative pairings (the group with the largest sample size is extracted from the population with the  smallest *SD*), and no pairing (sample sizes and/or population *SD* are equal across all groups). All of those conditions were tested with normal and non-normal distributions. When two groups are compared, conclusions for the three ANOVA tests (*F*, *F*\*, *W*) should yield identical error rates when compared to their equivalent *t*-tests [the *F*-test is equivalent to Student's *t*-test, and the *F*\*-test and *W*-test are equivalent to Welch's *t*-test, @delacre_why_2017]. When there are more than three groups, the *F*-test becomes increasingly liberal as soon as the variances of the distributions in each group are not similar, even when sample sizes are equal between groups [@Harwell_et_al_1992; @Quensel_1947].  
+ 
+For didactic reasons, we will report only the results where we compare three groups (*k*=3). Increasing the number of groups increases how liberal all tests are. For interested readers, all figures for cases where we compare more than three groups are available here : https://osf.io/h4ks8/ . Overall, the larger the sample sizes, the less the distributions of the population underlying the samples impact the robustness of the tests [@Srivastava_1959]. However, increasing the sample sizes does not improve the robustness of the test when there is heteroscedasticity. Interested reader can see all details in the following Excel spreadsheet, available on github : "Type I error rate.xlsx". 
+
+In sum, the simulations grouped over different sample sizes yield 9 conditions based on the *n*-ratio, *SD*-ratio, and sample size and variance pairing, as summarized in Table 1.
+
+|                               |             |             |__*n*-ratio__|             |
+| :---------------------------: | :---------: |:----------: |:-----------:|:-----------:|
+|                               |             |    **1**    |    **>1**   |    **<1**   |
+|                               |             |------------ |-------------|-------------|
+|                               |    **1**    |      a      |      b      |      c      | 
+|                               |             |             |             |             |
+|      __*SD*-ratio__           |   **>1**    |      d      |      e      |      f      |
+|                               |             |             |             |             |
+|                               |   **<1**    |      g      |      h      |      i      |
+
+Table: 9 conditions based on the $n$-ratio, $SD$-ratio, and sample size and variance pairing.
+
+Note: The *n*-ratio is the sample size of the last group divided by the sample size of the first group. When all sample sizes are equal across groups, the *n*-ratio equals 1. When the sample size of the last group is higher than the sample size of the first group, *n*-ratio > 1, and when the sample size of the last group is smaller than the sample size of the first group, *n*-ratio < 1. *SD*-ratio is the population *SD* of the last group divided by the population *SD* of the first group. When all samples are extracted from populations with the same *SD*, the *SD*-ratio equals 1. When the last group is extracted from a population with a larger *SD* than all other groups, the *SD*-ratio > 1. When the last group is extracted from a population with a smaller *SD* than all other groups, the *SD*-ratio < 1. 
+
+In all Figures presented below, averaged results for each subcondition are presented under 7 different configurations of distributions, using the following legend :
+
+```{r "legendchp3", echo=FALSE, fig.width = 100,fig.height=100,out.width = '400px',fig.cap = "Legend"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/legend.PNG")
+```
+
+### Type I Error Rate of the *F*-test, *W*-test, and *F*\*-test
+
+As previously mentioned, the Type I error rate ($\alpha$) is the long-run frequency of observing significant results when the null-hypothesis is true. When means are equal across all groups the Type I error rate of all test should be equal to the nominal alpha level. We assessed the Type I error rate of the *F*-test, *W*-test and *F\**-test under 2560 scenarios using a nominal alpha level of 5$\%$.
+
+When there is no difference between means, the 9 cells of Table 1 simplify into 5 subconditions :  
+
+* Equal *n* and *SD* across groups (a)  
+* Unequal *n* but equal *SD* across groups (b and c)  
+* Unequal *SD* but equal *n* across groups (d and g)   
+* Unequal *n* and *SD* across groups, with positive correlation between *n* and *SD* (e and i)  
+*  Unequal *n* and *SD* across groups, with negative correlation between *n* and *SD* (f and h)    
+
+In Figure \ref{fig:Fig5} to \ref{fig:Fig9} (see Figure \ref{fig: legendchp3} for the legend), we computed the average Type I error rate of the three tests under these 5 subcategories. The light grey area corresponds to the liberal criterion from @bradley_robustness_1978, who regards a departure from the nominal alpha level as acceptable whenever the Type I error rate falls within the interval [$.5 \times \alpha$; $1.5 \times \alpha$]. The dark grey area corresponds to the more conservative criterion from which departures from the nominal alpha is considered  negligible as long as the Type I error rate falls within the interval [$.9 \times \alpha$; $1.1 \times \alpha$].
+
+```{r "Fig5", echo=FALSE, fig.width = 100,fig.height=100,out.width = '400px',fig.cap = "Type I error rate of the F-test, W-test and F*-test when there are equal SDs across groups and equal sample sizes (cell a in Table 1)"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig1A.PNG")
+```
+
+```{r "Fig6", echo=FALSE, fig.width = 100,fig.height=100,out.width = '400px',fig.cap = "Type I error rate of the F-test, W-test and F*-test when there are equal SDs across groups and unequal sample sizes (cells b and c in Table 1)"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig1B.PNG")
+```
+
+```{r "Fig7", echo=FALSE, fig.width = 100,fig.height=100,out.width = '400px',fig.cap = "Type I error rate of the F-test, W-test and F*-test when there are unequal SDs across groups and equal sample sizes (cells d and g in Table 1)"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig1C.PNG")
+```
+
+```{r "Fig8", echo=FALSE, fig.width = 100,fig.height=100,out.width = '400px',fig.cap = "Type I error rate of the F-test, W-test and F*-test when there are unequal SDs across groups, and positive correlation between sample sizes and SDs (cells e and i in Table 1)"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig1D.PNG")
+```
+
+```{r "Fig9", echo=FALSE, fig.width = 100,fig.height=100,out.width = '400px',fig.cap = "Type I error rate of the F-test, W-test and F*-test when there are unequal SDs across groups, and negative correlation between sample sizes and SDs (cells f and g in Table 1)"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig1E.PNG") 
+```
+
+In Figures \ref{fig:Fig5} and \ref{fig:Fig6} (cells a, b, and c in Table 1), the population variance is equal between all groups, so the homoscedasticity assumption is met. The *F*-test and *F\**-test only marginally deviate from the nominal 5%, regardless of the underlying distribution and the *SD*-ratio. The *W*-test also only marginally deviates from the nominal 5%, except under asymmetry (the tests becomes a little more liberal) or extremely heavy tails (the test becomes a bit more conservative), consistently with observations in @Harwell_et_al_1992. However, deviations don't exceed the liberal criterion of @bradley_robustness_1978.
+
+In Figures \ref{fig:Fig7}, \ref{fig:Fig8}, and \ref{fig:Fig9} (cells d to i, Table 1) the population variance is unequal between groups, so that the homoscedasticity assumption is not met. When sample sizes are equal across groups (Figure \ref{fig:Fig7}) and when there is a positive correlation between sample sizes and *SDs* (Figure \ref{fig:Fig8}), the Type I error rate of the *W*-test is closer to the nominal 5% than the Type I error rate of the *F\**-test and the *F*-test, the latter which is consistently at the lower limit of the liberal interval suggested by Bradley, in line with @Harwell_et_al_1992, @glass_consequences_1972, @Nimon_2012 and @Overall_et_al_1995. Heteroscedasticity does not impact the Type I error rate of the *W*-test, regardless of the distribution (the order of the distribution shape remains the same in all conditions). 
+
+When there is a negative correlation between sample sizes and *SDs* (Figure \ref{fig:Fig9}), the Type I error rate of the *F\**-test is slightly closer of the nominal 5% than the Type I error rate of the *W*-test, for which the distributions (more specifically, the skewness) has a larger impact on the Type I error rate than when there is homoscedasticity. This is consistent with conclusions by @Lix_Keselman_Keselman_1996 about the Alexander-Govern and the James' second order tests (which return very similar results as the *W*-test, as we already mentioned). However, both tests still perform relatively well, contrary to the *F*-test that is much too liberal, in line with observations by @Harwell_et_al_1992, @glass_consequences_1972, @Nimon_2012 and @Overall_et_al_1995.
+
+#### Conclusions
+
+We can draw the following conclusions for the Type I error rate:
+
+1) When all assumptions are met, all tests perform adequately.   
+2) When variances are equal between groups and distributions are not normal, the *W*-test is a little less efficient than both the *F*-test and the *F\**-test, but departures from the nominal 5% Type I error rate never exceed the liberal criterion of @bradley_robustness_1978.    
+3) When the assumption of equal variances is violated, the *W*-test clearly outperforms both the *F\**-test (which is more liberal) and the *F*-test (which is either more liberal or more conservative, depending on the *SDs* and *SD* pairing).   
+4)	The last conclusion generally remains true when both the assumptions of equal variances and normality are not met.
+
+### Statistical power for the *F*-test, *W*-test, and *F*\*-test
+
+As previously mentioned, the statistical power (1-$\beta$) of a test is the long-run probability of observing a statistically significant result when there is a true effect in the population. We assessed the power of the *F*-test, *W*-test and *F*\*-test under 1280 scenarios, while using the nominal alpha level of 5%. In all scenarios, the last group was extracted from a population that has a higher mean than the population from where were extracted all other groups ($\mu_k = \mu_j+1$). Because of that, in some scenarios there is a positive correlation between the *SD* and the mean (i.e. the last group has the largest *SD* and the largest mean) and in other scenarios, there is a negative correlation between *SD* and the mean (i.e. the last group has the smallest *SD* and the largest mean). As we know that the correlation between the *SD* and the mean matters for the *W*-test [see @Liu_2015], the 9 subconditions in Table 1 were analyzed separately.
+
+We computed two main outcomes : the consistency and the power. The consistency refers to the relative difference between the observed power and the nominal power, divided by the expected power:
+\begin{equation*} 
+Consistency=\frac{0-E}{E}
+\label{eqn:RDPWtest}
+\end{equation*} 
+
+When consistency equals zero, the observed power is consistent with the nominal power (under the parametric assumptions of normality and homoscedasticity); a negative consistency shows that the observed power is lower than the expected power; and a positive consistency shows that the observed power is higher than the expected power.
+
+```{r "Fig10", echo=FALSE, fig.width = 15,fig.height=8,out.width = '400px',fig.cap = "Power and consistency of the F-test, W-test and F*-test when there are equal SDs across groups and equal sample sizes (cell a in Table 1)"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2a.PNG")
+```
+
+```{r "Fig11", echo=FALSE, fig.width = 15,fig.height=8,out.width = '400px',fig.cap = "Power and consistency of the F-test, W-test and F*-test when there are equal SDs across groups, and positive correlation between sample sizes and means (cell b in Table 1)"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2b.PNG")
+```
+
+```{r "Fig12", echo=FALSE, fig.width = 15,fig.height=8,out.width = '400px',fig.cap = "Power and consistency of the F-test, W-test and F*-test when there are equal SDs across groups, and negative correlation between sample sizes and means (cell c in Table 1)"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2c.PNG")
+```
+
+```{r "Fig13", echo=FALSE, fig.width = 15,fig.height=8,out.width = '400px',fig.cap = "Power and consistency of the F-test, W-test and F*-test when there are unequal SDs across groups, positive correlation between SDs and means, and equal sample sizes across groups (cell d in Table 1)"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2d.PNG")
+```
+
+```{r "Fig14", echo=FALSE, fig.width = 15,fig.height=8,out.width = '400px',fig.cap = "Power and consistency of the F-test, W-test and F*-test when there are unequal SDs across groups, negative correlation between SDs and means, and equal sample sizes across groups (cell g in Table 1)"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2e.PNG")
+```
+
+```{r "Fig15", echo=FALSE, fig.width = 15,fig.height=8,out.width = '400px',fig.cap = "Power and consistency of the F-test, W-test and F*-test when there are unequal SDs across groups, negative correlation betwen sample sizes and SDs, and positive correlation between SDs and means (cell f in Table 1)"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2f.PNG")
+```
+
+```{r "Fig16", echo=FALSE, fig.width = 15,fig.height=8,out.width = '400px',fig.cap = "Power and consistency of the F-test, W-test and F*-test when there are unequal SDs across groups, negative correlation betwen sample sizes and SDs, and negative correlation between SDs and means (cell h in Table 1)"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2g.PNG")
+```
+
+```{r "Fig17", echo=FALSE, fig.width = 15,fig.height=8,out.width = '400px',fig.cap = "Power and consistency of the F-test, W-test and F*-test when there are unequal SDs across groups, positive correlation betwen sample sizes and SDs, and positive correlation between SDs and means (cell e  in Table 1)"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2h.PNG")
+```
+
+```{r "Fig18", echo=FALSE, fig.width = 15,fig.height=8,out.width = '400px',fig.cap = "Power and consistency of the F-test, W-test and F*-test when there are unequal SDs across groups, positive correlation betwen sample sizes and SDs, and negative correlation between SDs and means (cell i  in Table 1)"}
+knitr::include_graphics("C:/Users/Admin/Documents/Github projects/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2i.PNG")
+```
+
+In Figures \ref{fig:Fig10}, \ref{fig:Fig11} and \ref{fig:Fig12} (cells a, b, and c in Table 1), the population variance is equal between all groups, meaning that the homoscedasticity assumption is met. When distributions are normal, the *W*-test is slightly less powerful than the *F*-test and *F\**-test, even through differences are very small. With all other distributions, the *W*-test is generally more powerful than the *F*\*-test and *F*-test, even with heavy-tailed distributions, which is in contrast with previous findings [@wilcox_how_1998]. @wilcox_how_1998 concluded that there is a loss of power when means from heavy-tailed distributions (e.g. double exponential or a mixed normal distribution) are compared to means from normal distributions. This finding is based on the argument that heavy-tailed distributions are associated with bigger standard deviations than normal distributions, and that the effect size for such distributions is therefore smaller [@wilcox_introduction_2011]. However, this conclusion is based on a common conflation of kurtosis and the standard deviation, which are completely independent [@DeCarlo_1997]. One can find distributions that have similar *SD* but different kurtosis (see Appendix 2). However, while the *W*-test is more powerful than the *F*-test and the *F*\*-test in many situations, it is a bit less consistent with theoretical expectations than both other tests in the sense that the *W*-test is generally more powerful than expected (especially with high kurtosis, or when asymmetries go in opposite directions). This is due to the fact that the *W*-test is more impacted by the distribution shape, in line with observations by @Harwell_et_al_1992. Note that differences between *W*-test and other tests, in terms of consistency, are very small. 
+
+In Figures \ref{fig:Fig13} to \ref{fig:Fig18} (cells d to i in Table 1, see Figure 1 for the legend), the population variance is unequal between groups, meaning that the homoscedasticity assumption is not met. When sample sizes are equal across groups (Figures \ref{fig:Fig13} and \ref{fig:Fig14}), the *F*-test and the *F\**-tests are equally powerful, and have the same consistency, whatever the correlation between the *SD* and the mean. On the other hand, the power of the *W*-test depends on the correlation between the *SD* and the mean [in line with @Liu_2015]. When the group with the largest mean has the largest variance (Figure \ref{fig:Fig13}), the largest deviation between group means and the general mean is given less weight, and as a consequence the *W*-test is less powerful than both other tests. At the same time, the test is slightly less consistent than both other tests. When the group with the largest mean has the smallest variance (Figure \ref{fig:Fig14}), the largest deviation between group means and the general mean is given more weight, and therefore the *W*-test is more powerful than both other tests. The test is also slightly more consistent than both other tests. 
+
+When sample sizes are unequal across groups, the power of the *F\**-test and the *F*-test are a function of the correlation between sample sizes and *SDs*. When there is a negative correlation between sample sizes and *SDs* (Figures \ref{fig:Fig15} and \ref{fig:Fig16}), the *F*-test is always more powerful than the *F\**-test. Indeed, as was explained in the previous mathematical section, the *F*-test gives more weight to the smallest variance (the statistic is therefore increased) while the *F\**-test gives more weight to the largest variance (the statistic is therefore decreased). Conversely, when there is a positive correlation between sample sizes and *SDs* (Figures \ref{fig:Fig17} and \ref{fig:Fig18}), the *F*-test is always more conservative than the *F\**-test, because the *F*-test gives more weight to the largest variance while the *F\**-test gives more weight to the smallest variance.
+
+The power of the *W*-test is not a function of the correlation between sample sizes and *SDs*, but rather a function of the correlation between *SDs* and means. The test is more powerful when there is a negative correlation between *SDs* and means, and less powerful when there is a positive correlation between *SDs* and means. Note that for all tests, the effect of heteroscedasticity is approximately the same regardless of the shape of the distribution. Moreover, there is one constant observation in our simulations : whatever the configuration of the *n*-ratio, the consistency of the three tests is closer to zero when there is a negative correlation between the *SD* and the mean (meaning that the group with the highest mean has the lower variance). 
+
+We can draw the following conclusions about the statistical power of the three tests:
+
+1) When all assumptions are met, the *W*-test falls slightly behind the *F*-test and the *F\**-test, both in terms of power and consistency.
+2) When variances are equal between groups and distributions are not normal, the *W*-test is slightly more powerful than both the *F*-test and the *F\**-test, even with heavy-tailed distributions.
+3) When the assumption of equal variances is violated, the *F*-test is either too liberal or too conservative, depending on the correlation between sample sizes and *SDs*. On the other side, the *W*-test is not influenced by the sample sizes and *SDs* pairing. However, it is influenced by the *SD* and means pairing.
+4) The last conclusion generally remains true when both assumptions of equal variances and normality are not met.
+
+## Recommendations
+
+Taking both the effects of the assumption violations on the alpha risk and on the power, we recommend using the *W*-test instead of the *F*-test to compare groups means. The *F*-test and *F*\*-test should be avoided, because a) the equal variances assumption is often unrealistic, b) tests of the equal variances assumption will often fail to detect differences when these are present, c) the loss of power when using the *W*-test is very small (and often even negligible), and d) the gain in Type I error control is considerable under a wide range of realistic conditions. Also, we recommend the use of balanced designs (i.e. same sample sizes in each group) whenever possible. When using the *W*-test, the Type I error rate is a function of criteria such as the skewness of the distributions, and whether skewness is combined with unequal variances and unequal samples sizes between groups. Our simulations show that the Type I error rate control is in general slightly better with balanced designs. 
+
+Note that the *W*-test suffers from limitations and cannot be used in all situations. First, as previously mentioned, *W*-test, as all tests based on means, does not allow researchers to compare other relevant parameters of a distribution than the mean. For these reason, we recommend to never neglect the descriptive analysis of the data. A complete description of the shape and characteristics of the data (e.g. histograms and boxplots) is important. When at least one statistical parameter relating to the shape of the distribution (e.g. variance, skewness, kurtosis) seems to vary between groups, comparing results of the *W*-test with results of a nonparametric procedure is useful in order to better understand the data. Second, with small sample sizes (i.e. less than 50 observations per group when comparing at most four groups, 100 observations when comparing more than four groups), the *W*-test will not control Type I error rate when skewness is present and detecting departures for normality is therefore especially important in small samples. Unless you have good reasons to believe that distributions underlying the data have small kurtosis and skewness, we recommend to avoid alternative tests that are based on means comparison, in favour of alternatives such as the trimmed means test [@erceg-hurn_modern_2008]\footnote{The null hypothesis of the trimmed means test assumes that trimmed means are the same between groups. A trimmed mean is a mean computed on data after removing the lowest and highest values of the distribution. Trimmed means and means are equal when data are symmetric. On the other hand, when data are asymmetric, trimmed means and means differ.} or nonparametric tests. For more information about robust alternatives that are based on other parameters than the mean, see @erceg-hurn_modern_2008.
