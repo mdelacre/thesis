@@ -18,7 +18,7 @@
 \contentsline {subsubsection}{Cumulative Violation of Normality and Homogeneity of Variance}{32}{section*.20}%
 \contentsline {subsection}{The Mathematical Differences Between the \emph {F}-test, \emph {W}-test, and \emph {F}*-test}{32}{section*.21}%
 \contentsline {subsection}{Monte Carlo simulations : \emph {F}-test vs.~\emph {W}-test vs.~\emph {F}*-test}{34}{section*.22}%
-\contentsline {subsubsection}{Type I Error Rate of the \emph {F}-test, \emph {W}-test, and \emph {F}*-test}{37}{section*.23}%
+\contentsline {subsubsection}{Type I Error Rate of the \emph {F}-test, \emph {W}-test, and \emph {F}*-test}{36}{section*.23}%
 \contentsline {paragraph}{Conclusions}{43}{section*.24}%
 \contentsline {subsubsection}{Statistical power for the \emph {F}-test, \emph {W}-test, and \emph {F}*-test}{44}{section*.25}%
 \contentsline {subsection}{Recommendations}{55}{section*.26}%
