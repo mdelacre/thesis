@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.4)  5 OCT 2021 13:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.4)  5 OCT 2021 13:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**chp2_format-Rmd.tex
-(./chp2_format-Rmd.tex
+**chp3_format-Rmd.tex
+(./chp3_format-Rmd.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27> (c:/Users/mdelacre/AppData/Roaming/TinyTeX/te
 xmf-dist/tex/latex/apa6/apa6.cls
@@ -495,13 +495,6 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip74
 )
-(c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/was/upgreek.sty
-Package: upgreek 2003/02/12 v2.0 (WaS)
-Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
-\symugrf@m=\mathgroup9
-LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
-(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
-)
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable
 .sty
 Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
@@ -522,6 +515,42 @@ Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
 \c@LT@chunks=\count298
 \LT@p@ftn=\toks25
 )
+(c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
+\col@sep=\dimen183
+\ar@mcellbox=\box59
+\extrarowheight=\dimen184
+\NC@list=\toks26
+\extratabsurround=\skip79
+\backup@length=\skip80
+\ar@cellbox=\box60
+) (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.st
+y
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count299
+\calc@Bcount=\count300
+\calc@Adimen=\dimen185
+\calc@Bdimen=\dimen186
+\calc@Askip=\skip81
+\calc@Bskip=\skip82
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count301
+\calc@Cskip=\skip83
+)
+(c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdwtools/footno
+te.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box61
+\fn@width=\dimen187
+)
+(c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/lscape
 .sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
@@ -529,31 +558,20 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/multirow/multir
 ow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip79
-\multirow@cntb=\count299
-\multirow@dima=\skip80
-\bigstrutjot=\dimen183
+\multirow@colwidth=\skip84
+\multirow@cntb=\count302
+\multirow@dima=\skip85
+\bigstrutjot=\dimen188
 )
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/tabularx.
 sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-
-(c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
-Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
-\col@sep=\dimen184
-\ar@mcellbox=\box59
-\extrarowheight=\dimen185
-\NC@list=\toks26
-\extratabsurround=\skip81
-\backup@length=\skip82
-\ar@cellbox=\box60
-)
-\TX@col@width=\dimen186
-\TX@old@table=\dimen187
-\TX@old@col=\dimen188
-\TX@target=\dimen189
-\TX@delta=\dimen190
-\TX@cols=\count300
+\TX@col@width=\dimen189
+\TX@old@table=\dimen190
+\TX@old@col=\dimen191
+\TX@target=\dimen192
+\TX@delta=\dimen193
+\TX@cols=\count303
 \TX@ftn=\toks27
 )
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttablex
@@ -568,19 +586,19 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 spaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\TPTL@width=\skip83
+\TPTL@width=\skip86
 )
-\longtablewidth=\skip84
+\longtablewidth=\skip87
 
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquot
 es.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count301
-\csq@gtype=\count302
-\csq@glevel=\count303
-\csq@qlevel=\count304
-\csq@maxlvl=\count305
-\csq@tshold=\count306
+\csq@reset=\count304
+\csq@gtype=\count305
+\csq@glevel=\count306
+\csq@qlevel=\count307
+\csq@maxlvl=\count308
+\csq@tshold=\count309
 \csq@ltx@everypar=\toks28
 
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquot
@@ -596,11 +614,11 @@ File: csquotes.cfg
 ))
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count307
+\c@float@type=\count310
 \float@exts=\toks29
-\float@box=\box61
+\float@box=\box62
 \@float@everytoks=\toks30
-\@floatcapt=\box62
+\@floatcapt=\box63
 )
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/sectsty/sectsty
 .sty
@@ -622,15 +640,15 @@ Package: babel 2021/07/22 3.63 The Babel package
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babel.d
 ef
 File: babel.def 2021/07/22 3.63 Babel common definitions
-\babel@savecnt=\count308
-\U@D=\dimen191
+\babel@savecnt=\count311
+\U@D=\dimen194
 \l@unhyphenated=\language3
 
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/txtbabe
 l.def)
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count309
+\bbl@dirlevel=\count312
 
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel-english
 /english.ldf
@@ -658,29 +676,29 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3bac
 kend-pdftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count310
-\l__pdf_internal_box=\box63
-) (./chp2_format-Rmd.aux)
-\openout1 = `chp2_format-Rmd.aux'.
+\l__color_backend_stack_int=\count313
+\l__pdf_internal_box=\box64
+) (./chp3_format-Rmd.aux)
+\openout1 = `chp3_format-Rmd.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -750,7 +768,7 @@ on.sty
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 135.
+Package hyperref Info: Link coloring OFF on input line 148.
 
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/namere
 f.sty
@@ -764,168 +782,346 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 g/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count311
+\c@section@level=\count314
 )
-LaTeX Info: Redefining \ref on input line 135.
-LaTeX Info: Redefining \pageref on input line 135.
-LaTeX Info: Redefining \nameref on input line 135.
-(./chp2_format-Rmd.out) (./chp2_format-Rmd.out)
+LaTeX Info: Redefining \ref on input line 148.
+LaTeX Info: Redefining \pageref on input line 148.
+LaTeX Info: Redefining \nameref on input line 148.
+(./chp3_format-Rmd.out) (./chp3_format-Rmd.out)
 \@outlinefile=\write5
-\openout5 = `chp2_format-Rmd.out'.
+\openout5 = `chp3_format-Rmd.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-38.
+51.
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-38.
+51.
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-138.
+151.
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-138.
+151.
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 138.
+(Font)              <17.28> on input line 151.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 138.
+(Font)              <12> on input line 151.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 138.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 138
+(Font)              <10> on input line 151.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 151
 .
 
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.f
 d
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 138
+LaTeX Font Info:    Trying to load font information for U+msb on input line 151
 .
 
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.f
 d
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\openout4 = `chp2_format-Rmd.fff'.
-
-(chp2_format-Rmd.fff)
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 3/Chapitre 3-couver
+ture.png, id=56, 745.28438pt x 570.63188pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 3/Chapitre 3-c
+ouverture.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 3/Chapitre 3-co
+uverture.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 3/Chapitre 3-couverture.png  used on input line 153.
+(pdftex.def)             Requested size: 458.72813pt x 351.22821pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 149.
+(Font)              <8> on input line 155.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 149.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 156.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 156.
+(Font)              <6> on input line 155.
 [1{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/
 pdftex.map}
 
-] [2] [3] [4] [5]
-Underfull \vbox (badness 1975) has occurred while \output is active []
+ <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 3/Chapitre 3-couve
+rture.png>] [2] [3] [4]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 184.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 184.
+[5] [6] [7]
 
-[6]
+LaTeX Warning: Reference `eq:Fstat' on page 8 undefined on input line 217.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[7] [8] [9]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 211.
-[10] [11] [12] [13]
+[8]
+
+LaTeX Warning: Reference `eq:Fstat' on page 9 undefined on input line 231.
+
+
+LaTeX Warning: Reference `eq:Fstat' on page 9 undefined on input line 231.
+
+
+LaTeX Warning: Reference `eq:BFstat' on page 9 undefined on input line 238.
+
+[9]
+
+LaTeX Warning: Reference `eq:Wstat' on page 10 undefined on input line 247.
+
+[10] [11] [12]
+\openout4 = `chp3_format-Rmd.fff'.
+
+(chp3_format-Rmd.fff) [13]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
+15.
+(c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [14] [15
+
+
+
+
+
+
+
+
+
+
+]
+Underfull \vbox (badness 4660) has occurred while \output is active []
+
+[16] [17]
+Underfull \vbox (badness 7649) has occurred while \output is active []
+
+[18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
 Underfull \vbox (badness 3977) has occurred while \output is active []
 
-[14] [15] AED endfloat: Processing end Figures and Tables [16] (./chp2_format-R
+[19] [20] AED endfloat: Processing end Figures and Tables [21] (./chp3_format-R
 md.fff
-<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 2/Chapitre 2-couver
-ture.png, id=146, 1105.88156pt x 697.10437pt>
-File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 2/Chapitre 2-c
-ouverture.png Graphic file (type png)
-<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 2/Chapitre 2-co
-uverture.png>
-Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
-itre 2/Chapitre 2-couverture.png  used on input line 5.
-(pdftex.def)             Requested size: 464.31523pt x 292.6861pt.
-<C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/Figur
-es/Figure 1/Figure1.png, id=148, 722.7pt x 421.575pt>
-File: C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/
-Figures/Figure 1/Figure1.png Graphic file (type png)
-<use C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/F
-igures/Figure 1/Figure1.png>
-Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/studentback
-up/scripts outputs/Figures/Figure 1/Figure1.png  used on input line 15.
-(pdftex.def)             Requested size: 469.76045pt x 274.02693pt.
-<C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/Figur
-es/Figure 2/Figure 2.png, id=149, 277.035pt x 300.62312pt>
-File: C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/
-Figures/Figure 2/Figure 2.png Graphic file (type png)
-<use C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/F
-igures/Figure 2/Figure 2.png>
-Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/studentback
-up/scripts outputs/Figures/Figure 2/Figure 2.png  used on input line 25.
-(pdftex.def)             Requested size: 277.05968pt x 300.64989pt.
-<C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/Figur
-es/Figure 3/Figure 3.png, id=150, 296.10625pt x 316.68312pt>
-File: C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/
-Figures/Figure 3/Figure 3.png Graphic file (type png)
-<use C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/F
-igures/Figure 3/Figure 3.png>
-Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/studentback
-up/scripts outputs/Figures/Figure 3/Figure 3.png  used on input line 35.
-(pdftex.def)             Requested size: 296.1281pt x 316.7065pt.
-) [17
+<C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
+inputs/legend.png, id=239, 441.90094pt x 300.3722pt>
+File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
+down inputs/legend.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
+own inputs/legend.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
+rkdown folder/Rmarkdown inputs/legend.png  used on input line 4.
+(pdftex.def)             Requested size: 401.52362pt x 272.9266pt.
+<C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
+inputs/Fig1A.png, id=240, 481.8pt x 409.53pt>
+File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
+down inputs/Fig1A.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
+own inputs/Fig1A.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
+rkdown folder/Rmarkdown inputs/Fig1A.png  used on input line 10.
+(pdftex.def)             Requested size: 469.77148pt x 399.30576pt.
+<C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
+inputs/Fig1B.png, id=241, 481.8pt x 409.53pt>
+File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
+down inputs/Fig1B.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
+own inputs/Fig1B.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
+rkdown folder/Rmarkdown inputs/Fig1B.png  used on input line 20.
+(pdftex.def)             Requested size: 469.77148pt x 399.30576pt.
+<C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
+inputs/Fig1C.png, id=242, 481.8pt x 409.53pt>
+File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
+down inputs/Fig1C.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
+own inputs/Fig1C.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
+rkdown folder/Rmarkdown inputs/Fig1C.png  used on input line 30.
+(pdftex.def)             Requested size: 469.77148pt x 399.30576pt.
+<C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
+inputs/Fig1D.png, id=243, 481.8pt x 409.53pt>
+File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
+down inputs/Fig1D.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
+own inputs/Fig1D.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
+rkdown folder/Rmarkdown inputs/Fig1D.png  used on input line 40.
+(pdftex.def)             Requested size: 469.77148pt x 399.30576pt.
+<C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
+inputs/Fig1E.png, id=244, 481.8pt x 409.53pt>
+File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
+down inputs/Fig1E.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
+own inputs/Fig1E.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
+rkdown folder/Rmarkdown inputs/Fig1E.png  used on input line 50.
+(pdftex.def)             Requested size: 469.77148pt x 399.30576pt.
+<C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
+inputs/Fig2a.png, id=245, 481.8pt x 409.53pt>
+File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
+down inputs/Fig2a.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
+own inputs/Fig2a.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
+rkdown folder/Rmarkdown inputs/Fig2a.png  used on input line 60.
+(pdftex.def)             Requested size: 469.77148pt x 399.30576pt.
+<C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
+inputs/Fig2b.png, id=246, 481.8pt x 409.53pt>
+File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
+down inputs/Fig2b.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
+own inputs/Fig2b.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
+rkdown folder/Rmarkdown inputs/Fig2b.png  used on input line 70.
+(pdftex.def)             Requested size: 469.77148pt x 399.30576pt.
+<C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
+inputs/Fig2c.png, id=247, 481.8pt x 409.53pt>
+File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
+down inputs/Fig2c.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
+own inputs/Fig2c.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
+rkdown folder/Rmarkdown inputs/Fig2c.png  used on input line 80.
+(pdftex.def)             Requested size: 469.77148pt x 399.30576pt.
+<C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
+inputs/Fig2d.png, id=248, 481.8pt x 409.53pt>
+File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
+down inputs/Fig2d.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
+own inputs/Fig2d.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
+rkdown folder/Rmarkdown inputs/Fig2d.png  used on input line 90.
+(pdftex.def)             Requested size: 469.77148pt x 399.30576pt.
+<C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
+inputs/Fig2e.png, id=249, 481.8pt x 409.53pt>
+File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
+down inputs/Fig2e.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
+own inputs/Fig2e.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
+rkdown folder/Rmarkdown inputs/Fig2e.png  used on input line 100.
+(pdftex.def)             Requested size: 469.77148pt x 399.30576pt.
+<C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
+inputs/Fig2f.png, id=250, 481.8pt x 409.53pt>
+File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
+down inputs/Fig2f.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
+own inputs/Fig2f.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
+rkdown folder/Rmarkdown inputs/Fig2f.png  used on input line 110.
+(pdftex.def)             Requested size: 469.77148pt x 399.30576pt.
+<C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
+inputs/Fig2g.png, id=251, 481.8pt x 409.53pt>
+File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
+down inputs/Fig2g.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
+own inputs/Fig2g.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
+rkdown folder/Rmarkdown inputs/Fig2g.png  used on input line 120.
+(pdftex.def)             Requested size: 469.77148pt x 399.30576pt.
+<C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
+inputs/Fig2h.png, id=252, 481.8pt x 409.53pt>
+File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
+down inputs/Fig2h.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
+own inputs/Fig2h.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
+rkdown folder/Rmarkdown inputs/Fig2h.png  used on input line 130.
+(pdftex.def)             Requested size: 469.77148pt x 399.30576pt.
+<C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
+inputs/Fig2i.png, id=253, 481.8pt x 409.53pt>
+File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
+down inputs/Fig2i.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
+own inputs/Fig2i.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
+rkdown folder/Rmarkdown inputs/Fig2i.png  used on input line 140.
+(pdftex.def)             Requested size: 469.77148pt x 399.30576pt.
+) [22
 
 
- <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 2/Chapitre 2-couve
-rture.png>] [18 <c:/Users/mdelacre/Documents/Github project/studentbackup/scrip
-ts outputs/Figures/Figure 1/Figure1.png>] [19 <c:/Users/mdelacre/Documents/Gith
-ub project/studentbackup/scripts outputs/Figures/Figure 2/Figure 2.PNG>] [20 <c
-:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/Figures
-/Figure 3/Figure 3.PNG>] (./chp2_format-Rmd.aux)
-Package rerunfilecheck Info: File `chp2_format-Rmd.out' has not changed.
-(rerunfilecheck)             Checksum: 3A025307BBBAE7887FF4B67436384E78;2178.
+ <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown
+ inputs/Legend.png>] [23 <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rm
+arkdown folder/Rmarkdown inputs/Fig1A.png>] [24 <c:/Users/mdelacre/Documents/Gi
+thub project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig1B.png>] [25 <c:/User
+s/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/F
+ig1C.png>] [26 <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown fo
+lder/Rmarkdown inputs/Fig1D.png>] [27 <c:/Users/mdelacre/Documents/Github proje
+ct/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig1E.png>] [28 <c:/Users/mdelacre
+/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2a.png>]
+[29 <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
+own inputs/Fig2b.png>] [30 <c:/Users/mdelacre/Documents/Github project/W-ANOVA/
+Rmarkdown folder/Rmarkdown inputs/Fig2c.png>] [31 <c:/Users/mdelacre/Documents/
+Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2d.png>] [32 <c:/Us
+ers/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs
+/Fig2e.png>] [33 <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown 
+folder/Rmarkdown inputs/Fig2f.png>] [34 <c:/Users/mdelacre/Documents/Github pro
+ject/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2g.png>] [35 <c:/Users/mdelac
+re/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2h.png
+>] [36 <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rma
+rkdown inputs/Fig2i.png>] (./chp3_format-Rmd.aux)
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `chp3_format-Rmd.out' has not changed.
+(rerunfilecheck)             Checksum: 5AF5DE6EA176B2724D47906DC28F9DD2;3970.
  ) 
 Here is how much of TeX's memory you used:
- 14750 strings out of 480559
- 230704 string characters out of 5901528
- 558490 words of memory out of 5000000
- 32024 multiletter control sequences out of 15000+600000
- 514184 words of font info for 115 fonts, out of 8000000 for 9000
+ 15121 strings out of 480559
+ 246431 string characters out of 5901528
+ 563232 words of memory out of 5000000
+ 32327 multiletter control sequences out of 15000+600000
+ 510925 words of font info for 108 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,12n,80p,2254b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-m
-athsy.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips
-/lm/lm-mathex.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/e
-nc/dvips/lm/lm-mathit.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist
-/fonts/enc/dvips/lm/lm-ec.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-
-dist/fonts/enc/dvips/lm/lm-rm.enc}<c:/Users/mdelacre/AppData/Roaming/TinyTeX/te
-xmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/Users/mdelacre/AppData/Roaming/Ti
-nyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/mdelacre/AppData/Ro
-aming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/Users/mdelacre/A
-ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/Users/md
-elacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/
-Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.
-pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm
-/lmmi7.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pu
-blic/lm/lmmi8.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
-ype1/public/lm/lmmib10.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dis
-t/fonts/type1/public/lm/lmr10.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/te
-xmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/mdelacre/AppData/Roaming/Tin
-yTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/mdelacre/AppData/Roami
-ng/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/mdelacre/AppData
-/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/mdelacre/A
-ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/md
-elacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/
-Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.p
-fb>
-Output written on chp2_format-Rmd.pdf (20 pages, 900132 bytes).
+ 72i,12n,80p,2254b,525s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-t
+s1.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm
+/lm-mathsy.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/
+dvips/lm/lm-rm.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/
+enc/dvips/lm/lm-mathit.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dis
+t/fonts/enc/dvips/lm/lm-mathex.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/t
+exmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/Users/mdelacre/AppData/Roaming/TinyT
+eX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/mdelacre/AppData/Roami
+ng/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/Users/mdelacre/AppD
+ata/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/Users/mdela
+cre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Use
+rs/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi6.pfb>
+<c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmm
+i8.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public
+/lm/lmr10.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1
+/public/lm/lmr12.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/font
+s/type1/public/lm/lmr6.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dis
+t/fonts/type1/public/lm/lmr7.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/tex
+mf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/mdelacre/AppData/Roaming/TinyT
+eX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/mdelacre/AppData/Roami
+ng/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/mdelacre/AppDa
+ta/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/Users/mdelacr
+e/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on chp3_format-Rmd.pdf (36 pages, 1327445 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 430 PDF objects out of 1000 (max. 8388607)
+ 323 compressed objects within 4 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

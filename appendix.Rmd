@@ -78,11 +78,16 @@ Une légende est manquante pour certaines notations mathématiques. Par exemple,
 
 Par ailleurs, comme dans l'article précédent sur le test $t$ de Welch, on constate certaines incohérences en termes de notation. Par exemple, si la moyenne de chaque groupe est définie par $\bar{x_j}$ dans l'équation (1), elle est définie par $\bar{X_j}$ dans l'équation (7). 
 
+On a également omis d'italiser certaines lettres statistiques (comme dans les Figures par exemple).
+
 **p.21** : ~~($SD_{spanish}=.80 > SD_{english}=.50$\color{blue})~~ ($S_{spanish}=.80 > S_{english}=.50$\color{blue}, with S = sample standard deviation) [...] \color{black}For men, the reverse was true ~~($SD_{spanish}=.97 < SD_{english}=1.33$)~~ ($S_{spanish}=.97 < S_{english}=1.33$)
 
 Enfin, dû à un manque de connaissance de Latex lors de mes premières tentatives d'écritures d'articles via Rmarkdown, certaines majuscules sont manquantes dans les références bibliographiques. 
 
 ### Faute(s) de frappe et grammaire et autres
+
+p?? : "which can lead~~s~~ to asymmetry in the distribution"
+p?? : In Figure**s** 5 to 9 (see Figure 4 for the legend)
 
 - p.18 : "Although it is important to make sure ~~test~~ **that** assumptions are met";    
 - p.19 : "... we think that a ~~first~~ realistic first step towards progress would be to get researchers...";   

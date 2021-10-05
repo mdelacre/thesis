@@ -2,7 +2,7 @@
 \ifnextchar[{\eatarg}{}
 
 
-{\centering \includegraphics[width=4.9in,height=0.35\textheight]{C:/Users/Admin/Documents/Github projects/thesis/Chapitre 2/Chapitre 2-couverture}
+{\centering \includegraphics[height=0.45\textheight]{C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 2/Chapitre 2-couverture}
 
 }
 
@@ -12,7 +12,7 @@
 \ifnextchar[{\eatarg}{}
 
 
-{\centering \includegraphics[width=1\linewidth]{C:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs/Figures/Figure 1/Figure1}
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/Figures/Figure 1/Figure1}
 
 }
 
@@ -22,39 +22,19 @@
 \ifnextchar[{\eatarg}{}
 
 
-{\centering \includegraphics[width=1\linewidth]{C:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs/Figures/Figure 2/Figure2A}
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/Figures/Figure 2/Figure 2}
 
 }
 
-\caption{$P$-value distributions for Student's and Welch's $t$-test under the null as a function of SDR, and sample size}\label{fig:chp2fig2-1}
+\caption{$P$-value distributions for Student's and Welch's $t$-test under the null as a function of SDR, and sample size}\label{fig:chp2fig2}
 \end{figure*}
 \begin{figure*}[hbt]
 \ifnextchar[{\eatarg}{}
 
 
-{\centering \includegraphics[width=1\linewidth]{C:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs/Figures/Figure 2/Figure2B}
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/Figures/Figure 3/Figure 3}
 
 }
 
-\caption{$P$-value distributions for Student's and Welch's $t$-test under the null as a function of SDR, and sample size}\label{fig:chp2fig2-2}
-\end{figure*}
-\begin{figure*}[hbt]
-\ifnextchar[{\eatarg}{}
-
-
-{\centering \includegraphics[width=1\linewidth]{C:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs/Figures/Figure 2/Figure2C}
-
-}
-
-\caption{$P$-value distributions for Student's and Welch's $t$-test under the null as a function of SDR, and sample size}\label{fig:chp2fig2-3}
-\end{figure*}
-\begin{figure*}[hbt]
-\ifnextchar[{\eatarg}{}
-
-
-{\centering \includegraphics[width=1\linewidth]{C:/Users/Admin/Documents/Github projects/studentbackup/scripts outputs/Figures/Figure 2/Figure2D}
-
-}
-
-\caption{$P$-value distributions for Student's and Welch's $t$-test under the null as a function of SDR, and sample size}\label{fig:chp2fig2-4}
+\caption{$P$-value from Student's $t$-test against $p$-values from Welch's $t$-test under the null}\label{fig:chp2fig3}
 \end{figure*}

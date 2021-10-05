@@ -38,7 +38,7 @@ csl: apa-fr-provost.csl
 \vspace{3cm}
 
 ```{r uni_logo, echo=F, out.width="20%"}
-knitr::include_graphics("C:/Users/Admin/OneDrive/Documents/Github projects/thesis/Logo.png")
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/thesis/Logo.png")
 ```
 
 \vspace{1cm}
@@ -154,7 +154,7 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 
 \newpage
 
-```{r chp5, child = 'chp5_format Rmd.Rmd'}
+```{r chp5, child = 'chp5_format Rmd_bib.Rmd'}
 ```
 
 \parindent 0pt

@@ -1,0 +1,145 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\includegraphics[width=400px]{C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/legend} \caption{Legend}\label{fig:legendchp3}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig1A}
+
+}
+
+\caption{Type I error rate of the $F$-test, $W$-test and $F^*$-test when there are equal SDs across groups and equal sample sizes (cell a in Table 1)}\label{fig:Fig5}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig1B}
+
+}
+
+\caption{Type I error rate of the $F$-test, $W$-test and $F^*$-test when there are equal SDs across groups and unequal sample sizes (cells b and c in Table 1)}\label{fig:Fig6}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig1C}
+
+}
+
+\caption{Type I error rate of the $F$-test, $W$-test and $F^*$-test when there are unequal SDs across groups and equal sample sizes (cells d and g in Table 1)}\label{fig:Fig7}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig1D}
+
+}
+
+\caption{Type I error rate of the $F$-test, $W$-test and $F^*$-test when there are unequal SDs across groups, and positive correlation between sample sizes and SDs (cells e and i in Table 1)}\label{fig:Fig8}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig1E}
+
+}
+
+\caption{Type I error rate of the $F$-test, $W$-test and $F^*$-test when there are unequal SDs across groups, and negative correlation between sample sizes and SDs (cells f and g in Table 1)}\label{fig:Fig9}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2a}
+
+}
+
+\caption{Power and consistency of the $F$-test, $W$-test and $F^*$-test when there are equal SDs across groups and equal sample sizes (cell a in Table 1)}\label{fig:Fig10}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2b}
+
+}
+
+\caption{Power and consistency of the $F$-test, $W$-test and $F^*$-test when there are equal SDs across groups, and positive correlation between sample sizes and means (cell b in Table 1)}\label{fig:Fig11}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2c}
+
+}
+
+\caption{Power and consistency of the $F$-test, $W$-test and $F^*$-test when there are equal SDs across groups, and negative correlation between sample sizes and means (cell c in Table 1)}\label{fig:Fig12}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2d}
+
+}
+
+\caption{Power and consistency of the $F$-test, $W$-test and $F^*$-test when there are unequal SDs across groups, positive correlation between SDs and means, and equal sample sizes across groups (cell d in Table 1)}\label{fig:Fig13}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2e}
+
+}
+
+\caption{Power and consistency of the $F$-test, $W$-test and $F^*$-test when there are unequal SDs across groups, negative correlation between SDs and means, and equal sample sizes across groups (cell g in Table 1)}\label{fig:Fig14}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2f}
+
+}
+
+\caption{Power and consistency of the $F$-test, $W$-test and $F^*$-test when there are unequal SDs across groups, negative correlation betwen sample sizes and SDs, and positive correlation between SDs and means (cell f in Table 1)}\label{fig:Fig15}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2g}
+
+}
+
+\caption{Power and consistency of the $F$-test, $W$-test and $F^*$-test when there are unequal SDs across groups, negative correlation betwen sample sizes and SDs, and negative correlation between SDs and means (cell h in Table 1)}\label{fig:Fig16}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2h}
+
+}
+
+\caption{Power and consistency of the $F$-test, $W$-test and $F^*$-test when there are unequal SDs across groups, positive correlation betwen sample sizes and SDs, and positive correlation between SDs and means (cell e  in Table 1)}\label{fig:Fig17}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=1\linewidth]{C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown inputs/Fig2i}
+
+}
+
+\caption{Power and consistency of the $F$-test, $W$-test and $F^*$-test when there are unequal SDs across groups, positive correlation betwen sample sizes and SDs, and negative correlation between SDs and means (cell i  in Table 1)}\label{fig:Fig18}
+\end{figure*}

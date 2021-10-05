@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.4)  5 OCT 2021 13:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.4)  5 OCT 2021 13:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**chp2_format-Rmd.tex
-(./chp2_format-Rmd.tex
+**chp5_format-Rmd_bib.tex
+(./chp5_format-Rmd_bib.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27> (c:/Users/mdelacre/AppData/Roaming/TinyTeX/te
 xmf-dist/tex/latex/apa6/apa6.cls
@@ -660,27 +660,27 @@ kend-pdftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count310
 \l__pdf_internal_box=\box63
-) (./chp2_format-Rmd.aux)
-\openout1 = `chp2_format-Rmd.aux'.
+) (./chp5_format-Rmd_bib.aux)
+\openout1 = `chp5_format-Rmd_bib.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -750,7 +750,7 @@ on.sty
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 135.
+Package hyperref Info: Link coloring OFF on input line 138.
 
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/namere
 f.sty
@@ -766,166 +766,315 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count311
 )
-LaTeX Info: Redefining \ref on input line 135.
-LaTeX Info: Redefining \pageref on input line 135.
-LaTeX Info: Redefining \nameref on input line 135.
-(./chp2_format-Rmd.out) (./chp2_format-Rmd.out)
+LaTeX Info: Redefining \ref on input line 138.
+LaTeX Info: Redefining \pageref on input line 138.
+LaTeX Info: Redefining \nameref on input line 138.
+(./chp5_format-Rmd_bib.out) (./chp5_format-Rmd_bib.out)
 \@outlinefile=\write5
-\openout5 = `chp2_format-Rmd.out'.
+\openout5 = `chp5_format-Rmd_bib.out'.
 
+
+Underfull \vbox (badness 2443) has occurred while \output is active []
+
+[1{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/
+pdftex.map}
+
+]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-38.
+50.
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-38.
+50.
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-138.
+150.
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-138.
+150.
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 138.
+(Font)              <12> on input line 150.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 138.
+(Font)              <8> on input line 150.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 138.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 138
+(Font)              <6> on input line 150.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 150
 .
 
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.f
 d
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 138
+LaTeX Font Info:    Trying to load font information for U+msb on input line 150
 .
 
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.f
 d
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\openout4 = `chp2_format-Rmd.fff'.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 150.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 150.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 150.
+[2]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/Tabl
+e1.png, id=55, 483.8075pt x 271.51437pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration
+/Table1.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/
+Table1.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 5/Illustration/Table1.png  used on input line 152.
+(pdftex.def)             Requested size: 446.28209pt x 250.45496pt.
+[3 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/T
+able1.png>]
+Underfull \vbox (badness 1253) has occurred while \output is active []
 
-(chp2_format-Rmd.fff)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 149.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 149.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 156.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 156.
-[1{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/
-pdftex.map}
+[4]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/Tabl
+e2.png, id=74, 483.8075pt x 285.065pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration
+/Table2.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/
+Table2.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 5/Illustration/Table2.png  used on input line 159.
+(pdftex.def)             Requested size: 446.28209pt x 262.95459pt.
 
-] [2] [3] [4] [5]
-Underfull \vbox (badness 1975) has occurred while \output is active []
-
-[6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[7] [8] [9]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 211.
-[10] [11] [12] [13]
-Underfull \vbox (badness 3977) has occurred while \output is active []
+[5] [6 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustrati
+on/Table2.png>]
+\openout4 = `chp5_format-Rmd_bib.fff'.
 
-[14] [15] AED endfloat: Processing end Figures and Tables [16] (./chp2_format-R
-md.fff
-<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 2/Chapitre 2-couver
-ture.png, id=146, 1105.88156pt x 697.10437pt>
-File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 2/Chapitre 2-c
+(chp5_format-Rmd_bib.fff) [7] [8] [9]
+Underfull \vbox (badness 5592) has occurred while \output is active []
+
+[10]
+Underfull \vbox (badness 1910) has occurred while \output is active []
+
+[11] [12]
+Underfull \vbox (badness 3514) has occurred while \output is active []
+
+[13]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Chapitre 5-couver
+ture.png, id=148, 1098.35344pt x 1149.5447pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Chapitre 5-c
 ouverture.png Graphic file (type png)
-<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 2/Chapitre 2-co
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Chapitre 5-co
 uverture.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
-itre 2/Chapitre 2-couverture.png  used on input line 5.
-(pdftex.def)             Requested size: 464.31523pt x 292.6861pt.
-<C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/Figur
-es/Figure 1/Figure1.png, id=148, 722.7pt x 421.575pt>
-File: C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/
-Figures/Figure 1/Figure1.png Graphic file (type png)
-<use C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/F
-igures/Figure 1/Figure1.png>
-Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/studentback
-up/scripts outputs/Figures/Figure 1/Figure1.png  used on input line 15.
-(pdftex.def)             Requested size: 469.76045pt x 274.02693pt.
-<C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/Figur
-es/Figure 2/Figure 2.png, id=149, 277.035pt x 300.62312pt>
-File: C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/
-Figures/Figure 2/Figure 2.png Graphic file (type png)
-<use C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/F
-igures/Figure 2/Figure 2.png>
-Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/studentback
-up/scripts outputs/Figures/Figure 2/Figure 2.png  used on input line 25.
-(pdftex.def)             Requested size: 277.05968pt x 300.64989pt.
-<C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/Figur
-es/Figure 3/Figure 3.png, id=150, 296.10625pt x 316.68312pt>
-File: C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/
-Figures/Figure 3/Figure 3.png Graphic file (type png)
-<use C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/F
-igures/Figure 3/Figure 3.png>
-Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/studentback
-up/scripts outputs/Figures/Figure 3/Figure 3.png  used on input line 35.
-(pdftex.def)             Requested size: 296.1281pt x 316.7065pt.
-) [17
+itre 5/Chapitre 5-couverture.png  used on input line 215.
+(pdftex.def)             Requested size: 435.0264pt x 455.30179pt.
+[14 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Chapitre 5-co
+uverture.png>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+22.
+(c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \vbox (badness 7649) has occurred while \output is active []
+
+[15] [16] [17] [18]
+Underfull \vbox (badness 7649) has occurred while \output is active []
+
+[19]
+Underfull \vbox (badness 7649) has occurred while \output is active []
+
+[20] [21] [22] [23] [24]
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+[25] [26] AED endfloat: Processing end Figures and Tables [27] (./chp5_format-R
+md_bib.fff
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/Fig1
+.png, id=261, 361.35pt x 361.35pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration
+/Fig1.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/
+Fig1.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 5/Illustration/Fig1.png  used on input line 5.
+(pdftex.def)             Requested size: 187.89757pt x 187.89757pt.
+<chp5_format-Rmd_bib_files/figure-latex/equiv1-1.pdf, id=262, 469.755pt x 325.2
+15pt>
+File: chp5_format-Rmd_bib_files/figure-latex/equiv1-1.pdf Graphic file (type pd
+f)
+<use chp5_format-Rmd_bib_files/figure-latex/equiv1-1.pdf>
+Package pdftex.def Info: chp5_format-Rmd_bib_files/figure-latex/equiv1-1.pdf  u
+sed on input line 15.
+(pdftex.def)             Requested size: 375.80452pt x 260.17235pt.
+<chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV1-1.pdf, id=263, 469.755pt x 32
+5.215pt>
+File: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV1-1.pdf Graphic file (type
+ pdf)
+<use chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV1-1.pdf>
+Package pdftex.def Info: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV1-1.pdf
+  used on input line 25.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV2-1.pdf, id=264, 469.755pt x 32
+5.215pt>
+File: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV2-1.pdf Graphic file (type
+ pdf)
+<use chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV2-1.pdf>
+Package pdftex.def Info: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV2-1.pdf
+  used on input line 35.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV3-1.pdf, id=265, 469.755pt x 32
+5.215pt>
+File: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV3-1.pdf Graphic file (type
+ pdf)
+<use chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV3-1.pdf>
+Package pdftex.def Info: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV3-1.pdf
+  used on input line 45.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV4-1.pdf, id=266, 469.755pt x 32
+5.215pt>
+File: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV4-1.pdf Graphic file (type
+ pdf)
+<use chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV4-1.pdf>
+Package pdftex.def Info: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV4-1.pdf
+  used on input line 55.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV5-1.pdf, id=267, 469.755pt x 32
+5.215pt>
+File: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV5-1.pdf Graphic file (type
+ pdf)
+<use chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV5-1.pdf>
+Package pdftex.def Info: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV5-1.pdf
+  used on input line 65.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV6-1.pdf, id=269, 469.755pt x 32
+5.215pt>
+File: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV6-1.pdf Graphic file (type
+ pdf)
+<use chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV6-1.pdf>
+Package pdftex.def Info: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV6-1.pdf
+  used on input line 75.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV7-1.pdf, id=270, 469.755pt x 32
+5.215pt>
+File: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV7-1.pdf Graphic file (type
+ pdf)
+<use chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV7-1.pdf>
+Package pdftex.def Info: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV7-1.pdf
+  used on input line 85.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV8-1.pdf, id=272, 469.755pt x 32
+5.215pt>
+File: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV8-1.pdf Graphic file (type
+ pdf)
+<use chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV8-1.pdf>
+Package pdftex.def Info: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV8-1.pdf
+  used on input line 95.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV9-1.pdf, id=273, 469.755pt x 32
+5.215pt>
+File: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV9-1.pdf Graphic file (type
+ pdf)
+<use chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV9-1.pdf>
+Package pdftex.def Info: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV9-1.pdf
+  used on input line 105.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV10-1.pdf, id=275, 469.755pt x 3
+25.215pt>
+File: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV10-1.pdf Graphic file (typ
+e pdf)
+<use chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV10-1.pdf>
+Package pdftex.def Info: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV10-1.pd
+f  used on input line 115.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV11-1.pdf, id=277, 469.755pt x 3
+25.215pt>
+File: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV11-1.pdf Graphic file (typ
+e pdf)
+<use chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV11-1.pdf>
+Package pdftex.def Info: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV11-1.pd
+f  used on input line 125.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV12-1.pdf, id=278, 469.755pt x 3
+25.215pt>
+File: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV12-1.pdf Graphic file (typ
+e pdf)
+<use chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV12-1.pdf>
+Package pdftex.def Info: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV12-1.pd
+f  used on input line 135.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV13-1.pdf, id=279, 469.755pt x 3
+25.215pt>
+File: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV13-1.pdf Graphic file (typ
+e pdf)
+<use chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV13-1.pdf>
+Package pdftex.def Info: chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV13-1.pd
+f  used on input line 145.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+) [28
 
 
- <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 2/Chapitre 2-couve
-rture.png>] [18 <c:/Users/mdelacre/Documents/Github project/studentbackup/scrip
-ts outputs/Figures/Figure 1/Figure1.png>] [19 <c:/Users/mdelacre/Documents/Gith
-ub project/studentbackup/scripts outputs/Figures/Figure 2/Figure 2.PNG>] [20 <c
-:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/Figures
-/Figure 3/Figure 3.PNG>] (./chp2_format-Rmd.aux)
-Package rerunfilecheck Info: File `chp2_format-Rmd.out' has not changed.
-(rerunfilecheck)             Checksum: 3A025307BBBAE7887FF4B67436384E78;2178.
+ <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/Fig
+1.png>] [29 <./chp5_format-Rmd_bib_files/figure-latex/equiv1-1.pdf>] [30 <./chp
+5_format-Rmd_bib_files/figure-latex/TOSTSGPV1-1.pdf>] [31 <./chp5_format-Rmd_bi
+b_files/figure-latex/TOSTSGPV2-1.pdf>] [32 <./chp5_format-Rmd_bib_files/figure-
+latex/TOSTSGPV3-1.pdf>] [33 <./chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV4
+-1.pdf>] [34 <./chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV5-1.pdf>] [35 <.
+/chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV6-1.pdf>] [36 <./chp5_format-Rm
+d_bib_files/figure-latex/TOSTSGPV7-1.pdf>] [37 <./chp5_format-Rmd_bib_files/fig
+ure-latex/TOSTSGPV8-1.pdf>] [38 <./chp5_format-Rmd_bib_files/figure-latex/TOSTS
+GPV9-1.pdf>] [39 <./chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV10-1.pdf>] [
+40 <./chp5_format-Rmd_bib_files/figure-latex/TOSTSGPV11-1.pdf>] [41 <./chp5_for
+mat-Rmd_bib_files/figure-latex/TOSTSGPV12-1.pdf>] [42 <./chp5_format-Rmd_bib_fi
+les/figure-latex/TOSTSGPV13-1.pdf>] (./chp5_format-Rmd_bib.aux)
+Package rerunfilecheck Info: File `chp5_format-Rmd_bib.out' has not changed.
+(rerunfilecheck)             Checksum: 0553453968DEE17470EE4D9B105D03FF;1840.
  ) 
 Here is how much of TeX's memory you used:
- 14750 strings out of 480559
- 230704 string characters out of 5901528
- 558490 words of memory out of 5000000
- 32024 multiletter control sequences out of 15000+600000
- 514184 words of font info for 115 fonts, out of 8000000 for 9000
+ 14954 strings out of 480559
+ 238867 string characters out of 5901528
+ 561211 words of memory out of 5000000
+ 32161 multiletter control sequences out of 15000+600000
+ 512519 words of font info for 101 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,12n,80p,2254b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,12n,80p,3256b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-m
 athsy.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips
-/lm/lm-mathex.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/e
-nc/dvips/lm/lm-mathit.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist
-/fonts/enc/dvips/lm/lm-ec.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-
-dist/fonts/enc/dvips/lm/lm-rm.enc}<c:/Users/mdelacre/AppData/Roaming/TinyTeX/te
-xmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/Users/mdelacre/AppData/Roaming/Ti
-nyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/mdelacre/AppData/Ro
-aming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/Users/mdelacre/A
-ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/Users/md
-elacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/
-Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.
-pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm
-/lmmi7.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pu
-blic/lm/lmmi8.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
-ype1/public/lm/lmmib10.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dis
-t/fonts/type1/public/lm/lmr10.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/te
-xmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/mdelacre/AppData/Roaming/Tin
-yTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/mdelacre/AppData/Roami
-ng/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/mdelacre/AppData
-/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/mdelacre/A
-ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/md
-elacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/
-Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.p
-fb>
-Output written on chp2_format-Rmd.pdf (20 pages, 900132 bytes).
+/lm/lm-mathit.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/e
+nc/dvips/lm/lm-rm.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fon
+ts/enc/dvips/lm/lm-ec.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist
+/fonts/enc/dvips/lm/lm-ts1.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf
+-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/Users/mdelacre/AppData/Roaming/TinyT
+eX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/mdelacre/AppData/Roami
+ng/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/Users/mdelacre/AppD
+ata/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/Users/mdela
+cre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/Use
+rs/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb
+><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lm
+mi6.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publi
+c/lm/lmmi7.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type
+1/public/lm/lmmi8.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fon
+ts/type1/public/lm/lmr10.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-d
+ist/fonts/type1/public/lm/lmr12.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/
+texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/mdelacre/AppData/Roaming/Ti
+nyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/mdelacre/AppData/Roam
+ing/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/mdelacre/AppDat
+a/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/mdelacr
+e/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/Users/
+mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c
+:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6
+.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/l
+m/lmsy8.pfb>
+Output written on chp5_format-Rmd_bib.pdf (42 pages, 1006555 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 546 PDF objects out of 1000 (max. 8388607)
+ 419 compressed objects within 5 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 
