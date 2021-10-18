@@ -1,0 +1,300 @@
+\clearpage
+
+
+
+\begin{appendix}
+\hypertarget{erratum}{%
+\section{Erratum}\label{erratum}}
+
+\hypertarget{why-psychologists-should-by-default-use-welchs-t-test-instead-of-students-t-test-chapitre-2}{%
+\subsection{\texorpdfstring{``Why psychologists Should by Default Use
+Welch's \emph{t}-test Instead of Student's \emph{t}-test'' (Chapitre
+2)}{``Why psychologists Should by Default Use Welch's t-test Instead of Student's t-test'' (Chapitre 2)}}\label{why-psychologists-should-by-default-use-welchs-t-test-instead-of-students-t-test-chapitre-2}}
+
+\hypertarget{erreurs-conceptuelles}{%
+\subsubsection{Erreurs conceptuelles}\label{erreurs-conceptuelles}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  \textbf{p.10}: \emph{``the \(F\)-ratio statistic is obtained by
+  computing SD2/SD1 (standard deviation ratio, SDR)''} :\\
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  D'abord, le ratio entre les 2 Ã©cart-types d'Ã©chantillons ne
+  correspond pas au SDR, mais Ã~ l'\textbf{estimation} du SDR (SDR =
+  \(\frac{\sigma_2}{\sigma_1}\)).\\
+\item
+  Ensuite, ce n'est pas nÃ©cessairement le deuxiÃ¨me Ã©cart-type
+  d'Ã©chantillon qui se trouve au numÃ©rateur, mais le plus grand des
+  deux Ã©chantillons (si bien que le \(F\)-ratio est toujours supÃ©rieur
+  Ã~ 1).
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{1}
+\item
+  \color{black}\textbf{p.10}: ``When SDR = 1, the equal variances
+  assumption is true, when SDR \textgreater{} 1 the standard deviation
+  of the second \sout{sample} \color{blue} population \color{black} is
+  bigger than the standard deviation of the first \sout{sample}
+  \color{blue} population \color{black}, and when SDR \textless{} 1 the
+  standard deviation of the second \sout{sample} \color{blue}population
+  \color{black} is smaller than the standard deviation of the first
+  \sout{sample} \color{blue} population''. \color{black}
+\item
+  \textbf{p.14} (partie ``simulations'') : \emph{``As long as the
+  variances are equal between \sout{groups} \color{blue} populations
+  \color{black} or sample sizes are equal, the distribution of
+  Studentâ€™s \(p\)-values is uniform\ldots{}''}.
+\item
+  \textbf{p.14} (partie ``simulations'') :\emph{``Differences are small,
+  except in three scenarios (See table A5.2, A5.5 , and A5.6 in the
+  additionnal file)}
+\item
+  \textbf{Test de Yuen}: nous sous-entendons Ã~ plusieurs reprises que
+  le test de Yuen a un taux inacceptable d'erreur de type I lorsque les
+  distributions de population sont asymÃ©triques. Il s'agit d'une erreur
+  conceptuelle qui a Ã©tÃ© expliquÃ©e dans les limites de la thÃ¨se.
+\end{enumerate}
+
+\hypertarget{ambiguuxe3tuxe3s-possibles}{%
+\subsubsection{AmbiguÃ¯tÃ©s
+possibles}\label{ambiguuxe3tuxe3s-possibles}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\item
+  \textbf{p.12} : \emph{``When both variances and sample sizes are the
+  same in each independent group, the \(t\)-values, degrees of freedom,
+  and the \(p\)-values in Student's \(t\)-test and Welch's \(t\)-test
+  are the same (see Table 1).''} Cette phrase peut donner l'impression
+  que les deux statistiques mentionnÃ©es, ainsi que les degrÃ©s de
+  libertÃ© et \(p\)-valeurs qui leur sont associÃ©s sont identiques
+  lorsqu'on travaille avec des Ã©chantillons de tailles identiques et
+  que la condition d'homogÃ©nÃ©itÃ© des variances est respectÃ©e, ou
+  autrement dit, lorsque les variances de population ainsi que les
+  tailles d'Ã©chantillon sont identiques, or, ce n'est nullement vrai.
+  Pour calculer les statistiques \(t\) de Student et \(t\) de Welch
+  ainsi que leurs degrÃ©s de libertÃ©, on utilise les \emph{estimations}
+  des variances de chaque groupe, et non les variances de population.
+  C'est donc chaque fois que l'on obtiendra des \emph{estimations}
+  identiques pour les variances de chaque groupe, sur base
+  d'Ã©chantillons de taille Ã©gale, que les statistiques, leur degrÃ© de
+  libertÃ© et leur \(p\)-valeur seront identiques. Or, ceci n'est pas
+  une information trÃ¨s pertinente en soi, puisqu'il arrive trÃ¨s
+  frÃ©quemment d'obtenir des estimations de variance diffÃ©rentes pour
+  chaque groupe lorsque la condition d'homogÃ©nÃ©itÃ© des variances est
+  respectÃ©e, et qu'Ã~ l'inverse, il est possible (bien que peu
+  probable) d'obtenir des estimations de variance identiques pour chaque
+  groupe lorsque la condition d'homogÃ©nÃ©itÃ© des variances n'est pas
+  respectÃ©e.
+\item
+  \textbf{p.16} (Ã~ propos du test de Levene) : \emph{``Because the
+  statistical power for this test is often low, researchers will
+  inappropriately choose Student's \(t\)-test instead of more robust
+  alternatives.''} Cette phrase peut amener Ã~ comprendre que si le test
+  de Levene Ã©tait toujours trÃ¨s puissant, il serait appropriÃ© de
+  l'utiliser en vue de choisir entre les tests \(t\) de Student et \(t\)
+  de Welch. Pourtant, privilÃ©gier le test \(t\) de Student lorsque l'on
+  ne peut rejeter l'hypothÃ¨se d'Ã©galitÃ© des variances (autrement dit,
+  lorsque les rÃ©sultats du test de Levene sont non significatifs)
+  reviendrait Ã~ confondre le non-rejet de l'hypothÃ¨se d'Ã©galitÃ© des
+  variances avec l'acceptation de l'hypothÃ¨se d'Ã©galitÃ© des
+  variances. Au sein du chapitre 5 dÃ©diÃ© aux tests d'Ã©quivalence,
+  nous avons montrÃ© que mÃªme lorsqu'on s'assure d'avoir une puissance
+  suffisante pour dÃ©tecter un effet de taille donnÃ©e, la stratÃ©gie
+  qui consiste Ã~ interprÃ©ter le non-rejet de l'hypothÃ¨se nulle comme
+  un soutien en faveur de l'hypothÃ¨se nulle n'est pas appropriÃ©e.
+\end{enumerate}
+
+\hypertarget{mise-en-forme-et-notations}{%
+\subsubsection{Mise en forme et
+Notations}\label{mise-en-forme-et-notations}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\item
+  Les lettres utilisÃ©es pour dÃ©crire les statistiques (\(t\) ou \(F\),
+  par exemple) doivent toujours Ãªtre inscrites en \emph{italique}. Or,
+  cela a Ã©tÃ© omis Ã~ plusieurs reprises dans l'article. Par exemple,
+  il aurait fallu Ã©crire :\\
+  \textbf{- p.10} : ``\ldots{} as the Mann-Whitney \color{blue}\(U\)
+  \color{black}-test\ldots{}'';\\
+  \textbf{- p.10} : ``\color{blue}\(F\) \color{black}-ratio test''.
+\item
+  Certaines notations mathÃ©matiques auraient Ã©galement dÃ» Ãªtre
+  indiquÃ©es en italique. Par exemple, Ã~ la p.10, il aurait fallu
+  Ã©crire :\\
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  ``\(x_{ij}\)'' au lieu de ``\(\mathrm{x_{ij}}\)'';\\
+\item
+  \textbar{}\(x_{ij}-\hat{\theta_j}\)\textbar{} au lieu de
+  \textbar{}\(\mathrm{x_{ij}-\hat{\theta_j}}\)\textbar.
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Il est trÃ¨s important d'Ãªtre consistant dans le choix des notations
+  mathÃ©matiques, pour Ã©viter toute confusion pour le lecteur. Or, nous
+  ne l'avons pas toujours Ã©tÃ©. Par exemple, nous avons utilisÃ©
+  plusieurs notations diffÃ©rentes pour dÃ©crire l'Ã©cart-type et la
+  variance :\\
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  p.10 : nous utilisons respectivement SD1 et SD2 pour dÃ©crire
+  l'Ã©cart-type de chaque groupe;\\
+\item
+  p.12 (Ã©quation 1) : nous utilisons respectivement \(S^2_1\) et
+  \(S^2_2\) pour dÃ©crire la variance de chaque groupe, alors que nous
+  utilisons \(s^2_1\) et \(s^2_2\) (lettres minuscules) dans la lÃ©gende
+  de cette formule;\\
+\item
+  p.13 (Ã©quations 3 et 4) : nous utilisons respectivement \(s^2_1\) et
+  \(s^2_2\) (lettres minuscules) pour dÃ©crire la variance de chaque
+  groupe.
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  On parle normalement d'erreur de type I et II (et non d'erreur de type
+  1 et 2): or dans tout l'article du chapitre 2, j'ai parlÃ© des erreurs
+  de type 1 et 2. Par exemple, p.13: \emph{``An increase in the Type 1
+  error rate leads to an inflation of\ldots{} while an increase in the
+  Type 2 error rate\ldots{}''}
+\end{enumerate}
+
+\hypertarget{fautes-de-frappe}{%
+\subsubsection{Faute(s) de frappe}\label{fautes-de-frappe}}
+
+\begin{itemize}
+\tightlist
+\item
+  p.13 : ``see \sout{v} \textbf{Figure} 2a''.
+\item
+  p.15 : ``\(p\)-values from Welch's \sout{\(t\)-test} and Student's
+  \(t\)-tests, shown separately\ldots{}''
+\item
+  p.16 : Note 4 : ``other variants have been proposed such as the
+  \textbf{20\%} trimmed mean''
+\end{itemize}
+
+\hypertarget{bibliographie}{%
+\subsubsection{Bibliographie}\label{bibliographie}}
+
+RÃ©fÃ©rence manquante: Bradley (1978).
+
+\newpage
+
+\hypertarget{annexe-b-erratum-de-larticle-taking-parametric-assumptions-very-seriously-arguments-for-the-use-of-welchuxe2s-f-test-instead-of-the-classical-f-test-in-one-way-anova-chapitre-3}{%
+\subsection{\texorpdfstring{Annexe B: erratum de l'article ``Taking
+parametric assumptions very seriously : Arguments for the Use of
+Welchâ€™s \emph{F}-test instead of the Classical \emph{F}-test in
+One-Way ANOVA'' (Chapitre
+3)}{Annexe B: erratum de l'article ``Taking parametric assumptions very seriously : Arguments for the Use of Welchâ€™s F-test instead of the Classical F-test in One-Way ANOVA'' (Chapitre 3)}}\label{annexe-b-erratum-de-larticle-taking-parametric-assumptions-very-seriously-arguments-for-the-use-of-welchuxe2s-f-test-instead-of-the-classical-f-test-in-one-way-anova-chapitre-3}}
+
+\hypertarget{erreur-conceptuelle}{%
+\subsubsection{Erreur conceptuelle}\label{erreur-conceptuelle}}
+
+\textbf{p.22} : \sout{Formula (7)} \color{blue}Equation 7 \color{black}
+provides the computation of the \sout{W-test, or Welchâ€™s F-test}
+\color{blue}Welchâ€™s statistic (\(W\)) \color{black} \textbf{p.22} : In
+the numerator of the \sout{W-test} \color{blue}\(W\)
+statistic,\color{black} the squared deviation between group mean
+
+\hypertarget{mise-en-forme-et-notations-1}{%
+\subsubsection{Mise en forme et
+Notations}\label{mise-en-forme-et-notations-1}}
+
+Une lÃ©gende est manquante pour certaines notations mathÃ©matiques. Par
+exemple, en ce qui concerne l'Ã©quation (1), bien que \(n_j\), \(k\) et
+\(s^2_j\) aient Ã©tÃ© correctement dÃ©finis, les dÃ©finitions pour
+\(\bar{x_j}\), \(\bar{x_{..}}\) et \(N\) ne sont donnÃ©es que plus tard,
+en rÃ©fÃ©rence Ã~ d'autres Ã©quations. Cela peut rendre la lecture de
+l'article plus compliquÃ©e pour certaines personnes non familiÃ¨res avec
+ces notations.
+
+Par ailleurs, comme dans l'article prÃ©cÃ©dent sur le test \(t\) de
+Welch, on constate certaines incohÃ©rences en termes de notation. Par
+exemple, si la moyenne de chaque groupe est dÃ©finie par \(\bar{x_j}\)
+dans l'Ã©quation (1), elle est dÃ©finie par \(\bar{X_j}\) dans
+l'Ã©quation (7).
+
+On a Ã©galement omis d'italiser certaines lettres statistiques (comme
+dans les Figures par exemple).
+
+\textbf{p.21} :
+\sout{(\(SD_{spanish}=.80 > SD_{english}=.50\)\color{blue})}
+(\(S_{spanish}=.80 > S_{english}=.50\)\color{blue}, with S = sample
+standard deviation) {[}\ldots{]} \color{black}For men, the reverse was
+true \sout{(\(SD_{spanish}=.97 < SD_{english}=1.33\))}
+(\(S_{spanish}=.97 < S_{english}=1.33\))
+
+Enfin, dÃ» Ã~ un manque de connaissance de Latex lors de mes premiÃ¨res
+tentatives d'Ã©critures d'articles via Rmarkdown, certaines majuscules
+sont manquantes dans les rÃ©fÃ©rences bibliographiques.
+
+\hypertarget{fautes-de-frappe-et-grammaire-et-autres}{%
+\subsubsection{Faute(s) de frappe et grammaire et
+autres}\label{fautes-de-frappe-et-grammaire-et-autres}}
+
+p?? : ``which can lead\sout{s} to asymmetry in the distribution'' p?? :
+In Figure\textbf{s} 5 to 9 (see Figure 4 for the legend)
+
+\begin{itemize}
+\tightlist
+\item
+  p.18 : ``Although it is important to make sure \sout{test}
+  \textbf{that} assumptions are met'';\\
+\item
+  p.19 : ``\ldots{} we think that a \sout{first} realistic first step
+  towards progress would be to get researchers\ldots{}'';\\
+\item
+  p.20 : ``Based on mathematical explanations and Monte\sout{o} Carlo
+  simulations'';\\
+\item
+  p.21 : ``\sout{With} \textbf{w}ith \(N=\)\ldots{}'';\\
+\item
+  p.21 : ``\sout{Where} \textbf{w}here \sout{\(x_j\)} \(\bar{x_j}\) and
+  \(s^2_j\) are respectively the group mean and the group
+  variance\ldots{}'';\\
+\item
+  p.22 : ``\ldots{} negative pairings (the group with the
+  \sout{smallest} \textbf{largest} sample size is extracted from the
+  population with the smallest \(SD\));\\
+\item
+  p.22 : ``the type I error rate of all test\textbf{s}'';
+\item
+  p.22 : '' In the \sout{appendix} Supplemental Material we illustrate
+  the calculation of all three statistics in detail for a fictional
+  three-group design for educational purposes.''
+\item
+  p.23 : ``When there are more than \sout{three} \color{blue}two
+  \color{black}groups
+\item
+  p.24 : ``\ldots{} which is either more liberal or more conservative,
+  depending on the \(SDs\) and \sout{\(SD\)} \textbf{sample sizes}
+  pairing'';\\
+\item
+  p.24 : ``\ldots{} \sout{whatever} the correlation between the \(SD\)
+  and the mean \textbf{does not matter}'';
+\end{itemize}
+\end{appendix}
