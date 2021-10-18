@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.18)  18 OCT 2021 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.18)  18 OCT 2021 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -786,14 +786,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 616.
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 2/Chapitre 2-couver
-ture.png, id=117, 1105.88156pt x 697.10437pt>
+ture.png, id=117, 745.78625pt x 466.24188pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 2/Chapitre 2-c
 ouverture.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 2/Chapitre 2-co
 uverture.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
 itre 2/Chapitre 2-couverture.png  used on input line 618.
-(pdftex.def)             Requested size: 486.2519pt x 306.51413pt.
+(pdftex.def)             Requested size: 486.25746pt x 303.9927pt.
 [9 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 2/Chapitre 2-cou
 verture.png>]
 \openout3 = `template.ent'.
@@ -806,17 +806,17 @@ Figures/Figure 1/Figure1.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/F
 igures/Figure 1/Figure1.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/studentback
-up/scripts outputs/Figures/Figure 1/Figure1.png  used on input line 805.
+up/scripts outputs/Figures/Figure 1/Figure1.png  used on input line 804.
 (pdftex.def)             Requested size: 486.2576pt x 283.65025pt.
 [13pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.833 
+l.830 
        <c:/Users/mdelacre/Documents/Github project/studentbackup/scripts output
 s/Figures/Figure 1/Figure1.png>] [14] [15] [16]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 980.
+(Font)              <14.4> on input line 978.
 [17] [18]
 <C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/Figur
 es/Figure 2/Figure 2.png, id=181, 277.035pt x 300.62312pt>
@@ -825,13 +825,13 @@ Figures/Figure 2/Figure 2.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/F
 igures/Figure 2/Figure 2.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/studentback
-up/scripts outputs/Figures/Figure 2/Figure 2.png  used on input line 1093.
+up/scripts outputs/Figures/Figure 2/Figure 2.png  used on input line 1094.
 (pdftex.def)             Requested size: 277.05968pt x 300.64989pt.
 [19] [20pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1118 
+l.1119 
         <c:/Users/mdelacre/Documents/Github project/studentbackup/scripts outpu
 ts/Figures/Figure 2/Figure 2.PNG>]
 <C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/Figur
@@ -841,189 +841,189 @@ Figures/Figure 3/Figure 3.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/studentbackup/scripts outputs/F
 igures/Figure 3/Figure 3.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/studentback
-up/scripts outputs/Figures/Figure 3/Figure 3.png  used on input line 1149.
+up/scripts outputs/Figures/Figure 3/Figure 3.png  used on input line 1150.
 (pdftex.def)             Requested size: 296.1281pt x 316.7065pt.
 [21] [22pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1171 
+l.1182 
         <c:/Users/mdelacre/Documents/Github project/studentbackup/scripts outpu
-ts/Figures/Figure 3/Figure 3.PNG>] [23] [24] (./template.ent) [25]
+ts/Figures/Figure 3/Figure 3.PNG>] [23] (./template.ent) [24]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 3/Chapitre 3-couver
-ture.png, id=222, 745.28438pt x 570.63188pt>
+ture.png, id=218, 745.28438pt x 570.63188pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 3/Chapitre 3-c
 ouverture.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 3/Chapitre 3-co
 uverture.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
-itre 3/Chapitre 3-couverture.png  used on input line 1225.
+itre 3/Chapitre 3-couverture.png  used on input line 1226.
 (pdftex.def)             Requested size: 480.40338pt x 367.824pt.
-[26 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 3/Chapitre 3-co
-uverture.png>] [27] [28] [29]
+[25 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 3/Chapitre 3-co
+uverture.png>] [26] [27] [28]
 \openout3 = `template.ent'.
 
-[30] [31]
+[29] [30]
 
-LaTeX Warning: Reference `eq:Fstat' on page 32 undefined on input line 1504.
+LaTeX Warning: Reference `eq:Fstat' on page 31 undefined on input line 1505.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1501--1506
+Underfull \hbox (badness 10000) in paragraph at lines 1502--1507
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1510--1516
 
  []
 
+[31]
 
-Underfull \hbox (badness 10000) in paragraph at lines 1509--1515
+LaTeX Warning: Reference `eq:Fstat' on page 32 undefined on input line 1528.
 
- []
+
+LaTeX Warning: Reference `eq:Fstat' on page 32 undefined on input line 1532.
+
+
+LaTeX Warning: Reference `eq:BFstat' on page 32 undefined on input line 1541.
 
 [32]
 
-LaTeX Warning: Reference `eq:Fstat' on page 33 undefined on input line 1527.
+LaTeX Warning: Reference `eq:Wstat' on page 33 undefined on input line 1563.
 
-
-LaTeX Warning: Reference `eq:Fstat' on page 33 undefined on input line 1531.
-
-
-LaTeX Warning: Reference `eq:BFstat' on page 33 undefined on input line 1540.
-
-[33]
-
-LaTeX Warning: Reference `eq:Wstat' on page 34 undefined on input line 1562.
-
-[34] [35]
+[33] [34]
 <C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
-inputs/legend.png, id=293, 441.90094pt x 300.3722pt>
+inputs/legend.png, id=289, 441.90094pt x 300.3722pt>
 File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
 down inputs/legend.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
 own inputs/legend.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
-rkdown folder/Rmarkdown inputs/legend.png  used on input line 1698.
+rkdown folder/Rmarkdown inputs/legend.png  used on input line 1699.
 (pdftex.def)             Requested size: 401.52362pt x 272.9266pt.
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 1720--1722
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 1721--1723
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1722--1724
+Underfull \hbox (badness 10000) in paragraph at lines 1723--1725
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1724--1726
+Underfull \hbox (badness 10000) in paragraph at lines 1725--1727
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1726--1729
+Underfull \hbox (badness 10000) in paragraph at lines 1727--1730
 
  []
 
-[37pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+[36pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1743 
+l.1744 
         <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rm
-arkdown inputs/Legend.png>] [38]
+arkdown inputs/Legend.png>] [37]
 <C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
-inputs/Fig1A.png, id=318, 481.8pt x 409.53pt>
+inputs/Fig1A.png, id=313, 481.8pt x 409.53pt>
 File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
 down inputs/Fig1A.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
 own inputs/Fig1A.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
-rkdown folder/Rmarkdown inputs/Fig1A.png  used on input line 1749.
+rkdown folder/Rmarkdown inputs/Fig1A.png  used on input line 1750.
 (pdftex.def)             Requested size: 481.82822pt x 409.55399pt.
-[39pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+[38pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1756 \end{landscape}
+l.1757 \end{landscape}
                        <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmar
 kdown folder/Rmarkdown inputs/Fig1A.png>]
 <C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
-inputs/Fig1B.png, id=324, 481.8pt x 409.53pt>
+inputs/Fig1B.png, id=320, 481.8pt x 409.53pt>
 File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
 down inputs/Fig1B.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
 own inputs/Fig1B.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
-rkdown folder/Rmarkdown inputs/Fig1B.png  used on input line 1762.
+rkdown folder/Rmarkdown inputs/Fig1B.png  used on input line 1763.
 (pdftex.def)             Requested size: 481.82822pt x 409.55399pt.
-[40pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+[39pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1769 \end{landscape}
+l.1770 \end{landscape}
                        <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmar
 kdown folder/Rmarkdown inputs/Fig1B.png>]
 <C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
-inputs/Fig1C.png, id=331, 481.8pt x 409.53pt>
+inputs/Fig1C.png, id=327, 481.8pt x 409.53pt>
 File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
 down inputs/Fig1C.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
 own inputs/Fig1C.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
-rkdown folder/Rmarkdown inputs/Fig1C.png  used on input line 1775.
+rkdown folder/Rmarkdown inputs/Fig1C.png  used on input line 1776.
 (pdftex.def)             Requested size: 481.82822pt x 409.55399pt.
-[41pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
+[40pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1782 \end{landscape}
+l.1783 \end{landscape}
                        <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmar
 kdown folder/Rmarkdown inputs/Fig1C.png>]
 <C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
-inputs/Fig1D.png, id=338, 481.8pt x 409.53pt>
+inputs/Fig1D.png, id=334, 481.8pt x 409.53pt>
 File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
 down inputs/Fig1D.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
 own inputs/Fig1D.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
-rkdown folder/Rmarkdown inputs/Fig1D.png  used on input line 1788.
+rkdown folder/Rmarkdown inputs/Fig1D.png  used on input line 1789.
 (pdftex.def)             Requested size: 481.82822pt x 409.55399pt.
-[42pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+[41pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1795 \end{landscape}
+l.1796 \end{landscape}
                        <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmar
 kdown folder/Rmarkdown inputs/Fig1D.png>]
 <C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
-inputs/Fig1E.png, id=345, 481.8pt x 409.53pt>
+inputs/Fig1E.png, id=341, 481.8pt x 409.53pt>
 File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
 down inputs/Fig1E.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
 own inputs/Fig1E.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
-rkdown folder/Rmarkdown inputs/Fig1E.png  used on input line 1801.
+rkdown folder/Rmarkdown inputs/Fig1E.png  used on input line 1802.
 (pdftex.def)             Requested size: 481.82822pt x 409.55399pt.
-[43pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
+[42pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1808 \end{landscape}
+l.1809 \end{landscape}
                        <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmar
 kdown folder/Rmarkdown inputs/Fig1E.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1860
+Underfull \hbox (badness 10000) in paragraph at lines 1859--1861
 
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 1860--1866
+Underfull \hbox (badness 1014) in paragraph at lines 1861--1867
 []\T1/lmr/m/n/12 When variances are equal between groups and distributions are 
 not normal, the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1860--1866
+Underfull \hbox (badness 10000) in paragraph at lines 1861--1867
 
  []
 
-[44
+[43
 
 
 
@@ -1035,155 +1035,155 @@ Underfull \hbox (badness 10000) in paragraph at lines 1860--1866
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1866--1871
+Underfull \hbox (badness 10000) in paragraph at lines 1867--1872
 
  []
 
-[45]
+[44]
 <C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
-inputs/Fig2a.png, id=376, 481.8pt x 409.53pt>
+inputs/Fig2a.png, id=372, 481.8pt x 409.53pt>
 File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
 down inputs/Fig2a.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
 own inputs/Fig2a.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
-rkdown folder/Rmarkdown inputs/Fig2a.png  used on input line 1915.
+rkdown folder/Rmarkdown inputs/Fig2a.png  used on input line 1916.
 (pdftex.def)             Requested size: 481.82822pt x 409.55399pt.
-[46pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
+[45pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1922 \end{landscape}
+l.1923 \end{landscape}
                        <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmar
 kdown folder/Rmarkdown inputs/Fig2a.png>]
 <C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
-inputs/Fig2b.png, id=383, 481.8pt x 409.53pt>
+inputs/Fig2b.png, id=379, 481.8pt x 409.53pt>
 File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
 down inputs/Fig2b.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
 own inputs/Fig2b.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
-rkdown folder/Rmarkdown inputs/Fig2b.png  used on input line 1928.
+rkdown folder/Rmarkdown inputs/Fig2b.png  used on input line 1929.
 (pdftex.def)             Requested size: 481.82822pt x 409.55399pt.
-[47pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
+[46pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1935 \end{landscape}
+l.1936 \end{landscape}
                        <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmar
 kdown folder/Rmarkdown inputs/Fig2b.png>]
 <C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
-inputs/Fig2c.png, id=390, 481.8pt x 409.53pt>
+inputs/Fig2c.png, id=386, 481.8pt x 409.53pt>
 File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
 down inputs/Fig2c.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
 own inputs/Fig2c.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
-rkdown folder/Rmarkdown inputs/Fig2c.png  used on input line 1941.
+rkdown folder/Rmarkdown inputs/Fig2c.png  used on input line 1942.
 (pdftex.def)             Requested size: 481.82822pt x 409.55399pt.
-[48pdfTeX warning (ext4): destination with the same identifier (name{figure.12}
+[47pdfTeX warning (ext4): destination with the same identifier (name{figure.12}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1948 \end{landscape}
+l.1949 \end{landscape}
                        <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmar
 kdown folder/Rmarkdown inputs/Fig2c.png>]
 <C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
-inputs/Fig2d.png, id=397, 481.8pt x 409.53pt>
+inputs/Fig2d.png, id=393, 481.8pt x 409.53pt>
 File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
 down inputs/Fig2d.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
 own inputs/Fig2d.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
-rkdown folder/Rmarkdown inputs/Fig2d.png  used on input line 1954.
+rkdown folder/Rmarkdown inputs/Fig2d.png  used on input line 1955.
 (pdftex.def)             Requested size: 481.82822pt x 409.55399pt.
-[49pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
+[48pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1961 \end{landscape}
+l.1962 \end{landscape}
                        <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmar
 kdown folder/Rmarkdown inputs/Fig2d.png>]
 <C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
-inputs/Fig2e.png, id=404, 481.8pt x 409.53pt>
+inputs/Fig2e.png, id=400, 481.8pt x 409.53pt>
 File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
 down inputs/Fig2e.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
 own inputs/Fig2e.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
-rkdown folder/Rmarkdown inputs/Fig2e.png  used on input line 1967.
+rkdown folder/Rmarkdown inputs/Fig2e.png  used on input line 1968.
 (pdftex.def)             Requested size: 481.82822pt x 409.55399pt.
-[50pdfTeX warning (ext4): destination with the same identifier (name{figure.14}
+[49pdfTeX warning (ext4): destination with the same identifier (name{figure.14}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1974 \end{landscape}
+l.1975 \end{landscape}
                        <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmar
 kdown folder/Rmarkdown inputs/Fig2e.png>]
 <C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
-inputs/Fig2f.png, id=412, 481.8pt x 409.53pt>
+inputs/Fig2f.png, id=407, 481.8pt x 409.53pt>
 File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
 down inputs/Fig2f.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
 own inputs/Fig2f.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
-rkdown folder/Rmarkdown inputs/Fig2f.png  used on input line 1980.
+rkdown folder/Rmarkdown inputs/Fig2f.png  used on input line 1981.
 (pdftex.def)             Requested size: 481.82822pt x 409.55399pt.
-[51pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
+[50pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1987 \end{landscape}
+l.1988 \end{landscape}
                        <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmar
 kdown folder/Rmarkdown inputs/Fig2f.png>]
 <C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
-inputs/Fig2g.png, id=419, 481.8pt x 409.53pt>
+inputs/Fig2g.png, id=415, 481.8pt x 409.53pt>
 File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
 down inputs/Fig2g.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
 own inputs/Fig2g.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
-rkdown folder/Rmarkdown inputs/Fig2g.png  used on input line 1993.
+rkdown folder/Rmarkdown inputs/Fig2g.png  used on input line 1994.
 (pdftex.def)             Requested size: 481.82822pt x 409.55399pt.
-[52pdfTeX warning (ext4): destination with the same identifier (name{figure.16}
+[51pdfTeX warning (ext4): destination with the same identifier (name{figure.16}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2000 \end{landscape}
+l.2001 \end{landscape}
                        <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmar
 kdown folder/Rmarkdown inputs/Fig2g.png>]
 <C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
-inputs/Fig2h.png, id=426, 481.8pt x 409.53pt>
+inputs/Fig2h.png, id=422, 481.8pt x 409.53pt>
 File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
 down inputs/Fig2h.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
 own inputs/Fig2h.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
-rkdown folder/Rmarkdown inputs/Fig2h.png  used on input line 2006.
+rkdown folder/Rmarkdown inputs/Fig2h.png  used on input line 2007.
 (pdftex.def)             Requested size: 481.82822pt x 409.55399pt.
-[53pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
+[52pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2013 \end{landscape}
+l.2014 \end{landscape}
                        <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmar
 kdown folder/Rmarkdown inputs/Fig2h.png>]
 <C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkdown 
-inputs/Fig2i.png, id=433, 481.8pt x 409.53pt>
+inputs/Fig2i.png, id=429, 481.8pt x 409.53pt>
 File: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmark
 down inputs/Fig2i.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmarkdown folder/Rmarkd
 own inputs/Fig2i.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/W-ANOVA/Rma
-rkdown folder/Rmarkdown inputs/Fig2i.png  used on input line 2019.
+rkdown folder/Rmarkdown inputs/Fig2i.png  used on input line 2020.
 (pdftex.def)             Requested size: 481.82822pt x 409.55399pt.
-[54pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
+[53pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2026 \end{landscape}
+l.2027 \end{landscape}
                        <c:/Users/mdelacre/Documents/Github project/W-ANOVA/Rmar
-kdown folder/Rmarkdown inputs/Fig2i.png>] [55
+kdown folder/Rmarkdown inputs/Fig2i.png>] [54
 
 
 
@@ -1202,70 +1202,70 @@ kdown folder/Rmarkdown inputs/Fig2i.png>] [55
 
 
 
-] [56] [57]
-<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/title.png, id=474
+] [55] [56]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/title.png, id=470
 , 367.3725pt x 173.14688pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/title.png Gr
 aphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/title.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
-itre 4/title.png  used on input line 2184.
+itre 4/title.png  used on input line 2185.
 (pdftex.def)             Requested size: 367.38278pt x 173.15173pt.
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/authornote.png, i
-d=475, 372.39125pt x 172.14313pt>
+d=471, 372.39125pt x 172.14313pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/authornote.p
 ng Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/authornote.pn
 g>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
-itre 4/authornote.png  used on input line 2186.
+itre 4/authornote.png  used on input line 2187.
 (pdftex.def)             Requested size: 372.39034pt x 172.14268pt.
-[58 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/title.png> <c
+[57 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/title.png> <c
 :/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/authornote.png>]
-Underfull \hbox (badness 2065) in paragraph at lines 2193--2200
+Underfull \hbox (badness 2065) in paragraph at lines 2194--2201
 \T1/lmr/m/n/12 Psychological Association (APA) and the American Educational Res
 earch Association
  []
 
-[59] [60]
-<template_files/figure-latex/BIAS-1.pdf, id=494, 1084.05pt x 578.16pt>
+[58] [59]
+<template_files/figure-latex/BIAS-1.pdf, id=490, 1084.05pt x 578.16pt>
 File: template_files/figure-latex/BIAS-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/BIAS-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/BIAS-1.pdf  used on input 
-line 2318.
+line 2319.
 (pdftex.def)             Requested size: 401.50575pt x 214.1364pt.
-[61] [62pdfTeX warning (ext4): destination with the same identifier (name{figur
+[60] [61pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.19}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2362 F
+l.2363 F
         inally, the last property of a good point estimator is <./template_file
-s/figure-latex/BIAS-1.pdf>] [63] [64] [65] [66
+s/figure-latex/BIAS-1.pdf>] [62] [63] [64] [65
+
+] [66
 
 ] [67
 
-] [68
-
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2693--2698
+Underfull \hbox (badness 10000) in paragraph at lines 2694--2699
 
  []
 
-[69
+[68
 
-] [70]
-Underfull \hbox (badness 10000) in paragraph at lines 2794--2800
+] [69]
+Underfull \hbox (badness 10000) in paragraph at lines 2795--2801
 
  []
 
-[71] [72] [73
+[70] [71] [72
 
-] [74
+] [73
 
-] [75] [76]
+] [74] [75]
 <C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Qualit
 y of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/H
-om_bal.png, id=636, 948.54375pt x 443.15562pt>
+om_bal.png, id=632, 948.54375pt x 443.15562pt>
 File: C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Q
 uality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qual
 ity/Hom_bal.png Graphic file (type png)
@@ -1274,11 +1274,11 @@ ality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quali
 ty/Hom_bal.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/Effect-size
 s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
-gures_relative quality/Hom_bal.png  used on input line 3061.
+gures_relative quality/Hom_bal.png  used on input line 3062.
 (pdftex.def)             Requested size: 486.25484pt x 227.1762pt.
 <C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Qualit
 y of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/H
-om_unbal.png, id=637, 949.5475pt x 442.65375pt>
+om_unbal.png, id=633, 949.5475pt x 442.65375pt>
 File: C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Q
 uality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qual
 ity/Hom_unbal.png Graphic file (type png)
@@ -1287,26 +1287,26 @@ ality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quali
 ty/Hom_unbal.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/Effect-size
 s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
-gures_relative quality/Hom_unbal.png  used on input line 3070.
+gures_relative quality/Hom_unbal.png  used on input line 3071.
 (pdftex.def)             Requested size: 486.26228pt x 226.68251pt.
-[77] [78pdfTeX warning (ext4): destination with the same identifier (name{figur
+[76] [77pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.20}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3087 \newpage
+l.3088 \newpage
                pdfTeX warning (ext4): destination with the same identifier (nam
 e{figure.21}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3087 \newpage
+l.3088 \newpage
                 <c:/Users/mdelacre/Documents/Github project/Effect-sizes/Script
 s outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_re
 lative quality/Hom_bal.png> <c:/Users/mdelacre/Documents/Github project/Effect-
 sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combine
-d Figures_relative quality/Hom_unbal.png>] [79]
+d Figures_relative quality/Hom_unbal.png>] [78]
 <C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Qualit
 y of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/H
-et_bal_N.png, id=663, 948.04187pt x 440.64626pt>
+et_bal_N.png, id=659, 948.04187pt x 440.64626pt>
 File: C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Q
 uality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qual
 ity/Het_bal_N.png Graphic file (type png)
@@ -1315,11 +1315,11 @@ ality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quali
 ty/Het_bal_N.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/Effect-size
 s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
-gures_relative quality/Het_bal_N.png  used on input line 3188.
+gures_relative quality/Het_bal_N.png  used on input line 3189.
 (pdftex.def)             Requested size: 486.25795pt x 226.01083pt.
 <C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Qualit
 y of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/H
-et_bal_sd.png, id=664, 950.04938pt x 442.65375pt>
+et_bal_sd.png, id=660, 950.04938pt x 442.65375pt>
 File: C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Q
 uality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qual
 ity/Het_bal_sd.png Graphic file (type png)
@@ -1328,18 +1328,18 @@ ality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quali
 ty/Het_bal_sd.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/Effect-size
 s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
-gures_relative quality/Het_bal_sd.png  used on input line 3197.
+gures_relative quality/Het_bal_sd.png  used on input line 3198.
 (pdftex.def)             Requested size: 486.25836pt x 226.56093pt.
-[80] [81pdfTeX warning (ext4): destination with the same identifier (name{figur
+[79] [80pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.22}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3203 \newpage
+l.3204 \newpage
                pdfTeX warning (ext4): destination with the same identifier (nam
 e{figure.23}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3203 \newpage
+l.3204 \newpage
                 <c:/Users/mdelacre/Documents/Github project/Effect-sizes/Script
 s outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_re
 lative quality/Het_bal_N.png> <c:/Users/mdelacre/Documents/Github project/Effec
@@ -1347,7 +1347,7 @@ t-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combi
 ned Figures_relative quality/Het_bal_sd.png>]
 <C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Qualit
 y of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/H
-et_firstlarger_SDR10.png, id=685, 947.54pt x 442.65375pt>
+et_firstlarger_SDR10.png, id=681, 947.54pt x 442.65375pt>
 File: C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Q
 uality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qual
 ity/Het_firstlarger_SDR10.png Graphic file (type png)
@@ -1356,11 +1356,11 @@ ality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quali
 ty/Het_firstlarger_SDR10.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/Effect-size
 s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
-gures_relative quality/Het_firstlarger_SDR10.png  used on input line 3235.
+gures_relative quality/Het_firstlarger_SDR10.png  used on input line 3236.
 (pdftex.def)             Requested size: 486.26079pt x 227.16206pt.
 <C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Qualit
 y of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/H
-et_firstsmaller_SDR10.png, id=686, 950.04938pt x 446.16687pt>
+et_firstsmaller_SDR10.png, id=682, 950.04938pt x 446.16687pt>
 File: C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Q
 uality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qual
 ity/Het_firstsmaller_SDR10.png Graphic file (type png)
@@ -1369,11 +1369,11 @@ ality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quali
 ty/Het_firstsmaller_SDR10.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/Effect-size
 s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
-gures_relative quality/Het_firstsmaller_SDR10.png  used on input line 3244.
+gures_relative quality/Het_firstsmaller_SDR10.png  used on input line 3245.
 (pdftex.def)             Requested size: 486.25836pt x 228.35904pt.
 <C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Qualit
 y of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/H
-et_firstlarger_SDR2.png, id=687, 949.5475pt x 442.15187pt>
+et_firstlarger_SDR2.png, id=683, 949.5475pt x 442.15187pt>
 File: C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Q
 uality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qual
 ity/Het_firstlarger_SDR2.png Graphic file (type png)
@@ -1382,11 +1382,11 @@ ality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quali
 ty/Het_firstlarger_SDR2.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/Effect-size
 s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
-gures_relative quality/Het_firstlarger_SDR2.png  used on input line 3253.
+gures_relative quality/Het_firstlarger_SDR2.png  used on input line 3254.
 (pdftex.def)             Requested size: 486.26228pt x 226.4255pt.
 <C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Qualit
 y of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/H
-et_firstsmaller_SDR2.png, id=688, 949.5475pt x 442.15187pt>
+et_firstsmaller_SDR2.png, id=684, 949.5475pt x 442.15187pt>
 File: C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Q
 uality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative qual
 ity/Het_firstsmaller_SDR2.png Graphic file (type png)
@@ -1395,313 +1395,313 @@ ality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quali
 ty/Het_firstsmaller_SDR2.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/Effect-size
 s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
-gures_relative quality/Het_firstsmaller_SDR2.png  used on input line 3262.
+gures_relative quality/Het_firstsmaller_SDR2.png  used on input line 3263.
 (pdftex.def)             Requested size: 486.26228pt x 226.4255pt.
-[82pdfTeX warning (ext4): destination with the same identifier (name{figure.24}
+[81pdfTeX warning (ext4): destination with the same identifier (name{figure.24}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3268 \newpage
+l.3269 \newpage
                 <c:/Users/mdelacre/Documents/Github project/Effect-sizes/Script
 s outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_re
-lative quality/Het_firstlarger_SDR10.png>] [83pdfTeX warning (ext4): destinatio
+lative quality/Het_firstlarger_SDR10.png>] [82pdfTeX warning (ext4): destinatio
 n with the same identifier (name{figure.25}) has been already used, duplicate i
 gnored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3268 \newpage
+l.3269 \newpage
                pdfTeX warning (ext4): destination with the same identifier (nam
 e{figure.26}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3268 \newpage
+l.3269 \newpage
                 <c:/Users/mdelacre/Documents/Github project/Effect-sizes/Script
 s outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_re
 lative quality/Het_firstsmaller_SDR10.png> <c:/Users/mdelacre/Documents/Github 
 project/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased est
-imators/Combined Figures_relative quality/Het_firstlarger_SDR2.png>] [84pdfTeX 
+imators/Combined Figures_relative quality/Het_firstlarger_SDR2.png>] [83pdfTeX 
 warning (ext4): destination with the same identifier (name{figure.27}) has been
  already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3312 
+l.3313 
         <c:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts output
 s/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative q
-uality/Het_firstsmaller_SDR2.png>] (./template.ent [85] [86]) [87]
+uality/Het_firstsmaller_SDR2.png>] (./template.ent [84] [85]) [86]
 \openout3 = `template.ent'.
 
-[88]
+[87]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/Tabl
-e1.png, id=751, 483.8075pt x 271.51437pt>
+e1.png, id=747, 483.8075pt x 271.51437pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration
 /Table1.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/
 Table1.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
-itre 5/Illustration/Table1.png  used on input line 3428.
+itre 5/Illustration/Table1.png  used on input line 3429.
 (pdftex.def)             Requested size: 461.9621pt x 259.25462pt.
-[89 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/
+[88 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/
 Table1.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/Tabl
-e2.png, id=758, 483.8075pt x 285.065pt>
+e2.png, id=754, 483.8075pt x 285.065pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration
 /Table2.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/
 Table2.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
-itre 5/Illustration/Table2.png  used on input line 3475.
+itre 5/Illustration/Table2.png  used on input line 3476.
 (pdftex.def)             Requested size: 461.9621pt x 272.19342pt.
-[90] [91 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustra
+[89] [90 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustra
 tion/Table2.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/Fig1
-.png, id=770, 361.35pt x 361.35pt>
+.png, id=766, 361.35pt x 361.35pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration
 /Fig1.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/
 Fig1.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
-itre 5/Illustration/Fig1.png  used on input line 3510.
+itre 5/Illustration/Fig1.png  used on input line 3511.
 (pdftex.def)             Requested size: 194.49753pt x 194.49753pt.
-[92pdfTeX warning (ext4): destination with the same identifier (name{figure.28}
+[91pdfTeX warning (ext4): destination with the same identifier (name{figure.28}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3547 \[
+l.3548 \[
          \it H0_1\;: \theta < \theta_1, \; avec \; \theta_1 \neq 0\] La seconde
  <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/Fig
 1.png>]
-<template_files/figure-latex/equiv1-1.pdf, id=780, 469.755pt x 325.215pt>
+<template_files/figure-latex/equiv1-1.pdf, id=775, 469.755pt x 325.215pt>
 File: template_files/figure-latex/equiv1-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/equiv1-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/equiv1-1.pdf  used on inpu
-t line 3589.
+t line 3590.
 (pdftex.def)             Requested size: 389.00774pt x 269.31305pt.
-[93] [94pdfTeX warning (ext4): destination with the same identifier (name{figur
+[92] [93pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.29}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3659 
-        <./template_files/figure-latex/equiv1-1.pdf>] [95] [96]
+l.3660 
+        <./template_files/figure-latex/equiv1-1.pdf>] [94] [95]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Chapitre 5-couver
-ture.png, id=816, 1098.35344pt x 1149.5447pt>
+ture.png, id=812, 1098.35344pt x 1149.5447pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Chapitre 5-c
 ouverture.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Chapitre 5-co
 uverture.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
-itre 5/Chapitre 5-couverture.png  used on input line 3756.
+itre 5/Chapitre 5-couverture.png  used on input line 3757.
 (pdftex.def)             Requested size: 455.57355pt x 476.8066pt.
-[97] [98 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Chapitre
+[96] [97 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Chapitre
  5-couverture.png>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-769.
+770.
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [99]
-<template_files/figure-latex/TOSTSGPV1-1.pdf, id=836, 469.755pt x 325.215pt>
+) [98]
+<template_files/figure-latex/TOSTSGPV1-1.pdf, id=832, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV1-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV1-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV1-1.pdf  used on i
-nput line 3849.
+nput line 3850.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[100] [101pdfTeX warning (ext4): destination with the same identifier (name{fig
-ure.30}) has been already used, duplicate ignored
+[99] [100pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.30}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3879 
+l.3880 
         <./template_files/figure-latex/TOSTSGPV1-1.pdf>]
-<template_files/figure-latex/TOSTSGPV2-1.pdf, id=859, 469.755pt x 325.215pt>
+<template_files/figure-latex/TOSTSGPV2-1.pdf, id=855, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV2-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV2-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV2-1.pdf  used on i
-nput line 3882.
+nput line 3883.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[102pdfTeX warning (ext4): destination with the same identifier (name{figure.31
+[101pdfTeX warning (ext4): destination with the same identifier (name{figure.31
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3904 ...l{sgpv-as-a-uniform-measure-of-overlap}}
+l.3905 ...l{sgpv-as-a-uniform-measure-of-overlap}}
                                                    <./template_files/figure-lat
 ex/TOSTSGPV2-1.pdf>]
-<template_files/figure-latex/TOSTSGPV3-1.pdf, id=873, 469.755pt x 325.215pt>
+<template_files/figure-latex/TOSTSGPV3-1.pdf, id=869, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV3-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV3-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV3-1.pdf  used on i
-nput line 3921.
+nput line 3922.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[103pdfTeX warning (ext4): destination with the same identifier (name{figure.32
+[102pdfTeX warning (ext4): destination with the same identifier (name{figure.32
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3954 
+l.3955 
         <./template_files/figure-latex/TOSTSGPV3-1.pdf>]
-<template_files/figure-latex/TOSTSGPV4-1.pdf, id=889, 469.755pt x 325.215pt>
+<template_files/figure-latex/TOSTSGPV4-1.pdf, id=885, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV4-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV4-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV4-1.pdf  used on i
-nput line 3957.
+nput line 3958.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[104] [105pdfTeX warning (ext4): destination with the same identifier (name{fig
+[103] [104pdfTeX warning (ext4): destination with the same identifier (name{fig
 ure.33}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4004 
+l.4005 
         <./template_files/figure-latex/TOSTSGPV4-1.pdf>]
-<template_files/figure-latex/TOSTSGPV5-1.pdf, id=909, 469.755pt x 325.215pt>
+<template_files/figure-latex/TOSTSGPV5-1.pdf, id=905, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV5-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV5-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV5-1.pdf  used on i
-nput line 4007.
+nput line 4008.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[106pdfTeX warning (ext4): destination with the same identifier (name{figure.34
+[105pdfTeX warning (ext4): destination with the same identifier (name{figure.34
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4034 
+l.4035 
         <./template_files/figure-latex/TOSTSGPV5-1.pdf>]
-<template_files/figure-latex/TOSTSGPV6-1.pdf, id=924, 469.755pt x 325.215pt>
+<template_files/figure-latex/TOSTSGPV6-1.pdf, id=920, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV6-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV6-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV6-1.pdf  used on i
-nput line 4037.
+nput line 4038.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-<template_files/figure-latex/TOSTSGPV7-1.pdf, id=927, 469.755pt x 325.215pt>
+<template_files/figure-latex/TOSTSGPV7-1.pdf, id=923, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV7-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV7-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV7-1.pdf  used on i
-nput line 4068.
+nput line 4069.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[107] [108pdfTeX warning (ext4): destination with the same identifier (name{fig
+[106] [107pdfTeX warning (ext4): destination with the same identifier (name{fig
 ure.35}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4085 
-        <./template_files/figure-latex/TOSTSGPV6-1.pdf>] [109pdfTeX warning (ex
+l.4086 
+        <./template_files/figure-latex/TOSTSGPV6-1.pdf>] [108pdfTeX warning (ex
 t4): destination with the same identifier (name{figure.36}) has been already us
 ed, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4085 
+l.4086 
         <./template_files/figure-latex/TOSTSGPV7-1.pdf>]
-<template_files/figure-latex/TOSTSGPV8-1.pdf, id=957, 469.755pt x 325.215pt>
+<template_files/figure-latex/TOSTSGPV8-1.pdf, id=953, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV8-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV8-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV8-1.pdf  used on i
-nput line 4088.
+nput line 4089.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-<template_files/figure-latex/TOSTSGPV9-1.pdf, id=959, 469.755pt x 325.215pt>
+<template_files/figure-latex/TOSTSGPV9-1.pdf, id=955, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV9-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV9-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV9-1.pdf  used on i
-nput line 4107.
+nput line 4108.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-<template_files/figure-latex/TOSTSGPV10-1.pdf, id=963, 469.755pt x 325.215pt>
+<template_files/figure-latex/TOSTSGPV10-1.pdf, id=959, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV10-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV10-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV10-1.pdf  used on 
-input line 4121.
+input line 4122.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[110pdfTeX warning (ext4): destination with the same identifier (name{figure.37
+[109pdfTeX warning (ext4): destination with the same identifier (name{figure.37
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4126 \end{figure}
-                    <./template_files/figure-latex/TOSTSGPV8-1.pdf>] [111pdfTeX
+l.4127 \end{figure}
+                    <./template_files/figure-latex/TOSTSGPV8-1.pdf>] [110pdfTeX
  warning (ext4): destination with the same identifier (name{figure.38}) has bee
 n already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4126 \end{figure}
-                    <./template_files/figure-latex/TOSTSGPV9-1.pdf>] [112pdfTeX
+l.4127 \end{figure}
+                    <./template_files/figure-latex/TOSTSGPV9-1.pdf>] [111pdfTeX
  warning (ext4): destination with the same identifier (name{figure.39}) has bee
 n already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4154 
+l.4155 
         <./template_files/figure-latex/TOSTSGPV10-1.pdf>]
-<template_files/figure-latex/TOSTSGPV11-1.pdf, id=1005, 469.755pt x 325.215pt>
+<template_files/figure-latex/TOSTSGPV11-1.pdf, id=1001, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV11-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV11-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV11-1.pdf  used on 
-input line 4174.
+input line 4175.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[113] [114pdfTeX warning (ext4): destination with the same identifier (name{fig
+[112] [113pdfTeX warning (ext4): destination with the same identifier (name{fig
 ure.40}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4209 
+l.4210 
         <./template_files/figure-latex/TOSTSGPV11-1.pdf>]
-<template_files/figure-latex/TOSTSGPV12-1.pdf, id=1023, 469.755pt x 325.215pt>
+<template_files/figure-latex/TOSTSGPV12-1.pdf, id=1019, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV12-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV12-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV12-1.pdf  used on 
-input line 4212.
+input line 4213.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[115pdfTeX warning (ext4): destination with the same identifier (name{figure.41
+[114pdfTeX warning (ext4): destination with the same identifier (name{figure.41
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4251 
-        <./template_files/figure-latex/TOSTSGPV12-1.pdf>] [116]
-<template_files/figure-latex/TOSTSGPV13-1.pdf, id=1041, 469.755pt x 325.215pt>
+l.4252 
+        <./template_files/figure-latex/TOSTSGPV12-1.pdf>] [115]
+<template_files/figure-latex/TOSTSGPV13-1.pdf, id=1036, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV13-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV13-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV13-1.pdf  used on 
-input line 4317.
+input line 4318.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[117] [118pdfTeX warning (ext4): destination with the same identifier (name{fig
+[116] [117pdfTeX warning (ext4): destination with the same identifier (name{fig
 ure.42}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4335 
-        <./template_files/figure-latex/TOSTSGPV13-1.pdf>] (./template.ent [119]
-[120]) [121]
+l.4336 
+        <./template_files/figure-latex/TOSTSGPV13-1.pdf>] (./template.ent [118]
+[119]) [120]
 \openout3 = `template.ent'.
 
-[122] [123] [124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [
-135] [136] [137] [138] [139] [140] [141] [142] (./template.ent [143]
+[121] [122] [123] [124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [
+134] [135] [136] [137] [138] [139] [140] [141] (./template.ent [142]
 
 LaTeX Warning: Command \' invalid in math mode on input line 916.
 
-) [144] [145] [146]
-Underfull \hbox (badness 1062) in paragraph at lines 5142--5148
+) [143] [144] [145]
+Underfull \hbox (badness 1062) in paragraph at lines 5143--5149
 \T1/lmr/m/n/12 kurtosis for measuring nonnormality: Prevalence, influence and e
 stimation. \T1/lmr/m/it/12 Behavior
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 5154--5161
+Underfull \hbox (badness 5460) in paragraph at lines 5155--5162
 \T1/lmr/m/n/12 of traitedness: Replication and extension with alternative measu
 rement formats
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 5154--5161
+Underfull \hbox (badness 3769) in paragraph at lines 5155--5162
 \T1/lmr/m/n/12 and cultural dimensions. \T1/lmr/m/it/12 Journal of Cross-Cultur
 al Psychology\T1/lmr/m/n/12 , \T1/lmr/m/it/12 43\T1/lmr/m/n/12 (8), 1268[]1296.
 
  []
 
-[147] [148] [149] [150]
-Underfull \hbox (badness 1728) in paragraph at lines 5399--5404
+[146] [147] [148] [149]
+Underfull \hbox (badness 1728) in paragraph at lines 5400--5405
 \T1/lmr/m/n/12 in Two-Group Comparative Bioavailability Trials. \T1/lmr/m/it/12
  Journal of Pharmacokinetics and
  []
 
-[151] [152] [153] [154] [155] [156] [157] [158] [159]
-Underfull \hbox (badness 1454) in paragraph at lines 5929--5933
+[150] [151] [152] [153] [154] [155] [156] [157] [158]
+Underfull \hbox (badness 1454) in paragraph at lines 5930--5934
 \T1/lmr/m/n/12 Cambridge, Massachusetts, USA: Academic press. []$https : / / do
 i . org / 10 . 1016 / B978 -[] 0 -[] 12 -[]
  []
 
-[160] 
+[159] 
 AED: lastpage setting LastPage
-[161] [162] (./template.aux)
+[160] [161] (./template.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: AEC6EF1BFB81372DD36634BB573BD8CA;2093.
+(rerunfilecheck)             Checksum: 17EDDEA746E8F11F30F644344F8D7A1D;1965.
  )
 (\end occurred inside a group at level 2)
 
@@ -1709,13 +1709,13 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 ### semi simple group (level 1) entered at line 103 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14743 strings out of 480559
- 261353 string characters out of 5901527
- 572571 words of memory out of 5000000
+ 14742 strings out of 480559
+ 261289 string characters out of 5901527
+ 572521 words of memory out of 5000000
  31484 multiletter control sequences out of 15000+600000
  559211 words of font info for 120 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,10n,66p,1074b,3573s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,10n,66p,1074b,3585s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc
 /dvips/lm/lm-ts1.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/font
 s/enc/dvips/lm/lm-rm.enc}{c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/
@@ -1752,10 +1752,10 @@ lacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/Us
 ers/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb
 ><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lm
 sy8.pfb>
-Output written on template.pdf (167 pages, 3697731 bytes).
+Output written on template.pdf (166 pages, 3699862 bytes).
 PDF statistics:
- 1862 PDF objects out of 2073 (max. 8388607)
- 1515 compressed objects within 16 object streams
- 537 named destinations out of 1000 (max. 500000)
+ 1858 PDF objects out of 2073 (max. 8388607)
+ 1512 compressed objects within 16 object streams
+ 536 named destinations out of 1000 (max. 500000)
  307 words of extra memory for PDF output out of 10000 (max. 10000000)
 
