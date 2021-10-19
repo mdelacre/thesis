@@ -67,8 +67,8 @@ res <- pwr.t.test(n=n,sig.level=alpha,
                   power=required_power,
                   type="two.sample",
                   alternative="two.sided")
-d_min <- res$d # taille d'effet standardisée qui permet d'atteindre la
-               # puissance requise
+d_min <- res$d # taille d'effet standardisée qui permet d'atteindre la puissance requise
+              # Or, d_min <- theta/S_max
 S_max <- theta/d_min # d_min <- theta/S_max <--> S_max = theta/d_min
 SE_max <- S_max*sqrt(2/n) # SE <- S*sqrt(2/N)
 
