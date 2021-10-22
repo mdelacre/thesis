@@ -114,10 +114,10 @@ PROPVR1 <- NULL
 PROPVR2 <- NULL
 PROPVR3 <- NULL
 
-chem<-"C:/Users/mdelacre/Dropbox/Préparation défense thèse/VR expe/ "
+chem<-"C:/Users/mdelacre/Documents/Github project/thesis/Préparation défense thèse/VR expe/outputs/"
 
-for (i in 1:length(Simu[,1])){
-  A<-readRDS(paste0(chem,"n=[",Simu[i,1],",",Simu[i,2],"], means=[",Simu[i,3],",",Simu[i,4],"].rds"))  
+for (i in 1:length(list.files(chem))){
+  A<-readRDS(paste0(chem,list.files(chem)[i]))  
   param <- str_extract_all(list.files(chem)[i], "[[:digit:]]+\\.*[[:digit:]]*")
   n1 <- as.numeric(param[[1]][1])
   n2 <- as.numeric(param[[1]][2])
@@ -138,8 +138,10 @@ for (i in 1:length(Simu[,1])){
 }
 
 result <-cbind(N1,N2,M1,M2,PROPVR1,PROPVR2,PROPVR3)
+setwd("C:/Users/mdelacre/Documents/Github project/thesis/Préparation défense thèse/VR expe/results/")
+write.table(result,"propVR3.txt",sep=";",dec=",")
 
-########## VR moyen
+########## VR médian
 
 N1 <- NULL
 N2 <- NULL
@@ -152,10 +154,10 @@ MADVR1 <- NULL
 MADVR2 <- NULL
 MADVR3 <- NULL
 
-chem<-"C:/Users/mdelacre/Dropbox/Préparation défense thèse/VR expe/ "
+chem<-"C:/Users/mdelacre/Documents/Github project/thesis/Préparation défense thèse/VR expe/outputs/"
 
-for (i in 1:length(Simu[,1])){
-  A<-readRDS(paste0(chem,"n=[",Simu[i,1],",",Simu[i,2],"], means=[",Simu[i,3],",",Simu[i,4],"].rds"))  
+for (i in 1:length(list.files(chem))){
+  A<-readRDS(paste0(chem,list.files(chem)[i]))  
   param <- str_extract_all(list.files(chem)[i], "[[:digit:]]+\\.*[[:digit:]]*")
   n1 <- as.numeric(param[[1]][1])
   n2 <- as.numeric(param[[1]][2])
@@ -184,7 +186,8 @@ for (i in 1:length(Simu[,1])){
 
 
 result <-cbind(N1,N2,M1,M2,MEDVR1,MEDVR2,MEDVR3,MADVR1,MADVR2,MADVR3)
-write.table(result,"res.txt",sep=";",dec=",")
+setwd("C:/Users/mdelacre/Documents/Github project/thesis/Préparation défense thèse/VR expe/results/")
+write.table(result,"medianVR.txt",sep=";",dec=",")
 
 ########## VR max
 
@@ -196,10 +199,10 @@ MAXVR1 <- NULL
 MAXVR2 <- NULL
 MAXVR3 <- NULL
 
-chem<-"C:/Users/mdelacre/Dropbox/Préparation défense thèse/VR expe/ "
+chem<-"C:/Users/mdelacre/Documents/Github project/thesis/Préparation défense thèse/VR expe/outputs/"
 
-for (i in 1:length(Simu[,1])){
-  A<-readRDS(paste0(chem,"n=[",Simu[i,1],",",Simu[i,2],"], means=[",Simu[i,3],",",Simu[i,4],"].rds"))  
+for (i in 1:length(list.files(chem))){
+  A<-readRDS(paste0(chem,list.files(chem)[i]))  
   param <- str_extract_all(list.files(chem)[i], "[[:digit:]]+\\.*[[:digit:]]*")
   n1 <- as.numeric(param[[1]][1])
   n2 <- as.numeric(param[[1]][2])
@@ -221,4 +224,5 @@ for (i in 1:length(Simu[,1])){
 }
 
 resultmax <-cbind(N1,N2,M1,M2,MAXVR1,MAXVR2,MAXVR3)
-write.table(resultmax,"resmax.txt",sep=";",dec=",")
+setwd("C:/Users/mdelacre/Documents/Github project/thesis/Préparation défense thèse/VR expe/results/")
+write.table(resultmax,"maxVR.txt",sep=";",dec=",")
