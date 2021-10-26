@@ -4,9 +4,10 @@ G1 <- NULL
 G2 <- NULL
 Tstat <- NULL
 
+n = 400
 library(moments)
 for (i in 1:20000){
-  data <- rnorm(20,mean=0,sd=1)
+  data <- rnorm(n,mean=0,sd=1)
   mean <- c(mean,mean(data))
   G1 <- c(G1,skewness(data))
   G2 <- c(G2,kurtosis(data))
@@ -19,7 +20,7 @@ for (i in 1:20000){
 # Et je ré-échantillonne pour estimer la distribution d'éch
 # de la moyenne, de G1 et de G2
 
-Sample <- rnorm(20,mean=0,sd=1)
+Sample <- rnorm(n,mean=0,sd=1)
 
 boot_mean <- NULL
 boot_G1 <- NULL
@@ -27,7 +28,7 @@ boot_G2 <- NULL
 boot_Tstat <- NULL
 
 for (i in 1:20000){
-  data <- sample(Sample,size=20,replace=T)
+  data <- sample(Sample,size=n,replace=T)
   boot_mean <- c(boot_mean,mean(data))
   boot_G1 <- c(boot_G1,skewness(data))
   boot_G2 <- c(boot_G2,kurtosis(data))
@@ -64,6 +65,7 @@ plot(density(boot_G1),
      xlab=paste0("G1 = ",round(skewness(boot_G1),3),
                  "\nG2 = ",round(kurtosis(boot_G1),3))
 ) 
+
 
 ### pour G2
 par(mfrow=c(1,2))
