@@ -65,7 +65,12 @@ Référence manquante: Bradley (1978).
 
 ### Erreur conceptuelle
 **p.22** : ~~Formula (7)~~ \color{blue}Equation 7 \color{black} provides the computation of the ~~W-test, or Welch’s F-test~~ \color{blue}Welch’s statistic ($W$) \color{black}
+
 **p.22** :  In the numerator of the ~~W-test~~ \color{blue}$W$ statistic,\color{black} the squared deviation between group mean
+
+- p.22 : "... negative pairings (the group with the ~~smallest~~ **largest** sample size is extracted from the population with the smallest $SD$);  
+ 
+- p.27 : "Moreover, there is one constant observation in our simulations : whatever the configuration of the *n*-ratio, the consistency of the three tests is closer to zero when there is a ~~negative~~ **positive** correlation between the *SD* and the ~~mean~~ **sample size** (meaning that the **largest** group ~~with the highest mea~~ has the ~~lowe~~ **largest** variance). "
 
 ### Mise en forme et Notations  
 
@@ -89,10 +94,15 @@ p?? : In Figure**s** 5 to 9 (see Figure 4 for the legend)
 - p.20 : "Based on mathematical explanations and Monte~~o~~ Carlo simulations";  
 - p.21 : "~~With~~ **w**ith $N=$...";  
 - p.21 : "~~Where~~ **w**here ~~$x_j$~~ $\bar{x_j}$ and $s^2_j$ are respectively the group mean and the group variance...";    
-- p.22 : "... negative pairings (the group with the ~~smallest~~ **largest** sample size is extracted from the population with the smallest $SD$);  
 - p.22 : "the type I error rate of all test**s**";
 - p.22 : " In the ~~appendix~~ Supplemental Material we illustrate the calculation of all three statistics in detail for a fictional three-group design for educational purposes."
 - p.23 : "When there are more than ~~three~~ \color{blue}two  \color{black}groups
 - p.24 : "... which is either more liberal or more conservative, depending on the $SDs$ and ~~$SD$~~ **sample sizes** pairing";  
 - p.24 : "... ~~whatever~~ the correlation between the $SD$ and the mean **does not matter**";  
 
+## Annexe C: erratum de l'article "Why Hedge's g* based on the non-pooled standard deviation should be reported with Welch's $t$-test" (Chapitre 4)
+
+- p.39: titre de la Table 1: "~~Expectency~~ **Expectation**, bias and variance of Cohen's ~~$d_s$~~ $d$"
+- p.39: dans cette même table, les incides $_s$ doivent être supprimés dans la première colonne. 
+- p.41: les mêmes remarques (concernant le titre et les indices) s'appliquent à la table 2. 
+- p.46: les mêmes remarques (concernant les indices) s'appliquent à la table 3. De plus, il convient d'écrire "~~Cohen's~~ Hedges' $g^*$".
