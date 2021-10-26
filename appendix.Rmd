@@ -18,9 +18,9 @@ header-includes:
 
 2) \color{black}**p.10**: "When SDR = 1, the equal variances assumption is true, when SDR > 1 the standard deviation of the second ~~sample~~ \color{blue} population \color{black} is bigger than the standard deviation of the first ~~sample~~ \color{blue} population \color{black}, and when SDR < 1 the standard deviation of the second ~~sample~~ \color{blue}population \color{black} is smaller than the standard deviation of the first ~~sample~~ \color{blue} population". \color{black}
 
-3) **p.14** (partie "simulations") : *"As long as the variances are equal between ~~groups~~ \color{blue} populations \color{black} or sample sizes are equal, the distribution of Student’s $p$-values is uniform..."*.
+3) **p.14** (partie "simulations") : *"As long as the variances are equal between ~~groups~~ \color{blue} populations \color{black} or sample sizes are equal, the distribution of Student’s $p$-values is uniform..."*. A divers endroits, j'ai remplacé le mot "groupe" par le mot "population" pour éviter toute ambiguïté. 
 
-4) **p.14** (partie "simulations") :*"Differences are small, except in three scenarios (See table A5.2, A5.5 , and A5.6 in the additionnal file)*
+4) **p.14** (partie "simulations") :*"Differences are small, except in three scenarios (See table A5.2, A5.5 , and A5.6 in the additionnal file)*. En réalité, la plus grande différence entre les tests se trouve en A5.7 (quand les deux populations ont une asymétrie positive) et vaut 4.29%. Dans tous les autres cas, elle est inférieure. L'erreur vient d'une erreur de codage dans les scripts impliquant des distributions double exponentielles (erreur qui a été corrigée dans la version mise à jour du Supplemental Material, en ligne). 
 
 5) **Test de Yuen**: nous sous-entendons à plusieurs reprises que le test de Yuen a un taux inacceptable d'erreur de type I lorsque les distributions de population sont asymétriques. Il s'agit d'une erreur conceptuelle qui a été expliquée dans les limites de la thèse.
 
@@ -30,7 +30,7 @@ header-includes:
 
 2) **p.16** (à propos du test de Levene) : *"Because the statistical power for this test is often low, researchers will inappropriately choose Student's $t$-test instead of more robust alternatives."* Cette phrase peut amener à comprendre que si le test de Levene était toujours très puissant, il serait approprié de l'utiliser en vue de choisir entre les tests $t$ de Student et $t$ de Welch. Pourtant, privilégier le test $t$ de Student lorsque l'on ne peut rejeter l'hypothèse d'égalité des variances (autrement dit, lorsque les résultats du test de Levene sont non significatifs) reviendrait à confondre le non-rejet de l'hypothèse d'égalité des variances avec l'acceptation de l'hypothèse d'égalité des variances. Au sein du chapitre 5 dédié aux tests d'équivalence, nous avons montré que même lorsqu'on s'assure d'avoir une puissance suffisante pour détecter un effet de taille donnée, la stratégie qui consiste à interpréter le non-rejet de l'hypothèse nulle comme un soutien en faveur de l'hypothèse nulle n'est pas appropriée.  
 
-3) A divers endroits, j'ai remplacé "the assumption of equal variances" par "the assumption of equal \color{blue} **population** \color{black} variance". J'ai également remplacé le mot "groupes" par le mot "populations" pour éviter toute ambiguïté. 
+3) Pour lever toute ambiguïté possible, à divers endroits, j'ai remplacé "the assumption of equal variances" par "the assumption of equal \color{blue} **population** \color{black} variance" après avoir imprimé ma thèse. 
 
 ### Mise en forme et Notations
 

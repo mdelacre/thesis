@@ -3,11 +3,11 @@
 \contentsline {section}{Chapitre 1 : Introduction}{1}{section*.3}%
 \contentsline {section}{Chapitre 2 : Utiliser le test \(\bf \emph t\) de Welch}{9}{section*.5}%
 \contentsline {subsection}{Limitations of Two-Step Procedures}{10}{section*.6}%
-\contentsline {subsection}{Different ways to test for equal variances}{11}{section*.7}%
-\contentsline {subsection}{Homogeneity of Variance Assumptions}{15}{section*.8}%
-\contentsline {subsection}{The Mathematical Differences Between Student's \(\bm {t}\)-test and Welch's \(\bm {t}\)-test}{17}{section*.9}%
-\contentsline {subsection}{Simulations : Error Rates for Student's \(t\)-test versus Welch's \(t\)-test}{19}{section*.10}%
-\contentsline {subsection}{Conclusion}{23}{section*.11}%
+\contentsline {subsection}{Different ways to test for equal population variances}{11}{section*.7}%
+\contentsline {subsection}{Homogeneity of Variance Assumptions}{14}{section*.8}%
+\contentsline {subsection}{The Mathematical Differences Between Student's \(\bm {t}\)-test and Welch's \(\bm {t}\)-test}{16}{section*.9}%
+\contentsline {subsection}{Simulations : Error Rates for Student's \(t\)-test versus Welch's \(t\)-test}{18}{section*.10}%
+\contentsline {subsection}{Conclusion}{22}{section*.11}%
 \contentsline {section}{Chapitre 3 : Utiliser l'ANOVA \(\bf \emph W\) de Welch}{25}{section*.13}%
 \contentsline {subsection}{Normality and Homogeneity of variances under Ecological Conditions}{27}{section*.14}%
 \contentsline {subsection}{Normality Assumption}{27}{section*.15}%

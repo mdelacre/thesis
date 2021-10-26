@@ -1,4 +1,4 @@
-\@doanenote {40}
+\@doanenote {39}
 macro:->Dans
 ce
 cas,
@@ -34,7 +34,7 @@ d'indépendance
 des
 résidus.
 \@endanenote 
-\@doanenote {41}
+\@doanenote {40}
 macro:->L'ANOVA
 $F$
 de
@@ -87,7 +87,7 @@ $F(1,x)
 =
 t^2(x)$.
 \@endanenote 
-\@doanenote {42}
+\@doanenote {41}
 macro:->Dans
 Jamovi,
 par
@@ -121,7 +121,7 @@ qui
 est
 proposée.
 \@endanenote 
-\@doanenote {43}
+\@doanenote {42}
 macro:->Ce
 package
 n'a
@@ -151,7 +151,7 @@ install.packages(``devtools'')\\
 library(devtools)\\
 install\_github(``mdelacre/deffectsize'').
 \@endanenote 
-\@doanenote {44}
+\@doanenote {43}
 macro:->L'application
 est
 disponible
@@ -161,7 +161,7 @@ suivante
 :
 https://effectsize.shinyapps.io/deffsize/
 \@endanenote 
-\@doanenote {45}
+\@doanenote {44}
 macro:->Le
 draft
 de
@@ -183,7 +183,7 @@ suivant
 :
 https://github.com/mdelacre/Effect-sizes.
 \@endanenote 
-\@doanenote {46}
+\@doanenote {45}
 macro:->Aaron
 Caldwell
 est
@@ -232,7 +232,7 @@ page
 :
 https://aaroncaldwell.us/
 \@endanenote 
-\@doanenote {47}
+\@doanenote {46}
 macro:->Le
 package
 amélioré
@@ -262,7 +262,7 @@ Twitter
 :
 https://twitter.com/ExPhysStudent/status/1400861069048958981
 \@endanenote 
-\@doanenote {48}
+\@doanenote {47}
 macro:->Mattan
 S.
 Ben-Shachar
@@ -294,7 +294,7 @@ page
 :
 https://sites.google.com/view/mattansb/
 \@endanenote 
-\@doanenote {49}
+\@doanenote {48}
 macro:->Les
 modifications
 qu'il
@@ -407,7 +407,7 @@ le
 de
 Cohen).
 \@endanenote 
-\@doanenote {50}
+\@doanenote {49}
 macro:->Ce
 feedback
 a
@@ -435,7 +435,7 @@ suivante
 https://thenewstatistics.com/itns/2021/06/17/which-standardised-effect-size-measure-is-best-
 when-variances-are-unequal/.
 \@endanenote 
-\@doanenote {51}
+\@doanenote {50}
 macro:->A
 l'origine,
 il
@@ -473,7 +473,7 @@ al.,
 Subedi,
 2016).
 \@endanenote 
-\@doanenote {52}
+\@doanenote {51}
 macro:->La
 question
 de
@@ -518,7 +518,7 @@ suivant
 \url
 {https://stats.stackexchange.com/questions/142685/equivalent-to-welchs-t-test-in-gls-framework}).
 \@endanenote 
-\@doanenote {53}
+\@doanenote {52}
 macro:->Par
 exemple,
 lorsqu'on
@@ -561,7 +561,7 @@ variance
 (Lane,
 2016).
 \@endanenote 
-\@doanenote {54}
+\@doanenote {53}
 macro:->Comme
 le
 soulignent
@@ -610,7 +610,7 @@ deux
 mesures
 répétées.
 \@endanenote 
-\@doanenote {55}
+\@doanenote {54}
 macro:->Parmi
 les
 alternatives
@@ -941,7 +941,7 @@ liberté
 sont
 impactés!
 \@endanenote 
-\@doanenote {56}
+\@doanenote {55}
 macro:->Le
 test
 de
