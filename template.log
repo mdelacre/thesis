@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.18)  26 OCT 2021 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.18)  26 OCT 2021 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1229,14 +1229,14 @@ s/figure-latex/BIAS-1.pdf>] [62] [63] [64] [65
 ] [67
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2680--2685
+Underfull \hbox (badness 10000) in paragraph at lines 2679--2684
 
  []
 
 [68
 
 ] [69]
-Underfull \hbox (badness 10000) in paragraph at lines 2781--2787
+Underfull \hbox (badness 10000) in paragraph at lines 2780--2786
 
  []
 
@@ -1256,7 +1256,7 @@ ality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quali
 ty/Hom_bal.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/Effect-size
 s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
-gures_relative quality/Hom_bal.png  used on input line 3048.
+gures_relative quality/Hom_bal.png  used on input line 3047.
 (pdftex.def)             Requested size: 486.25484pt x 227.1762pt.
 <C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Qualit
 y of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/H
@@ -1269,18 +1269,18 @@ ality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quali
 ty/Hom_unbal.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/Effect-size
 s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
-gures_relative quality/Hom_unbal.png  used on input line 3057.
+gures_relative quality/Hom_unbal.png  used on input line 3056.
 (pdftex.def)             Requested size: 486.26228pt x 226.68251pt.
 [76] [77pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.20}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3074 \newpage
+l.3073 \newpage
                pdfTeX warning (ext4): destination with the same identifier (nam
 e{figure.21}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3074 \newpage
+l.3073 \newpage
                 <c:/Users/mdelacre/Documents/Github project/Effect-sizes/Script
 s outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_re
 lative quality/Hom_bal.png> <c:/Users/mdelacre/Documents/Github project/Effect-
@@ -1297,7 +1297,7 @@ ality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quali
 ty/Het_bal_N.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/Effect-size
 s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
-gures_relative quality/Het_bal_N.png  used on input line 3175.
+gures_relative quality/Het_bal_N.png  used on input line 3174.
 (pdftex.def)             Requested size: 486.25795pt x 226.01083pt.
 <C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Qualit
 y of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/H
@@ -1310,18 +1310,18 @@ ality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quali
 ty/Het_bal_sd.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/Effect-size
 s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
-gures_relative quality/Het_bal_sd.png  used on input line 3184.
+gures_relative quality/Het_bal_sd.png  used on input line 3183.
 (pdftex.def)             Requested size: 486.25836pt x 226.56093pt.
 [79] [80pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.22}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3190 \newpage
+l.3189 \newpage
                pdfTeX warning (ext4): destination with the same identifier (nam
 e{figure.23}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3190 \newpage
+l.3189 \newpage
                 <c:/Users/mdelacre/Documents/Github project/Effect-sizes/Script
 s outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_re
 lative quality/Het_bal_N.png> <c:/Users/mdelacre/Documents/Github project/Effec
@@ -1338,7 +1338,7 @@ ality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quali
 ty/Het_firstlarger_SDR10.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/Effect-size
 s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
-gures_relative quality/Het_firstlarger_SDR10.png  used on input line 3222.
+gures_relative quality/Het_firstlarger_SDR10.png  used on input line 3221.
 (pdftex.def)             Requested size: 486.26079pt x 227.16206pt.
 <C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Qualit
 y of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/H
@@ -1351,7 +1351,7 @@ ality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quali
 ty/Het_firstsmaller_SDR10.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/Effect-size
 s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
-gures_relative quality/Het_firstsmaller_SDR10.png  used on input line 3231.
+gures_relative quality/Het_firstsmaller_SDR10.png  used on input line 3230.
 (pdftex.def)             Requested size: 486.25836pt x 228.35904pt.
 <C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Qualit
 y of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/H
@@ -1364,7 +1364,7 @@ ality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quali
 ty/Het_firstlarger_SDR2.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/Effect-size
 s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
-gures_relative quality/Het_firstlarger_SDR2.png  used on input line 3240.
+gures_relative quality/Het_firstlarger_SDR2.png  used on input line 3239.
 (pdftex.def)             Requested size: 486.26228pt x 226.4255pt.
 <C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Qualit
 y of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/H
@@ -1377,13 +1377,13 @@ ality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quali
 ty/Het_firstsmaller_SDR2.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/Effect-size
 s/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Fi
-gures_relative quality/Het_firstsmaller_SDR2.png  used on input line 3249.
+gures_relative quality/Het_firstsmaller_SDR2.png  used on input line 3248.
 (pdftex.def)             Requested size: 486.26228pt x 226.4255pt.
 [81pdfTeX warning (ext4): destination with the same identifier (name{figure.24}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3255 \newpage
+l.3254 \newpage
                 <c:/Users/mdelacre/Documents/Github project/Effect-sizes/Script
 s outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_re
 lative quality/Het_firstlarger_SDR10.png>] [82pdfTeX warning (ext4): destinatio
@@ -1391,12 +1391,12 @@ n with the same identifier (name{figure.25}) has been already used, duplicate i
 gnored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3255 \newpage
+l.3254 \newpage
                pdfTeX warning (ext4): destination with the same identifier (nam
 e{figure.26}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3255 \newpage
+l.3254 \newpage
                 <c:/Users/mdelacre/Documents/Github project/Effect-sizes/Script
 s outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_re
 lative quality/Het_firstsmaller_SDR10.png> <c:/Users/mdelacre/Documents/Github 
@@ -1406,7 +1406,7 @@ warning (ext4): destination with the same identifier (name{figure.27}) has been
  already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3299 
+l.3298 
         <c:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts output
 s/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative q
 uality/Het_firstsmaller_SDR2.png>] (./template.ent [84] [85]) [86]
@@ -1420,7 +1420,7 @@ File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/
 Table1.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
-itre 5/Illustration/Table1.png  used on input line 3415.
+itre 5/Illustration/Table1.png  used on input line 3414.
 (pdftex.def)             Requested size: 461.9621pt x 259.25462pt.
 [88 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/
 Table1.png>]
@@ -1431,7 +1431,7 @@ File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/
 Table2.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
-itre 5/Illustration/Table2.png  used on input line 3462.
+itre 5/Illustration/Table2.png  used on input line 3461.
 (pdftex.def)             Requested size: 461.9621pt x 272.19342pt.
 [89] [90 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustra
 tion/Table2.png>]
@@ -1442,13 +1442,13 @@ File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/
 Fig1.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
-itre 5/Illustration/Fig1.png  used on input line 3497.
+itre 5/Illustration/Fig1.png  used on input line 3496.
 (pdftex.def)             Requested size: 194.49753pt x 194.49753pt.
 [91pdfTeX warning (ext4): destination with the same identifier (name{figure.28}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3534 \[
+l.3533 \[
          \it H0_1\;: \theta < \theta_1, \; avec \; \theta_1 \neq 0\] La seconde
  <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/Fig
 1.png>]
@@ -1456,13 +1456,13 @@ l.3534 \[
 File: template_files/figure-latex/equiv1-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/equiv1-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/equiv1-1.pdf  used on inpu
-t line 3576.
+t line 3575.
 (pdftex.def)             Requested size: 389.00774pt x 269.31305pt.
 [92] [93pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.29}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3646 
+l.3645 
         <./template_files/figure-latex/equiv1-1.pdf>] [94] [95]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Chapitre 5-couver
 ture.png, id=818, 1098.35344pt x 1149.5447pt>
@@ -1471,12 +1471,12 @@ ouverture.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Chapitre 5-co
 uverture.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
-itre 5/Chapitre 5-couverture.png  used on input line 3743.
+itre 5/Chapitre 5-couverture.png  used on input line 3742.
 (pdftex.def)             Requested size: 455.57355pt x 476.8066pt.
 [96] [97 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Chapitre
  5-couverture.png>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-756.
+755.
 (c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [98]
@@ -1484,158 +1484,158 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: template_files/figure-latex/TOSTSGPV1-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV1-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV1-1.pdf  used on i
-nput line 3836.
+nput line 3835.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 [99] [100pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.30}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3866 
+l.3865 
         <./template_files/figure-latex/TOSTSGPV1-1.pdf>]
 <template_files/figure-latex/TOSTSGPV2-1.pdf, id=861, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV2-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV2-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV2-1.pdf  used on i
-nput line 3869.
+nput line 3868.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 [101pdfTeX warning (ext4): destination with the same identifier (name{figure.31
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3891 ...l{sgpv-as-a-uniform-measure-of-overlap}}
+l.3890 ...l{sgpv-as-a-uniform-measure-of-overlap}}
                                                    <./template_files/figure-lat
 ex/TOSTSGPV2-1.pdf>]
 <template_files/figure-latex/TOSTSGPV3-1.pdf, id=875, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV3-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV3-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV3-1.pdf  used on i
-nput line 3908.
+nput line 3907.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 [102pdfTeX warning (ext4): destination with the same identifier (name{figure.32
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3941 
+l.3940 
         <./template_files/figure-latex/TOSTSGPV3-1.pdf>]
 <template_files/figure-latex/TOSTSGPV4-1.pdf, id=891, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV4-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV4-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV4-1.pdf  used on i
-nput line 3944.
+nput line 3943.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 [103] [104pdfTeX warning (ext4): destination with the same identifier (name{fig
 ure.33}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3991 
+l.3990 
         <./template_files/figure-latex/TOSTSGPV4-1.pdf>]
 <template_files/figure-latex/TOSTSGPV5-1.pdf, id=911, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV5-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV5-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV5-1.pdf  used on i
-nput line 3994.
+nput line 3993.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 [105pdfTeX warning (ext4): destination with the same identifier (name{figure.34
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4021 
+l.4020 
         <./template_files/figure-latex/TOSTSGPV5-1.pdf>]
 <template_files/figure-latex/TOSTSGPV6-1.pdf, id=926, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV6-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV6-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV6-1.pdf  used on i
-nput line 4024.
+nput line 4023.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 <template_files/figure-latex/TOSTSGPV7-1.pdf, id=929, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV7-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV7-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV7-1.pdf  used on i
-nput line 4055.
+nput line 4054.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 [106] [107pdfTeX warning (ext4): destination with the same identifier (name{fig
 ure.35}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4072 
+l.4071 
         <./template_files/figure-latex/TOSTSGPV6-1.pdf>] [108pdfTeX warning (ex
 t4): destination with the same identifier (name{figure.36}) has been already us
 ed, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4072 
+l.4071 
         <./template_files/figure-latex/TOSTSGPV7-1.pdf>]
 <template_files/figure-latex/TOSTSGPV8-1.pdf, id=959, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV8-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV8-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV8-1.pdf  used on i
-nput line 4075.
+nput line 4074.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 <template_files/figure-latex/TOSTSGPV9-1.pdf, id=961, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV9-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV9-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV9-1.pdf  used on i
-nput line 4094.
+nput line 4093.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 <template_files/figure-latex/TOSTSGPV10-1.pdf, id=965, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV10-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV10-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV10-1.pdf  used on 
-input line 4108.
+input line 4107.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 [109pdfTeX warning (ext4): destination with the same identifier (name{figure.37
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4113 \end{figure}
+l.4112 \end{figure}
                     <./template_files/figure-latex/TOSTSGPV8-1.pdf>] [110pdfTeX
  warning (ext4): destination with the same identifier (name{figure.38}) has bee
 n already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4113 \end{figure}
+l.4112 \end{figure}
                     <./template_files/figure-latex/TOSTSGPV9-1.pdf>] [111pdfTeX
  warning (ext4): destination with the same identifier (name{figure.39}) has bee
 n already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4141 
+l.4140 
         <./template_files/figure-latex/TOSTSGPV10-1.pdf>]
 <template_files/figure-latex/TOSTSGPV11-1.pdf, id=1007, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV11-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV11-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV11-1.pdf  used on 
-input line 4161.
+input line 4160.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 [112] [113pdfTeX warning (ext4): destination with the same identifier (name{fig
 ure.40}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4196 
+l.4195 
         <./template_files/figure-latex/TOSTSGPV11-1.pdf>]
 <template_files/figure-latex/TOSTSGPV12-1.pdf, id=1025, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV12-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV12-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV12-1.pdf  used on 
-input line 4199.
+input line 4198.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 [114pdfTeX warning (ext4): destination with the same identifier (name{figure.41
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4238 
+l.4237 
         <./template_files/figure-latex/TOSTSGPV12-1.pdf>] [115]
 <template_files/figure-latex/TOSTSGPV13-1.pdf, id=1042, 469.755pt x 325.215pt>
 File: template_files/figure-latex/TOSTSGPV13-1.pdf Graphic file (type pdf)
 <use template_files/figure-latex/TOSTSGPV13-1.pdf>
 Package pdftex.def Info: template_files/figure-latex/TOSTSGPV13-1.pdf  used on 
-input line 4304.
+input line 4303.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 [116] [117pdfTeX warning (ext4): destination with the same identifier (name{fig
 ure.42}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4322 
+l.4321 
         <./template_files/figure-latex/TOSTSGPV13-1.pdf>] (./template.ent [118]
 [119]) [120]
 \openout3 = `template.ent'.
@@ -1646,45 +1646,45 @@ l.4322
 LaTeX Warning: Command \' invalid in math mode on input line 916.
 
 ) [143] [144] [145]
-Underfull \hbox (badness 1062) in paragraph at lines 5129--5135
+Underfull \hbox (badness 1062) in paragraph at lines 5128--5134
 \T1/lmr/m/n/12 kurtosis for measuring nonnormality: Prevalence, influence and e
 stimation. \T1/lmr/m/it/12 Behavior
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 5141--5148
+Underfull \hbox (badness 5460) in paragraph at lines 5140--5147
 \T1/lmr/m/n/12 of traitedness: Replication and extension with alternative measu
 rement formats
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 5141--5148
+Underfull \hbox (badness 3769) in paragraph at lines 5140--5147
 \T1/lmr/m/n/12 and cultural dimensions. \T1/lmr/m/it/12 Journal of Cross-Cultur
 al Psychology\T1/lmr/m/n/12 , \T1/lmr/m/it/12 43\T1/lmr/m/n/12 (8), 1268[]1296.
 
  []
 
 [146] [147] [148] [149]
-Underfull \hbox (badness 1067) in paragraph at lines 5376--5382
+Underfull \hbox (badness 1067) in paragraph at lines 5375--5381
 \T1/lmr/m/n/12 Monte Carlo Results in Methodological Research: The One- and Two
 -Factor Fixed
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 5376--5382
+Underfull \hbox (badness 4366) in paragraph at lines 5375--5381
 \T1/lmr/m/n/12 Effects ANOVA Cases. \T1/lmr/m/it/12 Journal of Educational Stat
 istics\T1/lmr/m/n/12 , \T1/lmr/m/it/12 17\T1/lmr/m/n/12 (4), 315[]339. []$https
  :
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 5387--5392
+Underfull \hbox (badness 1728) in paragraph at lines 5386--5391
 \T1/lmr/m/n/12 in Two-Group Comparative Bioavailability Trials. \T1/lmr/m/it/12
  Journal of Pharmacokinetics and
  []
 
 [150] [151] [152] [153] [154] [155] [156] [157] [158] [159]
-Underfull \hbox (badness 1454) in paragraph at lines 5913--5917
+Underfull \hbox (badness 1454) in paragraph at lines 5912--5916
 \T1/lmr/m/n/12 Cambridge, Massachusetts, USA: Academic press. []$https : / / do
 i . org / 10 . 1016 / B978 -[] 0 -[] 12 -[]
  []
@@ -1744,7 +1744,7 @@ lacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/Us
 ers/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb
 ><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lm
 sy8.pfb>
-Output written on template.pdf (166 pages, 3698210 bytes).
+Output written on template.pdf (166 pages, 3698207 bytes).
 PDF statistics:
  1868 PDF objects out of 2073 (max. 8388607)
  1522 compressed objects within 16 object streams
