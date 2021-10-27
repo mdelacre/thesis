@@ -12,48 +12,46 @@ header-includes:
 
 ### Erreurs conceptuelles
  
-1) **p.10**: *"the $F$-ratio statistic is obtained by computing SD2/SD1 (standard deviation ratio, SDR)"* :   
+1) **p.10**: *"the $F$-ratio statistic is obtained by computing SD2/SD1 (standard deviation ratio, SDR)"* 
 - D'abord, le ratio entre les 2 écart-types d'échantillons ne correspond pas au SDR, mais à l'**estimation** du SDR (SDR = $\frac{\sigma_2}{\sigma_1}$).  
-- Ensuite, ce n'est pas nécessairement le deuxième écart-type d'échantillon qui se trouve au numérateur, mais le plus grand des deux échantillons (si bien que le $F$-ratio est toujours supérieur à 1).  
+- Ensuite, ce n'est pas nécessairement le deuxième écart-type d'échantillon qui se trouve au numérateur, mais le plus grand des deux échantillons (si bien que le $F$-ratio est toujours supérieur à 1; Hayes & Cai, 2007).  
 
 2) \color{black}**p.10**: "When SDR = 1, the equal variances assumption is true, when SDR > 1 the standard deviation of the second ~~sample~~ \color{blue} population \color{black} is bigger than the standard deviation of the first ~~sample~~ \color{blue} population \color{black}, and when SDR < 1 the standard deviation of the second ~~sample~~ \color{blue}population \color{black} is smaller than the standard deviation of the first ~~sample~~ \color{blue} population". \color{black}
 
-3) **p.14** (partie "simulations") : *"As long as the variances are equal between ~~groups~~ \color{blue} populations \color{black} or sample sizes are equal, the distribution of Student’s $p$-values is uniform..."*. A divers endroits, j'ai remplacé le mot "groupe" par le mot "population" pour éviter toute ambiguïté. 
+3) **p.14** (partie "simulations") : *"As long as the variances are equal between ~~groups~~ \color{blue} populations \color{black} or sample sizes are equal, the distribution of Student’s $p$-values is uniform..."*. 
 
-4) **p.14** (partie "simulations") :*"Differences are small, except in three scenarios (See table A5.2, A5.5 , and A5.6 in the additionnal file)*. En réalité, la plus grande différence entre les tests se trouve en A5.7 (quand les deux populations ont une asymétrie positive) et vaut 4.29%. Dans tous les autres cas, elle est inférieure. L'erreur vient d'une erreur de codage dans les scripts impliquant des distributions double exponentielles (erreur qui a été corrigée dans la version mise à jour du Supplemental Material, en ligne). 
+Note: à divers autres endroits, j'ai remplacé le mot "groupe" par le mot "population" pour éviter toute ambiguïté (car j'utilisais parfois le mot "groupe" pour décrire les échantillons, parfois pour décrire les populations). 
+
+4) **p.14** (partie "simulations") :*"Differences are small, except in three scenarios (See table A5.2, A5.5 , and A5.6 in the additionnal file)*. En réalité, la plus grande différence entre les tests se trouve en A5.7 (quand les deux distributions présentent une asymétrie positive) et vaut 4.29%. Dans tous les autres cas, elle est inférieure. Le constat erroné d'après laquelle la différence dans les tables A5.2, A5.5 et A5.6 était plus marquée provenait d'une erreur dans mes scripts, qui a été corrigée (également sur le Supplemental Material attaché en ligne à l'article du chapitre 2). 
 
 5) **Test de Yuen**: nous sous-entendons à plusieurs reprises que le test de Yuen a un taux inacceptable d'erreur de type I lorsque les distributions de population sont asymétriques. Il s'agit d'une erreur conceptuelle qui a été expliquée dans les limites de la thèse.
 
 ### Ambiguïtés possibles
 
-1) **p.12** : *"When both variances and sample sizes are the same in each independent group, the $t$-values, degrees of freedom, and the $p$-values in Student's $t$-test and Welch's $t$-test are the same (see Table 1)."* Cette phrase peut donner l'impression que les deux statistiques mentionnées, ainsi que les degrés de liberté et $p$-valeurs qui leur sont associés sont identiques lorsqu'on travaille avec des échantillons de tailles identiques et que la condition d'homogénéité des variances est respectée, ou autrement dit, lorsque les variances de population ainsi que les tailles d'échantillon sont identiques, or, ce n'est nullement vrai. Pour calculer les statistiques $t$ de Student et $t$ de Welch ainsi que leurs degrés de liberté, on utilise les *estimations* des variances de chaque groupe, et non les variances de population. C'est donc chaque fois que l'on obtiendra des *estimations* identiques pour les variances de chaque groupe, sur base d'échantillons de taille égale, que les statistiques, leur degré de liberté et leur $p$-valeur seront identiques. Or, ceci n'est pas une information très pertinente en soi, puisqu'il arrive très fréquemment d'obtenir des estimations de variance différentes pour chaque groupe lorsque la condition d'homogénéité des variances est respectée, et qu'à l'inverse, il est possible (bien que peu probable) d'obtenir des estimations de variance identiques pour chaque groupe lorsque la condition d'homogénéité des variances n'est pas respectée.  
+1) **p.13** : *"When both variances and sample sizes are the same in each independent group, the $t$-values, degrees of freedom, and the $p$-values in Student's $t$-test and Welch's $t$-test are the same (see Table 1)."* Les statistiques, degrés de liberté et $p$-valeurs seront identiques à condition que les \color{blue} estimations de variances soient identiques \color{black} et soient obtenues sur base \color{blue} d'échantillons de tailles égales\color{black}. Or, la phrase peut donner l'impression que ces paramètres seront identiques à condition que la condition d'homoscédasticité soit respectée (ce qui n'est pas vrai). Cette information fournie dans la table est peu pertinente en soi, dans la mesure où très fréquemment, on obtiendra des estimations de variance différentes pour chaque groupe lorsque la condition d'homoscédasticité est respectée (et qu'à l'inverse, il est possible, bien que peu probable, d'obtenir des estimations de variance identiques même en cas d'hétéroscédasticité).
 
-2) **p.16** (à propos du test de Levene) : *"Because the statistical power for this test is often low, researchers will inappropriately choose Student's $t$-test instead of more robust alternatives."* Cette phrase peut amener à comprendre que si le test de Levene était toujours très puissant, il serait approprié de l'utiliser en vue de choisir entre les tests $t$ de Student et $t$ de Welch. Pourtant, privilégier le test $t$ de Student lorsque l'on ne peut rejeter l'hypothèse d'égalité des variances (autrement dit, lorsque les résultats du test de Levene sont non significatifs) reviendrait à confondre le non-rejet de l'hypothèse d'égalité des variances avec l'acceptation de l'hypothèse d'égalité des variances. Au sein du chapitre 5 dédié aux tests d'équivalence, nous avons montré que même lorsqu'on s'assure d'avoir une puissance suffisante pour détecter un effet de taille donnée, la stratégie qui consiste à interpréter le non-rejet de l'hypothèse nulle comme un soutien en faveur de l'hypothèse nulle n'est pas appropriée.  
-
-3) Pour lever toute ambiguïté possible, à divers endroits, j'ai remplacé "the assumption of equal variances" par "the assumption of equal \color{blue} **population** \color{black} variance" après avoir imprimé ma thèse. 
+2) **p.16** (à propos du test de Levene) : *"Because the statistical power for this test is often low, researchers will inappropriately choose Student's $t$-test instead of more robust alternatives."* Cette phrase peut amener à comprendre que si le test de Levene était toujours très puissant, il serait approprié de l'utiliser en vue de choisir entre les tests $t$ de Student et $t$ de Welch. Pourtant, privilégier le test $t$ de Student lorsque l'on ne peut rejeter l'hypothèse d'égalité des variances (autrement dit, lorsque les résultats du test de Levene sont non significatifs) reviendrait à confondre le non-rejet de l'hypothèse d'égalité des variances avec l'acceptation de l'hypothèse d'égalité des variances (cf. chapitre 5).
 
 ### Mise en forme et Notations
 
-1) Les lettres utilisées pour décrire les statistiques ($t$ ou $F$, par exemple) doivent toujours être inscrites en *italique*. Or, cela a été omis à plusieurs reprises dans l'article. Par exemple, il aurait fallu écrire :   
-**- p.10** : "... as the Mann-Whitney \color{blue}$U$ \color{black}-test...";   
-**- p.10** : "\color{blue}$F$ \color{black}-ratio test".
+1) Les lettres utilisées pour décrire les statistiques ($t$ ou $F$, par exemple) doivent toujours être inscrites en *italique*. Il en est de même pour les notations mathématiques. Or, cela a été omis à plusieurs reprises dans l'article. Par exemple, il aurait fallu écrire ...: 
+- **p.10** : "... as the Mann-Whitney \color{blue}$U$\color{black}-test...";   
+- **p.10** : "...the \color{blue}$F$\color{black}-ratio statistic...";   
+- **p.10** : "... $x_{ij}$" au lieu de "$\mathrm{x_{ij}}$";    
+- **p.10** : "...|$x_{ij}-\hat{\theta_j}$|" au lieu de "|$\mathrm{x_{ij}-\hat{\theta_j}}$|". 
 
-2) Certaines notations mathématiques auraient également dû être indiquées en italique. Par exemple, à la p.10, il aurait fallu écrire :     
-- "$x_{ij}$" au lieu de "$\mathrm{x_{ij}}$";  
-- |$x_{ij}-\hat{\theta_j}$| au lieu de |$\mathrm{x_{ij}-\hat{\theta_j}}$|. 
+2) Il est très important d'être consistant dans le choix des notations mathématiques, pour éviter toute confusion pour le lecteur. Or, nous ne l'avons pas toujours été. Par exemple, nous avons utilisé plusieurs notations différentes pour décrire l'écart-type et la variance : 
+- **p.10** : nous utilisons respectivement SD1 et SD2 pour décrire l'écart-type de chaque groupe;  
+- **p.12 **(équation 1) : nous utilisons respectivement $S^2_1$ et $S^2_2$ pour décrire la variance de chaque groupe, alors que nous utilisons $s^2_1$ et $s^2_2$ (lettres minuscules) dans la légende de cette formule;    
+- **p.13** (équations 3 et 4) : nous utilisons respectivement $s^2_1$ et $s^2_2$ (lettres minuscules) pour décrire la variance de chaque groupe.
 
-3) Il est très important d'être consistant dans le choix des notations mathématiques, pour éviter toute confusion pour le lecteur. Or, nous ne l'avons pas toujours été. Par exemple, nous avons utilisé plusieurs notations différentes pour décrire l'écart-type et la variance :   
-- p.10 : nous utilisons respectivement SD1 et SD2 pour décrire l'écart-type de chaque groupe;  
-- p.12 (équation 1) : nous utilisons respectivement $S^2_1$ et $S^2_2$ pour décrire la variance de chaque groupe, alors que nous utilisons $s^2_1$ et $s^2_2$ (lettres minuscules) dans la légende de cette formule;    
-- p.13 (équations 3 et 4) : nous utilisons respectivement $s^2_1$ et $s^2_2$ (lettres minuscules) pour décrire la variance de chaque groupe.
+3) On parle normalement d'erreur de type I et II. Or, dans tout l'article du chapitre 2, j'ai parlé des erreurs de type 1 et 2. Par exemple, p.13: *"An increase in the Type 1 error rate leads to an inflation of... while an increase in the Type 2 error rate..."*
 
-4) On parle normalement d'erreur de type I et II (et non d'erreur de type 1 et 2): or dans tout l'article du chapitre 2, j'ai parlé des erreurs de type 1 et 2. Par exemple, p.13: *"An increase in the Type 1 error rate leads to an inflation of... while an increase in the Type 2 error rate..."*
+### Fautes de frappe
 
-### Faute(s) de frappe
-
-- p.13 : "see ~~v~~ **Figure** 2a".
-- p.15 : "$p$-values from Welch's ~~$t$-test~~ and Student's $t$-tests, shown separately..."
-- p.16 : Note 4 : "other variants have been proposed such as the **20%** trimmed mean"
+- **p.14** : "see ~~v~~ \color{blue}Figure \color{black} 2a".
+- **p.15** : "$p$-values from Welch's ~~$t$-test~~ and Student's $t$-tests, shown separately..."
+- **p.16** : Note 4 : "other variants have been proposed such as the \color{blue}20% \color{black} trimmed mean"
 
 ### Bibliographie
 
@@ -61,16 +59,13 @@ Référence manquante: Bradley (1978).
 
 \newpage
 
-## Annexe B: erratum de l'article "Taking parametric assumptions very seriously : Arguments for the Use of Welch’s *F*-test instead of the Classical *F*-test in One-Way ANOVA" (Chapitre 3)
+## Annexe B: erratum de l'article "Taking parametric assumptions very seriously : Arguments for the Use of Welch’s *W*-test instead of the Classical *F*-test in One-Way ANOVA" (Chapitre 3)
 
 ### Erreur conceptuelle
-**p.22** : ~~Formula (7)~~ \color{blue}Equation 7 \color{black} provides the computation of the ~~W-test, or Welch’s F-test~~ \color{blue}Welch’s statistic ($W$) \color{black}
-
-**p.22** :  In the numerator of the ~~W-test~~ \color{blue}$W$ statistic,\color{black} the squared deviation between group mean
-
-- p.22 : "... negative pairings (the group with the ~~smallest~~ **largest** sample size is extracted from the population with the smallest $SD$);  
- 
-- p.27 : "Moreover, there is one constant observation in our simulations : whatever the configuration of the *n*-ratio, the consistency of the three tests is closer to zero when there is a ~~negative~~ **positive** correlation between the *SD* and the ~~mean~~ **sample size** (meaning that the **largest** group ~~with the highest mea~~ has the ~~lowe~~ **largest** variance). "
+- **p.22** : "~~Formula (7)~~ \color{blue}Equation 7 \color{black} provides the computation of the ~~W-test, or Welch’s F-test~~ \color{blue}Welch’s statistic ($W$). \color{black} In the numerator of the ~~W-test~~ \color{blue}$W$ statistic,\color{black} the squared deviation between group mean..."
+- **p.22** : "... negative pairings (the group with the ~~smallest~~ \color{blue}largest \color{black} sample size is extracted from the population with the smallest $SD$);
+- **p.25** : "... which is either more liberal or more conservative, depending on the $SDs$ and ~~$SD$~~ \color{blue}sample sizes \color{black} pairing";
+- **p.27** : "Moreover, there is one constant observation in our simulations : whatever the configuration of the *n*-ratio, the consistency of the three tests is closer to zero when there is a ~~negative~~ \color{blue}positive \color{black} correlation between the *SD* and the ~~mean~~ \color{blue}sample size \color{black} (meaning that the \color{blue}largest \color{black} group ~~with the highest mean~~ has the ~~lowest~~ \color{blue}largest \color{black} variance). "
 
 ### Mise en forme et Notations  
 
@@ -86,23 +81,19 @@ Enfin, dû à un manque de connaissance de Latex lors de mes premières tentativ
 
 ### Faute(s) de frappe et grammaire et autres
 
-p?? : "which can lead~~s~~ to asymmetry in the distribution"
-p?? : In Figure**s** 5 to 9 (see Figure 4 for the legend)
-
-- p.18 : "Although it is important to make sure ~~test~~ **that** assumptions are met";    
-- p.19 : "... we think that a ~~first~~ realistic first step towards progress would be to get researchers...";   
-- p.20 : "Based on mathematical explanations and Monte~~o~~ Carlo simulations";  
-- p.21 : "~~With~~ **w**ith $N=$...";  
-- p.21 : "~~Where~~ **w**here ~~$x_j$~~ $\bar{x_j}$ and $s^2_j$ are respectively the group mean and the group variance...";    
-- p.22 : "the type I error rate of all test**s**";
-- p.22 : " In the ~~appendix~~ Supplemental Material we illustrate the calculation of all three statistics in detail for a fictional three-group design for educational purposes."
-- p.23 : "When there are more than ~~three~~ \color{blue}two  \color{black}groups
-- p.24 : "... which is either more liberal or more conservative, depending on the $SDs$ and ~~$SD$~~ **sample sizes** pairing";  
-- p.24 : "... ~~whatever~~ the correlation between the $SD$ and the mean **does not matter**";  
+- **p20** : "which can lead~~s~~ to asymmetry in the distribution";
+- **p.20** : "... we think that a ~~first~~ realistic first step towards progress would be to get researchers...";
+- **p.21** : "Based on mathematical explanations and Monte~~o~~ Carlo simulations";
+- **p.22** : "~~With~~ \color{blue}w\color{black}ith $N=$...";
+- **p.22** : "~~Where~~ \color{blue}w\color{black}here ~~$x_j$~~ $\bar{x_j}$ and $s^2_j$ are respectively the group mean and the group variance..."; 
+- **p.23** : "the type I error rate of all test\color{blue}s\color{black}";
+- **p.23** : "When there are more than ~~three~~ \color{blue}two  \color{black}groups;
+- **p.24** : "In Figure\color{blue}s \color{black} 2 to 6 (see Figure 1 for the legend)";
+- p.24 : "... ~~whatever~~ the correlation between the $SD$ and the mean \color{blue}does not matter\color{black}";  
 
 ## Annexe C: erratum de l'article "Why Hedge's g* based on the non-pooled standard deviation should be reported with Welch's $t$-test" (Chapitre 4)
 
-- p.39: titre de la Table 1: "~~Expectency~~ **Expectation**, bias and variance of Cohen's ~~$d_s$~~ $d$"
-- p.39: dans cette même table, les incides $_s$ doivent être supprimés dans la première colonne. 
-- p.41: les mêmes remarques (concernant le titre et les indices) s'appliquent à la table 2. 
-- p.46: les mêmes remarques (concernant les indices) s'appliquent à la table 3. De plus, il convient d'écrire "~~Cohen's~~ Hedges' $g^*$".
+- **p.39**: titre de la Table 1: "~~Expectency~~ \color{blue}Expectation\color{black}, bias and variance of Cohen's ~~$d_s$~~ $d$"
+- **p.39**: dans cette même table, les indices "$_s$" doivent être supprimés dans la première colonne. 
+- **p.41**: les mêmes remarques (concernant le titre et les indices) s'appliquent à la table 2. 
+- **p.46**: les mêmes remarques (concernant les indices) s'appliquent à la table 3. De plus, il convient d'écrire "~~Cohen's~~ \color{blue}Hedges' $g^*$\color{black}".
