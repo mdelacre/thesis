@@ -114,7 +114,7 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 
 \pagenumbering{arabic}
 
-```{r intro, child = 'introduction_format Rmd_bib.Rmd'}
+```{r intro, child = 'introduction_format Rmd.Rmd'}
 ```
 
 \begingroup
@@ -126,9 +126,8 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 
 \newpage
 
-```{r chp2, child = 'chp2_format Rmd_bib.Rmd'}
+```{r chp2, child = 'chp2_format Rmd.Rmd'}
 ```
-\newpage
 \begingroup
 \parindent 0pt
 \renewcommand\notesname{{\normalsize Endnotes}}
@@ -137,12 +136,12 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 \endgroup
 \newpage
 
-```{r chp3, child = 'chp3_format Rmd_bib.Rmd'}
+```{r chp3, child = 'chp3_format Rmd.Rmd'}
 ```
 
 \newpage
 
-```{r chp4, child = 'chp4_format Rmd_bib.Rmd'}
+```{r chp4, child = 'chp4_format Rmd.Rmd'}
 ```
 
 \begingroup
@@ -154,7 +153,7 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 
 \newpage
 
-```{r chp5, child = 'chp5_format Rmd_bib.Rmd'}
+```{r chp5, child = 'chp5_format Rmd.Rmd'}
 ```
 
 \parindent 0pt
@@ -162,7 +161,7 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 \parskip 2ex
 \theendnotes
 \newpage
-```{r conclusion, child = 'conclusion_format Rmd_bib.Rmd'}
+```{r conclusion, child = 'conclusion_format Rmd.Rmd'}
 ```
 \begingroup
 \parindent 0pt

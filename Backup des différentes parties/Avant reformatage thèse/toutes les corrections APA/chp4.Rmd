@@ -8,23 +8,28 @@ output:
 header-includes:
   - \usepackage{float}
   - \usepackage{sectsty}
+  - \usepackage{lscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+
 ---
 # Chapitre 4 : Utiliser le $\bm{g^*}$ de Hedges basé sur l'écart-type non poolé
 
 ```{r setup, include = FALSE}
 library("papaja")
 library("knitr")
-render_appendix("appendix.Rmd")
+#render_appendix("appendix.Rmd")
 #update.packages(ask = FALSE)
 #devtools::install_github("crsh/papaja@devel") 
 ```
 
 ```{r "chp4title", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="150%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/title.png")
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/title.png")
 ```
 
+
 ```{r "chp4authornote", fig.align='center', fig.cap=NULL,echo=FALSE,out.width="150%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/thesis/Chapitre 4/authornote.png")
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/authornote.png")
 ```
 **Commentaire** : l'article présenté dans ce chapitre n'a pas encore été accepté pour publication. 
 
@@ -362,17 +367,17 @@ After these general remarks, we will analyze each condition separately. In all F
 
 ```{r "ESgdnsoutputs",echo=FALSE}
 # G1=0; G2=0
-output_normal <- read.table("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Data summary/Unbiased estimators/G1=0,G2=0_unbiasedest_properties.txt",sep=";",dec=",")
+output_normal <- read.table("C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Quality of ES measures/Data summary/Unbiased estimators/G1=0,G2=0_unbiasedest_properties.txt",sep=";",dec=",")
 # Remove all "Inf" and "-Inf" in the output
 output_normal[output_normal=="-Inf"|output_normal=="Inf"]=NA # max(output_normal$relbias_Hedge,na.rm=TRUE)
 # G1=0; G2 = 95.75
-output_heavytails <- read.table("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Data summary/Unbiased estimators/G1=0,G2=95.75_unbiasedest_properties.txt",sep=";",dec=",")
+output_heavytails <- read.table("C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Quality of ES measures/Data summary/Unbiased estimators/G1=0,G2=95.75_unbiasedest_properties.txt",sep=";",dec=",")
 output_heavytails[output_heavytails=="-Inf"|output_heavytails=="Inf"]=NA # max(output_heavytails$relbias_Hedge,na.rm=TRUE)
 # G1=-2.08; G2 = 95.75
-output_leftskewed <- read.table("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Data summary/Unbiased estimators/G1=2.08,G2=95.75_unbiasedest_properties.txt",sep=";",dec=",")
+output_leftskewed <- read.table("C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Quality of ES measures/Data summary/Unbiased estimators/G1=2.08,G2=95.75_unbiasedest_properties.txt",sep=";",dec=",")
 output_leftskewed[output_leftskewed=="-Inf"|output_leftskewed=="Inf"]=NA # max(output_leftskewed$relbias_Hedge,na.rm=TRUE)
 # G1=6.32; G2 = 95.75
-output_rightskewed <- read.table("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Data summary/Unbiased estimators/G1=6.32,G2=95.75_unbiasedest_properties.txt",sep=";",dec=",")
+output_rightskewed <- read.table("C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Quality of ES measures/Data summary/Unbiased estimators/G1=6.32,G2=95.75_unbiasedest_properties.txt",sep=";",dec=",")
 output_rightskewed[output_rightskewed=="-Inf"|output_rightskewed=="Inf"]=NA # max(output_rightskewed$relbias_Hedge,na.rm=TRUE)
 #---------------------------------------------------------------------------------------------------------------------------
 # Select only rows from a specific condition
@@ -423,14 +428,14 @@ We will observe that Glass's $g$ should always be avoided when the equality of v
 \newpage
 
 ```{r "idHombal", echo=FALSE, fig.cap="Bias and efficiency of estimators of standardized mean difference, when variances and sample sizes are equal across groups (condition a)",fig.show='hold',fig.align='center',out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Hom_bal.png")
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Hom_bal.png")
 ```
 \elandscape
 \newpage
 \blandscape
 
 ```{r "idHomunbal",echo=FALSE, fig.cap="Bias and efficiency of estimators of standardized mean difference, when variances are equal across groups and sample sizes are unequal (condition b)",fig.show='hold',fig.align='center',out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Hom_unbal.png")
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Hom_unbal.png")
 ```
 
 \elandscape
@@ -451,7 +456,7 @@ We will observe that when variances are unequal across populations, Glass's $g$ 
 \newpage
 
 ```{r "idHetbal1", echo=FALSE, fig.cap="Bias and efficiency of estimators of standardized mean difference, when variances are unequal across groups and sample sizes are equal (condition c), as a function of sample sizes",fig.show='hold',fig.align='center',out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_bal_N.png")
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_bal_N.png")
 ```
 
 \elandscape
@@ -459,7 +464,7 @@ knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/S
 \blandscape
 
 ```{r "idHetbal2", echo=FALSE, fig.cap="Bias and efficiency of estimators of standardized mean difference, when variances are unequal across groups and sample sizes are equal (condition c) as a function of the $SD$-ratio (when $n_1=n_2=20$)",fig.show='hold',fig.align='center',out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_bal_sd.png")
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_bal_sd.png")
 ```
 
 \elandscape
@@ -474,7 +479,7 @@ Figures \ref{fig:idHetunbal1} to \ref{fig:idHetunbal4} are dedicated to scenario
 \newpage
 
 ```{r "idHetunbal1", echo=FALSE, fig.cap="Bias and efficiency of estimators of standardized mean difference, when variances and sample sizes are unequal across groups (condition d), and $\\sigma_1$ is 10 times larger than $\\sigma_2$",fig.show='hold',fig.align='center',out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_firstlarger_SDR10.png")
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_firstlarger_SDR10.png")
 ```
 
 \elandscape
@@ -482,7 +487,7 @@ knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/S
 \blandscape
 
 ```{r "idHetunbal2", echo=FALSE, fig.cap="Bias and efficiency of estimators of standardized mean difference, when variances and sample sizes are unequal across groups (condition d), and $\\sigma_2$ is 10 times larger than $\\sigma_1$",fig.show='hold',fig.align='center',out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_firstsmaller_SDR10.png")
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_firstsmaller_SDR10.png")
 ```
 
 \elandscape
@@ -490,7 +495,7 @@ knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/S
 \blandscape
 
 ```{r "idHetunbal3", echo=FALSE, fig.cap="Bias and efficiency of estimators of standardized mean difference, when variances and sample sizes are unequal across groups (condition d), and $\\sigma_1$ is twice larger than $\\sigma_2$",fig.show='hold',fig.align='center',out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_firstlarger_SDR2.png")
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_firstlarger_SDR2.png")
 ```
 
 \elandscape
@@ -498,7 +503,7 @@ knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/S
 \blandscape
 
 ```{r "idHetunbal4", echo=FALSE, fig.cap="Bias and efficiency of estimators of standardized mean difference, when variances and sample sizes are unequal across groups (condition d), and $\\sigma_2$ is twice larger than $\\sigma_1$",fig.show='hold',fig.align='center',out.width="100%"}
-knitr::include_graphics("C:/Users/Admin/Documents/Github projects/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_firstsmaller_SDR2.png")
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/Effect-sizes/Scripts outputs/Quality of ES measures/Graphs/Unbiased estimators/Combined Figures_relative quality/Het_firstsmaller_SDR2.png")
 ```
 
 \elandscape

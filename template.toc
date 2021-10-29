@@ -2,12 +2,12 @@
 \setcounter {tocdepth}{1}
 \contentsline {section}{Chapitre 1 : Introduction}{1}{section*.3}%
 \contentsline {section}{Chapitre 2 : Utiliser le test \(\bf \emph t\) de Welch}{9}{section*.5}%
-\contentsline {subsection}{Limitations of Two-Step Procedures}{10}{section*.6}%
+\contentsline {subsection}{Limitations of Two-Step Procedures}{11}{section*.6}%
 \contentsline {subsection}{Different ways to test for equal population variances}{11}{section*.7}%
-\contentsline {subsection}{Homogeneity of Variance Assumptions}{14}{section*.8}%
-\contentsline {subsection}{The Mathematical Differences Between Student's \(\bm {t}\)-test and Welch's \(\bm {t}\)-test}{16}{section*.9}%
-\contentsline {subsection}{Simulations : Error Rates for Student's \(t\)-test versus Welch's \(t\)-test}{18}{section*.10}%
-\contentsline {subsection}{Conclusion}{22}{section*.11}%
+\contentsline {subsection}{Homogeneity of Variance Assumptions}{15}{section*.8}%
+\contentsline {subsection}{The Mathematical Differences Between Student's \(\bm {t}\)-test and Welch's \(\bm {t}\)-test}{17}{section*.9}%
+\contentsline {subsection}{Simulations : Error Rates for Student's \(t\)-test versus Welch's \(t\)-test}{19}{section*.10}%
+\contentsline {subsection}{Conclusion}{23}{section*.11}%
 \contentsline {section}{Chapitre 3 : Utiliser l'ANOVA \(\bf \emph W\) de Welch}{25}{section*.13}%
 \contentsline {subsection}{Normality and Homogeneity of variances under Ecological Conditions}{27}{section*.14}%
 \contentsline {subsection}{Normality Assumption}{27}{section*.15}%
@@ -36,20 +36,20 @@
 \contentsline {paragraph}{Assessing the bias, efficiency and consistency of 5 estimators}{73}{section*.38}%
 \contentsline {subparagraph}{Method}{73}{section*.39}%
 \contentsline {subparagraph}{Results}{75}{section*.40}%
-\contentsline {subsubsection}{Recommendations}{84}{section*.41}%
-\contentsline {section}{Chapitre 5 : Les tests d'équivalence}{87}{section*.43}%
-\contentsline {subsection}{Limites de l'approche traditionnelle}{88}{section*.44}%
-\contentsline {subsection}{Les tests d'équivalence}{91}{section*.45}%
-\contentsline {subsection}{Définir les bornes de la zone d'équivalence}{94}{section*.46}%
-\contentsline {subsection}{Comparaison du TOST et du SGPV}{97}{section*.47}%
-\contentsline {subsubsection}{The relationship between \emph {p}-values from TOST and SGPV when confidence intervals are symmetrical}{99}{section*.48}%
-\contentsline {paragraph}{SGPV as a uniform measure of overlap}{102}{section*.49}%
-\contentsline {paragraph}{When different \emph {p}-values for equivalence tests yield the same SGPV}{105}{section*.50}%
-\contentsline {paragraph}{The relation between equivalence tests and SGPV for asymmetrical confidence intervals around correlations}{111}{section*.51}%
-\contentsline {paragraph}{What are the Relative Strengths and Weaknesses of Equivalence Testing and the SGPV?}{115}{section*.52}%
-\contentsline {subsubsection}{Conclusion}{118}{section*.53}%
-\contentsline {section}{Chapitre 6 : Discussion générale et conclusion}{121}{section*.55}%
-\contentsline {subsection}{Objectifs de départ, résumé et apports de la thèse}{121}{section*.56}%
-\contentsline {subsection}{Limites}{128}{section*.57}%
-\contentsline {subsection}{Perspectives futures}{130}{section*.58}%
-\contentsline {section}{Bibliographie}{144}{section*.60}%
+\contentsline {subsubsection}{Recommendations}{88}{section*.41}%
+\contentsline {section}{Chapitre 5 : Les tests d'équivalence}{91}{section*.43}%
+\contentsline {subsection}{Limites de l'approche traditionnelle}{92}{section*.44}%
+\contentsline {subsection}{Les tests d'équivalence}{95}{section*.45}%
+\contentsline {subsection}{Définir les bornes de la zone d'équivalence}{98}{section*.46}%
+\contentsline {subsection}{Comparaison du TOST et du SGPV}{102}{section*.47}%
+\contentsline {subsubsection}{The relationship between \emph {p}-values from TOST and SGPV when confidence intervals are symmetrical}{104}{section*.48}%
+\contentsline {paragraph}{SGPV as a uniform measure of overlap}{106}{section*.49}%
+\contentsline {paragraph}{When different \emph {p}-values for equivalence tests yield the same SGPV}{110}{section*.50}%
+\contentsline {paragraph}{The relation between equivalence tests and SGPV for asymmetrical confidence intervals around correlations}{117}{section*.51}%
+\contentsline {paragraph}{What are the Relative Strengths and Weaknesses of Equivalence Testing and the SGPV?}{121}{section*.52}%
+\contentsline {subsubsection}{Conclusion}{124}{section*.53}%
+\contentsline {section}{Chapitre 6 : Discussion et conclusion générale}{127}{section*.55}%
+\contentsline {subsection}{Objectifs de départ, résumé et apports de la thèse}{127}{section*.56}%
+\contentsline {subsection}{Limites et perspectives futures}{135}{section*.57}%
+\contentsline {subsection}{Conclusion générale}{140}{section*.58}%
+\contentsline {section}{Bibliographie}{145}{section*.60}%
