@@ -175,3 +175,9 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 
 ```{r biblio, child = 'bibliography.Rmd'}
 ```
+
+\newpage
+\doublespacing
+
+```{r annexes, child = 'appendixthese.Rmd'}
+cha```

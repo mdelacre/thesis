@@ -5,7 +5,9 @@ output:
 header-includes:
   - \usepackage{bm}
 ---
-# Appendix 1: The Mathematical Development of the $\bm{F}$-test, $\bm{W}$-test, and $\bm{F^*}$-test: Numerical Example 
+# Annexes du Chapitre 3 
+
+## Appendix 1 : The Mathematical Development of the $\bm{F}$-test, $\bm{W}$-test, and $\bm{F^*}$-test: Numerical Example 
 
 Descriptive statistics are presented in Table A1. The raw data are available here : https://github.com/mdelacre/W-ANOVA/tree/master/Functions (see "practical example.R"). The dependent variable is a score that can vary from 0 to 40. The independent variable is a three-level factor A (levels = $A_1$, $A_2$ and $A_3$). 
 
@@ -43,7 +45,6 @@ $$
 $$
 df_d=`r N`-`r k`=`r N-k`
 $$
-
 The $F^*$-test statistic and his degrees of freedom are computed by applying equation (2) and related degrees of freedom : 
 
 $$
@@ -80,7 +81,7 @@ $$
 One should notice that in this example, the biggest sample size has the biggest variance. As previously mentioned, it means that the *F*-test will be too conservative, because the *F* value decreases. The *F*\*-test will also be a little too conservative, even if the test is less affected than the *F*-test. As a consequence: $W$ > $F^*$ > $F$. 
 
 \newpage
-## Appendix 2: Justification for the choice of distributions in simulations
+## Appendix 2 : Justification for the choice of distributions in simulations
 
 The set of simulations described in the article was repeated for 7 distributions. We used R commands to generate data from different distributions:
 
@@ -175,3 +176,5 @@ knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/thesis/Chapi
 knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 3/Appendix figures/6_chisquared.png")
 
 ```
+
+# Annexes du Chapitre 4 

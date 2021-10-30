@@ -4,7 +4,7 @@ output:
   papaja::apa6_pdf:
     includes:
       extra_dependencies: ["float"]
-            after_body: "Appendix_chp3.tex"
+            after_body: "Appendix_chp3.pdf"
 
 header-includes:
   - \usepackage{float}

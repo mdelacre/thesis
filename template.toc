@@ -53,3 +53,10 @@
 \contentsline {subsection}{Limites et perspectives futures}{134}{section*.57}%
 \contentsline {subsection}{Conclusion générale}{139}{section*.58}%
 \contentsline {section}{Bibliographie}{144}{section*.60}%
+\contentsline {section}{Annexes}{154}{section*.61}%
+\contentsline {subsection}{Annexes du Chapitre 3}{154}{section*.62}%
+\contentsline {subsubsection}{Appendix 1 : The Mathematical Development of the \(\bm {F}\)-test, \(\bm {W}\)-test, and \(\bm {F^*}\)-test: Numerical Example}{154}{section*.63}%
+\contentsline {subsubsection}{Appendix 2 : Justification for the choice of distributions in simulations}{156}{section*.64}%
+\contentsline {subsection}{Annexes du Chapitre 4}{161}{section*.65}%
+\contentsline {subsubsection}{Appendix 1 : The bias of Cohen's \(\bm {d}\) is twice as large as the bias of Shieh's \(\bm {d}\) when population variances and sample sizes are equal across groups: mathematical demonstration.}{161}{section*.66}%
+\contentsline {subsubsection}{Appendix 2 : The variance of Cohen's \(\bm {d}\) is four times larger than the bias of Shieh's \(\bm {d}\) when population variances and sample sizes are equal across groups: mathematical demonstration.}{163}{section*.67}%
