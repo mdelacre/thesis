@@ -1,0 +1,343 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biascohendNsize2-1.pdf}
+\caption{\label{fig:biascohendNsize2}Degrees of freedom (DF) and \(\gamma\), when computing the bias of Cohen's \(d\), when variances are equal across groups, as a function of the total sample size (\(N\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biasGlassctrlsize2-1.pdf}
+\caption{\label{fig:biasGlassctrlsize2}Degrees of freedom (DF) and \(\gamma\), when computing the bias of Glass's \(d\), when variances are equal across groups, as a function of \(n_c\) (top) and \(n_e\) (bottom).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biascohendprimehomNratio2-1.pdf}
+\caption{\label{fig:biascohendprimehomNratio2}Degrees of freedom (DF) and \(\gamma\), when computing the bias of Cohen's \(d^*\), when variances are equal across groups, as a function of the logarithm of the sample sizes ratio \(log\left(\frac{n_2}{n_1} \right)\).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biascohendprimehomNsize2-1.pdf}
+\caption{\label{fig:biascohendprimehomNsize2}Degrees of freedom (DF) and \(\gamma\), when computing the bias of Cohen's \(d^*\), when variances are equal across groups, as a function of the total sample size (\(N\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biascohendprimehetbalSDratio2-1.pdf}
+\caption{\label{fig:biascohendprimehetbalSDratio2}Degrees of freedom (DF) and \(\gamma\), when computing the bias of Cohen's \(d^*\), when variances are unequal across groups and sample sizes are equal, as a function of the logarithm of the \(SD\)-ratio (\(log \left( \frac{\sigma_2}{\sigma_1} \right)\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biascohendprimehetbalNsize2-1.pdf}
+\caption{\label{fig:biascohendprimehetbalNsize2}Degrees of freedom (DF) and \(\gamma\), when computing the bias of Cohen's \(d^*\), when variances are unequal across groups and sample sizes are equal, as a function of the total sample size (\(N\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biascohendprimehetbalvariance2-1.pdf}
+\caption{\label{fig:biascohendprimehetbalvariance2}Degrees of freedom (DF) and \(\gamma\), when computing the bias of Cohen's \(d^*\), when variances are unequal across groups and sample sizes are equal, as a function of \(\sigma_1\) (top plots) and \(\sigma_2\) (bottom plots), for a constant \(SD\)-ratio.}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biascohendprimehetunbalNsize2-1.pdf}
+\caption{\label{fig:biascohendprimehetunbalNsize2}Degrees of freedom (DF) and \(\gamma\), when computing the bias of Cohen's \(d^*\), when variances and sample sizes are unequal across groups, as a function of the total sample size (\(N\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biascohendprimehetunbalnratiosdratio2-1.pdf}
+\caption{\label{fig:biascohendprimehetunbalnratiosdratio2}Degrees of freedom (\(DF\)) and \(\gamma\), when computing the bias of Cohen's \(d^*\) when variances and sample sizes are unequal across groups, as a function of the logarithm of the sample sizes ratio (\(log \left( \frac{n_2}{n_1} \right)\)), when \(SD\)-ratio equals .68 (first row), .29 (second row) or .14 (third row).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/dfnumdenomcohendprimehetunbalnratiosdratio2-1.pdf}
+\caption{\label{fig:dfnumdenomcohendprimehetunbalnratiosdratio2}Numerator and denominator of the degrees of freedom (\(DF\)) computation, when computing the bias of Cohen's \(d^*\) when variances and sample sizes are unequal across groups, as a function of the logarithm of the sample sizes ratio (\(log \left( \frac{n_2}{n_1} \right)\)), when \(SD\)-ratio equals .68 (first row), .29 (second row) or .14 (third row).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biascohendprimehetunbalvariance2-1.pdf}
+\caption{\label{fig:biascohendprimehetunbalvariance2}Degrees of freedom (DF) and \(\gamma\), when computing the bias of Cohen's \(d^*\), when variances and sample sizes are unequal across groups, as a function of \(\sigma= \frac{(\sigma_1^2+\sigma_2^2)}{2}\), for a constant \(SD\)-ratio.}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biasshiehhomNratio2-1.pdf}
+\caption{\label{fig:biasshiehhomNratio2}Degrees of freedom (DF) and \(\gamma\), when computing the bias of Shieh's \(d\), when variances are equal across groups, as a function of the logarithm of the sample sizes ratio \((log \left(\frac{n_2}{n_1})\right)\).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biasshiehhomNsize2-1.pdf}
+\caption{\label{fig:biasshiehhomNsize2}Degrees of freedom (DF) and \(\gamma\), when computing the bias of Shieh's \(d\), when variances are equal across groups, as a function of the total sample size (\(N\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biasshiehhomuneqNsize2-1.pdf}
+\caption{\label{fig:biasshiehhomuneqNsize2}Degrees of freedom (DF), when computing the bias of Shieh's \(d\), when variances are equal across groups, when adding subjects only in the first group (left) or in the second group (right).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biasshiehhetbalSDratio2-1.pdf}
+\caption{\label{fig:biasshiehhetbalSDratio2}Degrees of freedom (DF) and \(\gamma\), when computing the bias of Shieh's \(d\), when variances are unequal across groups and sample sizes are equal, as a function of the logarithm of the \(SD\)-ratio \((log \left(\frac{\sigma_2}{\sigma_1})\right)\).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biasshiehhetbalNsize2-1.pdf}
+\caption{\label{fig:biasshiehhetbalNsize2}Degrees of freedom (DF) and \(\gamma\), when computing the bias of Shieh's \(d\), when variances are unequal across groups and sample sizes are equal, as a function of the total sample size (\(N\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biasshiehhetbalvariance2-1.pdf}
+\caption{\label{fig:biasshiehhetbalvariance2}Degrees of freedom (DF) and \(\gamma\), when computing the bias of Shieh's \(d\), when variances are unequal across groups and sample sizes are equal, as a function of \(\sigma_1\), for a constant \(SD\)-ratio.}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biasshiehhetunbalNsize2-1.pdf}
+\caption{\label{fig:biasshiehhetunbalNsize2}Degrees of freedom (DF) and \(\gamma\), when computing the bias of Shieh's \(d\), when variances and sample sizes are unequal across groups, as a function of the total sample size (\(N\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biasshiehhetuneqNsize2-1.pdf}
+\caption{\label{fig:biasshiehhetuneqNsize2}Degrees of freedom (DF), when computing the bias of Shieh's \(d\), when variances and sample sizes are unequal across groups, as a function of the total sample size, when adding subjects only in one group (either in the first group; see top plots; or in the second group; see bottom plots), and \(\sigma_1 > \sigma_2\) (left plots) or \(\sigma_1 < \sigma_2\) (right plots).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biasshiehhetunbaldfandvar-1.pdf}
+\caption{\label{fig:biasshiehhetunbaldfandvar}Degrees of freedom (\(DF\)) and \(\gamma\), when computing the bias of Shieh's \(d\), when variances and sample sizes are unequal across groups, as a function of the logarithm of the sample sizes ratio (\(log \left( \frac{n_2}{n_1} \right)\)), when \(SD\)-ratio equals .68 (first row), .29 (second row) or .14 (third row).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/biasshiehhetunbalvariance2-1.pdf}
+\caption{\label{fig:biasshiehhetunbalvariance2}Degrees of freedom (DF) and \(\gamma\), when computing the bias of Shieh's \(d\), when variances and sample sizes are unequal across groups, as a function of \(\sigma_1\) and \(\sigma_2\), for a constant \(SD\)-ratio.}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varcohendNsize2-1.pdf}
+\caption{\label{fig:varcohendNsize2}Variance of Cohen's \(d\), when variances are equal across groups, as a function of the total sample size (\(N\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varcohenNratio2-1.pdf}
+\caption{\label{fig:varcohenNratio2}Variance of Cohen's \(d\), when variances are equal across groups, as a function of the logarithm of the sample sizes ratio (\(log\left(\frac{n_2}{n_1} \right)\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/ESmoderatorcohenNsize2-1.pdf}
+\caption{\label{fig:ESmoderatorcohenNsize2}Effect size moderator, when computing the variance of Cohen's \(d\), as a function of \(n_1\) (left), \(n_2\) (center) and \(N=n_1+n_2\) (right).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varglassNsize2-1.pdf}
+\caption{\label{fig:varglassNsize2}Variance of Glass's \(d\), when variances are equal across groups, as a function of the total sample size (\(N\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varglasshomNratio2-1.pdf}
+\caption{\label{fig:varglasshomNratio2}Variance of Glass's \(d\), when variances are equal across groups, as a function of the logarithm of the sample sizes ratio (\(log\left(\frac{n_c}{n_e} \right)\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/ESmoderatorGlassNsize2-1.pdf}
+\caption{\label{fig:ESmoderatorGlassNsize2}Effect size moderator, when computing the variance of Glass's \(d\), as a function of the size of the control group (left) and experimental group (right).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varglasshomNratiobis2-1.pdf}
+\caption{\label{fig:varglasshomNratiobis2}Variance of Glass's \(d\), when variances are equal across groups, as a function of the logarithm of the sample sizes ratio (\(log\left(\frac{n_c}{n_e} \right)\)) when \(\delta_{Glass}\) equals 4 (left) or 7 (right).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varglassHetbalNsize2-1.pdf}
+\caption{\label{fig:varglassHetbalNsize2}Variance of Glass's \(d\), when variances are unequal across groups and sample sizes are equal, as a function of the total sample sizes (\(N\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varglasshetbalSDratio2-1.pdf}
+\caption{\label{fig:varglasshetbalSDratio2}Variance of Glass's \(d\), when variances are unequal across groups and sample sizes are equal, as a function of the logarithm of the \(SD\)-ratio (\(log \left( \frac{\sigma_c}{\sigma_e} \right)\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varglassHetunbalNsize2-1.pdf}
+\caption{\label{fig:varglassHetunbalNsize2}Variance of Glass's \(d\), when variances and sample sizes are unequal across groups, as a function of the total sample sizes, when increasing only the control (right) or the experimental (left) group, when \(\sigma_c > \sigma_e\) (top plots) or \(\sigma_c < \sigma_e\) (bottom plots).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varglasshetunbalSDratio2-1.pdf}
+\caption{\label{fig:varglasshetunbalSDratio2}Variance of Glass's \(d\), when sample sizes and variances are unequal across groups, as a function of the logarithm of the \(SD\)-ratio (\(log \left( \frac{\sigma_c}{\sigma_e} \right)\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varcohendprimeHomNratio2-1.pdf}
+\caption{\label{fig:varcohendprimeHomNratio2}Variance of Cohen's \(d^*\) when variances are equal across groups, as a function of the logarithm of the sample sizes ratio (\(log\left(\frac{n_2}{n_1} \right)\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varcohendprimehomNsize2-1.pdf}
+\caption{\label{fig:varcohendprimehomNsize2}Variance of Cohen's \(d^*\) when variances are equal across groups, as a function of the total sample size (\(N\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/ESmoderator2-1.pdf}
+\caption{\label{fig:ESmoderator2}Effect size moderator (for all estimators), as a function of the degrees of freedom.}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varcohendprimehetbalSDratio2-1.pdf}
+\caption{\label{fig:varcohendprimehetbalSDratio2}Variance of Cohen's \(d^*\) when variances are unequal across groups and sample sizes are equal, as a function of the logarithm of the \(SD\)-ratio (\(log \left( \frac{\sigma_2}{\sigma_1} \right)\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varcohendprimehetbalNsize2-1.pdf}
+\caption{\label{fig:varcohendprimehetbalNsize2}Variance of Cohen's \(d^*\) when variances are unequal across groups and sample sizes are equal, as a function of the total sample size (\(N\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varcohendprimehetbalvariance2-1.pdf}
+\caption{\label{fig:varcohendprimehetbalvariance2}Variance of Cohen's \(d^*\), when variances are unequal across groups and sample sizes are equal, as a function of \(\sigma_1\) and \(\sigma_2\), for a constant \(SD\)-ratio.}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varcohendprimehetunbalNsize2-1.pdf}
+\caption{\label{fig:varcohendprimehetunbalNsize2}Variance of Cohen's \(d^*\) when variances and sample sizes are unequal across groups, as a function of the total sample size (\(N\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varcohendprimehetunbalnratiosdratio2-1.pdf}
+\caption{\label{fig:varcohendprimehetunbalnratiosdratio2}The variance of Cohen's \(d^*\), when variances and sample sizes are unequal across groups, as a function of the logarithm of the sample sizes ratio (\(log \left( \frac{n_2}{n_1} \right)\)), when \(SD\)-ratio equals .68 (first row), .29 (second row) or .14 (third row).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varcohendprimehetunbalvariance2-1.pdf}
+\caption{\label{fig:varcohendprimehetunbalvariance2}Variance of Cohen's \(d^*\), when variances and sample sizes are unequal across groups, as a function of \(\sigma_1\) and \(\sigma_2\), for a constant \(SD\)-ratio.}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varshiehHomNratio2-1.pdf}
+\caption{\label{fig:varshiehHomNratio2}Variance of Shieh's \(d\) when variances are equal across groups, as a function of the logarithm of the sample sizes ratio (\(log\left(\frac{n_2}{n_1} \right)\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varshiehhomNsize2-1.pdf}
+\caption{\label{fig:varshiehhomNsize2}Variance of Shieh's \(d\) when variances are equal across groups, as a function of the total sample size (\(N\)), for a constant sample sizes ratio (\(log\left(\frac{n_2}{n_1} \right)\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varshiehhomNsize4-1.pdf}
+\caption{\label{fig:varshiehhomNsize4}Variance of Shieh's \(d\) when variances are equal across groups, as a function of the total sample size (\(N\)), when adding subjects only in one group (either in the first group; see top plots; or in the second group; see bottom plots).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varshiehhetbalSDratio2-1.pdf}
+\caption{\label{fig:varshiehhetbalSDratio2}Variance of Shieh's \(d\) when variances are unequal across groups and sample sizes are equal, as a function of the logarithm of the \(SD\)-ratio (\(log \left( \frac{\sigma_2}{\sigma_1} \right)\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varshiehhetbalNsize2-1.pdf}
+\caption{\label{fig:varshiehhetbalNsize2}Variance of Shieh's \(d\) when variances are unequal across groups and sample sizes are equal, as a function of the total sample size (\(N\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varshiehhetbalvariance2-1.pdf}
+\caption{\label{fig:varshiehhetbalvariance2}Variance of Shieh's \(d\), when variances are unequal across groups and sample sizes are equal, as a function of \(\sigma_1\) and \(\sigma_2\), for a constant \(SD\)-ratio.}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varshiehhetunbalNsize2-1.pdf}
+\caption{\label{fig:varshiehhetunbalNsize2}Variance of Shieh's \(d\) when variances and sample sizes are unequal across groups, as a function of the total sample size (\(N\)), for a constant sample sizes ratio (\(log\left(\frac{n_2}{n_1} \right)\)).}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{SupMat1_files/figure-latex/varshiehhetunbalNsize4-1.pdf}
+\caption{\label{fig:varshiehhetunbalNsize4}Variance of Shieh's \(d\) when variances and sample sizes are unequal across groups, as a function of the total sample size (\(N\)), when adding subjects only in one group (either in the first group; see left plots; or in the second group; see right plots), and \(\sigma_1 > \sigma_2\) (top plots) or \(\sigma_1 < \sigma_2\) (bottom plots).}
+\end{figure*}

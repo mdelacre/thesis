@@ -1,0 +1,140 @@
+---
+title             : "Reminder about Confidence Intervals"
+shorttitle        : "CI REMINDER"
+
+author: 
+  - name          : "Marie Delacre" 
+    affiliation   : "1"
+    corresponding : yes    
+    address       : "CP191, avenue F.D. Roosevelt 50, 1050 Bruxelles"
+    email         : "marie.delacre@ulb.be"
+  - name          : "Daniel Lakens"
+    affiliation   : "2"
+  - name          : "Christophe Ley"
+    affiliation   : "3"
+  - name          : "Limin Liu"
+    affiliation   : "3"
+  - name          : "Christophe Leys"
+    affiliation   : "1"
+    
+affiliation:
+  - id            : "1"
+    institution   : "Université Libre de Bruxelles, Service of Analysis of the Data (SAD), Bruxelles, Belgium"
+  - id            : "2"
+    institution   : "Eindhoven University of Technology, Human Technology Interaction Group, Eindhoven, the Netherlands"
+  - id            : "3"
+    institution   : "Universiteit Gent, Department of Applied Mathematics, Computer Science and Statistics, Gent, Belgium"
+
+authornote: |
+
+abstract: |
+
+wordcount         : "273"
+bibliography      : ["r-references.bib"]
+floatsintext      : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : yes
+mask              : yes
+draft             : no
+
+documentclass     : "apa6"
+classoption       : "man"
+output            : papaja::apa6_pdf
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+library("moments")
+```
+
+```{r analysis-preferences}
+# Seed for random number generation
+set.seed(42)
+knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
+```
+
+### How to compute a confidence interval around a point estimator
+
+As illustration, we will explain how to compute a confidence interval around Cohen's $d$ (the explanation would be very similar for all other estimators). Under the assumption of iid normal distribution of residuals with equal population variances across groups, in order to test the null hypothesis that $\mu_1-\mu_2= (\mu_1-\mu_2)_0$, we can compute the following quantity:
+\begin{equation*} 
+t_{Student}=\frac{(\bar{X_1}-\bar{X_2})-(\mu_1-\mu_2)_0}{SE}
+(\#eq:tstudent)
+\end{equation*} 
+with $SE = S_{pooled} \times \sqrt{\frac{1}{n_1}+\frac{1}{n_2}}$, $S_{pooled} = \sqrt{\frac{(n_1-1) \times S^2_1+(n_2-1)\times S^2_2}{n_1+n_2-2}}$ and $S_j$ = the standard deviation of the $j^{th}$ sample ($j=1,2$). Under the null hypothesis, this quantity will follow a central *t*-distribution with $n_1+n_2-2$ degrees of freedom. However, when the null hypothesis is false, the distribution of this quantity is not centered and a noncentral *t*-distribution arises [@Cumming_Finch_2001], as illustrated in Figure \ref{fig:SAMPLMEANDIFF3}. Noncentral *t*-distributions are described by two parameters: degrees of freedom ($df$) and noncentrality parameter [that we will call $\Delta$, @Cumming_Finch_2001], the last being a function of the population effect size ($\delta$) and sample sizes ($n_1$ and $n_2$):
+\begin{equation*}
+\Delta = \frac{\delta}{\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}
+(\#eq:ncp)
+\end{equation*} 
+with $\delta=\frac{(\mu_1-\mu_2)-(\mu_1-\mu_2)_0}{\sigma_{pooled}}$, $\sigma_{pooled} = \sqrt{\frac{(n_1-1) \times \sigma^2_1+(n_2-1)\times \sigma^2_2}{n_1+n_2-2}}$ and $\sigma_j$ = the standard deviation of the $j^{th}$ population ($j=1,2$). Considering the link between $\Delta$ and $\delta$, it is possible to compute confidence limits for $\Delta$ and multiply them by $\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}$ in order to have confidence limits for $\delta$. In other words, we first need to determine the noncentrality parameters of the *t*-distributions for which $t_{Student}$ corresponds respectively to  the quantiles $\left(1-\frac{\alpha}{2}\right)$ and $\frac{\alpha}{2}$: 
+$$P[t_{df, \Delta_L} \geq t_{Student}] = \frac{\alpha}{2} $$ 
+$$P[t_{df, \Delta_U} \leq t_{Student}] = \frac{\alpha}{2} $$ 
+with $df = n_1+n_2-2$. Second, we multiply $\Delta_L$ and $\Delta_U$ by $\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}$ in order to define $\delta_L$ and $\delta_U$: 
+$$\delta_L = \Delta_L \times \sqrt{\frac{1}{n_1}+\frac{1}{n_2}}$$
+$$\delta_U = \Delta_U \times \sqrt{\frac{1}{n_1}+\frac{1}{n_2}}$$
+
+```{r, SAMPLMEANDIFF3, fig.cap="Sampling distribution of $t=\\frac{(\\bar{X_1}-\\bar{X_2})-(\\mu_1-\\mu_2)_0}{SE}$ when the null hypothesis is true (in grey) and when the null hypothesis is false, with $(\\mu_1-\\mu_2)-(\\mu_1-\\mu_2)_0=4$ and $SE=5$ (in red)."}
+
+samplingtest3 <- function(n1,n2,mu10,mu20,sigma,nsim){
+
+    m1 <- mu10
+    m2 <- mu20
+    m3 <- mu10+5
+    m4 <- mu20+1
+  
+#    pq1 <- NULL
+#    pq2 <- NULL
+    
+#  for (i in seq_len(nsim)){
+    
+#    A <- rnorm(n1,mean=m1,sd=sigma)
+#    B <- rnorm(n2,mean=m2,sd=sigma) 
+#    C <- rnorm(n1,mean=m3,sd=sigma)
+#    D <- rnorm(n2,mean=m4,sd=sigma) 
+
+#    mean1 <- mean(A)
+#    mean2 <- mean(B)
+#    mean3 <- mean(C)
+#    mean4 <- mean(D)
+    
+#    sd1 <- sd(A)
+#    sd2 <- sd(B)
+#    sd3 <- sd(C)
+#    sd4 <- sd(D)
+      
+#    pooled_sd1 <- sqrt(((n1-1)*sd1^2+(n2-1)*sd2^2)/(n1+n2-2))
+#    SE1 <-   pooled_sd1*sqrt(1/n1+1/n2)
+#    pooled_sd2 <- sqrt(((n1-1)*sd3^2+(n2-1)*sd4^2)/(n1+n2-2))
+#    SE2 <-   pooled_sd2*sqrt(1/n1+1/n2)
+      
+#    PQ1 <- ((mean1-mean2)-(mu10-mu20))/SE1
+#    pq1 <- c(pq1,PQ1)
+#    PQ2 <- ((mean3-mean4)-(mu10-mu20))/SE2
+#    pq2 <- c(pq2,PQ2)
+
+#  }
+
+#  plot(density(pq1),xlim=c(-15,15),col="black",main="Sampling distribution \n (not) centered variable divided by      
+  #SE",xlab="",cex.main=1.5,ylim=c(0,.5)) # plotting the sampling distribution of the pivotal quantity
+  plot(seq(-100,100,.01),dt(seq(-100,100,.01),df=n1+n2-2),col="grey",xlim=c(-15,15),type="l",xlab="",ylab="")
+
+  # if (mu1-mu2) != (mu1-mu2)_0  
+
+  pooled_sigma <-  sigma
+  delta <- ((m3-m4)-(mu10-mu20))/pooled_sigma
+  NCP <- delta/sqrt(1/n1+1/n2)
+  
+#  plot(density(pq2),xlim=c(-15,15),col="black",main="Sampling distribution \n (not) centered variable divided by      
+#  #SE",xlab="",cex.main=1.5,ylim=c(0,.5)) # plotting the sampling distribution of the pivotal quantity
+  lines(density(rt(1000000,df=n1+n2-2,ncp=NCP)),col="red")
+
+  #legend("top",col=c("grey","red"),legend=c(paste0("centered variable divided by SE (skewness=",round(skewness(pq),2),")"),paste0("not #centered variable divided by SE (skewness=",round(skewness(q2),2),")")),lty=c(2,2),bty="n")
+}
+
+samplingtest3(n1=5,n2=12, mu10=2,mu20=0,sigma=5,nsim=20000)
+```
+
+
+
+# Reference

@@ -1,0 +1,7 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics{CI_files/figure-latex/SAMPLMEANDIFF3-1.pdf}
+\caption{\label{fig:SAMPLMEANDIFF3}Sampling distribution of \(t=\frac{(\bar{X_1}-\bar{X_2})-(\mu_1-\mu_2)_0}{SE}\) when the null hypothesis is true (in grey) and when the null hypothesis is false, with \((\mu_1-\mu_2)-(\mu_1-\mu_2)_0=4\) and \(SE=5\) (in red).}
+\end{figure*}

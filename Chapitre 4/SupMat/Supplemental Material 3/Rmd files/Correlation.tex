@@ -1,0 +1,407 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  english,
+  man,mask]{apa6}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Correlations between the sample mean difference and standardizers of all estimators, and implications on biases and variances of all estimators},
+  pdfauthor={Marie Delacre1, Daniel Lakens2, Christophe Ley3, Limin Liu3, \& Christophe Leys1},
+  pdflang={en-EN},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+% Manuscript styling
+\usepackage{upgreek}
+\captionsetup{font=singlespacing,justification=justified}
+
+% Table formatting
+\usepackage{longtable}
+\usepackage{lscape}
+% \usepackage[counterclockwise]{rotating}   % Landscape page setup for large tables
+\usepackage{multirow}		% Table styling
+\usepackage{tabularx}		% Control Column width
+\usepackage[flushleft]{threeparttable}	% Allows for three part tables with a specified notes section
+\usepackage{threeparttablex}            % Lets threeparttable work with longtable
+
+% Create new environments so endfloat can handle them
+% \newenvironment{ltable}
+%   {\begin{landscape}\centering\begin{threeparttable}}
+%   {\end{threeparttable}\end{landscape}}
+\newenvironment{lltable}{\begin{landscape}\centering\begin{ThreePartTable}}{\end{ThreePartTable}\end{landscape}}
+
+% Enables adjusting longtable caption width to table width
+% Solution found at http://golatex.de/longtable-mit-caption-so-breit-wie-die-tabelle-t15767.html
+\makeatletter
+\newcommand\LastLTentrywidth{1em}
+\newlength\longtablewidth
+\setlength{\longtablewidth}{1in}
+\newcommand{\getlongtablewidth}{\begingroup \ifcsname LT@\roman{LT@tables}\endcsname \global\longtablewidth=0pt \renewcommand{\LT@entry}[2]{\global\advance\longtablewidth by ##2\relax\gdef\LastLTentrywidth{##2}}\@nameuse{LT@\roman{LT@tables}} \fi \endgroup}
+
+% \setlength{\parindent}{0.5in}
+% \setlength{\parskip}{0pt plus 0pt minus 0pt}
+
+% \usepackage{etoolbox}
+\makeatletter
+\patchcmd{\HyOrg@maketitle}
+  {\section{\normalfont\normalsize\abstractname}}
+  {\section*{\normalfont\normalsize\abstractname}}
+  {}{\typeout{Failed to patch abstract.}}
+\patchcmd{\HyOrg@maketitle}
+  {\section{\protect\normalfont{\@title}}}
+  {\section*{\protect\normalfont{\@title}}}
+  {}{\typeout{Failed to patch title.}}
+\makeatother
+\shorttitle{Correlation between sample means and SD}
+\keywords{\newline\indent Word count: 1434 words}
+\DeclareDelayedFloatFlavor{ThreePartTable}{table}
+\DeclareDelayedFloatFlavor{lltable}{table}
+\DeclareDelayedFloatFlavor*{longtable}{table}
+\makeatletter
+\renewcommand{\efloat@iwrite}[1]{\immediate\expandafter\protected@write\csname efloat@post#1\endcsname{}}
+\makeatother
+\usepackage{lineno}
+
+\linenumbers
+\usepackage{csquotes}
+\usepackage{bm}
+\ifxetex
+  % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
+  \usepackage{polyglossia}
+  \setmainlanguage[]{english}
+\else
+  \usepackage[main=english]{babel}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\fi
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{Correlations between the sample mean difference and standardizers of all estimators, and implications on biases and variances of all estimators}
+\author{Marie Delacre\textsuperscript{1}, Daniel Lakens\textsuperscript{2}, Christophe Ley\textsuperscript{3}, Limin Liu\textsuperscript{3}, \& Christophe Leys\textsuperscript{1}}
+\date{}
+
+
+\affiliation{\vspace{0.5cm}\textsuperscript{1} Université Libre de Bruxelles, Service of Analysis of the Data (SAD), Bruxelles, Belgium\\\textsuperscript{2} Eindhoven University of Technology, Human Technology Interaction Group, Eindhoven, the Netherlands\\\textsuperscript{3} Universiteit Gent, Department of Applied Mathematics, Computer Science and Statistics, Gent, Belgium}
+
+\begin{document}
+\maketitle
+
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
+
+The \emph{d}-family effect sizes are commonly used with between-subject designs where individuals are randomly assigned into one of two independent groups and group means are compared. The population effect size is defined as
+\begin{equation*} 
+\delta = \frac{\mu_{1}-\mu_{2}}{\sigma} 
+\label{eq:Cohendelta}
+\end{equation*}
+where both populations follow a normal distribution with mean \(\mu_j\) in the \(j^{th}\) population (\(j\)=1,2) and common standard deviation \(\sigma\). There exist different estimators of this population effect size, varying as a function of the chosen standardizer. When the equality of variances assumption is met, \(\sigma\) is estimated by pooling both sample standard deviations (\(S_1\) and \(S_2\)):
+\begin{equation*} 
+S_{Cohen's \; d} = \sqrt{\frac{(n_1-1) \times S_1^2+(n_2-1) \times S_2^2}{n_1+n_2-2}}
+\label{eq:Cohends}
+\end{equation*}\\
+When the equality of variances assumption is not met, we are considering three alternative estimates:\\
+- Using the standard deviation of the control group (\(S_c\)) as standardizer:
+\begin{equation*} 
+S_{Glass's \; d} = S_{c}
+\label{eq:Glassds}
+\end{equation*}\\
+- Using a standardizer that takes the sample sizes allocation ratio \(\left( \frac{n_2}{n_1}\right)\) into account:\\
+\begin{equation*}  
+S_{Shieh's \; d} = \sqrt{S_1^2/q_1+S_2^2/q_2}; \;\;\; q_j=\frac{n_j}{N} (j=1,2)
+\label{eq:Shiehds}
+\end{equation*}\\
+- Or using the square root of the non pooled average of both variance estimates (\(S^2_1\) and \(S^2_2\)) as standardizer:
+\begin{equation*} 
+S_{Cohen's \; d^*} = \sqrt{\frac{\left(S^2_{1}+S^2_{2} \right)}{2}}
+\label{eq:cohenprimeds}
+\end{equation*}\\
+As we previously mentioned, the use of these formulas requires to meet the assumption of normality. Using them when distributions are not normal will have consequences on both bias and variance of all estimators. More specifically, when samples are extracted from skewed distributions, correlations might occur between the sample mean difference (\(\bar{X_1}-\bar{X_2}\)) and standardizers (\(S\)). Throughout this Supplemental Material, we will study when these correlations occur. To this end, we will distinguish 3 situations:\\
+- when \(\sigma_1=\sigma_2\) and \(n_1=n_2\) (condition a);\\
+- when \(\sigma_1=\sigma_2\) and \(n_1\neq n_2\) (condition b);\\
+- when \(\sigma_1 \neq \sigma_2\) and \(n_1 = n_2\) (condition c).
+
+Before studying conditions a, b and c, we will briefly introduce the impact of these correlations on the bias. Note that we will compute correlations using the coefficient of Spearman's \(\rho\). We decided to use Spearman's \(\rho\) instead of Pearson's \(\rho\) because some plots revealed non-perfectly linear relations.
+
+\hypertarget{how-correlations-between-the-mean-difference-bmbarx_1-barx_2-and-standardizers-affect-the-bias-of-estimators.}{%
+\section{\texorpdfstring{How correlations between the mean difference (\(\bm{\bar{X_1}-\bar{X_2}}\)) and standardizers affect the bias of estimators.}{How correlations between the mean difference (\textbackslash bm\{\textbackslash bar\{X\_1\}-\textbackslash bar\{X\_2\}\}) and standardizers affect the bias of estimators.}}\label{how-correlations-between-the-mean-difference-bmbarx_1-barx_2-and-standardizers-affect-the-bias-of-estimators.}}
+
+When population distributions are right-skewed, there is a positive (negative) correlation between \(S_1\) (\(S_2\)) and (\(\bar{X_1}-\bar{X_2}\)). When distributions are left-skewed, there is a negative (positive) correlation between \(S_1\) (\(S_2\)) and (\(\bar{X_1}-\bar{X_2}\)). When the population mean difference (\(\mu_1-\mu_2\)) is positive (like in our simulations), all other parameters being equal, an estimator is always less biased and variable when choosing a standardizer that is positively correlated with \(\bar{X_1}-\bar{X_2}\) than when choosing an estimator that is negatively correlated with \(\bar{X_1}-\bar{X_2}\). When the population mean difference is negative, the reverse is true.
+
+``All other parameters being equal'' is mentioned because it is always possible that other factors in action have an opposite effect on bias and variance in order that increasing the magnitude of the correlation between \(S_j\) and \(\bar{X_1}-\bar{X_2}\) does not necessarily reduce the bias and the variance. For example, when population variances are equal across groups and sample sizes are unequal, we will see below that the lower \(n_j\), the larger the magnitude of the correlation between \(S_j\) and \(\bar{X_1}-\bar{X_2}\). When the correlation between \(S_j\) and \(\bar{X_1}-\bar{X_2}\) is positive, the smaller the sample size, the larger the positive correlation. At the same time, we know that increasing the sample size decreases the bias. This is a nice example of situations where two factors might have an opposite action on bias.
+
+\hypertarget{correlations-between-the-mean-difference-bmbarx_1-barx_2-and-all-standardizers}{%
+\section{\texorpdfstring{Correlations between the mean difference (\(\bm{\bar{X_1}-\bar{X_2}}\)) and all standardizers}{Correlations between the mean difference (\textbackslash bm\{\textbackslash bar\{X\_1\}-\textbackslash bar\{X\_2\}\}) and all standardizers}}\label{correlations-between-the-mean-difference-bmbarx_1-barx_2-and-all-standardizers}}
+
+\hypertarget{when-equal-population-variances-are-estimated-based-on-equal-sample-sizes-condition-a}{%
+\subsection{When equal population variances are estimated based on equal sample sizes (condition a)}\label{when-equal-population-variances-are-estimated-based-on-equal-sample-sizes-condition-a}}
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/pltSDMEANHombalsym-1.pdf}
+\caption{\label{fig:pltSDMEANHombalsym}\(S_j\) as a function of \(\bar{X_j}\) (\(j\)=1,2), when samples are extracted from symmetric distributions (\(\gamma_1 = 0\))}
+\end{figure}
+
+While \(\bar{X_j}\) and \(S_j\) (\(j\)=1,2) are uncorrelated when samples are extracted from symmetric distributions (see Figure \ref{fig:pltSDMEANHombalsym}), there is a non-null correlation between \(\bar{X_j}\) and \(S_j\) when distributions are skewed (Zhang, 2007).
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/pltSDHombalRskew-1.pdf}
+\caption{\label{fig:pltSDHombalRskew}\(S_j\) (\(j\)=1,2) as a function of \(\bar{X_j}\) (top plots) or \(\bar{X_1}-\bar{X_2}\) (bottom plots), when samples are extracted from right skewed distributions (\(\gamma_1 = 6.32\))}
+\end{figure}
+
+More specifically, when distributions are right-skewed, there is a \textbf{positive} correlation between \(\bar{X_j}\) and \(S_j\) (see the two top plots in Figure \ref{fig:pltSDHombalRskew}), resulting in a \emph{positive} correlation between \(S_1\) and \(\bar{X_1}-\bar{X_2}\) and in a \emph{negative} correlation between \(S_2\) and \(\bar{X_1}-\bar{X_2}\) (see the two bottom plots in Figure \ref{fig:pltSDHombalRskew}). This can be explained by the fact that \(\bar{X_1}\) and \(\bar{X_1}-\bar{X_2}\) are positively correlated while \(\bar{X_2}\) and \(\bar{X_1}-\bar{X_2}\) are negatively correlated (of course, correlations would be trivially reversed if we computed \(\bar{X_2}-\bar{X_1}\) instead of \(\bar{X_1}-\bar{X_2}\)).
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/pltStdzrHombalRskew-1.pdf}
+\caption{\label{fig:pltStdzrHombalRskew}\(S_{Cohen's \; d}\), \(S_{Shieh's \; d}\) and \(S_{Cohen's \; d^*}\) as a function of the mean difference (\(\bar{X_1}-\bar{X_2}\)), when samples are extracted from right skewed distributions (\(\gamma_1 = 6.32\))}
+\end{figure}
+
+One should also notice that both correlations between \(S_j\) and \(\bar{X_1}-\bar{X_2}\) are equal, in absolute terms (possible tiny differences might be observed due to sampling error in our simulations). As a consequence, when computing a standardizer taking both \(S_1\) and \(S_2\) into account, it results in a standardizer that is uncorrelated with \(\bar{X_1}-\bar{X_2}\) (see Figure \ref{fig:pltStdzrHombalRskew}).
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/pltSDHombalLskew-1.pdf}
+\caption{\label{fig:pltSDHombalLskew}\(S_j\) (\(j\)=1,2) as a function of \(\bar{X_j}\) (top plots) or \(\bar{X_1}-\bar{X_2}\) (bottom plots), when samples are extracted from left skewed distributions (\(\gamma_1 = -6.32\))}
+\end{figure}
+
+On the other hand, when distributions are left-skewed, there is a \textbf{negative} correlation between \(\bar{X_j}\) and \(S_j\) (see the two top plots in Figure \ref{fig:pltSDHombalLskew}), resulting in a \emph{negative} correlation between \(S_1\) and \(\bar{X_1}-\bar{X_2}\) and in a \emph{positive} correlation between \(S_2\) and \(\bar{X_1}-\bar{X_2}\) (see the two bottom plots in Figure \ref{fig:pltSDHombalLskew}).
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/pltStdzrHombalLskew-1.pdf}
+\caption{\label{fig:pltStdzrHombalLskew}\(S_{Cohen's \; d}\), \(S_{Shieh's \; d}\) and \(S_{Cohen's \; d^*}\) as a function of the mean difference (\(\bar{X_1}-\bar{X_2}\)), when samples are extracted from left skewed distributions (\(\gamma_1 = -6.32\))}
+\end{figure}
+
+Again, because correlations between \(S_j\) and \(\bar{X_1}-\bar{X_2}\) are similar in absolute terms, any standardizers taking both \(S_1\) and \(S_2\) into account will be uncorrelated with \(\bar{X_1}-\bar{X_2}\) (see Figure \ref{fig:pltStdzrHombalLskew}).
+
+\hypertarget{when-equal-population-variances-are-estimated-based-on-unequal-sample-sizes-condition-b}{%
+\subsection{When equal population variances are estimated based on unequal sample sizes (condition b)}\label{when-equal-population-variances-are-estimated-based-on-unequal-sample-sizes-condition-b}}
+
+When distributions are skewed, there are again non-null correlations between \(\bar{X_j}\) and \(S_j\), however \(cor(S_1,\bar{X_1}) \neq cor(S_2,\bar{X_2})\), because of the different sample sizes.
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/Homunbalcorasafctofn1-1.pdf}
+\caption{\label{fig:Homunbalcorasafctofn1}Correlation between \(S_j\) and \(\bar{X_j}\) when \(n\) = 25, 50, 75 or 100 and samples are extracted from right skewed distributions (\(\gamma_1 = 6.32\))}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/Homunbalcorasafctofn2-1.pdf}
+\caption{\label{fig:Homunbalcorasafctofn2}Correlation between \(S_j\) and \(\bar{X_j}\) when \(n\) = 25, 50, 75 or 100 and samples are extracted from left skewed distributions (\(\gamma_1 = -6.32\))}
+\end{figure}
+
+When distributions are skewed, one observes that the larger the sample size, the lower the correlation between \(S_j\) and \(\bar{X_j}\) (See Figures \ref{fig:Homunbalcorasafctofn1} and \ref{fig:Homunbalcorasafctofn2}).
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/pltSDHomunbalRskew-1.pdf}
+\caption{\label{fig:pltSDHomunbalRskew}\(S_j\) (\(j\)=1,2) as a function of \(\bar{X_j}\) (top plots) or \(\bar{X_1}-\bar{X_2}\) (bottom plots), when samples are extracted from right skewed distributions (\(\gamma_1 = 6.32\)), with \(n_1\)=20 and \(n_2\)=100}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/pltSDHomunbalLskew-1.pdf}
+\caption{\label{fig:pltSDHomunbalLskew}\(S_j\) (\(j\)=1,2) as a function of \(\bar{X_j}\) (top plots) or \(\bar{X_1}-\bar{X_2}\) (bottom plots), when samples are extracted from left skewed distributions (\(\gamma_1 = -6.32\)), with \(n_1\)=20 and \(n_2\)=100}
+\end{figure}
+
+This might explain that the magnitude of the correlation between \(S_j\) and \(\bar{X_1}-\bar{X_2}\) is lower in the larger sample (see bottom plots in Figures \ref{fig:pltSDHomunbalRskew} and \ref{fig:pltSDHomunbalLskew}). With no surprise, there is a positive (negative) correlation between \(S_1\) and \(\bar{X_1}-\bar{X_2}\) and a negative (positive) correlation between \(S_2\) and \(\bar{X_1}-\bar{X_2}\) when distributions are right-skewed (left-skewed), as illustrated in the two bottom plots of Figures \ref{fig:pltSDHomunbalRskew} and \ref{fig:pltSDHomunbalLskew}.
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/pltStdzrHomunbalRskew-1.pdf}
+\caption{\label{fig:pltStdzrHomunbalRskew}\(S_{Cohen's \; d}\), \(S_{Shieh's \; d}\) and \(S_{Cohen's \; d^*}\) as a function of the mean difference (\(\bar{X_1}-\bar{X_2}\)), when samples are extracted from right skewed distributions (\(\gamma_1 = 6.32\), with \(n_1\)=20 and \(n_2\)=100)}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/pltStdzrHomunbalLskew-1.pdf}
+\caption{\label{fig:pltStdzrHomunbalLskew}\(S_{Cohen's \; d}\), \(S_{Shieh's \; d}\) and \(S_{Cohen's \; d^*}\) as a function of the mean difference (\(\bar{X_1}-\bar{X_2}\)), when samples are extracted from left skewed distributions (\(\gamma_1 = -6.32\)), with \(n_1\)=20 and \(n_2\)=100}
+\end{figure}
+
+This might also explain that standardizers of Shieh's \(d\) and Cohen's \(d^*\) are \textbf{correlated} with \(\bar{X_1}-\bar{X_2}\) (see Figures \ref{fig:pltStdzrHomunbalRskew} and \ref{fig:pltStdzrHomunbalLskew}):\\
+- When computing \(S_{Cohen's \; d^*}\), the same weight is given to both \(S_1\) and \(S_2\). Therefore, it does not seem surprising that the sign of the correlation between \(S_{Cohen's \; d^*}\) and \(\bar{X_1}-\bar{X_2}\) is the same as the size of the correlation between \(\bar{X_1}-\bar{X_2}\) and the \(SD\) of the smallest sample;\\
+- When computing \(S_{Shieh's \; d}\), more weight is given to the \(SD\) of the smallest sample, it is therefore not really surprising to observe that the correlation between \(S_{Shieh's \; d}\) and \(\bar{X_1}-\bar{X_2}\) is closer of the correlation between the \(SD\) of the smallest group and \(\bar{X_1}-\bar{X_2}\) (i.e.~\(|cor(S_{Shieh's \; d},\bar{X_1}-\bar{X_2})| > |cor(S_{Cohen's \; d^*},\bar{X_1}-\bar{X_2})|\));\\
+- When computing \(S_{Cohen's \; d}\), more weight is given to the \(SD\) of the largest sample, which by compensation effect brings the correlation very close to 0.
+
+The correlation between \(\bar{X_1}-\bar{X_2}\) and respectively \(S_1\), \(S_2\), the standardizer of Cohen's \(d^*\), the standardizer of Shieh's \(d\) and the standardizer of Cohen's \(d\) are summarized in Table 1.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.29}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.32}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.39}}@{}}
+\caption{Correlation between standardizers (\(S_1\), \(S_2\), \(S_{Cohen's \; d}\), \(S_{Shieh's \; d}\) and \(S_{Cohen's \; d^*}\)) and \(\bar{X_1}-\bar{X_2}\), when samples are extracted from skewed distributions with equal variances, and \(n_1=n_2\) (condition a) or \(n_1 \neq n_2\) (condition b)}\tabularnewline
+\toprule
+& \textbf{\textbf{population distribution}} & \\
+\midrule
+\endfirsthead
+\toprule
+& \textbf{\textbf{population distribution}} & \\
+\midrule
+\endhead
+& \emph{right-skewed} & \emph{left-skewed} \\
+& ---------------------------------- & ----------------------------------------- \\
+When \(n_1=n_2\) & \(S_1\): \emph{positive} & \(S_1\): \emph{negative} \\
+& \(S_2\): \emph{negative} & \(S_2\): \emph{positive} \\
+& \(S_{Cohen's \; d}\): \emph{null} & \(S_{Cohen's \; d}\): \emph{null} \\
+& \(S_{Shieh's \; d}\): \emph{null} & \(S_{Shieh's \; d}\): \emph{null} \\
+& \(S_{Cohen's \; d^*}\): \emph{null} & \(S_{Cohen's \; d^*}\): \emph{null} \\
+& & \\
+When \(n_1>n_2\) & \(S_1\): \emph{positive} & \(S_1\): \emph{negative} \\
+& \(S_2\): \emph{negative} & \(S_2\): \emph{positive} \\
+& \(S_{Cohen's \; d}\): \emph{null} & \(S_{Cohen's \; d}\): \emph{null} \\
+& \(S_{Shieh's \; d}\): \emph{negative} & \(S_{Shieh's \; d}\): \emph{positive} \\
+& \(S_{Cohen's \; d^*}\): \emph{positive (but very small)} & \(S_{Cohen's \; d^*}\): \emph{negative (but very small)} \\
+& & \\
+When \(n_1<n_2\) & \(S_1\): \emph{positive} & \(S_1\): \emph{negative} \\
+& \(S_2\): \emph{negative} & \(S_2\): \emph{positive} \\
+& \(S_{Cohen's \; d}\): \emph{negative (but very small)} & \(S_{Cohen's \; d}\): \emph{positive (but very small)} \\
+& \(S_{Shieh's \; d}\): \emph{positive} & \(S_{Shieh's \; d}\): \emph{negative} \\
+& \(S_{Cohen's \; d^*}\): \emph{positive} & \(S_{Cohen's \; d^*}\): \emph{negative} \\
+\bottomrule
+\end{longtable}
+
+\hypertarget{when-unequal-population-variances-are-estimated-based-on-equal-sample-sizes-condition-c}{%
+\subsection{When unequal population variances are estimated based on equal sample sizes (condition c)}\label{when-unequal-population-variances-are-estimated-based-on-equal-sample-sizes-condition-c}}
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/Hetbalcorasafctofn1-1.pdf}
+\caption{\label{fig:Hetbalcorasafctofn1}Correlation between \(S_j\) and \(\bar{X_j}\) when \(SD\) = 2, 4, 6 or 8 and samples are extracted from right skewed distributions (\(\gamma_1 = 6.32\))}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/Hetbalcorasafctofn2-1.pdf}
+\caption{\label{fig:Hetbalcorasafctofn2}Correlation between \(S_j\) and \(\bar{X_j}\) when \(SD\) = 2, 4, 6 or 8 and samples are extracted from left skewed distributions (\(\gamma_1 = -6.32\))}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/pltSDHetbalRskew-1.pdf}
+\caption{\label{fig:pltSDHetbalRskew}\(S_j\) (\(j\)=1,2) as a function of \(\bar{X_j}\) (top plots) or \(\bar{X_1}-\bar{X_2}\) (bottom plots), when samples are extracted from right skewed distributions (\(\gamma_1 = 6.32\)), with \(S_1\)=2 and \(S_2\)=4}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/pltSDHetbalLskew-1.pdf}
+\caption{\label{fig:pltSDHetbalLskew}\(S_j\) (\(j\)=1,2) as a function of \(\bar{X_j}\) (top plots) or \(\bar{X_1}-\bar{X_2}\) (bottom plots), when samples are extracted from left skewed distributions (\(\gamma_1 = -6.32\)), with \(S_1\)=2 and \(S_2\)=4}
+\end{figure}
+
+When distributions are skewed, there are again non-null correlations between \(\bar{X_j}\) and \(S_j\). As illustrated in Figures \ref{fig:Hetbalcorasafctofn1} and \ref{fig:Hetbalcorasafctofn2}, the correlation remains the same for any population \(SD\) (\(\sigma\)). However, the magnitude of the correlation between \(S_j\) and \(\bar{X_1}-\bar{X_2}\) differs: it is stronger in the sample extracted from the larger population variance (see Figures \ref{fig:pltSDHetbalRskew} and \ref{fig:pltSDHetbalLskew}).
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/pltStdzrHetbalRskew-1.pdf}
+\caption{\label{fig:pltStdzrHetbalRskew}\(S_{Cohen's \; d}\), \(S_{Shieh's \; d}\) and \(S_{Cohen's \; d^*}\) as a function of the mean difference (\(\bar{X_1}-\bar{X_2}\)), when samples are extracted from right skewed distributions (\(\gamma_1 = 6.32\)), with \(S_1\)=2 and \(S_2\)=4}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{Correlation_files/figure-latex/pltStdzrHetbalLskew-1.pdf}
+\caption{\label{fig:pltStdzrHetbalLskew}\(S_{Cohen's \; d}\), \(S_{Shieh's \; d}\) and \(S_{Cohen's \; d^*}\) as a function of the mean difference (\(\bar{X_1}-\bar{X_2}\)), when samples are extracted from left skewed distributions (\(\gamma_1 = -6.32\)), with \(S_1\)=2 and \(S_2\)=4}
+\end{figure}
+
+This also explains that when computing a standardizer that takes both \(S_1\) and \(S_2\) into account, it results in a standardizer that is correlated with \(\bar{X_1}-\bar{X_2}\) (see Figures \ref{fig:pltStdzrHetbalRskew} and \ref{fig:pltStdzrHetbalLskew}). The correlation between the mean difference (\(\bar{X_1}-\bar{X_2}\)) and respectively the standardizer of Shieh's \(d\), Cohen's \(d^*\) and Cohen's \(d\) will have the same sign as the correlation between (\(\bar{X_1}-\bar{X_2}\)) and the larger \(SD\). Table 2 summarizes the sign of the correlation between \(\bar{X_1}-\bar{X_2}\) and respectively \(S_1\), \(S_2\) and the three standardizers taking both \(S_1\) and \(S_2\) into account (see ``Others'' in the Table).
+
+\begin{longtable}[]{@{}lcc@{}}
+\caption{Correlation between standardizers (\(S_1\), \(S_2\) and others) and \(\bar{X_1}-\bar{X_2}\), when samples are extracted from skewed distributions with equal sample sizes, as a function of the SD-ratio.}\tabularnewline
+\toprule
+& \textbf{\textbf{population distribution}} & \\
+\midrule
+\endfirsthead
+\toprule
+& \textbf{\textbf{population distribution}} & \\
+\midrule
+\endhead
+& \emph{right-skewed} & \emph{left-skewed} \\
+& --------------------------- & --------------------------- \\
+When \(\sigma_1=\sigma_2\) & \(S_1\): \emph{positive} & \(S_1\): \emph{negative} \\
+& \(S_2\): \emph{negative} & \(S_2\): \emph{positive} \\
+& Others: \emph{null} & Others: \emph{null} \\
+& & \\
+When \(\sigma_1>\sigma_2\) & \(S_1\): \emph{positive} & \(S_1\): \emph{negative} \\
+& \(S_2\): \emph{negative} & \(S_2\): \emph{positive} \\
+& Others: \emph{positive} & Others: \emph{negative} \\
+& & \\
+When \(\sigma_1<\sigma_2\) & \(S_1\): \emph{positive} & \(S_1\): \emph{negative} \\
+& \(S_2\): \emph{negative} & \(S_2\): \emph{positive} \\
+& Others: \emph{negative} & Others: \emph{positive} \\
+& & \\
+\bottomrule
+\end{longtable}
+
+
+\end{document}

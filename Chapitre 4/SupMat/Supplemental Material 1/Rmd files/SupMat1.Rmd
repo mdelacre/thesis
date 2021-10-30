@@ -1,0 +1,2362 @@
+---
+title             : "Supplemental Material"
+shorttitle        : ""
+
+author: 
+  - name          : "Marie Delacre" 
+    affiliation   : "1"
+    corresponding : yes    
+    address       : "CP191, avenue F.D. Roosevelt 50, 1050 Bruxelles"
+    email         : "marie.delacre@ulb.be"
+  - name          : "Daniel Lakens"
+    affiliation   : "2"
+  - name          : "Christophe Ley"
+    affiliation   : "3"
+  - name          : "Limin Liu"
+    affiliation   : "3"
+  - name          : "Christophe Leys"
+    affiliation   : "1"
+    
+affiliation:
+  - id            : "1"
+    institution   : "Université Libre de Bruxelles, Service of Analysis of the Data (SAD), Bruxelles, Belgium"
+  - id            : "2"
+    institution   : "Eindhoven University of Technology, Human Technology Interaction Group, Eindhoven, the Netherlands"
+  - id            : "3"
+    institution   : "Universiteit Gent, Department of Applied Mathematics, Computer Science and Statistics, Gent, Belgium"
+
+wordcount         : "2287 words"
+
+floatsintext      : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : no
+mask              : yes
+draft             : no
+
+documentclass     : "apa6"
+classoption       : "man"
+output            : papaja::apa6_pdf
+
+header-includes:
+  - \usepackage{bm}
+---
+
+# Supplemental Material 1 : 
+
+## Theoretical bias 
+
+For all "biased" estimators, when the population effect size is null so is the bias. We will therefore focus on configurations where there is a non-null population effect size. The sampling distribution of Cohen's $d$ (and therefore its bias) is only known under the assumptions of normality and homoscedasticity. On the other hand, the biases of Glass's $d$, Cohen's $d^*$ and Shieh's $d$ are theoretically known for all configurations where the normality assumption is met. In order to simplify the analysis of their bias, it is convenient to subdivide all configurations into 3 conditions:  
+- when population variances are equal across groups;     
+- when population variances are unequal across groups, with equal sample sizes;  
+- when population variances are unequal across groups, with unequal sample sizes.  
+
+### Preliminary note
+
+For all previously mentioned estimators (Cohen's $d$, Glass's $d$, Cohen's $d^*$ and Shieh's $d$), the theoretical expectation is computed by multiplying the population effect size (respectively $\delta_{Cohen}$, $\delta_{Glass}$, $\delta^*_{Cohen}$ and $\delta_{Shieh}$) by the following multiplier coefficient:
+\begin{equation} 
+\gamma=\frac{\sqrt{\frac{df}{2}} \times \Gamma{\frac{df-1}{2}}}{\Gamma{\frac{df}{2}}}
+(\#eq:mc)
+\end{equation} 
+where $df$ are the degrees of freedom (see the main article). $\gamma$ is *always* positive, meaning that when the population effect size is not zero, all estimators will overestimate the population effect size. Moreover, its limit tends to 1 when the degrees of freedom ($df$) tend to infinity, meaning that the larger the degrees of freedom, the lower the bias.   
+While we focus on the theoretical bias of biased estimators when the normality assumption is met, it is interesting to notice that our main conclusions seem to generalize to :  
+- biased estimators when samples are extracted from symmetric distributions;     
+- unbiased estimators when samples are extracted from heavy-tailed symmetric distributions.  
+
+### Cohen's $\bm{d}$ (see Table 2)
+
+Under the assumptions that independant residuals are normally distributed with equal variances, the **bias** of Cohen's $d$ is a function of total sample size ($N$) and the population effect size ($\delta_{Cohen}$):     
+
+  + The larger the population effect size, the more Cohen's $d$ will overestimate $\delta_{Cohen}$;   
+  
+```{r biascohendNsize,include=FALSE}
+Nsize=NULL
+coeffmult=NULL
+DF=NULL
+
+sd1=2
+sd2=2
+
+for (i in 4:200){
+  n1=i
+  n2=i
+  N = n1+n2
+  Nsize=c(Nsize,N)
+  df = n1+n2-2
+  DF = c(DF,df)
+  coeffmult = c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))
+}
+```
+
+```{r biascohendNsize2,fig.cap="Degrees of freedom (DF) and $\\gamma$, when computing the bias of Cohen's $d$, when variances are equal across groups, as a function of the total sample size ($N$).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(Nsize,DF,xlab="N")
+plot(Nsize,coeffmult,ylab=expression(gamma),xlab="N")
+```
+
+  + The larger the total sample size, the lower the bias (see Figure \ref{fig:biascohendNsize2});
+
+  + Of course, considering the degrees of freedom, the sample size ratio does not matter (i.e. the bias will decrease when increasing $n_1$, $n_2$ or both sample sizes).
+
+### Glass's $\bm{d}$ (see Table 3)
+
+Because degrees of freedom depend only on the control group size (neither on $\sigma_1$ nor on $\sigma_2$), there is no need to distinguish between cases where there is homoscedasticity or heteroscedasticity!   
+
+The **bias** of Glass's $d$ is a function of the control group size ($n_c$) and the population effect size ($\delta_{Glass}$):  
+
+  + The larger the population effect size, the more Glass's $d$ will overestimate $\delta_{Glass}$;
+
+```{r biasGlassctrlsize,include=FALSE}
+Nctrl=NULL
+coeffmult=NULL
+DF=NULL
+
+sd1=2
+sd2=2
+
+for (i in 4:200){
+  n1=i
+  n2=20
+  Nctrl=c(Nctrl,n1)
+  df = n1-2
+  DF = c(DF,df)
+  coeffmult = c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))
+}
+
+Nexp=NULL
+coeffmult2=NULL
+DF2=NULL
+
+sd1=2
+sd2=2
+
+for (i in 4:200){
+  n1=20
+  n2=i
+  Nexp=c(Nexp,n2)
+  df = n1-2
+  DF2 = c(DF2,df)
+  coeffmult2 = c(coeffmult2,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))
+}
+
+```
+
+```{r biasGlassctrlsize2,fig.cap="Degrees of freedom (DF) and $\\gamma$, when computing the bias of Glass's $d$, when variances are equal across groups, as a function of $n_c$ (top) and $n_e$ (bottom).",echo=FALSE}
+par(mfrow=c(2,2))
+plot(Nctrl,DF,xlab=expression(n[c]))
+plot(Nctrl,coeffmult,ylab=expression(gamma),xlab=expression(n[c]))
+plot(Nexp,DF2,xlab=expression(n[e]))
+plot(Nexp,coeffmult2,ylab=expression(gamma),xlab=expression(n[e]))
+```
+
+  + The larger the size of the control group, the lower the bias (see the two top plots in Figure \ref{fig:biasGlassctrlsize2}). On the other hand, increasing the experimental group size does not impact the bias (see the two bottom plots in Figure \ref{fig:biasGlassctrlsize2}).
+
+### Cohen's $\bm{d^*}$ (see Table 3)
+
+#### When variances are equal across populations
+
+When $\sigma_1=\sigma_2=\sigma$: 
+$$df_{Cohen's \; d^*} = \frac{(n_1-1)(n_2-1)(2\sigma^2)^2}{(n_2-1)\sigma^4+(n_1-1)\sigma^4} = \frac{(n_1-1)(n_2-1)\times 4\sigma^4}{\sigma^4(n_1+n_2-2)} = \frac{4(n_1-1)(n_2-1)}{n_1+n_2-2}$$ 
+One can see that degrees of freedom depend only on the total sample size ($N$) and the sample size allocation ratio $\left( \frac{n_2}{n_1}\right)$. As a consequence, the **bias** of Cohen's $d^*$ is a function of the population effect size ($\delta^*_{Cohen}$), the sample size allocation ratio $\left( \frac{n_2}{n_1}\right)$ and the total sample size ($N$). 
+
+  + The larger the population effect size, the more Cohen's $d^*$ will overestimate $\delta^*_{Cohen}$;
+
+```{r biascohendprimehomNratio,include=FALSE}
+coeffmult <- NULL
+nratio <- NULL
+DF <- NULL
+
+for (i in 10:190){
+  
+  N <- 200
+  n1 <- i
+  n2 <- N-n1
+  sd1 <- 12
+  sd2 <- 12
+  
+  nratio <- c(nratio,n2/n1)
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF <- c(DF,df)
+  coeffmult <- c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))   
+  
+}
+```
+
+```{r biascohendprimehomNratio2,fig.cap="Degrees of freedom (DF) and $\\gamma$, when computing the bias of Cohen's $d^*$, when variances are equal across groups, as a function of the logarithm of the sample sizes ratio $log\\left(\\frac{n_2}{n_1} \\right)$.",echo=FALSE}
+par(mfrow=c(1,2))
+plot(log(nratio),DF,xlab=expression(paste("log(",n[2],"/",n[1],")")))
+#nratio[DF==max(DF)]
+plot(log(nratio),coeffmult,ylim=c(1,1.02),ylab=expression(gamma),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+#nratio[coeffmult==min(coeffmult)]
+```
+
+  + The further the sample size allocation ratio is from 1, the larger the bias (see Figure \ref{fig:biascohendprimehomNratio2});
+
+```{r biascohendprimehomNsize,include=FALSE}
+Nsize=NULL
+coeffmult=NULL
+DF=NULL
+
+sd1=2
+sd2=2
+
+for (i in 4:200){
+  n1=i
+  n2=10
+  N = n1+n2
+  Nsize=c(Nsize,N)
+  df = ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4) 
+  DF = c(DF,df)
+  coeffmult = c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))
+}
+```
+
+```{r biascohendprimehomNsize2,fig.cap="Degrees of freedom (DF) and $\\gamma$, when computing the bias of Cohen's $d^*$, when variances are equal across groups, as a function of the total sample size ($N$).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(Nsize,DF,xlab="N")
+plot(Nsize,coeffmult,ylab=expression(gamma),xlab="N")
+```
+
+  + The larger the total sample size, the lower the bias (see Figure \ref{fig:biascohendprimehomNsize2}).
+
+#### When variances are unequal across populations, with equal sample sizes
+When $n_1 = n_2 = n$:
+$$df_{Cohen's \; d^*} = \frac{(n-1)^2(\sigma^2_1+\sigma^2_2)^2}{(n-1)(\sigma^4_1+\sigma^4_2)} =  \frac{(n-1)(\sigma^4_1+\sigma^4_2+2\sigma^2_1\sigma^2_2)}{\sigma^4_1+\sigma^4_2}$$ 
+One can see that degrees of freedom depend only on the total sample size  ($N$) and the $SD$-ratio $\left( \frac{\sigma_2}{\sigma_1}\right)$. As a consequence, the **bias** of Cohen's $d^*$ is a function of the population effect size ($\delta^*_{Cohen}$), the $SD$-ratio $\left( \frac{\sigma_2}{\sigma_1}\right)$ and the total sample size ($N$): 
+
+  + The larger the population effect size, the more Cohen's $d^*$ will overestimate $\delta^*_{Cohen}$;  
+
+```{r biascohendprimehetbalSDratio,include=FALSE}
+coeffmult <- NULL
+SDratio <- NULL
+DF <- NULL
+
+for (i in 1:100){
+  
+  n1=100
+  n2=100
+  N <- n1+n2
+  sd2 <- 10
+  sd1 <- i
+  
+  SDratio <- c(SDratio,sd2/sd1)
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF <- c(DF,df)
+  coeffmult <- c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))   
+}
+```
+
+```{r biascohendprimehetbalSDratio2,fig.cap="Degrees of freedom (DF) and $\\gamma$, when computing the bias of Cohen's $d^*$, when variances are unequal across groups and sample sizes are equal, as a function of the logarithm of the $SD$-ratio ($log \\left( \\frac{\\sigma_2}{\\sigma_1} \\right)$).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(log(SDratio),DF,xlab=expression(paste("log(",sigma[2],"/",sigma[1],")")))
+#SDratio[DF==max(DF)]
+plot(log(SDratio),coeffmult,ylab=expression(gamma),xlab=expression(paste("log(",sigma[2],"/",sigma[1],")")))
+#SDratio[coeffmult==min(coeffmult)]
+```
+
+  + The further the $SD$-ratio is from 1, the larger the bias (see Figure \ref{fig:biascohendprimehetbalSDratio2});  
+
+```{r biascohendprimehetbalNsize,include=FALSE}
+Nsize=NULL
+coeffmult=NULL
+DF=NULL
+
+sd1=10
+sd2=2
+
+for (i in 4:200){
+  n1=i
+  n2=i
+  N = n1+n2
+  Nsize=c(Nsize,N)
+  df = ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4) 
+  DF = c(DF,df)
+  coeffmult = c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))
+}
+```
+
+```{r biascohendprimehetbalNsize2,fig.cap="Degrees of freedom (DF) and $\\gamma$, when computing the bias of Cohen's $d^*$, when variances are unequal across groups and sample sizes are equal, as a function of the total sample size ($N$).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(Nsize,DF,xlab="N")
+plot(Nsize,coeffmult,ylab=expression(gamma),xlab="N")
+```
+
+  + The larger the total sample size, the lower the bias (see Figure \ref{fig:biascohendprimehetbalNsize2}).  
+
+```{r biascohendprimehetbalvariance,include=FALSE}
+coeffmult <- NULL
+SD1 <- NULL
+SD2 <- NULL
+DF <- NULL
+
+for (i in 1:100){
+  n1=100
+  n2=100
+  N <- n1+n2
+  sdratio = 1/2
+  sd1 <- i
+  sd2 <- sdratio*i
+
+  SD1 <- c(SD1,sd1)
+  SD2 <- c(SD2,sd2)
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF <- c(DF,df)
+  coeffmult <- c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))   
+}
+```
+
+```{r biascohendprimehetbalvariance2,fig.cap="Degrees of freedom (DF) and $\\gamma$, when computing the bias of Cohen's $d^*$, when variances are unequal across groups and sample sizes are equal, as a function of $\\sigma_1$ (top plots) and $\\sigma_2$ (bottom plots), for a constant $SD$-ratio.",echo=FALSE}
+par(mfrow=c(2,2))
+plot(SD1,DF,xlab=expression(sigma[1]))
+plot(SD1,coeffmult,ylab=expression(gamma),xlab=expression(sigma[1]))
+
+plot(SD2,DF,xlab=expression(sigma[2]))
+plot(SD2,coeffmult,ylab=expression(gamma),xlab=expression(sigma[2]))
+```
+
+Note: for a constant $SD$-ratio, $\sigma_1$ and $\sigma_2$ do not matter (see Figure \ref{fig:biascohendprimehetbalvariance2}). 
+
+#### When variances are unequal across populations, with unequal sample sizes
+
+The **bias** of Cohen's $d^*$ is a function of the population effect size ($\delta^*_{Cohen}$), the total sample size ($N$), and the interaction between the sample sizes ratio and the $SD$-ratio $\left(\frac{n_2}{n_1}\times\frac{\sigma_2}{\sigma_1} \right)$ :     
+
+  + The larger the population effect size, the more Cohen's $d^*$ will overestimate $\delta^*_{Cohen}$;  
+
+```{r biascohendprimehetunbalNsize,include=FALSE}
+coeffmult <- NULL
+Nsize <- NULL
+DF <- NULL
+
+for (i in 2:200){
+  
+  n1 <- i
+  n2 <- 12*i
+  N <- n1+n2
+  sd1 <- 1.8
+  sd2 <- 1
+  
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF <- c(DF,df)
+  Nsize <- c(Nsize,N)
+  coeffmult <- c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))   
+}
+
+```
+
+```{r biascohendprimehetunbalNsize2,fig.cap="Degrees of freedom (DF) and $\\gamma$, when computing the bias of Cohen's $d^*$, when variances and sample sizes are unequal across groups, as a function of the total sample size ($N$).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(Nsize,DF,xlab="N")
+plot(Nsize,coeffmult,ylab=expression(gamma),xlab="N")
+```
+
+  + The larger the total sample size, the lower the bias (see Figure \ref{fig:biascohendprimehetunbalNsize2});
+
+```{r biascohendprimehetunbalnratiosdratio,include=FALSE}
+coeffmult2 <- NULL
+nratio2 <- NULL
+DF2 <- NULL
+DF_NUM2 <- NULL
+DF_DENOM2 <- NULL
+
+for (i in 10:190){
+  
+  delta_cohendprime <- 0
+  N <- 200
+  n1 <- i
+  n2 <- N-n1
+  sd2 <- 1 
+  sd1 <- sqrt(50-sd2^2) # so sqrt((sd1^2+sd2^2)/2)=5
+  SDratio2=sd2/sd1   
+  nratio2 <- c(nratio2,n2/n1)
+  df_num <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)
+  df_denom <- ((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF_NUM2 <- c(DF_NUM2, df_num)
+  DF_DENOM2 <- c(DF_DENOM2, df_denom)
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF2 <- c(DF2,df)
+  coeffmult2 <- c(coeffmult2,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))   
+}
+
+coeffmult3 <- NULL
+nratio3 <- NULL
+DF3 <- NULL
+DF_NUM3 <- NULL
+DF_DENOM3 <- NULL
+
+for (i in 10:190){
+
+  delta_cohendprime <- 0  
+  N <- 200
+  n1 <- i
+  n2 <- N-n1
+  sd2 <- 2
+  sd1 <- sqrt(50-sd2^2) # so sqrt((sd1^2+sd2^2)/2)=5
+  SDratio3=sd2/sd1
+  nratio3 <- c(nratio3,n2/n1)
+  df_num <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)
+  df_denom <- ((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF_NUM3 <- c(DF_NUM3, df_num)
+  DF_DENOM3 <- c(DF_DENOM3, df_denom)
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF3 <- c(DF3,df)
+  coeffmult3 <- c(coeffmult3,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))   
+}
+
+coeffmult4 <- NULL
+nratio4 <- NULL
+DF4 <- NULL
+DF_NUM4 <- NULL
+DF_DENOM4 <- NULL
+
+for (i in 10:190){
+
+  delta_cohendprime <- 0  
+  N <- 200
+  n1 <- i
+  n2 <- N-n1
+  sd2 <- 4
+  sd1 <- sqrt(50-sd2^2) # so sqrt((sd1^2+sd2^2)/2)=5
+  SDratio4=sd2/sd1
+  nratio4 <- c(nratio4,n2/n1)
+  df_num <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)
+  df_denom <- ((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF_NUM4 <- c(DF_NUM4, df_num)
+  DF_DENOM4 <- c(DF_DENOM4, df_denom)
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF4 <- c(DF4,df)
+  coeffmult4 <- c(coeffmult4,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))   
+}
+```
+
+```{r biascohendprimehetunbalnratiosdratio2,fig.cap="Degrees of freedom ($DF$) and $\\gamma$, when computing the bias of Cohen's $d^*$ when variances and sample sizes are unequal across groups, as a function of the logarithm of the sample sizes ratio ($log \\left( \\frac{n_2}{n_1} \\right)$), when $SD$-ratio equals .68 (first row), .29 (second row) or .14 (third row).",echo=FALSE}
+par(mfrow=c(3,2))
+
+plot(log(nratio4),DF4,ylab="DF",xlab=expression(paste("log(",n[2],"/",n[1],")")))
+plot(log(nratio4),coeffmult4,ylab=expression(gamma),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+
+plot(log(nratio3),DF3,ylab="DF",xlab=expression(paste("log(",n[2],"/",n[1],")")))
+plot(log(nratio3),coeffmult3,ylab=expression(gamma),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+
+plot(log(nratio2),DF2,ylab="DF",xlab=expression(paste("log(",n[2],"/",n[1],")")))
+plot(log(nratio2),coeffmult2,ylab=expression(gamma),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+```
+ 
+  + The smallest bias always occurs when there is a positive pairing between variances and sample sizes, because one gives more weight to the smallest variance, in the denominator of the $df$ computation. Moreover, the further the $SD$-ratio is from 1, the further from 1 will also be the sample sizes ratio associated with the smallest bias (see Figure \ref{fig:biascohendprimehetunbalnratiosdratio2}). This can be explained by splitting the numerator and the denominator in the $df$ computation.
+  
+```{r dfnumdenomcohendprimehetunbalnratiosdratio2,fig.cap="Numerator and denominator of the degrees of freedom ($DF$) computation, when computing the bias of Cohen's $d^*$ when variances and sample sizes are unequal across groups, as a function of the logarithm of the sample sizes ratio ($log \\left( \\frac{n_2}{n_1} \\right)$), when $SD$-ratio equals .68 (first row), .29 (second row) or .14 (third row).",echo=FALSE}
+par(mfrow=c(3,2),mar=c(4,3,1,3))
+
+plot(log(nratio4),DF_NUM4,ylab="DF",xlab=expression(paste("log(",n[2],"/",n[1],")")))
+plot(log(nratio4),DF_DENOM4,ylab=expression(gamma),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+
+plot(log(nratio3),DF_NUM3,ylab="DF",xlab=expression(paste("log(",n[2],"/",n[1],")")))
+plot(log(nratio3),DF_DENOM3,ylab=expression(gamma),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+
+plot(log(nratio2),DF_NUM2,ylab="DF",xlab=expression(paste("log(",n[2],"/",n[1],")")))
+plot(log(nratio2),DF_DENOM2,ylab=expression(gamma),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+```
+
+As illustrated in Figure \ref{fig:dfnumdenomcohendprimehetunbalnratiosdratio2}, for any $SD$-ratio, the numerator of the degrees of freedom will be maximized when sample sizes are equal across groups (and is not impacted by the $SD$-ratio). On the other hand, the denominator will be minimized when there is a positive pairing between variances and sample sizes. For example, when $\sigma_1 > \sigma_2$, the smallest denominator occurs when $\frac{n_2}{n_1}$ reaches its minimum value and the further from 1 the $SD$-ratio, the larger the impact of the sample sizes ratio on the denominator. 
+
+```{r biascohendprimehetunbalvariance,include=FALSE}
+coeffmult <- NULL
+SD <- NULL
+DF <- NULL
+
+for (i in 2:200){
+  
+  n1 <- 23
+  n2 <- 75
+  N <- n1+n2
+  sd1 <- i
+  sd2 <- 8*i
+  
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF <- c(DF,df)
+  SD <- c(SD,sqrt((sd1^2+sd2^2)/2))
+  coeffmult <- c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))   
+}
+
+```
+
+```{r biascohendprimehetunbalvariance2,fig.cap="Degrees of freedom (DF) and $\\gamma$, when computing the bias of Cohen's $d^*$, when variances and sample sizes are unequal across groups, as a function of $\\sigma= \\frac{(\\sigma_1^2+\\sigma_2^2)}{2}$, for a constant $SD$-ratio.",echo=FALSE}
+par(mfrow=c(2,2))
+plot(SD,DF,xlab=expression(sigma))
+plot(SD,coeffmult,ylab=expression(gamma),xlab=expression(sigma))
+```
+  
+Note: for a constant $SD$-ratio, the variance does not matter. (See Figure \ref{fig:biascohendprimehetunbalvariance2}).
+
+### Shieh's $\bm{d}$ (see Table 3)
+
+#### When variances are equal across populations
+
+When $\sigma_1=\sigma_2=\sigma$:
+$$df_{Shieh's \; d} = \frac{\left( \frac{n_2\sigma^2+n_1\sigma^2}{n_1n_2}\right)^2}{\frac{(n_2-1)\left( \frac{\sigma^2}{n_1}\right)^2+(n_1-1)\left( \frac{\sigma^2}{n_2}\right)^2}{(n_1-1)(n_2-1)}}$$
+$$\leftrightarrow df_{Shieh's \; d} = \frac{[\sigma^2(n_1+n_2)]^2}{n_1^2n_2^2} \times \frac{(n_1-1)(n_2-1)}{(n_2-1) \times  \frac{\sigma^4}{n_1^2}+(n_1-1) \times \frac{\sigma^4}{n_2^2}}$$
+$$\leftrightarrow df_{Shieh's \; d} = \frac{\sigma^4N^2}{n_1^2n_2^2} \times \frac{(n_1-1)(n_2-1)}{\sigma^4 \left( \frac{n_2-1}{n^2_1}+\frac{n_1-1}{n^2_2}\right) }$$
+$$\leftrightarrow df_{Shieh's \; d} = \frac{N^2(n_1-1)(n_2-1)}{n_1^2n_2^2 \left( \frac{n_2^2(n_2-1)+n_1^2(n_1-1)}{n_1^2n_2^2}\right)}$$
+$$\leftrightarrow df_{Shieh's \; d} = \frac{N^2(n_1-1)(n_2-1)}{n_2^2(n_2-1)+n_1^2(n_1-1)}$$
+
+One can see that degrees of freedom depend only on the total sample size ($N$) and the sample size allocation ratio $\left( \frac{n_2}{n_1}\right)$. As a consequence, the **bias** of Shieh's $d$ is a function of the population effect size ($\delta_{Shieh}$), the sample size allocation ratio $\left( \frac{n_2}{n_1}\right)$ and the total sample size ($N$). 
+
+  + The larger the population effect size, the more Shieh's $d$ will overestimate $\delta_{Shieh}$;
+  
+```{r biasshiehhomNratio,include=FALSE}
+coeffmult <- NULL
+nratio <- NULL
+DF <- NULL
+
+for (i in 10:190){
+  
+  N <- 200
+  n1 <- i
+  n2 <- N-n1
+  sd1 <- 8
+  sd2 <- 8
+  
+  nratio <- c(nratio,n2/n1)
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF <- c(DF,df)
+  coeffmult <- c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))   
+  
+}
+```
+
+```{r biasshiehhomNratio2,fig.cap="Degrees of freedom (DF) and $\\gamma$, when computing the bias of Shieh's $d$, when variances are equal across groups, as a function of the logarithm of the sample sizes ratio $(log \\left(\\frac{n_2}{n_1})\\right)$.",echo=FALSE}
+par(mfrow=c(1,2))
+plot(log(nratio),DF,xlab=expression(paste("log(",n[2],"/",n[1],")")))
+#nratio[DF==max(DF)]
+plot(log(nratio),coeffmult,ylim=c(1,1.02),ylab=expression(gamma),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+#nratio[coeffmult==min(coeffmult)]
+```
+
+  + The further the sample size allocation ratio is from 1, the larger the bias (see Figure \ref{fig:biasshiehhomNratio2});
+
+```{r biasshiehhomNsize,include=FALSE}
+Nsize=NULL
+coeffmult=NULL
+DF=NULL
+
+sd1=2
+sd2=2
+
+for (i in 4:200){
+  n1=2.45*i
+  n2=i
+  N = n1+n2
+  Nsize=c(Nsize,N)
+  df = (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF = c(DF,df)
+  coeffmult = c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))
+}
+```
+
+```{r biasshiehhomNsize2,fig.cap="Degrees of freedom (DF) and $\\gamma$, when computing the bias of Shieh's $d$, when variances are equal across groups, as a function of the total sample size ($N$).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(Nsize,DF,xlab="N")
+plot(Nsize,coeffmult,ylab=expression(gamma),xlab="N")
+```
+
+  + For a constant sample sizes ratio, the larger the total sample size, the lower the bias (see Figure \ref{fig:biasshiehhomNsize2}).
+
+```{r biasshiehhomuneqNsize,include=FALSE}
+Nsize=NULL
+coeffmult=NULL
+DF=NULL
+
+sd1=2
+sd2=2
+
+for (i in 4:200){
+  n1=13
+  n2=i
+  N = n1+n2
+  Nsize=c(Nsize,N)
+  df = (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF = c(DF,df)
+  coeffmult = c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))
+}
+
+Nsize2=NULL
+coeffmult2=NULL
+DF2=NULL
+
+sd1=2
+sd2=2
+
+for (i in 4:200){
+  n1=i
+  n2=13
+  N = n1+n2
+  Nsize2=c(Nsize2,N)
+  df = (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF2 = c(DF2,df)
+  coeffmult2 = c(coeffmult2,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))
+}
+
+```
+
+```{r biasshiehhomuneqNsize2,fig.cap="Degrees of freedom (DF), when computing the bias of Shieh's $d$, when variances are equal across groups, when adding subjects only in the first group (left) or in the second group (right).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(Nsize,DF,xlab=expression(n[1]))
+plot(Nsize2,DF2,ylab="DF",xlab=expression(n[2]))
+```
+
+Note: when computing Cohen's $d^*$, degrees of freedom increased when adding subjects in either one or both groups, even when the sample size ratio increased. When computing Shieh's $d$, this is not true anymore: there is a larger impact of the sample sizes ratio such that moving the sample sizes ratio away from 1 when adding subjects in only one group can decrease the degrees of freedom and therefore, increase the bias (See Figure \ref{fig:biasshiehhomuneqNsize2}).
+
+#### When variances are unequal across populations, with equal sample sizes
+
+When $n_1=n_2=n$:
+$$df_{Shieh's \; d} = \frac{\left( \frac{\sigma_1^2+\sigma_2^2}{n} \right)^2}{\frac{(\sigma_1^2/n)^2+(\sigma_2^2/n)^2}{n-1}}$$
+$$\leftrightarrow df_{Shieh's \; d} = \frac{(\sigma_1^2+\sigma_2^2)^2}{n^2} \times\frac{n-1}{\frac{\sigma_1^4+\sigma_2^4}{n^2}}$$
+$$\leftrightarrow df_{Shieh's \; d} = \frac{(\sigma_1^2+\sigma_2^2)^2 \times (n-1)}{\sigma_1^4+\sigma_2^4}$$
+
+One can see that degrees of freedom depend on the total sample size ($N$) and the $SD$-ratio $\left( \frac{\sigma_2}{\sigma_1}\right)$.  As a consequence, the bias depends on the population effect size ($\delta_{Shieh}$), the $SD$-ratio $\left( \frac{\sigma_2}{\sigma_1}\right)$ and the total sample size ($N$).
+
+  + The larger the population effect size, the more Shieh's $d$ will overestimate $\delta_{Shieh}$;  
+
+```{r biasshiehhetbalSDratio,include=FALSE}
+coeffmult <- NULL
+SDratio <- NULL
+DF <- NULL
+
+for (i in 1:100){
+  
+  n1=100
+  n2=100
+  N <- n1+n2
+  sd2 <- 10
+  sd1 <- i
+  
+  SDratio <- c(SDratio,sd2/sd1)
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF <- c(DF,df)
+  coeffmult <- c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))   
+}
+```
+
+```{r biasshiehhetbalSDratio2,fig.cap="Degrees of freedom (DF) and $\\gamma$, when computing the bias of Shieh's $d$, when variances are unequal across groups and sample sizes are equal, as a function of the logarithm of the $SD$-ratio $(log \\left(\\frac{\\sigma_2}{\\sigma_1})\\right)$.",echo=FALSE}
+par(mfrow=c(1,2))
+plot(log(SDratio),DF,xlab=expression(paste("log(",sigma[2],"/",sigma[1],")")))
+#SDratio[DF==max(DF)]
+plot(log(SDratio),coeffmult,ylab=expression(gamma),xlab=expression(paste("log(",sigma[2],"/",sigma[1],")")))
+#SDratio[coeffmult==min(coeffmult)]
+```
+
+  + The further the $SD$-ratio is from 1, the larger the bias (see Figure \ref{fig:biasshiehhetbalSDratio2});  
+
+```{r biasshiehhetbalNsize,include=FALSE}
+Nsize=NULL
+coeffmult=NULL
+DF=NULL
+
+sd1=12
+sd2=1.4786
+
+for (i in 4:200){
+  n1=i
+  n2=i
+  N = n1+n2
+  Nsize=c(Nsize,N)
+  df = (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1)) 
+  DF = c(DF,df)
+  coeffmult = c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))
+}
+```
+
+```{r biasshiehhetbalNsize2,fig.cap="Degrees of freedom (DF) and $\\gamma$, when computing the bias of Shieh's $d$, when variances are unequal across groups and sample sizes are equal, as a function of the total sample size ($N$).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(Nsize,DF,xlab="N")
+plot(Nsize,coeffmult,ylab=expression(gamma),xlab="N")
+```
+
+  + The larger the total sample size, the lower the bias (see Figure \ref{fig:biasshiehhetbalNsize2});  
+
+```{r biasshiehhetbalvariance,include=FALSE}
+coeffmult <- NULL
+SD1 <- NULL
+DF <- NULL
+
+for (i in 1:200){
+  n1=100
+  n2=100
+  N <- n1+n2
+  sdratio = 3
+  sd1 <- i
+  sd2 <- sdratio*i
+
+  SD1 <- c(SD1,sd1)
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF <- c(DF,df)
+  coeffmult <- c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))   
+}
+```
+
+```{r biasshiehhetbalvariance2,fig.cap="Degrees of freedom (DF) and $\\gamma$, when computing the bias of Shieh's $d$, when variances are unequal across groups and sample sizes are equal, as a function of $\\sigma_1$, for a constant $SD$-ratio.",echo=FALSE}
+par(mfrow=c(1,2))
+plot(SD1,DF,xlab=expression(sigma[1]))
+#SDratio[DF==max(DF)]
+plot(SD1,round(coeffmult,6),ylab=expression(gamma),xlab=expression(sigma[1]))
+#SDratio[coeffmult==min(coeffmult)]
+```
+
+Note: for a constant $SD$-ratio, $\sigma_1$ and $\sigma_2$ do not matter (see Figure \ref{fig:biasshiehhetbalvariance2}). 
+
+#### When variances are unequal across populations, with unequal sample sizes
+
+The **bias** of Shieh's $d$ is a function of the population effect size ($\delta_{Shieh}$), the sample sizes ($n_1$ and $n_2$), and the interaction between the sample sizes ratio and the $SD$-ratio $\left(\frac{n_2}{n_1}\times\frac{\sigma_2}{\sigma_1} \right)$:
+
+  + The larger the population effect size, the more Shieh's $d$ will overestimate $\delta_{Shieh}$;  
+
+```{r biasshiehhetunbalNsize,include=FALSE}
+coeffmult <- NULL
+Nsize <- NULL
+DF <- NULL
+
+for (i in 2:200){
+  
+  n1 <- i
+  n2 <- 12*i
+  N <- n1+n2
+  sd1 <- 1.8
+  sd2 <- 1
+  
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF <- c(DF,df)
+  Nsize <- c(Nsize,N)
+  coeffmult <- c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))   
+}
+
+```
+
+```{r biasshiehhetunbalNsize2,fig.cap="Degrees of freedom (DF) and $\\gamma$, when computing the bias of Shieh's $d$, when variances and sample sizes are unequal across groups, as a function of the total sample size ($N$).",echo=FALSE}
+par(mfrow=c(2,2))
+plot(Nsize,DF,xlab="N")
+plot(Nsize,coeffmult,ylab=expression(gamma),xlab="N")
+```
+
+  + For a constant sample sizes ratio, the larger the sample sizes, the lower the bias (See Figure \ref{fig:biasshiehhetunbalNsize2});
+
+```{r biasshiehhetuneqNsize,include=FALSE}
+Nsize2=NULL
+coeffmult2=NULL
+DF2=NULL
+
+sd1=1.8
+sd2=1
+
+for (i in 4:200){
+  n1=i
+  n2=13
+  N = n1+n2
+  Nsize2=c(Nsize2,N)
+  df = (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF2 = c(DF2,df)
+  coeffmult2 = c(coeffmult2,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))
+}
+
+Nsize4=NULL
+coeffmult4=NULL
+DF4=NULL
+
+sd1=1
+sd2=1.8
+
+for (i in 4:200){
+  n1=i
+  n2=13
+  N = n1+n2
+  Nsize4=c(Nsize4,N)
+  df = (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF4 = c(DF4,df)
+  coeffmult4 = c(coeffmult4,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))
+}
+
+Nsize=NULL
+coeffmult=NULL
+DF=NULL
+
+sd1=1.8
+sd2=1
+
+for (i in 4:200){
+  n1=13
+  n2=i
+  N = n1+n2
+  Nsize=c(Nsize,N)
+  df = (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF = c(DF,df)
+  coeffmult = c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))
+}
+
+
+Nsize3=NULL
+coeffmult3=NULL
+DF3=NULL
+
+sd1=1
+sd2=1.8
+
+for (i in 4:200){
+  n1=13
+  n2=i
+  N = n1+n2
+  Nsize3=c(Nsize3,N)
+  df = (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF3 = c(DF3,df)
+  coeffmult3 = c(coeffmult3,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))
+}
+```
+
+```{r biasshiehhetuneqNsize2,fig.cap="Degrees of freedom (DF), when computing the bias of Shieh's $d$, when variances and sample sizes are unequal across groups, as a function of the total sample size, when adding subjects only in one group (either in the first group; see top plots; or in the second group; see bottom plots), and $\\sigma_1 > \\sigma_2$ (left plots) or $\\sigma_1 < \\sigma_2$ (right plots).",echo=FALSE}
+par(mfrow=c(2,2))
+plot(Nsize2,DF2,ylab="DF",xlab="N")
+plot(Nsize4,DF4,ylab="DF",xlab="N")
+plot(Nsize,DF,xlab="N")
+plot(Nsize3,DF3,ylab="DF",xlab="N")
+```
+
+Note: When variances were equal across populations, adding subjects only in the first group had the same impact on degrees of freedom (and therefore on bias) than adding subjects only in the second group (see Figure \ref{fig:biasshiehhomuneqNsize2}). When variances are unequal across groups, this is not true anymore (see Figure \ref{fig:biasshiehhetuneqNsize2}).
+
+```{r biasshiehhetunbalNratio,include=FALSE}
+coeffmult2 <- NULL
+nratio2 <- NULL
+DF2 <- NULL
+DF_NUM2 <- NULL
+DF_DENOM2 <- NULL
+
+for (i in 10:190){
+  
+  N <- 200
+  n1 <- i
+  n2 <- N-n1
+  sd2 <- 1
+  sd1 <- sqrt(50-sd2^2) # so sqrt((sd1^2+sd2^2)/2)=5
+  SDratio2=sd2/sd1
+  nratio2 <- c(nratio2,n2/n1)
+  df_num <- (sd1^2/n1+sd2^2/n2)^2
+  df_denom <- ((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF2 <- c(DF2,df)
+  DF_NUM2 <- c(DF_NUM2, df_num)
+  DF_DENOM2 <- c(DF_DENOM2, df_denom)
+
+  coeffmult2 = c(coeffmult2,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))
+}
+
+coeffmult3 <- NULL
+nratio3 <- NULL
+DF3 <- NULL
+DF_NUM3 <- NULL
+DF_DENOM3 <- NULL
+
+for (i in 10:190){
+  
+  N <- 200
+  n1 <- i
+  n2 <- N-n1
+  sd2 <- 2
+  sd1 <- sqrt(50-sd2^2) # so sqrt((sd1^2+sd2^2)/2)=5
+  SDratio3=sd2/sd1
+  nratio3 <- c(nratio3,n2/n1)
+  df_num <- (sd1^2/n1+sd2^2/n2)^2
+  df_denom <- ((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF_NUM3 <- c(DF_NUM3, df_num)
+  DF_DENOM3 <- c(DF_DENOM3, df_denom)
+  DF3 <- c(DF3,df)
+  coeffmult3 = c(coeffmult3,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))
+}
+
+coeffmult4 <- NULL
+nratio4 <- NULL
+DF4 <- NULL
+DF_NUM4 <- NULL
+DF_DENOM4 <- NULL
+
+for (i in 10:190){
+  
+  N <- 200
+  n1 <- i
+  n2 <- N-n1
+  sd2 <- 4
+  sd1 <- sqrt(50-sd2^2) # so sqrt((sd1^2+sd2^2)/2)=5
+  SDratio4=sd2/sd1
+  nratio4 <- c(nratio4,n2/n1)
+  df_num <- (sd1^2/n1+sd2^2/n2)^2
+  df_denom <- ((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF_NUM4 <- c(DF_NUM4, df_num)
+  DF_DENOM4 <- c(DF_DENOM4, df_denom)
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF4 <- c(DF4,df)
+  coeffmult4 = c(coeffmult4,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))
+}
+```
+
+```{r biasshiehhetunbaldfandvar,fig.cap="Degrees of freedom ($DF$) and $\\gamma$, when computing the bias of Shieh's $d$, when variances and sample sizes are unequal across groups, as a function of the logarithm of the sample sizes ratio ($log \\left( \\frac{n_2}{n_1} \\right)$), when $SD$-ratio equals .68 (first row), .29 (second row) or .14 (third row).",echo=FALSE}
+par(mfrow=c(3,2))
+
+plot(log(nratio4),DF4,ylab="DF",xlab=expression(paste("log(",n[2],"/",n[1],")")))
+plot(log(nratio4),coeffmult4,ylab=expression(gamma),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+
+plot(log(nratio3),DF3,ylab="DF",xlab=expression(paste("log(",n[2],"/",n[1],")")))
+abline(v=0)
+plot(log(nratio3),coeffmult3,ylab=expression(gamma),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+abline(v=0)
+
+plot(log(nratio2),DF2,ylab="DF",xlab=expression(paste("log(",n[2],"/",n[1],")")))
+abline(v=0)
+plot(log(nratio2),coeffmult2,ylab=expression(gamma),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+abline(v=0)
+
+```
+
+  + The smallest bias always occurs when there is a positive pairing between variances and sample sizes. Moreover, the further the $SD$-ratio is from 1, the further from 1 will also be the sample sizes ratio associated with the smallest bias (See Figure \ref{fig:biasshiehhetunbaldfandvar});
+
+```{r biasshiehhetunbalvariance,include=FALSE}
+coeffmult <- NULL
+SD <- NULL
+DF <- NULL
+
+for (i in 2:200){
+  
+  n1 <- 60
+  n2 <- 12
+  N <- n1+n2
+  sd1 <- i
+  sd2 <- 8*i
+  
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF <- c(DF,df)
+  SD <- c(SD,sqrt((sd1^2+sd2^2)/2))
+  coeffmult <- c(coeffmult,sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))   
+}
+
+```
+
+```{r biasshiehhetunbalvariance2,fig.cap="Degrees of freedom (DF) and $\\gamma$, when computing the bias of Shieh's $d$, when variances and sample sizes are unequal across groups, as a function of $\\sigma_1$ and $\\sigma_2$, for a constant $SD$-ratio.",echo=FALSE}
+par(mfrow=c(2,2))
+plot(SD,DF,xlab=expression(sigma))
+abline(v=0)
+plot(SD,coeffmult,ylab=expression(gamma),xlab=expression(sigma))
+abline(v=0)
+```
+  
+Moreover, for a constant $SD$-ratio, the variances do not matter (See Figure \ref{fig:biasshiehhetunbalvariance2}).
+
+### In summary
+
+The **bias** of Cohen's $d$ is a function of the population effect size $\delta_{Cohen}$ and the total sample size ($N$): 
+
+  + When $\delta_{Cohen}$ is null, the bias is null. In all other configurations, the larger $\delta_{Cohen}$, the more Cohen's $d$ will overestimate $\delta_{Cohen}$;  
+  + The bias decreases when the total sample size increases (it does not matter whether one adds subjects in only one group or in both).  
+
+The **bias** of Glass's $d$ is a function of the population effect size ($\delta_{Glass}$) and the size of the control group ($n_e$):  
+
+  + When $\delta_{Glass}$ is null, the bias is null. In all other configurations, the larger $\delta_{Glass}$, the more Glass's $d$ will overestimate $\delta_{Glass}$;  
+  + The bias decreases when the size of the control group increases. On the other hand, increasing the size of the experimental group does not impact the bias.  
+
+The **bias** of Cohen's $d^*$ is a function of the population effect size ($\delta^*_{Cohen}$), the total sample size, and the interaction between the sample sizes ratio and the $SD$-ratio $\left(\frac{n_2}{n_1}\times\frac{\sigma_2}{\sigma_1} \right)$:       
+
+  + When $\delta^*_{Cohen}$ is null, the bias is null. In all other configurations, the larger $\delta^*_{Cohen}$, the more Cohen's $d^*$ will overestimate $\delta^*_{Cohen}$;  
+  + The bias decreases when the total sample size increases (it does not matter whether one adds subjects in only one group or in both);
+  + The smallest bias always occurs when there is a positive pairing between $\frac{\sigma_2}{\sigma_1}$ and $\frac{n_2}{n_1}$. Moreover, the larger the $SD$-ratio, the further from 1 is the sample sizes ratio associated with the smallest bias.  
+
+The **bias** of Shieh's $d$ is a function of the population effect size ($\delta_{Shieh}$), the total sample size, and the interaction between the sample sizes ratio and the $SD$-ratio $\left(\frac{n_2}{n_1}\times\frac{\sigma_2}{\sigma_1} \right)$:   
+
+  + When $\delta_{Shieh}$ is null, the bias is null. In all other configurations, the larger $\delta_{Shieh}$, the more Shieh's $d$ will overestimate $\delta_{Shieh}$;    
+  + For a constant sample sizes ratio, the bias decreases when the total sample size increases;  
+  + The smallest bias always occurs when there is a positive pairing between $\frac{\sigma_2}{\sigma_1}$ and $\frac{n_2}{n_1}$. Moreover, the larger the $SD$-ratio, the further from 1 is the sample sizes ratio associated with the smallest bias (for more details, see "Theoretical Bias, as a function of population parameters").    
+
+## Theoretical variance 
+
+Note: while we focus on the theoretical variance of biased estimators (Cohen's $d$, Glass's $d$, Shieh's $d$ and Cohen's $d^*$) when the normality assumption is met, it is interesting to notice that our main conclusions seem to generalize to biased estimators when samples are extracted from symmetric distributions. Moreover, unbiased estimators depend on the same factors as biased estimators, so our conclusions remain similar for unbiased estimators when samples are extracted from heavy-tailed symmetric distributions.
+
+### Cohen's $\bm{d}$
+
+#### When variances are equal across populations
+
+##### When $\bm{\delta_{Cohen}=0}$
+
+When the population effect size is zero, the variance of Cohen's $d$ can be simplified as follows:
+
+$$Var_{Cohen's \; d} = \frac{N(N-2)}{n_1n_2(N-4)}$$
+
+The **variance** of Cohen's $d$ is a function of total sample size ($N$) and the sample sizes allocation ratio ($\frac{n_2}{n_1}$):     
+
+```{r varcohendNsize,include=FALSE}
+Nsize=NULL
+VAR=NULL
+
+for (i in 4:200){
+  delta_cohen = 0
+  n1=i
+  n2=i
+  N = n1+n2
+  df=N-2
+  Nsize=c(Nsize,N)
+  variance <-(N*df)/(n1*n2*(df-2)) + delta_cohen^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  VAR=c(VAR,variance) 
+}
+
+```
+
+```{r varcohendNsize2,fig.cap="Variance of Cohen's $d$, when variances are equal across groups, as a function of the total sample size ($N$).",echo=FALSE}
+plot(Nsize,VAR,xlab="N",ylab=expression(paste("Var(",d,")")))
+```
+
+  + The larger the total sample size, the lower the variance. The variance tends to zero when the total sample size tends to infinity (see Figure \ref{fig:varcohendNsize2});
+
+```{r varcohenNratio,include=FALSE}
+nratio=NULL
+VAR1=NULL
+VAR2=NULL
+VAR=NULL
+
+for (i in 1:199){
+  delta_cohen=5
+  N <- 200
+  n1 <- i
+  n2 <- N-n1
+  df <- N-2
+  
+  nratio <- c(nratio,n2/n1)
+  variance1 <-(N*df)/(n1*n2*(df-2))
+  variance2 <-delta_cohen^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  variance <- (N*df)/(n1*n2*(df-2))+delta_cohen^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  VAR1=c(VAR1,variance1) 
+  VAR2=c(VAR2,variance2) 
+  VAR = c(VAR,variance)
+
+}
+
+#Remarque: le deuxième terme de l'addition, dans le calcul de la variance, ne dépend pas du tout du nratio.Donc peu importe que delta_cohen = 0 ou autre chose, ça ne modifiera en rien l'impact du nratio.
+```
+
+```{r varcohenNratio2,fig.cap="Variance of Cohen's $d$, when variances are equal across groups, as a function of the logarithm of the sample sizes ratio ($log\\left(\\frac{n_2}{n_1} \\right)$).",echo=FALSE}
+plot(log(nratio),VAR,xlab=expression(paste("log(",n[2],"/",n[1],")")),ylab=expression(paste("Var(",d,")")))
+#nratio[VAR==min(VAR)]
+```
+
+  + The further the sample sizes allocation ratio is from 1, the larger the variance (see Figure \ref{fig:varcohenNratio2}).  
+
+##### When $\bm{\delta_{Cohen}\neq 0}$
+
+```{r ESmoderatorcohenNsize,include=FALSE}
+N1=NULL
+VAR1=NULL
+
+for (i in 4:300){
+  n1=i
+  n2=20
+  N = n1+n2
+  df=N-2
+  N1 <- c(N1,n1)
+  variance <-(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2) 
+  VAR1=c(VAR1,variance) 
+}
+
+N2=NULL
+VAR2=NULL
+
+for (i in 4:300){
+  n1=20
+  n2=i
+  N = n1+n2
+  df=N-2
+  N2 <- c(N2,n2)
+  variance <- (df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2) 
+  VAR2=c(VAR2,variance) 
+}
+
+Ntot=NULL
+VAR=NULL
+
+for (i in 4:300){
+  n1=20
+  n2=i
+  N = n1+n2
+  df=N-2
+  Ntot <- c(Ntot,N)
+  variance <- (df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2) 
+  VAR=c(VAR,variance) 
+}
+
+```
+
+```{r ESmoderatorcohenNsize2,fig.cap="Effect size moderator, when computing the variance of Cohen's $d$, as a function of $n_1$ (left), $n_2$ (center) and $N=n_1+n_2$ (right).",echo=FALSE}
+par(mar=c(4,7,2,1),mfrow=c(1,3))
+plot(N1,VAR1,xlab=expression(n[1]),ylab=expression(frac(df, df-2)- (frac(sqrt(frac(df,2)) %*% Gamma(frac(df-1,2)),Gamma(frac(df,2))))^2))
+plot(N2,VAR2,xlab=expression(n[2]),ylab=expression(frac(df, df-2)- (frac(sqrt(frac(df,2)) %*% Gamma(frac(df-1,2)),Gamma(frac(df,2))))^2))
+plot(Ntot,VAR,xlab="N",ylab=expression(frac(df, df-2)- (frac(sqrt(frac(df,2)) %*% Gamma(frac(df-1,2)),Gamma(frac(df,2))))^2))
+```
+
+While the variance of Cohen's $d$ still depends on the total sample size and the sample sizes allocation ratio, it also depends on the population effect size ($\delta_{Cohen}$). The larger the population effect size, the larger the variance. Note that the effect of the population effect size decreases when sample sizes increase  since 
+$$\lim_{n_1\rightarrow \infty}\left[\frac{df}{df-2} - \left( \frac{\sqrt{\frac{df}{2}} \times \Gamma \left(\frac{df-1}{2} \right)}{\Gamma \left( \frac{df}{2}\right)}\right)^2 \right]=0$$  
+$$\lim_{n_2\rightarrow \infty}\left[\frac{df}{df-2} - \left( \frac{\sqrt{\frac{df}{2}} \times \Gamma \left(\frac{df-1}{2} \right)}{\Gamma \left( \frac{df}{2}\right)}\right)^2 \right]=0$$  
+$$\lim_{N\rightarrow \infty}\left[\frac{df}{df-2} - \left( \frac{\sqrt{\frac{df}{2}} \times \Gamma \left(\frac{df-1}{2} \right)}{\Gamma \left( \frac{df}{2}\right)}\right)^2 \right]=0$$ 
+
+This is illustrated in Figure \ref{fig:ESmoderatorcohenNsize2}.  
+
+#### In summary
+
+The variance of Cohen's $d$ is a function of the population effect size ($\delta_{Cohen}$), the total sample size ($N$) and the sample sizes ratio ($\frac{n_2}{n_1}$):  
+
+  + The variance decreases when the total sample size increases;  
+  + The variance also decreases when the sample sizes ratio gets closer to 1;  
+  + Finally, the variance increases when $\delta_{Cohen}$ increases. Note that the effect of $\delta_{Cohen}$ is moderated by the total sample size (the larger $N$, the smaller the effect of $\delta_{Cohen}$ on the variance).   
+
+### Glass's $\bm{d}$
+
+#### When variances are equal across populations
+
+##### When $\bm{\delta_{Glass}=0}$
+
+When the population effect size is zero, the variance of Glass's $d$ can be simplified as follows:
+
+$$Var_{Glass's \; d} = \frac{n_c-1}{n_c-3} \left( \frac{1}{n_c}+\frac{1}{n_e}\right)$$ In this configuration, the **variance** of Glass's $d$ is a function of the sample sizes of both control ($n_c$) and experimental ($n_e$) groups as well as of the sample sizes allocation ratio $\left( \frac{n_c}{n_e}\right)$:  
+
+```{r varglassNsize,include=FALSE}
+Nsize=NULL
+VAR=NULL
+
+for (i in 4:150){
+  delta_glass = 0
+  sde=2
+  sdc=2
+  nc=2*i
+  ne=i
+  N = nc+ne
+  df=nc-1
+  Nsize <- c(Nsize,N)
+  variance <-df/(df-2)*(1/nc+sde^2/(ne*sdc^2)) + delta_glass^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  VAR=c(VAR,variance) 
+}
+```
+
+```{r varglassNsize2,fig.cap="Variance of Glass's $d$, when variances are equal across groups, as a function of the total sample size ($N$).",echo=FALSE}
+plot(Nsize,VAR,xlab="N",ylab=expression(paste("Var(",d,")")))
+```
+
+  + The larger the sample sizes, the lower the variance (Figure \ref{fig:varglassNsize2});
+  
+```{r varglasshomNratio,include=FALSE}
+nratio=NULL
+VAR=NULL
+
+for (i in 4:299){
+  delta_glass=0
+  sde=2
+  sdc=2
+
+  N <- 300
+  nc <- i
+  ne <- N-nc
+  df <- nc-1
+
+  nratio <- c(nratio,nc/ne)
+  variance <-df/(df-2)*(1/nc+sde^2/(ne*sdc^2)) + delta_glass^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  VAR=c(VAR,variance) 
+}
+```
+
+```{r varglasshomNratio2,fig.cap="Variance of Glass's $d$, when variances are equal across groups, as a function of the logarithm of the sample sizes ratio ($log\\left(\\frac{n_c}{n_e} \\right)$).",echo=FALSE}
+plot(log(nratio),VAR,xlab=expression(paste("log(",n[c],"/",n[e],")")),ylab=expression(paste("Var(",d,")")))
+#nratio[VAR==min(VAR)]
+```
+
+The sample sizes ratio associated with the lowest variance is not exactly 1 (because of the term $\frac{df}{df-2}$, $df$ depending only on $n_c$), but is very close to 1 (and the larger the total sample size, the closer to 1 is the sample sizes ratio associated with the lowest variance). The further from this sample size ratio, the larger the variance (see Figure \ref{fig:varglasshomNratio2}).
+
+##### When $\bm{\delta_{Glass} \neq 0}$
+
+
+```{r ESmoderatorGlassNsize,include=FALSE}
+Nc=NULL
+VAR1=NULL
+
+for (i in 4:200){
+  delta_glass = 0
+  sde=2
+  sdc=2
+  nc=i
+  ne=20
+  N = nc+ne
+  df=nc-1
+  Nc <- c(Nc,nc)
+  variance <-(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2) #df/(df-2)*(1/nc+sde^2/(ne*sdc^2)) + delta_glass^2*
+  VAR1=c(VAR1,variance) 
+}
+
+Ne=NULL
+VAR2=NULL
+
+for (i in 4:200){
+  delta_glass = 0
+  sde=2
+  sdc=2
+  nc=20
+  ne=i
+  N = nc+ne
+  df=nc-1
+  Ne <- c(Ne,ne)
+  variance <- (df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2) #df/(df-2)*(1/nc+sde^2/(ne*sdc^2)) + delta_glass^2*
+  VAR2=c(VAR2,variance) 
+}
+```
+
+```{r ESmoderatorGlassNsize2,fig.cap="Effect size moderator, when computing the variance of Glass's $d$, as a function of the size of the control group (left) and experimental group (right).",echo=FALSE}
+par(mfrow=c(2,1),mar=c(4,7,2,2),mfrow=c(1,2))
+plot(Nc,VAR1,xlab=expression(n[c]),ylab=expression(frac(df, df-2)- (frac(sqrt(frac(df,2)) %*% Gamma(frac(df-1,2)),Gamma(frac(df,2))))^2))
+plot(Ne,VAR2,xlab=expression(n[e]),ylab=expression(frac(df, df-2)- (frac(sqrt(frac(df,2)) %*% Gamma(frac(df-1,2)),Gamma(frac(df,2))))^2))
+
+```
+
+While the variance of Glass's $d$ still depends on the total sample size and the sample sizes allocation ratio, it also depends on the population effect size ($\delta_{Glass}$). The larger the population effect size, the larger the variance. However, the effect of the population effect size decreases when the control group increases. On the other hand, the effect of the population effect size does *not* depend on the size of the experimental group since  
+$$\lim_{n_c\rightarrow \infty}\left[\frac{df}{df-2} - \left( \frac{\sqrt{\frac{df}{2}} \times \Gamma \left(\frac{df-1}{2} \right)}{\Gamma \left( \frac{df}{2}\right)}\right)^2 \right]=0$$ 
+$$\lim_{n_e\rightarrow \infty}\left[\frac{df}{df-2} - \left( \frac{\sqrt{\frac{df}{2}} \times \Gamma \left(\frac{df-1}{2} \right)}{\Gamma \left( \frac{df}{2}\right)}\right)^2 \right] \neq 0$$ 
+
+These limits are illustrated in Figure \ref{fig:ESmoderatorGlassNsize2}.
+
+```{r varglasshomNratiobis,include=FALSE}
+nratio=NULL
+VAR=NULL
+delta_glass1=4
+
+for (i in 4:99){
+  
+  sde=2
+  sdc=2
+
+  N <- 100
+  nc <- i
+  ne <- N-nc
+  df <- nc-1
+
+  nratio <- c(nratio,nc/ne)
+  variance <-df/(df-2)*(1/nc+sde^2/(ne*sdc^2)) + delta_glass1^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  VAR=c(VAR,variance) 
+}
+
+nratio2=NULL
+VAR2=NULL
+delta_glass2=7
+
+for (i in 4:99){
+  
+  sde=2
+  sdc=2
+
+  N <- 100
+  nc <- i
+  ne <- N-nc
+  df <- nc-1
+
+  nratio2 <- c(nratio2,nc/ne)
+  variance <-df/(df-2)*(1/nc+sde^2/(ne*sdc^2)) + delta_glass2^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  VAR2=c(VAR2,variance) 
+}
+
+```
+
+```{r varglasshomNratiobis2,fig.cap="Variance of Glass's $d$, when variances are equal across groups, as a function of the logarithm of the sample sizes ratio ($log\\left(\\frac{n_c}{n_e} \\right)$) when $\\delta_{Glass}$ equals 4 (left) or 7 (right).",echo=FALSE}
+par(mar=c(4,7,2,2),mfrow=c(1,2))
+plot(log(nratio),VAR,xlab=expression(paste("log(",n[c],"/",n[e],")")),ylab=expression(paste("Var(",d,")")))
+plot(log(nratio2),VAR2,xlab=expression(paste("log(",n[c],"/",n[e],")")),ylab=expression(paste("Var(",d,")")))
+
+#round(nratio[VAR==min(VAR)])
+#round(nratio2[VAR2==min(VAR2)])
+```
+
+Note: while the sample sizes ratio associated with the lowest variance was very close to 1 with a null population effect size, this is not true anymore when the population effect size is not zero. Indeed, because of the second term in the addition, when computing the variance, one gives much more weight to the effect size of the control group  (see Figure \ref{fig:varglasshomNratiobis2}), especially when the effect size gets larger. For example, when $\delta_{Glass}$= `r delta_glass1`, the lowest variance will occur when $n_c$ is approximately `r round(nratio[VAR==min(VAR)])` times larger than $n_e$. When $\delta_{Glass}$= `r delta_glass2`, the lowest variance will occur when $n_c$ is approximately `r round(nratio2[VAR2==min(VAR2)])` times larger than $n_e$, etc. 
+
+#### When variances are unequal across populations, with equal sample sizes
+
+##### When $\bm{\delta_{Glass} = 0}$
+
+When the population effect size is zero, the variance of Glass's $d$ can be simplified as follows:
+
+$$Var_{Glass's \; d} = \frac{n-1}{n(n-3)} \left( 1+\frac{\sigma^2_e}{\sigma^2_c}\right)$$
+where $n=N/2=$ sample size of each group. The variance is therefore a function of the total sample size and the $SD$-ratio ($\frac{\sigma_c}{\sigma_e}$): 
+
+```{r varglassHetbalNsize,include=FALSE}
+Nsize=NULL
+VAR=NULL
+
+for (i in 4:200){
+  delta_glass = 0
+  sde=10
+  sdc=2
+  nc=i
+  ne=i
+  N = nc+ne
+  df=nc-1
+  Nsize <- c(Nsize,N)
+  variance <-df/(df-2)*(1/nc+sde^2/(ne*sdc^2)) + delta_glass^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  VAR=c(VAR,variance) 
+}
+```
+
+```{r varglassHetbalNsize2,fig.cap="Variance of Glass's $d$, when variances are unequal across groups and sample sizes are equal, as a function of the total sample sizes ($N$).",echo=FALSE}
+plot(Nsize,VAR,xlab="N",ylab=expression(paste("Var(",d,")")))
+```
+
+  + The larger the total sample size, the lower the variance (See Figure \ref{fig:varglassHetbalNsize2});
+  
+```{r varglasshetbalSDratio,include=FALSE}
+SDratio <- NULL
+VAR <- NULL
+
+for (i in 1:100){
+  
+  delta_glass <- 0
+  ne=10
+  nc=10
+  N <- ne+nc
+  sde <- 10
+  sdc <- i
+  df <- nc-1
+  
+  SDratio <- c(SDratio,sdc/sde)
+  variance <-df/(df-2)*(1/nc+sde^2/(ne*sdc^2)) + delta_glass^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  VAR=c(VAR,variance) 
+}
+```
+
+```{r varglasshetbalSDratio2,fig.cap="Variance of Glass's $d$, when variances are unequal across groups and sample sizes are equal, as a function of the logarithm of the $SD$-ratio ($log \\left( \\frac{\\sigma_c}{\\sigma_e} \\right)$).",echo=FALSE}
+plot(log(SDratio),VAR,xlab=expression(paste("log(",sigma[c],"/",sigma[e],")")),ylab=expression(paste("Var(",d,")")))
+```
+
+  + The larger the $SD$-ratio (i.e. the larger is $\sigma_c$ in comparison with $\sigma_e$), the lower the variance (see Figure \ref{fig:varglasshetbalSDratio2}). However, the effect of the $SD$-ratio decreases when sample sizes increase, because $\lim_{n(=n_c=n_e)\rightarrow \infty}\left[\frac{df}{n(df-2)} \right]=0$.
+  
+##### When $\bm{\delta_{Glass} \neq 0}$
+
+While the variance of Glass's $d$ still depends on the total sample size and the $SD$-ratio, it also depends on the population effect size ($\delta_{Glass}$). The larger the population effect size, the larger the variance. However, the effect of the population effect size decreases when the control group increases, as previously explained and illustrated in Figure \ref{fig:ESmoderatorGlassNsize2}.
+
+#### When variances are unequal across populations, with unequal sample sizes
+
+##### When $\bm{\delta_{Glass} = 0}$
+
+When the population effect size is zero, the variance of Glass's $d$ can be simplified as follows:
+
+$$Var_{Glass's \; d} = \frac{n_c-1}{n_c-3} \left( \frac{1}{n_c}+\frac{\sigma^2_e}{n_e\sigma^2_c}\right)$$
+
+The variance of Glass's $d$ is therefore a function of the total sample size ($N$), the $SD$-ratio and the interaction between the sample sizes ratio and the $SD$-ratio $\left(\frac{n_c}{n_e}\times\frac{\sigma_c}{\sigma_e} \right)$:
+
+```{r varglassHetunbalNsize,include=FALSE}
+
+VAR1=NULL
+Ne1 = NULL
+for (i in 4:150){
+  delta_glass = 0
+  sde=1
+  sdc=10
+  nc=50
+  ne=i
+  Ne1=c(Ne1,ne)
+  df=nc-1
+  variance <-(1/nc+sde^2/(ne*sdc^2)) + delta_glass^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2) #df/(df-2)
+  VAR1=c(VAR1,variance) 
+}
+
+#------------------------------
+
+VAR2=NULL
+Nc2 = NULL
+for (i in 4:150){
+  delta_glass = 0
+  sde=1
+  sdc=10
+  nc=i
+  ne=50
+  Nc2=c(Nc2,nc)
+  df=nc-1
+  variance <-(1/nc+sde^2/(ne*sdc^2)) + delta_glass^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2) #df/(df-2)
+  VAR2=c(VAR2,variance) 
+}
+
+#------------------------------
+
+VAR3=NULL
+Ne3 = NULL
+for (i in 4:150){
+  delta_glass = 0
+  sde=10
+  sdc=1
+  nc=50
+  ne=i
+  Ne3=c(Ne3,ne)
+  df=nc-1
+  variance <-(1/nc+sde^2/(ne*sdc^2)) + delta_glass^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2) #df/(df-2)
+  VAR3=c(VAR3,variance) 
+}
+
+#------------------------------
+
+VAR4=NULL
+Nc4 = NULL
+for (i in 4:150){
+  delta_glass = 0
+  sde=10
+  sdc=1
+  nc=i
+  ne=50
+  Nc4=c(Nc4,nc)
+  df=nc-1
+  variance <-(1/nc+sde^2/(ne*sdc^2)) + delta_glass^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2) #df/(df-2)
+  VAR4=c(VAR4,variance) 
+}
+
+```
+
+```{r varglassHetunbalNsize2,fig.cap="Variance of Glass's $d$, when variances and sample sizes are unequal across groups, as a function of the total sample sizes, when increasing only the control (right) or the experimental (left) group, when $\\sigma_c > \\sigma_e$ (top plots) or $\\sigma_c < \\sigma_e$ (bottom plots).",echo=FALSE}
+par(mfrow=c(2,2))
+
+plot(Ne1,VAR1,xlab="N",ylab=expression(paste("Var(",d,")")))
+
+plot(Nc2,VAR2,xlab="N",ylab=expression(paste("Var(",d,")")))
+
+plot(Ne3,VAR3,xlab="N",ylab=expression(paste("Var(",d,")")))
+
+plot(Nc4,VAR4,xlab="N",ylab=expression(paste("Var(",d,")")))
+```
+
++ For any $SD$ and sample sizes pairing, increasing $n_c$ and/or $n_e$ will decrease the variance (see Figure \ref{fig:varglassHetunbalNsize2});
+
+  + The effect of the sample sizes ratio depends on the $SD$-ratio:    
+    - We previously mentioned that when $\sigma_c=\sigma_e$,  the variance is minimized when sample sizes of both groups are almost identical (see Figure \ref{fig:varglasshomNratio2}), meaning that it is more efficient, in order to reduce variance, to add subjects uniformly in both groups;  
+    - When $\sigma_e > \sigma_c$, more weight is given to $n_e$, meaning that it is more efficient, in order to reduce variance, to add subjects in the experimental group ($n_e$; see bottom plots in Figure \ref{fig:varglassHetunbalNsize2});  
+    - When $\sigma_c > \sigma_e$, less weight is given to $n_e$, meaning that it is more efficient, in order to reduce variance, to add sujects in the control group ($n_c$; see top plots in Figure \ref{fig:varglassHetunbalNsize2}).     
+
+```{r varglasshetunbalSDratio,include=FALSE}
+SDratio <- NULL
+VAR <- NULL
+
+for (i in 1:100){
+  
+  delta_glass <- 0
+  ne=10
+  nc=100
+  N <- ne+nc
+  sde <- 10
+  sdc <- i
+  df <- nc-1
+  
+  SDratio <- c(SDratio,sdc/sde)
+  variance <-df/(df-2)*(1/nc+sde^2/(ne*sdc^2)) + delta_glass^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  VAR=c(VAR,variance) 
+}
+```
+
+```{r varglasshetunbalSDratio2,fig.cap="Variance of Glass's $d$, when sample sizes and variances are unequal across groups, as a function of the logarithm of the $SD$-ratio ($log \\left( \\frac{\\sigma_c}{\\sigma_e} \\right)$).",echo=FALSE}
+plot(log(SDratio),VAR,xlab=expression(paste("log(",sigma[c],"/",sigma[e],")")),ylab=expression(paste("Var(",d,")")))
+```
+
++ Finally, there is also a main effect of the $SD$-ratio: the larger is $\sigma_c$ in comparison with $\sigma_e$, the lower the variance, as we can observe in Figure \ref{fig:varglasshetunbalSDratio2}. We can also notice that in Figure \ref{fig:varglassHetunbalNsize2}, the maximum variance is much larger in the two bottom plots (where $\sigma_c<\sigma_e$)  than in the two top plots (where $\sigma_c>\sigma_e$).  
+    
+Note that the effect of the $SD$-ratio, and the interaction effect between $SD$-ratio and sample sizes ratio decreases when the sample size of the control group increases (because $\frac{n_c-1}{n_c-3}$ gets closer to 1).
+  
+##### When $\bm{\delta_{Glass} \neq 0}$
+
+While the variance of Glass's $d$ still depends on the total sample size, the $SD$-ratio and the interaction between the $SD$-ratio and the sample sizes ratio, it also depends on the population effect size ($\delta_{Glass}$): the larger the population effect size, the larger the variance. However, the effect of the population effect size decreases when the sample size of the control group increases, as previously explained and illustrated in Figure \ref{fig:ESmoderatorGlassNsize2}.
+
+Note: when the population effect size was null, when $\sigma_c<\sigma_e$, it was much more efficient to add subjects in the experimental group in order to reduce the variance (because much more weight was given to $n_e$). When $\delta_{Glass} \neq 0$, it is important to add subjects in both groups in order to reduce the variance (because $\frac{df}{df-2} - \left( \frac{\sqrt{\frac{df}{2}} \times \Gamma \left(\frac{df-1}{2} \right)}{\Gamma \left( \frac{df}{2}\right)}\right)^2$ is only a function of the sample size of the control group). With huge population effect size, it is even always more important to add subjects in the control group (e.g. when $\delta_{Glass}=30$). 
+
+#### In summary
+
+The variance of Glass's $d$ is a function of the population effect size ($\delta_{Glass}$), the $SD$-ratio, the total sample size and the interaction between sample sizes ratio and $SD$-ratio $\left(\frac{n_c}{n_e}\times\frac{\sigma_c}{\sigma_e} \right)$:  
+
+  + The variance decreases when the $SD$-ratio increases (i.e. when $\sigma_e >> \sigma_c$);  
+  + The variance always decreases when the control and/or the experimental group increases. The benefit of adding subjects rather in the control, in the experimental, or in both groups, in order to reduce the variance, varies as a function of the $SD$-ratio and the population effect size. The only situation where it is optimal to maximize the experimental group is when $\sigma_e > \sigma_c$ and $\delta_{Glass} \approx 0$. Most of the time, it is more efficient to maximize the control groups (e.g. anytime $\sigma_e < \sigma_c$, and when $\delta_{Glass}$ is very large) or to uniformly add subjects in both groups (e.g. when $\sigma_e > \sigma_c$ and $\delta_{Glass}$ is neither null nor huge); 
+  + The variance increases when $\delta_{Glass}$ increases. Note that the effect of $\delta_{Glass}$ is moderated by the control group size (the larger $n_e$, the smaller the effect of $\delta_{Glass}$ on the variance).   
+
+### Cohen's $\bm{d^*}$ 
+
+#### When variances are equal across populations
+
+##### When $\bm{\delta^*_{Cohen} = 0}$
+
+When the population effect size is zero, the variance of Cohen's $d^*$ is computed as follows :
+$$Var_{Cohen's \; d^*} = \frac{df}{df-2} \times \frac{N}{n_1n_2}$$
+with $$df = \frac{4(n_1-1)(n_2-1)}{n_1+n_2-2}$$ 
+In this configuration, the degrees of freedom as well as the variance of Cohen's $d^*$ depend on the total sample size ($N$) and the sample sizes allocation ratio ($\frac{n_2}{n_1}$):
+
+```{r varcohendprimeHomNratio,include=FALSE}
+var <- NULL
+nratio <- NULL
+DF <- NULL
+
+for (i in 10:190){
+  delta_cohendprime=0
+  N <- 200
+  n1 <- i
+  n2 <- N-n1
+  sd1 <- 3
+  sd2 <- 3
+
+  nratio <- c(nratio,n2/n1)
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF <- c(DF,df)
+  variance <- df/(df-2)*((2*(sd1^2/n1+sd2^2/n2))/(sd1^2+sd2^2))+delta_cohendprime^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var <- c(var,variance)   
+}
+```
+
+```{r varcohendprimeHomNratio2,fig.cap="Variance of Cohen's $d^*$ when variances are equal across groups, as a function of the logarithm of the sample sizes ratio ($log\\left(\\frac{n_2}{n_1} \\right)$).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(log(nratio),DF,xlab=expression(paste("log(",n[2],"/",n[1],")")))
+#nratio[DF==max(DF)]
+plot(log(nratio),var,xlab=expression(paste("log(",n[2],"/",n[1],")")),ylab=expression(paste("Var(",d,")")))
+#nratio[var==min(var)]
+```
+
++ The further the sample sizes allocation ratio is from 1, the larger the variance (see Figure \ref{fig:varcohendprimeHomNratio2});
+
+```{r varcohendprimehomNsize,include=FALSE}
+Nsize=NULL
+var=NULL
+DF=NULL
+
+sd1=2
+sd2=2
+
+for (i in 4:200){
+  delta_cohendprime=5
+  n1=i
+  n2=i
+  N = n1+n2
+  Nsize=c(Nsize,N)
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF <- c(DF,df)
+  variance <- df/(df-2)*((2*(sd1^2/n1+sd2^2/n2))/(sd1^2+sd2^2))+delta_cohendprime^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var <- c(var,variance)   
+}
+```
+
+```{r varcohendprimehomNsize2,fig.cap="Variance of Cohen's $d^*$ when variances are equal across groups, as a function of the total sample size ($N$).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(Nsize,DF,xlab="N")
+plot(Nsize,var,xlab="N",ylab=expression(paste("Var(",d,")")))
+```
+
+  + The larger the total sample size, the lower the bias (see Figure \ref{fig:varcohendprimehomNsize2}).
+
+##### When $\bm{\delta^*_{Cohen} \neq 0}$
+
+```{r ESmoderator,include=FALSE}
+DF=NULL
+MODER=NULL
+
+for (i in 4:200){
+  df=i
+  DF=c(DF,df)
+  moder <-(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  MODER=c(MODER,moder) 
+}
+```
+
+```{r ESmoderator2,fig.cap="Effect size moderator (for all estimators), as a function of the degrees of freedom. ",echo=FALSE}
+par(mar=c(4,7,2,2))
+plot(DF,MODER,xlab="df",ylab=expression(frac(df, df-2)- (frac(sqrt(frac(df,2)) %*% Gamma(frac(df-1,2)),Gamma(frac(df,2))))^2))
+```
+
+While the variance of Cohen's $d^*$ still depends on the total sample size and the sample sizes ratio, it also depends on the population effect size ($\delta^*_{Cohen}$): the larger the population effect size, the larger the variance. However, the effect of the population effect size decreases when the degrees of freedom increase (i.e. when sample sizes increase and/or the sample sizes ratio get closer to 1), as illustrated in Figure \ref{fig:ESmoderator2} since
+$$\lim_{df\rightarrow \infty}\left[\frac{df}{df-2} - \left( \frac{\sqrt{\frac{df}{2}} \times \Gamma \left(\frac{df-1}{2} \right)}{\Gamma \left( \frac{df}{2}\right)}\right)^2 \right]=0$$ 
+
+#### When variances are unequal across populations, with equal sample sizes
+
+##### When $\bm{\delta^*_{Cohen} = 0}$
+
+When the population effect size is zero, the variance of Cohen's $d^*$ can be simplified as follows:
+$$Var_{Cohen's \; d^*} = \frac{df}{df-2} \times \frac{2}{n}$$
+where $n=N/2$=sample size of each group, and $df=\frac{(n-1)(\sigma^4_1+\sigma^4_2+2\sigma^2_1\sigma^2_2)}{\sigma^4_1+\sigma^4_2}$. In this configuration, the degrees of freedom as well as the variance of Cohen's $d^*$ depend on the total sample size ($N$) and the $SD$-ratio $\left( \frac{\sigma_2}{\sigma_1}\right)$:
+
+```{r varcohendprimehetbalSDratio,include=FALSE}
+var <- NULL
+SDratio <- NULL
+DF <- NULL
+
+for (i in 1:100){
+  
+  delta_cohendprime=0
+  n1=100
+  n2=100
+  N <- n1+n2
+  sd2 <- 10
+  sd1 <- i
+  
+  SDratio <- c(SDratio,sd2/sd1)
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF <- c(DF,df)
+
+  variance <- df/(df-2)*((2*(sd1^2/n1+sd2^2/n2))/(sd1^2+sd2^2))+delta_cohendprime^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var <- c(var,variance)   
+
+}
+```
+
+```{r varcohendprimehetbalSDratio2,fig.cap="Variance of Cohen's $d^*$ when variances are unequal across groups and sample sizes are equal, as a function of the logarithm of the $SD$-ratio ($log \\left( \\frac{\\sigma_2}{\\sigma_1} \\right)$).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(log(SDratio),DF,xlab=expression(paste("log(",sigma[2],"/",sigma[1],")")))
+#SDratio[DF==max(DF)]
+plot(log(SDratio),var,xlab=expression(paste("log(",sigma[2],"/",sigma[1],")")),ylab=expression(paste("Var(",d,")")))
+#SDratio[var==min(var)]
+```
+
+  + The further the $SD$-ratio is from 1, the larger the variance (see Figure \ref{fig:varcohendprimehetbalSDratio2});  
+
+```{r varcohendprimehetbalNsize,include=FALSE}
+Nsize=NULL
+var=NULL
+DF=NULL
+
+sd1=10
+sd2=2
+
+for (i in 4:200){
+  n1=i
+  n2=i
+  N = n1+n2
+  Nsize=c(Nsize,N)
+  delta_cohendprime=0
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF <- c(DF,df)
+  variance <- df/(df-2)*((2*(sd1^2/n1+sd2^2/n2))/(sd1^2+sd2^2))+delta_cohendprime^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var <- c(var,variance)   
+}
+```
+
+```{r varcohendprimehetbalNsize2,fig.cap="Variance of Cohen's $d^*$ when variances are unequal across groups and sample sizes are equal, as a function of the total sample size ($N$).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(Nsize,DF,xlab="N")
+plot(Nsize,var,xlab="N",ylab=expression(paste("Var(",d,")")))
+```
+
+  + The larger the total sample size, the lower the variance (see Figure \ref{fig:varcohendprimehetbalNsize2}).  
+
+```{r varcohendprimehetbalvariance,include=FALSE}
+var <- NULL
+SD1 <- NULL
+DF <- NULL
+
+for (i in 1:100){
+  n1=100
+  n2=100
+  N <- n1+n2
+  sdratio = 1/2
+  sd1 <- i
+  sd2 <- sdratio*i
+  delta_cohendprime=0
+  SD1 <- c(SD1,sd1)
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF <- c(DF,df)
+  variance <- df/(df-2)*((2*(sd1^2/n1+sd2^2/n2))/(sd1^2+sd2^2))+delta_cohendprime^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var <- c(var,variance)   
+}
+```
+
+```{r varcohendprimehetbalvariance2,fig.cap="Variance of Cohen's $d^*$, when variances are unequal across groups and sample sizes are equal, as a function of $\\sigma_1$ and $\\sigma_2$, for a constant $SD$-ratio.",echo=FALSE}
+par(mfrow=c(1,2))
+plot(SD1,DF,xlab=expression(sigma[1]))
+#SDratio[DF==max(DF)]
+plot(SD1,var,xlab=expression(sigma[1]),ylab=expression(paste("Var(",d,")")))
+#SDratio[coeffmult==min(coeffmult)]
+```
+
+Note: for a constant $SD$-ratio, the size of the variance does not matter (see Figure \ref{fig:varcohendprimehetbalvariance2}). 
+
+##### When $\bm{\delta^*_{Cohen} \neq 0}$ 
+While the variance of Cohen's $d^*$ still depends on the total sample size and the $SD$-ratio, it also depends on the population effect size ($\delta^*_{Cohen}$): the larger the population effect size, the larger the variance. However, the effect of the population effect size decreases when the degrees of freedom increase (i.e. when the total sample size increases and/or the $SD$-ratio get closer to 1), as previously illustrated in Figure \ref{fig:ESmoderator2}.  
+
+#### When variances are unequal across populations, with unequal sample sizes
+
+##### When $\bm{\delta^*_{Cohen} = 0}$
+
+When the population effect size is zero, the variance of Cohen's $d^*$ can be simplified as follows:
+$$Var_{Cohen's \; d^*} = \frac{df}{df-2} \times \frac{2\left( \frac{\sigma^2_1}{n_1} + \frac{\sigma^2_2}{n_2} \right)}{\sigma^2_1+\sigma^2_2}$$
+with $df =\frac{(n_1-1)(n_2-1)(\sigma^2_1+\sigma^2_2)^2}{(n_2-1)\sigma_1^4+(n_1-1)\sigma_2^4}$. In this configuration, the degrees of freedom are a function of the total sample size ($N$) and the interaction between sample sizes ratio and the $SD$-ratio $\left(\frac{n_2}{n_1}\times\frac{\sigma_2}{\sigma_1} \right)$:
+
+```{r varcohendprimehetunbalNsize,include=FALSE}
+var <- NULL
+Nsize <- NULL
+DF <- NULL
+
+for (i in 3:200){
+  
+  n1 <- i
+  n2 <- 12*i
+  N <- n1+n2
+  sd1 <- 1.8
+  sd2 <- 1
+  Nsize <- c(Nsize,N)
+  delta_cohendprime=0
+
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF <- c(DF,df)
+  variance <- df/(df-2)*((2*(sd1^2/n1+sd2^2/n2))/(sd1^2+sd2^2))+delta_cohendprime^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var <- c(var,variance)   
+}
+```
+
+```{r varcohendprimehetunbalNsize2,fig.cap="Variance of Cohen's $d^*$ when variances and sample sizes are unequal across groups, as a function of the total sample size ($N$).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(Nsize,DF,xlab="N")
+plot(Nsize,var,xlab="N",ylab=expression(paste("Var(",d,")")))
+```
+
+  + The larger the total sample size, the lower the variance (illustration in Figure \ref{fig:varcohendprimehetunbalNsize2});
+
+```{r varcohendprimehetunbalnratiosdratio,include=FALSE}
+var2 <- NULL
+nratio2 <- NULL
+DF2 <- NULL
+DF_NUM2 <- NULL
+DF_DENOM2 <- NULL
+
+for (i in 10:190){
+  
+  delta_cohendprime <- 0
+  N <- 200
+  n1 <- i
+  n2 <- N-n1
+  sd2 <- 1
+  sd1 <- sqrt(50-sd2^2) # so sqrt((sd1^2+sd2^2)/2)=5
+  SDratio2=sd2/sd1
+  nratio2 <- c(nratio2,n2/n1)
+  df_num <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)
+  df_denom <- ((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF_NUM2 <- c(DF_NUM2, df_num)
+  DF_DENOM2 <- c(DF_DENOM2, df_denom)
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF2 <- c(DF2,df)
+  variance2 <- df/(df-2)*((2*(sd1^2/n1+sd2^2/n2))/(sd1^2+sd2^2))+delta_cohendprime^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var2 <- c(var2,variance2)   
+}
+
+var3 <- NULL
+nratio3 <- NULL
+DF3 <- NULL
+DF_NUM3 <- NULL
+DF_DENOM3 <- NULL
+
+for (i in 10:190){
+
+  delta_cohendprime <- 0  
+  N <- 200
+  n1 <- i
+  n2 <- N-n1
+  sd2 <- 2
+  sd1 <- sqrt(50-sd2^2) # so sqrt((sd1^2+sd2^2)/2)=5
+  SDratio3=sd2/sd1
+  nratio3 <- c(nratio3,n2/n1)
+  df_num <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)
+  df_denom <- ((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF_NUM3 <- c(DF_NUM3, df_num)
+  DF_DENOM3 <- c(DF_DENOM3, df_denom)
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF3 <- c(DF3,df)
+  variance3 <- df/(df-2)*((2*(sd1^2/n1+sd2^2/n2))/(sd1^2+sd2^2))+delta_cohendprime^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var3 <- c(var3,variance3)   
+}
+
+var4 <- NULL
+nratio4 <- NULL
+DF4 <- NULL
+DF_NUM4 <- NULL
+DF_DENOM4 <- NULL
+
+for (i in 10:190){
+
+  delta_cohendprime <- 0  
+  N <- 200
+  n1 <- i
+  n2 <- N-n1
+  sd2 <- 4
+  sd1 <- sqrt(50-sd2^2) # so sqrt((sd1^2+sd2^2)/2)=5
+  SDratio4=sd2/sd1
+  nratio4 <- c(nratio4,n2/n1)
+  df_num <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)
+  df_denom <- ((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF_NUM4 <- c(DF_NUM4, df_num)
+  DF_DENOM4 <- c(DF_DENOM4, df_denom)
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF4 <- c(DF4,df)
+  variance4 <- df/(df-2)*((2*(sd1^2/n1+sd2^2/n2))/(sd1^2+sd2^2))+delta_cohendprime^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var4 <- c(var4,variance4)   
+}
+```
+
+```{r varcohendprimehetunbalnratiosdratio2,fig.cap="The variance of Cohen's $d^*$, when variances and sample sizes are unequal across groups, as a function of the logarithm of the sample sizes ratio ($log \\left( \\frac{n_2}{n_1} \\right)$), when $SD$-ratio equals .68 (first row), .29 (second row) or .14 (third row).",echo=FALSE}
+par(mfrow=c(3,2))
+
+plot(log(nratio4),DF4,ylab="DF",xlab=expression(paste("log(",n[2],"/",n[1],")")))
+plot(log(nratio4),var4,ylab=expression(paste("Var(",d,")")),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+
+plot(log(nratio3),DF3,ylab="DF",xlab=expression(paste("log(",n[2],"/",n[1],")")))
+plot(log(nratio3),var3,ylab=expression(paste("Var(",d,")")),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+
+plot(log(nratio2),DF2,ylab="DF",xlab=expression(paste("log(",n[2],"/",n[1],")")))
+plot(log(nratio2),var2,ylab=expression(paste("Var(",d,")")),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+```
+
+  + The smallest variance always occurs when there is a positive pairing between variances and sample sizes, because one gives more weight to the smallest variance in the denominator of the $df$ computation and in the numerator of the variance computation. Moreover, the further the $SD$-ratio is from 1, the further from 1 will also be the sample sizes ratio associated with the smallest variance (see Figure \ref{fig:varcohendprimehetunbalnratiosdratio2}). This can be explained by splitting the numerator and the denominator of the $df$ computation (see the file "Theoretical Bias, as a function of population parameters").
+
+```{r varcohendprimehetunbalvariance,include=FALSE}
+var <- NULL
+SD <- NULL
+DF <- NULL
+
+for (i in 2:200){
+  
+  n1 <- 23
+  n2 <- 75
+  N <- n1+n2
+  sd1 <- i
+  sd2 <- 8*i
+  delta_cohendprime=0
+    
+  SD <- c(SD,sqrt((sd1^2+sd2^2)/2))
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF <- c(DF,df)
+  variance <- df/(df-2)*((2*(sd1^2/n1+sd2^2/n2))/(sd1^2+sd2^2))+delta_cohendprime^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var <- c(var,variance)   
+  }
+
+```
+
+```{r varcohendprimehetunbalvariance2,fig.cap="Variance of Cohen's $d^*$, when variances and sample sizes are unequal across groups, as a function of $\\sigma_1$ and $\\sigma_2$, for a constant $SD$-ratio.",echo=FALSE}
+par(mfrow=c(1,2))
+plot(SD,DF,xlab=expression(sigma))
+abline(v=0)
+plot(SD,var,xlab=expression(sigma),ylab=expression(paste("Var(",d,")")))
+abline(v=0)
+```
+  
+Note: for a constant $SD$-ratio, the variance does not matter. (See Figure \ref{fig:varcohendprimehetunbalvariance2}).
+
+##### When $\bm{\delta^*_{Cohen} \neq 0}$
+
+While the variance of Cohen's $d^*$ still depends on the total sample size, the $SD$-ratio and the interaction between the sample sizes ratio and the $SD$-ratio, it also depends on the population effect size ($\delta^*_{Cohen}$): the larger the population effect size, the larger the variance. However, the effect of the population effect size decreases when the degrees of freedom increase (i.e. when the total sample size increases and/or when there is a positive pairing between the sample sizes ratio and the $SD$-ratio), as previously illustrated in Figure \ref{fig:ESmoderator2}. 
+
+#### In summary
+
+The variance of Cohen's $d^*$ is a function of the population effect size ($\delta^*_{Cohen}$), the total sample size ($N$) and the interaction between sample sizes ratio and $SD$-ratio $\left(\frac{n_2}{n_1}\times\frac{\sigma_2}{\sigma_1} \right)$:  
+
+  + The variance always decreases when the control and/or the experimental group increases. The benefit of adding subjects rather in the control or in the experimental group depends on the $SD$-ratio.  Indeed, the smallest variance always occurs when there is a positive pairing between variances and sample sizes. Moreover, the further the $SD$-ratio is from 1, the further from 1 will also be the sample sizes ratio associated with the smallest variance;  
+  + The variance increases when $\delta^*_{Cohen}$ increases. Note that the effect of $\delta^*_{Cohen}$ is moderated by the total sample size and the interaction between sample sizes ratio and $SD$-ratio.   
+
+### Shieh's $\bm{d}$
+
+#### When variances are equal across populations
+
+##### When $\bm{\delta_{Shieh} = 0}$
+
+When the population effect size is zero, the variance of Shieh's $d$ can be simplified as follows:
+$$Var_{Shieh's \; d} = \frac{df}{(df-2)N}$$
+with $df = \frac{N^2(n_1-1)(n_2-1)}{n_2^2(n_2-1)+n_1^2(n_1-1)}$. In this configuration, the degrees of freedom as well as the variance of Shieh's $d$ depend on the total sample size ($N$) and the sample sizes allocation ratio ($\frac{n_2}{n_1}$):
+
+```{r varshiehHomNratio,include=FALSE}
+var <- NULL
+nratio <- NULL
+DF <- NULL
+
+for (i in 10:190){
+  delta_shieh=0
+  N <- 200
+  n1 <- i 
+  n2 <- N-n1
+  sd1 <- 2
+  sd2 <- 2
+  nratio <- c(nratio,n2/n1)
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF <- c(DF,df)
+  variance <- df/((df-2)*N)+delta_shieh^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var <- c(var,variance)   
+}
+```
+
+```{r varshiehHomNratio2,fig.cap="Variance of Shieh's $d$ when variances are equal across groups, as a function of the logarithm of the sample sizes ratio ($log\\left(\\frac{n_2}{n_1} \\right)$).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(log(nratio),DF,xlab=expression(paste("log(",n[2],"/",n[1],")")))
+#nratio[DF==max(DF)]
+plot(log(nratio),var,xlab=expression(paste("log(",n[2],"/",n[1],")")),ylab=expression(paste("Var(",d,")")))
+#nratio[var==min(var)]
+```
+
++ The further the sample sizes allocation ratio is from 1, the larger the variance (see Figure \ref{fig:varshiehHomNratio2});
+
+```{r varshiehhomNsize,include=FALSE}
+Nsize=NULL
+var=NULL
+DF=NULL
+
+sd1=2
+sd2=2
+
+for (i in 4:200){
+  delta_shieh=0
+  n1=i
+  n2=i
+  N = n1+n2
+  Nsize=c(Nsize,N)
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF <- c(DF,df)
+  variance <- df/((df-2)*N)+delta_shieh^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var <- c(var,variance)   
+}
+```
+
+```{r varshiehhomNsize2,fig.cap="Variance of Shieh's $d$ when variances are equal across groups, as a function of the total sample size ($N$), for a constant sample sizes ratio ($log\\left(\\frac{n_2}{n_1} \\right)$).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(Nsize,DF,xlab="N")
+plot(Nsize,var,xlab="N",ylab=expression(paste("Var(",d,")")))
+```
+
+```{r varshiehhomNsize3,include=FALSE}
+Nsize=NULL
+var=NULL
+DF=NULL
+
+sd1=2
+sd2=2
+
+for (i in 50:100){
+  delta_shieh=0
+  n1=20
+  n2=i
+  N = n1+n2
+  Nsize=c(Nsize,N)
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF <- c(DF,df)
+  variance <- df/((df-2)*N)+delta_shieh^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var <- c(var,variance)   
+}
+
+Nsize2=NULL
+var2=NULL
+DF2=NULL
+
+sd1=2
+sd2=2
+
+for (i in 50:100){
+  delta_shieh=12
+  n1=i
+  n2=20
+  N = n1+n2
+  Nsize2=c(Nsize2,N)
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF2 <- c(DF2,df)
+  variance <- df/((df-2)*N)+delta_shieh^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var2 <- c(var2,variance)   
+}
+
+```
+
+```{r varshiehhomNsize4,fig.cap="Variance of Shieh's $d$ when variances are equal across groups, as a function of the total sample size ($N$), when adding subjects only in one group (either in the first group; see top plots; or in the second group; see bottom plots).",echo=FALSE}
+par(mfrow=c(2,2))
+plot(Nsize,DF,xlab="N")
+plot(Nsize,var,ylab=expression(paste("Var(",d,")")),xlab="N")
+
+plot(Nsize2,DF2,xlab="N",ylab="DF")
+plot(Nsize2,var2,ylab=expression(paste("Var(",d,")")),xlab="N")
+
+```
+
+  + The larger the total sample size, the lower the variance. It does not matter whether the sample sizes ratio is constant (see Figure \ref{fig:varshiehhomNsize2}) or not (see Figure \ref{fig:varshiehhomNsize4}).
+
+Note: in "Theoretical Bias", we noticed that moving the sample sizes ratio away from 1 when adding subjects in only one group could decrease the degrees of freedom. However, due to the total sample size term ($N$) in the denominator of the variance computation, even when degrees of freedom decrease due to the fact that one adds subjects only in one group, the variance still decreases (because the denominator of the variance computation increases; see Figure \ref{fig:varshiehhomNsize4}). 
+
+##### When $\bm{\delta_{Shieh} \neq 0}$
+
+While the variance of Shieh's $d$ still depends on the total sample size and the sample sizes ratio, it also depends on the population effect size ($\delta_{Shieh}$): the larger the population effect size, the larger the variance. However, the effect of the population effect size decreases when the degrees of freedom increase (i.e. when sample sizes increase, without increasing the sample sizes ratio, and/or the sample sizes ratio gets closer to 1), as previously illustrated in Figure \ref{fig:ESmoderator2}.
+
+Note: we previously noticed that when the effet size is zero, the variance of Shieh's $d$ decreases, even when the sample sizes ratio increases. It is no longer true when there is a non-null effect size because the larger the sample sizes ratio, the more the variance will increase with increasing effect size.
+
+#### When variances are unequal across populations, with equal sample sizes
+
+##### When $\bm{\delta_{Shieh} = 0}$
+
+When the population effect size is zero, the variance of Shieh's $d$ can be simplified as follows:
+$$Var_{Shieh's \; d} = \frac{df}{(df-2)N}$$
+with $df = \frac{(\sigma_1^2+\sigma_2^2)^2 \times (n-1)}{\sigma_1^4+\sigma_2^4}$. In this configuration, the degrees of freedom as well as the variance of Shieh's $d$ depend on the total sample size ($N$) and the $SD$-ratio ($\frac{\sigma_2}{\sigma_1}$).
+
+```{r varshiehhetbalSDratio,include=FALSE}
+var <- NULL
+SDratio <- NULL
+DF <- NULL
+
+for (i in 1:100){
+  
+  n1=100
+  n2=100
+  N <- n1+n2
+  sd2 <- 10
+  delta_shieh=0
+  sd1 <- i
+  
+  SDratio <- c(SDratio,sd2/sd1)
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF <- c(DF,df)
+  variance <- df/((df-2)*N)+delta_shieh^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var <- c(var,variance)   
+}
+```
+
+```{r varshiehhetbalSDratio2,fig.cap="Variance of Shieh's $d$ when variances are unequal across groups and sample sizes are equal, as a function of the logarithm of the $SD$-ratio ($log \\left( \\frac{\\sigma_2}{\\sigma_1} \\right)$).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(log(SDratio),DF,xlab=expression(paste("log(",sigma[2],"/",sigma[1],")")))
+#SDratio[DF==max(DF)]
+plot(log(SDratio),var,ylab=expression(paste("Var(",d,")")),xlab=expression(paste("log(",sigma[2],"/",sigma[1],")")))
+#SDratio[var==min(var)]
+```
+
+  + The further the $SD$-ratio is from 1, the larger the variance (see Figure \ref{fig:varshiehhetbalSDratio2});  
+
+```{r varshiehhetbalNsize,include=FALSE}
+Nsize=NULL
+var=NULL
+DF=NULL
+
+sd1=12
+sd2=1.4786
+
+for (i in 4:200){
+  n1=i
+  n2=i
+  delta_shieh=0
+  N = n1+n2
+  Nsize=c(Nsize,N)
+  df = (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1)) 
+  DF = c(DF,df)
+  variance <- df/((df-2)*N)+delta_shieh^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var <- c(var,variance)   
+}
+```
+
+```{r varshiehhetbalNsize2,fig.cap="Variance of Shieh's $d$ when variances are unequal across groups and sample sizes are equal, as a function of the total sample size ($N$).",echo=FALSE}
+par(mfrow=c(1,2))
+plot(Nsize,DF,xlab="N")
+plot(Nsize,var,ylab=expression(paste("Var(",d,")")),xlab="N")
+```
+
+  + The larger the total sample size, the lower the variance (see Figure \ref{fig:varshiehhetbalNsize2}).  
+
+```{r varshiehhetbalvariance,include=FALSE}
+var <- NULL
+SD1 <- NULL
+DF <- NULL
+
+for (i in 1:200){
+  n1=100
+  n2=100
+  delta_shieh=0
+  N <- n1+n2
+  sdratio = 3
+  sd1 <- i
+  sd2 <- sdratio*i
+
+  SD1 <- c(SD1,sd1)
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF <- c(DF,df)
+  variance <- df/((df-2)*N)+delta_shieh^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var <- c(var,variance)   
+}
+```
+
+```{r varshiehhetbalvariance2,fig.cap="Variance of Shieh's $d$, when variances are unequal across groups and sample sizes are equal, as a function of $\\sigma_1$ and $\\sigma_2$, for a constant $SD$-ratio.",echo=FALSE}
+par(mfrow=c(1,2))
+plot(SD1,DF,xlab=expression(sigma[1]))
+#SDratio[DF==max(DF)]
+plot(SD1,var,ylab=expression(paste("Var(",d,")")),xlab=expression(sigma[1]))
+#SDratio[coeffmult==min(coeffmult)]
+```
+
+Note: for a constant $SD$-ratio, the size of the variance does not matter (see Figure \ref{fig:varshiehhetbalvariance2}). 
+
+##### When $\bm{\delta_{Shieh} \neq 0}$
+
+While the variance of Shieh's $d$ still depends on the total sample size and the $SD$-ratio, it also depends on the population effect size ($\delta_{Shieh}$): the larger the population effect size, the larger the variance. However, the effect of the population effect size decreases when the degrees of freedom increase (i.e. when sample sizes increase and/or the $SD$-ratio gets closer to 1), as previously illustrated in Figure \ref{fig:ESmoderator2}.
+
+#### When variances are unequal across populations, with unequal sample sizes
+
+##### When $\bm{\delta_{Shieh} = 0}$
+
+When the population effect size is zero, the variance of Shieh's $d$ can be simplified as follows:
+$$Var_{Shieh's \; d} = \frac{df}{(df-2)N}$$
+with $df = \frac{\left(\frac{\sigma^2_1}{n_1}+\frac{\sigma^2_2}{n_2} \right)^2}{\frac{(\sigma^2_1/n_1)^2}{n_1-1}+\frac{(\sigma^2_2/n_2)^2}{n_2-1}}$. In this configuration, the degrees of freedom as well as the variance of Shieh's $d$ depend on the total sample size ($N$) and the interaction between the sample sizes ratio and the $SD$-ratio $\left(\frac{n_2}{n_1}\times\frac{\sigma_2}{\sigma_1} \right)$:
+
+```{r varshiehhetunbalNsize,include=FALSE}
+var <- NULL
+Nsize <- NULL
+DF <- NULL
+
+for (i in 4:200){
+  
+  delta_shieh=5
+  n1 <- 12*i
+  n2 <- i
+  N <- n1+n2
+  sd1 <- 1.8
+  sd2 <- 1
+  
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF <- c(DF,df)
+  Nsize <- c(Nsize,N)
+  variance <- df/((df-2)*N)+delta_shieh^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var <- c(var,variance)   
+}
+
+```
+
+```{r varshiehhetunbalNsize2,fig.cap="Variance of Shieh's $d$ when variances and sample sizes are unequal across groups, as a function of the total sample size ($N$), for a constant sample sizes ratio ($log\\left(\\frac{n_2}{n_1} \\right)$).",echo=FALSE}
+par(mfrow=c(2,2))
+plot(Nsize,DF,xlab="N")
+plot(Nsize,var,ylab=expression(paste("Var(",d,")")),xlab="N")
+```
+
+```{r varshiehhetunbalNsize3,include=FALSE}
+Nsize=NULL
+var=NULL
+DF=NULL
+
+  sd1 <- 1.8
+  sd2 <- 1
+
+for (i in 4:200){
+  n1=i
+  n2=20
+  delta_shieh=5
+  N = n1+n2
+  Nsize=c(Nsize,N)
+  df = (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF = c(DF,df)
+  variance <- df/((df-2)*N)+delta_shieh^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var <- c(var,variance)   
+}
+
+Nsize2=NULL
+var2=NULL
+DF2=NULL
+
+  sd1 <- 1.8
+  sd2 <- 1
+
+for (i in 4:200){
+  n1=20
+  n2=i
+  delta_shieh=5
+  N = n1+n2
+  Nsize2=c(Nsize2,N)
+  df = (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF2 = c(DF2,df)
+  variance <- df/((df-2)*N)+delta_shieh^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var2 <- c(var2,variance)   
+}
+
+Nsize3=NULL
+var3=NULL
+DF3=NULL
+
+  sd1 <- 1
+  sd2 <- 1.8
+
+for (i in 4:200){
+  n1=i
+  n2=20
+  N = n1+n2
+  delta_shieh=5
+  Nsize3=c(Nsize3,N)
+  df = (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF3 = c(DF3,df)
+  variance <- df/((df-2)*N)+delta_shieh^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var3 <- c(var3,variance)   
+}
+
+Nsize4=NULL
+var4=NULL
+DF4=NULL
+
+  sd1 <- 1
+  sd2 <- 1.8
+
+for (i in 4:200){
+  n1=20
+  n2=i
+  delta_shieh=5
+  N = n1+n2
+  Nsize4=c(Nsize4,N)
+  df = (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF4 = c(DF4,df)
+  variance <- df/((df-2)*N)+delta_shieh^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var4 <- c(var4,variance)   
+}
+  
+```
+
+```{r varshiehhetunbalNsize4,fig.cap="Variance of Shieh's $d$ when variances and sample sizes are unequal across groups, as a function of the total sample size ($N$), when adding subjects only in one group (either in the first group; see left plots; or in the second group; see right plots), and $\\sigma_1 > \\sigma_2$ (top plots) or $\\sigma_1 < \\sigma_2$ (bottom plots).",echo=FALSE}
+par(mfrow=c(2,2))
+#plot(Nsize,DF,xlab="N")
+plot(Nsize,var,ylab=expression(paste("Var(",d,")")),xlab="N")
+
+#plot(Nsize2,DF2,xlab="N")
+plot(Nsize2,var2,ylab=expression(paste("Var(",d,")")),xlab="N")
+
+#plot(Nsize3,DF3,xlab="N")
+plot(Nsize3,var3,ylab=expression(paste("Var(",d,")")),xlab="N")
+
+#plot(Nsize4,DF4,xlab="N")
+plot(Nsize4,var4,ylab=expression(paste("Var(",d,")")),xlab="N")
+
+```
+
+  + The larger the total sample size, the lower the variance. It remains true when the sample sizes ratio is constant (see Figure \ref{fig:varshiehhetunbalNsize2}) and when it is not (see Figure \ref{fig:varshiehhetunbalNsize4}).
+
+  Note: When variances were equal across populations, adding subjects only in the first group had the same impact on the variance as adding subjects only in the second group (see Figure \ref{fig:varshiehhomNsize4}). When variances are unequal across groups, this is not true anymore (see Figure \ref{fig:varshiehhetunbalNsize4}).
+
+```{r varshiehhetunbalNratio,include=FALSE,echo=FALSE}
+var2 <- NULL
+nratio2 <- NULL
+DF2 <- NULL
+DF_NUM2 <- NULL
+DF_DENOM2 <- NULL
+
+for (i in 10:190){
+  
+  N <- 200
+  delta_shieh=5
+  n1 <- i
+  n2 <- N-n1
+  sd2 <- 1
+  sd1 <- sqrt(50-sd2^2) # so sqrt((sd1^2+sd2^2)/2)=5
+  SDratio2=sd2/sd1
+  nratio2 <- c(nratio2,n2/n1)
+  df_num <- (sd1^2/n1+sd2^2/n2)^2
+  df_denom <- ((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF2 <- c(DF2,df)
+  DF_NUM2 <- c(DF_NUM2, df_num)
+  DF_DENOM2 <- c(DF_DENOM2, df_denom)
+
+  variance <- df/((df-2)*N)+delta_shieh^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var2 <- c(var2,variance)   
+}
+
+var3 <- NULL
+nratio3 <- NULL
+DF3 <- NULL
+DF_NUM3 <- NULL
+DF_DENOM3 <- NULL
+
+for (i in 10:190){
+  
+  N <- 200
+  delta_shieh=5
+  n1 <- i
+  n2 <- N-n1
+  sd2 <- 2
+  sd1 <- sqrt(50-sd2^2) # so sqrt((sd1^2+sd2^2)/2)=5
+  SDratio3=sd2/sd1
+  nratio3 <- c(nratio3,n2/n1)
+  df_num <- (sd1^2/n1+sd2^2/n2)^2
+  df_denom <- ((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF_NUM3 <- c(DF_NUM3, df_num)
+  DF_DENOM3 <- c(DF_DENOM3, df_denom)
+  DF3 <- c(DF3,df)
+  variance <- df/((df-2)*N)+delta_shieh^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var3 <- c(var3,variance)   
+}
+
+var4 <- NULL
+nratio4 <- NULL
+DF4 <- NULL
+DF_NUM4 <- NULL
+DF_DENOM4 <- NULL
+
+for (i in 10:190){
+  
+  N <- 200
+  delta_shieh=5
+  n1 <- i
+  n2 <- N-n1
+  sd2 <- 4
+  sd1 <- sqrt(50-sd2^2) # so sqrt((sd1^2+sd2^2)/2)=5
+  SDratio4=sd2/sd1
+  nratio4 <- c(nratio4,n2/n1)
+  df_num <- (sd1^2/n1+sd2^2/n2)^2
+  df_denom <- ((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  df <- (sd1^2/n1+sd2^2/n2)^2/((sd1^2/n1)^2/(n1-1)+(sd2^2/n2)^2/(n2-1))
+  DF_NUM4 <- c(DF_NUM4, df_num)
+  DF_DENOM4 <- c(DF_DENOM4, df_denom)
+  df <- ((n1-1)*(n2-1)*(sd1^2+sd2^2)^2)/((n2-1)*sd1^4+(n1-1)*sd2^4)
+  DF4 <- c(DF4,df)
+  variance <- df/((df-2)*N)+delta_shieh^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var4 <- c(var4,variance)   
+}
+```
+
+```{r varshiehhetunbaldfandvar,fig.cap="",echo=FALSE}
+par(mfrow=c(3,2),mar=c(0.5,0.5,0.5,0.5))
+
+plot(log(nratio4),DF4,ylab="DF",xlab=expression(paste("log(",n[2],"/",n[1],")")))
+abline(v=0)
+plot(log(nratio4),var4,ylab=expression(paste("Var(",d,")")),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+abline(v=0)
+
+plot(log(nratio3),DF3,ylab="DF",xlab=expression(paste("log(",n[2],"/",n[1],")")))
+abline(v=0)
+plot(log(nratio3),var3,ylab=expression(paste("Var(",d,")")),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+abline(v=0)
+
+plot(log(nratio2),DF2,ylab="DF",xlab=expression(paste("log(",n[2],"/",n[1],")")))
+abline(v=0)
+plot(log(nratio2),var2,ylab=expression(paste("Var(",d,")")),xlab=expression(paste("log(",n[2],"/",n[1],")")))
+abline(v=0)
+```
+
++ The smallest variance always occurs when there is a positive pairing between variances and sample size. Moreover, the further the $SD$-ratio is from 1, the further from 1 will also be the sample sizes ratio associated with the smallest variance (see Figure \ref{fig:varshiehhetunbaldfandvar}). 
+
+```{r varshiehhetunbalvariance,include=FALSE,echo=FALSE}
+var <- NULL
+SD1 <- NULL
+SD2 <- NULL
+DF <- NULL
+
+for (i in 2:200){
+  
+  n1 <- 60
+  n2 <- 12
+  delta_shieh=5
+  N <- n1+n2
+  sd1 <- i
+  sd2 <- 8*i
+  
+  SD1 <- c(SD1,sd1)
+  SD2 <- c(SD2,sd2)
+  variance <- df/((df-2)*N)+delta_shieh^2*(df/(df-2)-(sqrt(df/2)*gamma((df-1)/2)/gamma(df/2))^2)
+  var <- c(var,variance)   
+}
+```
+
+```{r varshiehhetunbalvariance2,fig.cap="",echo=FALSE}
+par(mfrow=c(1,2))
+plot(SD1,round(var,6),ylab=expression(paste("Var(",d,")")),xlab=expression(sigma[1]))
+plot(SD2,round(var,6),ylab=expression(paste("Var(",d,")")),xlab=expression(sigma[2]))
+```
+  
+Moreover, for a constant $SD$-ratio, the variances do not matter (See Figure \ref{fig:varshiehhetunbalvariance2}).
+
+##### When $\bm{\delta_{Shieh} \neq 0}$
+
+While the variance of Shieh's $d$ still depends on the total sample size and the interaction between the sample sizes ratio and the $SD$-ratio, it also depends on the population effect size ($\delta_{Shieh}$): the larger the population effect size, the larger the variance. However, the effect of the population effect size decreases when the degrees of freedom increase, as previously illustrated in Figure \ref{fig:ESmoderator2}. 
+
+#### In summary
+
+The variance of Shieh's $d$ is a function of the population effect size ($\delta_{Shieh}$), the total sample size ($N$) and the interaction between sample sizes ratio and $SD$-ratio $\left(\frac{n_2}{n_1}\times\frac{\sigma_2}{\sigma_1} \right)$:  
+
+  + The variance always decreases when the control and/or the experimental group increases. The benefit of adding subjects rather in the control or in the experimental group depends on the $SD$-ratio.  Indeed, the smallest variance always occurs when there is a positive pairing between variances and sample sizes. Moreover, the further the $SD$-ratio is from 1, the further from 1 will also be the sample sizes ratio associated with the smallest variance;  
+  
+  + The variance increases when $\delta_{Shieh}$ increases. Note that the effect of $\delta_{Shieh}$ is moderated by the total sample size and the interaction between the sample sizes ratio and the $SD$-ratio.  
