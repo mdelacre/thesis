@@ -36,7 +36,7 @@ muprime=sum(w_j*mu)/w
 The overall mean (i.e. the mean of the global dataset) is a weighted mean of the sample means :
 
 $$\bar{X_{..}}=\frac{(`r n[1]`\times`r mu[1]`)+(`r n[2]`\times`r mu[2]`)+(`r n[3]`\times`r mu[3]`)}{`r n[1]`+`r n[2]`+`r n[3]`}=\frac{`r sum(n*mu)`}{`r sum(n)`} \approx `r round(sum(n*mu)/sum(n),2)`$$
-The *F*-test statistic and degrees of freedom are computed by applying equation (1) and related degrees of freedom :
+The *F*-test statistic and degrees of freedom are computed by applying equation 1 and related degrees of freedom :
 
 $$
 F=\frac{\frac{1}{`r k`-1}[`r n[1]`\times(`r mu[1]`-\frac{`r sum(n*mu)`}{`r sum(n)`})^2+`r n[2]`\times(`r mu[2]`-\frac{`r sum(n*mu)`}{`r sum(n)`})^2+`r n[3]`\times(`r mu[3]`-\frac{`r sum(n*mu)`}{`r sum(n)`})^2]}
@@ -51,7 +51,7 @@ $$
 $$
 df_d=`r N`-`r k`=`r N-k`
 $$
-The $F^*$-test statistic and his degrees of freedom are computed by applying equation (2) and related degrees of freedom : 
+The $F^*$-test statistic and his degrees of freedom are computed by applying equation 2 and related degrees of freedom : 
 
 $$
 F^*=\frac{`r n[1]`\times(`r mu[1]`-\frac{`r sum(n*mu)`}{`r sum(n)`})^2+`r n[2]`\times(`r mu[2]`-\frac{`r sum(n*mu)`}{`r sum(n)`})^2+`r n[3]`\times(`r mu[3]`-\frac{`r sum(n*mu)`}{`r sum(n)`})^2}{(1-\frac{`r n[1]`}{`r N`})\times`r var[1]`+(1-\frac{`r n[2]`}{`r N`})\times`r var[2]`+(1-\frac{`r n[3]`}{`r N`})\times`r var[3]`} \approx `r round((sum(n*(mu-global_mu)^2))/(sum((1-(n/N))*var)),3)`
@@ -67,7 +67,7 @@ $$
 
 where $\sum_{j=1}^k(1-\frac{n_j}{N})\times S_j^2 \approx `r round(sum((1-n/N)*var),2)`$
 
-Finally, the *W*-test and his degrees of freedom  are computed by applying equation (3) and related degrees of freedom :
+Finally, the *W*-test and his degrees of freedom  are computed by applying equation 3 and related degrees of freedom :
 
 $$
 W=\frac{\frac{1}{`r k`-1}[\frac{`r n[1]`}{`r var[1]`}(`r mu[1]`-\bar{X'})^2+\frac{`r n[2]`}{`r var[2]`}(`r mu[2]`-\bar{X'})^2+\frac{`r n[3]`}{`r var[3]`}(`r mu[3]`-\bar{X'})^2]}
