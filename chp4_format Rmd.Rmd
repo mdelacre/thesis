@@ -279,11 +279,11 @@ where $\delta^*_{Cohen}=\frac{\mu_1-\mu_2}{\sqrt{\frac{\sigma^2_1+\sigma^2_2}{2}
 
 #### Glass's $\bm{g}$,  Shieh's $\bm{g}$ and Hedges' $\bm{g^*}$
 
-As for Cohen's $d$, a Hedges' correction can be applied in order to compensate for the bias of Glass's $d$, Shieh's $d$ and Cohen's $d^*$ with small sample sizes (see Table 2). This correction has the following general form :
+As for Cohen's $d$, a Hedges' correction can be applied in order to compensate for the bias of Glass's $d$, Shieh's $d$ and Cohen's $d^*$ with small sample sizes (see Table 3). This correction has the following general form :
 \begin{equation*} 
 g = d \times \frac{\Gamma(\frac{\nu}{2})}{\sqrt{\frac{\nu}{2}} \times \Gamma(\frac{\nu-1}{2})}
 \end{equation*} 
-where the distinct values of $\nu$ are provided in equation \ref{eqn:glassdf} for Glass's $g$, in equation \ref{eqn:welchdf} for Shieh's $g$ and in equation and \ref{eqn:Cohendprimedf} for Hedges' $g^*$. The three corrected estimators are theoretically unbiased when the assumption of normality is met. Their variance is a function of the same parameters as their biased equivalent. However, due to the correction they have a smaller variance, especially with small sample sizes, as shown in Table 3. In summary :  
+where the distinct values of $\nu$ are provided in equation \ref{eqn:glassdf} for Glass's $g$, in equation \ref{eqn:welchdf} for Shieh's $g$ and in equation and \ref{eqn:Cohendprimedf} for Hedges' $g^*$. The three corrected estimators are theoretically unbiased when the assumption of normality is met. Their variance is a function of the same parameters as their biased equivalent. However, due to the correction they have a smaller variance, especially with small sample sizes, as shown in Table 4. In summary :  
 
 * The variances of Hedges' $g^*$ and Shieh's $g$ depend on the total sample size ($N$), their respective population effect size ($\delta$), and the interaction between the sample sizes ratio and the $SD$-ratio $\left(\frac{n_2}{n_1}\times\frac{\sigma_2}{\sigma_1} \right)$.  
 * The variance of Glass's $g$ also depends on $N$, $\delta$ and $\frac{n_c}{n_e}\times\frac{\sigma_c}{\sigma_e}$. In addition, there is also a main effect of the $SD$-ratio $\left(\frac{\sigma_c}{\sigma_e} \right)$ on its variance.

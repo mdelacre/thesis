@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.29)  30 OCT 2021 18:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.29)  30 OCT 2021 19:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1415,27 +1415,27 @@ Underfull \hbox (badness 1622) in paragraph at lines 3465--3477
  []
 
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/Tabl
-e1.png, id=770, 483.8075pt x 271.51437pt>
+e7.png, id=770, 482.80376pt x 272.01625pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration
-/Table1.png Graphic file (type png)
+/Table7.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/
-Table1.png>
+Table7.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
-itre 5/Illustration/Table1.png  used on input line 3478.
-(pdftex.def)             Requested size: 461.9621pt x 259.25462pt.
+itre 5/Illustration/Table7.png  used on input line 3478.
+(pdftex.def)             Requested size: 461.96138pt x 260.27344pt.
 [91] [92 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustra
-tion/Table1.png>]
+tion/Table7.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/Tabl
-e2.png, id=782, 483.8075pt x 285.065pt>
+e8.png, id=782, 483.8075pt x 285.56688pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration
-/Table2.png Graphic file (type png)
+/Table8.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/
-Table2.png>
+Table8.png>
 Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
-itre 5/Illustration/Table2.png  used on input line 3524.
-(pdftex.def)             Requested size: 461.9621pt x 272.19342pt.
+itre 5/Illustration/Table8.png  used on input line 3524.
+(pdftex.def)             Requested size: 461.9621pt x 272.67264pt.
 [93 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/
-Table2.png>]
+Table8.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration/Fig1
 .png, id=790, 361.35pt x 361.35pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 5/Illustration
@@ -1808,7 +1808,7 @@ ers/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb
 ><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lm
 sy7.pfb><c:/Users/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publi
 c/lm/lmsy8.pfb>
-Output written on template.pdf (168 pages, 4623715 bytes).
+Output written on template.pdf (168 pages, 4624180 bytes).
 PDF statistics:
  1774 PDF objects out of 2073 (max. 8388607)
  1410 compressed objects within 15 object streams
