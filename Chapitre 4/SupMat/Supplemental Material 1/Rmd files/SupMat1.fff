@@ -341,3 +341,13 @@
 \includegraphics{SupMat1_files/figure-latex/varshiehhetunbalNsize4-1.pdf}
 \caption{\label{fig:varshiehhetunbalNsize4}Variance of Shieh's \(d\) when variances and sample sizes are unequal across groups, as a function of the total sample size (\(N\)), when adding subjects only in one group (either in the first group; see left plots; or in the second group; see right plots), and \(\sigma_1 > \sigma_2\) (top plots) or \(\sigma_1 < \sigma_2\) (bottom plots).}
 \end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[height=0.45\textheight]{C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/Supplemental Material 1/Fig50}
+
+}
+
+\caption{ }\label{fig:SMp1}
+\end{figure*}
