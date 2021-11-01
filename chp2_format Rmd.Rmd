@@ -14,6 +14,10 @@ header-includes:
 ```{r "chp2p1", fig.align='center',echo=FALSE,out.height="45%"}
 knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 2/Chapitre 2-couverture.png")
 ```
+\color{red} Lien vers le Sup Mat sur Di-fusion à ajouter ici : \color{black}
+
+\newpage
+
 Independent samples $t$-tests are commonly used in the psychological literature to statistically test differences between means. There are different types of $t$-tests, such as Student’s $t$-test, Welch’s $t$-test, Yuen’s $t$-test, and a bootstrapped $t$-test. These variations differ in the underlying assumptions about whether data is normally distributed, and whether variances in both groups are equal  (see e.g., Rasch et al., 2011; Yuen, 1974). Student’s $t$-test is the default method to compare two groups in psychology. The alternatives that are available are considerably less often reported. This is surprising, since Welch’s $t$-test is often the preferred choice, and is available in practically all statistical software packages.   
 
 In this article, we will review the differences between Welch’s $t$-test and Student’s $t$-test, and suggest that Welch’s $t$-test is a better default for the social sciences than Student's $t$-test. We do not include the bootstrapped $t$-test because it is known to fail in specific situations, such as when there are unequal sample sizes and standard deviations differ moderately [@hayes_further_2007].

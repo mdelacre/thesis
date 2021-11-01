@@ -94,6 +94,36 @@ Septembre 2021
 
 Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la littérature scientifique dans les domaines des Sciences Psychologiques et de l’Education. Pourtant, les résultats de ces tests ne seront théoriquement valides qu’à condition que les résidus, indépendants et identiquement distribués soient extraits d’une population qui se distribue normalement, et que tous les groupes soient extraits de populations ayant la même variance (c’est ce qu’on appelle la condition d’homogénéité des variances). Or, il existe de nombreux arguments qui remettent en cause la crédibilité des conditions de normalité et d’homogénéité des variances dans le champ de la psychologie. Comme il a été montré que c'est surtout la violation de la condition d'homogénéité des variances qui est susceptible de poser problème, on conseille souvent aux chercheurs de tester d’abord la condition d’homogénéité des variances et de décider ensuite si les tests $t$ de Student et $F$ de Fisher sont adéquats ou s’il est préférable de les remplacer par les tests de Welch (qui ne dépendent pas de la condition d’homogénéité des variances). Au sein des chapitres 2 et 3, nous recommandons de privilégier les tests de Welch, indépendamment des résultats préliminaires aux tests d’homogénéité des variances. Par ailleurs, il est de plus en plus recommandé d’accompagner les tests d’hypothèse par des mesures de taille d’effet. Une mesure communément utilisée lorsqu'on compare la moyenne de deux groupes indépendants est le traditionnel $d$ de Cohen. Or, cette mesure dépend des mêmes conditions que les tests $t$ de Student et $F$ de Fisher et souffre dès lors des mêmes limites. Nous proposons de la remplacer par le $g^*$ de Cohen décrit au sein du chapitre 4. Pour finir, plutôt que de tester la présence d’un effet non nul et de quantifier cet effet a posteriori, il est possible de tester l’absence d’effet jugé « pertinent » à condition de modifier la manière dont on définit l’hypothèse nulle. Cela fait l’objet du cinquième chapitre de cette thèse.
 
+\newpage
+
+\begin{centering}
+
+{\bf Note préliminaire}
+
+\end{centering}
+
+Les 3 articles suivants (respectivement présentés au sein des chapitres 2, 3 et 5 de cette thèse) ont été publiés dans des revues scientifiques : 
+
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\noindent
+
+Delacre, M., Lakens, D., $\&$ Leys, C. (2017). Why psychologists should by default use Welch’s $t$-test instead of Student’s $t$-test. $International \; Review \; of \; Social \; Psychology, 30$(1), 92-101. https://doi.org/10.5334/irsp.82
+
+Delacre, M., Leys, C., Mora, Y. L., $\&$ Lakens, D. (2019). Taking parametric assumptions seriously : Arguments for the use of Welch’s $F$-test instead of the classical $F$-test in one-way ANOVA. $International \; Review \; of \; Social \; Psychology, 32$(1), 1-12. https://doi.org/10.5334/irsp.198
+
+Lakens, D., $\&$ Delacre, M. (2020). Equivalence testing and the second generation $P$-value. $Meta$-$Psychology, 4$, 1-11. https://doi.org/10.15626/MP.2018.933
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+
+Il est à noter que les versions présentées dans cette thèse ont été légèrement modifiées, par rapport aux versions publiées.
+
+\color{white}...
+...
+
+\color{red}Par ailleurs, du matériel supplémentaire est disponible sur Di-fusion pour les articles présentés au sein des chapitres 2 et 4, comme il sera rappelé en introduction de ces deux chapitres. \color{black}
+
 \pagenumbering{roman}
 
 \newpage
@@ -180,4 +210,4 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 \doublespacing
 
 ```{r annexes, child = 'appendixthese.Rmd'}
-cha```
+```

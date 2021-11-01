@@ -33,6 +33,8 @@ knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/thesis/Chapi
 ```
 **Commentaire** : l'article présenté dans ce chapitre n'a pas encore été accepté pour publication. 
 
+\color{red} Lien vers le Sup Mat sur Di-fusion à ajouter ici : \color{black}
+
 ```{r analysis-preferences,echo=F}
 # Seed for random number generation
 set.seed(42)
