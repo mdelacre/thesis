@@ -41,6 +41,10 @@ output            : papaja::apa6_pdf
 
 header-includes:
   - \usepackage{bm}
+  - \usepackage{lscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+
 ---
 
 # Supplemental Material 1 : 
@@ -667,3 +671,85 @@ The variance of Shieh's $d$ is a function of the population effect size ($\delta
   + The variance always decreases when the control and/or the experimental group increases. The benefit of adding subjects rather in the control or in the experimental group depends on the $SD$-ratio.  Indeed, the smallest variance always occurs when there is a positive pairing between variances and sample sizes. Moreover, the further the $SD$-ratio is from 1, the further from 1 will also be the sample sizes ratio associated with the smallest variance;  
   
   + The variance increases when $\delta_{Shieh}$ increases. Note that the effect of $\delta_{Shieh}$ is moderated by the total sample size and the interaction between the sample sizes ratio and the $SD$-ratio.  
+
+\newpage
+
+# Supplemental Material 2 : 
+
+In order to insure the reliability of our calculation method, for all scenarios where $G_1=G_2=0$, we compared empirical means and variances of all estimators (i.e. means and variances of all estimates) with theoretical means and variances (i.e. expected means and variances, computed based on equations in Tables 2, 3 and 4 in the main article). Because we can draw exactly the same conclusions for **biased** (Cohen's $d$, Glass's $d$ using either $S_1$ or $S_2$ as standardizer, Shieh's $d$ and Cohen's $d^*$) and **unbiased** (Hedges' $g$, Glass's $g$ using either $S_1$ or $S_2$ as standardizer, Shieh's $g$ and Hedges' $g^*$) estimators, we will simultaneously present results for both categories of estimators. Results will be subdivided into 4 conditions:  
+- When population variances and sample sizes are equal across groups (condition a; see Tables SM2.1 and SM2.5 for respectively biased and unbiased estimators);      
+- When population variances are equal across groups and sample sizes are unequal (condition b; see Tables SM2.2 and SM2.6 for respectively biased and unbiased estimators);  
+- When population variances are unequal across groups and sample sizes are equal (condition c; see Tables SM2.3 and SM2.7 for respectively biased and unbiased estimators);  
+- When population variances and sample sizes are unequal across groups (condition d; see Tables SM2.4 and SM2.8 for respectively biased and unbiased estimators).  
+
+Because the equations of theoretical means and variances of Cohen's $d$ and Hedges' $g$ rely on the assumption of normality and equality of population variances, we expect empirical and theoretical parameters to be very close only in conditions a and b. For all other estimators, the equations of theoretical means and variances rely solely on the assumption of normality and therefore, we expect empirical and theoretical parameters to be very close in all conditions.
+
+On average, empirical means (and variances) of all estimators are very close to theoretical expectations when population variances are equal across groups, with equal sample sizes (condition a; see Tables SM2.1 and SM2.5) or unequal sample sizes (condition b; see Tables SM2.2 and SM2.6). 
+
+When population variances are unequal across groups (conditions c and d; see Tables SM2.3, SM2.4, SM2.7 and SM2.8), empirical means (and variances) of Cohen's $d^*$ (Hedges' $g^*$) and Shieh's $d$ (Shieh's $g$) are still very close to theoretical expectations. Regarding Glass's $d$ (Glass's $g$), on average, while empirical variances remain very close to theoretical expectations, one observes larger departures between empirical and theoretical means when using $S_2$ as standardizer. However, when looking at details in results for each scenario (see "biased estimator_condition C.xlsx", "biased estimator_condition D.xlsx", "unbiased estimator_condition C.xlsx" and "unbiased estimator_condition C.xlsx" in Supplemental Material 2), one notices that the larger the population effect size, the larger the departure between empirical and theoretical means, and that relative to the population effect size, departures between empirical and theoretical means are always very small. On the other hand, both empirical bias and variance of Cohen's $d$ (Hedges' $g$) highly depart from theoretical expectations, even when looking at relative departures to the population effect size, especially when sample sizes are unequal across groups (condition d; see Tables SM2.4 and SM2.8), which is not surprising, as Cohen's $d$ (Hedges' $g$) relies on the equality of population variances assumption.
+
+\blandscape
+\newpage
+
+```{r "biased_condA", dpi=80,echo=FALSE, fig.cap="",fig.show='hold',fig.align='center'}
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/Table SM2.1.png")
+```
+
+\elandscape
+\blandscape
+\newpage
+
+```{r "biased_condB", dpi=80,echo=FALSE, fig.cap="",fig.show='hold',fig.align='center'}
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/Table SM2.2.png")
+```
+
+\elandscape
+\blandscape
+\newpage
+
+```{r "biased_condC", dpi=80,echo=FALSE, fig.cap="",fig.show='hold',fig.align='center'}
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/Table SM2.3.png")
+```
+
+\elandscape
+\blandscape
+\newpage
+
+```{r "biased_condD", dpi=80,echo=FALSE, fig.cap="",fig.show='hold',fig.align='center'}
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/Table SM2.4.png")
+```
+
+\elandscape
+\blandscape
+\newpage
+
+```{r "unbiased_condA", dpi=80,echo=FALSE, fig.cap="",fig.show='hold',fig.align='center'}
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/Table SM2.5.png")
+```
+
+\elandscape
+\blandscape
+\newpage
+
+```{r "unbiased_condB", dpi=80,echo=FALSE, fig.cap="",fig.show='hold',fig.align='center'}
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/Table SM2.6.png")
+```
+
+\elandscape
+\blandscape
+\newpage
+
+```{r "unbiased_condC", dpi=80,echo=FALSE, fig.cap="",fig.show='hold',fig.align='center'}
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/Table SM2.7.png")
+```
+
+\elandscape
+\blandscape
+\newpage
+
+```{r "unbiased_condD", dpi=80,echo=FALSE, fig.cap="",fig.show='hold',fig.align='center'}
+knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/Table SM2.8.png")
+```
+
+\elandscape
+
