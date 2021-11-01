@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.29)  1 NOV 2021 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.29)  1 NOV 2021 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -832,7 +832,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.1.png, id=112, 498.36188pt x 307.90031pt>
+gure SM1.1.png, id=120, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.1.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -843,7 +843,7 @@ itre 4/SupMat/SM1chp4/Figure SM1.1.png  used on input line 189.
 [3 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4
 /Figure SM1.1.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.2.png, id=121, 498.36188pt x 307.90031pt>
+gure SM1.2.png, id=129, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.2.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -859,7 +859,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 211--213
 [4 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4
 /Figure SM1.2.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.3.png, id=128, 498.36188pt x 307.90031pt>
+gure SM1.3.png, id=136, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.3.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -875,7 +875,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 231--233
 [5 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4
 /Figure SM1.3.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.4.png, id=141, 498.36188pt x 307.90031pt>
+gure SM1.4.png, id=149, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.4.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -891,7 +891,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 241--243
 [6 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4
 /Figure SM1.4.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.5.png, id=149, 498.36188pt x 307.90031pt>
+gure SM1.5.png, id=157, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.5.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -907,7 +907,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 260--261
 [7 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4
 /Figure SM1.5.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.6.png, id=156, 498.36188pt x 307.90031pt>
+gure SM1.6.png, id=164, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.6.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -918,7 +918,7 @@ itre 4/SupMat/SM1chp4/Figure SM1.6.png  used on input line 268.
 [8 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4
 /Figure SM1.6.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.7.png, id=162, 498.36188pt x 307.90031pt>
+gure SM1.7.png, id=170, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.7.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -934,7 +934,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 276--278
 [9 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4
 /Figure SM1.7.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.8.png, id=170, 498.36188pt x 307.90031pt>
+gure SM1.8.png, id=178, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.8.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -950,7 +950,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 298--300
 [10 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.8.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.9.png, id=176, 498.36188pt x 307.90031pt>
+gure SM1.9.png, id=184, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.9.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -966,7 +966,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 308--310
 [11 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.9.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.10.png, id=182, 498.36188pt x 307.90031pt>
+gure SM1.10.png, id=191, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.10.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -982,7 +982,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 315--317
 [12 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.10.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.11.png, id=188, 497.98547pt x 159.21985pt>
+gure SM1.11.png, id=197, 497.98547pt x 159.21985pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.11.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -998,7 +998,7 @@ Overfull \hbox (28.91544pt too wide) in paragraph at lines 322--324
 [13 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.11.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.12.png, id=201, 498.36188pt x 307.90031pt>
+gure SM1.12.png, id=209, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.12.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1014,7 +1014,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 347--349
 [14 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.12.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.13.png, id=207, 498.36188pt x 307.90031pt>
+gure SM1.13.png, id=215, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.13.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1025,7 +1025,7 @@ itre 4/SupMat/SM1chp4/Figure SM1.13.png  used on input line 356.
 [15 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.13.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.14.png, id=213, 498.36188pt x 307.90031pt>
+gure SM1.14.png, id=221, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.14.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1041,7 +1041,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 364--366
 [16 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.14.png>] [17]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.15.png, id=225, 498.36188pt x 307.90031pt>
+gure SM1.15.png, id=233, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.15.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1057,7 +1057,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 393--395
 [18 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.15.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.16.png, id=231, 498.36188pt x 307.90031pt>
+gure SM1.16.png, id=239, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.16.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1073,7 +1073,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 404--406
 [19 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.16.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.17.png, id=238, 498.36188pt x 307.90031pt>
+gure SM1.17.png, id=246, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.17.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1089,7 +1089,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 411--413
 [20 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.17.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.18.png, id=246, 498.36188pt x 147.92766pt>
+gure SM1.18.png, id=254, 498.36188pt x 147.92766pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.18.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1105,7 +1105,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 433--435
 [21 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.18.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.19.png, id=252, 498.36188pt x 307.90031pt>
+gure SM1.19.png, id=260, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.19.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1121,7 +1121,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 440--442
 [22 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.19.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.20.png, id=258, 498.36188pt x 307.90031pt>
+gure SM1.20.png, id=266, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.20.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1137,7 +1137,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 451--453
 [23 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.20.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.21.png, id=264, 498.36188pt x 152.06813pt>
+gure SM1.21.png, id=272, 498.36188pt x 152.06813pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.21.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1153,7 +1153,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 458--460
 [24 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.21.png>] [25] [26]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.22.png, id=286, 498.36188pt x 307.90031pt>
+gure SM1.22.png, id=294, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.22.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1169,7 +1169,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 536--538
 [27 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.22.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.23.png, id=292, 498.36188pt x 307.90031pt>
+gure SM1.23.png, id=300, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.23.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1185,7 +1185,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 547--549
 [28 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.23.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.24.png, id=300, 498.36188pt x 307.90031pt>
+gure SM1.24.png, id=308, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.24.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1201,7 +1201,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 560--562
 [29 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.24.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.25.png, id=309, 498.36188pt x 307.90031pt>
+gure SM1.25.png, id=317, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.25.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1217,7 +1217,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 596--598
 [30 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.25.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.26.png, id=319, 498.36188pt x 307.90031pt>
+gure SM1.26.png, id=327, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.26.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1233,7 +1233,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 601--603
 [31 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.26.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.27.png, id=328, 498.36188pt x 307.90031pt>
+gure SM1.27.png, id=336, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.27.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1247,7 +1247,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 613--615
  []
 
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.28.png, id=329, 498.36188pt x 307.90031pt>
+gure SM1.28.png, id=337, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.28.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1267,7 +1267,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 4/Figure SM1.27.png>] [33 <c:/Users/mdelacre/Documents/Github project/thesis/Ch
 apitre 4/SupMat/SM1chp4/Figure SM1.28.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.29.png, id=344, 498.36188pt x 307.90031pt>
+gure SM1.29.png, id=353, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.29.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1283,7 +1283,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 639--641
 [34 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.29.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.30.png, id=351, 498.36188pt x 307.90031pt>
+gure SM1.30.png, id=359, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.30.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1299,7 +1299,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 650--652
 [35 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.30.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.31.png, id=359, 498.36188pt x 307.90031pt>
+gure SM1.31.png, id=367, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.31.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1315,7 +1315,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 676--678
 [36 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.31.png>] [37]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.32.png, id=374, 498.36188pt x 307.90031pt>
+gure SM1.32.png, id=382, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.32.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1326,7 +1326,7 @@ itre 4/SupMat/SM1chp4/Figure SM1.32.png  used on input line 701.
 [38 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.32.png>] [39] [40]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.33.png, id=397, 498.36188pt x 307.90031pt>
+gure SM1.33.png, id=405, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.33.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1342,7 +1342,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 753--755
 [41 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.33.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.34.png, id=403, 498.36188pt x 307.90031pt>
+gure SM1.34.png, id=411, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.34.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1358,7 +1358,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 764--766
 [42 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.34.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.35.png, id=409, 498.36188pt x 307.90031pt>
+gure SM1.35.png, id=417, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.35.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1374,7 +1374,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 775--777
 [43 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.35.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.36.png, id=418, 498.36188pt x 307.90031pt>
+gure SM1.36.png, id=426, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.36.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1390,7 +1390,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 796--798
 [44 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.36.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.37.png, id=428, 498.36188pt x 307.90031pt>
+gure SM1.37.png, id=436, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.37.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1406,7 +1406,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 807--809
 [45 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.37.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.38.png, id=434, 498.36188pt x 307.90031pt>
+gure SM1.38.png, id=442, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.38.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1422,7 +1422,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 814--816
 [46 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.38.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.39.png, id=442, 498.36188pt x 307.90031pt>
+gure SM1.39.png, id=450, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.39.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1438,7 +1438,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 840--842
 [47 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.39.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.40.png, id=452, 504.38437pt x 311.66437pt>
+gure SM1.40.png, id=460, 504.38437pt x 311.66437pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.40.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1454,7 +1454,7 @@ Overfull \hbox (28.91011pt too wide) in paragraph at lines 849--851
 [48 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.40.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.41.png, id=458, 504.38437pt x 311.66437pt>
+gure SM1.41.png, id=466, 504.38437pt x 311.66437pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.41.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1470,7 +1470,7 @@ Overfull \hbox (28.91011pt too wide) in paragraph at lines 856--858
 [49 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.41.png>] [50]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.42.png, id=478, 504.38437pt x 311.66437pt>
+gure SM1.42.png, id=486, 504.38437pt x 311.66437pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.42.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1486,7 +1486,7 @@ Overfull \hbox (28.91011pt too wide) in paragraph at lines 898--900
 [51 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.42.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.43.png, id=484, 504.38437pt x 311.66437pt>
+gure SM1.43.png, id=492, 504.38437pt x 311.66437pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.43.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1502,7 +1502,7 @@ Overfull \hbox (28.91011pt too wide) in paragraph at lines 909--911
 [52 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.43.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.44.png, id=490, 504.38437pt x 311.66437pt>
+gure SM1.44.png, id=498, 504.38437pt x 311.66437pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.44.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1518,7 +1518,7 @@ Overfull \hbox (28.91011pt too wide) in paragraph at lines 914--916
 [53 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.44.png>] [54]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.45.png, id=503, 504.38437pt x 311.66437pt>
+gure SM1.45.png, id=511, 504.38437pt x 311.66437pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.45.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1534,7 +1534,7 @@ Overfull \hbox (28.91011pt too wide) in paragraph at lines 944--946
 [55 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.45.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.46.png, id=514, 504.38437pt x 311.66437pt>
+gure SM1.46.png, id=522, 504.38437pt x 311.66437pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.46.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1550,7 +1550,7 @@ Overfull \hbox (28.91011pt too wide) in paragraph at lines 955--957
 [56 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.46.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.47.png, id=520, 504.38437pt x 311.66437pt>
+gure SM1.47.png, id=528, 504.38437pt x 311.66437pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.47.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1566,7 +1566,7 @@ Overfull \hbox (28.91011pt too wide) in paragraph at lines 962--964
 [57 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.47.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.48.png, id=528, 504.38437pt x 148.68047pt>
+gure SM1.48.png, id=536, 504.38437pt x 148.68047pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.48.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1580,7 +1580,7 @@ Overfull \hbox (28.91011pt too wide) in paragraph at lines 988--990
  []
 
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.49.png, id=529, 504.38437pt x 311.66437pt>
+gure SM1.49.png, id=537, 504.38437pt x 311.66437pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.49.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1600,7 +1600,7 @@ Underfull \vbox (badness 3646) has occurred while \output is active []
 4/Figure SM1.48.png>] [59 <c:/Users/mdelacre/Documents/Github project/thesis/Ch
 apitre 4/SupMat/SM1chp4/Figure SM1.49.png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.50.png, id=544, 498.36188pt x 307.90031pt>
+gure SM1.50.png, id=552, 498.36188pt x 307.90031pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.50.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1616,7 +1616,7 @@ Overfull \hbox (28.9207pt too wide) in paragraph at lines 1004--1006
 [60 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.50.Png>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp4/Fi
-gure SM1.51.png, id=550, 504.38437pt x 311.66437pt>
+gure SM1.51.png, id=558, 504.38437pt x 311.66437pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1ch
 p4/Figure SM1.51.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
@@ -1632,7 +1632,7 @@ Overfull \hbox (28.91011pt too wide) in paragraph at lines 1011--1013
 [61 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM1chp
 4/Figure SM1.51.png>] [62] [63] [64]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/Ta
-ble SM2.1.png, id=574, 500.87125pt x 314.67563pt>
+ble SM2.1.png, id=582, 500.87125pt x 314.67563pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2ch
 p4/Table SM2.1.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp
@@ -1645,7 +1645,7 @@ itre 4/SupMat/SM2chp4/Table SM2.1.png  used on input line 1055.
  <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/T
 able SM2.1.PNG>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/Ta
-ble SM2.2.png, id=581, 498.86375pt x 314.17375pt>
+ble SM2.2.png, id=589, 498.86375pt x 314.17375pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2ch
 p4/Table SM2.2.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp
@@ -1659,7 +1659,7 @@ itre 4/SupMat/SM2chp4/Table SM2.2.png  used on input line 1067.
  <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/T
 able SM2.2.PNG>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/Ta
-ble SM2.3.png, id=588, 497.86pt x 314.67563pt>
+ble SM2.3.png, id=596, 497.86pt x 314.67563pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2ch
 p4/Table SM2.3.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp
@@ -1673,7 +1673,7 @@ itre 4/SupMat/SM2chp4/Table SM2.3.png  used on input line 1079.
  <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/T
 able SM2.3.PNG>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/Ta
-ble SM2.4.png, id=596, 498.86375pt x 314.17375pt>
+ble SM2.4.png, id=604, 498.86375pt x 314.17375pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2ch
 p4/Table SM2.4.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp
@@ -1687,7 +1687,7 @@ itre 4/SupMat/SM2chp4/Table SM2.4.png  used on input line 1091.
  <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/T
 able SM2.4.PNG>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/Ta
-ble SM2.5.png, id=603, 499.36563pt x 315.67938pt>
+ble SM2.5.png, id=611, 499.36563pt x 315.67938pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2ch
 p4/Table SM2.5.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp
@@ -1701,7 +1701,7 @@ itre 4/SupMat/SM2chp4/Table SM2.5.png  used on input line 1103.
  <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/T
 able SM2.5.PNG>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/Ta
-ble SM2.6.png, id=610, 498.86375pt x 314.17375pt>
+ble SM2.6.png, id=618, 498.86375pt x 314.17375pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2ch
 p4/Table SM2.6.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp
@@ -1715,7 +1715,7 @@ itre 4/SupMat/SM2chp4/Table SM2.6.png  used on input line 1115.
  <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/T
 able SM2.6.PNG>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/Ta
-ble SM2.7.png, id=617, 497.86pt x 314.17375pt>
+ble SM2.7.png, id=625, 497.86pt x 314.17375pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2ch
 p4/Table SM2.7.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp
@@ -1729,7 +1729,7 @@ itre 4/SupMat/SM2chp4/Table SM2.7.png  used on input line 1127.
  <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/T
 able SM2.7.PNG>]
 <C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp4/Ta
-ble SM2.8.png, id=624, 499.8675pt x 314.17375pt>
+ble SM2.8.png, id=632, 499.8675pt x 314.17375pt>
 File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2ch
 p4/Table SM2.8.png Graphic file (type png)
 <use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM2chp
@@ -1744,209 +1744,253 @@ itre 4/SupMat/SM2chp4/Table SM2.8.png  used on input line 1139.
 able SM2.8.PNG>] [73
 
 ] [74]
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.1.png, id=645, 350.81062pt x 21
-6.81pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.1.png Graphic file (type p
-ng)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.1.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.1.png  
-used on input line 1203.
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.1.png, id=653, 350.81062pt x 216.81pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.1.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.1.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.1.png  used on input line 1203.
 (pdftex.def)             Requested size: 350.8258pt x 216.81938pt.
 
 LaTeX Warning: Reference `fig:pltSDHombalRskew' on page 75 undefined on input l
 ine 1207.
 
-[75 <c:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.1.png>]
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.2.png, id=653, 350.81062pt x 21
-6.81pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.2.png Graphic file (type p
-ng)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.2.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.2.png  
-used on input line 1209.
+[75 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.1.png>]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.2.png, id=662, 350.81062pt x 216.81pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.2.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.2.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.2.png  used on input line 1209.
 (pdftex.def)             Requested size: 350.8258pt x 216.81938pt.
-[76 <c:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.2.png>]
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.3.png, id=660, 350.81062pt x 21
-6.81pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.3.png Graphic file (type p
-ng)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.3.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.3.png  
-used on input line 1217.
+[76 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.2.png>]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.3.png, id=668, 350.81062pt x 216.81pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.3.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.3.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.3.png  used on input line 1217.
 (pdftex.def)             Requested size: 350.8258pt x 216.81938pt.
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.4.png, id=661, 350.81062pt x 21
-6.81pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.4.png Graphic file (type p
-ng)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.4.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.4.png  
-used on input line 1223.
+[77 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.3.png>]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.4.png, id=674, 350.81062pt x 216.81pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.4.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.4.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.4.png  used on input line 1225.
 (pdftex.def)             Requested size: 350.8258pt x 216.81938pt.
-[77 <c:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.3.png> <c:/Users/mdelacre/D
-ownloads/SM3chp4/Figure SM3.4.png>]
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.5.png, id=668, 350.81062pt x 21
-6.81pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.5.png Graphic file (type p
-ng)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.5.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.5.png  
-used on input line 1229.
+[78 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.4.png>]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.5.png, id=680, 350.81062pt x 216.81pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.5.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.5.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.5.png  used on input line 1233.
 (pdftex.def)             Requested size: 350.8258pt x 216.81938pt.
-[78 <c:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.5.png>]
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.6.png, id=674, 497.60907pt x 30
-7.52391pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.6.png Graphic file (type p
-ng)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.6.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.6.png  
-used on input line 1242.
+[79 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.5.png>]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.6.png, id=687, 497.60907pt x 307.52391pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.6.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.6.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.6.png  used on input line 1246.
 (pdftex.def)             Requested size: 469.76471pt x 290.316pt.
 
-Overfull \hbox (24.00969pt too wide) in paragraph at lines 1242--1244
+Overfull \hbox (24.00969pt too wide) in paragraph at lines 1246--1248
 [][] 
  []
 
-[79 <c:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.6.png>]
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.7.png, id=682, 497.60907pt x 30
-7.52391pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.7.png Graphic file (type p
-ng)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.7.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.7.png  
-used on input line 1247.
+[80 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.6.png>]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.7.png, id=694, 497.60907pt x 307.52391pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.7.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.7.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.7.png  used on input line 1251.
 (pdftex.def)             Requested size: 469.76471pt x 290.316pt.
-[80 <c:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.7.png>]
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.8.png, id=688, 497.60907pt x 30
-7.52391pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.8.png Graphic file (type p
-ng)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.8.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.8.png  
-used on input line 1254.
+[81 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.7.png>]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.8.png, id=700, 497.60907pt x 307.52391pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.8.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.8.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.8.png  used on input line 1258.
 (pdftex.def)             Requested size: 469.76471pt x 290.316pt.
 
-Overfull \hbox (24.00969pt too wide) in paragraph at lines 1254--1256
+Overfull \hbox (24.00969pt too wide) in paragraph at lines 1258--1260
 [][] 
  []
 
-[81 <c:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.8.png>]
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.9.png, id=694, 497.60907pt x 30
-7.52391pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.9.png Graphic file (type p
-ng)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.9.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.9.png  
-used on input line 1259.
+[82 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.8.png>]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.9.png, id=706, 497.60907pt x 307.52391pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.9.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.9.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.9.png  used on input line 1263.
 (pdftex.def)             Requested size: 469.76471pt x 290.316pt.
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.10.png, id=695, 497.60907pt x 3
-07.52391pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.10.png Graphic file (type 
-png)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.10.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.10.png 
- used on input line 1267.
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.10.png, id=707, 497.60907pt x 307.52391pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.10.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.10.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.10.png  used on input line 1271.
 (pdftex.def)             Requested size: 469.76471pt x 290.316pt.
 
-Overfull \hbox (24.00969pt too wide) in paragraph at lines 1267--1269
+Overfull \hbox (24.00969pt too wide) in paragraph at lines 1271--1273
 [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[82 <c:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.9.png>]
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.11.png, id=701, 497.60907pt x 3
-07.52391pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.11.png Graphic file (type 
-png)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.11.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.11.png 
- used on input line 1270.
+[83 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.9.png>]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.11.png, id=713, 497.60907pt x 307.52391pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.11.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.11.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.11.png  used on input line 1274.
 (pdftex.def)             Requested size: 469.76471pt x 290.316pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[83 <c:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.10.png>] [84 <c:/Users/mdel
-acre/Downloads/SM3chp4/Figure SM3.11.png>]
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.12.png, id=712, 497.60907pt x 3
-07.52391pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.12.png Graphic file (type 
-png)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.12.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.12.png 
- used on input line 1324.
+[84 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.10.png>] [85 <c:/Users/mdelacre/Documents/Github project/thesis/Ch
+apitre 4/SupMat/SM3chp4/Figure SM3.11.png>]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.12.png, id=725, 497.60907pt x 307.52391pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.12.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.12.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.12.png  used on input line 1328.
 (pdftex.def)             Requested size: 469.76471pt x 290.316pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[85] [86 <c:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.12.png>]
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.13.png, id=725, 497.60907pt x 3
-07.52391pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.13.png Graphic file (type 
-png)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.13.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.13.png 
- used on input line 1329.
+[86] [87 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/S
+M3chp4/Figure SM3.12.png>]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.13.png, id=737, 497.60907pt x 307.52391pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.13.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.13.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.13.png  used on input line 1333.
 (pdftex.def)             Requested size: 469.76471pt x 290.316pt.
-[87 <c:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.13.png>]
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.14.png, id=731, 497.60907pt x 3
-07.52391pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.14.png Graphic file (type 
-png)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.14.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.14.png 
- used on input line 1334.
+[88 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.13.png>]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.14.png, id=743, 497.60907pt x 307.52391pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.14.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.14.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.14.png  used on input line 1338.
 (pdftex.def)             Requested size: 469.76471pt x 290.316pt.
-[88 <c:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.14.png>]
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.15.png, id=737, 497.60907pt x 3
-07.52391pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.15.png Graphic file (type 
-png)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.15.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.15.png 
- used on input line 1339.
+[89 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.14.png>]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.15.png, id=749, 497.60907pt x 307.52391pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.15.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.15.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.15.png  used on input line 1343.
 (pdftex.def)             Requested size: 469.76471pt x 290.316pt.
-[89 <c:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.15.png>]
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.16.png, id=743, 497.60907pt x 3
-07.52391pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.16.png Graphic file (type 
-png)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.16.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.16.png 
- used on input line 1346.
+[90 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.15.png>]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.16.png, id=755, 497.60907pt x 307.52391pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.16.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.16.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.16.png  used on input line 1350.
 (pdftex.def)             Requested size: 469.76471pt x 290.316pt.
 
-Overfull \hbox (24.00969pt too wide) in paragraph at lines 1346--1348
+Overfull \hbox (24.00969pt too wide) in paragraph at lines 1350--1352
 [][] 
  []
 
-[90 <c:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.16.png>]
-<C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.17.png, id=749, 497.60907pt x 3
-07.52391pt>
-File: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.17.png Graphic file (type 
-png)
-<use C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.17.png>
-Package pdftex.def Info: C:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.17.png 
- used on input line 1351.
+[91 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.16.png>]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp4/Fi
+gure SM3.17.png, id=762, 497.60907pt x 307.52391pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3ch
+p4/Figure SM3.17.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.17.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM3chp4/Figure SM3.17.png  used on input line 1355.
 (pdftex.def)             Requested size: 469.76471pt x 290.316pt.
 
-Overfull \hbox (24.00969pt too wide) in paragraph at lines 1351--1353
+Overfull \hbox (24.00969pt too wide) in paragraph at lines 1355--1357
 [][] 
  []
 
-[91 <c:/Users/mdelacre/Downloads/SM3chp4/Figure SM3.17.png>] AED endfloat: Proc
-essing end Figures and Tables [92] (./SupMat.aux)
+[92 <c:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM3chp
+4/Figure SM3.17.png>] [93] [94]
+<C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM4chp4/Fi
+gure SM4.1.png, id=779, 398.99063pt x 246.5461pt>
+File: C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM4ch
+p4/Figure SM4.1.png Graphic file (type png)
+<use C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 4/SupMat/SM4chp
+4/Figure SM4.1.png>
+Package pdftex.def Info: C:/Users/mdelacre/Documents/Github project/thesis/Chap
+itre 4/SupMat/SM4chp4/Figure SM4.1.png  used on input line 1412.
+(pdftex.def)             Requested size: 399.0079pt x 246.55676pt.
+AED endfloat: Processing end Figures and Tables [95 <c:/Users/mdelacre/Document
+s/Github project/thesis/Chapitre 4/SupMat/SM4chp4/Figure SM4.1.png>] (./SupMat.
+aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `SupMat.out' has not changed.
-(rerunfilecheck)             Checksum: 7B973A488D012AA573D7EF0799BBF3FF;6170.
+(rerunfilecheck)             Checksum: 21F3D0F0A8458C801D75843409D35522;6931.
  ) 
 Here is how much of TeX's memory you used:
- 15557 strings out of 480539
- 277597 string characters out of 5900884
- 573596 words of memory out of 5000000
- 32607 multiletter control sequences out of 15000+600000
+ 15578 strings out of 480539
+ 282732 string characters out of 5900884
+ 573940 words of memory out of 5000000
+ 32619 multiletter control sequences out of 15000+600000
  442544 words of font info for 61 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,12n,80p,2245b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1975,10 +2019,10 @@ ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/md
 elacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/U
 sers/mdelacre/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pf
 b>
-Output written on SupMat.pdf (92 pages, 1341361 bytes).
+Output written on SupMat.pdf (95 pages, 1359363 bytes).
 PDF statistics:
- 895 PDF objects out of 1000 (max. 8388607)
- 607 compressed objects within 7 object streams
- 227 named destinations out of 1000 (max. 500000)
- 549 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 920 PDF objects out of 1000 (max. 8388607)
+ 627 compressed objects within 7 object streams
+ 234 named destinations out of 1000 (max. 500000)
+ 570 words of extra memory for PDF output out of 10000 (max. 10000000)
 
