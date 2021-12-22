@@ -102,7 +102,7 @@ Depuis plus de 60 ans, les tests $t$ de Student et $F$ de Fisher dominent la lit
 
 \end{centering}
 
-Les 3 articles suivants (respectivement présentés au sein des chapitres 2, 3 et 5 de cette thèse) ont été publiés dans des revues scientifiques : 
+Les 3 articles suivants (respectivement présentés au sein des chapitres 2, 3 et 5) ont été publiés dans des revues scientifiques : 
 
 \setlength{\parindent}{-0.2in}
 \setlength{\leftskip}{0.2in}
@@ -119,10 +119,7 @@ Lakens, D., $\&$ Delacre, M. (2020). Equivalence testing and the second generati
 
 Il est à noter que les versions présentées dans cette thèse ont été légèrement modifiées, par rapport aux versions publiées.
 
-\color{white}...
-...
-
-\color{red}Par ailleurs, du matériel supplémentaire est disponible sur Di-fusion pour les articles présentés au sein des chapitres 2 et 4, comme il sera rappelé en introduction de ces deux chapitres. \color{black}
+Par ailleurs, du matériel supplémentaire est disponible sur Di-fusion : https://difusion.ulb.ac.be/
 
 \pagenumbering{roman}
 

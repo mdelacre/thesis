@@ -14,7 +14,7 @@ header-includes:
 ```{r "chp2p1", fig.align='center',echo=FALSE,out.height="45%"}
 knitr::include_graphics("C:/Users/mdelacre/Documents/Github project/thesis/Chapitre 2/Chapitre 2-couverture.png")
 ```
-\color{red} Lien vers le Sup Mat sur Di-fusion à ajouter ici : \color{black}
+Le matériel supplémentaire est disponible au lien suivant : https://difusion.ulb.ac.be/
 
 \newpage
 

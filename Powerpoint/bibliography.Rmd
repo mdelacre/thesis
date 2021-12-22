@@ -1,0 +1,55 @@
+---
+title             : "Biblio"
+shorttitle        : ""
+
+author: 
+  - name          : "Delacre Marie"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : ""
+    email         : "marie.delacre@ulb.be"
+
+affiliation:
+  - id            : "1"
+    institution   : "ULB"
+
+authornote: |
+
+abstract: |
+
+keywords          : "keywords"
+wordcount         : "X"
+
+bibliography      : ["bibpwp.bib"]
+
+floatsintext      : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : no
+mask              : no
+draft             : no
+
+documentclass     : "apa6"
+classoption       : "man"
+output            : papaja::apa6_pdf
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+r_refs("r-references.bib")
+```
+
+```{r analysis-preferences}
+# Seed for random number generation
+set.seed(42)
+knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
+```
+
+## Bibliopowerpoint
+
+bibliography: bibpwp.bib
+
+@barfar_cognitive_2019
+
+

@@ -33,7 +33,7 @@ w=sum(n/var)
 muprime=sum(w_j*mu)/w
 ```
 
-The overall mean (i.e. the mean of the global dataset) is a weighted mean of the sample means :
+The overall mean (i.e. the mean of the global dataset) is a weighted mean of the sample means:
 
 $$\bar{X_{..}}=\frac{(`r n[1]`\times`r mu[1]`)+(`r n[2]`\times`r mu[2]`)+(`r n[3]`\times`r mu[3]`)}{`r n[1]`+`r n[2]`+`r n[3]`}=\frac{`r sum(n*mu)`}{`r sum(n)`} \approx `r round(sum(n*mu)/sum(n),2)`$$
 The *F*-test statistic and degrees of freedom are computed by applying equation 1 and related degrees of freedom :
@@ -268,7 +268,7 @@ The variance of Cohen's $d$ is defined in Table 2 as
 Var_{Cohen's \; d}=\frac{N\times df_{Student}}{n_1n_2 \times (df_{Student}-2)} + \delta^2_{Cohen} \left[ \frac{df_{Student}}{df_{Student}-2} - \left( \frac{\sqrt{\frac{df_{Student}}{2}} \times \Gamma{\left(\frac{df_{Student}-1}{2}\right)}}{\Gamma{\left( \frac{df_{Student}}{2}\right)}} \right)^2\right]
 \label{eqn:Cohenvar}
 \end{equation} 
-and the variance of Shieh's $d$ is defined in Table 2 as
+and the variance of Shieh's $d$ is defined in Table 3 as
 \begin{equation}
 Var_{Shieh's \; d}=\frac{df_{Welch}}{(df_{Welch}-2)N}  + \delta^2_{Shieh} \left[ \frac{df_{Welch}}{df_{Welch}-2} - \left( \frac{\sqrt{\frac{df_{Welch}}{2}} \times \Gamma{\left(\frac{df_{Welch}-1}{2}\right)}}{\Gamma{\left( \frac{df_{Welch}}{2}\right)}} \right)^2 \right]
 \label{eqn:Shiehvar}
